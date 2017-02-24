@@ -1,0 +1,36 @@
+[submodule "plugins/binaryninja-bookmarks"]
+	path = plugins/binaryninja-bookmarks
+	url = https://github.com/joshwatson/binaryninja-bookmarks.git
+[submodule "plugins/binaryninja-msp430"]
+	path = plugins/binaryninja-msp430
+	url = https://github.com/joshwatson/binaryninja-msp430.git
+[submodule "plugins/binaryninja-radare2"]
+	path = plugins/binaryninja-radare2
+	url = https://github.com/Manouchehri/binaryninja-radare2.git
+[submodule "plugins/binaryninja-spu"]
+	path = plugins/binaryninja-spu
+	url = https://github.com/bambu/binaryninja-spu.git
+[submodule "plugins/binja-avr"]
+	path = plugins/binja-avr
+	url = https://github.com/cah011/binja-avr.git
+[submodule "plugins/binja_smali"]
+	path = plugins/binja_smali
+	url = https://github.com/lucasduffey/binja_smali.git
+[submodule "plugins/binjatron"]
+	path = plugins/binjatron
+	url = https://github.com/snare/binjatron.git
+[submodule "plugins/binoculars"]
+	path = plugins/binoculars
+	url = https://github.com/rick2600/binoculars.git
+[submodule "plugins/easypatch"]
+	path = plugins/easypatch
+	url = https://github.com/walterschell/easypatch.git
+[submodule "plugins/liil"]
+	path = plugins/liil
+	url = https://github.com/ColdHeat/liil.git
+[submodule "plugins/list_comments"]
+	path = plugins/list_comments
+	url = https://github.com/rick2600/list_comments.git
+[submodule "plugins/x64dbgbinja"]
+	path = plugins/x64dbgbinja
+	url = https://github.com/x64dbg/x64dbgbinja.git
