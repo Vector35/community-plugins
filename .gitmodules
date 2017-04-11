@@ -28,9 +28,6 @@
 [submodule "plugins/liil"]
 	path = plugins/liil
 	url = https://github.com/ColdHeat/liil.git
-[submodule "plugins/list_comments"]
-	path = plugins/list_comments
-	url = https://github.com/rick2600/list_comments.git
 [submodule "plugins/x64dbgbinja"]
 	path = plugins/x64dbgbinja
 	url = https://github.com/x64dbg/x64dbgbinja.git
