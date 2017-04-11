@@ -34,3 +34,6 @@
 [submodule "plugins/x64dbgbinja"]
 	path = plugins/x64dbgbinja
 	url = https://github.com/x64dbg/x64dbgbinja.git
+[submodule "plugins/binaryninja-microcorruption"]
+	path = plugins/binaryninja-microcorruption
+	url = https://github.com/joshwatson/binaryninja-microcorruption
