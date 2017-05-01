@@ -51,11 +51,11 @@ for plugin in os.walk(pluginsdir).next()[1]:
     except:
         url = 'https://github.com/Vector35/binaryninja-plugins/tree/master/plugins/{plugin}'.format(plugin=plugin)
         authorlink = 'https://github.com/Vector35/'
-    data = json.load(open(os.path.join(pluginsdir, plugin, "plugin.json")), object_pairs_hook=OrderedDict)['plugin']
+    data = json.load(open(os.path.join(pluginsdir, plugin, "plugin.json")), object_pairs_hook=OrderedDict, encoding="utf-8")['plugin']
     data['url'] = url
     data['path'] = plugin
     plugins.append(data)
-    template += '|[{name}]({url})|[{author}]({authorlink})|[{license}]({plugin}/LICENSE)|{description}|\n'.format(name = data['name'],
+    template += u'|[{name}]({url})|[{author}]({authorlink})|[{license}]({plugin}/LICENSE)|{description}|\n'.format(name = data['name'],
                 url=url,
                 plugin=plugin,
                 author=data['author'],
@@ -64,7 +64,7 @@ for plugin in os.walk(pluginsdir).next()[1]:
                 description=data['description'])
 template += "\n\n"
 print("Writing " + pluginjson)
-open(pluginjson, 'w').write(json.dumps(plugins, indent=4, sort_keys=True))
+open(pluginjson, 'w').write(json.dumps(plugins, indent=4, sort_keys=True, ensure_ascii=False, encoding="utf-8").encode("utf-8"))
 
 print("Writing " + pluginreadme)
-open(pluginreadme, 'w').write(template)
+open(pluginreadme, "w'".write(template.encode("utf-8"))
