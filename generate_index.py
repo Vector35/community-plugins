@@ -67,4 +67,4 @@ print("Writing " + pluginjson)
 open(pluginjson, 'w').write(json.dumps(plugins, indent=4, sort_keys=True, ensure_ascii=False, encoding="utf-8").encode("utf-8"))
 
 print("Writing " + pluginreadme)
-open(pluginreadme, "w'".write(template.encode("utf-8"))
+open(pluginreadme, "w").write(template.encode("utf-8"))
