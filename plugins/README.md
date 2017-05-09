@@ -13,6 +13,7 @@
 |[BINoculars](https://github.com/rick2600/binoculars)|[rick2600](https://github.com/rick2600)|[MIT](binoculars/LICENSE)|Plugin for Binary Ninja to centralize features useful in static analysis.|
 |[easypatch](https://github.com/walterschell/easypatch)|[Walter Schell](https://github.com/walterschell)|[MIT](easypatch/LICENSE)|Right click to patch contents of memory operands|
 |[LLIL](https://github.com/ColdHeat/liil)|[Kevin Chung](https://github.com/ColdHeat)|[MIT](liil/LICENSE)|Linear IL view for Binary Ninja|
+|[Simple Linear Sweep](https://github.com/lstotch/linsweep)|[butters](https://github.com/lstotch)|[MIT](linsweep/LICENSE)|Uses simplistic techniques to identify additional functions for x86 and x86_64 binaries.|
 |[SyscallIdentify](https://github.com/HascoetKevin/SyscallsIdentifier_BinaryNinja)|[Kevin Hascoët <neolex@email.com>](https://github.com/HascoetKevin)|[MIT](SyscallsIdentifier_BinaryNinja/LICENSE)|A plugin that identify the syscalls.|
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|[MIT](x64dbgbinja/LICENSE)|Official x64dbg plugin for Binary Ninja.|
 
