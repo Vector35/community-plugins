@@ -40,3 +40,9 @@
 [submodule "plugins/linsweep"]
 	path = plugins/linsweep
 	url = https://github.com/lstotch/linsweep
+[submodule "plugins/binaryninja-machosymbols"]
+	path = plugins/binaryninja-machosymbols
+	url = https://github.com/bambu/binaryninja-machosymbols
+[submodule "plugins/binaryninja-vmndh"]
+	path = plugins/binaryninja-vmndh
+	url = https://github.com/verylazyguy/binaryninja-vmndh
