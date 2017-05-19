@@ -51,7 +51,11 @@ for plugin in os.walk(pluginsdir).next()[1]:
     except:
         url = 'https://github.com/Vector35/binaryninja-plugins/tree/master/plugins/{plugin}'.format(plugin=plugin)
         authorlink = 'https://github.com/Vector35/'
-    data = json.load(open(os.path.join(pluginsdir, plugin, "plugin.json")), object_pairs_hook=OrderedDict, encoding="utf-8")['plugin']
+    try:
+        data = json.load(open(os.path.join(pluginsdir, plugin, "plugin.json")), object_pairs_hook=OrderedDict, encoding="utf-8")['plugin']
+    except:
+        print "Failed to load {}, possible json error.".format(plugin)
+        continue
     data['url'] = url
     data['path'] = plugin
     plugins.append(data)
