@@ -22,6 +22,27 @@
     }, 
     {
         "api": "python2", 
+        "author": "Bambu", 
+        "description": "Creates symbols and renames functions in mach-o binaries", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2017 Bambu.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Creates symbols and renames functions in mach-o binaries in order to aid reversing. This is inteded only for x86_64 Mach-O binaries and has not been tested on x86. Also, \"Mach-O Bind Symbols\" requires `dyldinfo`\n\nBefore running:\n\n![Before Image](images/before.png?raw=true \"Before running plugins\")\n\nAfter running:\n\n![After Image](images/after.png?raw=true \"After running plugins\")\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/bambu/binaryninja-machosymbols.git machosymbols```", 
+        "minimumBinaryNinjaVersion": {
+            "dev (Commercial)": "1.0.dev-730", 
+            "dev (Personal)": "1.0.dev-730"
+        }, 
+        "name": "Mach-O Symbols Generator", 
+        "path": "binaryninja-machosymbols", 
+        "type": [
+            "ui"
+        ], 
+        "url": "https://github.com/bambu/binaryninja-machosymbols", 
+        "version": "0.0.1"
+    }, 
+    {
+        "api": "python2", 
         "author": "Josh Watson", 
         "description": "A `BinaryView` for Microcorruption CTF memory dumps", 
         "license": {
@@ -253,6 +274,33 @@
         ], 
         "url": "https://github.com/rick2600/binoculars", 
         "version": "1.0.13"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Grant Orndorff", 
+        "dependencies": {
+            "pip": [
+                "filebytes"
+            ]
+        }, 
+        "description": "Insert custom hooks", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2017 Grant Orndorff\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Currently supports x86 and x86_64 ELF executables.\nWrite a hook in assembly and have it execute as part of your binary. See your hook added to the binary and reflected in the disassembly graph. The code segment of the binary is extended to make room for the hook. After insertion, Save Contents As and run the binary with your inserted code!", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "1.0.13"
+        }, 
+        "name": "BNHook", 
+        "path": "bnhook", 
+        "type": [
+            "core", 
+            "ui"
+        ], 
+        "url": "https://github.com/orndorffgrant/bnhook", 
+        "version": "1.0 alpha"
     }, 
     {
         "api": "python2", 

@@ -46,3 +46,6 @@
 [submodule "plugins/binaryninja-vmndh"]
 	path = plugins/binaryninja-vmndh
 	url = https://github.com/verylazyguy/binaryninja-vmndh
+[submodule "plugins/bnhook"]
+	path = plugins/bnhook
+	url = https://github.com/orndorffgrant/bnhook
