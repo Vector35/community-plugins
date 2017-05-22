@@ -374,6 +374,35 @@
     }, 
     {
         "api": "python2", 
+        "author": "Paolo Montesel (github.com/kenoph)", 
+        "dependencies": {
+            "apt": [], 
+            "installers": [], 
+            "other": [], 
+            "pip": [
+                "future"
+            ]
+        }, 
+        "description": "FLIRT for (binary) ninjas", 
+        "license": {
+            "name": "LGPL v3"
+        }, 
+        "longdescription": "Plugin for using FLIRT signatures inside of Binary Ninja. Most of the code is a port from radare's implementation.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "9999"
+        }, 
+        "name": "Nampa", 
+        "path": "nampa", 
+        "type": [
+            "core", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/kenoph/nampa", 
+        "version": "0.1 alpha"
+    }, 
+    {
+        "api": "python2", 
         "author": "Kevin Hascoët <neolex@email.com>", 
         "dependencies": {
             "apt": [], 

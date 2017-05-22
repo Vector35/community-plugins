@@ -49,3 +49,6 @@
 [submodule "plugins/bnhook"]
 	path = plugins/bnhook
 	url = https://github.com/orndorffgrant/bnhook
+[submodule "plugins/nampa"]
+	path = plugins/nampa
+	url = https://github.com/kenoph/nampa
