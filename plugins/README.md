@@ -20,5 +20,4 @@
 |[Nampa](https://github.com/kenoph/nampa)|[Paolo Montesel (github.com/kenoph)](https://github.com/kenoph)|[LGPL v3](nampa/LICENSE)|FLIRT for (binary) ninjas|
 |[SyscallIdentify](https://github.com/HascoetKevin/SyscallsIdentifier_BinaryNinja)|[Kevin Hascoët <neolex@email.com>](https://github.com/HascoetKevin)|[MIT](SyscallsIdentifier_BinaryNinja/LICENSE)|A plugin that identify the syscalls.|
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|[MIT](x64dbgbinja/LICENSE)|Official x64dbg plugin for Binary Ninja.|
-
-
+|[8051 Architecture Plugin](https://github.com/peterfillmore/binja-8051)|[Peter Fillmore <peter@peterfillmore.com>](https://github.com/peterfillmore)|[MIT](binja-8051/LICENSE)|A disassembler and lifter for the 8051 architecture.|
