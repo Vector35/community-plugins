@@ -1,1 +1,470 @@
-[]
+[
+    {
+        "api": "python2", 
+        "author": "Josh Watson", 
+        "description": "A plugin that adds bookmarking functionality.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 Josh Watson.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin enables a Binary Ninja user to bookmark addresses of interest and quickly navigate back to them at a later time. As the API for loading and saving user data to the analysis database is not available yet, the bookmarks must be manually saved and loaded to a separate file for now.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/joshwatson/binaryninja-bookmarks.git bookmarks```\n\nThen create a python file called `bookmarks.py` with the contents\n\n```import bookmarks```", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-87"
+        }, 
+        "name": "Bookmarks", 
+        "path": "binaryninja-bookmarks", 
+        "type": [
+            "core", 
+            "ui"
+        ], 
+        "url": "https://github.com/joshwatson/binaryninja-bookmarks", 
+        "version": "0.2b"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Bambu", 
+        "description": "Creates symbols and renames functions in mach-o binaries", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2017 Bambu.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Creates symbols and renames functions in mach-o binaries in order to aid reversing. This is inteded only for x86_64 Mach-O binaries and has not been tested on x86. Also, \"Mach-O Bind Symbols\" requires `dyldinfo`\n\nBefore running:\n\n![Before Image](images/before.png?raw=true \"Before running plugins\")\n\nAfter running:\n\n![After Image](images/after.png?raw=true \"After running plugins\")\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/bambu/binaryninja-machosymbols.git machosymbols```", 
+        "minimumBinaryNinjaVersion": {
+            "dev (Commercial)": "1.0.dev-730", 
+            "dev (Personal)": "1.0.dev-730"
+        }, 
+        "name": "Mach-O Symbols Generator", 
+        "path": "binaryninja-machosymbols", 
+        "type": [
+            "ui"
+        ], 
+        "url": "https://github.com/bambu/binaryninja-machosymbols", 
+        "version": "0.0.1"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Josh Watson", 
+        "description": "A `BinaryView` for Microcorruption CTF memory dumps", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 Josh Watson.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin provides a `BinaryView` for memory dumps of Microcorruption CTF challenges.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n`git clone https://github.com/joshwatson/binaryninja-microcorruption.git microcorruption`\n\nMemory dumps can be generated by copy-pasting the entire contents of the memory window from a microcorruption challenge into a text file, then processing it with [this script](https://gist.github.com/joshwatson/90f855e82a7be5c4a1fea2b46f8bf62b).", 
+        "minimumBinaryNinjaVersion": {
+            "release (Commercial)": "1.0.320", 
+            "release (Personal)": "1.0.13"
+        }, 
+        "name": "Microcorruption BinaryView Plugin", 
+        "path": "binaryninja-microcorruption", 
+        "type": [
+            "core", 
+            "ui", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/joshwatson/binaryninja-microcorruption", 
+        "version": "0.1b"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Josh Watson", 
+        "description": "A disassembler and lifter for the MSP430 architecture.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 Josh Watson.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin disassembles MSP430 assembly code and generates LLIL.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/joshwatson/binaryninja-msp430.git msp430```\n\nThen create a python file called `msp430.py` with the contents\n\n```import msp430```", 
+        "minimumBinaryNinjaVersion": {
+            "release (Commercial)": "1.0.320", 
+            "release (Personal)": "1.0.13"
+        }, 
+        "name": "MSP430 Architecture Plugin", 
+        "path": "binaryninja-msp430", 
+        "type": [
+            "architecture"
+        ], 
+        "url": "https://github.com/joshwatson/binaryninja-msp430", 
+        "version": "0.2b"
+    }, 
+    {
+        "api": "python2", 
+        "author": "David Manouchehri", 
+        "dependencies": {
+            "apt": [
+                "apt"
+            ], 
+            "other": [
+                ""
+            ], 
+            "pip": [
+                "r2pipe"
+            ]
+        }, 
+        "description": "Uses radare to identify extra symbols", 
+        "license": {
+            "name": "BSD4", 
+            "text": "Copyright (c) 2016 David Manouchehri.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Uses radare to identify extra symbols", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576"
+        }, 
+        "name": "Radare2 Linear Sweep Plugin", 
+        "path": "binaryninja-radare2", 
+        "type": [
+            "core", 
+            "ui", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/Manouchehri/binaryninja-radare2", 
+        "version": "0.1 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Bambu", 
+        "description": "A disassembler for the SPU Cell architecture.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 Bambu.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin disassembles SPU assembly code. This plugin is based off of the SPU IDA plugin by Felix Domke.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/bambu/binaryninja-spu.git spu```", 
+        "minimumBinaryNinjaVersion": {
+            "dev (Commercial)": "1.0.dev-614", 
+            "dev (Personal)": "1.0.dev-614", 
+            "release (Commercial)": "1.0.317", 
+            "release (Personal)": "1.0.317"
+        }, 
+        "name": "SPU Cell Architecture Plugin", 
+        "path": "binaryninja-spu", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture"
+        ], 
+        "url": "https://github.com/bambu/binaryninja-spu", 
+        "version": "0.0.1"
+    }, 
+    {
+        "api": "python2", 
+        "author": "verylazyguy", 
+        "description": "A disassembler and lifter for the VMNDH-2k12 architecture.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 verylazyguy.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin disassembles VMNDH assembly code and generates LLIL.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/verylazyguy/binaryninja-vmndh.git vmndh```", 
+        "minimumBinaryNinjaVersion": {
+            "release (Commercial)": "1.0.320", 
+            "release (Personal)": "1.0.13"
+        }, 
+        "name": "VMNDH-2k12 Architecture Plugin", 
+        "path": "binaryninja-vmndh", 
+        "type": [
+            "architecture"
+        ], 
+        "url": "https://github.com/verylazyguy/binaryninja-vmndh", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Carl Hurd", 
+        "description": "A disassembler for the AVR architecture.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 Carl Hurd.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin disassembles AVR assembly code.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/cah011/binja-avr.git binja-avr```\n\nThen create a python file called `binja-avr.py`\n\nWith the contents ```import binja-avr```", 
+        "minimumBinaryNinjaVersion": {
+            "dev (Commercial)": "1.0.dev-71", 
+            "dev (Personal)": "1.0.dev-71", 
+            "release (Commercial)": "1.0.7", 
+            "release (Personal)": "1.0.7"
+        }, 
+        "name": "AVR Architecture Plugin", 
+        "path": "binja-avr", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture"
+        ], 
+        "url": "https://github.com/cah011/binja-avr", 
+        "version": "0.1c"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Lucas Duffey", 
+        "dependencies": {
+            "apt": [
+                "apt"
+            ], 
+            "other": [
+                ""
+            ], 
+            "pip": [
+                "atx-androguard"
+            ]
+        }, 
+        "description": "Extracts dex from APK, and disassembles into Smali bytecode.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 Lucas Duffey.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Extracts dex from APK, and disassembles into Smali bytecode.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576"
+        }, 
+        "name": "Smali Architecture Plugin", 
+        "path": "binja_smali", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/lucasduffey/binja_smali", 
+        "version": "0.1 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "snare", 
+        "dependencies": {
+            "pip": [
+                "voltron"
+            ]
+        }, 
+        "description": "Synchronise the Binary Ninja binary view with a debugger via Voltron.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 snare\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Voltron is a debugger UI framework for LLDB, GDB, WinDbg and VDB. This plugin enables integration of Binary Ninja with Voltron by synchronising the binary view with the debugger's current instruction pointer, and marking breakpoints set in the debugger in the binary view.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "9999"
+        }, 
+        "name": "Binjatron", 
+        "path": "binjatron", 
+        "type": [
+            "ui"
+        ], 
+        "url": "https://github.com/snare/binjatron", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
+        "author": "rick2600", 
+        "dependencies": {
+            "graphviz": [
+                "graphviz"
+            ]
+        }, 
+        "description": "Plugin for Binary Ninja to centralize features useful in static analysis.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 rick2600\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Plugin for Binary Ninja to centralize features useful in static analysis.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.13", 
+            "release": "9999"
+        }, 
+        "name": "BINoculars", 
+        "path": "binoculars", 
+        "type": [
+            "ui"
+        ], 
+        "url": "https://github.com/rick2600/binoculars", 
+        "version": "1.0.13"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Grant Orndorff", 
+        "dependencies": {
+            "pip": [
+                "filebytes"
+            ]
+        }, 
+        "description": "Insert custom hooks", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2017 Grant Orndorff\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Currently supports x86 and x86_64 ELF executables.\nWrite a hook in assembly and have it execute as part of your binary. See your hook added to the binary and reflected in the disassembly graph. The code segment of the binary is extended to make room for the hook. After insertion, Save Contents As and run the binary with your inserted code!", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "1.0.13"
+        }, 
+        "name": "BNHook", 
+        "path": "bnhook", 
+        "type": [
+            "core", 
+            "ui"
+        ], 
+        "url": "https://github.com/orndorffgrant/bnhook", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Walter Schell", 
+        "dependencies": {}, 
+        "description": "Right click to patch contents of memory operands", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Allow patching of memor operands from right click menu", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-173", 
+            "release": "1.0.13"
+        }, 
+        "name": "easypatch", 
+        "path": "easypatch", 
+        "type": [
+            "ui"
+        ], 
+        "url": "https://github.com/walterschell/easypatch", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Kevin Chung", 
+        "description": "Linear IL view for Binary Ninja", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2017 Kevin Chung\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This is a super neat and nifty linear IL view for Binary Ninja. If you squint hard enough, it looks useful.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-173"
+        }, 
+        "name": "LLIL", 
+        "path": "liil", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/ColdHeat/liil", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "butters", 
+        "dependencies": {}, 
+        "description": "Uses simplistic techniques to identify additional functions for x86 and x86_64 binaries.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 Leopold Stotch.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin aims to provide a temporary solution until a proper linear sweep is included. Millage will vary.", 
+        "minimumBinaryNinjaVersion": {
+            "release (Commercial)": "1.0.dev-729", 
+            "release (Personal)": "1.0.dev-729"
+        }, 
+        "name": "Simple Linear Sweep", 
+        "path": "linsweep", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/lstotch/linsweep", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Paolo Montesel (github.com/kenoph)", 
+        "dependencies": {
+            "apt": [], 
+            "installers": [], 
+            "other": [], 
+            "pip": [
+                "future"
+            ]
+        }, 
+        "description": "FLIRT for (binary) ninjas", 
+        "license": {
+            "name": "LGPL v3"
+        }, 
+        "longdescription": "Plugin for using FLIRT signatures inside of Binary Ninja. Most of the code is a port from radare's implementation.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "9999"
+        }, 
+        "name": "Nampa", 
+        "path": "nampa", 
+        "type": [
+            "core", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/kenoph/nampa", 
+        "version": "0.1 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Kevin Hascoët <neolex@email.com>", 
+        "dependencies": {
+            "apt": [], 
+            "installers": [], 
+            "other": [], 
+            "pip": []
+        }, 
+        "description": "A plugin that identify the syscalls.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "SyscallIdentify is a plugin that identify the syscalls called and write it name in comment.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-175", 
+            "release": "1.0.13"
+        }, 
+        "name": "SyscallIdentify", 
+        "path": "SyscallsIdentifier_BinaryNinja", 
+        "type": [
+            "binaryview"
+        ], 
+        "url": "https://github.com/HascoetKevin/SyscallsIdentifier_BinaryNinja", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
+        "author": "x64dbg", 
+        "description": "Official x64dbg plugin for Binary Ninja.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2016 x64dbg\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Official x64dbg plugin for Binary Ninja.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-87"
+        }, 
+        "name": "x64dbgbinja", 
+        "path": "x64dbgbinja", 
+        "type": [
+            "binaryview"
+        ], 
+        "url": "https://github.com/x64dbg/x64dbgbinja", 
+        "version": "1.0"
+    },
+    {
+        "name": "8051 Architecture Plugin",
+        "type": ["architecture"],
+        "api": "python2",
+        "description": "A disassembler for the 8051 architecture",
+        "longdescription": "This plugin disassembles 8051 assembly code.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/peterfillmore/binja-8051.git binja-8051```",
+        "license": {
+            "name": "MIT",
+            "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of     this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the   rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software  is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT  LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN         CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        },
+        "version": "0.1 alpha",
+        "author": "peterfillmore",
+        "minimumBinaryNinjaVersion": {
+            "dev (Personal)": "1.0.dev-71",
+            "dev (Commercial)": "1.0.dev-71",
+            "release (Personal)": "1.0.7",
+            "release (Commercial)": "1.0.7"
+        }
+    }
+]
