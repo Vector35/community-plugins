@@ -49,11 +49,14 @@ for plugin in os.walk(pluginsdir).next()[1]:
                 url = url[:-4]
         authorlink = '/'.join(url.split('/')[:4])
     except:
-        url = 'https://github.com/Vector35/binaryninja-plugins/tree/master/plugins/{plugin}'.format(plugin=plugin)
+        url = 'https://github.com/Vector35/community-plugins/tree/master/plugins/{plugin}'.format(plugin=plugin)
         authorlink = 'https://github.com/Vector35/'
     try:
         data = json.load(open(os.path.join(pluginsdir, plugin, "plugin.json")), object_pairs_hook=OrderedDict, encoding="utf-8")['plugin']
     except:
+        print "Failed to load {}, possible json error.".format(plugin)
+        continue
+    if (not url.startswith("http") or (plugin == "" )):
         print "Failed to load {}, possible json error.".format(plugin)
         continue
     data['url'] = url
