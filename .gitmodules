@@ -52,3 +52,9 @@
 [submodule "plugins/nampa"]
 	path = plugins/nampa
 	url = https://github.com/kenoph/nampa
+[submodule "plugins/Annotator"]
+	path = plugins/Annotator
+	url = https://github.com/carstein/Annotator
+[submodule "plugins/Syscaller"]
+	path = plugins/Syscaller
+	url = https://github.com/carstein/Syscaller

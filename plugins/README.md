@@ -2,6 +2,7 @@
 
 | PluginName | Author | License | Description |
 |------------|--------|---------|-------------|
+|[Annotator](https://github.com/carstein/Annotator)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Annotator/LICENSE)|A plugins that annotates libc function arguments.|
 |[Bookmarks](https://github.com/joshwatson/binaryninja-bookmarks)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-bookmarks/LICENSE)|A plugin that adds bookmarking functionality.|
 |[Mach-O Symbols Generator](https://github.com/bambu/binaryninja-machosymbols)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-machosymbols/LICENSE)|Creates symbols and renames functions in mach-o binaries|
 |[Microcorruption BinaryView Plugin](https://github.com/joshwatson/binaryninja-microcorruption)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-microcorruption/LICENSE)|A `BinaryView` for Microcorruption CTF memory dumps|
@@ -18,6 +19,7 @@
 |[LLIL](https://github.com/ColdHeat/liil)|[Kevin Chung](https://github.com/ColdHeat)|[MIT](liil/LICENSE)|Linear IL view for Binary Ninja|
 |[Simple Linear Sweep](https://github.com/lstotch/linsweep)|[butters](https://github.com/lstotch)|[MIT](linsweep/LICENSE)|Uses simplistic techniques to identify additional functions for x86 and x86_64 binaries.|
 |[Nampa](https://github.com/kenoph/nampa)|[Paolo Montesel (github.com/kenoph)](https://github.com/kenoph)|[LGPL v3](nampa/LICENSE)|FLIRT for (binary) ninjas|
+|[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Syscaller/LICENSE)|A plugins that print out details about encountered syscalls.|
 |[SyscallIdentify](https://github.com/HascoetKevin/SyscallsIdentifier_BinaryNinja)|[Kevin Hascoët <neolex@email.com>](https://github.com/HascoetKevin)|[MIT](SyscallsIdentifier_BinaryNinja/LICENSE)|A plugin that identify the syscalls.|
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|[MIT](x64dbgbinja/LICENSE)|Official x64dbg plugin for Binary Ninja.|
 

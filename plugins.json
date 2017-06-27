@@ -1,6 +1,33 @@
 [
     {
         "api": "python2", 
+        "author": "Michal Melewski <michal.melewski@gmail.com>", 
+        "dependencies": {
+            "apt": [], 
+            "installers": [], 
+            "other": [], 
+            "pip": []
+        }, 
+        "description": "A plugins that annotates libc function arguments.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Upon encountering a libc function call this plugins uses virtual stack to annotate previous instructions with appropriate comment stating argument prototype.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-175", 
+            "release": "1.0.13"
+        }, 
+        "name": "Annotator", 
+        "path": "Annotator", 
+        "type": [
+            "binaryview"
+        ], 
+        "url": "https://github.com/carstein/Annotator", 
+        "version": "0.2"
+    }, 
+    {
+        "api": "python2", 
         "author": "Josh Watson", 
         "description": "A plugin that adds bookmarking functionality.", 
         "license": {
@@ -400,6 +427,33 @@
         ], 
         "url": "https://github.com/kenoph/nampa", 
         "version": "0.1 alpha"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Michal Melewski <michal.melewski@gmail.com>", 
+        "dependencies": {
+            "apt": [], 
+            "installers": [], 
+            "other": [], 
+            "pip": []
+        }, 
+        "description": "A plugins that print out details about encountered syscalls.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-175", 
+            "release": "1.0.13"
+        }, 
+        "name": "Syscaller", 
+        "path": "Syscaller", 
+        "type": [
+            "binaryview"
+        ], 
+        "url": "https://github.com/carstein/Syscaller", 
+        "version": "0.1"
     }, 
     {
         "api": "python2", 
