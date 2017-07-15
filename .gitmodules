@@ -58,3 +58,6 @@
 [submodule "plugins/Syscaller"]
 	path = plugins/Syscaller
 	url = https://github.com/carstein/Syscaller
+[submodule "plugins/i8051"]
+	path = plugins/i8051
+	url = https://github.com/amtal/i8051

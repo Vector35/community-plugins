@@ -16,6 +16,7 @@
 |[BINoculars](https://github.com/rick2600/binoculars)|[rick2600](https://github.com/rick2600)|[MIT](binoculars/LICENSE)|Plugin for Binary Ninja to centralize features useful in static analysis.|
 |[BNHook](https://github.com/orndorffgrant/bnhook)|[Grant Orndorff](https://github.com/orndorffgrant)|[MIT](bnhook/LICENSE)|Insert custom hooks|
 |[easypatch](https://github.com/walterschell/easypatch)|[Walter Schell](https://github.com/walterschell)|[MIT](easypatch/LICENSE)|Right click to patch contents of memory operands|
+|[Intel 8051 Family Architecture Plugin](https://github.com/amtal/i8051)|[amtal](https://github.com/amtal)|[AGPLv3](i8051/LICENSE)|Disassembler for the 8051 architecture family.|
 |[LLIL](https://github.com/ColdHeat/liil)|[Kevin Chung](https://github.com/ColdHeat)|[MIT](liil/LICENSE)|Linear IL view for Binary Ninja|
 |[Simple Linear Sweep](https://github.com/lstotch/linsweep)|[butters](https://github.com/lstotch)|[MIT](linsweep/LICENSE)|Uses simplistic techniques to identify additional functions for x86 and x86_64 binaries.|
 |[Nampa](https://github.com/kenoph/nampa)|[Paolo Montesel (github.com/kenoph)](https://github.com/kenoph)|[LGPL v3](nampa/LICENSE)|FLIRT for (binary) ninjas|
