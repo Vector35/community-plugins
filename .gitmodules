@@ -61,3 +61,6 @@
 [submodule "plugins/i8051"]
 	path = plugins/i8051
 	url = https://github.com/amtal/i8051
+[submodule "plugins/binja_explain_instruction"]
+	path = plugins/binja_explain_instruction
+	url = https://github.com/ehennenfent/binja_explain_instruction
