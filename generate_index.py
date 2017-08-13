@@ -53,7 +53,8 @@ for plugin in os.walk(pluginsdir).next()[1]:
         authorlink = 'https://github.com/Vector35/'
     try:
         data = json.load(open(os.path.join(pluginsdir, plugin, "plugin.json")), object_pairs_hook=OrderedDict, encoding="utf-8")['plugin']
-    except:
+    except Exception as exc:
+        print exc
         print "Failed to load {}, possible json error.".format(plugin)
         continue
     if (not url.startswith("http") or (plugin == "" )):

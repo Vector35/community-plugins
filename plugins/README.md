@@ -11,6 +11,10 @@
 |[SPU Cell Architecture Plugin](https://github.com/bambu/binaryninja-spu)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-spu/LICENSE)|A disassembler for the SPU Cell architecture.|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|[MIT](binaryninja-vmndh/LICENSE)|A disassembler and lifter for the VMNDH-2k12 architecture.|
 |[AVR Architecture Plugin](https://github.com/cah011/binja-avr)|[Carl Hurd](https://github.com/cah011)|[MIT](binja-avr/LICENSE)|A disassembler for the AVR architecture.|
+|[Binja Architecture Reference](https://github.com/ehennenfent/binja_arch_ref)|[Eric Hennenfent](https://github.com/ehennenfent)|[MIT](binja_arch_ref/LICENSE)|Binary Ninja plugin to display a cheat sheet with information about the current architecture|
+|[Binary Ninja Dynamic Analysis Tools](https://github.com/ehennenfent/binja_dynamics)|[Eric Hennenfent](https://github.com/ehennenfent)|[Apache 2](binja_dynamics/LICENSE)|Adds a series of dynamic analysis tools aimed at beginners to Binary Ninja.|
+|[Explain Instruction](https://github.com/ehennenfent/binja_explain_instruction)|[Eric Hennenfent](https://github.com/ehennenfent)|[Apache 2](binja_explain_instruction/LICENSE)|Displays a window that explains in simple English what an assembly instruction does|
+|[Sensei](https://github.com/ehennenfent/binja_sensei)|[Eric Hennenfent](https://github.com/ehennenfent)|[MIT](binja_sensei/LICENSE)|A wrapper around several plugins that may be of use to beginners|
 |[Smali Architecture Plugin](https://github.com/lucasduffey/binja_smali)|[Lucas Duffey](https://github.com/lucasduffey)|[MIT](binja_smali/LICENSE)|Extracts dex from APK, and disassembles into Smali bytecode.|
 |[Binjatron](https://github.com/snare/binjatron)|[snare](https://github.com/snare)|[MIT](binjatron/LICENSE)|Synchronise the Binary Ninja binary view with a debugger via Voltron.|
 |[BINoculars](https://github.com/rick2600/binoculars)|[rick2600](https://github.com/rick2600)|[MIT](binoculars/LICENSE)|Plugin for Binary Ninja to centralize features useful in static analysis.|

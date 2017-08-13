@@ -64,3 +64,12 @@
 [submodule "plugins/binja_explain_instruction"]
 	path = plugins/binja_explain_instruction
 	url = https://github.com/ehennenfent/binja_explain_instruction
+[submodule "plugins/binja_dynamics"]
+	path = plugins/binja_dynamics
+	url = https://github.com/ehennenfent/binja_dynamics
+[submodule "plugins/binja_arch_ref"]
+	path = plugins/binja_arch_ref
+	url = https://github.com/ehennenfent/binja_arch_ref
+[submodule "plugins/binja_sensei"]
+	path = plugins/binja_sensei
+	url = https://github.com/ehennenfent/binja_sensei
