@@ -73,3 +73,6 @@
 [submodule "plugins/binja_sensei"]
 	path = plugins/binja_sensei
 	url = https://github.com/ehennenfent/binja_sensei
+[submodule "plugins/binaryninja-pasticciotto"]
+	path = plugins/binaryninja-pasticciotto
+	url = https://github.com/peperunas/binaryninja-pasticciotto
