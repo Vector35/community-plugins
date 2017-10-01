@@ -76,3 +76,6 @@
 [submodule "plugins/binaryninja-pasticciotto"]
 	path = plugins/binaryninja-pasticciotto
 	url = https://github.com/peperunas/binaryninja-pasticciotto
+[submodule "plugins/binja-msdn"]
+	path = plugins/binja-msdn
+	url = https://github.com/schmotzle/binja-msdn
