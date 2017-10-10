@@ -79,3 +79,6 @@
 [submodule "plugins/binja-msdn"]
 	path = plugins/binja-msdn
 	url = https://github.com/schmotzle/binja-msdn
+[submodule "plugins/binaryninja-frida"]
+	path = plugins/binaryninja-frida
+	url = https://github.com/chame1eon/binaryninja-frida

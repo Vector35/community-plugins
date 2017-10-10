@@ -668,6 +668,37 @@
     }, 
     {
         "api": "python2", 
+        "author": "Chame1eon", 
+        "dependencies": {
+            "apt": [], 
+            "installers": [], 
+            "other": [], 
+            "pip": [
+                "frida"
+            ]
+        }, 
+        "description": "A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2017 Chame1eon\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin makes use of the Frida dynamic instrumentation framework to simplify dynamic analysis within Binary Ninja. The plugin uses function definitions and type information, either identified by Binary Ninja or user inputted, to define Frida native functions automatically. To intercept a function, all a user needs to do is select the intercept button from the option menu. Once a function is being intercepted, whenever that function is called, by default, the arguments and return value will be logged to the Binary Ninja log. The behaviour of the Frida hooks can also be modified by a user. A demonstration video of the plugin in use in the following video:\n\n[Binary Ninja - Frida Plugin](http://sendvid.com/vw7froy5)\n\n\n### Use Guide\n\n#### Start Plugin\n\nAfter installing the plugin, from either the tools menu or by right clicking on the binary view window, you can select the option \"Frida: Start Plugin\". Selecting this option will bring up a window asking you to select the device you want the plugin to use, any device supported by Frida should also be supported by this plugin. For example, Android and iOS devices should also appear listed here if they are plugged in via USB.\n\n#### Attach to Process\n\nOnce you have the process you want to analyse running, you can select the option \"Frida: Attach to Process\". Choosing this option will provide you with a list of currently running processes on the system you are targeting. Selecting one of those processes will trigger the plugin to use Frida to attach to that process.\n\n#### Select Module (Optional)\n\nBy default, this plugin will use the name of the binary you are analysing to select the target module. For example, if you currently have libssl.so loaded into Binary Ninja, then the plugin will look for that module in the process address. However, if the binary name cannot be found in the process' address space, then the module must be selected manually by running the \"Frida: Select Target Module\" menu option.\n\n#### Intercept Function\n\nNow that the plugin is running, you can start intercepting functions within the binary. To intercept a function all you need to do is right click within that function and select \"Frida: Intercept Function\". Providing there were no errors, that function will now be intercepted by Frida and any time that function is called a log message will be printed with the argument values and return value.\n\n#### Modify Intercept\n\nTo change the default behaviour for an intercepted function, you can use the option \"Frida: Modify Intercept\". Opening this window opens two Multiline input fields. Inside those fields you can enter JavaScript to be executed before and after the function has been run. Above each of the fields is a label to show what the existing hook looks like.\n\n#### Remove Intercept\n\nUsing \"Frida: Remove Intercept\" will safely remove the intercept from the Frida agent.\n\n#### Frida: Reload\n\nWhen modifying function information in Binary Ninja, such as parameter types, there is currently no way to be notified of these events. Therefore, to update the Frida intercepts, in these cases, you will need to manually call \"Frida: Reload\".\n\n#### Frida: Stop Plugin\n\nSafely removes all the hooks from the attached process, before disconnecting from the process.\n\n\n### Future:\n* Allow instruction level interception\n* Add support for using the Frida Stalker\n* Support process patching using Frida\n* Frida Spawn\n\n### Warnings:\n* The Binary Ninja interaction API is, currently, does not support injecting text into a Multiline Field. As a result, hook modification requires a user to retype what they had previously.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "9999"
+        }, 
+        "name": "Frida Plugin", 
+        "path": "binaryninja-frida", 
+        "type": [
+            "core", 
+            "ui", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/chame1eon/binaryninja-frida", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
         "author": "Kevin Chung", 
         "description": "Linear IL view for Binary Ninja", 
         "license": {
