@@ -429,6 +429,33 @@
     }, 
     {
         "api": "python2", 
+        "author": "Ryan Stortz (@withzombies)", 
+        "dependencies": {
+            "apt": [
+                "graphviz"
+            ], 
+            "pip": []
+        }, 
+        "description": "A BinaryNinja plugin to graph a BNIL instruction tree", 
+        "license": {
+            "name": "Apache 2.0", 
+            "text": "https://github.com/withzombies/bnil-graph/blob/master/LICENSE"
+        }, 
+        "longdescription": "A BinaryNinja plugin to graph a BNIL instruction tree", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.776", 
+            "release": "1.0.776"
+        }, 
+        "name": "bnil-graph", 
+        "path": "bnil-graph", 
+        "type": [
+            "ui"
+        ], 
+        "url": "https://github.com/withzombies/bnil-graph", 
+        "version": "1.0.0"
+    }, 
+    {
+        "api": "python2", 
         "author": "rick2600", 
         "dependencies": {
             "graphviz": [

@@ -82,3 +82,6 @@
 [submodule "plugins/binaryninja-frida"]
 	path = plugins/binaryninja-frida
 	url = https://github.com/chame1eon/binaryninja-frida
+[submodule "plugins/bnil-graph"]
+	path = plugins/bnil-graph
+	url = https://github.com/withzombies/bnil-graph
