@@ -72,37 +72,6 @@
     }, 
     {
         "api": "python2", 
-        "author": "Chame1eon", 
-        "dependencies": {
-            "apt": [], 
-            "installers": [], 
-            "other": [], 
-            "pip": [
-                "pycparser"
-            ]
-        }, 
-        "description": "A plugin to parse C header files and C type strings to generate type information for Binary Ninja.", 
-        "license": {
-            "name": "MIT", 
-            "text": "Copyright (c) 2017 Chame1eon\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-        }, 
-        "longdescription": "This plugin makes use of the pycparser C parser to parse C header files and type strings, extracting type information (typedefs and structs). Using the extracted type information, this plugin then uses the Binary Ninja API to add those types into the Binary Ninja Types view. This allows a user to then reference those types within the binary view. Primarily, this plugin aims to make adding larger structs into Binary Ninja a simpler task than manually typing them all out. However, an important caveat to note, this plugin does not currently support pre-processing any header file given to it. As a result, all comments and include references must have been removed before this plugin is run. In the future I aim on including pre-processing support but, in the meantime, it is a requirement that a user runs the correct pre-processor on their header file to generate the correct output for their target system. A demonstration video of the plugin in use is in the following video:\n\n[C Types Parser Plugin](http://sendvid.com/m3mcsrwr)\n\n### Use Guide\n\n#### Load C Header File\n\nSelect this option if you have a pre-processed header file you want to be imported into Binary Ninja.\n\n#### Parse C Type String\n\nThis option gives you a multiline input field for free form text. Here you can manually enter the C type information you wish to add, which the plugin will parse to create types in the Type view.\n\n### Future\n* Add preprocessing support for header files\n* Support adding C++ classes\n* Allow Union types to be generated", 
-        "minimumBinaryNinjaVersion": {
-            "dev": "1.0.dev-576", 
-            "release": "9999"
-        }, 
-        "name": "Types Parser Plugin", 
-        "path": "binaryninja-types-parser", 
-        "type": [
-            "core", 
-            "ui", 
-            "binaryview"
-        ], 
-        "url": "https://github.com/chame1eon/binaryninja-types-parser", 
-        "version": "1.0 alpha"
-    }, 
-    {
-        "api": "python2", 
         "author": "Bambu", 
         "description": "Creates symbols and renames functions in mach-o binaries", 
         "license": {
@@ -141,40 +110,6 @@
         ], 
         "url": "https://github.com/x64dbg/x64dbgbinja", 
         "version": "1.0"
-    }, 
-    {
-        "api": "python2", 
-        "author": "Lucas Duffey", 
-        "dependencies": {
-            "apt": [
-                "apt"
-            ], 
-            "other": [
-                ""
-            ], 
-            "pip": [
-                "atx-androguard"
-            ]
-        }, 
-        "description": "Extracts dex from APK, and disassembles into Smali bytecode.", 
-        "license": {
-            "name": "MIT", 
-            "text": "Copyright (c) 2016 Lucas Duffey.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-        }, 
-        "longdescription": "Extracts dex from APK, and disassembles into Smali bytecode.", 
-        "minimumBinaryNinjaVersion": {
-            "dev": "1.0.dev-576"
-        }, 
-        "name": "Smali Architecture Plugin", 
-        "path": "binja_smali", 
-        "type": [
-            "core", 
-            "ui", 
-            "architecture", 
-            "binaryview"
-        ], 
-        "url": "https://github.com/lucasduffey/binja_smali", 
-        "version": "0.1 alpha"
     }, 
     {
         "api": "python2", 

@@ -13,9 +13,6 @@
 [submodule "plugins/binja-avr"]
 	path = plugins/binja-avr
 	url = https://github.com/cah011/binja-avr.git
-[submodule "plugins/binja_smali"]
-	path = plugins/binja_smali
-	url = https://github.com/lucasduffey/binja_smali.git
 [submodule "plugins/binjatron"]
 	path = plugins/binjatron
 	url = https://github.com/snare/binjatron.git
@@ -85,6 +82,3 @@
 [submodule "plugins/bnil-graph"]
 	path = plugins/bnil-graph
 	url = https://github.com/withzombies/bnil-graph
-[submodule "plugins/binaryninja-types-parser"]
-	path = plugins/binaryninja-types-parser
-	url = https://github.com/chame1eon/binaryninja-types-parser

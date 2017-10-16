@@ -5,10 +5,8 @@
 |[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Syscaller/LICENSE)|A plugins that print out details about encountered syscalls.|
 |[Bookmarks](https://github.com/joshwatson/binaryninja-bookmarks)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-bookmarks/LICENSE)|A plugin that adds bookmarking functionality.|
 |[Microcorruption BinaryView Plugin](https://github.com/joshwatson/binaryninja-microcorruption)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-microcorruption/LICENSE)|A `BinaryView` for Microcorruption CTF memory dumps|
-|[Types Parser Plugin](https://github.com/chame1eon/binaryninja-types-parser)|[Chame1eon](https://github.com/chame1eon)|[MIT](binaryninja-types-parser/LICENSE)|A plugin to parse C header files and C type strings to generate type information for Binary Ninja.|
 |[Mach-O Symbols Generator](https://github.com/bambu/binaryninja-machosymbols)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-machosymbols/LICENSE)|Creates symbols and renames functions in mach-o binaries|
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|[MIT](x64dbgbinja/LICENSE)|Official x64dbg plugin for Binary Ninja.|
-|[Smali Architecture Plugin](https://github.com/lucasduffey/binja_smali)|[Lucas Duffey](https://github.com/lucasduffey)|[MIT](binja_smali/LICENSE)|Extracts dex from APK, and disassembles into Smali bytecode.|
 |[Nampa](https://github.com/kenoph/nampa)|[Paolo Montesel (github.com/kenoph)](https://github.com/kenoph)|[LGPL v3](nampa/LICENSE)|FLIRT for (binary) ninjas|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|[MIT](binaryninja-vmndh/LICENSE)|A disassembler and lifter for the VMNDH-2k12 architecture.|
 |[Annotator](https://github.com/carstein/Annotator)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Annotator/LICENSE)|A plugins that annotates libc function arguments.|
