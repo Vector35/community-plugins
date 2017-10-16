@@ -85,3 +85,6 @@
 [submodule "plugins/bnil-graph"]
 	path = plugins/bnil-graph
 	url = https://github.com/withzombies/bnil-graph
+[submodule "plugins/binaryninja-types-parser"]
+	path = plugins/binaryninja-types-parser
+	url = https://github.com/chame1eon/binaryninja-types-parser
