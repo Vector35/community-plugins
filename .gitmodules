@@ -82,3 +82,6 @@
 [submodule "plugins/bnil-graph"]
 	path = plugins/bnil-graph
 	url = https://github.com/withzombies/bnil-graph
+[submodule "plugins/alsvc_binja"]
+	path = plugins/alsvc_binja
+	url = https://bitbucket.org/cse-assemblyline/alsvc_binja
