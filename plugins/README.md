@@ -5,6 +5,7 @@
 |[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Syscaller/LICENSE)|A plugins that print out details about encountered syscalls.|
 |[Bookmarks](https://github.com/joshwatson/binaryninja-bookmarks)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-bookmarks/LICENSE)|A plugin that adds bookmarking functionality.|
 |[Microcorruption BinaryView Plugin](https://github.com/joshwatson/binaryninja-microcorruption)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-microcorruption/LICENSE)|A `BinaryView` for Microcorruption CTF memory dumps|
+|[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|[MIT](ripr/LICENSE)|Package binary code as a Python class backed by Unicorn-Engine|
 |[Mach-O Symbols Generator](https://github.com/bambu/binaryninja-machosymbols)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-machosymbols/LICENSE)|Creates symbols and renames functions in mach-o binaries|
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|[MIT](x64dbgbinja/LICENSE)|Official x64dbg plugin for Binary Ninja.|
 |[Nampa](https://github.com/kenoph/nampa)|[Paolo Montesel (github.com/kenoph)](https://github.com/kenoph)|[LGPL v3](nampa/LICENSE)|FLIRT for (binary) ninjas|

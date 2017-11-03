@@ -82,3 +82,6 @@
 [submodule "plugins/bnil-graph"]
 	path = plugins/bnil-graph
 	url = https://github.com/withzombies/bnil-graph
+[submodule "plugins/ripr"]
+	path = plugins/ripr
+	url = https://github.com/pbiernat/ripr
