@@ -70,7 +70,7 @@ for plugin in os.walk(pluginsdir).next()[1]:
                 author=data['author'],
                 authorlink=authorlink,
                 license=data['license']['name'],
-                plugintype=','.join(sorted(data['type'])),
+                plugintype=', '.join(sorted(data['type'])),
                 description=data['description'])
 template += "\n\n"
 print("Writing " + pluginjson)
