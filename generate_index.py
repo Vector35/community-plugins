@@ -37,8 +37,8 @@ for section in config.items()[1:]:
 
 
 template = '# Binary Ninja Plugins\n\n'
-template += '''| PluginName | Author | License | Description |
-|------------|--------|---------|-------------|
+template += '''| PluginName | Author | License | Type | Description |
+|------------|--------|---------|----------|-------------|
 '''
 
 plugins = []
@@ -62,13 +62,15 @@ for plugin in os.walk(pluginsdir).next()[1]:
         continue
     data['url'] = url
     data['path'] = plugin
-    plugins.append(data)
-    template += u'|[{name}]({url})|[{author}]({authorlink})|[{license}]({plugin}/LICENSE)|{description}|\n'.format(name = data['name'],
+    if 'type' not in data:
+        data['type'] = ['none']
+    template += u'|[{name}]({url})|[{author}]({authorlink})|[{license}]({plugin}/LICENSE)|{plugintype}|{description}|\n'.format(name = data['name'],
                 url=url,
                 plugin=plugin,
                 author=data['author'],
                 authorlink=authorlink,
                 license=data['license']['name'],
+                plugintype=','.join(sorted(data['type'])),
                 description=data['description'])
 template += "\n\n"
 print("Writing " + pluginjson)
