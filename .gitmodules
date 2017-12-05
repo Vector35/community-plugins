@@ -85,3 +85,6 @@
 [submodule "plugins/ripr"]
 	path = plugins/ripr
 	url = https://github.com/pbiernat/ripr
+[submodule "plugins/llvm-deobfuscator"]
+	path = plugins/llvm-deobfuscator
+	url = https://github.com/RPISEC/llvm-deobfuscator
