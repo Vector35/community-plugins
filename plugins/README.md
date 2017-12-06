@@ -20,6 +20,7 @@
 |[Explain Instruction](https://github.com/ehennenfent/binja_explain_instruction)|[Eric Hennenfent](https://github.com/ehennenfent)|[Apache 2](binja_explain_instruction/LICENSE)|education, ui|Displays a window that explains in simple English what an assembly instruction does|
 |[Radare2 Linear Sweep Plugin](https://github.com/Manouchehri/binaryninja-radare2)|[David Manouchehri](https://github.com/Manouchehri)|[BSD4](binaryninja-radare2/LICENSE)|binaryview, core, ui|Uses radare to identify extra symbols|
 |[Simple Linear Sweep](https://github.com/lstotch/linsweep)|[butters](https://github.com/lstotch)|[MIT](linsweep/LICENSE)|architecture, binaryview, core, ui|Uses simplistic techniques to identify additional functions for x86 and x86_64 binaries.|
+|[Trickle-down Variables](https://github.com/toolCHAINZ/trickledown_vars)|[toolCHAINZ](https://github.com/toolCHAINZ)|[MIT](trickledown_vars/LICENSE)|ui|(ALPHA) Autorename variables that are copies of other variables.|
 |[bnil-graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|[Apache 2.0](bnil-graph/LICENSE)|ui|A BinaryNinja plugin to graph a BNIL instruction tree|
 |[BINoculars](https://github.com/rick2600/binoculars)|[rick2600](https://github.com/rick2600)|[MIT](binoculars/LICENSE)|ui|Plugin for Binary Ninja to centralize features useful in static analysis.|
 |[msdn](https://github.com/schmotzle/binja-msdn)|[Benedikt Schmotzle](https://github.com/schmotzle)|[MIT](binja-msdn/LICENSE)|ui|Search MSDN api reference|

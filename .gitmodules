@@ -88,3 +88,6 @@
 [submodule "plugins/llvm-deobfuscator"]
 	path = plugins/llvm-deobfuscator
 	url = https://github.com/RPISEC/llvm-deobfuscator
+[submodule "plugins/trickledown_vars"]
+	path = plugins/trickledown_vars
+	url = https://github.com/toolCHAINZ/trickledown_vars
