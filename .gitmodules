@@ -91,3 +91,6 @@
 [submodule "plugins/trickledown_vars"]
 	path = plugins/trickledown_vars
 	url = https://github.com/toolCHAINZ/trickledown_vars
+[submodule "plugins/binja_function_abi"]
+	path = plugins/binja_function_abi
+	url = https://github.com/whitequark/binja_function_abi

@@ -6,6 +6,7 @@
 |[Bookmarks](https://github.com/joshwatson/binaryninja-bookmarks)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-bookmarks/LICENSE)|core, ui|A plugin that adds bookmarking functionality.|
 |[Microcorruption BinaryView Plugin](https://github.com/joshwatson/binaryninja-microcorruption)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-microcorruption/LICENSE)|binaryview, core, ui|A `BinaryView` for Microcorruption CTF memory dumps|
 |[LLVM Deobfuscator](https://github.com/RPISEC/llvm-deobfuscator)|[Toshi Piazza & Kareem El-Faramawi](https://github.com/RPISEC)|[MIT](llvm-deobfuscator/LICENSE)|core, ui|Deobfuscator for LLVM-Obfuscator|
+|[function_abi](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|[BSD-0-clause](binja_function_abi/LICENSE)|ui|A plugin that adds a GUI for changing function ABI.|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|[MIT](ripr/LICENSE)|none|Package binary code as a Python class backed by Unicorn-Engine|
 |[Mach-O Symbols Generator](https://github.com/bambu/binaryninja-machosymbols)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-machosymbols/LICENSE)|ui|Creates symbols and renames functions in mach-o binaries|
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|[MIT](x64dbgbinja/LICENSE)|binaryview|Official x64dbg plugin for Binary Ninja.|
