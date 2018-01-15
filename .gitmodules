@@ -97,3 +97,6 @@
 [submodule "plugins/binja_itanium_cxx_abi"]
 	path = plugins/binja_itanium_cxx_abi
 	url = https://github.com/whitequark/binja_itanium_cxx_abi
+[submodule "plugins/binaryninja-lc3"]
+	path = plugins/binaryninja-lc3
+	url = https://github.com/kapaw/binaryninja-lc3

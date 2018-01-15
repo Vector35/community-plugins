@@ -27,6 +27,7 @@
 |[BINoculars](https://github.com/rick2600/binoculars)|[rick2600](https://github.com/rick2600)|[MIT](binoculars/LICENSE)|ui|Plugin for Binary Ninja to centralize features useful in static analysis.|
 |[msdn](https://github.com/schmotzle/binja-msdn)|[Benedikt Schmotzle](https://github.com/schmotzle)|[MIT](binja-msdn/LICENSE)|ui|Search MSDN api reference|
 |[Binja Architecture Reference](https://github.com/ehennenfent/binja_arch_ref)|[Eric Hennenfent](https://github.com/ehennenfent)|[MIT](binja_arch_ref/LICENSE)|ui|Binary Ninja plugin to display a cheat sheet with information about the current architecture|
+|[LC-3 Architecture Plugin](https://github.com/kapaw/binaryninja-lc3)|[Paw Petersen](https://github.com/kapaw)|[MIT](binaryninja-lc3/LICENSE)|architecture|Disassembler for the LC-3 architecture.|
 |[Binary Ninja Dynamic Analysis Tools](https://github.com/ehennenfent/binja_dynamics)|[Eric Hennenfent](https://github.com/ehennenfent)|[Apache 2](binja_dynamics/LICENSE)|dynamic, education, ui|Adds a series of dynamic analysis tools aimed at beginners to Binary Ninja.|
 |[Intel 8051 Family Architecture Plugin](https://github.com/amtal/i8051)|[amtal](https://github.com/amtal)|[AGPLv3](i8051/LICENSE)|architecture|Disassembler for the 8051 architecture family.|
 |[SPU Cell Architecture Plugin](https://github.com/bambu/binaryninja-spu)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-spu/LICENSE)|architecture, core, ui|A disassembler for the SPU Cell architecture.|
