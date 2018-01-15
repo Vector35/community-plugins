@@ -15,7 +15,7 @@ To install plugins, you can either clone this repository, or clone the specific 
  1. Create a new repository (Optionally, just copy it from the [sample plugin](https://github.com/Vector35/sample_plugin))
  1. Fill out a [`plugin.json`](https://github.com/Vector35/sample_plugin/blob/master/plugin.json)
  1. (Optional) Run `generate-readme.md` to update your readme and license 
- 1. File an [issue](/Vector35/community-plugins/issue) with a link to your repo. Please note that pull requests are not supported at this time.
+ 1. File an [issue](https://github.com/Vector35/community-plugins/issues) with a link to your repo. Please note that pull requests are not supported at this time.
  
 #### Required Fields
 
