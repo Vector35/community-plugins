@@ -103,3 +103,6 @@
 [submodule "plugins/binjago"]
 	path = plugins/binjago
 	url = https://github.com/zznop/binjago
+[submodule "plugins/binja_sibyl"]
+	path = plugins/binja_sibyl
+	url = https://github.com/kenoph/binja_sibyl
