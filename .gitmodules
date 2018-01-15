@@ -94,3 +94,6 @@
 [submodule "plugins/binja_function_abi"]
 	path = plugins/binja_function_abi
 	url = https://github.com/whitequark/binja_function_abi
+[submodule "plugins/binja_itanium_cxx_abi"]
+	path = plugins/binja_itanium_cxx_abi
+	url = https://github.com/whitequark/binja_itanium_cxx_abi
