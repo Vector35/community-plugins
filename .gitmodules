@@ -100,3 +100,6 @@
 [submodule "plugins/binaryninja-lc3"]
 	path = plugins/binaryninja-lc3
 	url = https://github.com/kapaw/binaryninja-lc3
+[submodule "plugins/binjago"]
+	path = plugins/binjago
+	url = https://github.com/zznop/binjago
