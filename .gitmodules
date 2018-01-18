@@ -109,3 +109,6 @@
 [submodule "plugins/binaryninja_avr"]
 	path = plugins/binaryninja_avr
 	url = https://github.com/fluxchief/binaryninja_avr
+[submodule "plugins/bnpy"]
+	path = plugins/bnpy
+	url = https://github.com/extremecoders-re/bnpy
