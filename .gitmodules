@@ -106,3 +106,6 @@
 [submodule "plugins/binja_sibyl"]
 	path = plugins/binja_sibyl
 	url = https://github.com/kenoph/binja_sibyl
+[submodule "plugins/binaryninja_avr"]
+	path = plugins/binaryninja_avr
+	url = https://github.com/fluxchief/binaryninja_avr
