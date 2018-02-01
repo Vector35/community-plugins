@@ -112,3 +112,6 @@
 [submodule "plugins/bnpy"]
 	path = plugins/bnpy
 	url = https://github.com/extremecoders-re/bnpy
+[submodule "plugins/xref_call_finder"]
+	path = plugins/xref_call_finder
+	url = https://github.com/rick2600/xref_call_finder
