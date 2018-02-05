@@ -115,3 +115,6 @@
 [submodule "plugins/xref_call_finder"]
 	path = plugins/xref_call_finder
 	url = https://github.com/rick2600/xref_call_finder
+[submodule "plugins/binaryninja-search"]
+	path = plugins/binaryninja-search
+	url = https://github.com/6e726d/binaryninja-search
