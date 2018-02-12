@@ -118,3 +118,6 @@
 [submodule "plugins/binaryninja-search"]
 	path = plugins/binaryninja-search
 	url = https://github.com/6e726d/binaryninja-search
+[submodule "plugins/WinAPI-Annotator"]
+	path = plugins/WinAPI-Annotator
+	url = https://github.com/levyjm/WinAPI-Annotator

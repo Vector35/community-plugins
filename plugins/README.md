@@ -13,6 +13,7 @@
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|[MIT](ripr/LICENSE)|none|Package binary code as a Python class backed by Unicorn-Engine|
 |[Mach-O Symbols Generator](https://github.com/bambu/binaryninja-machosymbols)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-machosymbols/LICENSE)|ui|Creates symbols and renames functions in mach-o binaries|
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|[MIT](x64dbgbinja/LICENSE)|binaryview|Official x64dbg plugin for Binary Ninja.|
+|[WinAPI-Annotator](https://github.com/levyjm/WinAPI-Annotator)|[John Levy with help from @carstein](https://github.com/levyjm)|[MIT](WinAPI-Annotator/LICENSE)|binaryview|A plugins that annotates Windows API function arguments.|
 |[Nampa](https://github.com/kenoph/nampa)|[Paolo Montesel (github.com/kenoph)](https://github.com/kenoph)|[LGPL v3](nampa/LICENSE)|binaryview, core|FLIRT for (binary) ninjas|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|[MIT](binaryninja-vmndh/LICENSE)|architecture|A disassembler and lifter for the VMNDH-2k12 architecture.|
 |[Annotator](https://github.com/carstein/Annotator)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Annotator/LICENSE)|binaryview|A plugins that annotates libc function arguments.|
