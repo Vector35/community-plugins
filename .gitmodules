@@ -121,3 +121,6 @@
 [submodule "plugins/WinAPI-Annotator"]
 	path = plugins/WinAPI-Annotator
 	url = https://github.com/levyjm/WinAPI-Annotator
+[submodule "plugins/Keyhole"]
+	path = plugins/Keyhole
+	url = https://github.com/carstein/Keyhole
