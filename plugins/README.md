@@ -44,5 +44,6 @@
 |[Sensei](https://github.com/ehennenfent/binja_sensei)|[Eric Hennenfent](https://github.com/ehennenfent)|[MIT](binja_sensei/LICENSE)|ui|A wrapper around several plugins that may be of use to beginners|
 |[Frida Plugin](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|[MIT](binaryninja-frida/LICENSE)|binaryview, core, ui|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
 |[LLIL](https://github.com/ColdHeat/liil)|[Kevin Chung](https://github.com/ColdHeat)|[MIT](liil/LICENSE)|architecture, binaryview, core, ui|Linear IL view for Binary Ninja|
+|[CLIPPER](https://github.com/pmackinlay/binaryninja-clipper)|[Patrick Mackinlay](https://github.com/pmackinlay)|[MIT](binaryninja-clipper/LICENSE)|architecture|This plugin disassembles CLIPPER assembly code and generates LLIL|
 
 
