@@ -124,3 +124,6 @@
 [submodule "plugins/Keyhole"]
 	path = plugins/Keyhole
 	url = https://github.com/carstein/Keyhole
+[submodule "plugins/binaryninja-clipper"]
+	path = plugins/binaryninja-clipper
+	url = https://github.com/pmackinlay/binaryninja-clipper

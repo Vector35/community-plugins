@@ -8,6 +8,7 @@
 |[LLVM Deobfuscator](https://github.com/RPISEC/llvm-deobfuscator)|[Toshi Piazza & Kareem El-Faramawi](https://github.com/RPISEC)|[MIT](llvm-deobfuscator/LICENSE)|core, ui|Deobfuscator for LLVM-Obfuscator|
 |[Xref Call Finder](https://github.com/rick2600/xref_call_finder)|[rick2600](https://github.com/rick2600)|[MIT](xref_call_finder/LICENSE)|architecture, binaryview, core, ui|Print call chains to a target function|
 |[function_abi](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|[BSD-0-clause](binja_function_abi/LICENSE)|ui|A plugin that adds a GUI for changing function ABI.|
+|[CLIPPER Architecture Plugin](https://github.com/pmackinlay/binaryninja-clipper)|[Patrick Mackinlay](https://github.com/pmackinlay)|[MIT](binaryninja-clipper/LICENSE)|architecture|A disassembler and lifter for the CLIPPER architecture.|
 |[bnpy](https://github.com/extremecoders-re/bnpy)|[extremecoders](https://github.com/extremecoders-re)|[MIT](bnpy/LICENSE)|architecture|Python 2.7 architecture plugin.|
 |[AVR Architecture Plugin](https://github.com/fluxchief/binaryninja_avr)|[Kevin Hamacher](https://github.com/fluxchief)|[MIT](binaryninja_avr/LICENSE)|architecture, binaryview|AVR architecture plugin + lifter.|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|[MIT](ripr/LICENSE)|none|Package binary code as a Python class backed by Unicorn-Engine|
@@ -43,6 +44,6 @@
 |[AVR Architecture Plugin](https://github.com/cah011/binja-avr)|[Carl Hurd](https://github.com/cah011)|[MIT](binja-avr/LICENSE)|architecture, core, ui|A disassembler for the AVR architecture.|
 |[Sensei](https://github.com/ehennenfent/binja_sensei)|[Eric Hennenfent](https://github.com/ehennenfent)|[MIT](binja_sensei/LICENSE)|ui|A wrapper around several plugins that may be of use to beginners|
 |[Frida Plugin](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|[MIT](binaryninja-frida/LICENSE)|binaryview, core, ui|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
-|[LLIL](https://github.com/ColdHeat/liil)|[Kevin Chung](https://github.com/ColdHeat)|[MIT](liil/LICENSE)|architecture, binaryview, core, ui|Linear IL view for Binary Ninja|
+|[LLIL](https://github.com/ColdHeat/liil)|[Kevin Chung](https://github.com/ColdHeat)|[MIT](liil/LICENSE)|ui|Linear IL view for Binary Ninja|
 
 
