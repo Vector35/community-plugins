@@ -64,6 +64,7 @@ for plugin in os.walk(pluginsdir).next()[1]:
     data['path'] = plugin
     if 'type' not in data:
         data['type'] = ['none']
+    plugins.append(data)
     template += u'|[{name}]({url})|[{author}]({authorlink})|[{license}]({plugin}/LICENSE)|{plugintype}|{description}|\n'.format(name = data['name'],
                 url=url,
                 plugin=plugin,
