@@ -130,3 +130,6 @@
 [submodule "plugins/retdec_offline"]
 	path = plugins/retdec_offline
 	url = https://github.com/ThisIsSecurity/retdec_offline
+[submodule "plugins/djumpo_unchained"]
+	path = plugins/djumpo_unchained
+	url = https://github.com/ThisIsSecurity/djumpo_unchained

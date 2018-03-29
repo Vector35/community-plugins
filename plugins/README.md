@@ -8,6 +8,7 @@
 |[RetDec Offline Decompiler](https://github.com/ThisIsSecurity/retdec_offline)|[Stormshield](https://github.com/ThisIsSecurity)|[MIT](retdec_offline/LICENSE)|architecture, binaryview, core, ui|The plugin recovers C code from machine code.|
 |[LLVM Deobfuscator](https://github.com/RPISEC/llvm-deobfuscator)|[Toshi Piazza & Kareem El-Faramawi](https://github.com/RPISEC)|[MIT](llvm-deobfuscator/LICENSE)|core, ui|Deobfuscator for LLVM-Obfuscator|
 |[Xref Call Finder](https://github.com/rick2600/xref_call_finder)|[rick2600](https://github.com/rick2600)|[MIT](xref_call_finder/LICENSE)|architecture, binaryview, core, ui|Print call chains to a target function|
+|[Djumpo Unchained](https://github.com/ThisIsSecurity/djumpo_unchained)|[Stormshield](https://github.com/ThisIsSecurity)|[MIT](djumpo_unchained/LICENSE)|architecture, binaryview, core, ui|The plugin de-obfuscates chained jumps.|
 |[function_abi](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|[BSD-0-clause](binja_function_abi/LICENSE)|ui|A plugin that adds a GUI for changing function ABI.|
 |[CLIPPER Architecture Plugin](https://github.com/pmackinlay/binaryninja-clipper)|[Patrick Mackinlay](https://github.com/pmackinlay)|[MIT](binaryninja-clipper/LICENSE)|architecture|A disassembler and lifter for the CLIPPER architecture.|
 |[bnpy](https://github.com/extremecoders-re/bnpy)|[extremecoders](https://github.com/extremecoders-re)|[MIT](bnpy/LICENSE)|architecture|Python 2.7 architecture plugin.|
