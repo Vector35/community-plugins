@@ -72,6 +72,35 @@
     }, 
     {
         "api": "python2", 
+        "author": "Stormshield", 
+        "dependencies": {
+            "pip": [
+                "Pygments"
+            ]
+        }, 
+        "description": "The plugin recovers C code from machine code.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Original work Copyright (c) 2017 crazy rabbidz\nModified work Copyright (c) 2018 Stormshield\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "The plugin uses RetDec to decompile code machine into C code. The plugin works offline.", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.1.dev-1060", 
+            "release": "9999"
+        }, 
+        "name": "RetDec Offline Decompiler", 
+        "path": "retdec_offline", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/ThisIsSecurity/retdec_offline", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
         "author": "Toshi Piazza & Kareem El-Faramawi", 
         "description": "Deobfuscator for LLVM-Obfuscator", 
         "license": {

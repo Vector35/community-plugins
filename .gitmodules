@@ -127,3 +127,6 @@
 [submodule "plugins/binaryninja-clipper"]
 	path = plugins/binaryninja-clipper
 	url = https://github.com/pmackinlay/binaryninja-clipper
+[submodule "plugins/retdec_offline"]
+	path = plugins/retdec_offline
+	url = https://github.com/ThisIsSecurity/retdec_offline
