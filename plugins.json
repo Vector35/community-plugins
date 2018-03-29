@@ -142,7 +142,7 @@
         }, 
         "longdescription": "This plugin disassembles CLIPPER assembly code and generates LLIL.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/pmackinlay/binaryninja-clipper.git clipper```", 
         "minimumBinaryNinjaVersion": {
-            "release": "1.1.1073"
+            "release": "1.1.1150"
         }, 
         "name": "CLIPPER Architecture Plugin", 
         "path": "binaryninja-clipper", 
@@ -150,7 +150,7 @@
             "architecture"
         ], 
         "url": "https://github.com/pmackinlay/binaryninja-clipper", 
-        "version": "0.3"
+        "version": "0.4"
     }, 
     {
         "api": "python2", 
