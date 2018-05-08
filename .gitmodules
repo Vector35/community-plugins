@@ -133,3 +133,6 @@
 [submodule "plugins/djumpo_unchained"]
 	path = plugins/djumpo_unchained
 	url = https://github.com/ThisIsSecurity/djumpo_unchained
+[submodule "plugins/cryptoscan"]
+	path = plugins/cryptoscan
+	url = https://github.com/Rami114/cryptoscan
