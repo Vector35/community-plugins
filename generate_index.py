@@ -31,7 +31,7 @@ config = configparser.ConfigParser()
 config.readfp(open(os.path.join(basedir, '.gitmodules')))
 submodules = {}
 
-for section in config.items()[1:]:
+for section in list(config.items())[1:]:
     sectionname = section[0].split('"')[1]
     submodules[sectionname] = config.get(section[0], 'url')
 
@@ -42,7 +42,7 @@ template += '''| PluginName | Author | License | Type | Description |
 '''
 
 plugins = []
-for plugin in os.walk(pluginsdir).next()[1]:
+for plugin in list(os.walk(pluginsdir))[0][1]:
     try:
         url = submodules[os.path.join('plugins', plugin)]
         if url.endswith('.git'):
@@ -54,11 +54,11 @@ for plugin in os.walk(pluginsdir).next()[1]:
     try:
         data = json.load(open(os.path.join(pluginsdir, plugin, "plugin.json")), object_pairs_hook=OrderedDict, encoding="utf-8")['plugin']
     except Exception as exc:
-        print exc
-        print "Failed to load {}, possible json error.".format(plugin)
+        print(exc)
+        print("Failed to load {}, possible json error.".format(plugin))
         continue
     if (not url.startswith("http") or (plugin == "" )):
-        print "Failed to load {}, possible json error.".format(plugin)
+        print("Failed to load {}, possible json error.".format(plugin))
         continue
     data['url'] = url
     data['path'] = plugin
@@ -75,7 +75,13 @@ for plugin in os.walk(pluginsdir).next()[1]:
                 description=data['description'])
 template += "\n\n"
 print("Writing " + pluginjson)
-open(pluginjson, 'w').write(json.dumps(plugins, indent=4, sort_keys=True, ensure_ascii=False, encoding="utf-8").encode("utf-8"))
+try:
+    open(pluginjson, 'w').write(json.dumps(plugins, indent=4, sort_keys=True, ensure_ascii=False, encoding="utf-8").encode("utf-8"))
+except:
+    open(pluginjson, 'w').write(json.dumps(plugins, indent=4, sort_keys=True, ensure_ascii=False))
 
 print("Writing " + pluginreadme)
-open(pluginreadme, "w").write(template.encode("utf-8"))
+try:
+    open(pluginreadme, "w").write(template)
+except:
+    open(pluginreadme, "w").write(template.encode('utf-8'))
