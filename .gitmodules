@@ -139,3 +139,6 @@
 [submodule "plugins/binja-secret"]
 	path = plugins/binja-secret
 	url = https://github.com/iGio90/binja-secret
+[submodule "plugins/binja-msvc"]
+	path = plugins/binja-msvc
+	url = https://github.com/DatBrick/binja-msvc

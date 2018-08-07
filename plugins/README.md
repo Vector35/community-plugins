@@ -5,6 +5,7 @@
 |[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Syscaller/LICENSE)|binaryview|A plugins that print out details about encountered syscalls.|
 |[Bookmarks](https://github.com/joshwatson/binaryninja-bookmarks)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-bookmarks/LICENSE)|core, ui|A plugin that adds bookmarking functionality.|
 |[Microcorruption BinaryView Plugin](https://github.com/joshwatson/binaryninja-microcorruption)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-microcorruption/LICENSE)|binaryview, core, ui|A `BinaryView` for Microcorruption CTF memory dumps|
+|[binja-msvc](https://github.com/DatBrick/binja-msvc)|[Brick](https://github.com/DatBrick)|[MIT](binja-msvc/LICENSE)|architecture, binaryview, core, ui|A Binary Ninja plugin to scan for MSVC constructs|
 |[RetDec Offline Decompiler](https://github.com/ThisIsSecurity/retdec_offline)|[Stormshield](https://github.com/ThisIsSecurity)|[MIT](retdec_offline/LICENSE)|architecture, binaryview, core, ui|The plugin recovers C code from machine code.|
 |[LLVM Deobfuscator](https://github.com/RPISEC/llvm-deobfuscator)|[Toshi Piazza & Kareem El-Faramawi](https://github.com/RPISEC)|[MIT](llvm-deobfuscator/LICENSE)|core, ui|Deobfuscator for LLVM-Obfuscator|
 |[Xref Call Finder](https://github.com/rick2600/xref_call_finder)|[rick2600](https://github.com/rick2600)|[MIT](xref_call_finder/LICENSE)|architecture, binaryview, core, ui|Print call chains to a target function|
