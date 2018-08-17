@@ -142,3 +142,6 @@
 [submodule "plugins/binja-msvc"]
 	path = plugins/binja-msvc
 	url = https://github.com/DatBrick/binja-msvc
+[submodule "plugins/binja-ipython"]
+	path = plugins/binja-ipython
+	url = https://github.com/ernw/binja-ipython

@@ -771,6 +771,33 @@
     }, 
     {
         "api": "python2", 
+        "author": "Florian Magin", 
+        "dependencies": {
+            "pip": [
+                "jupyter", 
+                "qtconsole"
+            ]
+        }, 
+        "description": "Spawn an IPython Kernel inside binja .", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2018 Florian Magin\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin starts an IPython kernel when binja starts which can be attached to with e.g.'jupyter console --existing'\n\nTo get access to the variables like the current open binary view load the extension with '%load_ext binjamagic'\n\nThis extension can be installed via 'pip install ./' from the root of the plugin repo\n\nIf you want the qt console, you will have to install it", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "0"
+        }, 
+        "name": "Binary Ninja IPython Kernel", 
+        "path": "binja-ipython", 
+        "type": [
+            "core"
+        ], 
+        "url": "https://github.com/ernw/binja-ipython", 
+        "version": "1.0"
+    }, 
+    {
+        "api": "python2", 
         "author": "zznop", 
         "description": "Binjago static analysis plugin suite.", 
         "license": {
