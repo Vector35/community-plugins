@@ -314,6 +314,21 @@
     }, 
     {
         "api": "python2", 
+        "author": "whitequark", 
+        "description": "A plugin providing the 16-bit Intel architecture.", 
+        "license": {
+            "name": "BSD-0-clause"
+        }, 
+        "name": "Intel 8086 Architecture", 
+        "path": "binja-i8086", 
+        "type": [
+            "arch"
+        ], 
+        "url": "https://github.com/whitequark/binja-i8086", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
         "author": "Kevin Hamacher", 
         "description": "AVR architecture plugin + lifter.", 
         "license": {
@@ -928,6 +943,24 @@
             "ui"
         ], 
         "url": "https://github.com/ehennenfent/binja_arch_ref", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Thomas Hebb", 
+        "description": "Binary Ninja `BinaryView` to display a binary file with a nonzero base address.", 
+        "license": {
+            "name": "GPLv2", 
+            "text": "Copyright (C) 2018 Thomas Hebb\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA."
+        }, 
+        "longdescription": "Open a file of machine code for analysis in a BinaryView that has a given base address. This allows pieces of code such as bootloaders and ROMs to be analyzed correctly without writing a custom view.", 
+        "name": "OffsetView", 
+        "path": "binaryninja-offsetview", 
+        "type": [
+            "binaryview", 
+            "ui"
+        ], 
+        "url": "https://github.com/tchebb/binaryninja-offsetview", 
         "version": "0.1"
     }, 
     {

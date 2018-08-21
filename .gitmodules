@@ -148,3 +148,6 @@
 [submodule "plugins/binja-i8086"]
 	path = plugins/binja-i8086
 	url = https://github.com/whitequark/binja-i8086
+[submodule "plugins/binaryninja-offsetview"]
+	path = plugins/binaryninja-offsetview
+	url = https://github.com/tchebb/binaryninja-offsetview

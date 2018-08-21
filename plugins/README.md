@@ -15,6 +15,7 @@
 |[CLIPPER Architecture Plugin](https://github.com/pmackinlay/binaryninja-clipper)|[Patrick Mackinlay](https://github.com/pmackinlay)|[MIT](binaryninja-clipper/LICENSE)|architecture|A disassembler and lifter for the CLIPPER architecture.|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|[MIT](cryptoscan/LICENSE)|binaryview, ui|A plugin to detect several common crypto constructs and magic vars.|
 |[bnpy](https://github.com/extremecoders-re/bnpy)|[extremecoders](https://github.com/extremecoders-re)|[MIT](bnpy/LICENSE)|architecture|Python 2.7 architecture plugin.|
+|[Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|[whitequark](https://github.com/whitequark)|[BSD-0-clause](binja-i8086/LICENSE)|arch|A plugin providing the 16-bit Intel architecture.|
 |[AVR Architecture Plugin](https://github.com/fluxchief/binaryninja_avr)|[Kevin Hamacher](https://github.com/fluxchief)|[MIT](binaryninja_avr/LICENSE)|architecture, binaryview|AVR architecture plugin + lifter.|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|[MIT](ripr/LICENSE)|none|Package binary code as a Python class backed by Unicorn-Engine|
 |[Mach-O Symbols Generator](https://github.com/bambu/binaryninja-machosymbols)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-machosymbols/LICENSE)|ui|Creates symbols and renames functions in mach-o binaries|
@@ -41,6 +42,7 @@
 |[BINoculars](https://github.com/rick2600/binoculars)|[rick2600](https://github.com/rick2600)|[MIT](binoculars/LICENSE)|ui|Plugin for Binary Ninja to centralize features useful in static analysis.|
 |[msdn](https://github.com/schmotzle/binja-msdn)|[Benedikt Schmotzle](https://github.com/schmotzle)|[MIT](binja-msdn/LICENSE)|ui|Search MSDN api reference|
 |[Binja Architecture Reference](https://github.com/ehennenfent/binja_arch_ref)|[Eric Hennenfent](https://github.com/ehennenfent)|[MIT](binja_arch_ref/LICENSE)|ui|Binary Ninja plugin to display a cheat sheet with information about the current architecture|
+|[OffsetView](https://github.com/tchebb/binaryninja-offsetview)|[Thomas Hebb](https://github.com/tchebb)|[GPLv2](binaryninja-offsetview/LICENSE)|binaryview, ui|Binary Ninja `BinaryView` to display a binary file with a nonzero base address.|
 |[LC-3 Architecture Plugin](https://github.com/kapaw/binaryninja-lc3)|[Paw Petersen](https://github.com/kapaw)|[MIT](binaryninja-lc3/LICENSE)|architecture|Disassembler for the LC-3 architecture.|
 |[Binary Ninja Dynamic Analysis Tools](https://github.com/ehennenfent/binja_dynamics)|[Eric Hennenfent](https://github.com/ehennenfent)|[Apache 2](binja_dynamics/LICENSE)|dynamic, education, ui|Adds a series of dynamic analysis tools aimed at beginners to Binary Ninja.|
 |[Intel 8051 Family Architecture Plugin](https://github.com/amtal/i8051)|[amtal](https://github.com/amtal)|[AGPLv3](i8051/LICENSE)|architecture|Disassembler for the 8051 architecture family.|
