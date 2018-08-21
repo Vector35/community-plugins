@@ -23,6 +23,7 @@
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|[MIT](x64dbgbinja/LICENSE)|binaryview|Official x64dbg plugin for Binary Ninja.|
 |[WinAPI-Annotator](https://github.com/levyjm/WinAPI-Annotator)|[John Levy with help from @carstein](https://github.com/levyjm)|[MIT](WinAPI-Annotator/LICENSE)|binaryview|A plugins that annotates Windows API function arguments.|
 |[Nampa](https://github.com/kenoph/nampa)|[Paolo Montesel (github.com/kenoph)](https://github.com/kenoph)|[LGPL v3](nampa/LICENSE)|binaryview, core|FLIRT for (binary) ninjas|
+|[binja_JSON_plugin](https://github.com/mozark24/binja_JSON_Plugin)|[Chris Henry](https://github.com/mozark24)|[MIT](binja_JSON_Plugin/LICENSE)|binaryview|Dumps all MLIL functions, basic blocks, and instruction properties into a JSON file.|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|[MIT](binaryninja-vmndh/LICENSE)|architecture|A disassembler and lifter for the VMNDH-2k12 architecture.|
 |[Annotator](https://github.com/carstein/Annotator)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Annotator/LICENSE)|binaryview|A plugins that annotates libc function arguments.|
 |[Pasticciotto Architecture Plugin](https://github.com/peperunas/binaryninja-pasticciotto)|[Giulio De Pasquale](https://github.com/peperunas)|[MIT](binaryninja-pasticciotto/LICENSE)|architecture|A disassembler for the Pasticciotto architecture.|

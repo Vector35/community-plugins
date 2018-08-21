@@ -154,3 +154,6 @@
 [submodule "plugins/binja-clipboard"]
 	path = plugins/binja-clipboard
 	url = https://github.com/bkerler/binja-clipboard
+[submodule "plugins/binja_JSON_Plugin"]
+	path = plugins/binja_JSON_Plugin
+	url = https://github.com/mozark24/binja_JSON_Plugin
