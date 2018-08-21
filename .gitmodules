@@ -145,3 +145,6 @@
 [submodule "plugins/binja-ipython"]
 	path = plugins/binja-ipython
 	url = https://github.com/ernw/binja-ipython
+[submodule "plugins/binja-i8086"]
+	path = plugins/binja-i8086
+	url = https://github.com/whitequark/binja-i8086
