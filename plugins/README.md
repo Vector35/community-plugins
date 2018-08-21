@@ -53,6 +53,7 @@
 |[SyscallIdentify](https://github.com/HascoetKevin/SyscallsIdentifier_BinaryNinja)|[Kevin Hascoët <neolex@email.com>](https://github.com/HascoetKevin)|[MIT](SyscallsIdentifier_BinaryNinja/LICENSE)|binaryview|A plugin that identify the syscalls.|
 |[AVR Architecture Plugin](https://github.com/cah011/binja-avr)|[Carl Hurd](https://github.com/cah011)|[MIT](binja-avr/LICENSE)|architecture, core, ui|A disassembler for the AVR architecture.|
 |[Sensei](https://github.com/ehennenfent/binja_sensei)|[Eric Hennenfent](https://github.com/ehennenfent)|[MIT](binja_sensei/LICENSE)|ui|A wrapper around several plugins that may be of use to beginners|
+|[Intel MCS-48 Architecture Plugin](https://github.com/pmackinlay/binaryninja-mcs48)|[Patrick Mackinlay](https://github.com/pmackinlay)|[MIT](binaryninja-mcs48/LICENSE)|architecture|A disassembler and lifter for the Intel MCS-48 architecture.|
 |[Frida Plugin](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|[MIT](binaryninja-frida/LICENSE)|binaryview, core, ui|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
 |[LLIL](https://github.com/ColdHeat/liil)|[Kevin Chung](https://github.com/ColdHeat)|[MIT](liil/LICENSE)|ui|Linear IL view for Binary Ninja|
 

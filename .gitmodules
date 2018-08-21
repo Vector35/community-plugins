@@ -157,3 +157,6 @@
 [submodule "plugins/binja_JSON_Plugin"]
 	path = plugins/binja_JSON_Plugin
 	url = https://github.com/mozark24/binja_JSON_Plugin
+[submodule "plugins/binaryninja-mcs48"]
+	path = plugins/binaryninja-mcs48
+	url = https://github.com/pmackinlay/binaryninja-mcs48
