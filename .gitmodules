@@ -151,3 +151,6 @@
 [submodule "plugins/binaryninja-offsetview"]
 	path = plugins/binaryninja-offsetview
 	url = https://github.com/tchebb/binaryninja-offsetview
+[submodule "plugins/binja-clipboard"]
+	path = plugins/binja-clipboard
+	url = https://github.com/bkerler/binja-clipboard

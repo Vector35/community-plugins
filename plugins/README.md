@@ -17,6 +17,7 @@
 |[bnpy](https://github.com/extremecoders-re/bnpy)|[extremecoders](https://github.com/extremecoders-re)|[MIT](bnpy/LICENSE)|architecture|Python 2.7 architecture plugin.|
 |[Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|[whitequark](https://github.com/whitequark)|[BSD-0-clause](binja-i8086/LICENSE)|arch|A plugin providing the 16-bit Intel architecture.|
 |[AVR Architecture Plugin](https://github.com/fluxchief/binaryninja_avr)|[Kevin Hamacher](https://github.com/fluxchief)|[MIT](binaryninja_avr/LICENSE)|architecture, binaryview|AVR architecture plugin + lifter.|
+|[Clipboard](https://github.com/bkerler/binja-clipboard)|[B.Kerler](https://github.com/bkerler)|[MIT](binja-clipboard/LICENSE)|architecture, binaryview, core, ui||
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|[MIT](ripr/LICENSE)|none|Package binary code as a Python class backed by Unicorn-Engine|
 |[Mach-O Symbols Generator](https://github.com/bambu/binaryninja-machosymbols)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-machosymbols/LICENSE)|ui|Creates symbols and renames functions in mach-o binaries|
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|[MIT](x64dbgbinja/LICENSE)|binaryview|Official x64dbg plugin for Binary Ninja.|
