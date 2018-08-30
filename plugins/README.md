@@ -36,6 +36,7 @@
 |[Radare2 Linear Sweep Plugin](https://github.com/Manouchehri/binaryninja-radare2)|[David Manouchehri](https://github.com/Manouchehri)|[BSD4](binaryninja-radare2/LICENSE)|binaryview, core, ui|Uses radare to identify extra symbols|
 |[Simple Linear Sweep](https://github.com/lstotch/linsweep)|[butters](https://github.com/lstotch)|[MIT](linsweep/LICENSE)|architecture, binaryview, core, ui|Uses simplistic techniques to identify additional functions for x86 and x86_64 binaries.|
 |[Search Immediate](https://github.com/6e726d/binaryninja-search)|[6e726d](https://github.com/6e726d)|[MIT](binaryninja-search/LICENSE)|ui|Search for the specific value in the instruction operands.|
+|[PSX EXE loader](https://github.com/PeterBortas/binja-psx)|[Peter Bortas <bortas@gmail.com>](https://github.com/PeterBortas)|[MIT](binja-psx/LICENSE)|binaryview|A loader for Playstation 1 executables|
 |[Trickle-down Variables](https://github.com/toolCHAINZ/trickledown_vars)|[toolCHAINZ](https://github.com/toolCHAINZ)|[MIT](trickledown_vars/LICENSE)|ui|(ALPHA) Autorename variables that are copies of other variables.|
 |[Binary Ninja IPython Kernel](https://github.com/ernw/binja-ipython)|[Florian Magin](https://github.com/ernw)|[MIT](binja-ipython/LICENSE)|core|Spawn an IPython Kernel inside binja .|
 |[binjago](https://github.com/zznop/binjago)|[zznop](https://github.com/zznop)|[MIT](binjago/LICENSE)|binaryview|Binjago static analysis plugin suite.|
