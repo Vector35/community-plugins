@@ -38,6 +38,7 @@
 |[Search Immediate](https://github.com/6e726d/binaryninja-search)|[6e726d](https://github.com/6e726d)|[MIT](binaryninja-search/LICENSE)|ui|Search for the specific value in the instruction operands.|
 |[PSX EXE loader](https://github.com/PeterBortas/binja-psx)|[Peter Bortas <bortas@gmail.com>](https://github.com/PeterBortas)|[MIT](binja-psx/LICENSE)|binaryview|A loader for Playstation 1 executables|
 |[Trickle-down Variables](https://github.com/toolCHAINZ/trickledown_vars)|[toolCHAINZ](https://github.com/toolCHAINZ)|[MIT](trickledown_vars/LICENSE)|ui|(ALPHA) Autorename variables that are copies of other variables.|
+|[SigMaker](https://github.com/Alex3434/Binja-SigMaker)|[Alex3434](https://github.com/Alex3434)|[MIT](Binja-SigMaker/LICENSE)|architecture, binaryview, core, ui|Generate Signatures|
 |[Binary Ninja IPython Kernel](https://github.com/ernw/binja-ipython)|[Florian Magin](https://github.com/ernw)|[MIT](binja-ipython/LICENSE)|core|Spawn an IPython Kernel inside binja .|
 |[binjago](https://github.com/zznop/binjago)|[zznop](https://github.com/zznop)|[MIT](binjago/LICENSE)|binaryview|Binjago static analysis plugin suite.|
 |[bnil-graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|[Apache 2.0](bnil-graph/LICENSE)|ui|A BinaryNinja plugin to graph a BNIL instruction tree|

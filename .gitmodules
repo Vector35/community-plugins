@@ -163,3 +163,6 @@
 [submodule "plugins/binja-psx"]
 	path = plugins/binja-psx
 	url = https://github.com/PeterBortas/binja-psx
+[submodule "plugins/Binja-SigMaker"]
+	path = plugins/Binja-SigMaker
+	url = https://github.com/Alex3434/Binja-SigMaker

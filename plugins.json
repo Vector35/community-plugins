@@ -864,6 +864,31 @@
     }, 
     {
         "api": "python2", 
+        "author": "Alex3434", 
+        "dependencies": {}, 
+        "description": "Generate Signatures", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2018 Alex3434\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Generate Signatures to use for pattern scanning in other applications", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "9999"
+        }, 
+        "name": "SigMaker", 
+        "path": "Binja-SigMaker", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/Alex3434/Binja-SigMaker", 
+        "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python2", 
         "author": "Florian Magin", 
         "dependencies": {
             "pip": [
