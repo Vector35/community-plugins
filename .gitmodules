@@ -115,6 +115,9 @@
 [submodule "plugins/xref_call_finder"]
 	path = plugins/xref_call_finder
 	url = https://github.com/rick2600/xref_call_finder
+[submodule "plugins/find_and_nop"]
+	path = plugins/find_and_nop
+	url = https://github.com/made0x78/find_and_nop
 [submodule "plugins/binaryninja-search"]
 	path = plugins/binaryninja-search
 	url = https://github.com/6e726d/binaryninja-search
