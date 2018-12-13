@@ -169,3 +169,6 @@
 [submodule "plugins/Binja-SigMaker"]
 	path = plugins/Binja-SigMaker
 	url = https://github.com/Alex3434/Binja-SigMaker
+[submodule "plugins/idc_importer"]
+	path = plugins/idc_importer
+	url = https://github.com/Cryptogenic/idc_importer
