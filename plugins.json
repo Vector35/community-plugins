@@ -1168,6 +1168,36 @@
     }, 
     {
         "api": "python2", 
+        "author": "buherator", 
+        "dependencies": {
+            "apt": [], 
+            "installers": [], 
+            "other": [], 
+            "pip": []
+        }, 
+        "description": "Find similar functions with Binary Ninja", 
+        "license": {
+            "name": "GPLv2", 
+            "text": ""
+        }, 
+        "longdescription": "", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.0.dev-576", 
+            "release": "0"
+        }, 
+        "name": "SimilarNinja Plugin", 
+        "path": "similarninja", 
+        "type": [
+            "core", 
+            "ui", 
+            "architecture", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/v-p-b/similarninja", 
+        "version": "0.2 alpha"
+    }, 
+    {
+        "api": "python2", 
         "author": "amtal", 
         "dependencies": {
             "apt": [], 

@@ -51,6 +51,7 @@
 |[Find and Nop](https://github.com/made0x78/find_and_nop)|[made0x78](https://github.com/made0x78)|[MIT](find_and_nop/LICENSE)|none|A plugin that finds a given assembly pattern and replaces it with nops.|
 |[LC-3 Architecture Plugin](https://github.com/kapaw/binaryninja-lc3)|[Paw Petersen](https://github.com/kapaw)|[MIT](binaryninja-lc3/LICENSE)|architecture|Disassembler for the LC-3 architecture.|
 |[Binary Ninja Dynamic Analysis Tools](https://github.com/ehennenfent/binja_dynamics)|[Eric Hennenfent](https://github.com/ehennenfent)|[Apache 2](binja_dynamics/LICENSE)|dynamic, education, ui|Adds a series of dynamic analysis tools aimed at beginners to Binary Ninja.|
+|[SimilarNinja Plugin](https://github.com/v-p-b/similarninja)|[buherator](https://github.com/v-p-b)|[GPLv2](similarninja/LICENSE)|architecture, binaryview, core, ui|Find similar functions with Binary Ninja|
 |[Intel 8051 Family Architecture Plugin](https://github.com/amtal/i8051)|[amtal](https://github.com/amtal)|[AGPLv3](i8051/LICENSE)|architecture|Disassembler for the 8051 architecture family.|
 |[Binja Sibyl](https://github.com/kenoph/binja_sibyl)|[Paolo Montesel (github.com/kenoph)](https://github.com/kenoph)|[BSD 2-Clause License](binja_sibyl/LICENSE)|binaryview, ui|Sibyl plugin for Binja|
 |[SPU Cell Architecture Plugin](https://github.com/bambu/binaryninja-spu)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-spu/LICENSE)|architecture, core, ui|A disassembler for the SPU Cell architecture.|

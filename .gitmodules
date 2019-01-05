@@ -172,3 +172,6 @@
 [submodule "plugins/idc_importer"]
 	path = plugins/idc_importer
 	url = https://github.com/Cryptogenic/idc_importer
+[submodule "plugins/similarninja"]
+	path = plugins/similarninja
+	url = https://github.com/v-p-b/similarninja
