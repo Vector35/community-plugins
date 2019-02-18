@@ -175,3 +175,9 @@
 [submodule "plugins/similarninja"]
 	path = plugins/similarninja
 	url = https://github.com/v-p-b/similarninja
+[submodule "plugins/binaryninja-vle"]
+	path = plugins/binaryninja-vle
+	url = https://github.com/ehntoo/binaryninja-vle
+[submodule "plugins/binaryninja-v850"]
+	path = plugins/binaryninja-v850
+	url = https://github.com/ehntoo/binaryninja-v850

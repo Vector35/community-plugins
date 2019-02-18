@@ -3,6 +3,7 @@
 | PluginName | Author | License | Type | Description |
 |------------|--------|---------|----------|-------------|
 |[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Syscaller/LICENSE)|binaryview|A plugins that print out details about encountered syscalls.|
+|[V850 Architecture Plugin](https://github.com/ehntoo/binaryninja-v850)|[Mitchell Johnson](https://github.com/ehntoo)|[MIT](binaryninja-v850/LICENSE)|architecture|A disassembler and lifter for the V850 architecture.|
 |[Bookmarks](https://github.com/joshwatson/binaryninja-bookmarks)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-bookmarks/LICENSE)|core, ui|A plugin that adds bookmarking functionality.|
 |[Microcorruption BinaryView Plugin](https://github.com/joshwatson/binaryninja-microcorruption)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-microcorruption/LICENSE)|binaryview, core, ui|A `BinaryView` for Microcorruption CTF memory dumps|
 |[binja-msvc](https://github.com/DatBrick/binja-msvc)|[Brick](https://github.com/DatBrick)|[MIT](binja-msvc/LICENSE)|architecture, binaryview, core, ui|A Binary Ninja plugin to scan for MSVC constructs|
@@ -53,6 +54,7 @@
 |[Binary Ninja Dynamic Analysis Tools](https://github.com/ehennenfent/binja_dynamics)|[Eric Hennenfent](https://github.com/ehennenfent)|[Apache 2](binja_dynamics/LICENSE)|dynamic, education, ui|Adds a series of dynamic analysis tools aimed at beginners to Binary Ninja.|
 |[SimilarNinja Plugin](https://github.com/v-p-b/similarninja)|[buherator](https://github.com/v-p-b)|[GPLv2](similarninja/LICENSE)|architecture, binaryview, core, ui|Find similar functions with Binary Ninja|
 |[Intel 8051 Family Architecture Plugin](https://github.com/amtal/i8051)|[amtal](https://github.com/amtal)|[AGPLv3](i8051/LICENSE)|architecture|Disassembler for the 8051 architecture family.|
+|[PPC VLE Architecture Extension](https://github.com/ehntoo/binaryninja-vle)|[Mitchell Johnson](https://github.com/ehntoo)|[MIT](binaryninja-vle/LICENSE)|architecture|A disassembler and lifter for the PowerPC VLE ISA.|
 |[Binja Sibyl](https://github.com/kenoph/binja_sibyl)|[Paolo Montesel (github.com/kenoph)](https://github.com/kenoph)|[BSD 2-Clause License](binja_sibyl/LICENSE)|binaryview, ui|Sibyl plugin for Binja|
 |[SPU Cell Architecture Plugin](https://github.com/bambu/binaryninja-spu)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-spu/LICENSE)|architecture, core, ui|A disassembler for the SPU Cell architecture.|
 |[SyscallIdentify](https://github.com/HascoetKevin/SyscallsIdentifier_BinaryNinja)|[Kevin Hascoët <neolex@email.com>](https://github.com/HascoetKevin)|[MIT](SyscallsIdentifier_BinaryNinja/LICENSE)|binaryview|A plugin that identify the syscalls.|
