@@ -28,6 +28,26 @@
     }, 
     {
         "api": "python2", 
+        "author": "Mitchell Johnson", 
+        "description": "A disassembler and lifter for the V850 architecture.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2018 Mitchell Johnson.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin disassembles V850 assembly code and generates LLIL.", 
+        "minimumBinaryNinjaVersion": {
+            "release": "1.1.922"
+        }, 
+        "name": "V850 Architecture Plugin", 
+        "path": "binaryninja-v850", 
+        "type": [
+            "architecture"
+        ], 
+        "url": "https://github.com/ehntoo/binaryninja-v850", 
+        "version": "0.1"
+    }, 
+    {
+        "api": "python2", 
         "author": "Josh Watson", 
         "description": "A plugin that adds bookmarking functionality.", 
         "license": {
@@ -1222,6 +1242,26 @@
         ], 
         "url": "https://github.com/amtal/i8051", 
         "version": "0.0.0"
+    }, 
+    {
+        "api": "python2", 
+        "author": "Mitchell Johnson", 
+        "description": "A disassembler and lifter for the PowerPC VLE ISA.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2018 Mitchell Johnson.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "This plugin disassembles ISA assembly code and generates LLIL.", 
+        "minimumBinaryNinjaVersion": {
+            "release": "1.1.922"
+        }, 
+        "name": "PPC VLE Architecture Extension", 
+        "path": "binaryninja-vle", 
+        "type": [
+            "architecture"
+        ], 
+        "url": "https://github.com/ehntoo/binaryninja-vle", 
+        "version": "0.1"
     }, 
     {
         "api": "python2", 
