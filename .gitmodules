@@ -181,3 +181,6 @@
 [submodule "plugins/binaryninja-v850"]
 	path = plugins/binaryninja-v850
 	url = https://github.com/ehntoo/binaryninja-v850
+[submodule "plugins/binja-list-symbols"]
+	path = plugins/binja-list-symbols
+	url = https://github.com/sheadovas/binja-list-symbols
