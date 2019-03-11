@@ -184,3 +184,9 @@
 [submodule "plugins/binja-list-symbols"]
 	path = plugins/binja-list-symbols
 	url = https://github.com/sheadovas/binja-list-symbols
+[submodule "plugins/bn-genesis"]
+	path = plugins/bn-genesis
+	url = https://github.com/zznop/bn-genesis
+[submodule "plugins/bnGB"]
+	path = plugins/bnGB
+	url = https://github.com/icecr4ck/bnGB

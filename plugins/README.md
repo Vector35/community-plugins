@@ -8,6 +8,7 @@
 |[Microcorruption BinaryView Plugin](https://github.com/joshwatson/binaryninja-microcorruption)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-microcorruption/LICENSE)|binaryview, core, ui|A `BinaryView` for Microcorruption CTF memory dumps|
 |[binja-msvc](https://github.com/DatBrick/binja-msvc)|[Brick](https://github.com/DatBrick)|[MIT](binja-msvc/LICENSE)|architecture, binaryview, core, ui|A Binary Ninja plugin to scan for MSVC constructs|
 |[RetDec Offline Decompiler](https://github.com/ThisIsSecurity/retdec_offline)|[Stormshield](https://github.com/ThisIsSecurity)|[MIT](retdec_offline/LICENSE)|architecture, binaryview, core, ui|The plugin recovers C code from machine code.|
+|[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|[MIT](bn-genesis/LICENSE)|binaryview|SEGA Genesis ROM Hacking Toolkit|
 |[LLVM Deobfuscator](https://github.com/RPISEC/llvm-deobfuscator)|[Toshi Piazza & Kareem El-Faramawi](https://github.com/RPISEC)|[MIT](llvm-deobfuscator/LICENSE)|core, ui|Deobfuscator for LLVM-Obfuscator|
 |[Xref Call Finder](https://github.com/rick2600/xref_call_finder)|[rick2600](https://github.com/rick2600)|[MIT](xref_call_finder/LICENSE)|architecture, binaryview, core, ui|Print call chains to a target function|
 |[Djumpo Unchained](https://github.com/ThisIsSecurity/djumpo_unchained)|[Stormshield](https://github.com/ThisIsSecurity)|[MIT](djumpo_unchained/LICENSE)|architecture, binaryview, core, ui|The plugin de-obfuscates chained jumps.|
@@ -28,6 +29,7 @@
 |[binja_JSON_plugin](https://github.com/mozark24/binja_JSON_Plugin)|[Chris Henry](https://github.com/mozark24)|[MIT](binja_JSON_Plugin/LICENSE)|binaryview|Dumps all MLIL functions, basic blocks, and instruction properties into a JSON file.|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|[MIT](binaryninja-vmndh/LICENSE)|architecture|A disassembler and lifter for the VMNDH-2k12 architecture.|
 |[Annotator](https://github.com/carstein/Annotator)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Annotator/LICENSE)|binaryview|A plugins that annotates libc function arguments.|
+|[bnGB](https://github.com/icecr4ck/bnGB)|[Hugo Porcher (icecr4ck)](https://github.com/icecr4ck)|[MIT](bnGB/LICENSE)|architecture, binaryview|Game Boy loader and architecture plugin.|
 |[Pasticciotto Architecture Plugin](https://github.com/peperunas/binaryninja-pasticciotto)|[Giulio De Pasquale](https://github.com/peperunas)|[MIT](binaryninja-pasticciotto/LICENSE)|architecture|A disassembler for the Pasticciotto architecture.|
 |[easypatch](https://github.com/walterschell/easypatch)|[Walter Schell](https://github.com/walterschell)|[MIT](easypatch/LICENSE)|ui|Right click to patch contents of memory operands|
 |[MSP430 Architecture Plugin](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|[MIT](binaryninja-msp430/LICENSE)|architecture|A disassembler and lifter for the MSP430 architecture.|
