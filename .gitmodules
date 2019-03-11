@@ -193,3 +193,6 @@
 [submodule "plugins/structor"]
 	path = plugins/structor
 	url = https://github.com/toolCHAINZ/structor
+[submodule "plugins/annotate"]
+	path = plugins/annotate
+	url = https://github.com/bkerler/annotate
