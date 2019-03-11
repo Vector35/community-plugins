@@ -37,6 +37,7 @@
 |[BNHook](https://github.com/orndorffgrant/bnhook)|[Grant Orndorff](https://github.com/orndorffgrant)|[MIT](bnhook/LICENSE)|core, ui|Insert custom hooks|
 |[Explain Instruction](https://github.com/ehennenfent/binja_explain_instruction)|[Eric Hennenfent](https://github.com/ehennenfent)|[Apache 2](binja_explain_instruction/LICENSE)|education, ui|Displays a window that explains in simple English what an assembly instruction does|
 |[Keyhole](https://github.com/carstein/Keyhole)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Keyhole/LICENSE)|ui|Report about functions in given binary.|
+|[structor](https://github.com/toolCHAINZ/structor)|[toolchainz](https://github.com/toolCHAINZ)|[MIT](structor/LICENSE)|analysis, structure, ui|A naive auto-struct maker.|
 |[Radare2 Linear Sweep Plugin](https://github.com/Manouchehri/binaryninja-radare2)|[David Manouchehri](https://github.com/Manouchehri)|[BSD4](binaryninja-radare2/LICENSE)|binaryview, core, ui|Uses radare to identify extra symbols|
 |[Simple Linear Sweep](https://github.com/lstotch/linsweep)|[butters](https://github.com/lstotch)|[MIT](linsweep/LICENSE)|architecture, binaryview, core, ui|Uses simplistic techniques to identify additional functions for x86 and x86_64 binaries.|
 |[Search Immediate](https://github.com/6e726d/binaryninja-search)|[6e726d](https://github.com/6e726d)|[MIT](binaryninja-search/LICENSE)|ui|Search for the specific value in the instruction operands.|

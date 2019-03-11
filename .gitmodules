@@ -190,3 +190,6 @@
 [submodule "plugins/bnGB"]
 	path = plugins/bnGB
 	url = https://github.com/icecr4ck/bnGB
+[submodule "plugins/structor"]
+	path = plugins/structor
+	url = https://github.com/toolCHAINZ/structor
