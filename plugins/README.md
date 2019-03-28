@@ -23,6 +23,7 @@
 |[Clipboard](https://github.com/bkerler/binja-clipboard)|[B.Kerler](https://github.com/bkerler)|[MIT](binja-clipboard/LICENSE)|architecture, binaryview, core, ui||
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|[MIT](ripr/LICENSE)|none|Package binary code as a Python class backed by Unicorn-Engine|
 |[Mach-O Symbols Generator](https://github.com/bambu/binaryninja-machosymbols)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-machosymbols/LICENSE)|ui|Creates symbols and renames functions in mach-o binaries|
+|[peutils](https://github.com/404d/peutils)|[Simen Lybekk](https://github.com/404d)|[MIT](peutils/LICENSE)|ui|Binary Ninja plugin providing various niche utilities for working with PE binaries|
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|[MIT](x64dbgbinja/LICENSE)|binaryview|Official x64dbg plugin for Binary Ninja.|
 |[WinAPI-Annotator](https://github.com/levyjm/WinAPI-Annotator)|[John Levy with help from @carstein](https://github.com/levyjm)|[MIT](WinAPI-Annotator/LICENSE)|binaryview|A plugins that annotates Windows API function arguments.|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|[MIT](annotate/LICENSE)|binaryview|A plugin that annotates function arguments.|
