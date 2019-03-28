@@ -196,3 +196,6 @@
 [submodule "plugins/annotate"]
 	path = plugins/annotate
 	url = https://github.com/bkerler/annotate
+[submodule "plugins/peutils"]
+	path = plugins/peutils
+	url = https://github.com/404d/peutils
