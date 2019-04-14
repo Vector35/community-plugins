@@ -1470,7 +1470,7 @@
         "type": [
             "binaryview"
         ], 
-        "url": "https://github.com/HascoetKevin/SyscallsIdentifier_BinaryNinja", 
+        "url": "https://github.com/Vector35/community-plugins/tree/master/plugins/SyscallsIdentifier_BinaryNinja", 
         "version": "0.1"
     }, 
     {
