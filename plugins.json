@@ -868,6 +868,27 @@
         "version": "0.1"
     }, 
     {
+        "api": [
+            "python2", 
+            "python3"
+        ], 
+        "author": "jofra (@V_jofra)", 
+        "description": "A plugin that eases fixing jump table branches.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2019 Vasco Franco\n\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\n\nof this software and associated documentation files (the \"Software\"), to deal\n\nin the Software without restriction, including without limitation the rights\n\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n\ncopies of the Software, and to permit persons to whom the Software is\n\nfurnished to do so, subject to the following conditions:\n\n\n\nThe above copyright notice and this permission notice shall be included in all\n\ncopies or substantial portions of the Software.\n\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n\nSOFTWARE."
+        }, 
+        "longdescription": "This plugin allows you to easily edit the branches of an indirect jump. This is helpful in situations where binja fails to identify jump tables. To fix this, previously you would have to use the python console, but with this plugin you can do it from a simple UI.", 
+        "name": "Jump table branch editor", 
+        "path": "jump-table-branch-editor", 
+        "type": [
+            "core", 
+            "ui"
+        ], 
+        "url": "https://github.com/Vasco-jofra/jump-table-branch-editor", 
+        "version": "1.0"
+    }, 
+    {
         "api": "python2", 
         "author": "toolchainz", 
         "description": "A naive auto-struct maker.", 
@@ -1448,30 +1469,23 @@
     }, 
     {
         "api": "python2", 
-        "author": "Kevin Hascoët <neolex@email.com>", 
-        "dependencies": {
-            "apt": [], 
-            "installers": [], 
-            "other": [], 
-            "pip": []
-        }, 
-        "description": "A plugin that identify the syscalls.", 
+        "author": "sheadovas, danigargu, sha0coder", 
+        "description": "A plugin that exports binary with function names created inside Binja", 
         "license": {
-            "name": "MIT", 
-            "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "name": "GPL v3"
         }, 
-        "longdescription": "SyscallIdentify is a plugin that identify the syscalls called and write it name in comment.", 
+        "longdescription": "This plugin is useful for debugging stripped binaries, simply analyze binary, create some names for functions then use this plugin to create binary woth extra debugging symbols. Now you can refer functions via their newly created names!", 
         "minimumBinaryNinjaVersion": {
-            "dev": "1.0.dev-175", 
-            "release": "1.0.13"
+            "release": "1.1.1470"
         }, 
-        "name": "SyscallIdentify", 
-        "path": "SyscallsIdentifier_BinaryNinja", 
+        "name": "syms2elf", 
+        "path": "syms2elf", 
         "type": [
-            "binaryview"
+            "binaryview", 
+            "core"
         ], 
-        "url": "https://github.com/Vector35/community-plugins/tree/master/plugins/SyscallsIdentifier_BinaryNinja", 
-        "version": "0.1"
+        "url": "https://github.com/sheadovas/syms2elf", 
+        "version": "0.3"
     }, 
     {
         "api": "python2", 

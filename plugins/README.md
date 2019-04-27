@@ -39,6 +39,7 @@
 |[BNHook](https://github.com/orndorffgrant/bnhook)|[Grant Orndorff](https://github.com/orndorffgrant)|[MIT](bnhook/LICENSE)|core, ui|Insert custom hooks|
 |[Explain Instruction](https://github.com/ehennenfent/binja_explain_instruction)|[Eric Hennenfent](https://github.com/ehennenfent)|[Apache 2](binja_explain_instruction/LICENSE)|education, ui|Displays a window that explains in simple English what an assembly instruction does|
 |[Keyhole](https://github.com/carstein/Keyhole)|[Michal Melewski <michal.melewski@gmail.com>](https://github.com/carstein)|[MIT](Keyhole/LICENSE)|ui|Report about functions in given binary.|
+|[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra (@V_jofra)](https://github.com/Vasco-jofra)|[MIT](jump-table-branch-editor/LICENSE)|core, ui|A plugin that eases fixing jump table branches.|
 |[structor](https://github.com/toolCHAINZ/structor)|[toolchainz](https://github.com/toolCHAINZ)|[MIT](structor/LICENSE)|analysis, structure, ui|A naive auto-struct maker.|
 |[Radare2 Linear Sweep Plugin](https://github.com/Manouchehri/binaryninja-radare2)|[David Manouchehri](https://github.com/Manouchehri)|[BSD4](binaryninja-radare2/LICENSE)|binaryview, core, ui|Uses radare to identify extra symbols|
 |[Simple Linear Sweep](https://github.com/lstotch/linsweep)|[butters](https://github.com/lstotch)|[MIT](linsweep/LICENSE)|architecture, binaryview, core, ui|Uses simplistic techniques to identify additional functions for x86 and x86_64 binaries.|
@@ -63,7 +64,7 @@
 |[PPC VLE Architecture Extension](https://github.com/ehntoo/binaryninja-vle)|[Mitchell Johnson](https://github.com/ehntoo)|[MIT](binaryninja-vle/LICENSE)|architecture|A disassembler and lifter for the PowerPC VLE ISA.|
 |[Binja Sibyl](https://github.com/kenoph/binja_sibyl)|[Paolo Montesel (github.com/kenoph)](https://github.com/kenoph)|[BSD 2-Clause License](binja_sibyl/LICENSE)|binaryview, ui|Sibyl plugin for Binja|
 |[SPU Cell Architecture Plugin](https://github.com/bambu/binaryninja-spu)|[Bambu](https://github.com/bambu)|[MIT](binaryninja-spu/LICENSE)|architecture, core, ui|A disassembler for the SPU Cell architecture.|
-|[SyscallIdentify](https://github.com/Vector35/community-plugins/tree/master/plugins/SyscallsIdentifier_BinaryNinja)|[Kevin Hascoët <neolex@email.com>](https://github.com/Vector35/)|[MIT](SyscallsIdentifier_BinaryNinja/LICENSE)|binaryview|A plugin that identify the syscalls.|
+|[syms2elf](https://github.com/sheadovas/syms2elf)|[sheadovas, danigargu, sha0coder](https://github.com/sheadovas)|[GPL v3](syms2elf/LICENSE)|binaryview, core|A plugin that exports binary with function names created inside Binja|
 |[AVR Architecture Plugin](https://github.com/cah011/binja-avr)|[Carl Hurd](https://github.com/cah011)|[MIT](binja-avr/LICENSE)|architecture, core, ui|A disassembler for the AVR architecture.|
 |[Sensei](https://github.com/ehennenfent/binja_sensei)|[Eric Hennenfent](https://github.com/ehennenfent)|[MIT](binja_sensei/LICENSE)|ui|A wrapper around several plugins that may be of use to beginners|
 |[Intel MCS-48 Architecture Plugin](https://github.com/pmackinlay/binaryninja-mcs48)|[Patrick Mackinlay](https://github.com/pmackinlay)|[MIT](binaryninja-mcs48/LICENSE)|architecture|A disassembler and lifter for the Intel MCS-48 architecture.|

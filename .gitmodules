@@ -196,3 +196,9 @@
 [submodule "plugins/peutils"]
 	path = plugins/peutils
 	url = https://github.com/404d/peutils
+[submodule "plugins/syms2elf"]
+	path = plugins/syms2elf
+	url = https://github.com/sheadovas/syms2elf
+[submodule "plugins/jump-table-branch-editor"]
+	path = plugins/jump-table-branch-editor
+	url = https://github.com/Vasco-jofra/jump-table-branch-editor
