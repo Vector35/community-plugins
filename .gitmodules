@@ -202,3 +202,6 @@
 [submodule "plugins/jump-table-branch-editor"]
 	path = plugins/jump-table-branch-editor
 	url = https://github.com/Vasco-jofra/jump-table-branch-editor
+[submodule "plugins/Binja4J"]
+	path = plugins/Binja4J
+	url = https://github.com/CySHell/Binja4J
