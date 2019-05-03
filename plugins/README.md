@@ -18,6 +18,7 @@
 |[CLIPPER Architecture Plugin](https://github.com/pmackinlay/binaryninja-clipper)|[Patrick Mackinlay](https://github.com/pmackinlay)|[MIT](binaryninja-clipper/LICENSE)|architecture|A disassembler and lifter for the CLIPPER architecture.|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|[MIT](cryptoscan/LICENSE)|binaryview, ui|A plugin to detect several common crypto constructs and magic vars.|
 |[bnpy](https://github.com/extremecoders-re/bnpy)|[extremecoders](https://github.com/extremecoders-re)|[MIT](bnpy/LICENSE)|architecture|Python 2.7 architecture plugin.|
+|[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|[MIT](bncov/LICENSE)|analysis, coverage, ui|Code coverage analysis and visualization.|
 |[Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|[whitequark](https://github.com/whitequark)|[BSD-0-clause](binja-i8086/LICENSE)|arch|A plugin providing the 16-bit Intel architecture.|
 |[AVR Architecture Plugin](https://github.com/fluxchief/binaryninja_avr)|[Kevin Hamacher](https://github.com/fluxchief)|[MIT](binaryninja_avr/LICENSE)|architecture, binaryview|AVR architecture plugin + lifter.|
 |[Clipboard](https://github.com/bkerler/binja-clipboard)|[B.Kerler](https://github.com/bkerler)|[MIT](binja-clipboard/LICENSE)|architecture, binaryview, core, ui||
@@ -70,5 +71,6 @@
 |[Intel MCS-48 Architecture Plugin](https://github.com/pmackinlay/binaryninja-mcs48)|[Patrick Mackinlay](https://github.com/pmackinlay)|[MIT](binaryninja-mcs48/LICENSE)|architecture|A disassembler and lifter for the Intel MCS-48 architecture.|
 |[Frida Plugin](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|[MIT](binaryninja-frida/LICENSE)|binaryview, core, ui|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
 |[LLIL](https://github.com/ColdHeat/liil)|[Kevin Chung](https://github.com/ColdHeat)|[MIT](liil/LICENSE)|ui|Linear IL view for Binary Ninja|
+|[Bin4j](https://github.com/CySHell/Binja4J)|[CySHell](https://github.com/CySHell)|[MIT](Binja4J/LICENSE)|binaryview, core|BinaryView MLIL to Neo4j DB|
 
 

@@ -205,3 +205,6 @@
 [submodule "plugins/Binja4J"]
 	path = plugins/Binja4J
 	url = https://github.com/CySHell/Binja4J
+[submodule "plugins/bncov"]
+	path = plugins/bncov
+	url = https://github.com/ForAllSecure/bncov

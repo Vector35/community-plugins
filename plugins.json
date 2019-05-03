@@ -375,6 +375,28 @@
     }, 
     {
         "api": "python2", 
+        "author": "Mark Griffin", 
+        "description": "Code coverage analysis and visualization.", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright 2019 ForAllSecure, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n"
+        }, 
+        "longdescription": "Extensible and scriptable basic block coverage analysis.  Import basic block coverage using the context menu (right-click or Tools menu), and optionally do additionally highlighting via context commands or scripting in the python console.", 
+        "minimumBinaryNinjaVersion": {
+            "stable": "1.1.1470"
+        }, 
+        "name": "bncov", 
+        "path": "bncov", 
+        "type": [
+            "ui", 
+            "coverage", 
+            "analysis"
+        ], 
+        "url": "https://github.com/ForAllSecure/bncov", 
+        "version": "1.0"
+    }, 
+    {
+        "api": "python2", 
         "author": "whitequark", 
         "description": "A plugin providing the 16-bit Intel architecture.", 
         "license": {
@@ -1611,5 +1633,28 @@
         ], 
         "url": "https://github.com/ColdHeat/liil", 
         "version": "1.0 alpha"
+    }, 
+    {
+        "api": "python3", 
+        "author": "CySHell", 
+        "dependencies": {}, 
+        "description": "BinaryView MLIL to Neo4j DB", 
+        "license": {
+            "name": "MIT", 
+            "text": "Copyright (c) 2019 CySHell\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        }, 
+        "longdescription": "Extract any information from a BinaryView and export it into a Neo4j graph DB", 
+        "minimumBinaryNinjaVersion": {
+            "dev": "1.1.1633", 
+            "release": "1.1.1555"
+        }, 
+        "name": "Bin4j", 
+        "path": "Binja4J", 
+        "type": [
+            "core", 
+            "binaryview"
+        ], 
+        "url": "https://github.com/CySHell/Binja4J", 
+        "version": "0.9"
     }
 ]
