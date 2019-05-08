@@ -208,3 +208,6 @@
 [submodule "plugins/bncov"]
 	path = plugins/bncov
 	url = https://github.com/ForAllSecure/bncov
+[submodule "plugins/binaryninja-svd"]
+	path = plugins/binaryninja-svd
+	url = https://github.com/ehntoo/binaryninja-svd/

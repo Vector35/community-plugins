@@ -72,5 +72,6 @@
 |[Frida Plugin](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|[MIT](binaryninja-frida/LICENSE)|binaryview, core, ui|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
 |[LLIL](https://github.com/ColdHeat/liil)|[Kevin Chung](https://github.com/ColdHeat)|[MIT](liil/LICENSE)|ui|Linear IL view for Binary Ninja|
 |[Bin4j](https://github.com/CySHell/Binja4J)|[CySHell](https://github.com/CySHell)|[MIT](Binja4J/LICENSE)|binaryview, core|BinaryView MLIL to Neo4j DB|
+|[SVD Memory Map Parser](https://github.com/ehntoo/binaryninja-svd/)|[Mitchell Johnson](https://github.com/ehntoo)|[MIT](binaryninja-svd/LICENSE)|core|A parser for the CMSIS System View Description format|
 
 
