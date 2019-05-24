@@ -1,5 +1,7 @@
-#!/usr/bin/env python
-""" Python script to generate a stub README.md files from a plugin.json file """
+#!/usr/bin/env python3
+"""
+This script helps in the process of creating required metadata to add a plugin to the Binary Ninja plugin repository
+"""
 import json
 import argparse
 import os
@@ -35,7 +37,7 @@ requiredLicenseKeys = ["name", "text"]
 
 def validateList(data, name, validList):
 	if name not in data:
-		print("Warning: '{}' filed doesn't exist".format(name))
+		print("Warning: '{}' field doesn't exist".format(name))
 		return False
 	elif not isinstance(data[name], list):
 		print("Error: '{}' field isn't a list".format(name))
@@ -228,22 +230,26 @@ def generateReadme(plugin):
 
 def main():
 	parser = argparse.ArgumentParser(description="Generate README.md (and optional LICENSE) from plugin.json metadata")
-	parser.add_argument("filename", type=str, help="path to the plugin.json file", default="plugin.json")
 	parser.add_argument("-a", "--all", help="Generate all supporting information needed (plugin.json, README.md, LICENSE)", action="store_true")
 	parser.add_argument("-p", "--plugin", help="Interactively generate plugin.json file", action="store_true")
 	parser.add_argument("-r", "--readme", help="Automatically generate README.md", action="store_true")
 	parser.add_argument("-l", "--license", help="Automatically generate LICENSE file", action="store_true")
 	parser.add_argument("-f", "--force", help="Force overwrite of existing files", action="store_true")
-	parser.add_argument("-v", "--validate", help="Validate existing plugin.json only", action="store_true")
+	parser.add_argument("-v", "--validate", help="Validate existing plugin.json only", metavar="JSON")
 	args = parser.parse_args()
 
-	if args.validate:
-		if validateRequiredFields(json.load(io.open(args.filename, "w", encoding="utf8"))["plugin"]):
+
+	# Just validate an existing plugin.json
+	if args.validate is not None:
+		if validateRequiredFields(json.load(io.open(args.validate, "r", encoding="utf8"))["plugin"]):
 			print("Successfully validated json file")
 		else:
 			print("Error: json validation failed")
 		return
 
+	pluginjson = "plugin.json"
+
+	# Enable all the options if --all is selected
 	if args.all:
 		args.plugin = True
 		args.readme = True
@@ -251,19 +257,17 @@ def main():
 
 	if args.plugin:
 		plugin = generatepluginmetadata()
-		pp = pprint.PrettyPrinter(indent=4)
-		pp.pprint(plugin)
 	else:
 		try:
-			plugin = json.load(io.open(args.filename, "w", encoding="utf8"))["plugin"]
+			plugin = json.load(io.open(pluginjson, "r", encoding="utf8"))["plugin"]
 		except json.JSONDecodeError:
-			print("File {} doesn't contain valid json".format(args.filename))
+			print("File {} doesn't contain valid json".format(pluginjson))
 			return
 		except Exception:
-			print("File {} doesn't exist".format(args.filename))
+			print("File {} doesn't exist".format(pluginjson))
 			return
 
-
+	print("-----------------------------------------------------------------")
 	if validateRequiredFields(plugin):
 		print("Successfully validated json file")
 	else:
@@ -274,48 +278,49 @@ def main():
 		print("Warning: This python plugin doesn't support python3, python2 support will soon be deprecated.")
 		print(" Please consider upgrading you plugin to support python3")
 
-	plugin = {"plugin": plugin}
 	if args.plugin:
-		pluginjson = args.filename
 		skip = False
+		print("-----------------------------------------------------------------")
 		if os.path.isfile(pluginjson) and not args.force and args.plugin:
 			print("{} already exists.".format(pluginjson))
-			response = input("Overwrite it? (N,y)")
+			response = input("Overwrite it? (N,y) ")
 			if response != "y":
 				print("Not overwriting plugin.json")
 				skip = True
 		if not skip:
 			print("Creating plugin.json.")
-			with io.open(args.filename, "w", encoding="utf8") as pluginfile:
-				pluginfile.write(json.dumps(plugin, indent="   "))
+			with io.open(pluginjson, "w", encoding="utf8") as pluginfile:
+				pluginfile.write(json.dumps({"plugin": plugin}, indent="   "))
 
 	if args.readme:
-		readme = os.path.join(os.path.dirname(args.filename), "README.md")
+		print("-----------------------------------------------------------------")
+		readme = os.path.join(os.path.dirname(pluginjson), "README.md")
 		skip = False
 		if os.path.isfile(readme) and not args.force:
 			print("{} already exists.".format(readme))
-			response = input("Overwrite it? (N,y)")
+			response = input("Overwrite it? (N,y) ")
 			if response != "y":
 				print("Not overwriting README.md")
 				skip = True
 		if not skip:
 			print("Creating README.md")
 			with io.open(readme, "w", encoding="utf8") as readmeFile:
-				readmeFile.write(generateReadme(plugin["plugin"]))
+				readmeFile.write(generateReadme(plugin))
 
 	if args.license:
-		licenseFile = os.path.join(os.path.dirname(args.filename), "LICENSE")
+		print("-----------------------------------------------------------------")
+		licenseFile = os.path.join(os.path.dirname(pluginjson), "LICENSE")
 		skip = False
 		if os.path.isfile(licenseFile) and not args.force:
 			print("{} already exists.".format(licenseFile))
-			response = input("Overwrite it? (N,y)")
+			response = input("Overwrite it? (N,y) ")
 			if response != "y":
 				print("Not overwriting LICENSE")
 				skip = True
 		if not skip:
 			print("Creating LICENSE")
 			with io.open(licenseFile, "w", encoding="utf8") as lic:
-				lic.write(plugin["plugin"]["license"]["text"])
+				lic.write(plugin["license"]["text"])
 
 
 if __name__ == "__main__":

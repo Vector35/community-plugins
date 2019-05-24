@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-import pygit2
 import sys
 import os
 import json
 import argparse
 import base64
 import requests
+from dateutil import parser
+import base64
+import re
 
 ghUrl = "https://github.com/"
 pluginsDirectory = "plugins"
@@ -25,41 +27,72 @@ def printProgressBar(iteration, total, prefix = '', length = 80, fill = '█'):
 def getfile(url):
     return requests.get(url, auth=requests.auth.HTTPBasicAuth(user, token))
 
-def getPluginJson(sm):
-    if not sm.url.startswith(ghUrl):
-        print("Not a github url {}".format(sm.url))
+def getPluginJson(plugin):
+    if "site" in plugin:
+        print("We only currently support github projects")
+        return
+
+    site = "https://github.com/"
+    apisite = "https://api.github.com/repos/"
+    jsonUrl = "{}{}/contents/plugin.json?ref={}"
+    tagsUrl = "https://api.github.com/repos/{}/tags".format(plugin["name"])
+
+    userAndProject = plugin["name"]
+    userName, projectName = plugin["name"].split("/")
+
+    releaseData = None
+    try:
+        releases = "{}{}/releases/tags/{}".format(apisite, userAndProject, plugin["tag"])
+        releaseData = getfile(releases).json()
+    except requests.exceptions.HTTPError:
+        print(" Unable get get url {}".format(releases))
         return None
 
-    userAndProject = sm.url[len(ghUrl):]
-    if userAndProject.endswith(".git"):
-        userAndProject = userAndProject[:-4]
-    if userAndProject.endswith("/"):
-        userAndProject = userAndProject[:-1]
-
-    packageUrl = "https://raw.githubusercontent.com/{userAndProject}/{commit}/plugin.json".format(userAndProject=userAndProject, commit=sm.head_id)
+    commit = None
+    zipUrl = None
+    # Lookup the tag url and find the associated commit
     try:
-        response = getfile(packageUrl)
+        tagData = getfile(tagsUrl).json()
+        for tag in tagData:
+            if tag["name"] == plugin["tag"]:
+                commit = tag["commit"]["sha"]
+                zipUrl = tag["zipball_url"]
+                break
+        if commit is None:
+            print("Unable to associate tag {} with a commit for plugin {}".format(plugin["tag"], plugin["name"]))
+            return None
+    except requests.exceptions.HTTPError:
+        print(" Unable get get url {}".format(tagsUrl))
+        return None
+
+    projectData = None
+    try:
+        projectData = getfile(apisite + userAndProject).json()
+    except requests.exceptions.HTTPError:
+        print(" Unable get get url {}".format(apisite + userAndProject))
+        return None
+
+    data = None
+    try:
+        jsonDataUrl = jsonUrl.format(apisite, userAndProject, plugin["tag"])
+        content = getfile(jsonDataUrl).json()['content']
+        data = json.loads(base64.b64decode(content))["plugin"]
     except requests.exceptions.HTTPError:
         print(" Unable get get url")
         return None
 
-    data = response.json()["plugin"]
+    # Additional fields required for internal use
+    data["lastUpdated"] = int(parser.parse(releaseData["published_at"]).timestamp())
+    data["projectUrl"] = site + userAndProject
+    data["projectData"] = projectData
+    data["authorUrl"] = site + userName
+    data["packageUrl"] = zipUrl
+    data["path"] = re.sub('[^a-z]', '', projectData["full_name"])
+    data["commit"] = commit
 
-    projectData = None
-    projectUrl = "https://api.github.com/repos/{userAndProject}".format(userAndProject=userAndProject)
-    try:
-        projectData = getfile(projectUrl)
-    except requests.exceptions.HTTPError:
-        print(" Unable get get url {}".format(projectUrl))
-        return None
-    data["projectUrl"] = projectUrl
-    data["projectData"] = projectData.json()
-    # sm.url if not sm.url.endswith('.git') else sm.url[:-4]
-    data["authorUrl"] = '/'.join(sm.url.split('/')[:4])
-    data["packageUrl"] = "https://github.com/{userAndProject}/archive/{commit}.zip".format(userAndProject=userAndProject, commit=sm.head_id)
-    # data["readmeUrl"] = "https://raw.githubusercontent.com/{userAndProject}/{commit}/{readme}".format(userAndProject=userAndProject, commit=sm.head_id, readme=data["readme"])
-    data["commit"] = str(sm.head_id)
-    data["path"] = sm.path[len(pluginsDirectory) + 1:]
+    # TODO: Consider adding license info directly from the repository's json data (would need to test unlicensed plugins)
+    # data["license"] = {"name" : data["license"]["name"], "text": getfile(data["license"]["url"])}
+
     if isinstance(data["api"], str):
         data["api"] = [data["api"]]
     if "minimumBinaryNinjaVersion" not in data or not isinstance(data["minimumBinaryNinjaVersion"], int):
@@ -68,10 +101,6 @@ def getPluginJson(sm):
         data["platforms"] = []
     if "installinstructions" not in data:
         data["installinstructions"] = {}
-
-    # TODO: Support Submodules!
-    #   Need to recursively checkout the project, check for submodules and record packageUrls for each
-    #   data["submodules"] = getPackageSubmodules(sm)
     return data
 
 def main():
@@ -80,6 +109,7 @@ def main():
         help="For first time running the command against the old format")
     parser.add_argument("-r", "--readme", action="store_true", default=False,
         help="Generate README.md")
+    parser.add_argument("-l", "--listing", action="store", default="listing.json")
     parser.add_argument("username")
     parser.add_argument("token")
     args = parser.parse_args(sys.argv[1:])
@@ -91,54 +121,44 @@ def main():
     basedir = os.path.join(os.path.dirname(os.path.realpath(__file__)))
     pluginjson = os.path.join(basedir, "plugins.json")
 
-    repo = pygit2.Repository(".")
-
-    # People are dumb and don't follow the spec for plugin.json files also our initial spec sucked so they can't be blamed
     allPlugins = {}
-    directories = list(os.walk(os.path.join(basedir, pluginsDirectory)))[0][1]
-    for i, smpath in enumerate(directories):
-        printProgressBar(i, len(directories), prefix="Collecting Plugin JSON files:")
-        fullsmpath = os.path.join(pluginsDirectory, smpath)
-        sm = repo.lookup_submodule(fullsmpath)
-        jsonData = getPluginJson(sm)
-        allPlugins[pluginsDirectory + "/" + smpath] = jsonData
-    printProgressBar(len(directories), len(directories), prefix="Collecting Plugin JSON files:")
+    listing = json.load(open(args.listing, "r", encoding="utf-8"))
+    for i, plugin in enumerate(listing):
+        printProgressBar(i, len(plugin), prefix="Collecting Plugin JSON files:")
+        jsonData = getPluginJson(plugin)
+        allPlugins[plugin["name"]] = jsonData
+    printProgressBar(len(plugin), len(plugin), prefix="Collecting Plugin JSON files:")
 
     oldPlugins = {}
     if os.path.exists(pluginjson):
         with open(pluginjson) as pluginsFile:
-            data = json.load(pluginsFile)
-            for i, plugin in enumerate(data):
-                for path, data in allPlugins.items():
-                    if path == (pluginsDirectory + "/" + plugin["path"]):
-                        oldPlugins[pluginsDirectory + "/" + plugin["path"]] = plugin
+            for i, plugin in enumerate(json.load(pluginsFile)):
+                oldPlugins[plugin["projectData"]["full_name"]] = plugin["lastUpdated"]
 
     newPlugins = []
     updatedPlugins = []
-    allSubmodules = repo.listall_submodules()
-    for i, submoduleStr in enumerate(allSubmodules):
-        printProgressBar(i, len(allSubmodules), prefix="Updating plugins.json:")
-        sm = repo.lookup_submodule(submoduleStr)
-        pluginIsNew = (sm.name not in oldPlugins)
+    for i, (name, pluginData) in enumerate(allPlugins.items()):
+        # printProgressBar(i, len(allPlugins), prefix="Updating plugins.json:")
+        pluginIsNew = False
         pluginIsUpdated = False
-
-        if args.initialize:
+        if name not in oldPlugins:
             pluginIsNew = True
-        if not pluginIsNew:
-            pluginIsUpdated = oldPlugins[sm.name]["commit-hash"] != str(sm.head_id)
-        if (pluginIsUpdated or pluginIsNew):
-            # A new plugin was added or a plugin's commit has changed pull its plugin.json file
-            # Plugin has been updated record its new information
-            pluginInfo = allPlugins[sm.path]
-            if pluginInfo is None:
-                print("Error failed to fetch: {}".format(sm.name))
+        else:
+            if name not in oldPlugins:
+                pluginIsUpdated = True
             else:
-                if pluginIsNew:
-                    newPlugins.append(pluginInfo)
-                elif pluginIsUpdated:
-                    updatedPlugins.append(pluginInfo)
-                oldPlugins[sm.name] = pluginInfo
-    printProgressBar(len(allSubmodules), len(allSubmodules), prefix="Updating plugins.json:")
+                pluginIsUpdated = pluginData["lastUpdated"] > oldPlugins[name]
+
+        if pluginIsUpdated or pluginIsNew:
+            if pluginIsNew:
+                newPlugins.append(plugin)
+            elif pluginIsUpdated:
+                updatedPlugins.append(plugin)
+
+    printProgressBar(len(allPlugins), len(allPlugins), prefix="Updating plugins.json:       ")
+    allPluginsList = []
+    for name, plugin in allPlugins.items():
+        allPluginsList.append(plugin)
 
     print("{} New Plugins:".format(len(newPlugins)))
     for i, plugin in enumerate(newPlugins):
@@ -148,20 +168,21 @@ def main():
         print("\t{} {}".format(i, plugin["name"]))
     print("Writing {}".format(pluginjson))
     with open(pluginjson, "w") as pluginsFile:
-        json.dump(list(oldPlugins.values()), pluginsFile, indent="    ")
+        json.dump(allPluginsList, pluginsFile, indent="    ")
 
     if args.readme:
         with open(os.path.join(pluginsDirectory, "README.md"), "w", encoding="utf-8") as readme:
             readme.write(u"# Binary Ninja Plugins\n\n")
-            readme.write(u"| PluginName | Author | License | Type | Description |\n")
-            readme.write(u"|------------|--------|---------|----------|-------------|\n")
+            readme.write(u"| PluginName | Author | Last Updated | License | Type | Description |\n")
+            readme.write(u"|------------|--------|--------------|---------|----------|-------------|\n")
 
-            for plugin in oldPlugins:
-                readme.write(u"|[{name}]({url})|[{author}]({authorlink})|[{license}]({plugin}/LICENSE)|{plugintype}|{description}|\n".format(name = data['name'],
-                    url=plugin["url"],
+            for plugin in allPlugins.values():
+                readme.write(u"|[{name}]({projectUrl})|[{author}]({authorUrl})|{lastUpdated}|[{license}]({plugin}/LICENSE)|{plugintype}|{description}|\n".format(name = plugin['name'],
+                    projectUrl=plugin["projectUrl"],
                     plugin=plugin["name"],
                     author=plugin["author"],
-                    authorlink=plugin["url"],
+                    authorUrl=plugin["authorUrl"],
+                    lastUpdated=plugin["lastUpdated"],
                     license=plugin['license']['name'],
                     plugintype=', '.join(sorted(plugin['type'])),
                     description=plugin['description']))
