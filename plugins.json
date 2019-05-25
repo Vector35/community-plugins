@@ -128,7 +128,7 @@
         },
         "authorUrl": "https://github.com/joshwatson",
         "packageUrl": "https://api.github.com/repos/joshwatson/binaryninja-bookmarks/zipball/0.2b",
-        "path": "joshwatsonbinaryninjabookmarks",
+        "path": "joshwatson_binaryninjabookmarks",
         "commit": "83f620688b5f652a29386d26f3007202a110d075",
         "platforms": [],
         "installinstructions": {}
@@ -263,7 +263,7 @@
         },
         "authorUrl": "https://github.com/joshwatson",
         "packageUrl": "https://api.github.com/repos/joshwatson/binaryninja-msp430/zipball/0.1b",
-        "path": "joshwatsonbinaryninjamsp",
+        "path": "joshwatson_binaryninjamsp430",
         "commit": "ce8122b6ea2b5062f298ca9e254646f8cc46c812",
         "platforms": [],
         "installinstructions": {}
@@ -400,7 +400,7 @@
         },
         "authorUrl": "https://github.com/Alex3434",
         "packageUrl": "https://api.github.com/repos/Alex3434/Binja-SigMaker/zipball/1.1",
-        "path": "lexinjaigaker",
+        "path": "Alex3434_BinjaSigMaker",
         "commit": "5855dbf3899ec0eb4f1a35ad1aeb0b01baf06f6e",
         "platforms": [],
         "installinstructions": {}

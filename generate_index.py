@@ -38,12 +38,15 @@ def getPluginJson(plugin):
     tagsUrl = "https://api.github.com/repos/{}/tags".format(plugin["name"])
 
     userAndProject = plugin["name"]
-    userName, projectName = plugin["name"].split("/")
+    userName = plugin["name"].split("/")[0]
 
     releaseData = None
     try:
         releases = "{}{}/releases/tags/{}".format(apisite, userAndProject, plugin["tag"])
         releaseData = getfile(releases).json()
+        if "message" in releaseData and releaseData["message"] == "Not Found":
+            print("\n\nERROR: {}, Couldn't get release information. Likely the user created a tag but no associated release.\n".format(plugin['name']))
+            return None
     except requests.exceptions.HTTPError:
         print(" Unable get get url {}".format(releases))
         return None
@@ -87,7 +90,9 @@ def getPluginJson(plugin):
     data["projectData"] = projectData
     data["authorUrl"] = site + userName
     data["packageUrl"] = zipUrl
-    data["path"] = re.sub('[^a-z]', '', projectData["full_name"])
+
+    # Replace the fwd slash with _ and then strip all non (alpha, numeric, _ )
+    data["path"] = re.sub("[^a-zA-Z0-9_]", "", re.sub("/", "_", projectData["full_name"]))
     data["commit"] = commit
 
     # TODO: Consider adding license info directly from the repository's json data (would need to test unlicensed plugins)
@@ -126,6 +131,8 @@ def main():
     for i, plugin in enumerate(listing):
         printProgressBar(i, len(plugin), prefix="Collecting Plugin JSON files:")
         jsonData = getPluginJson(plugin)
+        if jsonData is None:
+            return
         allPlugins[plugin["name"]] = jsonData
     printProgressBar(len(plugin), len(plugin), prefix="Collecting Plugin JSON files:")
 
@@ -151,9 +158,9 @@ def main():
 
         if pluginIsUpdated or pluginIsNew:
             if pluginIsNew:
-                newPlugins.append(plugin)
+                newPlugins.append(name)
             elif pluginIsUpdated:
-                updatedPlugins.append(plugin)
+                updatedPlugins.append(name)
 
     printProgressBar(len(allPlugins), len(allPlugins), prefix="Updating plugins.json:       ")
     allPluginsList = []
@@ -161,11 +168,11 @@ def main():
         allPluginsList.append(plugin)
 
     print("{} New Plugins:".format(len(newPlugins)))
-    for i, plugin in enumerate(newPlugins):
-        print("\t{} {}".format(i, plugin["name"]))
+    for plugin in newPlugins:
+        print("\t- {}".format(plugin))
     print("{} Updated Plugins:".format(len(updatedPlugins)))
-    for i, plugin in enumerate(updatedPlugins):
-        print("\t{} {}".format(i, plugin["name"]))
+    for plugin in updatedPlugins:
+        print("\t- {}".format(plugin))
     print("Writing {}".format(pluginjson))
     with open(pluginjson, "w") as pluginsFile:
         json.dump(allPluginsList, pluginsFile, indent="    ")
