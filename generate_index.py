@@ -132,7 +132,7 @@ def main():
     allPlugins = {}
     listing = json.load(open(args.listing, "r", encoding="utf-8"))
     for i, plugin in enumerate(listing):
-        printProgressBar(i, len(plugin), prefix="Collecting Plugin JSON files:")
+        printProgressBar(i, len(listing), prefix="Collecting Plugin JSON files:")
         jsonData = getPluginJson(plugin)
         if jsonData is None:
             return
