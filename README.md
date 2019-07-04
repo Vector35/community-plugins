@@ -67,3 +67,4 @@ Note that content contained in the root of this repository itself is Copyright 2
 |[Bookmarks](https://github.com/joshwatson/binaryninja-bookmarks)|[Josh Watson](https://github.com/joshwatson)|2016-10-11|MIT|core, ui|A plugin that adds bookmarking functionality.|
 |[MSP430 Architecture Plugin](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2016-10-10|MIT|architecture, core, ui|A disassembler and lifter for the MSP430 architecture.|
 |[SigMaker](https://github.com/Alex3434/Binja-SigMaker)|[Alex3434](https://github.com/Alex3434)|2018-09-26|MIT|architecture, binaryview, core, ui|Generate Signatures|
+|[Structor](https://github.com/toolCHAINZ/structor)|[toolCHAINZ](https://github.com/toolCHAINZ)|2019-07-04|MIT|helper|A dead-simple automatic struct maker|
