@@ -14,5 +14,9 @@
     {
         "name": "toolCHAINZ/structor",
         "tag": "v1.0"
+    },
+    {
+        "name": "Vasco-jofra/jump-table-branch-editor",
+        "tag": "v1.0"
     }
 ]

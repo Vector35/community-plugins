@@ -47,18 +47,9 @@ To be displayed in the plugin loader, your `plugin.json` MUST have the following
    - `core` - Plugin that extends the core's analysis. Your plugin probably isn't one of these.
  - `installinstructions` - A json object with keys for each supported platform listed in `platforms` and text Markdown formatted.
 
-### Upgrading from a prior repository plugin
-
-If you have an existing 1.0 plugin and want to upgrade to the new format, you'll need to:
-1. Run [generate_plugininfo.py -v](https://github.com/Vector35/sample_plugin/blob/master/generate_plugininfo.py) to verify that your `plugin.json` has all of the required fields for the new plugin manager, and [generate_plugininfo.py -a](https://github.com/Vector35/sample_plugin/blob/master/generate_plugininfo.py) to generate all required files (or check the help and only generate what you need)
-1. [Tag a release](https://help.github.com/en/articles/creating-releases) (you might want to use [hub](https://hub.github.com/hub-release.1.html))
-1. File [an issue](https://github.com/Vector35/community-plugins/issues) to let us know the release and repo we should add
-
-For more information, see the latest Binary Ninja [blog post](https://binary.ninja/2019/07/04/plugin-manager-2.0.html).
-
 ## License
 
-Note that content contained in the root of this repository itself is Copyright 2019, Vector 35, Inc. and [available](LICENSE) under an MIT license, but each individual plugin may be released under a different license.
+Note that content contained in the root of this repository itself is Copyright 2016, Vector 35, Inc. and [available](LICENSE) under an MIT license, but each individual plugin may be released under a different license.
 
 # Binary Ninja Plugins
 
@@ -68,3 +59,4 @@ Note that content contained in the root of this repository itself is Copyright 2
 |[MSP430 Architecture Plugin](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2016-10-10|MIT|architecture, core, ui|A disassembler and lifter for the MSP430 architecture.|
 |[SigMaker](https://github.com/Alex3434/Binja-SigMaker)|[Alex3434](https://github.com/Alex3434)|2018-09-26|MIT|architecture, binaryview, core, ui|Generate Signatures|
 |[Structor](https://github.com/toolCHAINZ/structor)|[toolCHAINZ](https://github.com/toolCHAINZ)|2019-07-04|MIT|helper|A dead-simple automatic struct maker|
+|[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|2019-07-06|MIT|core, ui|A plugin that eases fixing jump table branches|
