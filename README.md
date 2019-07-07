@@ -60,3 +60,8 @@ Note that content contained in the root of this repository itself is Copyright 2
 |[SigMaker](https://github.com/Alex3434/Binja-SigMaker)|[Alex3434](https://github.com/Alex3434)|2018-09-26|MIT|architecture, binaryview, core, ui|Generate Signatures|
 |[Structor](https://github.com/toolCHAINZ/structor)|[toolCHAINZ](https://github.com/toolCHAINZ)|2019-07-04|MIT|helper|A dead-simple automatic struct maker|
 |[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|2019-07-06|MIT|core, ui|A plugin that eases fixing jump table branches|
+|[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|BN and IDA plugins for sharing analysis data between platforms|
+|[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|2019-07-06|MIT|patch|SEGA Megadrive/Genesis ROM Hacking Toolkit|
+|[kallsyms](https://github.com/zznop/bn-kallsyms)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|
+|[binjago](https://github.com/zznop/binjago)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|x86 ROP gadget calculation, libc call annotations, and prologue signature searching|
+|[recursion](https://github.com/zznop/bn-recursion)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|Locate and annotate direct and indirect recursion|

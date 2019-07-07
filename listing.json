@@ -18,5 +18,25 @@
     {
         "name": "Vasco-jofra/jump-table-branch-editor",
         "tag": "v1.0"
+    },
+    {
+        "name": "zznop/bnida",
+        "tag": "1.01"
+    },
+    {
+        "name": "zznop/bn-genesis",
+        "tag": "1.0"
+    },
+    {
+        "name": "zznop/bn-kallsyms",
+        "tag": "1.0"
+    },
+    {
+        "name": "zznop/binjago",
+        "tag": "1.0"
+    },
+    {
+        "name": "zznop/bn-recursion",
+        "tag": "1.0"
     }
 ]
