@@ -38,5 +38,9 @@
     {
         "name": "zznop/bn-recursion",
         "tag": "1.0"
+    },
+    {
+        "name": "bkerler/annotate",
+        "tag": "v1.2"
     }
 ]
