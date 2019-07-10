@@ -241,7 +241,7 @@ def main():
 
 	# Just validate an existing plugin.json
 	if args.validate is not None:
-		if validateRequiredFields(json.load(io.open(args.validate, "r", encoding="utf8"))["plugin"]):
+		if validateRequiredFields(json.load(io.open(args.validate, "r", encoding="utf8"))):
 			print("Successfully validated json file")
 		else:
 			print("Error: json validation failed")
@@ -259,7 +259,7 @@ def main():
 		plugin = generatepluginmetadata()
 	else:
 		try:
-			plugin = json.load(io.open(pluginjson, "r", encoding="utf8"))["plugin"]
+			plugin = json.load(io.open(pluginjson, "r", encoding="utf8"))
 		except json.JSONDecodeError:
 			print("File {} doesn't contain valid json".format(pluginjson))
 			return
@@ -290,7 +290,7 @@ def main():
 		if not skip:
 			print("Creating plugin.json.")
 			with io.open(pluginjson, "w", encoding="utf8") as pluginfile:
-				pluginfile.write(json.dumps({"plugin": plugin}, indent="   "))
+				pluginfile.write(json.dumps(plugin, indent="   "))
 
 	if args.readme:
 		print("-----------------------------------------------------------------")
