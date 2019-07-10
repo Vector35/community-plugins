@@ -42,5 +42,9 @@
     {
         "name": "bkerler/annotate",
         "tag": "v1.2"
+    },
+    {
+        "name":"verylazyguy/binaryninja-vmndh",
+        "tag":"v0.2"
     }
 ]
