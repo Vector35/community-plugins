@@ -46,5 +46,9 @@
     {
         "name":"verylazyguy/binaryninja-vmndh",
         "tag":"v0.2"
+    },
+    {
+        "name":"0x1F9F1/binja-msvc",
+        "tag":"1.0"
     }
 ]
