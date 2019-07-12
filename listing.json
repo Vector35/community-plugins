@@ -50,5 +50,9 @@
     {
         "name":"0x1F9F1/binja-msvc",
         "tag":"1.0"
+    },
+    {
+        "name":"fluxchief/binaryninja_avr",
+        "tag":"0.2"
     }
 ]
