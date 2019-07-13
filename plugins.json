@@ -1944,27 +1944,35 @@
         "minimumBinaryNinjaVersion": 0
     },
     {
-        "name": "bnil-graph",
+        "pluginmetadataversion": 2,
+        "name": "BNIL Instruction Graph",
+        "author": "Ryan Stortz (@withzombies)",
         "type": [
             "ui"
         ],
         "api": [
-            "python2"
+            "python2",
+            "python3"
         ],
-        "description": "A BinaryNinja plugin to graph a BNIL instruction tree",
-        "longdescription": "A BinaryNinja plugin to graph a BNIL instruction tree",
+        "description": "A plugin to graph BNIL instruction trees",
+        "longdescription": "# BNIL Instruction Graph\r\nA BinaryNinja plugin to graph a BNIL instruction tree and meta-program python instruction matchers.\r\n\r\n## Installation\r\n\r\nInstallation is supported two ways, the first using the new plugin manager and the second being a manual install.\r\n\r\n### Plugin Manager\r\nUse the new plugin manager by selecting \"Manage Plugins\" from the \"Edit\" menu. Search the plugin list for \"BNIL Instruction Graph\", right click on it and click \"Install\" then right click again and select \"Enable\".\r\n\r\n## Manual Installation\r\n1. Clone the repository to your prefered location: `$ git clone https://github.com/withzombies/bnil-graph.git`\r\n1. Change to the Binary Ninja plugins directory: `$ cd ~/Library/Application\\ Support/Binary\\ Ninja/plugins`\r\n1. Create a symlink to the folder: `$ ln -s ~/git/bnil-graph .`\r\n1. Restart Binary Ninja\r\n\r\n## Usage\r\n\r\nTo use bnil-graph, right click on an instruction and select \"BNIL Instruction Graph\". This graphs the BNIL instructions assocaited with that address and displays them as an HTML form.\r\n\r\nBinary Ninja adds operand accessors dynamically, due to this the convenient accesors do not show up in `dir()` calls or in the api documentation. bnil-graph shows the structure of the IL instruction including its nice accessor names (such as `insn.src` for the source register or memory)\r\n\r\n![Menu Example](https://raw.githubusercontent.com/withzombies/bnil-graph/master/images/menu.png)\r\n\r\nExample graph:\r\n\r\n![Example Graph](https://raw.githubusercontent.com/withzombies/bnil-graph/master/images/graph.png)\r\n\r\n### Matchers\r\n\r\nIn addition to the graph plugin, bnil-graph also will generate a matcher function that will match the selected instructions exactly. This feature will allow new plugin developers to quickly match instructions. The intended use is to find an instruction similar to the one you want to match, generate a matcher function, then modify the generated function to better support your needs.\r\n\r\nAn example would be trying to find all MediumLevelILSSA MLIL\\_CALL\\_SSA instructions that take 3 parameters. I generated a matcher against an unrelated function with 0 parameters:\r\n\r\n```python\r\ndef match_MediumLevelILSSA_140001194_0(insn):\r\n    # mem#1 = 0x14000d49c() @ mem#0\r\n    if insn.operation != MediumLevelILOperation.MLIL_CALL_SSA:\r\n        return False\r\n\r\n    # invalid\r\n    if insn.output.operation != MediumLevelILOperation.MLIL_CALL_OUTPUT_SSA:\r\n        return False\r\n\r\n    if insn.output.dest_memory != 0x1:\r\n        return False\r\n\r\n    if len(insn.output.dest) != 0:\r\n        return False\r\n\r\n    # 0x14000d49c\r\n    if insn.dest.operation != MediumLevelILOperation.MLIL_CONST_PTR:\r\n        return False\r\n\r\n    if insn.dest.constant != 0x14000d49c:\r\n        return False\r\n\r\n    if len(insn.params) != 0:\r\n        return False\r\n\r\n    if insn.src_memory != 0x0:\r\n        return False\r\n\r\n    return True\r\n```\r\n\r\nWe can modify this to remove some specific constraints:\r\n\r\n```python\r\ndef match_MediumLevelILSSA_140001194_0(insn):\r\n    # mem#1 = 0x14000d49c() @ mem#0\r\n    if insn.operation != MediumLevelILOperation.MLIL_CALL_SSA:\r\n        return False\r\n\r\n    # invalid\r\n    if insn.output.operation != MediumLevelILOperation.MLIL_CALL_OUTPUT_SSA:\r\n        return False\r\n\r\n    # 0x14000d49c\r\n    if insn.dest.operation != MediumLevelILOperation.MLIL_CONST_PTR:\r\n        return False\r\n\r\n    if len(insn.params) != 0:\r\n        return False\r\n\r\n    return True\r\n```\r\n\r\nWe removed the call destination and the memory versioning constraints. Next, update the params check to check for 3 parameters:\r\n\r\n```python\r\ndef match_3_param_MLIL_CALL_SSA(insn):\r\n    if insn.operation != MediumLevelILOperation.MLIL_CALL_SSA:\r\n        return False\r\n\r\n    if insn.output.operation != MediumLevelILOperation.MLIL_CALL_OUTPUT_SSA:\r\n        return False\r\n\r\n    if insn.dest.operation != MediumLevelILOperation.MLIL_CONST_PTR:\r\n        return False\r\n\r\n    if len(insn.params) != 3:\r\n        return False\r\n\r\n    return True\r\n```\r\n\r\nNow, we have a matcher which will identify MLIL\\_CALL\\_SSA instructions with 3 parameters! Now iterate over MLIL SSA instructions and call the matcher and we're done:\r\n\r\n```python\r\nif __name__ == '__main__':\r\n    bv = binaryninja.BinaryViewType.get_view_of_file(sys.argv[1])\r\n    bv.update_analysis_and_wait()\r\n\r\n    for func in bv.functions:\r\n        mlil = func.medium_level_il\r\n\r\n        for block in mlil.ssa_form:\r\n            for insn in block:\r\n                if match_3_param_MLIL_CALL_SSA(insn):\r\n                    print \"Match: {}\".format(insn)\r\n```\r\n\r\nExample matcher:\r\n\r\n![Example Matcher](https://raw.githubusercontent.com/withzombies/bnil-graph/master/images/matcher.png)\r\n\r\n\r\n## License\r\n\r\nThis project copyright Ryan Stortz (@withzombies) and is available under the Apache 2.0 LICENSE.\r\n",
         "license": {
-            "name": "Apache 2.0",
-            "text": "https://github.com/withzombies/bnil-graph/blob/master/LICENSE"
+            "name": "Apache-2.0",
+            "text": "Copyright 2019 Ryan Stortz (@withzombies)\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n\thttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
         },
-        "dependencies": {
-            "pip": [],
-            "apt": []
+        "platforms": [
+            "Darwin",
+            "Windows",
+            "Linux"
+        ],
+        "installinstructions": {
+            "Darwin": "",
+            "Windows": "",
+            "Linux": ""
         },
-        "version": "1.2.0",
-        "author": "Ryan Stortz (@withzombies)",
-        "minimumBinaryNinjaVersion": 0,
-        "lastUpdated": 1562772895,
+        "version": "1.2.1",
+        "minimumbinaryninjaversion": 0,
+        "lastUpdated": 1563023350,
         "projectUrl": "https://github.com/withzombies/bnil-graph",
         "projectData": {
             "id": 100188444,
@@ -2033,8 +2041,8 @@
             "releases_url": "https://api.github.com/repos/withzombies/bnil-graph/releases{/id}",
             "deployments_url": "https://api.github.com/repos/withzombies/bnil-graph/deployments",
             "created_at": "2017-08-13T16:06:22Z",
-            "updated_at": "2019-07-05T17:20:30Z",
-            "pushed_at": "2019-06-27T01:40:20Z",
+            "updated_at": "2019-07-13T13:07:06Z",
+            "pushed_at": "2019-07-13T13:07:43Z",
             "git_url": "git://github.com/withzombies/bnil-graph.git",
             "ssh_url": "git@github.com:withzombies/bnil-graph.git",
             "clone_url": "https://github.com/withzombies/bnil-graph.git",
@@ -2074,10 +2082,9 @@
             "subscribers_count": 6
         },
         "authorUrl": "https://github.com/withzombies",
-        "packageUrl": "https://api.github.com/repos/withzombies/bnil-graph/zipball/v1.2.0",
+        "packageUrl": "https://api.github.com/repos/withzombies/bnil-graph/zipball/v1.2.1",
         "path": "withzombies_bnilgraph",
-        "commit": "fceff92c4ca4d36237ced961930aa30e4c64171e",
-        "platforms": [],
-        "installinstructions": {}
+        "commit": "058a071cdd164881178e456c2881b8aea0186c26",
+        "minimumBinaryNinjaVersion": 0
     }
 ]
