@@ -54,5 +54,9 @@
     {
         "name":"fluxchief/binaryninja_avr",
         "tag":"0.2"
+    },
+    {
+        "name":"withzombies/bnil-graph",
+        "tag":"v1.2.0"
     }
 ]
