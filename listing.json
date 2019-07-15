@@ -58,5 +58,9 @@
     {
         "name":"withzombies/bnil-graph",
         "tag":"v1.2.1"
+    },
+    {
+        "name":"mechanicalnull/sourcery_pane",
+        "tag":"v0.1"
     }
 ]
