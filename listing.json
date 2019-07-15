@@ -62,5 +62,9 @@
     {
         "name":"mechanicalnull/sourcery_pane",
         "tag":"v0.1"
+    },
+    {
+        "name":"vasco-jofra/format-string-finder-binja",
+        "tag":"v1.0"
     }
 ]
