@@ -64,6 +64,10 @@
         "tag":"v0.1"
     },
     {
+        "name":"chame1eon/binaryninja-frida",
+        "tag":"v1.1"
+    },
+    {
         "name":"vasco-jofra/format-string-finder-binja",
         "tag":"v1.0"
     }
