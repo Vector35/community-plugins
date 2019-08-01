@@ -68,7 +68,11 @@
         "tag":"v1.1"
     },
     {
-        "name":"vasco-jofra/format-string-finder-binja",
+        "name":"Vasco-jofra/format-string-finder-binja",
         "tag":"v1.0"
+    },
+    {
+        "name":"wrigjl/binaryninja-m68k",
+        "tag":"v0.2"
     }
 ]
