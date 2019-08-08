@@ -72,6 +72,14 @@
         "tag":"v1.0"
     },
     {
+        "name":"shareef12/driveranalyzer",
+        "tag":"v1.0.0"
+    },
+    {
+        "name":"carstein/Syscaller",
+        "tag":"v1.0"
+    },
+    {
         "name":"wrigjl/binaryninja-m68k",
         "tag":"v0.2"
     }
