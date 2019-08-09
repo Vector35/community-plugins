@@ -80,6 +80,10 @@
         "tag":"v1.0"
     },
     {
+        "name":"404d/peutils",
+        "tag":"v1.0"
+    },
+    {
         "name":"wrigjl/binaryninja-m68k",
         "tag":"v0.2"
     }
