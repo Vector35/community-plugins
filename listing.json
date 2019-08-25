@@ -1,9 +1,5 @@
 [
     {
-        "name": "joshwatson/binaryninja-bookmarks",
-        "tag": "0.2b"
-    },
-    {
         "name": "joshwatson/binaryninja-msp430",
         "tag": "0.1b"
     },
