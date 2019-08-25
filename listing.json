@@ -80,6 +80,10 @@
         "tag":"v1.0"
     },
     {
+        "name":"ForAllSecure/bncov",
+        "tag":"v1.1"
+    },
+    {
         "name":"wrigjl/binaryninja-m68k",
         "tag":"v0.2"
     }
