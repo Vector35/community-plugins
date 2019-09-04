@@ -88,6 +88,10 @@
         "tag":"v1.0"
     },
     {
+        "name":"whitequark/binja_function_abi",
+        "tag":"v1.0"
+    },
+    {
         "name":"wrigjl/binaryninja-m68k",
         "tag":"v0.2"
     }
