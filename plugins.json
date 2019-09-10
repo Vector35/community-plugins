@@ -1,24 +1,35 @@
 [
     {
-        "name": "MSP430 Architecture Plugin",
+        "pluginmetadataversion": 2,
+        "name": "msp430 Architecture",
         "type": [
-            "core",
-            "ui",
             "architecture"
         ],
         "api": [
-            "python2"
+            "python2",
+            "python3"
         ],
-        "description": "A disassembler and lifter for the MSP430 architecture.",
-        "longdescription": "This plugin disassembles MSP430 assembly code and generates LLIL.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/joshwatson/binaryninja-msp430.git msp430```\n\nThen create a python file called `msp430.py` with the contents\n\n```import msp430```",
+        "description": "MSP430 Architecture Plugin for Binary Ninja",
+        "longdescription": "This plugin implements the MSP430 architecture disassembler and lifter for Binary Ninja.",
         "license": {
             "name": "MIT",
-            "text": "Copyright (c) 2016 Josh Watson.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright (c) 2017 Josh Watson\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
-        "version": "0.1b",
+        "platforms": [
+            "Windows",
+            "Linux",
+            "Darwin"
+        ],
+        "installinstructions": {
+            "Windows": "",
+            "Linux": "",
+            "Darwin": ""
+        },
+        "dependencies": {},
+        "version": "0.4",
         "author": "Josh Watson",
-        "minimumBinaryNinjaVersion": 0,
-        "lastUpdated": 1476109076,
+        "minimumbinaryninjaversion": 1689,
+        "lastUpdated": 1567792585,
         "projectUrl": "https://github.com/joshwatson/binaryninja-msp430",
         "projectData": {
             "id": 70267105,
@@ -87,14 +98,14 @@
             "releases_url": "https://api.github.com/repos/joshwatson/binaryninja-msp430/releases{/id}",
             "deployments_url": "https://api.github.com/repos/joshwatson/binaryninja-msp430/deployments",
             "created_at": "2016-10-07T17:11:33Z",
-            "updated_at": "2019-01-17T08:48:21Z",
-            "pushed_at": "2019-07-16T04:07:15Z",
+            "updated_at": "2019-09-06T17:48:47Z",
+            "pushed_at": "2019-09-06T17:49:23Z",
             "git_url": "git://github.com/joshwatson/binaryninja-msp430.git",
             "ssh_url": "git@github.com:joshwatson/binaryninja-msp430.git",
             "clone_url": "https://github.com/joshwatson/binaryninja-msp430.git",
             "svn_url": "https://github.com/joshwatson/binaryninja-msp430",
             "homepage": null,
-            "size": 37,
+            "size": 39,
             "stargazers_count": 19,
             "watchers_count": 19,
             "language": "Python",
@@ -128,11 +139,10 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/joshwatson",
-        "packageUrl": "https://api.github.com/repos/joshwatson/binaryninja-msp430/zipball/0.1b",
+        "packageUrl": "https://api.github.com/repos/joshwatson/binaryninja-msp430/zipball/0.4",
         "path": "joshwatson_binaryninjamsp430",
-        "commit": "ce8122b6ea2b5062f298ca9e254646f8cc46c812",
-        "platforms": [],
-        "installinstructions": {}
+        "commit": "59b51a61c8189bcadd7cba64ff449255aeb1ec0a",
+        "minimumBinaryNinjaVersion": 0
     },
     {
         "name": "SigMaker",
@@ -2911,7 +2921,7 @@
             "releases_url": "https://api.github.com/repos/ForAllSecure/bncov/releases{/id}",
             "deployments_url": "https://api.github.com/repos/ForAllSecure/bncov/deployments",
             "created_at": "2019-05-01T17:47:24Z",
-            "updated_at": "2019-08-19T21:21:35Z",
+            "updated_at": "2019-09-10T02:14:15Z",
             "pushed_at": "2019-08-19T21:22:09Z",
             "git_url": "git://github.com/ForAllSecure/bncov.git",
             "ssh_url": "git@github.com:ForAllSecure/bncov.git",
@@ -2919,8 +2929,8 @@
             "svn_url": "https://github.com/ForAllSecure/bncov",
             "homepage": null,
             "size": 5338,
-            "stargazers_count": 41,
-            "watchers_count": 41,
+            "stargazers_count": 47,
+            "watchers_count": 47,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -2941,7 +2951,7 @@
             },
             "forks": 5,
             "open_issues": 0,
-            "watchers": 41,
+            "watchers": 47,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -3222,7 +3232,7 @@
             "clone_url": "https://github.com/whitequark/binja_function_abi.git",
             "svn_url": "https://github.com/whitequark/binja_function_abi",
             "homepage": "",
-            "size": 62,
+            "size": 63,
             "stargazers_count": 4,
             "watchers_count": 4,
             "language": "Python",
