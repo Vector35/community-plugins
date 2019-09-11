@@ -92,6 +92,10 @@
         "tag":"v1.0"
     },
     {
+        "name":"bowline90/BinRida",
+        "tag":"v0.9"
+    },
+    {
         "name":"wrigjl/binaryninja-m68k",
         "tag":"v0.2"
     }
