@@ -92,11 +92,23 @@
         "tag":"v1.0"
     },
     {
+        "name":"whitequark/binja_itanium_cxx_abi",
+        "tag":"v1.0"
+    },
+    {
+        "name":"whitequark/binja-i8086",
+        "tag":"v0.1"
+    },
+    {
         "name":"bowline90/Instruction_Slicer",
         "tag":"v1.0"
     },
     {
         "name":"bowline90/BinRida",
+        "tag":"v1.0"
+    },
+    {
+        "name":"icecr4ck/bnGB",
         "tag":"v1.0"
     },
     {
