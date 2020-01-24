@@ -100,6 +100,10 @@
         "tag":"v0.1"
     },
     {
+        "name":"whitequark/binja-m16c",
+        "tag":"v1.0"
+    },
+    {
         "name":"bowline90/Instruction_Slicer",
         "tag":"v1.0"
     },
