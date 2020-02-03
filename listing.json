@@ -118,5 +118,9 @@
     {
         "name":"wrigjl/binaryninja-m68k",
         "tag":"v0.2"
+    },
+    {
+        "name":"toolCHAINZ/DUMB",
+        "tag":"v1.0.1"
     }
 ]
