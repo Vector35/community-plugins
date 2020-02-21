@@ -251,7 +251,7 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 0,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -263,7 +263,7 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 0,
+            "forks": 1,
             "open_issues": 2,
             "watchers": 3,
             "default_branch": "master",
@@ -273,7 +273,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 0,
+            "network_count": 1,
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/Alex3434",
@@ -520,7 +520,7 @@
             "releases_url": "https://api.github.com/repos/zznop/bnida/releases{/id}",
             "deployments_url": "https://api.github.com/repos/zznop/bnida/deployments",
             "created_at": "2018-06-02T04:46:19Z",
-            "updated_at": "2020-01-25T15:49:33Z",
+            "updated_at": "2020-02-21T13:41:29Z",
             "pushed_at": "2019-12-28T04:39:52Z",
             "git_url": "git://github.com/zznop/bnida.git",
             "ssh_url": "git@github.com:zznop/bnida.git",
@@ -1987,7 +1987,6 @@
             "helper"
         ],
         "api": [
-            "python2",
             "python3"
         ],
         "pluginmetadataversion": 2,
@@ -2015,10 +2014,10 @@
             "installers": [],
             "other": []
         },
-        "version": "1.0 alpha",
+        "version": "1.2.0",
         "author": "Chame1eon",
         "minimumbinaryninjaversion": 576,
-        "lastUpdated": 1564322602,
+        "lastUpdated": 1582138086,
         "projectUrl": "https://github.com/chame1eon/binaryninja-frida",
         "projectData": {
             "id": 106464422,
@@ -2087,14 +2086,14 @@
             "releases_url": "https://api.github.com/repos/chame1eon/binaryninja-frida/releases{/id}",
             "deployments_url": "https://api.github.com/repos/chame1eon/binaryninja-frida/deployments",
             "created_at": "2017-10-10T19:55:44Z",
-            "updated_at": "2020-01-15T11:29:26Z",
-            "pushed_at": "2019-07-28T14:03:22Z",
+            "updated_at": "2020-02-19T18:47:51Z",
+            "pushed_at": "2020-02-19T18:48:06Z",
             "git_url": "git://github.com/chame1eon/binaryninja-frida.git",
             "ssh_url": "git@github.com:chame1eon/binaryninja-frida.git",
             "clone_url": "https://github.com/chame1eon/binaryninja-frida.git",
             "svn_url": "https://github.com/chame1eon/binaryninja-frida",
             "homepage": null,
-            "size": 12,
+            "size": 30,
             "stargazers_count": 22,
             "watchers_count": 22,
             "language": "Python",
@@ -2103,7 +2102,7 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 2,
+            "forks_count": 3,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -2115,7 +2114,7 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 2,
+            "forks": 3,
             "open_issues": 0,
             "watchers": 22,
             "default_branch": "master",
@@ -2125,13 +2124,13 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 2,
+            "network_count": 3,
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/chame1eon",
-        "packageUrl": "https://api.github.com/repos/chame1eon/binaryninja-frida/zipball/v1.1",
+        "packageUrl": "https://api.github.com/repos/chame1eon/binaryninja-frida/zipball/v1.2.0",
         "path": "chame1eon_binaryninjafrida",
-        "commit": "fff84b09df9dafc130e8460eff7ac76b27a4f946",
+        "commit": "23e1e2659727518b5d5cf861c4e16c0819628abb",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -2803,7 +2802,7 @@
             "releases_url": "https://api.github.com/repos/ForAllSecure/bncov/releases{/id}",
             "deployments_url": "https://api.github.com/repos/ForAllSecure/bncov/deployments",
             "created_at": "2019-05-01T17:47:24Z",
-            "updated_at": "2020-02-02T17:04:24Z",
+            "updated_at": "2020-02-18T06:42:18Z",
             "pushed_at": "2019-10-21T22:31:03Z",
             "git_url": "git://github.com/ForAllSecure/bncov.git",
             "ssh_url": "git@github.com:ForAllSecure/bncov.git",
@@ -2811,8 +2810,8 @@
             "svn_url": "https://github.com/ForAllSecure/bncov",
             "homepage": null,
             "size": 5414,
-            "stargazers_count": 59,
-            "watchers_count": 59,
+            "stargazers_count": 60,
+            "watchers_count": 60,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -2833,7 +2832,7 @@
             },
             "forks": 9,
             "open_issues": 0,
-            "watchers": 59,
+            "watchers": 60,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -3270,7 +3269,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "other",
                 "name": "Other",
@@ -3279,7 +3278,7 @@
                 "node_id": "MDc6TGljZW5zZTA="
             },
             "forks": 3,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 34,
             "default_branch": "master",
             "permissions": {
@@ -3536,7 +3535,7 @@
             "deployments_url": "https://api.github.com/repos/whitequark/binja-m16c/deployments",
             "created_at": "2020-01-14T22:07:10Z",
             "updated_at": "2020-02-04T11:01:07Z",
-            "pushed_at": "2020-02-03T08:44:27Z",
+            "pushed_at": "2020-02-14T21:08:54Z",
             "git_url": "git://github.com/whitequark/binja-m16c.git",
             "ssh_url": "git@github.com:whitequark/binja-m16c.git",
             "clone_url": "https://github.com/whitequark/binja-m16c.git",
@@ -3551,11 +3550,11 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 1,
+            "forks_count": 2,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 0,
+            "open_issues_count": 1,
             "license": {
                 "key": "0bsd",
                 "name": "BSD Zero Clause License",
@@ -3563,8 +3562,8 @@
                 "url": "https://api.github.com/licenses/0bsd",
                 "node_id": "MDc6TGljZW5zZTM1"
             },
-            "forks": 1,
-            "open_issues": 0,
+            "forks": 2,
+            "open_issues": 1,
             "watchers": 7,
             "default_branch": "master",
             "permissions": {
@@ -3573,7 +3572,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 1,
+            "network_count": 2,
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/whitequark",
@@ -4453,8 +4452,8 @@
             "releases_url": "https://api.github.com/repos/toolCHAINZ/DUMB/releases{/id}",
             "deployments_url": "https://api.github.com/repos/toolCHAINZ/DUMB/deployments",
             "created_at": "2020-01-24T23:09:33Z",
-            "updated_at": "2020-02-09T13:36:46Z",
-            "pushed_at": "2020-02-09T13:37:39Z",
+            "updated_at": "2020-02-21T14:01:31Z",
+            "pushed_at": "2020-02-14T20:44:59Z",
             "git_url": "git://github.com/toolCHAINZ/DUMB.git",
             "ssh_url": "git@github.com:toolCHAINZ/DUMB.git",
             "clone_url": "https://github.com/toolCHAINZ/DUMB.git",
@@ -4469,11 +4468,11 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 1,
+            "forks_count": 2,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 2,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -4481,8 +4480,8 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 1,
-            "open_issues": 1,
+            "forks": 2,
+            "open_issues": 2,
             "watchers": 3,
             "default_branch": "master",
             "permissions": {
@@ -4491,7 +4490,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 1,
+            "network_count": 2,
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/toolCHAINZ",
