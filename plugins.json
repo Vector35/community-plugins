@@ -2230,7 +2230,7 @@
             "releases_url": "https://api.github.com/repos/Vasco-jofra/format-string-finder-binja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vasco-jofra/format-string-finder-binja/deployments",
             "created_at": "2019-07-15T10:10:28Z",
-            "updated_at": "2020-02-11T14:43:29Z",
+            "updated_at": "2020-02-22T13:10:43Z",
             "pushed_at": "2019-07-15T14:57:20Z",
             "git_url": "git://github.com/Vasco-jofra/format-string-finder-binja.git",
             "ssh_url": "git@github.com:Vasco-jofra/format-string-finder-binja.git",
@@ -2238,8 +2238,8 @@
             "svn_url": "https://github.com/Vasco-jofra/format-string-finder-binja",
             "homepage": null,
             "size": 2365,
-            "stargazers_count": 13,
-            "watchers_count": 13,
+            "stargazers_count": 14,
+            "watchers_count": 14,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2260,7 +2260,7 @@
             },
             "forks": 0,
             "open_issues": 0,
-            "watchers": 13,
+            "watchers": 14,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -4366,7 +4366,7 @@
             "python3"
         ],
         "description": "DUMB: An Example Architecture for Binary Ninja",
-        "longdescription": "![DUMB Logo](https://github.com/toolCHAINZ/DUMB/blob/master/dumb.svg)\r\n\r\nThis is a very simple architecture (and executable format) made for the purpose of teaching how to write Binja loaders and architectures.\r\n\r\nMy hope for this repo is that it can be a simple teaching resource for this topic. While it covers the basics, it leaves some important topics (like flags) uncovered. PRs welcome!\r\n\r\nAn example \"firmware image\" is included [here](https://github.com/toolCHAINZ/DUMB/blob/master/test.bin)\r\n\r\n# DUMB Architecture\r\n\r\nFollowing is a description of the architecture. In this document, we use the following format to specify bitfields:\r\n\r\n`0:xxyy` represents a single byte: `0` means that the first (upper) nibble of the byte is zero, while `xxyy` indicates two 2-bit fields making up the lower nibble of the byte.\r\n\r\n## Registers\r\n\r\n* `sp` (stack pointer)\r\n* `r0` (GPR)\r\n* `r1` (GPR)\r\n* `r2` (GPR)\r\n* `r3` (GPR)\r\n\r\n## Instructions\r\n\r\n### One Byte Instructions\r\n\r\n| Format   | Tokenization  | Meaning                                                              |\r\n| -------- | ------------  | ------------------------------------                                 |\r\n| `0:xxyy` | `mov rx ry`   | Move the value in `ry` into `rx`                                     |\r\n| `1:xxyy` | `add rx ry`   | Add the values of `ry` and `rx` and store the result in `rx`         |\r\n| `2:xxyy` | `and rx ry`   | And the values of `ry` and `rx` and store the result in `rx`         |\r\n| `3:xxyy` | `or rx ry`    | Or the values of `ry` and `rx` and store the result in `rx`          |\r\n| `4:xxyy` | `xor rx ry`   | Xor the values of `ry` and `rx` and store the result in `rx`         |\r\n| `9:____` | `ret`         | Return from the current function to the address stored on the stack. |\r\n\r\n### Five Byte Instructions\r\n| Format               |  Tokenization          |   Meaning                                                                        |\r\n| -------------------- | ---------------------- | -------------------------------------------------------------------------------- |\r\n| `a0 XX XX XX XX`     | `call XXXXXXXXX`       | Push `addr + 5` onto the stack and transfer execution to `XXXXXXXX` (little endian dword) |\r\n| `7:xxyy XX XX XX XX` | `jlt rx, ry, XXXXXXXX` | If `rx` is less than `ry`, jump to `XXXXXXXX`, otherwise continue to next instr  |\r\n| `8:__rr XX XX XX XX` | `mov rr, XXXXXXXX`     | Move the immediate `XXXXXXXX` into `rr`                                          |\r\n\r\n# DUMB Format\r\n\r\nDUMB files are extremely simple, containing only magic, and metadata for a single section. The format is as follows:\r\n\r\n| Offset | Length | Contents (if applicable) | Description                                                |\r\n| ------ | ------ | ------------------------ | ---------------------------------------------              |\r\n| 0      | 4      | \"`DUMB`\"                 | Magic                                                      |\r\n| 4      | 4      |          N/A             | Section length stored as little endian dword               |\r\n| 8      | 4      |            N/A           | Address to load section at, stored as little endian dword  |\r\n\r\n",
+        "longdescription": "![DUMB logo](https://raw.githubusercontent.com/toolCHAINZ/DUMB/master/dumb.svg?sanitize=true =400x800)\r\n\r\nThis is a very simple architecture (and executable format) made for the purpose of teaching how to write Binja loaders and architectures.\r\n\r\nMy hope for this repo is that it can be a simple teaching resource for this topic. While it covers the basics, it leaves some important topics (like flags) uncovered. PRs welcome!\r\n\r\nAn example \"firmware image\" is included [here](https://github.com/toolCHAINZ/DUMB/blob/master/test.bin)\r\n\r\n# DUMB Architecture\r\n\r\nFollowing is a description of the architecture. In this document, we use the following format to specify bitfields:\r\n\r\n`0:xxyy` represents a single byte: `0` means that the first (upper) nibble of the byte is zero, while `xxyy` indicates two 2-bit fields making up the lower nibble of the byte.\r\n\r\n## Registers\r\n\r\n* `sp` (stack pointer)\r\n* `r0` (GPR)\r\n* `r1` (GPR)\r\n* `r2` (GPR)\r\n* `r3` (GPR)\r\n\r\n## Instructions\r\n\r\n### One Byte Instructions\r\n\r\n| Format   | Tokenization  | Meaning                                                              |\r\n| -------- | ------------  | ------------------------------------                                 |\r\n| `0:xxyy` | `mov rx ry`   | Move the value in `ry` into `rx`                                     |\r\n| `1:xxyy` | `add rx ry`   | Add the values of `ry` and `rx` and store the result in `rx`         |\r\n| `2:xxyy` | `and rx ry`   | And the values of `ry` and `rx` and store the result in `rx`         |\r\n| `3:xxyy` | `or rx ry`    | Or the values of `ry` and `rx` and store the result in `rx`          |\r\n| `4:xxyy` | `xor rx ry`   | Xor the values of `ry` and `rx` and store the result in `rx`         |\r\n| `9:____` | `ret`         | Return from the current function to the address stored on the stack. |\r\n\r\n### Five Byte Instructions\r\n| Format               |  Tokenization          |   Meaning                                                                        |\r\n| -------------------- | ---------------------- | -------------------------------------------------------------------------------- |\r\n| `a0 XX XX XX XX`     | `call XXXXXXXXX`       | Push `addr + 5` onto the stack and transfer execution to `XXXXXXXX` (little endian dword) |\r\n| `7:xxyy XX XX XX XX` | `jlt rx, ry, XXXXXXXX` | If `rx` is less than `ry`, jump to `XXXXXXXX`, otherwise continue to next instr  |\r\n| `8:__rr XX XX XX XX` | `mov rr, XXXXXXXX`     | Move the immediate `XXXXXXXX` into `rr`                                          |\r\n\r\n# DUMB Format\r\n\r\nDUMB files are extremely simple, containing only magic, and metadata for a single section. The format is as follows:\r\n\r\n| Offset | Length | Contents (if applicable) | Description                                                |\r\n| ------ | ------ | ------------------------ | ---------------------------------------------              |\r\n| 0      | 4      | \"`DUMB`\"                 | Magic                                                      |\r\n| 4      | 4      |          N/A             | Section length stored as little endian dword               |\r\n| 8      | 4      |            N/A           | Address to load section at, stored as little endian dword  |\r\n\r\n",
         "license": {
             "name": "MIT",
             "text": "Copyright 2020 toolCHAINZ\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -4383,7 +4383,7 @@
         },
         "version": "1.0.0",
         "minimumbinaryninjaversion": 1921,
-        "lastUpdated": 1581255459,
+        "lastUpdated": 1583087498,
         "projectUrl": "https://github.com/toolCHAINZ/DUMB",
         "projectData": {
             "id": 236098993,
@@ -4452,14 +4452,14 @@
             "releases_url": "https://api.github.com/repos/toolCHAINZ/DUMB/releases{/id}",
             "deployments_url": "https://api.github.com/repos/toolCHAINZ/DUMB/deployments",
             "created_at": "2020-01-24T23:09:33Z",
-            "updated_at": "2020-02-21T14:01:31Z",
-            "pushed_at": "2020-02-14T20:44:59Z",
+            "updated_at": "2020-03-01T18:30:09Z",
+            "pushed_at": "2020-03-01T18:31:38Z",
             "git_url": "git://github.com/toolCHAINZ/DUMB.git",
             "ssh_url": "git@github.com:toolCHAINZ/DUMB.git",
             "clone_url": "https://github.com/toolCHAINZ/DUMB.git",
             "svn_url": "https://github.com/toolCHAINZ/DUMB",
             "homepage": null,
-            "size": 35,
+            "size": 40,
             "stargazers_count": 3,
             "watchers_count": 3,
             "language": "Python",
@@ -4472,7 +4472,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -4481,7 +4481,7 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 3,
             "default_branch": "master",
             "permissions": {
@@ -4494,9 +4494,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/toolCHAINZ",
-        "packageUrl": "https://api.github.com/repos/toolCHAINZ/DUMB/zipball/v1.0.2",
+        "packageUrl": "https://api.github.com/repos/toolCHAINZ/DUMB/zipball/v1.0.3",
         "path": "toolCHAINZ_DUMB",
-        "commit": "19221b41464861d95080cea4b132d7f6a8024b69",
+        "commit": "4aa106b0002f11b00349b3fffa3565c19de86d5a",
         "minimumBinaryNinjaVersion": 0
     }
 ]
