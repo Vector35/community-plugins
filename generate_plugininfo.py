@@ -200,7 +200,7 @@ _{description}_
 ## Description:
 {longdescription}
 {install}
-## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * {minimum}\n"
+## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * {minimum}\n
 {dependencies}
 ## License\n\nThis plugin is released under a {license} license.
 ## Metadata Version\n\n{metadataVersion}\n"""
