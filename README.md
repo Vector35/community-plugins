@@ -55,13 +55,11 @@ Note that content contained in the root of this repository itself is Copyright 2
 
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
-|[Bookmarks](https://github.com/joshwatson/binaryninja-bookmarks)|[Josh Watson](https://github.com/joshwatson)|2016-10-11|MIT|core, ui|A plugin that adds bookmarking functionality.|
-|[MSP430 Architecture Plugin](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2016-10-10|MIT|architecture, core, ui|A disassembler and lifter for the MSP430 architecture.|
+|[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2019-09-06|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
 |[SigMaker](https://github.com/Alex3434/Binja-SigMaker)|[Alex3434](https://github.com/Alex3434)|2018-09-26|MIT|architecture, binaryview, core, ui|Generate Signatures|
-|[Structor](https://github.com/toolCHAINZ/structor)|[toolCHAINZ](https://github.com/toolCHAINZ)|2019-07-04|MIT|helper|A dead-simple automatic struct maker|
 |[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|2019-07-06|MIT|core, ui|A plugin that eases fixing jump table branches|
 |[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|BN and IDA plugins for sharing analysis data between platforms|
-|[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|2019-07-06|MIT|patch|SEGA Megadrive/Genesis ROM Hacking Toolkit|
+|[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|2019-07-23|MIT|patch|SEGA Megadrive/Genesis ROM Hacking Toolkit|
 |[kallsyms](https://github.com/zznop/bn-kallsyms)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|
 |[binjago](https://github.com/zznop/binjago)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|x86 ROP gadget calculation, libc call annotations, and prologue signature searching|
 |[recursion](https://github.com/zznop/bn-recursion)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|Locate and annotate direct and indirect recursion|
@@ -71,3 +69,19 @@ Note that content contained in the root of this repository itself is Copyright 2
 |[AVR Architecture Plugin](https://github.com/fluxchief/binaryninja_avr)|[Kevin Hamacher](https://github.com/fluxchief)|2019-07-12|MIT|architecture, binaryview|AVR architecture plugin + lifter.|
 |[BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|2019-07-13|Apache-2.0|ui|A plugin to graph BNIL instruction trees|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|2019-07-14|MIT|helper, ui|Synchronized source code pane for debug binaries|
+|[Frida](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|2020-02-19|MIT|helper|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
+|[Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|[jofra](https://github.com/Vasco-jofra)|2019-07-15|MIT|helper|Finds format string vulnerabilities|
+|[Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|[shareef12](https://github.com/shareef12)|2019-08-07|MIT|helper|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|
+|[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski](https://github.com/carstein)|2019-07-15|MIT|helper|Decorate encountered syscalls with details like name and arguments|
+|[peutils](https://github.com/404d/peutils)|[Simen Lybekk](https://github.com/404d)|2019-08-09|MIT|helper|Binary Ninja plugin providing various niche utilities for working with PE binaries|
+|[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|2019-10-01|MIT|helper|Code coverage analysis and visualization plugin|
+|[SVD Memory Map Parser](https://github.com/ehntoo/binaryninja-svd)|[Mitchell Johnson (@ehntoo)](https://github.com/ehntoo)|2019-10-06|MIT or Apache 2.0|helper|A parser for the CMSIS System View Description format|
+|[Function ABI](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|2019-09-04|BSD-0-clause|ui|A plugin that adds a GUI for changing function ABI.|
+|[Itanium C++ ABI](https://github.com/whitequark/binja_itanium_cxx_abi)|[whitequark](https://github.com/whitequark)|2019-09-04|BSD-0-clause|analysis|A plugin providing an analysis for Itanium C++ ABI.|
+|[Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|[whitequark](https://github.com/whitequark)|2019-09-04|BSD-0-clause|arch|A plugin providing the 16-bit Intel architecture.|
+|[Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|[whitequark](https://github.com/whitequark)|2020-01-19|BSD-0-clause|architecture|A plugin providing the Renesas M16C architecture.|
+|[Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2019-10-04|MIT|helper|Forward and backward instruction slicer|
+|[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2019-09-26|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
+|[Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|[Hugo Porcher (@icecr4ck)](https://github.com/icecr4ck)|2020-01-12|MIT|architecture, binaryview|A loader and diassembler for Game Boy ROMs.|
+|[Motorola 68k Architecture Plugin](https://github.com/wrigjl/binaryninja-m68k)|[Alex Forencich](https://github.com/wrigjl)|2019-08-01|MIT|architecture|A disassembler and lifter for the Motorola 68k architecture.|
+|[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-03-01|MIT|architecture, binaryview|DUMB: An Example Architecture for Binary Ninja|

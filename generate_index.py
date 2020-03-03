@@ -46,6 +46,7 @@ def getPluginJson(plugin):
         releaseData = getfile(releases).json()
         if "message" in releaseData and releaseData["message"] == "Not Found":
             print("\n\nERROR: {}, Couldn't get release information. Likely the user created a tag but no associated release.\n".format(plugin['name']))
+            print("Tried to use URL: {}".format(releases))
             return None
     except requests.exceptions.HTTPError:
         print(" Unable get get url {}".format(releases))
@@ -115,8 +116,8 @@ def main():
     parser = argparse.ArgumentParser(description="Produce 'plugins.json' for plugin repository.")
     parser.add_argument("-i", "--initialize", action="store_true", default=False,
         help="For first time running the command against the old format")
-    parser.add_argument("-r", "--readme", action="store_true", default=False,
-        help="Generate README.md")
+    parser.add_argument("-r", "--readmeskip", action="store_true", default=False,
+        help="Skip generating a README.md")
     parser.add_argument("-l", "--listing", action="store", default="listing.json")
     parser.add_argument("username")
     parser.add_argument("token")
@@ -180,7 +181,7 @@ def main():
     with open(pluginjson, "w") as pluginsFile:
         json.dump(allPluginsList, pluginsFile, indent="    ")
 
-    if args.readme:
+    if not args.readmeskip:
         info = ""
         if os.path.exists("INFO"):
             info = open("INFO", encoding="utf-8").read() + u"\n"
