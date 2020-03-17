@@ -196,14 +196,28 @@ def generatepluginmetadata():
 
 readmeTemplate = u"""# {name} (v{version})
 Author: **{author}**
+
 _{description}_
+
 ## Description:
+
 {longdescription}
 {install}
-## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * {minimum}\n
+
+## Minimum Version
+
+This plugin requires the following minimum version of Binary Ninja:
+
+* {minimum}
+
 {dependencies}
-## License\n\nThis plugin is released under a {license} license.
-## Metadata Version\n\n{metadataVersion}\n"""
+## License
+
+This plugin is released under a {license} license.
+## Metadata Version
+
+{metadataVersion}
+"""
 
 def generateReadme(plugin):
 		install = None
