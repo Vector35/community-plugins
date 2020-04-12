@@ -68,6 +68,7 @@ Note that content contained in the root of this repository itself is Copyright 2
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|2019-07-12|MIT|helper|Parses MSVC structures to improve analysis|
 |[AVR Architecture Plugin](https://github.com/fluxchief/binaryninja_avr)|[Kevin Hamacher](https://github.com/fluxchief)|2019-07-12|MIT|architecture, binaryview|AVR architecture plugin + lifter.|
 |[BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|2019-07-13|Apache-2.0|ui|A plugin to graph BNIL instruction trees|
+|[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|2020-04-11|Apache-2.0|binaryview|Assistant plugin for vulnerability research.|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|2019-07-14|MIT|helper, ui|Synchronized source code pane for debug binaries|
 |[Frida](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|2020-02-19|MIT|helper|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
 |[Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|[jofra](https://github.com/Vasco-jofra)|2019-07-15|MIT|helper|Finds format string vulnerabilities|
