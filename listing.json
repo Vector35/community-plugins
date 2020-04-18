@@ -80,6 +80,10 @@
         "tag":"v1.0"
     },
     {
+        "name":"404d/autoutils",
+        "tag":"v0.1"
+    },
+    {
         "name":"ForAllSecure/bncov",
         "tag":"v1.2"
     },
