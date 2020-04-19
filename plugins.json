@@ -1792,7 +1792,7 @@
             "releases_url": "https://api.github.com/repos/withzombies/bnil-graph/releases{/id}",
             "deployments_url": "https://api.github.com/repos/withzombies/bnil-graph/deployments",
             "created_at": "2017-08-13T16:06:22Z",
-            "updated_at": "2020-04-17T19:09:08Z",
+            "updated_at": "2020-04-19T02:33:37Z",
             "pushed_at": "2020-04-17T19:09:56Z",
             "git_url": "git://github.com/withzombies/bnil-graph.git",
             "ssh_url": "git@github.com:withzombies/bnil-graph.git",
@@ -1800,8 +1800,8 @@
             "svn_url": "https://github.com/withzombies/bnil-graph",
             "homepage": null,
             "size": 1159,
-            "stargazers_count": 41,
-            "watchers_count": 41,
+            "stargazers_count": 42,
+            "watchers_count": 42,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1822,7 +1822,7 @@
             },
             "forks": 5,
             "open_issues": 0,
-            "watchers": 41,
+            "watchers": 42,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -1942,23 +1942,23 @@
             "releases_url": "https://api.github.com/repos/Martyx00/VulnFanatic/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/VulnFanatic/deployments",
             "created_at": "2020-04-11T11:50:15Z",
-            "updated_at": "2020-04-17T22:06:22Z",
-            "pushed_at": "2020-04-17T10:16:39Z",
+            "updated_at": "2020-04-19T11:24:23Z",
+            "pushed_at": "2020-04-18T11:24:06Z",
             "git_url": "git://github.com/Martyx00/VulnFanatic.git",
             "ssh_url": "git@github.com:Martyx00/VulnFanatic.git",
             "clone_url": "https://github.com/Martyx00/VulnFanatic.git",
             "svn_url": "https://github.com/Martyx00/VulnFanatic",
             "homepage": null,
-            "size": 24,
-            "stargazers_count": 16,
-            "watchers_count": 16,
+            "size": 29,
+            "stargazers_count": 21,
+            "watchers_count": 21,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 0,
+            "forks_count": 3,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -1970,9 +1970,9 @@
                 "url": "https://api.github.com/licenses/apache-2.0",
                 "node_id": "MDc6TGljZW5zZTI="
             },
-            "forks": 0,
+            "forks": 3,
             "open_issues": 0,
-            "watchers": 16,
+            "watchers": 21,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -1980,8 +1980,8 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 0,
-            "subscribers_count": 2
+            "network_count": 3,
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Martyx00",
         "packageUrl": "https://api.github.com/repos/Martyx00/VulnFanatic/zipball/v1.0",
@@ -2716,10 +2716,10 @@
             "helper"
         ],
         "api": [
-            "python2"
+            "python3"
         ],
         "description": "Binary Ninja plugin providing various niche utilities for working with PE binaries",
-        "longdescription": "Utilities for fetching analysis details like function signatures and symbol names from one binaryview to another",
+        "longdescription": "# Binary Ninja PE Utils\nBunch'a niche utilities for working with PE-based binaries.\n\n## Features\n\n### Resolve ordinal imports\nOrdinal imports can be resolved to symbol names from external BNDBs.\nIf you rename an exported function in the external BNDB, the name you\ndefined will be used instead of the original export name.\n\nGiven an example import as shown below:\n\n![Import table with unresolved ordinals](https://raw.githubusercontent.com/404d/peutils/master/screens/table_not_loaded.png)\n\n![IAT with unresolved ordinals](https://raw.githubusercontent.com/404d/peutils/master/screens/iat_unsynced.png)\n\nBy loading a binary view for `OLEAUT32.dll`, we can update the import\nnames for the target binary view with the real name behind the import:\n\n![Import table with resolved ordinals](https://raw.githubusercontent.com/404d/peutils/master/screens/table_loaded.png)\n\n![IAT with resolved ordinals](https://raw.githubusercontent.com/404d/peutils/master/screens/iat_synced.png)\n\n\n### Synchronize symbol names and types across binaries\nTypes defined in external BNDBs can be transferred to the current binary\nview in order to aid with reversing.\n\nContinuing from the above example, we can rename the arg of the function\n`SysStringLen` from the external BNDB `OLEAUT32.dll`:\n\n![Function with renamed argument](https://raw.githubusercontent.com/404d/peutils/master/screens/func_renamed_arg.png)\n\nWhen synced, the IAT will be updated with the new argument:\n\n![IAT with renamed argument](screens/iat_renamed.png)\n\nWe can also see that the new argument is exposed through other\ndisassembly views, like MLIL:\n\n![MLIL call with renamed argument](https://raw.githubusercontent.com/404d/peutils/master/screens/mlil_renamed_arg.png)\n\nAs mentioned earlier, symbol names also get transferred between loaded BNDBs.\nRenaming the export from the external BNDB then resyncing, we can see that the\nchanges is transferred to the target binary view:\n\n![Function with renamed symbol](https://raw.githubusercontent.com/404d/peutils/master/screens/func_renamed_sym.png)\n\n![MLIL call with renamed symbol](https://raw.githubusercontent.com/404d/peutils/master/screens/mlil_renamed_sym.png)\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2017-2019 Simen Lybekk\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -2735,10 +2735,10 @@
             "Darwin": "Download or clone the github repo and place it in your plugins folder: https://github.com/404d/peutils"
         },
         "dependencies": {},
-        "minimumbinaryninjaversion": 0,
-        "version": "1.0",
-        "author": "Simen Lybekk",
-        "lastUpdated": 1565381935,
+        "minimumbinaryninjaversion": 2906,
+        "version": "1.1",
+        "author": "404'd",
+        "lastUpdated": 1587212380,
         "projectUrl": "https://github.com/404d/peutils",
         "projectData": {
             "id": 178216316,
@@ -2807,14 +2807,14 @@
             "releases_url": "https://api.github.com/repos/404d/peutils/releases{/id}",
             "deployments_url": "https://api.github.com/repos/404d/peutils/deployments",
             "created_at": "2019-03-28T14:06:58Z",
-            "updated_at": "2019-10-01T21:19:18Z",
-            "pushed_at": "2019-10-01T21:19:17Z",
+            "updated_at": "2020-04-18T12:05:17Z",
+            "pushed_at": "2020-04-18T12:18:02Z",
             "git_url": "git://github.com/404d/peutils.git",
             "ssh_url": "git@github.com:404d/peutils.git",
             "clone_url": "https://github.com/404d/peutils.git",
             "svn_url": "https://github.com/404d/peutils",
             "homepage": null,
-            "size": 271,
+            "size": 273,
             "stargazers_count": 2,
             "watchers_count": 2,
             "language": "Python",
@@ -2827,7 +2827,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -2836,7 +2836,7 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 2,
             "default_branch": "master",
             "permissions": {
@@ -2849,9 +2849,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/404d",
-        "packageUrl": "https://api.github.com/repos/404d/peutils/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/404d/peutils/zipball/v1.1",
         "path": "404d_peutils",
-        "commit": "dc3e804e0bab4289c741efe94d6a5b4c5bb19bc7",
+        "commit": "3c5dca41eb8487310d67abf1902374aaaa42e0b9",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -2864,7 +2864,7 @@
             "python3"
         ],
         "description": "Various auto analysis utilities",
-        "longdescription": "Auto Utils provides various helpers for automatically discovering features about a binary.\n\nSome examples:\n* Renaming of methods based on logging with method names\n* That's it right now, sorry",
+        "longdescription": "# Binary Ninja Auto Utils\nAuto Utils provides various helpers for automatically discovering features about a binary.\n\nSome examples:\n\n * Renaming of methods based on logging with method names\n * That's it right now, sorry\n\n## Examples\n\n### Automatic symbol name discovery based on call args\nIn cases where you for example have a common logging function that will log the\ncaller's name using an argument passed to it, the plugin will be able to rename\nthe names of all callers based on the strings left in the binary.\n\nGiven an example binary with methods as shown below:\n\n![Subroutines without clear or meaningful names](https://github.com/404d/autoutils/blob/master/extras/discover_arg_before.png)\n\nBy running the \"Analysis \u2192 Discover caller names by call parameters\" action\nwhile being inside the `log_msg` subroutine and providing it with the parameter\nname `arg1`, the plugin will change the name of all callers to `log_msg` as such:\n\n![Subroutines after call-argument name discovery](https://github.com/404d/autoutils/blob/master/extras/discover_arg_after.png)\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 Simen Lybekk\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -2880,10 +2880,10 @@
             "Windows": "Install the plugin using the plugin manager or clone the repository to your plugins folder."
         },
         "dependencies": {},
-        "version": "0.1",
+        "version": "0.2",
         "author": "404'd",
         "minimumbinaryninjaversion": 2096,
-        "lastUpdated": 1587175219,
+        "lastUpdated": 1587212586,
         "projectUrl": "https://github.com/404d/autoutils",
         "projectData": {
             "id": 256644422,
@@ -2952,14 +2952,14 @@
             "releases_url": "https://api.github.com/repos/404d/autoutils/releases{/id}",
             "deployments_url": "https://api.github.com/repos/404d/autoutils/deployments",
             "created_at": "2020-04-18T01:17:58Z",
-            "updated_at": "2020-04-18T01:52:51Z",
-            "pushed_at": "2020-04-18T01:57:39Z",
+            "updated_at": "2020-04-18T12:16:02Z",
+            "pushed_at": "2020-04-18T12:18:46Z",
             "git_url": "git://github.com/404d/autoutils.git",
             "ssh_url": "git@github.com:404d/autoutils.git",
             "clone_url": "https://github.com/404d/autoutils.git",
             "svn_url": "https://github.com/404d/autoutils",
             "homepage": "",
-            "size": 219,
+            "size": 221,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Python",
@@ -2988,9 +2988,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/404d",
-        "packageUrl": "https://api.github.com/repos/404d/autoutils/zipball/v0.1",
+        "packageUrl": "https://api.github.com/repos/404d/autoutils/zipball/v0.2",
         "path": "404d_autoutils",
-        "commit": "27f501251975652cbb6b366c3ae65f5c1ae7c9eb",
+        "commit": "e8073727512b2a542bd31abb3dac1a861d31544d",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -3107,7 +3107,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 9,
+            "forks_count": 10,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -3119,7 +3119,7 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 9,
+            "forks": 10,
             "open_issues": 0,
             "watchers": 66,
             "default_branch": "master",
@@ -3149,7 +3149,7 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 9,
+            "network_count": 10,
             "subscribers_count": 8
         },
         "authorUrl": "https://github.com/ForAllSecure",

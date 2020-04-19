@@ -77,11 +77,11 @@
     },
     {
         "name":"404d/peutils",
-        "tag":"v1.0"
+        "tag":"v1.1"
     },
     {
         "name":"404d/autoutils",
-        "tag":"v0.1"
+        "tag":"v0.2"
     },
     {
         "name":"ForAllSecure/bncov",
