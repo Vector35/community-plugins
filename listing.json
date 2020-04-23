@@ -132,6 +132,10 @@
         "tag":"v0.1"
     },
     {
+        "name":"jmprdi/binja-division-deoptimization",
+        "tag":"v0.1.1"
+    },
+    {
         "name":"Cryptogenic/idc_importer",
         "tag":"v1.1"
     },
