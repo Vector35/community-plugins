@@ -140,6 +140,14 @@
         "tag":"v1.1"
     },
     {
+        "name":"atxsinn3r/BinjaHLILDump",
+        "tag":"v1.0"
+    },
+    {
+        "name":"lunixbochs/revsync",
+        "tag":"1.0"
+    },
+    {
         "name":"toolCHAINZ/DUMB",
         "tag":"v1.0.3"
     }
