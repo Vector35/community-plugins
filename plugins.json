@@ -5146,17 +5146,17 @@
         },
         "dependencies": {
             "pip": [
-                "z3"
+                "z3-solver"
             ],
             "apt": [],
             "installers": [],
             "other": []
         },
-        "version": "0.1.2",
+        "version": "0.1.3",
         "author": "Nathan Peercy",
         "minimumbinaryninjaversion": 2085,
         "projectUrl": "https://github.com/jmprdi/binja-division-deoptimization",
-        "lastUpdated": 1587673206,
+        "lastUpdated": 1589250567,
         "projectData": {
             "id": 253581823,
             "node_id": "MDEwOlJlcG9zaXRvcnkyNTM1ODE4MjM=",
@@ -5286,9 +5286,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/jmprdi",
-        "packageUrl": "https://api.github.com/repos/jmprdi/binja-division-deoptimization/zipball/v0.1.2",
+        "packageUrl": "https://api.github.com/repos/jmprdi/binja-division-deoptimization/zipball/0.1.3",
         "path": "jmprdi_binjadivisiondeoptimization",
-        "commit": "5a876a2e3ea1f12331e08ae7c450016b9df1b0be",
+        "commit": "d42ac1eb2f5ffc8704f76addfc45a3f45bef5678",
         "minimumBinaryNinjaVersion": 0
     },
     {
