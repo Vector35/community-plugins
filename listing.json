@@ -1,5 +1,9 @@
 [
     {
+        "name":"hugsy/gef-binja",
+        "tag":"v0.2"
+    },
+    {
         "name": "joshwatson/binaryninja-msp430",
         "tag": "0.4"
     },
