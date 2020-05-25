@@ -1,5 +1,13 @@
 [
     {
+        "name":"Martyx00/VulnFanatic",
+        "tag":"v2.0"
+    },
+    {
+        "name":"atxsinn3r/BinjaHLILDump",
+        "tag":"v1.0"
+    },
+    {
         "name":"hugsy/gef-binja",
         "tag":"v0.2"
     },
@@ -54,10 +62,6 @@
     {
         "name":"withzombies/bnil-graph",
         "tag":"v1.3.0"
-    },
-    {
-        "name":"Martyx00/VulnFanatic",
-        "tag":"v1.0"
     },
     {
         "name":"mechanicalnull/sourcery_pane",
