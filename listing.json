@@ -1,5 +1,9 @@
 [
     {
+        "name":"Shizmob/binja-depanalyzer",
+        "tag":"1.0"
+    },
+    {
         "name":"Martyx00/VulnFanatic",
         "tag":"v2.0"
     },
