@@ -1,5 +1,9 @@
 [
     {
+        "name":"trib0r3/binja-yara",
+        "tag":"1.0"
+    },
+    {
         "name":"Shizmob/binja-depanalyzer",
         "tag":"1.0"
     },
