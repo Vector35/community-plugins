@@ -129,7 +129,7 @@
     },
     {
         "name":"whitequark/binja_itanium_cxx_abi",
-        "tag":"v1.0"
+        "tag":"v1.1"
     },
     {
         "name":"whitequark/binja-i8086",
