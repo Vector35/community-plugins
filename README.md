@@ -100,3 +100,4 @@ Note that content contained in the root of this repository itself is Copyright 2
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|2020-03-26|MIT|helper|Allows users to import idc database dumps from IDA into Binary Ninja.|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-13|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
 |[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-03-01|MIT|architecture, binaryview|DUMB: An Example Architecture for Binary Ninja|
+|[WASM Plugin](https://github.com/CarveSystems/binjawa)|[Meador Inge](https://github.com/CarveSystems)|2020-06-30|MIT|architecture, binaryview|This is a plugin for disassembling and lifting WASM images..|

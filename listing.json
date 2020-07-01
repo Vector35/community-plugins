@@ -182,5 +182,9 @@
     {
         "name":"toolCHAINZ/DUMB",
         "tag":"v1.0.3"
+    },
+    {
+        "name":"CarveSystems/binjawa",
+        "tag":"0.5.0"
     }
 ]
