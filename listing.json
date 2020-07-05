@@ -186,5 +186,9 @@
     {
         "name":"CarveSystems/binjawa",
         "tag":"0.5.0"
+    },
+    {
+        "name":"vtil-project/VTIL-BinaryNinja",
+        "tag":"1.1"
     }
 ]
