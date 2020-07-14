@@ -186,7 +186,6 @@ def main():
         if os.path.exists("INFO"):
             info = open("INFO", encoding="utf-8").read() + u"\n"
         with open("README.md", "w", encoding="utf-8") as readme:
-            readme.write(info)
             readme.write(u"# Binary Ninja Plugins\n\n")
             readme.write(u"| PluginName | Author | Last Updated | License | Type | Description |\n")
             readme.write(u"|------------|--------|--------------|---------|----------|-------------|\n")
@@ -201,5 +200,6 @@ def main():
                     license=plugin['license']['name'],
                     plugintype=', '.join(sorted(plugin['type'])),
                     description=plugin['description']))
+            readme.write(info)
 if __name__ == "__main__":
     main()
