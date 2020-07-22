@@ -190,5 +190,9 @@
     {
         "name":"vtil-project/VTIL-BinaryNinja",
         "tag":"1.1"
+    },
+    {
+        "name":"borzacchiello/seninja",
+        "tag":"0.1"
     }
 ]
