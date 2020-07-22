@@ -1948,28 +1948,29 @@
         "minimumBinaryNinjaVersion": 0
     },
     {
-        "pluginmetadataversion": 1,
+        "pluginmetadataversion": 2,
         "name": "bnida",
         "type": [
             "helper"
         ],
         "api": [
-            "python2"
+            "python3"
         ],
-        "description": "BN and IDA plugins for sharing analysis data between platforms",
-        "longdescription": "bnida is a suite of Binary Ninja and IDA plugins that allow you to import/export analysis data to/from JSON files, allowing you to transfer analysis data between IDA and BN databases",
+        "description": "Transfer analysis data between Binary Ninja and IDA",
+        "longdescription": "Transfer analysis data between Binary Ninja and IDA by exporting data to a common JSON file format",
         "license": {
             "name": "MIT",
-            "text": "Copyright (c) 2018 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright 2020 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
-            "Linux"
+            "Darwin",
+            "Linux",
+            "Windows"
         ],
-        "dependencies": {},
-        "version": "1.0",
+        "version": "1.2",
         "author": "zznop",
-        "minimumbinaryninjaversion": 0,
-        "lastUpdated": 1562464670,
+        "minimumbinaryninjaversion": 1200,
+        "lastUpdated": 1595427527,
         "projectUrl": "https://github.com/zznop/bnida",
         "projectData": {
             "id": 135787993,
@@ -2038,14 +2039,14 @@
             "releases_url": "https://api.github.com/repos/zznop/bnida/releases{/id}",
             "deployments_url": "https://api.github.com/repos/zznop/bnida/deployments",
             "created_at": "2018-06-02T04:46:19Z",
-            "updated_at": "2020-07-14T02:10:36Z",
-            "pushed_at": "2019-12-28T04:39:52Z",
+            "updated_at": "2020-07-22T14:15:50Z",
+            "pushed_at": "2020-07-22T14:18:47Z",
             "git_url": "git://github.com/zznop/bnida.git",
             "ssh_url": "git@github.com:zznop/bnida.git",
             "clone_url": "https://github.com/zznop/bnida.git",
             "svn_url": "https://github.com/zznop/bnida",
             "homepage": "",
-            "size": 2592,
+            "size": 2596,
             "stargazers_count": 90,
             "watchers_count": 90,
             "language": "Python",
@@ -2058,7 +2059,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -2067,7 +2068,7 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 10,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 90,
             "default_branch": "master",
             "permissions": {
@@ -2080,9 +2081,9 @@
             "subscribers_count": 9
         },
         "authorUrl": "https://github.com/zznop",
-        "packageUrl": "https://api.github.com/repos/zznop/bnida/zipball/1.01",
+        "packageUrl": "https://api.github.com/repos/zznop/bnida/zipball/1.2",
         "path": "zznop_bnida",
-        "commit": "0713e92e5eff4c72c94e8ea515d4434d6fc7148a",
+        "commit": "395af069aa8b82fb63b3f0643fef47482f468e12",
         "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
@@ -2227,28 +2228,29 @@
         "installinstructions": {}
     },
     {
-        "pluginmetadataversion": 1,
+        "pluginmetadataversion": 2,
         "name": "kallsyms",
         "type": [
             "helper"
         ],
         "api": [
-            "python2"
+            "python3"
         ],
         "description": "Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database",
-        "longdescription": "This plugin parses the output from /proc/kallsyms and applies symbols to the loaded BN database",
+        "longdescription": "Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database",
         "license": {
             "name": "MIT",
-            "text": "Copyright (c) 2017 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright 2020 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
-            "Linux"
+            "Darwin",
+            "Linux",
+            "Windows"
         ],
-        "dependencies": {},
-        "version": "1.0",
+        "version": "1.1",
         "author": "zznop",
-        "minimumbinaryninjaversion": 0,
-        "lastUpdated": 1562464750,
+        "minimumbinaryninjaversion": 1200,
+        "lastUpdated": 1595434434,
         "projectUrl": "https://github.com/zznop/bn-kallsyms",
         "projectData": {
             "id": 137619091,
@@ -2317,8 +2319,8 @@
             "releases_url": "https://api.github.com/repos/zznop/bn-kallsyms/releases{/id}",
             "deployments_url": "https://api.github.com/repos/zznop/bn-kallsyms/deployments",
             "created_at": "2018-06-17T00:36:42Z",
-            "updated_at": "2020-04-01T13:34:51Z",
-            "pushed_at": "2019-07-06T21:53:47Z",
+            "updated_at": "2020-07-22T16:12:26Z",
+            "pushed_at": "2020-07-22T16:13:54Z",
             "git_url": "git://github.com/zznop/bn-kallsyms.git",
             "ssh_url": "git@github.com:zznop/bn-kallsyms.git",
             "clone_url": "https://github.com/zznop/bn-kallsyms.git",
@@ -2353,174 +2355,36 @@
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/zznop",
-        "packageUrl": "https://api.github.com/repos/zznop/bn-kallsyms/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/zznop/bn-kallsyms/zipball/1.1",
         "path": "zznop_bnkallsyms",
-        "commit": "e7730f65848b100e2479e2f1363dcbbba48f6489",
+        "commit": "1bf5cc551fe0d84a974063ef73cea0ce80bd4f01",
         "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
-        "pluginmetadataversion": 1,
-        "name": "binjago",
-        "type": [
-            "helper"
-        ],
-        "api": [
-            "python2"
-        ],
-        "description": "x86 ROP gadget calculation, libc call annotations, and prologue signature searching",
-        "longdescription": "Binjago is a random subset of helper plugins for annotating libc calls, calculating x86 ROP gadgets, and finding function prologue signatures in flat files",
-        "license": {
-            "name": "MIT",
-            "text": "Copyright (c) 2017 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-        },
-        "platforms": [
-            "Linux"
-        ],
-        "dependencies": {},
-        "version": "1.0",
-        "author": "zznop",
-        "minimumbinaryninjaversion": 0,
-        "lastUpdated": 1562464776,
-        "projectUrl": "https://github.com/zznop/binjago",
-        "projectData": {
-            "id": 105405410,
-            "node_id": "MDEwOlJlcG9zaXRvcnkxMDU0MDU0MTA=",
-            "name": "binjago",
-            "full_name": "zznop/binjago",
-            "private": false,
-            "owner": {
-                "login": "zznop",
-                "id": 14361933,
-                "node_id": "MDQ6VXNlcjE0MzYxOTMz",
-                "avatar_url": "https://avatars3.githubusercontent.com/u/14361933?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/zznop",
-                "html_url": "https://github.com/zznop",
-                "followers_url": "https://api.github.com/users/zznop/followers",
-                "following_url": "https://api.github.com/users/zznop/following{/other_user}",
-                "gists_url": "https://api.github.com/users/zznop/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/zznop/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/zznop/subscriptions",
-                "organizations_url": "https://api.github.com/users/zznop/orgs",
-                "repos_url": "https://api.github.com/users/zznop/repos",
-                "events_url": "https://api.github.com/users/zznop/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/zznop/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/zznop/binjago",
-            "description": "Binary Ninja plugin for ROP gadget calculation",
-            "fork": false,
-            "url": "https://api.github.com/repos/zznop/binjago",
-            "forks_url": "https://api.github.com/repos/zznop/binjago/forks",
-            "keys_url": "https://api.github.com/repos/zznop/binjago/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/zznop/binjago/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/zznop/binjago/teams",
-            "hooks_url": "https://api.github.com/repos/zznop/binjago/hooks",
-            "issue_events_url": "https://api.github.com/repos/zznop/binjago/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/zznop/binjago/events",
-            "assignees_url": "https://api.github.com/repos/zznop/binjago/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/zznop/binjago/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/zznop/binjago/tags",
-            "blobs_url": "https://api.github.com/repos/zznop/binjago/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/zznop/binjago/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/zznop/binjago/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/zznop/binjago/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/zznop/binjago/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/zznop/binjago/languages",
-            "stargazers_url": "https://api.github.com/repos/zznop/binjago/stargazers",
-            "contributors_url": "https://api.github.com/repos/zznop/binjago/contributors",
-            "subscribers_url": "https://api.github.com/repos/zznop/binjago/subscribers",
-            "subscription_url": "https://api.github.com/repos/zznop/binjago/subscription",
-            "commits_url": "https://api.github.com/repos/zznop/binjago/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/zznop/binjago/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/zznop/binjago/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/zznop/binjago/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/zznop/binjago/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/zznop/binjago/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/zznop/binjago/merges",
-            "archive_url": "https://api.github.com/repos/zznop/binjago/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/zznop/binjago/downloads",
-            "issues_url": "https://api.github.com/repos/zznop/binjago/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/zznop/binjago/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/zznop/binjago/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/zznop/binjago/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/zznop/binjago/labels{/name}",
-            "releases_url": "https://api.github.com/repos/zznop/binjago/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/zznop/binjago/deployments",
-            "created_at": "2017-09-30T22:40:36Z",
-            "updated_at": "2020-05-21T07:59:05Z",
-            "pushed_at": "2019-07-06T21:45:56Z",
-            "git_url": "git://github.com/zznop/binjago.git",
-            "ssh_url": "git@github.com:zznop/binjago.git",
-            "clone_url": "https://github.com/zznop/binjago.git",
-            "svn_url": "https://github.com/zznop/binjago",
-            "homepage": "",
-            "size": 19,
-            "stargazers_count": 27,
-            "watchers_count": 27,
-            "language": "Python",
-            "has_issues": true,
-            "has_projects": true,
-            "has_downloads": true,
-            "has_wiki": true,
-            "has_pages": false,
-            "forks_count": 2,
-            "mirror_url": null,
-            "archived": false,
-            "disabled": false,
-            "open_issues_count": 1,
-            "license": {
-                "key": "mit",
-                "name": "MIT License",
-                "spdx_id": "MIT",
-                "url": "https://api.github.com/licenses/mit",
-                "node_id": "MDc6TGljZW5zZTEz"
-            },
-            "forks": 2,
-            "open_issues": 1,
-            "watchers": 27,
-            "default_branch": "master",
-            "permissions": {
-                "admin": false,
-                "push": false,
-                "pull": true
-            },
-            "temp_clone_token": "",
-            "network_count": 2,
-            "subscribers_count": 5
-        },
-        "authorUrl": "https://github.com/zznop",
-        "packageUrl": "https://api.github.com/repos/zznop/binjago/zipball/1.0",
-        "path": "zznop_binjago",
-        "commit": "52aa7c7d0da6de1b5b3c092a5d18f31e0804697f",
-        "minimumBinaryNinjaVersion": 0,
-        "installinstructions": {}
-    },
-    {
-        "pluginmetadataversion": 1,
+        "pluginmetadataversion": 2,
         "name": "recursion",
         "type": [
             "helper"
         ],
         "api": [
-            "python2"
+            "python3"
         ],
         "description": "Locate and annotate direct and indirect recursion",
-        "longdescription": "This plugin identifies direct and indirect recursive logic in binaries",
+        "longdescription": "Locate and annotate direct and indirect recursive functions and function calls",
         "license": {
             "name": "MIT",
-            "text": "Copyright (c) 2017 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright 2020 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
-            "Linux"
+            "Darwin",
+            "Linux",
+            "Windows"
         ],
-        "dependencies": {},
-        "version": "1.0",
+        "version": "1.1",
         "author": "zznop",
-        "minimumbinaryninjaversion": 0,
-        "lastUpdated": 1562464803,
+        "minimumbinaryninjaversion": 1200,
+        "lastUpdated": 1595432685,
         "projectUrl": "https://github.com/zznop/bn-recursion",
         "projectData": {
             "id": 139301018,
@@ -2589,8 +2453,8 @@
             "releases_url": "https://api.github.com/repos/zznop/bn-recursion/releases{/id}",
             "deployments_url": "https://api.github.com/repos/zznop/bn-recursion/deployments",
             "created_at": "2018-07-01T04:47:20Z",
-            "updated_at": "2019-10-14T16:37:18Z",
-            "pushed_at": "2019-07-07T01:43:32Z",
+            "updated_at": "2020-07-22T15:42:46Z",
+            "pushed_at": "2020-07-22T15:44:45Z",
             "git_url": "git://github.com/zznop/bn-recursion.git",
             "ssh_url": "git@github.com:zznop/bn-recursion.git",
             "clone_url": "https://github.com/zznop/bn-recursion.git",
@@ -2625,9 +2489,9 @@
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/zznop",
-        "packageUrl": "https://api.github.com/repos/zznop/bn-recursion/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/zznop/bn-recursion/zipball/1.1",
         "path": "zznop_bnrecursion",
-        "commit": "c4c1abea82eeb667e7a74504fedac55f343eac09",
+        "commit": "00d8930bbb721c3a59c939e44b221a39ff761f06",
         "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
@@ -7371,16 +7235,16 @@
             "releases_url": "https://api.github.com/repos/EliseZeroTwo/Switch-Binja-Loader/releases{/id}",
             "deployments_url": "https://api.github.com/repos/EliseZeroTwo/Switch-Binja-Loader/deployments",
             "created_at": "2020-07-18T06:42:45Z",
-            "updated_at": "2020-07-22T13:52:11Z",
-            "pushed_at": "2020-07-22T13:49:42Z",
+            "updated_at": "2020-07-22T16:00:15Z",
+            "pushed_at": "2020-07-22T14:59:51Z",
             "git_url": "git://github.com/EliseZeroTwo/Switch-Binja-Loader.git",
             "ssh_url": "git@github.com:EliseZeroTwo/Switch-Binja-Loader.git",
             "clone_url": "https://github.com/EliseZeroTwo/Switch-Binja-Loader.git",
             "svn_url": "https://github.com/EliseZeroTwo/Switch-Binja-Loader",
             "homepage": null,
-            "size": 691,
-            "stargazers_count": 8,
-            "watchers_count": 8,
+            "size": 694,
+            "stargazers_count": 10,
+            "watchers_count": 10,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -7401,7 +7265,7 @@
             },
             "forks": 2,
             "open_issues": 0,
-            "watchers": 8,
+            "watchers": 10,
             "default_branch": "master",
             "permissions": {
                 "admin": false,

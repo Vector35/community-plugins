@@ -14,11 +14,10 @@
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2019-09-06|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
 |[SigMaker](https://github.com/Alex3434/Binja-SigMaker)|[Alex3434](https://github.com/Alex3434)|2018-09-26|MIT|architecture, binaryview, core, ui|Generate Signatures|
 |[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|2019-07-06|MIT|core, ui|A plugin that eases fixing jump table branches|
-|[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|BN and IDA plugins for sharing analysis data between platforms|
+|[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Transfer analysis data between Binary Ninja and IDA|
 |[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|2019-07-23|MIT|patch|SEGA Megadrive/Genesis ROM Hacking Toolkit|
-|[kallsyms](https://github.com/zznop/bn-kallsyms)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|
-|[binjago](https://github.com/zznop/binjago)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|x86 ROP gadget calculation, libc call annotations, and prologue signature searching|
-|[recursion](https://github.com/zznop/bn-recursion)|[zznop](https://github.com/zznop)|2019-07-06|MIT|helper|Locate and annotate direct and indirect recursion|
+|[kallsyms](https://github.com/zznop/bn-kallsyms)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|
+|[recursion](https://github.com/zznop/bn-recursion)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Locate and annotate direct and indirect recursion|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|2019-07-09|MIT|binaryview|A plugin that annotates function arguments.|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|2019-07-10|MIT|architecture|A disassembler and lifter for the VMNDH-2k12 architecture.|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|2019-07-12|MIT|helper|Parses MSVC structures to improve analysis|

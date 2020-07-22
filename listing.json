@@ -49,7 +49,7 @@
     },
     {
         "name": "zznop/bnida",
-        "tag": "1.01"
+        "tag": "1.2"
     },
     {
         "name": "zznop/bn-genesis",
@@ -57,15 +57,11 @@
     },
     {
         "name": "zznop/bn-kallsyms",
-        "tag": "1.0"
-    },
-    {
-        "name": "zznop/binjago",
-        "tag": "1.0"
+        "tag": "1.1"
     },
     {
         "name": "zznop/bn-recursion",
-        "tag": "1.0"
+        "tag": "1.1"
     },
     {
         "name": "bkerler/annotate",
