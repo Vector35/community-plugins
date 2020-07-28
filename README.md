@@ -22,7 +22,7 @@
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|2019-07-10|MIT|architecture|A disassembler and lifter for the VMNDH-2k12 architecture.|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|2019-07-12|MIT|helper|Parses MSVC structures to improve analysis|
 |[AVR Architecture Plugin](https://github.com/fluxchief/binaryninja_avr)|[Kevin Hamacher](https://github.com/fluxchief)|2019-07-12|MIT|architecture, binaryview|AVR architecture plugin + lifter.|
-|[BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|2020-07-09|Apache-2.0|ui|A plugin to graph BNIL instruction trees|
+|[BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|2020-07-16|Apache-2.0|ui|A plugin to graph BNIL instruction trees|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|2019-07-14|MIT|helper, ui|Synchronized source code pane for debug binaries|
 |[Frida](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|2020-06-01|MIT|helper|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
 |[Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|[jofra](https://github.com/Vasco-jofra)|2019-07-15|MIT|helper|Finds format string vulnerabilities|
@@ -46,11 +46,12 @@
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|2020-03-26|MIT|helper|Allows users to import idc database dumps from IDA into Binary Ninja.|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-13|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
 |[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-03-01|MIT|architecture, binaryview|DUMB: An Example Architecture for Binary Ninja|
-|[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-07-26|MIT|binaryview|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|
+|[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-07-27|MIT|binaryview|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|
 |[WASM Plugin](https://github.com/CarveSystems/binjawa)|[Meador Inge](https://github.com/CarveSystems)|2020-06-30|MIT|architecture, binaryview|This is a plugin for disassembling and lifting WASM images..|
 |[VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|[Layle](https://github.com/vtil-project)|2020-07-04|BSD-3-Clause|architecture, binaryview|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|
 |[Switch Loader](https://github.com/EliseZeroTwo/Switch-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2020-07-22|ISC|binaryview, helper|Loader for common Nintendo Switch binaries|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|2020-07-21|2-Clause BSD|helper|Symbolic execution plugin for BinaryNinja|
+|[Discord Rich Presence Integration](https://github.com/x1tan/binaryninja-discord-integration)|[xitan](https://github.com/x1tan)|2020-07-17|MIT|helper|Enables Discord Rich Presence Integration for Binary Ninja|
 # Binary Ninja Community Plugins
 
 Plugins in this repository are provided by the community. Vector 35, Inc. makes no guarantees to the quality, safety or efficacy of the plugins herein.
