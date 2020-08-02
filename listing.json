@@ -202,5 +202,9 @@
     {
         "name":"x1tan/binaryninja-discord-integration",
         "tag":"v0.8.0"
+    },
+    {
+        "name":"Rami114/cryptoscan",
+        "tag":"v1.0"
     }
 ]
