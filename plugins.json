@@ -7743,10 +7743,10 @@
             "Windows"
         ],
         "dependencies": {},
-        "version": "1.0",
+        "version": "1.1",
         "author": "Ben Pottier",
         "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1596388772,
+        "lastUpdated": 1596405463,
         "projectUrl": "https://github.com/Rami114/cryptoscan",
         "projectData": {
             "id": 132630723,
@@ -7815,8 +7815,8 @@
             "releases_url": "https://api.github.com/repos/Rami114/cryptoscan/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Rami114/cryptoscan/deployments",
             "created_at": "2018-05-08T15:43:04Z",
-            "updated_at": "2020-08-02T17:15:56Z",
-            "pushed_at": "2020-08-02T17:18:02Z",
+            "updated_at": "2020-08-02T21:42:15Z",
+            "pushed_at": "2020-08-02T21:56:56Z",
             "git_url": "git://github.com/Rami114/cryptoscan.git",
             "ssh_url": "git@github.com:Rami114/cryptoscan.git",
             "clone_url": "https://github.com/Rami114/cryptoscan.git",
@@ -7857,9 +7857,9 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/Rami114",
-        "packageUrl": "https://api.github.com/repos/Rami114/cryptoscan/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/Rami114/cryptoscan/zipball/1.1",
         "path": "Rami114_cryptoscan",
-        "commit": "037636867a1a3e1eeb21b01d324502cdecfbfb28",
+        "commit": "03ce54f53f097dcf5a00caca2258ff548a5b5f71",
         "minimumBinaryNinjaVersion": 0
     }
 ]
