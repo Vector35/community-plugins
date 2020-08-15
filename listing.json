@@ -206,5 +206,9 @@
     {
         "name":"Rami114/cryptoscan",
         "tag":"1.1"
+    },
+    {
+        "name":"uafio/BinaryNinja-CHIP8-Arch",
+        "tag":"v1.0"
     }
 ]
