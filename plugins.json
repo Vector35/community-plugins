@@ -1176,7 +1176,7 @@
             "releases_url": "https://api.github.com/repos/Martyx00/VulnFanatic/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/VulnFanatic/deployments",
             "created_at": "2020-04-11T11:50:15Z",
-            "updated_at": "2020-08-15T00:44:40Z",
+            "updated_at": "2020-08-15T17:55:20Z",
             "pushed_at": "2020-08-13T10:18:21Z",
             "git_url": "git://github.com/Martyx00/VulnFanatic.git",
             "ssh_url": "git@github.com:Martyx00/VulnFanatic.git",
@@ -1184,8 +1184,8 @@
             "svn_url": "https://github.com/Martyx00/VulnFanatic",
             "homepage": null,
             "size": 319,
-            "stargazers_count": 99,
-            "watchers_count": 99,
+            "stargazers_count": 100,
+            "watchers_count": 100,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1206,7 +1206,7 @@
             },
             "forks": 18,
             "open_issues": 0,
-            "watchers": 99,
+            "watchers": 100,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -7877,7 +7877,7 @@
             "python3"
         ],
         "description": "Load and disassemble CHIP-8 ROM.",
-        "longdescription": "CHIP-8 is an interpreted programming language, developed by Joseph Weisbecker. It was initially used on the COSMAC VIP and Telmac 1800 8-bit microcomputers in the mid-1970s. CHIP-8 programs are run on a CHIP-8 virtual machine.",
+        "longdescription": "CHIP-8 is an interpreted programming language, developed by Joseph Weisbecker. It was initially used on the COSMAC VIP and Telmac 1800 8-bit microcomputers in the mid-1970s. CHIP-8 programs are run on a CHIP-8 virtual machine.\n\nThere are multiple implementations of the CHIP-8 Interpreter VM. This plugin works with what's known as [_CowGod's_](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM) implementation.\n\nDecided not to implement the interpreter data segment at virtual address 0-0x200 because I think the user will get confused when inspecting the image under the hexview. Besides, all of the ROMs I've seen use their own sprites located in the ROM data.\n\n![](https://raw.githubusercontent.com/uafio/BinaryNinja-CHIP8-Arch/master/assets/chip8arch.gif)\n\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 Tsvetelin Choranov\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -7964,14 +7964,14 @@
             "releases_url": "https://api.github.com/repos/uafio/BinaryNinja-CHIP8-Arch/releases{/id}",
             "deployments_url": "https://api.github.com/repos/uafio/BinaryNinja-CHIP8-Arch/deployments",
             "created_at": "2020-08-13T05:10:05Z",
-            "updated_at": "2020-08-15T08:47:43Z",
-            "pushed_at": "2020-08-15T08:55:45Z",
+            "updated_at": "2020-08-15T21:16:42Z",
+            "pushed_at": "2020-08-15T21:16:40Z",
             "git_url": "git://github.com/uafio/BinaryNinja-CHIP8-Arch.git",
             "ssh_url": "git@github.com:uafio/BinaryNinja-CHIP8-Arch.git",
             "clone_url": "https://github.com/uafio/BinaryNinja-CHIP8-Arch.git",
             "svn_url": "https://github.com/uafio/BinaryNinja-CHIP8-Arch",
             "homepage": null,
-            "size": 810,
+            "size": 813,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
@@ -8006,9 +8006,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/uafio",
-        "packageUrl": "https://api.github.com/repos/uafio/BinaryNinja-CHIP8-Arch/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/uafio/BinaryNinja-CHIP8-Arch/zipball/1.0",
         "path": "uafio_BinaryNinjaCHIP8Arch",
-        "commit": "c4a15e204bcdcee06b34aefd89ea05c149ccb4bb",
+        "commit": "7cc8276710a7f7bbfd5ee911efe33d0f29699ff3",
         "minimumBinaryNinjaVersion": 0
     }
 ]
