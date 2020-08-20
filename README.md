@@ -3,7 +3,7 @@
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|2019-10-01|MIT|helper, ui|devi - DEvirtualize VIrtual calls in C++ binaries|
-|[Golang Symbol Restore](https://github.com/d-we/binja-golang-symbol-restore)|[Daniel Weber](https://github.com/d-we)|2020-06-09|MIT|helper|Binary Ninja plugin for restoring function names from stripped Golang binaries|
+|[Golang Symbol Restore](https://github.com/d-we/binja-golang-symbol-restore)|[Daniel Weber](https://github.com/d-we)|2020-08-20|MIT|helper|Binary Ninja plugin for restoring function names from stripped Golang binaries|
 |[BNHook](https://github.com/jeffli678/bnhook)|[Grant Orndorff](https://github.com/jeffli678)|2020-06-07|MIT|core, ui|Insert custom hooks|
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|2020-05-27|LGPL v3|binaryview, core|FLIRT for (binary) ninjas|
 |[YARA Scan](https://github.com/trib0r3/binja-yara)|[trib0r3](https://github.com/trib0r3)|2020-05-26|MIT|binaryview, core|YARA signatures|
