@@ -12,7 +12,7 @@
 |[HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|[atxsinn3r](https://github.com/atxsinn3r)|2020-06-07|BSD-3-Clause|helper|Dumps HLIL code to a directory|
 |[GEF-Binja](https://github.com/hugsy/gef-binja)|[hugsy](https://github.com/hugsy)|2020-05-18|MIT|helper, ui|Interface Binary Ninja with GDB-GEF easily.|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2019-09-06|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
-|[SigMaker](https://github.com/Alex3434/Binja-SigMaker)|[Alex3434](https://github.com/Alex3434)|2018-09-26|MIT|architecture, binaryview, core, ui|Generate Signatures|
+|[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|2020-08-19|MIT|architecture, binaryview, core, ui|Generate and find signatures.|
 |[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|2019-07-06|MIT|core, ui|A plugin that eases fixing jump table branches|
 |[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Transfer analysis data between Binary Ninja and IDA|
 |[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|2019-07-23|MIT|patch|SEGA Megadrive/Genesis ROM Hacking Toolkit|
