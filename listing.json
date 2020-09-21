@@ -210,5 +210,9 @@
     {
         "name":"uafio/BinaryNinja-CHIP8-Arch",
         "tag":"1.0"
+    },
+    {
+        "name":"mauronz/binja-emotet",
+        "tag":"0.1"
     }
 ]
