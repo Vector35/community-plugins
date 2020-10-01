@@ -214,5 +214,9 @@
     {
         "name":"mauronz/binja-emotet",
         "tag":"0.1"
+    },
+    {
+        "name":"BlackwingHQ/iBoot64Binja",
+        "tag":"1.0"
     }
 ]
