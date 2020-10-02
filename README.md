@@ -56,6 +56,7 @@
 |[CHIP-8 ROM Loader](https://github.com/uafio/BinaryNinja-CHIP8-Arch)|[uafio](https://github.com/uafio)|2020-08-15|MIT|architecture, binaryview, core, helper, ui|Load and disassemble CHIP-8 ROM.|
 |[Emotet API+string deobfuscator](https://github.com/mauronz/binja-emotet)|[Francesco Muroni](https://github.com/mauronz)|2020-09-21|MIT|helper|Deobufscate API calls and strings in unpacked Emotet samples.|
 |[iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|[Blackwing Intelligence](https://github.com/BlackwingHQ)|2020-10-01|MIT|binaryview|Binary View for loading iBoot, SecureROM, etc. firmware|
+|[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|2020-10-02|MIT|helper|binary ninja plugin for abusing logging functions|
 # Binary Ninja Community Plugins
 
 Plugins in this repository are provided by the community. Vector 35, Inc. makes no guarantees to the quality, safety or efficacy of the plugins herein.
