@@ -117,7 +117,7 @@
     },
     {
         "name":"ehntoo/binaryninja-svd",
-        "tag":"v1.0.1"
+        "tag":"v2.0.0"
     },
     {
         "name":"whitequark/binja_function_abi",
