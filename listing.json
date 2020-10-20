@@ -1,11 +1,15 @@
 [
     {
+        "name":"matteyeux/seprom-loader",
+        "tag":"1.0"
+    },
+    {
         "name":"murx-/devi_binja",
         "tag":"v0.1"
     },
     {
         "name":"d-we/binja-golang-symbol-restore",
-        "tag":"1.1"
+        "tag":"1.2"
     },
     {
         "name":"jeffli678/bnhook",
