@@ -108,7 +108,7 @@
             "clone_url": "https://github.com/Martyx00/ghinja.git",
             "svn_url": "https://github.com/Martyx00/ghinja",
             "homepage": null,
-            "size": 0,
+            "size": 336,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
@@ -1470,7 +1470,7 @@
             "releases_url": "https://api.github.com/repos/Martyx00/VulnFanatic/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/VulnFanatic/deployments",
             "created_at": "2020-04-11T11:50:15Z",
-            "updated_at": "2020-10-17T07:04:04Z",
+            "updated_at": "2020-10-20T23:11:27Z",
             "pushed_at": "2020-10-15T12:53:40Z",
             "git_url": "git://github.com/Martyx00/VulnFanatic.git",
             "ssh_url": "git@github.com:Martyx00/VulnFanatic.git",
@@ -1478,8 +1478,8 @@
             "svn_url": "https://github.com/Martyx00/VulnFanatic",
             "homepage": "",
             "size": 491,
-            "stargazers_count": 164,
-            "watchers_count": 164,
+            "stargazers_count": 165,
+            "watchers_count": 165,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1500,7 +1500,7 @@
             },
             "forks": 23,
             "open_issues": 0,
-            "watchers": 164,
+            "watchers": 165,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -8775,7 +8775,7 @@
             "python3"
         ],
         "description": "Find Delphi VMTs and generate their structures",
-        "longdescription": "This plugin is intended to facilitate the revese engineering of binaries written in Delphi.\n\nFor that, it:\n\n- Finds the Virtual Method Table (VMT) of Delphi classes\n- Creates a structure for each VMT (class name, instance size, virtual methods, etc...)\n- Creates a tag for each VMT in order to locate them more easily\n\n![example](./assets/example.png)",
+        "longdescription": "# Delphi VMT Analyzer (v0.1.1)\nAuthor: **ImNotAVirus**\n\n_Find Delphi VMTs and generate their structures_\n\n## Description:\n\nThis plugin is intended to facilitate the revese engineering of binaries written in Delphi.\n\nFor that, it:\n\n- Finds the Virtual Method Table (VMT) of Delphi classes\n- Creates a structure for each VMT (class name, instance size, virtual methods, etc...)\n- Creates a tag for each VMT in order to locate them more easily\n\n**Warning**: This plugin currently only supports 32bits PE (Portable Executable). For more details on upcoming features, you can refer to [TODO.md](./TODO.md).\n\n![example](./assets/example.png)\n\n## Installation Instructions\n\n### Darwin\n\nNo special instructions, package manager is recommended\n\n### Windows\n\nNo special instructions, package manager is recommended\n\n### Linux\n\nNo special instructions, package manager is recommended\n\n## Examples\n\nThis repo contains different examples to show how the plugin works in scripting mode.  \nYou can view them [here](./examples).\n\n**Warning**: although DelphiNinja does not require dependencies, some examples may require dependencies.  \nFor more information, please refer to this [page](./examples/README.md).\n\n## Minimum Version\n\nThis plugin has been tested with the following minimum version of Binary Ninja:\n\n* release: N/A\n* dev: 2440\n\n## License\n\nThis plugin is released under a MIT license.",
         "license": {
             "name": "MIT",
             "text": "Copyright 2020 ImNotAVirus\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -8790,9 +8790,9 @@
             "Windows": "No special instructions, package manager is recommended",
             "Linux": "No special instructions, package manager is recommended"
         },
-        "version": "0.1.0",
+        "version": "0.1.1",
         "minimumbinaryninjaversion": 2440,
-        "lastUpdated": 1601675018,
+        "lastUpdated": 1601678338,
         "projectUrl": "https://github.com/ImNotAVirus/delphi_ninja",
         "projectData": {
             "id": 299005735,
@@ -8903,9 +8903,9 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/ImNotAVirus",
-        "packageUrl": "https://api.github.com/repos/ImNotAVirus/delphi_ninja/zipball/v0.1.0",
+        "packageUrl": "https://api.github.com/repos/ImNotAVirus/delphi_ninja/zipball/0.1.1",
         "path": "ImNotAVirus_delphi_ninja",
-        "commit": "0c66791e02805c0dcde5604d34994bf11b3c2e2b",
+        "commit": "9524a8ed29a70c0c566b07767dc2628bb7d6b7a8",
         "minimumBinaryNinjaVersion": 0
     }
 ]
