@@ -9,7 +9,7 @@
             "python3"
         ],
         "description": "Plugin to embed Ghidra Decompiler into Binary Ninja",
-        "longdescription": "This plugin allows you to enable a dock in the UI that will show a result of the Ghidra decompiler for the given function. There is basic syntax highlighting and renaming functions and variables in the Binary Ninja view is refleced in the Ghinja view as well. The plugin will prompt you for pointing it to the path of the `analyzeHeadless` file which is relevant for your operating system. When chosen it will automatically start ghidra decompilation whenever a new file is opened. The decompile results are stored in the `~/.ghinja_projects` folder.\n\n ![Sample](https://github.com/Martyx00/ghinja/blob/master/img/demo.gif \"Sample\")",
+        "longdescription": "This plugin allows you to enable a dock in the UI that will show a result of the Ghidra decompiler for the given function. There is basic syntax highlighting and renaming functions and variables in the Binary Ninja view is refleced in the Ghinja view as well. The plugin will prompt you for pointing it to the path of the `analyzeHeadless` file which is relevant for your operating system. When chosen it will automatically start ghidra decompilation whenever a new file is opened. The decompile results are stored in the `~/.ghinja_projects` folder.\n\n ![Sample](https://github.com/Martyx00/ghinja/blob/master/img/demo.gif?raw=true \"Sample\")",
         "license": {
             "name": "Apache-2.0",
             "text": "Copyright 2020 Martin Petran\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n\thttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
@@ -29,10 +29,10 @@
                 "This plugin requires a working install of Ghidra (https://ghidra-sre.org/)."
             ]
         },
-        "version": "0.1",
+        "version": "0.2",
         "author": "Martin Petran",
         "minimumbinaryninjaversion": 2263,
-        "lastUpdated": 1603219259,
+        "lastUpdated": 1603442371,
         "projectUrl": "https://github.com/martyx00/ghinja",
         "projectData": {
             "id": 305801827,
@@ -101,16 +101,16 @@
             "releases_url": "https://api.github.com/repos/Martyx00/ghinja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/ghinja/deployments",
             "created_at": "2020-10-20T18:40:01Z",
-            "updated_at": "2020-10-20T18:40:24Z",
-            "pushed_at": "2020-10-20T18:40:59Z",
+            "updated_at": "2020-10-23T08:37:39Z",
+            "pushed_at": "2020-10-23T08:39:31Z",
             "git_url": "git://github.com/Martyx00/ghinja.git",
             "ssh_url": "git@github.com:Martyx00/ghinja.git",
             "clone_url": "https://github.com/Martyx00/ghinja.git",
             "svn_url": "https://github.com/Martyx00/ghinja",
             "homepage": null,
-            "size": 336,
-            "stargazers_count": 0,
-            "watchers_count": 0,
+            "size": 339,
+            "stargazers_count": 2,
+            "watchers_count": 2,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -131,7 +131,7 @@
             },
             "forks": 0,
             "open_issues": 0,
-            "watchers": 0,
+            "watchers": 2,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -143,9 +143,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/martyx00",
-        "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/0.1",
+        "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/0.2",
         "path": "Martyx00_ghinja",
-        "commit": "857231b655094918ec4a9baa07d33f1f6e57fd93",
+        "commit": "fcc9a746d05aafe1e3e65ff0f2f0ec876a7253e2",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -158,7 +158,7 @@
             "python3"
         ],
         "description": "Binary View for loading 32 bits and 64 bits Apple SEPROM",
-        "longdescription": "# SEPROM loader\n\n_Binary View for loading 32 bits and 64 bits Secure Enclave Processor ROM embedded in Apple's products_\n\n![](https://raw.githubusercontent.com/matteyeux/seprom-loader/master/demo.PNG)\n\n## Description \nBinary Ninja Binary View plugin for analyzing Apple's SEPROM. \n- Identifies SEPROM architecture    \n- Performs rebase to the correct load address for accurate analysis    \n- Restores some symbols for 64 bits SEPROMs\n\n## Acknowledgments\n\n- [Yui's](https://twitter.com/haiyuidesu) [sephelper](https://github.com/haiyuidesu/sephelper) for IDA PRO\n- BlackwingHQ's [iBoot64Binja](https://github.com/BlackwingHQ/iBoot64Binja)",
+        "longdescription": "# SEPROM loader\n\n_Binary View for loading 32 bits and 64 bits Secure Enclave Processor ROM embedded in Apple's products_\n\n![](https://raw.githubusercontent.com/matteyeux/seprom-loader/master/demo.PNG)\n\n## Description \nBinary Ninja Binary View plugin for analyzing Apple's SEPROM. \n- Identifies SEPROM architecture    \n- Performs rebase to the correct load address for accurate analysis    \n- Restores some symbols for 64 bits SEPROMs\n\n## Acknowledgments\n\n- [Yui's](https://twitter.com/haiyuidesu) [sephelper](https://github.com/haiyuidesu/sephelper) for IDA PRO\n- BlackwingHQ's [iBoot64Binja](https://github.com/BlackwingHQ/iBoot64Binja)\n- [iBoot-Binja-Loader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 Mathieu Hautebas\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -174,10 +174,10 @@
             "Linux": "Copy to `~/.binaryninja/plugins/` or use Plugin Manager"
         },
         "dependencies": {},
-        "version": "1.0",
+        "version": "1.0.1",
         "author": "matteyeux",
         "minimumbinaryninjaversion": 2170,
-        "lastUpdated": 1603183689,
+        "lastUpdated": 1603431832,
         "projectUrl": "https://github.com/matteyeux/seprom-loader",
         "projectData": {
             "id": 305438298,
@@ -246,16 +246,16 @@
             "releases_url": "https://api.github.com/repos/matteyeux/seprom-loader/releases{/id}",
             "deployments_url": "https://api.github.com/repos/matteyeux/seprom-loader/deployments",
             "created_at": "2020-10-19T15:59:14Z",
-            "updated_at": "2020-10-20T16:14:21Z",
-            "pushed_at": "2020-10-20T08:06:05Z",
+            "updated_at": "2020-10-23T05:38:54Z",
+            "pushed_at": "2020-10-23T05:43:52Z",
             "git_url": "git://github.com/matteyeux/seprom-loader.git",
             "ssh_url": "git@github.com:matteyeux/seprom-loader.git",
             "clone_url": "https://github.com/matteyeux/seprom-loader.git",
             "svn_url": "https://github.com/matteyeux/seprom-loader",
             "homepage": null,
-            "size": 167,
-            "stargazers_count": 10,
-            "watchers_count": 10,
+            "size": 179,
+            "stargazers_count": 12,
+            "watchers_count": 12,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -276,7 +276,7 @@
             },
             "forks": 0,
             "open_issues": 0,
-            "watchers": 10,
+            "watchers": 12,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -288,9 +288,9 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/matteyeux",
-        "packageUrl": "https://api.github.com/repos/matteyeux/seprom-loader/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/matteyeux/seprom-loader/zipball/1.0.1",
         "path": "matteyeux_sepromloader",
-        "commit": "76693b0bf8b70037365ec000b59ac62c6d19e1e4",
+        "commit": "b0ee82063de84ba84d51da9ea33240a07056b6d0",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1470,7 +1470,7 @@
             "releases_url": "https://api.github.com/repos/Martyx00/VulnFanatic/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/VulnFanatic/deployments",
             "created_at": "2020-04-11T11:50:15Z",
-            "updated_at": "2020-10-20T23:11:27Z",
+            "updated_at": "2020-10-21T02:04:15Z",
             "pushed_at": "2020-10-15T12:53:40Z",
             "git_url": "git://github.com/Martyx00/VulnFanatic.git",
             "ssh_url": "git@github.com:Martyx00/VulnFanatic.git",
@@ -1478,8 +1478,8 @@
             "svn_url": "https://github.com/Martyx00/VulnFanatic",
             "homepage": "",
             "size": 491,
-            "stargazers_count": 165,
-            "watchers_count": 165,
+            "stargazers_count": 166,
+            "watchers_count": 166,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1500,7 +1500,7 @@
             },
             "forks": 23,
             "open_issues": 0,
-            "watchers": 165,
+            "watchers": 166,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -8577,7 +8577,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 0,
+            "open_issues_count": 1,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -8586,7 +8586,7 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 3,
-            "open_issues": 0,
+            "open_issues": 1,
             "watchers": 30,
             "default_branch": "master",
             "permissions": {
