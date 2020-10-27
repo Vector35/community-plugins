@@ -52,7 +52,7 @@
 |[WASM Plugin](https://github.com/CarveSystems/binjawa)|[Meador Inge](https://github.com/CarveSystems)|2020-06-30|MIT|architecture, binaryview|This is a plugin for disassembling and lifting WASM images..|
 |[VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|[Layle](https://github.com/vtil-project)|2020-07-04|BSD-3-Clause|architecture, binaryview|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|
 |[Switch Loader](https://github.com/EliseZeroTwo/Switch-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2020-07-22|ISC|binaryview, helper|Loader for common Nintendo Switch binaries|
-|[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|2020-10-06|2-Clause BSD|helper|Symbolic execution plugin for BinaryNinja|
+|[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|2020-10-27|2-Clause BSD|helper|Symbolic execution plugin for BinaryNinja|
 |[Discord Rich Presence Integration](https://github.com/x1tan/binaryninja-discord-integration)|[xitan](https://github.com/x1tan)|2020-07-17|MIT|helper|Enables Discord Rich Presence Integration for Binary Ninja|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|2020-08-02|MIT|binaryview, ui|A plugin to detect several common crypto constructs and magic vars.|
 |[CHIP-8 ROM Loader](https://github.com/uafio/BinaryNinja-CHIP8-Arch)|[uafio](https://github.com/uafio)|2020-08-15|MIT|architecture, binaryview, core, helper, ui|Load and disassemble CHIP-8 ROM.|
