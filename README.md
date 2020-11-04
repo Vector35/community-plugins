@@ -4,7 +4,7 @@
 |------------|--------|--------------|---------|----------|-------------|
 |[Ghinja](https://github.com/martyx00/ghinja)|[Martin Petran](https://github.com/martyx00)|2020-10-23|Apache-2.0|ui|Plugin to embed Ghidra Decompiler into Binary Ninja|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|2020-10-23|MIT|binaryview|Binary View for loading 32 bits and 64 bits Apple SEPROM|
-|[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|2019-10-01|MIT|helper, ui|devi - DEvirtualize VIrtual calls in C++ binaries|
+|[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|2020-11-04|MIT|helper, ui|devi - DEvirtualize VIrtual calls in C++ binaries|
 |[Golang Symbol Restore](https://github.com/d-we/binja-golang-symbol-restore)|[Daniel Weber](https://github.com/d-we)|2020-10-19|MIT|helper|Binary Ninja plugin for restoring function names from stripped Golang binaries|
 |[BNHook](https://github.com/jeffli678/bnhook)|[Grant Orndorff](https://github.com/jeffli678)|2020-06-07|MIT|core, ui|Insert custom hooks|
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|2020-05-27|LGPL v3|binaryview, core|FLIRT for (binary) ninjas|
