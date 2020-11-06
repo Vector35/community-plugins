@@ -9,7 +9,7 @@
             "python3"
         ],
         "description": "Plugin to embed Ghidra Decompiler into Binary Ninja",
-        "longdescription": "This plugin allows you to enable a dock in the UI that will show a result of the Ghidra decompiler for the given function. There is basic syntax highlighting and renaming functions and variables in the Binary Ninja view is refleced in the Ghinja view as well. The plugin will prompt you for pointing it to the path of the `analyzeHeadless` file which is relevant for your operating system. When chosen it will automatically start ghidra decompilation whenever a new file is opened. The decompile results are stored in the `~/.ghinja_projects` folder.\n\n ![Sample](https://github.com/Martyx00/ghinja/blob/master/img/demo.gif?raw=true \"Sample\")",
+        "longdescription": "This plugin allows you to enable a dock in the UI that will show a result of the Ghidra decompiler for the given function. There is basic syntax highlighting and renaming functions and variables in the Binary Ninja view is refleced in the Ghinja view as well. The plugin will prompt you for pointing it to the path of the `analyzeHeadless` file which is relevant for your operating system. When chosen it will automatically start ghidra decompilation whenever a new file is opened. The decompile results are stored in the `~/.ghinja_projects` folder.\n\n ![Sample](https://github.com/Martyx00/ghinja/blob/master/img/demo.gif?raw=true \"Sample\")\n\n **If you have used versions prior to 1.0, it will be better if you remove all old ghinja projects and start from scratch. Sorry ... :(**",
         "license": {
             "name": "Apache-2.0",
             "text": "Copyright 2020 Martin Petran\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n\thttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
@@ -29,10 +29,10 @@
                 "This plugin requires a working install of Ghidra (https://ghidra-sre.org/)."
             ]
         },
-        "version": "0.2",
+        "version": "1.0",
         "author": "Martin Petran",
         "minimumbinaryninjaversion": 2263,
-        "lastUpdated": 1603442371,
+        "lastUpdated": 1604693651,
         "projectUrl": "https://github.com/martyx00/ghinja",
         "projectData": {
             "id": 305801827,
@@ -101,8 +101,8 @@
             "releases_url": "https://api.github.com/repos/Martyx00/ghinja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/ghinja/deployments",
             "created_at": "2020-10-20T18:40:01Z",
-            "updated_at": "2020-11-05T18:34:19Z",
-            "pushed_at": "2020-11-05T18:34:17Z",
+            "updated_at": "2020-11-06T20:12:01Z",
+            "pushed_at": "2020-11-06T20:14:11Z",
             "git_url": "git://github.com/Martyx00/ghinja.git",
             "ssh_url": "git@github.com:Martyx00/ghinja.git",
             "clone_url": "https://github.com/Martyx00/ghinja.git",
@@ -143,9 +143,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/martyx00",
-        "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/0.2",
+        "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/1.0",
         "path": "Martyx00_ghinja",
-        "commit": "fcc9a746d05aafe1e3e65ff0f2f0ec876a7253e2",
+        "commit": "74b5a051d9c3caba2d8b71b8024cefa98b5b25b0",
         "minimumBinaryNinjaVersion": 0
     },
     {
