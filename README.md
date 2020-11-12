@@ -2,7 +2,7 @@
 
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
-|[Ghinja](https://github.com/martyx00/ghinja)|[Martin Petran](https://github.com/martyx00)|2020-11-06|Apache-2.0|ui|Plugin to embed Ghidra Decompiler into Binary Ninja|
+|[Ghinja](https://github.com/martyx00/ghinja)|[Martin Petran](https://github.com/martyx00)|2020-11-12|Apache-2.0|ui|Plugin to embed Ghidra Decompiler into Binary Ninja|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|2020-10-23|MIT|binaryview|Binary View for loading 32 bits and 64 bits Apple SEPROM|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|2020-11-04|MIT|helper, ui|devi - DEvirtualize VIrtual calls in C++ binaries|
 |[Golang Symbol Restore](https://github.com/d-we/binja-golang-symbol-restore)|[Daniel Weber](https://github.com/d-we)|2020-10-19|MIT|helper|Binary Ninja plugin for restoring function names from stripped Golang binaries|
