@@ -2,7 +2,8 @@
 
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
-|[Ghinja](https://github.com/martyx00/ghinja)|[Martin Petran](https://github.com/martyx00)|2020-11-12|Apache-2.0|ui|Plugin to embed Ghidra Decompiler into Binary Ninja|
+|[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|2020-11-13|Apache-2.0|helper|Assistant plugin for vulnerability research.|
+|[Ghinja](https://github.com/martyx00/ghinja)|[Martin Petran](https://github.com/martyx00)|2020-11-15|Apache-2.0|ui|Plugin to embed Ghidra Decompiler into Binary Ninja|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|2020-10-23|MIT|binaryview|Binary View for loading 32 bits and 64 bits Apple SEPROM|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|2020-11-04|MIT|helper, ui|devi - DEvirtualize VIrtual calls in C++ binaries|
 |[Golang Symbol Restore](https://github.com/d-we/binja-golang-symbol-restore)|[Daniel Weber](https://github.com/d-we)|2020-10-19|MIT|helper|Binary Ninja plugin for restoring function names from stripped Golang binaries|
@@ -10,7 +11,6 @@
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|2020-05-27|LGPL v3|binaryview, core|FLIRT for (binary) ninjas|
 |[YARA Scan](https://github.com/trib0r3/binja-yara)|[trib0r3](https://github.com/trib0r3)|2020-05-26|MIT|binaryview, core|YARA signatures|
 |[Dependency analyzer](https://github.com/Shizmob/binja-depanalyzer)|[Shiz](https://github.com/Shizmob)|2020-05-24|MIT|helper|Analyze dependencies and resolve obfuscated imports|
-|[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|2020-11-06|Apache-2.0|helper|Assistant plugin for vulnerability research.|
 |[HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|[atxsinn3r](https://github.com/atxsinn3r)|2020-06-07|BSD-3-Clause|helper|Dumps HLIL code to a directory|
 |[GEF-Binja](https://github.com/hugsy/gef-binja)|[hugsy](https://github.com/hugsy)|2020-05-18|MIT|helper, ui|Interface Binary Ninja with GDB-GEF easily.|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2019-09-06|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
