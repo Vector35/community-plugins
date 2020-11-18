@@ -102,7 +102,7 @@
             "releases_url": "https://api.github.com/repos/Martyx00/VulnFanatic/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/VulnFanatic/deployments",
             "created_at": "2020-04-11T11:50:15Z",
-            "updated_at": "2020-11-16T15:14:15Z",
+            "updated_at": "2020-11-18T00:44:10Z",
             "pushed_at": "2020-11-13T19:59:10Z",
             "git_url": "git://github.com/Martyx00/VulnFanatic.git",
             "ssh_url": "git@github.com:Martyx00/VulnFanatic.git",
@@ -110,8 +110,8 @@
             "svn_url": "https://github.com/Martyx00/VulnFanatic",
             "homepage": "",
             "size": 389,
-            "stargazers_count": 185,
-            "watchers_count": 185,
+            "stargazers_count": 186,
+            "watchers_count": 186,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -132,7 +132,7 @@
             },
             "forks": 25,
             "open_issues": 0,
-            "watchers": 185,
+            "watchers": 186,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -159,7 +159,7 @@
             "python3"
         ],
         "description": "Plugin to embed Ghidra Decompiler into Binary Ninja",
-        "longdescription": "This plugin allows you to enable a dock in the UI that will show a result of the Ghidra decompiler for the given function. There is basic syntax highlighting and renaming functions and variables in the Binary Ninja view is refleced in the Ghinja view as well. The plugin will prompt you for pointing it to the path of the `analyzeHeadless` file which is relevant for your operating system. When chosen it will automatically start ghidra decompilation whenever a new file is opened. The decompile results are stored in the `~/.ghinja_projects` folder.\n\n ![Sample](https://github.com/Martyx00/ghinja/blob/master/img/demo.gif?raw=true \"Sample\")\n\n ***Avaialable Hotkeys:**\n\n* ***N*** - When Ghinja window has focus you can use this hotkey to rename the variable that does not have equivalent in the Binary Ninja view. This function allows you to rename anything, however all labels (functions, variables, etc.) that are are avialable in Binary Ninja view should be renamed there rather than in Ghinja as that is string replace only.\n* ***F*** - When Ghinja window has focus you can use this hotkey to perform a simple text seatch in the decompiler result.\n",
+        "longdescription": "This plugin allows you to enable a dock in the UI that will show a result of the Ghidra decompiler for the given function. There is basic syntax highlighting and renaming functions and variables in the Binary Ninja view is refleced in the Ghinja view as well. The plugin will prompt you for pointing it to the path of the `analyzeHeadless` file which is relevant for your operating system. When chosen it will automatically start ghidra decompilation whenever a new file is opened. The decompile results are stored in the `~/.ghinja_projects` folder.\n\n ![Sample](https://github.com/Martyx00/ghinja/blob/master/img/demo.gif?raw=true \"Sample\")\n\n **Available Hotkeys:**\n\n* ***N*** - When Ghinja window has focus you can use this hotkey to rename the variable that does not have equivalent in the Binary Ninja view. This function allows you to rename anything, however all labels (functions, variables, etc.) that are are avialable in Binary Ninja view should be renamed there rather than in Ghinja as that is string replace only.\n* ***F*** - When Ghinja window has focus you can use this hotkey to perform a simple text seatch in the decompiler result.\n",
         "license": {
             "name": "Apache-2.0",
             "text": "Copyright 2020 Martin Petran\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n\thttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
@@ -179,10 +179,10 @@
                 "This plugin requires a working install of Ghidra (https://ghidra-sre.org/)."
             ]
         },
-        "version": "1.2",
+        "version": "1.3",
         "author": "Martin Petran",
         "minimumbinaryninjaversion": 2263,
-        "lastUpdated": 1605441106,
+        "lastUpdated": 1605724413,
         "projectUrl": "https://github.com/martyx00/ghinja",
         "projectData": {
             "id": 305801827,
@@ -251,14 +251,14 @@
             "releases_url": "https://api.github.com/repos/Martyx00/ghinja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/ghinja/deployments",
             "created_at": "2020-10-20T18:40:01Z",
-            "updated_at": "2020-11-17T15:58:59Z",
-            "pushed_at": "2020-11-16T09:55:49Z",
+            "updated_at": "2020-11-18T18:30:07Z",
+            "pushed_at": "2020-11-18T18:33:33Z",
             "git_url": "git://github.com/Martyx00/ghinja.git",
             "ssh_url": "git@github.com:Martyx00/ghinja.git",
             "clone_url": "https://github.com/Martyx00/ghinja.git",
             "svn_url": "https://github.com/Martyx00/ghinja",
             "homepage": "",
-            "size": 643,
+            "size": 650,
             "stargazers_count": 37,
             "watchers_count": 37,
             "language": "Python",
@@ -271,7 +271,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "apache-2.0",
                 "name": "Apache License 2.0",
@@ -280,7 +280,7 @@
                 "node_id": "MDc6TGljZW5zZTI="
             },
             "forks": 1,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 37,
             "default_branch": "master",
             "permissions": {
@@ -293,9 +293,9 @@
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/martyx00",
-        "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/1.2",
+        "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/1.3",
         "path": "Martyx00_ghinja",
-        "commit": "e51cd5ff01ea363bf799477a6c58ee5ae83330e1",
+        "commit": "5951a7cfd4bbdaabf18806ed43df00b03e4d02f3",
         "minimumBinaryNinjaVersion": 0
     },
     {
