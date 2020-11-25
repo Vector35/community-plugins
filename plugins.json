@@ -5574,7 +5574,7 @@
         ],
         "version": "1.0",
         "minimumbinaryninjaversion": 1904,
-        "lastUpdated": 1570180894,
+        "lastUpdated": 1606311678,
         "projectUrl": "https://github.com/c3r34lk1ll3r/Instruction_Slicer",
         "projectData": {
             "id": 212569305,
@@ -5685,9 +5685,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/c3r34lk1ll3r",
-        "packageUrl": "https://api.github.com/repos/c3r34lk1ll3r/Instruction_Slicer/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/c3r34lk1ll3r/Instruction_Slicer/zipball/v1.1",
         "path": "c3r34lk1ll3r_Instruction_Slicer",
-        "commit": "9d35b601c8608726eb480f777e47e829c4e662f2",
+        "commit": "e960a2a5bdf598c691cfb99baa48788ebef6078d",
         "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
