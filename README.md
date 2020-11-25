@@ -2,6 +2,7 @@
 
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
+|[Symgrate2 Plugin](https://github.com/travisgoodspeed/symgrate2-binja-plugin)|[Travis Goodspeed](https://github.com/travisgoodspeed)|2020-11-25|MIT|helper|This is a client plugin for recovering symbols using the Symgrate2 server.|
 |[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|2020-11-13|Apache-2.0|helper|Assistant plugin for vulnerability research.|
 |[Ghinja](https://github.com/martyx00/ghinja)|[Martin Petran](https://github.com/martyx00)|2020-11-22|Apache-2.0|ui|Plugin to embed Ghidra Decompiler into Binary Ninja|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|2020-10-23|MIT|binaryview|Binary View for loading 32 bits and 64 bits Apple SEPROM|
