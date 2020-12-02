@@ -1,5 +1,9 @@
 [
     {
+        "name":"kryptoslogic/binja_degobfuscate",
+        "tag":"1.0.1"
+    },
+    {
         "name":"travisgoodspeed/symgrate2-binja-plugin",
         "tag":"1.3.3"
     },
