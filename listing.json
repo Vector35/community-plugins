@@ -1,5 +1,9 @@
 [
     {
+        "name":"PistonMiner/binaryninja-bindiff-viewer",
+        "tag":"1.0"
+    },
+    {
         "name":"kryptoslogic/binja_degobfuscate",
         "tag":"1.0.1"
     },
@@ -121,11 +125,11 @@
     },
     {
         "name":"404d/peutils",
-        "tag":"v1.1"
+        "tag":"v1.3"
     },
     {
         "name":"404d/autoutils",
-        "tag":"v0.2"
+        "tag":"v0.3"
     },
     {
         "name":"ForAllSecure/bncov",
