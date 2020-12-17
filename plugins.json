@@ -102,7 +102,7 @@
             "releases_url": "https://api.github.com/repos/PistonMiner/binaryninja-bindiff-viewer/releases{/id}",
             "deployments_url": "https://api.github.com/repos/PistonMiner/binaryninja-bindiff-viewer/deployments",
             "created_at": "2020-12-16T15:52:19Z",
-            "updated_at": "2020-12-16T16:01:00Z",
+            "updated_at": "2020-12-17T15:29:23Z",
             "pushed_at": "2020-12-16T16:00:00Z",
             "git_url": "git://github.com/PistonMiner/binaryninja-bindiff-viewer.git",
             "ssh_url": "git@github.com:PistonMiner/binaryninja-bindiff-viewer.git",
@@ -110,8 +110,8 @@
             "svn_url": "https://github.com/PistonMiner/binaryninja-bindiff-viewer",
             "homepage": null,
             "size": 19,
-            "stargazers_count": 0,
-            "watchers_count": 0,
+            "stargazers_count": 1,
+            "watchers_count": 1,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -132,7 +132,7 @@
             },
             "forks": 0,
             "open_issues": 0,
-            "watchers": 0,
+            "watchers": 1,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -642,10 +642,10 @@
                 "This plugin requires a working install of Ghidra (https://ghidra-sre.org/)."
             ]
         },
-        "version": "1.4",
+        "version": "1.6",
         "author": "Martin Petran",
         "minimumbinaryninjaversion": 2263,
-        "lastUpdated": 1607087117,
+        "lastUpdated": 1608228315,
         "projectUrl": "https://github.com/martyx00/ghinja",
         "projectData": {
             "id": 305801827,
@@ -714,14 +714,14 @@
             "releases_url": "https://api.github.com/repos/Martyx00/ghinja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/ghinja/deployments",
             "created_at": "2020-10-20T18:40:01Z",
-            "updated_at": "2020-12-16T13:14:38Z",
-            "pushed_at": "2020-12-04T13:05:17Z",
+            "updated_at": "2020-12-17T18:04:08Z",
+            "pushed_at": "2020-12-17T18:05:15Z",
             "git_url": "git://github.com/Martyx00/ghinja.git",
             "ssh_url": "git@github.com:Martyx00/ghinja.git",
             "clone_url": "https://github.com/Martyx00/ghinja.git",
             "svn_url": "https://github.com/Martyx00/ghinja",
             "homepage": "",
-            "size": 661,
+            "size": 666,
             "stargazers_count": 43,
             "watchers_count": 43,
             "language": "Python",
@@ -734,7 +734,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "apache-2.0",
                 "name": "Apache License 2.0",
@@ -743,7 +743,7 @@
                 "node_id": "MDc6TGljZW5zZTI="
             },
             "forks": 2,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 43,
             "default_branch": "master",
             "permissions": {
@@ -756,9 +756,9 @@
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/martyx00",
-        "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/1.5",
+        "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/1.6",
         "path": "Martyx00_ghinja",
-        "commit": "16c5173d6a4aed13629a7336ceccf0742af4ba20",
+        "commit": "e75413bd4cf0ae046af17bb1f4901b9f5aa1a8dc",
         "minimumBinaryNinjaVersion": 0
     },
     {
