@@ -5003,7 +5003,7 @@
             "python3"
         ],
         "description": "Code coverage analysis and visualization plugin",
-        "longdescription": "Extensible and scriptable basic block coverage analysis. Allows both visualization and programmatic reasoning over block coverage.\n\nImport basic block coverage using the context menu (right-click or Tools menu) `bncov -> Coverage Data -> Import *`, and optionally do additionally highlighting via context commands or scripting in the python console using `import ForAllSecure_bncov as bncov`.\n\nSee the `scripts/` directory or [Github page](https://github.com/ForAllSecure/bncov) for usage ideas.",
+        "longdescription": "## bncov - Scriptable Binary Ninja plugin for coverage analysis and visualization\n\nbncov provides a scriptable interface for bringing together coverage information with Binary Ninja's static analysis and visualization. Beyond visualization, the abstractions in bncov allow for programmatic reasoning about coverage. It was designed for interactive GUI use as well as for factoring into larger analysis tasks and standalone scripts.\n\n![Demo Overview](/pictures/demo_overview.gif)\n\n### Installation\n\nVia the Binary Ninja plugin manager: just hit the install button and wherever you see `import bncov`, you'll do `import ForAllSecure_bncov as bncov`.\n\nAlternatively:\n\n- Clone or copy this directory into your binja plugins folder. ([More detailed instructions here](https://docs.binary.ninja/guide/plugins/index.html#using-plugins))\n- (Optional) pip install msgpack if you want to enable loading/saving coverage database files.\n\n### Usage\n\nCheck out the [tutorial](/tutorial/) for a complete walkthrough or how to get started right away using data that's already included in this repo!\n\nFirst collect coverage information in DynamoRIO's drcov format ([example script](/dr_block_coverage.py)).\n\nTo use in Binary Ninja GUI:\n\n1. Open the target binary, then import coverage files using one of the commands in `bncov/Coverage Data/Import *` either from the Tools menu or from the context (right-click) menu.\n2. Explore the coverage visualization and explore additional analyses from the right-click menu or with the built-in interpreter and `import bncov`.\n\nScripting:\n\n1. Ensure bncov's parent directory is in your module search path OR add it to sys.path at the top of your script like this: `sys.path.append(os.path.split(os.path.normpath('/path/to/bncov'))[0])`\n2. `import bncov` and write scripts with the CoverageDB class in `coverage.py`, check out the `scripts` folder for examples.\n\n### Screenshots\n\nImport a coverage directory containing trace files to see blocks colored in heat map fashion: blocks covered by most traces (blue) or by few traces (red). Additional context commands (right-click menu) include frontier highlighting and a per-function block coverage report.\n\n* Watch a directory to have new coverage results get automatically highlighted when new coverage files appear\n\n![Watch Coverage Directory](/pictures/Coverage-watching.gif)\n\n* See at a glance which blocks are only covered by one or a few traces (redder=rarer, bluer=more common)\n\n![See Relative Rarity](/pictures/Relative-Rarity.png)\n\n* Quickly discover rare functionality visually or with scripting\n\n![Highlight Rare Blocks](/pictures/Heartbleed-Rare-block.png)\n\n* Identify which blocks have outgoing edges not covered in the traces\n\n![Highlight Frontier Blocks](/pictures/Frontier-Highlight.png)\n\n* See coverage reports on functions of interest or what functionality may not be hit, or write your own analyses for headless scripting.\n\n![Block Coverage Report](/pictures/Coverage-Report.png)\n\n### Notes\n\nCurrently the plugin only deals with block coverage and ingests files in the drcov2 format or \"module+offset\" format. Included in the repo is `dr_block_coverage.py` which can be used for generating coverage files, just specify your DynamoRIO install location with an environment variable (or modify the script) and it can process a directory of inputs. DynamoRIO binary packages can be found [here](https://github.com/DynamoRIO/dynamorio/wiki/Downloads). See the [tutorial](/tutorial/) for a complete walkthrough.\n\nPlease file any feature requests/bugs as issues on GitHub, we welcome any input or feedback.\n\n### Scripting\n\nbncov was designed so users can interact directly with the data structures the plugin uses. See the `scripts/` directory for more ideas.\n\n* Helpful CoverageDB members:\n  * trace_dict (maps filenames to set of basic block start addresses)\n  * block_dict (maps basic block start addresses to files containing it)\n  * total_coverage (set of start addresses of the basic blocks covered)\n\n* Helpful CoverageDB functions:\n  * get_traces_from_block(addr) - get files that cover the basic block starting at addr.\n  * get_rare_blocks(threshold) - get blocks covered by <= 'threshold' traces\n  * get_frontier() - get blocks that have outgoing edges that aren't covered\n  * get_functions_from_blocks(blocks) - return dict mapping function names to blocks they contain\n  * get_traces_from_function(function_name) - return set of traces that have coverage in the specified function\n\n* You can use Binary Ninja's python console and built-in python set operations with bncov.highlight_set() to do custom highlights in the Binary Ninja UI.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright 2019 ForAllSecure, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -5014,13 +5014,13 @@
             "Linux"
         ],
         "installinstructions": {
-            "Darwin": "No installation necessary, but you may want to download [DynamoRIO](https://github.com/DynamoRIO/dynamorio/wiki/Downloads) to collect coverage. See the [Github page](https://github.com/ForAllSecure/bncov) for usage instructions.",
-            "Windows": "No installation necessary, but you may want to download [DynamoRIO](https://github.com/DynamoRIO/dynamorio/wiki/Downloads) to collect coverage. See the [Github page](https://github.com/ForAllSecure/bncov) for usage instructions.",
-            "Linux": "No installation necessary, but you may want to download [DynamoRIO](https://github.com/DynamoRIO/dynamorio/wiki/Downloads) to collect coverage. See the [Github page](https://github.com/ForAllSecure/bncov) for usage instructions."
+            "Darwin": "No installation necessary, but you may want to download [DynamoRIO](https://github.com/DynamoRIO/dynamorio/wiki/Downloads) or other tools to collect block coverage information.\n\nSee the [Github page](https://github.com/ForAllSecure/bncov) for usage instructions and a [tutorial](https://github.com/ForAllSecure/bncov/tree/master/tutorial).",
+            "Windows": "No installation necessary, but you may want to download [DynamoRIO](https://github.com/DynamoRIO/dynamorio/wiki/Downloads) or other tools to collect block coverage information.\n\nSee the [Github page](https://github.com/ForAllSecure/bncov) for usage instructions and a [tutorial](https://github.com/ForAllSecure/bncov/tree/master/tutorial).",
+            "Linux": "No installation necessary, but you may want to download [DynamoRIO](https://github.com/DynamoRIO/dynamorio/wiki/Downloads) or other tools to collect block coverage information.\n\nSee the [Github page](https://github.com/ForAllSecure/bncov) for usage instructions and a [tutorial](https://github.com/ForAllSecure/bncov/tree/master/tutorial)."
         },
-        "version": "1.1",
+        "version": "1.3",
         "minimumbinaryninjaversion": 1470,
-        "lastUpdated": 1569964031,
+        "lastUpdated": 1608175937,
         "projectUrl": "https://github.com/ForAllSecure/bncov",
         "projectData": {
             "id": 184456686,
@@ -5090,13 +5090,13 @@
             "deployments_url": "https://api.github.com/repos/ForAllSecure/bncov/deployments",
             "created_at": "2019-05-01T17:47:24Z",
             "updated_at": "2020-12-16T17:28:45Z",
-            "pushed_at": "2020-12-16T17:28:42Z",
+            "pushed_at": "2020-12-17T03:24:44Z",
             "git_url": "git://github.com/ForAllSecure/bncov.git",
             "ssh_url": "git@github.com:ForAllSecure/bncov.git",
             "clone_url": "https://github.com/ForAllSecure/bncov.git",
             "svn_url": "https://github.com/ForAllSecure/bncov",
             "homepage": "",
-            "size": 5844,
+            "size": 5820,
             "stargazers_count": 79,
             "watchers_count": 79,
             "language": "Python",
@@ -5151,9 +5151,9 @@
             "subscribers_count": 9
         },
         "authorUrl": "https://github.com/ForAllSecure",
-        "packageUrl": "https://api.github.com/repos/ForAllSecure/bncov/zipball/v1.2",
+        "packageUrl": "https://api.github.com/repos/ForAllSecure/bncov/zipball/v1.3",
         "path": "ForAllSecure_bncov",
-        "commit": "8375ef9fd4dfcfd61222090af85e4aa57ec7c388",
+        "commit": "341b0aa3f726c0c7799ca70992bd79281f0e3a50",
         "minimumBinaryNinjaVersion": 0
     },
     {
