@@ -1,5 +1,9 @@
 [
     {
+        "name":"inspier/BinjaRustDemangler",
+        "tag":"0.1.0"
+    },
+    {
         "name":"PistonMiner/binaryninja-bindiff-viewer",
         "tag":"1.0"
     },
@@ -16,7 +20,7 @@
         "tag":"3.4"
     },
     {
-        "name":"martyx00/ghinja",
+        "name":"Martyx00/ghinja",
         "tag":"1.6"
     },
     {
@@ -169,7 +173,7 @@
     },
     {
         "name":"wrigjl/binaryninja-m68k",
-        "tag":"0.3"
+        "tag":"0.4"
     },
     {
         "name":"janbbeck/CleanTricks",
