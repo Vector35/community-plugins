@@ -940,7 +940,7 @@
         "version": "1.0.1",
         "author": "matteyeux",
         "minimumbinaryninjaversion": 2170,
-        "lastUpdated": 1603431832,
+        "lastUpdated": 1609879106,
         "projectUrl": "https://github.com/matteyeux/seprom-loader",
         "projectData": {
             "id": 305438298,
@@ -1010,7 +1010,7 @@
             "deployments_url": "https://api.github.com/repos/matteyeux/seprom-loader/deployments",
             "created_at": "2020-10-19T15:59:14Z",
             "updated_at": "2021-01-05T20:37:36Z",
-            "pushed_at": "2021-01-05T20:37:34Z",
+            "pushed_at": "2021-01-05T20:38:26Z",
             "git_url": "git://github.com/matteyeux/seprom-loader.git",
             "ssh_url": "git@github.com:matteyeux/seprom-loader.git",
             "clone_url": "https://github.com/matteyeux/seprom-loader.git",
@@ -1051,9 +1051,9 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/matteyeux",
-        "packageUrl": "https://api.github.com/repos/matteyeux/seprom-loader/zipball/1.0.1",
+        "packageUrl": "https://api.github.com/repos/matteyeux/seprom-loader/zipball/1.0.3",
         "path": "matteyeux_sepromloader",
-        "commit": "b0ee82063de84ba84d51da9ea33240a07056b6d0",
+        "commit": "2bde6b37b684c35f2936904f3bc187391033da6d",
         "minimumBinaryNinjaVersion": 0
     },
     {
