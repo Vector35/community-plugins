@@ -1,7 +1,7 @@
 [
     {
         "name":"inspier/BinjaRustDemangler",
-        "tag":"0.1.1"
+        "tag":"0.1.2"
     },
     {
         "name":"PistonMiner/binaryninja-bindiff-viewer",
