@@ -181,7 +181,7 @@
     },
     {
         "name":"uni-due-syssec/bn-riscv",
-        "tag":"v0.1"
+        "tag":"v0.2"
     },
     {
         "name":"jmprdi/binja-division-deoptimization",

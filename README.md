@@ -47,7 +47,7 @@
 |[Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|[Hugo Porcher (@icecr4ck)](https://github.com/icecr4ck)|2020-11-17|MIT|architecture, binaryview|A loader and diassembler for Game Boy ROMs.|
 |[Motorola 68k Architecture Plugin](https://github.com/wrigjl/binaryninja-m68k)|[Alex Forencich](https://github.com/wrigjl)|2020-12-30|MIT|architecture|A disassembler and lifter for the Motorola 68k architecture.|
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|2020-06-08|MIT|architecture, binaryview, core, helper, ui|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|
-|[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|2020-03-12|Apache-2.0|architecture|RISC-V architecture plugin.|
+|[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|2021-01-18|Apache-2.0|architecture|RISC-V architecture plugin.|
 |[Division and Modulo Deoptimizer](https://github.com/jmprdi/binja-division-deoptimization)|[Nathan Peercy](https://github.com/jmprdi)|2020-05-11|MIT|binaryview, helper, ui|Deoptimize Divisions and Modulos in Binary Ninja.|
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|2020-03-26|MIT|helper|Allows users to import idc database dumps from IDA into Binary Ninja.|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-13|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
