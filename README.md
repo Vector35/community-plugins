@@ -2,6 +2,7 @@
 
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
+|[Improved Gameboy Architecture](https://github.com/ZetaTwo/binja-gameboy)|[Carl Svensson (@zetatwo)](https://github.com/ZetaTwo)|2021-01-23|MIT|architecture, binaryview|A loader and diassembler for Game Boy ROMs.|
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2021-01-06|MIT|helper|Demangles Rust symbols.|
 |[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2020-12-16|MIT|helper, ui|View BinDiff results and port symbols|
 |[DeGObfuscate](https://github.com/kryptoslogic/binja_degobfuscate)|[Jamie Hankins](https://github.com/kryptoslogic)|2020-12-02|MIT|helper|De-obfuscates strings inside of obfuscated Go binaries|

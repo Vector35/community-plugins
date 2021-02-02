@@ -1,5 +1,9 @@
 [
     {
+        "name":"ZetaTwo/binja-gameboy",
+        "tag":"v1.0"
+    },
+    {
         "name":"inspier/BinjaRustDemangler",
         "tag":"0.1.2"
     },
