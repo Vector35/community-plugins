@@ -140,6 +140,7 @@
         },
         "authorUrl": "https://github.com/ZetaTwo",
         "packageUrl": "https://api.github.com/repos/ZetaTwo/binja-gameboy/zipball/v1.0",
+        "dependencies": "",
         "path": "ZetaTwo_binjagameboy",
         "commit": "692b38fe15ded77d9081ef12906dd117257af0d0",
         "minimumBinaryNinjaVersion": 0
@@ -164,14 +165,7 @@
             "Linux": "",
             "Windows": ""
         },
-        "dependencies": {
-            "pip": [
-                "rust_demangle"
-            ],
-            "apt": [],
-            "installers": [],
-            "other": []
-        },
+        "dependencies": "rust_demangle>=0.1.0\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 inspier\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -320,11 +314,7 @@
             "Linux": "```bash\npip install protobuf\n```",
             "Windows": "```bash\npip install protobuf\n```"
         },
-        "dependencies": {
-            "pip": [
-                "protobuf"
-            ]
-        },
+        "dependencies": "",
         "version": "1.0",
         "author": "Linus S. (aka PistonMiner)",
         "minimumbinaryninjaversion": 2487,
@@ -541,16 +531,16 @@
             "releases_url": "https://api.github.com/repos/kryptoslogic/binja_degobfuscate/releases{/id}",
             "deployments_url": "https://api.github.com/repos/kryptoslogic/binja_degobfuscate/deployments",
             "created_at": "2020-11-29T19:30:26Z",
-            "updated_at": "2021-01-22T23:39:49Z",
-            "pushed_at": "2020-12-02T18:30:41Z",
+            "updated_at": "2021-02-05T09:11:38Z",
+            "pushed_at": "2021-02-05T09:11:34Z",
             "git_url": "git://github.com/kryptoslogic/binja_degobfuscate.git",
             "ssh_url": "git@github.com:kryptoslogic/binja_degobfuscate.git",
             "clone_url": "https://github.com/kryptoslogic/binja_degobfuscate.git",
             "svn_url": "https://github.com/kryptoslogic/binja_degobfuscate",
             "homepage": "",
-            "size": 1437,
-            "stargazers_count": 19,
-            "watchers_count": 19,
+            "size": 1439,
+            "stargazers_count": 20,
+            "watchers_count": 20,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -571,18 +561,14 @@
             },
             "forks": 1,
             "open_issues": 1,
-            "watchers": 19,
+            "watchers": 20,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
-                "push": true,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "kryptoslogic",
                 "id": 43409078,
@@ -608,6 +594,7 @@
         },
         "authorUrl": "https://github.com/kryptoslogic",
         "packageUrl": "https://api.github.com/repos/kryptoslogic/binja_degobfuscate/zipball/1.0.1",
+        "dependencies": "",
         "path": "kryptoslogic_binja_degobfuscate",
         "commit": "f76b806378f5d623760b8b031bbc30b0f9f8579b",
         "minimumBinaryNinjaVersion": 0
@@ -637,7 +624,7 @@
             "Linux": "",
             "Windows": ""
         },
-        "dependencies": {},
+        "dependencies": "",
         "version": "1.3.3",
         "author": "Travis Goodspeed",
         "minimumbinaryninjaversion": 1200,
@@ -782,12 +769,7 @@
             "Linux": "N/A",
             "Windows": "N/A"
         },
-        "dependencies": {
-            "pip": [],
-            "apt": [],
-            "installers": [],
-            "other": []
-        },
+        "dependencies": "",
         "version": "3.5",
         "author": "Martin Petran",
         "minimumbinaryninjaversion": 2263,
@@ -860,7 +842,7 @@
             "releases_url": "https://api.github.com/repos/Martyx00/VulnFanatic/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/VulnFanatic/deployments",
             "created_at": "2020-04-11T11:50:15Z",
-            "updated_at": "2021-02-02T13:01:02Z",
+            "updated_at": "2021-02-07T23:14:57Z",
             "pushed_at": "2021-01-07T18:28:24Z",
             "git_url": "git://github.com/Martyx00/VulnFanatic.git",
             "ssh_url": "git@github.com:Martyx00/VulnFanatic.git",
@@ -868,8 +850,8 @@
             "svn_url": "https://github.com/Martyx00/VulnFanatic",
             "homepage": "",
             "size": 397,
-            "stargazers_count": 198,
-            "watchers_count": 198,
+            "stargazers_count": 199,
+            "watchers_count": 199,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -890,7 +872,7 @@
             },
             "forks": 31,
             "open_issues": 0,
-            "watchers": 198,
+            "watchers": 199,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -932,11 +914,7 @@
             "Linux": "N/A",
             "Windows": "N/A"
         },
-        "dependencies": {
-            "other": [
-                "This plugin requires a working install of Ghidra (https://ghidra-sre.org/)."
-            ]
-        },
+        "dependencies": "",
         "version": "1.6",
         "author": "Martin Petran",
         "minimumbinaryninjaversion": 2263,
@@ -1009,7 +987,7 @@
             "releases_url": "https://api.github.com/repos/Martyx00/ghinja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/ghinja/deployments",
             "created_at": "2020-10-20T18:40:01Z",
-            "updated_at": "2021-01-15T07:23:32Z",
+            "updated_at": "2021-02-08T00:58:54Z",
             "pushed_at": "2020-12-28T09:33:49Z",
             "git_url": "git://github.com/Martyx00/ghinja.git",
             "ssh_url": "git@github.com:Martyx00/ghinja.git",
@@ -1017,8 +995,8 @@
             "svn_url": "https://github.com/Martyx00/ghinja",
             "homepage": "",
             "size": 671,
-            "stargazers_count": 44,
-            "watchers_count": 44,
+            "stargazers_count": 46,
+            "watchers_count": 46,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1039,7 +1017,7 @@
             },
             "forks": 2,
             "open_issues": 0,
-            "watchers": 44,
+            "watchers": 46,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -1081,7 +1059,7 @@
             "Windows": "Copy to `%APPDATA%\\Binary Ninja\\plugins` or use Plugin Manager",
             "Linux": "Copy to `~/.binaryninja/plugins/` or use Plugin Manager"
         },
-        "dependencies": {},
+        "dependencies": "",
         "version": "1.0.1",
         "author": "matteyeux",
         "minimumbinaryninjaversion": 2170,
@@ -1331,6 +1309,7 @@
         },
         "authorUrl": "https://github.com/murx-",
         "packageUrl": "https://api.github.com/repos/murx-/devi_binja/zipball/0.2",
+        "dependencies": "",
         "path": "murx_devi_binja",
         "commit": "4770a0cceb67edd4d841ffebb5b399988f8f2fd9",
         "minimumBinaryNinjaVersion": 0,
@@ -1361,7 +1340,7 @@
             "Linux": "no special instructions, package manager is recommended",
             "Windows": "no special instructions, package manager is recommended"
         },
-        "dependencies": {},
+        "dependencies": "",
         "version": "1.2",
         "author": "Daniel Weber",
         "minimumbinaryninjaversion": 2170,
@@ -1487,7 +1466,7 @@
             "python3"
         ],
         "author": "Michael Rodler",
-        "dependencies": {},
+        "dependencies": "",
         "description": "Short script that parses go symbol table and renames/creates functions.",
         "installinstructions": {
             "Darwin": "no special instructions, package manager is recommended",
@@ -1596,7 +1575,7 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 9,
+            "forks_count": 8,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -1608,7 +1587,7 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 9,
+            "forks": 8,
             "open_issues": 0,
             "watchers": 13,
             "default_branch": "master",
@@ -1618,7 +1597,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 9,
+            "network_count": 8,
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/f0rki",
@@ -1654,11 +1633,7 @@
             "Linux": "pip install filebytes or pip3 install filebytes",
             "Darwin": "pip install filebytes or pip3 install filebytes"
         },
-        "dependencies": {
-            "pip": [
-                "filebytes"
-            ]
-        },
+        "dependencies": "",
         "version": "1.1",
         "author": "Grant Orndorff",
         "minimumbinaryninjaversion": 1407,
@@ -2004,11 +1979,7 @@
             "Linux": "```\npip install -r requirements.txt\n```",
             "Darwin": "```\npip install -r requirements.txt\n```"
         },
-        "dependencies": {
-            "pip": [
-                "future"
-            ]
-        },
+        "dependencies": "future\n",
         "version": "1.0",
         "author": "Paolo Montesel (https://github.com/thebabush)",
         "minimumbinaryninjaversion": 0,
@@ -2120,7 +2091,7 @@
             },
             "temp_clone_token": "",
             "network_count": 10,
-            "subscribers_count": 6
+            "subscribers_count": 5
         },
         "authorUrl": "https://github.com/thebabush",
         "packageUrl": "https://api.github.com/repos/thebabush/nampa/zipball/1.0",
@@ -2154,11 +2125,7 @@
             "Linux": "```bash\npip3 install yara-python\n```",
             "Windows": "```bash\npip3 install yara-python\n```"
         },
-        "dependencies": {
-            "pip": [
-                "yara-python"
-            ]
-        },
+        "dependencies": "",
         "version": "1.0",
         "author": "trib0r3",
         "minimumbinaryninjaversion": 2,
@@ -2300,7 +2267,7 @@
             "Windows"
         ],
         "installinstructions": {},
-        "dependencies": {},
+        "dependencies": "",
         "version": "1.0",
         "author": "Shiz",
         "minimumbinaryninjaversion": 1200,
@@ -2561,6 +2528,7 @@
         },
         "authorUrl": "https://github.com/atxsinn3r",
         "packageUrl": "https://api.github.com/repos/atxsinn3r/BinjaHLILDump/zipball/1.1",
+        "dependencies": "",
         "path": "atxsinn3r_BinjaHLILDump",
         "commit": "cb21cf15408e23e0fab977cbbd00437266dd0431",
         "minimumBinaryNinjaVersion": 0
@@ -2586,14 +2554,7 @@
             "Linux",
             "Windows"
         ],
-        "dependencies": {
-            "apt": [
-                "gdb-multiarch"
-            ],
-            "other": [
-                "This plugin will interact with a [GEF instance](https://github.com/hugsy/gef)."
-            ]
-        },
+        "dependencies": "",
         "version": "0.2",
         "author": "hugsy",
         "minimumbinaryninjaversion": 1300,
@@ -2666,7 +2627,7 @@
             "releases_url": "https://api.github.com/repos/hugsy/gef-binja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/hugsy/gef-binja/deployments",
             "created_at": "2020-05-12T20:56:41Z",
-            "updated_at": "2020-12-01T09:17:16Z",
+            "updated_at": "2021-02-07T23:55:36Z",
             "pushed_at": "2020-08-10T01:30:17Z",
             "git_url": "git://github.com/hugsy/gef-binja.git",
             "ssh_url": "git@github.com:hugsy/gef-binja.git",
@@ -2674,8 +2635,8 @@
             "svn_url": "https://github.com/hugsy/gef-binja",
             "homepage": "",
             "size": 21,
-            "stargazers_count": 38,
-            "watchers_count": 38,
+            "stargazers_count": 39,
+            "watchers_count": 39,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2696,7 +2657,7 @@
             },
             "forks": 5,
             "open_issues": 2,
-            "watchers": 38,
+            "watchers": 39,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -2740,7 +2701,7 @@
             "Linux": "",
             "Darwin": ""
         },
-        "dependencies": {},
+        "dependencies": "",
         "version": "0.4",
         "author": "Josh Watson",
         "minimumbinaryninjaversion": 1689,
@@ -2888,7 +2849,7 @@
             "Linux": "",
             "Darwin": ""
         },
-        "dependencies": {},
+        "dependencies": "",
         "version": "2.0",
         "author": "apekros and Alex3434",
         "minimumbinaryninjaversion": 0,
@@ -2961,7 +2922,7 @@
             "releases_url": "https://api.github.com/repos/apekros/binja_sigmaker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/apekros/binja_sigmaker/deployments",
             "created_at": "2020-08-19T09:48:33Z",
-            "updated_at": "2020-08-24T22:10:09Z",
+            "updated_at": "2021-02-08T14:23:03Z",
             "pushed_at": "2020-08-19T10:38:28Z",
             "git_url": "git://github.com/apekros/binja_sigmaker.git",
             "ssh_url": "git@github.com:apekros/binja_sigmaker.git",
@@ -2969,8 +2930,8 @@
             "svn_url": "https://github.com/apekros/binja_sigmaker",
             "homepage": null,
             "size": 8,
-            "stargazers_count": 1,
-            "watchers_count": 1,
+            "stargazers_count": 3,
+            "watchers_count": 3,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2991,7 +2952,7 @@
             },
             "forks": 0,
             "open_issues": 1,
-            "watchers": 1,
+            "watchers": 3,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -3150,6 +3111,7 @@
         },
         "authorUrl": "https://github.com/Vasco-jofra",
         "packageUrl": "https://api.github.com/repos/Vasco-jofra/jump-table-branch-editor/zipball/v1.0",
+        "dependencies": "",
         "path": "Vascojofra_jumptablebrancheditor",
         "commit": "7c287e047a3655e381e087b246c31bc5b4956f98",
         "minimumBinaryNinjaVersion": 0
@@ -3289,6 +3251,7 @@
         },
         "authorUrl": "https://github.com/zznop",
         "packageUrl": "https://api.github.com/repos/zznop/bnida/zipball/1.2",
+        "dependencies": "",
         "path": "zznop_bnida",
         "commit": "395af069aa8b82fb63b3f0643fef47482f468e12",
         "minimumBinaryNinjaVersion": 0,
@@ -3313,7 +3276,7 @@
         "platforms": [
             "Linux"
         ],
-        "dependencies": {},
+        "dependencies": "",
         "version": "1.1",
         "author": "zznop",
         "minimumbinaryninjaversion": 0,
@@ -3563,6 +3526,7 @@
         },
         "authorUrl": "https://github.com/zznop",
         "packageUrl": "https://api.github.com/repos/zznop/bn-kallsyms/zipball/1.1",
+        "dependencies": "",
         "path": "zznop_bnkallsyms",
         "commit": "1bf5cc551fe0d84a974063ef73cea0ce80bd4f01",
         "minimumBinaryNinjaVersion": 0,
@@ -3697,6 +3661,7 @@
         },
         "authorUrl": "https://github.com/zznop",
         "packageUrl": "https://api.github.com/repos/zznop/bn-recursion/zipball/1.1",
+        "dependencies": "",
         "path": "zznop_bnrecursion",
         "commit": "00d8930bbb721c3a59c939e44b221a39ff761f06",
         "minimumBinaryNinjaVersion": 0,
@@ -3718,12 +3683,7 @@
             "name": "MIT",
             "text": "Copyright (c) 2018-2019 B. Kerler\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
-        "dependencies": {
-            "pip": [],
-            "apt": [],
-            "installers": [],
-            "other": []
-        },
+        "dependencies": "",
         "platforms": [
             "Darwin",
             "Linux",
@@ -3989,6 +3949,7 @@
         },
         "authorUrl": "https://github.com/verylazyguy",
         "packageUrl": "https://api.github.com/repos/verylazyguy/binaryninja-vmndh/zipball/v0.2",
+        "dependencies": "",
         "path": "verylazyguy_binaryninjavmndh",
         "commit": "4bf54f04e059b0c646bad350586b89fa9a906614",
         "minimumBinaryNinjaVersion": 0
@@ -4134,6 +4095,7 @@
         },
         "authorUrl": "https://github.com/0x1F9F1",
         "packageUrl": "https://api.github.com/repos/0x1F9F1/binja-msvc/zipball/1.0",
+        "dependencies": "",
         "path": "0x1F9F1_binjamsvc",
         "commit": "eb3399883492fafc2e5acb332b98d34223285797",
         "minimumBinaryNinjaVersion": 0
@@ -4279,6 +4241,7 @@
         },
         "authorUrl": "https://github.com/fluxchief",
         "packageUrl": "https://api.github.com/repos/fluxchief/binaryninja_avr/zipball/0.2",
+        "dependencies": "",
         "path": "fluxchief_binaryninja_avr",
         "commit": "3009bcd763816c6b3b210c0e6026d0c223171c17",
         "minimumBinaryNinjaVersion": 0
@@ -4424,6 +4387,7 @@
         },
         "authorUrl": "https://github.com/withzombies",
         "packageUrl": "https://api.github.com/repos/withzombies/bnil-graph/zipball/v1.3.2",
+        "dependencies": "",
         "path": "withzombies_bnilgraph",
         "commit": "575a312f418f78af6e463c249fe2bdd26a2ce8c2",
         "minimumBinaryNinjaVersion": 0
@@ -4566,6 +4530,7 @@
         },
         "authorUrl": "https://github.com/mechanicalnull",
         "packageUrl": "https://api.github.com/repos/mechanicalnull/sourcery_pane/zipball/v0.1",
+        "dependencies": "",
         "path": "mechanicalnull_sourcery_pane",
         "commit": "dd133ebf553d6e05383acfd53f3ef5a1e5ae3a72",
         "minimumBinaryNinjaVersion": 0
@@ -4595,14 +4560,7 @@
             "name": "MIT",
             "text": "Copyright (c) 2017 Chame1eon\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
-        "dependencies": {
-            "pip": [
-                "frida"
-            ],
-            "apt": [],
-            "installers": [],
-            "other": []
-        },
+        "dependencies": "",
         "version": "1.3.1",
         "author": "Chame1eon",
         "minimumbinaryninjaversion": 576,
@@ -4862,6 +4820,7 @@
         },
         "authorUrl": "https://github.com/Vasco-jofra",
         "packageUrl": "https://api.github.com/repos/Vasco-jofra/format-string-finder-binja/zipball/v1.0",
+        "dependencies": "",
         "path": "Vascojofra_formatstringfinderbinja",
         "commit": "d1854604fc5d1fb4f6fdb9d3078d33020ae21c74",
         "minimumBinaryNinjaVersion": 0
@@ -4890,11 +4849,7 @@
             "Windows": "The Windows distribution of Binary Ninja bundles a copy of python2.7. In order\nto install angr, you must install python2.7 on your system or in a virtualenv\nand make it available on sys.path. Note that attempting to install angr in the\nbundled python error will likely run into errors. On Windows systems, this\nplugin will automatically add \"C:\\Python27\\Lib\\site-packages\" to sys.path.\n\n1. Install Python2.7 to \"C:\\Python27\".\n\n1. From an Administrator command prompt, install angr.\n\n    ```\n    C:\\Python27\\python.exe -m pip install angr\n    ```\n\n1. Copy this plugin to the Binary Ninja plugins folder at\n   \"%appdata%\\Binary Ninja\\plugins\".",
             "Linux": "1. Install angr.\n\n    ```\n    pip install angr\n    ```\n\n1. Copy this plugin to the Binary Ninja plugins folder at\n   \"~/.binaryninja/plugins/\"."
         },
-        "dependencies": {
-            "pip": [
-                "angr"
-            ]
-        },
+        "dependencies": "",
         "version": "1.0.0",
         "author": "shareef12",
         "minimumbinaryninjaversion": 1689,
@@ -5144,6 +5099,7 @@
         },
         "authorUrl": "https://github.com/carstein",
         "packageUrl": "https://api.github.com/repos/carstein/Syscaller/zipball/v1.0",
+        "dependencies": "",
         "path": "carstein_Syscaller",
         "commit": "7e102546a58a08cb81755ec2d6be338ce2ce7765",
         "minimumBinaryNinjaVersion": 0
@@ -5173,7 +5129,7 @@
             "Linux": "Download or clone the github repo and place it in your plugins folder: https://github.com/404d/peutils",
             "Darwin": "Download or clone the github repo and place it in your plugins folder: https://github.com/404d/peutils"
         },
-        "dependencies": {},
+        "dependencies": "",
         "minimumbinaryninjaversion": 2576,
         "version": "1.3",
         "author": "404'd",
@@ -5318,7 +5274,7 @@
             "Linux": "Install the plugin using the plugin manager or clone the repository to your plugins folder.",
             "Windows": "Install the plugin using the plugin manager or clone the repository to your plugins folder."
         },
-        "dependencies": {},
+        "dependencies": "",
         "version": "0.3",
         "author": "404'd",
         "minimumbinaryninjaversion": 2096,
@@ -5593,6 +5549,7 @@
         },
         "authorUrl": "https://github.com/ForAllSecure",
         "packageUrl": "https://api.github.com/repos/ForAllSecure/bncov/zipball/1.3.1",
+        "dependencies": "msgpack\n",
         "path": "ForAllSecure_bncov",
         "commit": "11bd93f8e9262f1a1e6cecb3d90e818875a892a9",
         "minimumBinaryNinjaVersion": 0
@@ -5623,7 +5580,7 @@
             "Linux": "Install the 'requests' pip package.",
             "Darwin": "Install the 'requests' pip package."
         },
-        "dependencies": {},
+        "dependencies": "",
         "version": "2.0.0",
         "author": "Mitchell Johnson (@ehntoo)",
         "minimumbinaryninjaversion": 0,
@@ -5696,7 +5653,7 @@
             "releases_url": "https://api.github.com/repos/ehntoo/binaryninja-svd/releases{/id}",
             "deployments_url": "https://api.github.com/repos/ehntoo/binaryninja-svd/deployments",
             "created_at": "2019-05-06T20:56:46Z",
-            "updated_at": "2020-10-13T15:48:06Z",
+            "updated_at": "2021-02-05T18:29:20Z",
             "pushed_at": "2020-10-13T15:48:03Z",
             "git_url": "git://github.com/ehntoo/binaryninja-svd.git",
             "ssh_url": "git@github.com:ehntoo/binaryninja-svd.git",
@@ -5704,8 +5661,8 @@
             "svn_url": "https://github.com/ehntoo/binaryninja-svd",
             "homepage": "",
             "size": 25,
-            "stargazers_count": 7,
-            "watchers_count": 7,
+            "stargazers_count": 8,
+            "watchers_count": 8,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -5726,7 +5683,7 @@
             },
             "forks": 1,
             "open_issues": 2,
-            "watchers": 7,
+            "watchers": 8,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -5735,7 +5692,7 @@
             },
             "temp_clone_token": "",
             "network_count": 1,
-            "subscribers_count": 1
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/ehntoo",
         "packageUrl": "https://api.github.com/repos/ehntoo/binaryninja-svd/zipball/v2.0.0",
@@ -5879,6 +5836,7 @@
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja_function_abi/zipball/v1.0",
+        "dependencies": "",
         "path": "whitequark_binja_function_abi",
         "commit": "eb32105f3aed9ec81762e5986072187f2ad8eacd",
         "minimumBinaryNinjaVersion": 0,
@@ -6020,6 +5978,7 @@
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja_itanium_cxx_abi/zipball/v1.1",
+        "dependencies": "",
         "path": "whitequark_binja_itanium_cxx_abi",
         "commit": "86a3eba57888f3c9ee0d75e4210a08641ecfc19d",
         "minimumBinaryNinjaVersion": 0,
@@ -6160,6 +6119,7 @@
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja-i8086/zipball/v0.1",
+        "dependencies": "",
         "path": "whitequark_binjai8086",
         "commit": "72b6210ef4587eae5a85df6ba543fc0ef2b4da6f",
         "minimumBinaryNinjaVersion": 0,
@@ -6278,7 +6238,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 2,
+            "forks_count": 3,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -6290,7 +6250,7 @@
                 "url": "https://api.github.com/licenses/0bsd",
                 "node_id": "MDc6TGljZW5zZTM1"
             },
-            "forks": 2,
+            "forks": 3,
             "open_issues": 0,
             "watchers": 8,
             "default_branch": "master",
@@ -6300,11 +6260,12 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 2,
+            "network_count": 3,
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja-m16c/zipball/v1.0",
+        "dependencies": "",
         "path": "whitequark_binjam16c",
         "commit": "debf368e5df90a96d6c8b0bc128626a9d6834bb4",
         "minimumBinaryNinjaVersion": 0
@@ -6445,6 +6406,7 @@
         },
         "authorUrl": "https://github.com/c3r34lk1ll3r",
         "packageUrl": "https://api.github.com/repos/c3r34lk1ll3r/Instruction_Slicer/zipball/v1.1",
+        "dependencies": "",
         "path": "c3r34lk1ll3r_Instruction_Slicer",
         "commit": "e960a2a5bdf598c691cfb99baa48788ebef6078d",
         "minimumBinaryNinjaVersion": 0,
@@ -6587,6 +6549,7 @@
         },
         "authorUrl": "https://github.com/c3r34lk1ll3r",
         "packageUrl": "https://api.github.com/repos/c3r34lk1ll3r/BinRida/zipball/v1.0",
+        "dependencies": "",
         "path": "c3r34lk1ll3r_BinRida",
         "commit": "4ea4c1626f57702f04747fc811b07ff78202770c",
         "minimumBinaryNinjaVersion": 0
@@ -6732,6 +6695,7 @@
         },
         "authorUrl": "https://github.com/icecr4ck",
         "packageUrl": "https://api.github.com/repos/icecr4ck/bnGB/zipball/1.0.1",
+        "dependencies": "",
         "path": "icecr4ck_bnGB",
         "commit": "f098d7906dc72088cb555afded2c8c87cfd13b65",
         "minimumBinaryNinjaVersion": 0
@@ -6762,7 +6726,7 @@
             "Linux": "",
             "Darwin": ""
         },
-        "dependencies": {},
+        "dependencies": "",
         "version": "0.4",
         "author": "Alex Forencich",
         "minimumbinaryninjaversion": 1600,
@@ -7111,12 +7075,7 @@
             "Linux": "",
             "Windows": ""
         },
-        "dependencies": {
-            "pip": [],
-            "apt": [],
-            "installers": [],
-            "other": []
-        },
+        "dependencies": "",
         "version": "1.4",
         "author": "Jan Beck",
         "minimumbinaryninjaversion": 1200,
@@ -7263,11 +7222,7 @@
             "Windows": "",
             "Linux": ""
         },
-        "dependencies": {
-            "pip": [
-                "git+https://github.com/aquynh/capstone.git#subdirectory=bindings/python@next"
-            ]
-        },
+        "dependencies": "",
         "version": "0.2",
         "minimumbinaryninjaversion": 0,
         "lastUpdated": 1610977007,
@@ -7433,14 +7388,7 @@
             "Linux": "To install this manually, please see the \"Using Plugins\" section of the [Getting Started Guide](https://docs.binary.ninja/getting-started.html#using-plugins).",
             "Windows": "To install this manually, please see the \"Using Plugins\" section of the [Getting Started Guide](https://docs.binary.ninja/getting-started.html#using-plugins)."
         },
-        "dependencies": {
-            "pip": [
-                "z3-solver"
-            ],
-            "apt": [],
-            "installers": [],
-            "other": []
-        },
+        "dependencies": "",
         "version": "0.1.3",
         "author": "Nathan Peercy",
         "minimumbinaryninjaversion": 2085,
@@ -7720,6 +7668,7 @@
         },
         "authorUrl": "https://github.com/Cryptogenic",
         "packageUrl": "https://api.github.com/repos/Cryptogenic/idc_importer/zipball/v1.1",
+        "dependencies": "",
         "path": "Cryptogenic_idc_importer",
         "commit": "08431aed7311ac852c4da5eeb65bd3e7e1e085e3",
         "minimumBinaryNinjaVersion": 0
@@ -7750,7 +7699,7 @@
             "Linux": "",
             "Windows": ""
         },
-        "dependencies": {},
+        "dependencies": "",
         "version": "1.0",
         "author": "lunixbochs",
         "minimumbinaryninjaversion": 1528,
@@ -8011,6 +7960,7 @@
         },
         "authorUrl": "https://github.com/toolCHAINZ",
         "packageUrl": "https://api.github.com/repos/toolCHAINZ/DUMB/zipball/v1.0.3",
+        "dependencies": "",
         "path": "toolCHAINZ_DUMB",
         "commit": "4aa106b0002f11b00349b3fffa3565c19de86d5a",
         "minimumBinaryNinjaVersion": 0
@@ -8155,6 +8105,7 @@
         },
         "authorUrl": "https://github.com/toolCHAINZ",
         "packageUrl": "https://api.github.com/repos/toolCHAINZ/hexfiles/zipball/1.0.2",
+        "dependencies": "argparse-addons==0.6.0\nbincopy==17.7.1\nhumanfriendly==8.2\npyreadline==2.1\n",
         "path": "toolCHAINZ_hexfiles",
         "commit": "e49eff33965aeedbc487ea30953b6bf3879f6797",
         "minimumBinaryNinjaVersion": 0
@@ -8309,6 +8260,7 @@
         },
         "authorUrl": "https://github.com/CarveSystems",
         "packageUrl": "https://api.github.com/repos/CarveSystems/binjawa/zipball/0.5.0",
+        "dependencies": "wasamole==0.5.0\n",
         "path": "CarveSystems_binjawa",
         "commit": "9f17b2f77901be78468a57008af5cb055d62a89b",
         "platforms": [],
@@ -8341,12 +8293,7 @@
             "Linux": "Install the plugin using the plugin manager or clone the repository to your plugins folder.",
             "Windows": "Install the plugin using the plugin manager or clone the repository to your plugins folder."
         },
-        "dependencies": {
-            "pip": [
-                "kaitaistruct",
-                "capstone"
-            ]
-        },
+        "dependencies": "",
         "version": "1.1",
         "author": "Layle",
         "minimumbinaryninjaversion": 1528,
@@ -8506,14 +8453,7 @@
             "Linux": "",
             "Windows": ""
         },
-        "dependencies": {
-            "pip": [
-                "lz4"
-            ],
-            "apt": [],
-            "installers": [],
-            "other": []
-        },
+        "dependencies": "lz4>=3.1.0 ",
         "version": "1.0.0",
         "author": "EliseZeroTwo",
         "minimumbinaryninjaversion": 1200,
@@ -8730,7 +8670,7 @@
             "releases_url": "https://api.github.com/repos/borzacchiello/seninja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/borzacchiello/seninja/deployments",
             "created_at": "2019-07-05T16:50:03Z",
-            "updated_at": "2021-01-05T11:17:45Z",
+            "updated_at": "2021-02-08T19:25:51Z",
             "pushed_at": "2021-01-05T11:17:42Z",
             "git_url": "git://github.com/borzacchiello/seninja.git",
             "ssh_url": "git@github.com:borzacchiello/seninja.git",
@@ -8738,8 +8678,8 @@
             "svn_url": "https://github.com/borzacchiello/seninja",
             "homepage": "",
             "size": 1344,
-            "stargazers_count": 60,
-            "watchers_count": 60,
+            "stargazers_count": 62,
+            "watchers_count": 62,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -8760,7 +8700,7 @@
             },
             "forks": 6,
             "open_issues": 1,
-            "watchers": 60,
+            "watchers": 62,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -8773,6 +8713,7 @@
         },
         "authorUrl": "https://github.com/borzacchiello",
         "packageUrl": "https://api.github.com/repos/borzacchiello/seninja/zipball/0.2.2",
+        "dependencies": "",
         "path": "borzacchiello_seninja",
         "commit": "e9555d4233e7cfec3744c3fa21236992f6963931",
         "minimumBinaryNinjaVersion": 0
@@ -8797,11 +8738,7 @@
             "Linux",
             "Windows"
         ],
-        "dependencies": {
-            "pip": [
-                "pypresence"
-            ]
-        },
+        "dependencies": "",
         "version": "0.8.0",
         "author": "xitan",
         "minimumbinaryninjaversion": 1200,
@@ -8949,7 +8886,7 @@
             "Linux",
             "Windows"
         ],
-        "dependencies": {},
+        "dependencies": "",
         "version": "1.1",
         "author": "Ben Pottier",
         "minimumbinaryninjaversion": 1200,
@@ -9214,6 +9151,7 @@
         },
         "authorUrl": "https://github.com/uafio",
         "packageUrl": "https://api.github.com/repos/uafio/BinaryNinja-CHIP8-Arch/zipball/1.0",
+        "dependencies": "",
         "path": "uafio_BinaryNinjaCHIP8Arch",
         "commit": "7cc8276710a7f7bbfd5ee911efe33d0f29699ff3",
         "minimumBinaryNinjaVersion": 0
@@ -9238,7 +9176,7 @@
             "Linux": "",
             "Darwin": ""
         },
-        "dependencies": {},
+        "dependencies": "",
         "platforms": [
             "Darwin",
             "Linux",
@@ -9523,6 +9461,7 @@
         },
         "authorUrl": "https://github.com/BlackwingHQ",
         "packageUrl": "https://api.github.com/repos/BlackwingHQ/iBoot64Binja/zipball/1.0.1",
+        "dependencies": "",
         "path": "BlackwingHQ_iBoot64Binja",
         "commit": "741b12065f090f53c2fabf17167eafb99b15fc70",
         "minimumBinaryNinjaVersion": 0
@@ -9662,6 +9601,7 @@
         },
         "authorUrl": "https://github.com/sum-catnip",
         "packageUrl": "https://api.github.com/repos/sum-catnip/logrn/zipball/1.0.1",
+        "dependencies": "",
         "path": "sumcatnip_logrn",
         "commit": "0ebdb4affe6978c2224b709f927c64cda5e1070b",
         "minimumBinaryNinjaVersion": 0,
@@ -9807,6 +9747,7 @@
         },
         "authorUrl": "https://github.com/ImNotAVirus",
         "packageUrl": "https://api.github.com/repos/ImNotAVirus/delphi_ninja/zipball/0.1.1",
+        "dependencies": "",
         "path": "ImNotAVirus_delphi_ninja",
         "commit": "9524a8ed29a70c0c566b07767dc2628bb7d6b7a8",
         "minimumBinaryNinjaVersion": 0

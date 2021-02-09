@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import sys
-import os
 import json
 import argparse
 import base64
@@ -9,8 +8,8 @@ from dateutil import parser
 import base64
 import re
 from datetime import datetime
+from pathlib import Path
 
-ghUrl = "https://github.com/"
 user = None
 token = None
 
@@ -18,7 +17,7 @@ def printProgressBar(iteration, total, prefix = '', length = 80, fill = '█'):
     filledLength = int(length * iteration // total)
     bar = (fill * filledLength) + ('-' * (length - filledLength))
     percent = 100 * (iteration / float(total))
-    fmt = "\r{prefix} |{bar}| {percent:.1f}%".format(prefix=prefix, bar=bar, percent=percent)
+    fmt = f"\r{prefix} |{bar}| {percent:.1f}%"
     sys.stdout.write(fmt)
     # Print New Line on Complete
     if iteration == total:
@@ -33,23 +32,22 @@ def getPluginJson(plugin):
         return
 
     site = "https://github.com/"
-    apisite = "https://api.github.com/repos/"
-    jsonUrl = "{}{}/contents/plugin.json?ref={}"
     userAndProject = plugin["name"]
     userName = plugin["name"].split("/")[0]
-    releasesUrl = "{}{}/releases/tags".format(apisite, userAndProject)
-    tagsUrl = "{}{}/tags".format(apisite, userAndProject)
+    projectUrl = f"https://api.github.com/repos/{userAndProject}"
+    releasesUrl = f"{projectUrl}/releases/tags"
+    tagsUrl = f"{projectUrl}/tags"
 
     releaseData = None
+    releases = f"{releasesUrl}/{plugin['tag']}"
     try:
-        releases = "{}/{}".format(releasesUrl, plugin["tag"])
         releaseData = getfile(releases).json()
         if "message" in releaseData and releaseData["message"] == "Not Found":
-            print("\n\nERROR: {}, Couldn't get release information. Likely the user created a tag but no associated release.\n".format(plugin['name']))
-            print("Tried to use URL: {}".format(releases))
+            print(f"\n\nERROR: {plugin['name']}, Couldn't get release information. Likely the user created a tag but no associated release.\n")
+            print(f"Tried to use URL: {releases}")
             return None
     except requests.exceptions.HTTPError:
-        print(" Unable get get url {}".format(releases))
+        print(f" Unable get get url {releases}")
         return None
 
     commit = None
@@ -63,30 +61,41 @@ def getPluginJson(plugin):
                 zipUrl = tag["zipball_url"]
                 break
         if commit is None:
-            print("Unable to associate tag {} with a commit for plugin {}".format(plugin["tag"], plugin["name"]))
+            print(f"Unable to associate tag {plugin['tag']} with a commit for plugin {plugin['name']}")
             return None
     except requests.exceptions.HTTPError:
-        print(" Unable get get url {}".format(tagsUrl))
+        print(f" Unable get get url {tagsUrl}")
         return None
 
     projectData = None
     try:
-        projectData = getfile(apisite + userAndProject).json()
+        projectData = getfile(projectUrl).json()
     except requests.exceptions.HTTPError:
-        print(" Unable get get url {}".format(apisite + userAndProject))
+        print(f" Unable get get url {projectUrl}")
         return None
 
     data = None
+    pluginjson = f"{projectUrl}/contents/plugin.json?ref={plugin['tag']}"
     try:
-        jsonDataUrl = jsonUrl.format(apisite, userAndProject, plugin["tag"])
-        content = getfile(jsonDataUrl).json()['content']
+        content = getfile(pluginjson).json()['content']
         data = json.loads(base64.b64decode(content))
         if "plugin" in data:
             # Using old style json
             data = data["plugin"]
     except requests.exceptions.HTTPError:
-        print(" Unable get get url")
+        print(f" Unable get get url {pluginjson}")
         return None
+
+    requirements_txt = ""
+    try:
+        req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
+        if "content" in req_json:
+            requirements_txt = base64.b64decode(req_json["content"]).decode('utf-8')
+            if requirements_txt.startswith("\ufeff"): # Remove BOM from file contents
+                requirements_txt = requirements_txt[1:]
+            requirements_txt = requirements_txt.replace("\r\n", "\n")
+    except requests.exceptions.HTTPError:
+        pass
 
     # Additional fields required for internal use
     data["lastUpdated"] = int(parser.parse(releaseData["published_at"]).timestamp())
@@ -94,6 +103,7 @@ def getPluginJson(plugin):
     data["projectData"] = projectData
     data["authorUrl"] = site + userName
     data["packageUrl"] = zipUrl
+    data["dependencies"] = requirements_txt
 
     # Replace the fwd slash with _ and then strip all non (alpha, numeric, _ )
     data["path"] = re.sub("[^a-zA-Z0-9_]", "", re.sub("/", "_", projectData["full_name"]))
@@ -127,8 +137,7 @@ def main():
     user = args.username
     token = args.token
 
-    basedir = os.path.join(os.path.dirname(os.path.realpath(__file__)))
-    pluginjson = os.path.join(basedir, "plugins.json")
+    pluginjson = Path("./plugins.json")
 
     allPlugins = {}
     listing = json.load(open(args.listing, "r", encoding="utf-8"))
@@ -141,7 +150,7 @@ def main():
     printProgressBar(len(plugin), len(plugin), prefix="Collecting Plugin JSON files:")
 
     oldPlugins = {}
-    if os.path.exists(pluginjson):
+    if pluginjson.exists():
         with open(pluginjson) as pluginsFile:
             for i, plugin in enumerate(json.load(pluginsFile)):
                 oldPlugins[plugin["projectData"]["full_name"]] = plugin["lastUpdated"]
@@ -171,19 +180,19 @@ def main():
     for name, plugin in allPlugins.items():
         allPluginsList.append(plugin)
 
-    print("{} New Plugins:".format(len(newPlugins)))
+    print(f"{len(newPlugins)} New Plugins:")
     for plugin in newPlugins:
-        print("\t- {}".format(plugin))
-    print("{} Updated Plugins:".format(len(updatedPlugins)))
+        print(f"\t- {plugin}")
+    print(f"{len(updatedPlugins)} Updated Plugins:")
     for plugin in updatedPlugins:
-        print("\t- {}".format(plugin))
-    print("Writing {}".format(pluginjson))
+        print(f"\t- {plugin}")
+    print(f"Writing {pluginjson}")
     with open(pluginjson, "w") as pluginsFile:
         json.dump(allPluginsList, pluginsFile, indent="    ")
 
     if not args.readmeskip:
         info = ""
-        if os.path.exists("INFO"):
+        if Path("INFO").exists():
             info = open("INFO", encoding="utf-8").read() + u"\n"
         with open("README.md", "w", encoding="utf-8") as readme:
             readme.write(u"# Binary Ninja Plugins\n\n")
@@ -191,15 +200,12 @@ def main():
             readme.write(u"|------------|--------|--------------|---------|----------|-------------|\n")
 
             for plugin in allPlugins.values():
-                readme.write(u"|[{name}]({projectUrl})|[{author}]({authorUrl})|{lastUpdated}|{license}|{plugintype}|{description}|\n".format(name = plugin['name'],
-                    projectUrl=plugin["projectUrl"],
-                    plugin=plugin["name"],
-                    author=plugin["author"],
-                    authorUrl=plugin["authorUrl"],
-                    lastUpdated=datetime.fromtimestamp(plugin["lastUpdated"]).date(),
-                    license=plugin['license']['name'],
-                    plugintype=', '.join(sorted(plugin['type'])),
-                    description=plugin['description']))
+                readme.write(f"|[{plugin['name']}]({plugin['projectUrl']})"\
+                    f"|[{plugin['author']}]({plugin['authorUrl']})" \
+                    f"|{datetime.fromtimestamp(plugin['lastUpdated']).date()}"\
+                    f"|{plugin['license']['name']}"\
+                    f"|{', '.join(sorted(plugin['type']))}"\
+                    f"|{plugin['description']}|\n")
             readme.write(info)
 if __name__ == "__main__":
     main()
