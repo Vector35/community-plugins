@@ -4,14 +4,15 @@ import json
 import argparse
 import base64
 import requests
+from requests.auth import HTTPBasicAuth
 from dateutil import parser
-import base64
 import re
 from datetime import datetime
 from pathlib import Path
 
 user = None
 token = None
+
 
 def printProgressBar(iteration, total, prefix = '', length = 80, fill = '█'):
     filledLength = int(length * iteration // total)
@@ -23,8 +24,10 @@ def printProgressBar(iteration, total, prefix = '', length = 80, fill = '█'):
     if iteration == total:
         print()
 
+
 def getfile(url):
-    return requests.get(url, auth=requests.auth.HTTPBasicAuth(user, token))
+    return requests.get(url, auth=HTTPBasicAuth(user, token))
+
 
 def getPluginJson(plugin):
     if "site" in plugin:
@@ -136,6 +139,7 @@ def getPluginJson(plugin):
         data["installinstructions"] = {}
     return data
 
+
 def main():
     parser = argparse.ArgumentParser(description="Produce 'plugins.json' for plugin repository.")
     parser.add_argument("-i", "--initialize", action="store_true", default=False,
@@ -161,7 +165,7 @@ def main():
         if jsonData is None:
             return
         allPlugins[plugin["name"]] = jsonData
-    printProgressBar(len(plugin), len(plugin), prefix="Collecting Plugin JSON files:")
+    printProgressBar(len(listing), len(listing), prefix="Collecting Plugin JSON files:")
 
     oldPlugins = {}
     if pluginjson.exists():
@@ -214,12 +218,14 @@ def main():
             readme.write(u"|------------|--------|--------------|---------|----------|-------------|\n")
 
             for plugin in allPlugins.values():
-                readme.write(f"|[{plugin['name']}]({plugin['projectUrl']})"\
-                    f"|[{plugin['author']}]({plugin['authorUrl']})" \
-                    f"|{datetime.fromtimestamp(plugin['lastUpdated']).date()}"\
-                    f"|{plugin['license']['name']}"\
-                    f"|{', '.join(sorted(plugin['type']))}"\
+                readme.write(f"|[{plugin['name']}]({plugin['projectUrl']})"
+                    f"|[{plugin['author']}]({plugin['authorUrl']})"
+                    f"|{datetime.fromtimestamp(plugin['lastUpdated']).date()}"
+                    f"|{plugin['license']['name']}"
+                    f"|{', '.join(sorted(plugin['type']))}"
                     f"|{plugin['description']}|\n")
             readme.write(info)
+
+
 if __name__ == "__main__":
     main()
