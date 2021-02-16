@@ -39,16 +39,30 @@ def getPluginJson(plugin):
     tagsUrl = f"{projectUrl}/tags"
 
     releaseData = None
-    releases = f"{releasesUrl}/{plugin['tag']}"
-    try:
-        releaseData = getfile(releases).json()
-        if "message" in releaseData and releaseData["message"] == "Not Found":
-            print(f"\n\nERROR: {plugin['name']}, Couldn't get release information. Likely the user created a tag but no associated release.\n")
-            print(f"Tried to use URL: {releases}")
+
+    if 'auto_update' in plugin and plugin['auto_update']:
+        releaseList = f"{projectUrl}/releases"
+        try:
+            releaseData = getfile(releaseList).json()[0]
+            if "message" in releaseData and releaseData["message"] == "Not Found":
+                print(f"\n\nERROR: {plugin['name']}, Couldn't get release information. Likely the user created a tag but no associated release.\n")
+                return None
+            plugin['tag'] = releaseData['tag_name']
+        except requests.exceptions.HTTPError:
+            print(f" Unable get get url {releaseList}")
             return None
-    except requests.exceptions.HTTPError:
-        print(f" Unable get get url {releases}")
-        return None
+    else:
+
+        releases = f"{releasesUrl}/{plugin['tag']}"
+        try:
+            releaseData = getfile(releases).json()
+            if "message" in releaseData and releaseData["message"] == "Not Found":
+                print(f"\n\nERROR: {plugin['name']}, Couldn't get release information. Likely the user created a tag but no associated release.\n")
+                print(f"Tried to use URL: {releases}")
+                return None
+        except requests.exceptions.HTTPError:
+            print(f" Unable get get url {releases}")
+            return None
 
     commit = None
     zipUrl = None
@@ -91,7 +105,7 @@ def getPluginJson(plugin):
         req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
         if "content" in req_json:
             requirements_txt = base64.b64decode(req_json["content"]).decode('utf-8')
-            if requirements_txt.startswith("\ufeff"): # Remove BOM from file contents
+            if requirements_txt.startswith("\ufeff"):  # Remove BOM from file contents
                 requirements_txt = requirements_txt[1:]
             requirements_txt = requirements_txt.replace("\r\n", "\n")
     except requests.exceptions.HTTPError:

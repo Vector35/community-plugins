@@ -1,71 +1,71 @@
 [
     {
         "name":"ZetaTwo/binja-gameboy",
-        "tag":"v1.0"
+        "auto_update":true
     },
     {
         "name":"inspier/BinjaRustDemangler",
-        "tag":"0.1.2"
+        "auto_update":true
     },
     {
         "name":"PistonMiner/binaryninja-bindiff-viewer",
-        "tag":"1.0"
+        "auto_update":true
     },
     {
         "name":"kryptoslogic/binja_degobfuscate",
-        "tag":"1.0.1"
+        "auto_update":true
     },
     {
         "name":"travisgoodspeed/symgrate2-binja-plugin",
-        "tag":"1.3.3"
+        "auto_update":true
     },
     {
         "name":"Martyx00/VulnFanatic",
-        "tag":"3.5"
+        "auto_update":true
     },
     {
         "name":"Martyx00/ghinja",
-        "tag":"1.6"
+        "auto_update":true
     },
     {
         "name":"matteyeux/seprom-loader",
-        "tag":"1.0.3"
+        "auto_update":true
     },
     {
         "name":"murx-/devi_binja",
-        "tag":"0.2"
+        "auto_update":true
     },
     {
         "name":"d-we/binja-golang-symbol-restore",
-        "tag":"1.2"
+        "auto_update":true
     },
     {
         "name":"f0rki/bn-goloader",
-        "tag":"1.1"
+        "auto_update":true
     },
     {
         "name":"jeffli678/bnhook",
-        "tag":"1.1"
+        "auto_update":true
     },
     {
         "name":"thebabush/nampa",
-        "tag":"1.0"
+        "auto_update":true
     },
     {
         "name":"trib0r3/binja-yara",
-        "tag":"1.0"
+        "auto_update":true
     },
     {
         "name":"Shizmob/binja-depanalyzer",
-        "tag":"1.0"
+        "auto_update":true
     },
     {
         "name":"atxsinn3r/BinjaHLILDump",
-        "tag":"1.1"
+        "auto_update":true
     },
     {
         "name":"hugsy/gef-binja",
-        "tag":"v0.2"
+        "auto_update":true
     },
     {
         "name": "joshwatson/binaryninja-msp430",
@@ -101,162 +101,162 @@
     },
     {
         "name":"verylazyguy/binaryninja-vmndh",
-        "tag":"v0.2"
+        "auto_update":true
     },
     {
         "name":"0x1F9F1/binja-msvc",
-        "tag":"1.0"
+        "auto_update":true
     },
     {
         "name":"fluxchief/binaryninja_avr",
-        "tag":"0.2"
+        "auto_update":true
     },
     {
         "name":"withzombies/bnil-graph",
-        "tag":"v1.3.2"
+        "auto_update":true
     },
     {
         "name":"mechanicalnull/sourcery_pane",
-        "tag":"v0.1"
+        "auto_update":true
     },
     {
         "name":"chame1eon/binaryninja-frida",
-        "tag":"v1.3.1"
+        "auto_update":true
     },
     {
         "name":"Vasco-jofra/format-string-finder-binja",
-        "tag":"v1.0"
+        "auto_update":true
     },
     {
         "name":"shareef12/driveranalyzer",
-        "tag":"v1.0.0"
+        "auto_update":true
     },
     {
         "name":"carstein/Syscaller",
-        "tag":"v1.0"
+        "auto_update":true
     },
     {
         "name":"404d/peutils",
-        "tag":"v1.3"
+        "auto_update":true
     },
     {
         "name":"404d/autoutils",
-        "tag":"v0.3"
+        "auto_update":true
     },
     {
         "name":"ForAllSecure/bncov",
-        "tag":"1.3.1"
+        "auto_update":true
     },
     {
         "name":"ehntoo/binaryninja-svd",
-        "tag":"v2.0.0"
+        "auto_update":true
     },
     {
         "name":"whitequark/binja_function_abi",
-        "tag":"v1.0"
+        "auto_update":true
     },
     {
         "name":"whitequark/binja_itanium_cxx_abi",
-        "tag":"v1.1"
+        "auto_update":true
     },
     {
         "name":"whitequark/binja-i8086",
-        "tag":"v0.1"
+        "auto_update":true
     },
     {
         "name":"whitequark/binja-m16c",
-        "tag":"v1.0"
+        "auto_update":true
     },
     {
         "name":"c3r34lk1ll3r/Instruction_Slicer",
-        "tag":"v1.1"
+        "auto_update":true
     },
     {
         "name":"c3r34lk1ll3r/BinRida",
-        "tag":"v1.0"
+        "auto_update":true
     },
     {
         "name":"icecr4ck/bnGB",
-        "tag":"1.0.1"
+        "auto_update":true
     },
     {
         "name":"wrigjl/binaryninja-m68k",
-        "tag":"0.4"
+        "auto_update":true
     },
     {
         "name":"janbbeck/CleanTricks",
-        "tag":"1.4"
+        "auto_update":true
     },
     {
         "name":"uni-due-syssec/bn-riscv",
-        "tag":"v0.2"
+        "auto_update":true
     },
     {
         "name":"jmprdi/binja-division-deoptimization",
-        "tag":"0.1.3"
+        "auto_update":true
     },
     {
         "name":"Cryptogenic/idc_importer",
-        "tag":"v1.1"
+        "auto_update":true
     },
     {
         "name":"atxsinn3r/BinjaHLILDump",
-        "tag":"1.1"
+        "auto_update":true
     },
     {
         "name":"lunixbochs/revsync",
-        "tag":"1.0"
+        "auto_update":true
     },
     {
         "name":"toolCHAINZ/DUMB",
-        "tag":"v1.0.3"
+        "auto_update":true
     },
     {
         "name":"toolCHAINZ/hexfiles",
-        "tag":"1.0.2"
+        "auto_update":true
     },
     {
         "name":"CarveSystems/binjawa",
-        "tag":"0.5.0"
+        "auto_update":true
     },
     {
         "name":"vtil-project/VTIL-BinaryNinja",
-        "tag":"1.1"
+        "auto_update":true
     },
     {
         "name":"EliseZeroTwo/Switch-Binja-Loader",
-        "tag":"v1.0"
+        "auto_update":true
     },
     {
         "name":"borzacchiello/seninja",
-        "tag":"0.2.2"
+        "auto_update":true
     },
     {
         "name":"x1tan/binaryninja-discord-integration",
-        "tag":"v0.8.0"
+        "auto_update":true
     },
     {
         "name":"Rami114/cryptoscan",
-        "tag":"1.1"
+        "auto_update":true
     },
     {
         "name":"uafio/BinaryNinja-CHIP8-Arch",
-        "tag":"1.0"
+        "auto_update":true
     },
     {
         "name":"mauronz/binja-emotet",
-        "tag":"0.1"
+        "auto_update":true
     },
     {
         "name":"BlackwingHQ/iBoot64Binja",
-        "tag":"1.0.1"
+        "auto_update":true
     },
     {
         "name":"sum-catnip/logrn",
-        "tag":"1.0.1"
+        "auto_update":true
     },
     {
         "name":"ImNotAVirus/delphi_ninja",
-        "tag":"0.1.1"
+        "auto_update":true
     }
 ]
