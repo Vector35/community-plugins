@@ -217,7 +217,7 @@ def main():
             readme.write(u"| PluginName | Author | Last Updated | License | Type | Description |\n")
             readme.write(u"|------------|--------|--------------|---------|----------|-------------|\n")
 
-            for plugin in allPlugins.values():
+            for plugin in dict(sorted(allPlugins.items(), key=lambda x: x[1]['name'].casefold())).values():
                 readme.write(f"|[{plugin['name']}]({plugin['projectUrl']})"
                     f"|[{plugin['author']}]({plugin['authorUrl']})"
                     f"|{datetime.fromtimestamp(plugin['lastUpdated']).date()}"
