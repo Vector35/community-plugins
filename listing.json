@@ -1,5 +1,9 @@
 [
     {
+        "name":"psifertex/tagteam",
+        "auto_update":true
+    },
+    {
         "name":"fgsect/JMPscare-binja",
         "auto_update":true
     },
