@@ -49,6 +49,7 @@
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2019-09-06|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|2019-07-12|MIT|helper|Parses MSVC structures to improve analysis|
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|2020-05-27|LGPL v3|binaryview, core|FLIRT for (binary) ninjas|
+|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|2021-03-05|GPL-2.0|helper|Automatically detect control-flow flattening and other state machines|
 |[peutils](https://github.com/404d/peutils)|[404'd](https://github.com/404d)|2020-12-12|MIT|helper|Binary Ninja plugin providing various niche utilities for working with PE binaries|
 |[recursion](https://github.com/zznop/bn-recursion)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Locate and annotate direct and indirect recursion|
 |[Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|[whitequark](https://github.com/whitequark)|2020-01-19|BSD-0-clause|architecture|A plugin providing the Renesas M16C architecture.|

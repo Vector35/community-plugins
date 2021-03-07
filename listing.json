@@ -1,5 +1,9 @@
 [
     {
+        "name":"mrphrazer/obfuscation_detection",
+        "auto_update":true
+    },
+    {
         "name":"psifertex/tagteam",
         "auto_update":true
     },
