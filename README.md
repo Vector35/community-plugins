@@ -44,7 +44,7 @@
 |[JMPscare](https://github.com/fgsect/JMPscare-binja)|[Lukas Seidel](https://github.com/fgsect)|2021-03-01|MIT|binaryview, core, helper, ui|Fuzzing Introspection for use with the JMPscare Toolkit.|
 |[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|2019-07-06|MIT|core, ui|A plugin that eases fixing jump table branches|
 |[kallsyms](https://github.com/zznop/bn-kallsyms)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|
-|[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|2020-10-02|MIT|helper|binary ninja plugin for abusing logging functions|
+|[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|2021-03-09|MIT|helper|binary ninja plugin for abusing logging functions|
 |[Motorola 68k Architecture Plugin](https://github.com/wrigjl/binaryninja-m68k)|[Alex Forencich](https://github.com/wrigjl)|2020-12-30|MIT|architecture|A disassembler and lifter for the Motorola 68k architecture.|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2019-09-06|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|2019-07-12|MIT|helper|Parses MSVC structures to improve analysis|
