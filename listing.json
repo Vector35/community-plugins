@@ -1,5 +1,9 @@
 [
     {
+        "name":"Ayrx/binja-JNIAnalyzer",
+        "auto_update":true
+    },
+    {
         "name":"mrphrazer/obfuscation_detection",
         "auto_update":true
     },
