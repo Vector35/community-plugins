@@ -177,8 +177,11 @@ def main():
 
     newPlugins = []
     updatedPlugins = []
+    removedPlugins = []
+    newList = []
     for i, (name, pluginData) in enumerate(allPlugins.items()):
         # printProgressBar(i, len(allPlugins), prefix="Updating plugins.json:")
+        newList.append(name)
         pluginIsNew = False
         pluginIsUpdated = False
         if name not in oldPlugins:
@@ -194,6 +197,9 @@ def main():
                 newPlugins.append(name)
             elif pluginIsUpdated:
                 updatedPlugins.append(name)
+    for name in oldPlugins:
+        if name not in newList:
+            removedPlugins.append(name)
 
     printProgressBar(len(allPlugins), len(allPlugins), prefix="Updating plugins.json:       ")
     allPluginsList = []
@@ -205,6 +211,9 @@ def main():
         print(f"\t- {plugin}")
     print(f"{len(updatedPlugins)} Updated Plugins:")
     for plugin in updatedPlugins:
+        print(f"\t- {plugin}")
+    print(f"{len(removedPlugins)} Removed Plugins:")
+    for plugin in removedPlugins:
         print(f"\t- {plugin}")
     print(f"Writing {pluginjson}")
     with open(pluginjson, "w") as pluginsFile:
