@@ -96,6 +96,17 @@ def getPluginJson(plugin):
     try:
         content = getfile(pluginjson).json()['content']
         data = json.loads(base64.b64decode(content))
+        if ('longdescription' in data and len(data['longdescription']) < 100) or ('longdescription' not in data):
+            try:
+                for readmefile in ["README.md", "README.MD", "readme.md", "README", "readme", "Readme.md"]:
+                    readmeUrl = f"{projectUrl}/contents/{readmefile}"
+                    readmeJson = getfile(readmeUrl).json()
+                    if all (k in readmeJson for k in ("encoding", "content")):
+                        if readmeJson["encoding"] == "base64":
+                            data['longdescription'] = base64.b64decode(readmeJson["content"]).decode('utf-8')
+                            break
+            except:
+                pass
         if "plugin" in data:
             # Using old style json
             data = data["plugin"]

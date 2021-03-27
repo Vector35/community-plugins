@@ -26,7 +26,8 @@
             "Windows": "No special instructions."
         },
         "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1616858785,
+        "longdescription": "# Screenshot Ninja\n\nScreenshot Ninja makes it easy to capture screenshots of Binary Ninja!\n\n![Banner](https://raw.githubusercontent.com/jonpalmisc/screenshot_ninja/master/banner.png)\n\n> The pictured theme is [Reflection](https://github.com/jonpalmisc/bn-reflection-theme).\n\n## Features\n\nScreenshot Ninja currently allows you to capture screenshots:\n\n- of the active linear/graph view;\n- of the entire Binary Ninja window; and\n- at custom scaling factors, such as 2x or 3x the native resolution.\n\n## Install\n\nYou can get Screenshot Ninja by:\n\n- installing it through Binary Ninja's plugin manager;\n- cloning this repository into your user plugins folder; or\n- downloading and extracting a release into your user plugins folder.\n\nIf you plan to use the scripting functionality, the latter two options are\nrecommended, as the plugin manager adjusts module names.\n\nScreenshot Ninja has no additional dependencies.\n\n## Usage\n\nScreenshot Ninja can be used from the context menu or command palette, as well\nas from the console as a Python module.\n\n### From the user interface\n\nUse the context menu or command palette to find Screenshot Ninja's commands. The\n\"save view image\" command family will save an image of the active linear/graph\nview, while the \"save window image\" command family will save an image of the\nentire Binary Ninja window.\n\n### As a Python module\n\nYou can import Screenshot Ninja in the Python console like this:\n\n``` python\nimport screenshot_ninja\n```\n\nYou can then use the `get_active_view_image` and `get_active_window_image`\nfunctions as you wish. Both functions return a `QPixmap`, which you are\nresponsible for saving yourself. Additionally, both functions will throw a\n`ValueError` if something goes wrong, so be sure to catch it.\n\n## License\n\nCopyright 2021 Jon Palmisciano. Licensed under the MIT License. For additional\ninformation, see [LICENSE.txt](LICENSE.txt).\n",
+        "lastUpdated": 1616869533,
         "projectUrl": "https://github.com/jonpalmisc/screenshot_ninja",
         "projectData": {
             "id": 351544484,
@@ -95,8 +96,8 @@
             "releases_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/deployments",
             "created_at": "2021-03-25T18:57:04Z",
-            "updated_at": "2021-03-27T15:25:12Z",
-            "pushed_at": "2021-03-27T15:26:25Z",
+            "updated_at": "2021-03-27T18:24:51Z",
+            "pushed_at": "2021-03-27T18:25:32Z",
             "git_url": "git://github.com/jonpalmisc/screenshot_ninja.git",
             "ssh_url": "git@github.com:jonpalmisc/screenshot_ninja.git",
             "clone_url": "https://github.com/jonpalmisc/screenshot_ninja.git",
@@ -137,10 +138,10 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/jonpalmisc",
-        "packageUrl": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/zipball/refs/tags/v1.3.1",
+        "packageUrl": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/zipball/refs/tags/v1.3.2",
         "dependencies": "",
         "path": "jonpalmisc_screenshot_ninja",
-        "commit": "c0f94e2e913a89d7db6ebd3bed565cc7f5e3400f",
+        "commit": "86d9db589da575068849624ad70d354b7658cc64",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -153,7 +154,7 @@
             "python3"
         ],
         "description": "Analysis scripts for Binary Ninja to work with Android NDK libraries.",
-        "longdescription": "This plugin contains several functions that aid in the analysis of Android native libraries.",
+        "longdescription": "# JNIAnalyzer\n\nThis is a Binary Ninja extension contains various scripts that assists in\nanalyzing Android NDK applications.\n\nThis is a port of my [JNIAnalyzer][ghidra-jnianalyzer] Ghidra extension. The\nAPK parsing is done with [Androguard][androguard] instead of JADX.\n\n## Installation\n\n1. Install Androguard by cloning the git repository and running the `setup.py`\nscript. The version of Androguard available on PyPI is currently too old to\nwork.\n2. Install [binja-typemanager][binja-typemanager]\nand [binja-typelibs-collection][binja-typelibs-collection]. Alternatively, make\nthe types from the JNI header available to Binary Ninja in another manner.\n3. Install the plugin the typical Binary Ninja way. `install_linux.sh` does\nthe correct things if you are on Linux.\n\n## Usage\n\n### Import APK\n\nRun the \"JNIAnalyzer - Import APK\" command and select the APK file associated\nwith the native library being analyzed.\n\n### Import trace_registernatives\n\nRun the \"JNIAnalyzer - Import trace_registernatives JSON\" command and select\nthe JSON output from [trace_registernatives][trace_registernatives].\n\n### Analyze current function\n\nRun the \"JNIAnalyzer - Analyze RegisterNatives calls in current function\"\ncommand while in a function that calls `RegisterNatives`.\n\n### Binary Ninja Tags\n\nJNI related functions or data structures detected by this extension will be\ntagged with \"JNIAnalyzer\" using Binary Ninja's Tag API which can be viewed\nusing Binary Ninja's tag browser.\n\n[ghidra-jnianalyzer]: https://github.com/Ayrx/JNIAnalyzer\n[androguard]: https://github.com/androguard/androguard\n[binja-typemanager]: https://github.com/Ayrx/binja-typemanager\n[binja-typelibs-collection]: https://github.com/Ayrx/binja-typelibs-collection\n[trace_registernatives]: https://github.com/Ayrx/trace_registernatives\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 Terry Chia\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -383,7 +384,7 @@
             "releases_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/deployments",
             "created_at": "2021-03-03T18:04:19Z",
-            "updated_at": "2021-03-27T17:08:50Z",
+            "updated_at": "2021-03-27T17:26:14Z",
             "pushed_at": "2021-03-05T14:24:42Z",
             "git_url": "git://github.com/mrphrazer/obfuscation_detection.git",
             "ssh_url": "git@github.com:mrphrazer/obfuscation_detection.git",
@@ -391,8 +392,8 @@
             "svn_url": "https://github.com/mrphrazer/obfuscation_detection",
             "homepage": "",
             "size": 9031,
-            "stargazers_count": 68,
-            "watchers_count": 68,
+            "stargazers_count": 70,
+            "watchers_count": 70,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -413,7 +414,7 @@
             },
             "forks": 8,
             "open_issues": 0,
-            "watchers": 68,
+            "watchers": 70,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -761,7 +762,7 @@
             "python3"
         ],
         "description": "A loader and diassembler for Game Boy ROMs.",
-        "longdescription": "This plugin loads Game Boy ROMs and disassemble Sharp LR35902 (Game Boy CPU) assembly code.",
+        "longdescription": "# Gameboy Binary Ninja plugin\n\n## Description\n\nA Binary Ninja plugin to load Game Boy ROMs and disassemble Game Boy architecture bytecode (Sharp LR35902).\n\nBased on [bnGB](https://github.com/icecr4ck/bnGB) by [Hugo Porcher (icecr4ck)](https://github.com/icecr4ck).\n\n### Improvements\n* Added proper IO register symbols\n* Added ISR symbols\n* Fixed some incorrect branching\n* Fixed some incorrect addressing modes\n\n### Todo\n* Implement LLIL lifting\n* Thorough testing\n\n## Installation\n\nEither install the plugin from the plugin manager or manually clone the repository to your plugin directory.\n\n## Minimum version\n\nThis plugin has only been tested on the following version of Binary Ninja:\n\n* release - 2.2.2487\n\n## References\n\n* [Gameboy Project](https://github.com/ZetaTwo/gameboy-project)\n* [Gameboy Pan Docs](http://bgb.bircd.org/pandocs.htm)\n* [Gameboy opcodes](https://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html)  \n\n## License\n\nThis plugin is released under a [MIT](LICENSE) license.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 Hugo Porcher\n\nCopyright (c) 2021 Carl Svensson (calle.svensson@zeta-two.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -2719,7 +2720,7 @@
             "python3"
         ],
         "description": "FLIRT for (binary) ninjas",
-        "longdescription": "Plugin for using FLIRT signatures inside of Binary Ninja.",
+        "longdescription": "# Nampa - FLIRT for (binary) ninjas\n\n*Pure-python implementation of IDA Pro's FLIRT technology. Also Binary Ninja plugin.*\n\n## Description\n\nNampa is a package for reading IDA Pro's `.sig` files.\nIt comes with its own command-line tool for analyzing such files: `dumpsig.py`.\n\nNampa the package is completely decoupled from the Binary Ninja plugin.\n\nNampa the plugin comes with a small library of `.sig` files, automatically\ndownloaded from 3rd-party GitHub repositories when needed.\n\n## Screenshot\n\n![Dialog](./img/dialog.png)\n\n## Installation\n\nFor use as a python library:\n\n```bash\npip install nampa\n```\n\nFor use as a Binary Ninja plugin:\n\n```bash\ncd ~/.binaryninja/plugins/\ngit clone git@github.com:thebabush/nampa.git\ncd nampa\npip install -r requirements.txt # or sudo apt-get install python-future\n```\n\n**NOTE:** apparently, Binary Ninja for Windows ships with its own python distribution so `pip install` accordingly.\n\n## About\n\n[Meaning of Nampa (\u30ca\u30f3\u30d1)](http://jisho.org/search/%E8%BB%9F%E6%B4%BE).\n\n### Limitations\n\nRef functions are not implemented at the moment.\n\n### Thanks\n\n- `radare` people, since this is basically a python port of\n[radare's FLIRT implementation](https://raw.githubusercontent.com/radare/radare2/e8f80a165c7dd89d955a1ee7f432bd9a1ba88976/libr/anal/flirt.c).\n- [trib0r3](https://github.com/trib0r3) for updating the Binary Ninja integration\n\n### License\n\nThe original radare's flirt.c is under LGPL, so my deep knowledge of software licenses tells me that I must keep it\nthat way.\n",
         "license": {
             "name": "LGPL v3",
             "text": "This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 3.0 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
@@ -2865,7 +2866,7 @@
             "python3"
         ],
         "description": "YARA signatures",
-        "longdescription": "Scan your binary with YARA signatures",
+        "longdescription": "# YARA Scan (v1.0)\nAuthor: **trib0r3**\n\n_YARA signatures_\n\n## Description\n\nScan your binary with YARA signatures\n\n\n## Installation Instructions\n\n```bash\npip3 install yara-python\n```\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n * pip - yara-python\n\n\n## License\n\nThis plugin is released under a MIT license.",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 trib0r3\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -3153,7 +3154,7 @@
             "python3"
         ],
         "description": "Dumps HLIL code to a directory",
-        "longdescription": "This plugin will dump all the code in a directory of your choice.",
+        "longdescription": "# Binary Ninja HLIL Dump\n\n## Description\n\nThis is a Binary Ninja plugin written in Python that allows you to decompile the whole binary,\nand then dump all that in a directory. There are some scenarios where this might be helpful,\nfor example:\n\n* Using your favorite text editor (such as Sublime) to read/find code.\n* Being able to `diff -u` source.\n* etc.\n",
         "license": {
             "name": "BSD-3-Clause",
             "text": "Copyright (c) 2020, Wei Chen\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n1. Redistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright notice,\nthis list of conditions and the following disclaimer in the documentation\nand/or other materials provided with the distribution.\n3. Neither the name of the copyright holder nor the names of its\ncontributors may be used to endorse or promote products derived from\nthis software without specific prior written permission.\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
@@ -3382,8 +3383,8 @@
             "releases_url": "https://api.github.com/repos/hugsy/gef-binja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/hugsy/gef-binja/deployments",
             "created_at": "2020-05-12T20:56:41Z",
-            "updated_at": "2021-02-07T23:55:36Z",
-            "pushed_at": "2021-03-27T00:30:45Z",
+            "updated_at": "2021-03-27T17:46:38Z",
+            "pushed_at": "2021-03-27T17:46:35Z",
             "git_url": "git://github.com/hugsy/gef-binja.git",
             "ssh_url": "git@github.com:hugsy/gef-binja.git",
             "clone_url": "https://github.com/hugsy/gef-binja.git",
@@ -3402,7 +3403,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -3411,7 +3412,7 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 6,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 39,
             "default_branch": "master",
             "permissions": {
@@ -3441,7 +3442,7 @@
             "python3"
         ],
         "description": "MSP430 Architecture Plugin for Binary Ninja",
-        "longdescription": "This plugin implements the MSP430 architecture disassembler and lifter for Binary Ninja.",
+        "longdescription": "# MSP430 Architecture Plugin (v0.4)\nAuthor: **Josh Watson**\n\n_A disassembler and lifter for the MSP430 architecture._\n\n## Description:\n\nThis plugin disassembles MSP430 assembly code and generates LLIL.\n\nTo install this plugin, navigate to your Binary Ninja plugins directory, and run\n\n```git clone https://github.com/joshwatson/binaryninja-msp430.git msp430```\n\nAlternatively, clone the repo whereever you want, and add a symbolic link in your plugins directory.\n\nAlternatively-Alternatively, use Binary Ninja's [Plugin Manager](https://binary.ninja/2019/07/04/plugin-manager-2.0.html) to install it.\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * release - 1.1.1689\n\n## License\n\nThis plugin is released under a [MIT](LICENSE) license.\n\n\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2017 Josh Watson\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -3589,7 +3590,7 @@
             "python3"
         ],
         "description": "Generate and find signatures.",
-        "longdescription": "Generate signatures for use in pattern scanning in other applications",
+        "longdescription": "# binja_sigmaker (v2.0)\nAuthor: [Alex3434](https://github.com/Alex3434)\n\nFixed up by **apekros** for Python3 and Plugin Manager 2.0\n\nbinja_sigmaker plugin for Binary Ninja\n\n## Description:\n\nGenerate Signatures to use for pattern scanning in other applications.\n\n- The signature has the same form like the sequence of bytes in IDA (eg. 89 45 FC FF 15 ? ? ? ?)\n- You can create a signature at any point inside a function.  \n- If there is no unique signature at that position, the plugin will create a signature for the beginning of the function.\n\n## Usage:\n\n<img src=\"https://i.gyazo.com/bdd6d7a421d14efc6e6128dc5b797fb4.gif\"/>\n<img src=\"https://i.gyazo.com/24b4ac1e07dcb08e156535744763afb6.gif\"/>\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin: None\n\n## License\n\nThis plugin is released under a [MIT](LICENSE) license.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 apekros\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -3881,7 +3882,7 @@
             "python3"
         ],
         "description": "Transfer analysis data between Binary Ninja and IDA",
-        "longdescription": "Transfer analysis data between Binary Ninja and IDA by exporting data to a common JSON file format",
+        "longdescription": "# bnida\n\n## Description\n\nbnida is a suite of plugins that provide the ability to transfer analysis data between IDA Pro and Binary Ninja\ndatabases.\n\n## Documentation\n\nDocumentation can be found [here](https://zznop.github.io/bnida)\n\n## License\n\nThis project is released under the MIT license.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright 2020 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -4023,7 +4024,7 @@
             "python3"
         ],
         "description": "SEGA Megadrive/Genesis ROM Hacking Toolkit",
-        "longdescription": "Suite of plugins for SEGA Megadrive/Genesis ROM hacking and Motorola 68000 binary patching",
+        "longdescription": "# bn-genesis\n\n## Description\n\nSuite of Binary Ninja plugins that assist with SEGA Genesis ROM hacking\n* Load SEGA Genesis/Megadrive ROM's\n* Write m68k assembly and quickly apply a patch at a specified offset\n* Fixup ROM checksums\n* Enumerate call tables (deprecated)\n    * Vector35 addressed issues with its core and now tables are recognized by auto-analysis \n\n![demo bn-genesis](screencap.gif)\n\n## Dependencies\n\n* Assembler plugin requires `gcc-m68k-linux-gnu` (Ubuntu or Debian)\n* Loader requires the third party m68k processor module, which can be found [here](https://github.com/wrigjl/binaryninja-m68k)\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2019 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -4162,7 +4163,7 @@
             "python3"
         ],
         "description": "Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database",
-        "longdescription": "Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database",
+        "longdescription": "# kallsyms\nAuthor: **zznop**\n\n_Binary Ninja plugin for importing symbols to a kernel binary from /proc/kallsyms_\n\n## Description:\n\nbn-kallsyms allows you to open a file containing kernel symbols (generated with `cat /proc/kallsyms > out.txt`) from\ninside the Binary Ninja UI to import symbol infromation and aid in kernel RE.\n\n**Before loading kernel symbols:**\n\n![Before kallsyms import](screens/before.png \"Before:\")\n\n**After loading kernel symbols:**\n\n![After kallsyms import](screens/after.png \"After:\")\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * release - 1.1.1142\n * dev - 1.1.1228-dev\n\n## License\n\nThis plugin is released under a [MIT](LICENSE) license.\n\n## Usage\n\n## Generating a kallsyms file\n\nTo generate a kallsyms file, simply run the following command:\n```\nsudo sh -c \"echo 0  > /proc/sys/kernel/kptr_restrict\" && sudo cat /proc/kallsyms > kallsyms.txt\n```\n\n## Loading kallsyms\n\nTo use this plugin, you must first extract the compressed kernel image from the boot image. To do this, use binwalk:\n\n```\n$ binwalk -e vmlinuz-4.13.0-43-generic\n```\n\nThis should create a sub-directory containing the decompressed kernel image:\n\n```\n$ file ~/_vmlinuz-4.13.0-43-generic.extracted/47B4 \n/home/joe/_vmlinuz-4.13.0-43-generic.extracted/47B4: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=3e0dc1c8b93e2f3f522a596cfc4b482065469041, stripped\n```\n\nLoad the kernel binary into Binary Ninja. Then, click `Tools->\"kallsyms: Apply kernel symbols\". You will then be\nprompted to select the `/proc/kallsyms` output file. Select it, and click \"Open\". The plugin will proceed to parse\nthe kallsyms file, create functions, and import symbol names into the database.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright 2020 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -4297,7 +4298,7 @@
             "python3"
         ],
         "description": "Locate and annotate direct and indirect recursion",
-        "longdescription": "Locate and annotate direct and indirect recursive functions and function calls",
+        "longdescription": "# bn-recursion\nAuthor: **zznop**\n\n_Binary Ninja plugin for locating direct and indirect recursive logic_\n\n## Description:\n\nbn-recursion is an architecture-agnostic plugin for locating direct and indirect recursion using BNIL\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * release - 1.1.1142\n * dev - 1.1.1228-dev\n\n## License\n\nThis plugin is released under a [MIT](LICENSE) license.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright 2020 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -4721,7 +4722,7 @@
             "python3"
         ],
         "description": "Parses MSVC structures to improve analysis",
-        "longdescription": "Parses MSVC structures such as RTTI and Unwind Info to improve analysis",
+        "longdescription": "# MSVC\nAuthor: **Brick**\n_Parses MSVC structures to improve analysis_\n\n## Description:\nParses MSVC structures such as RTTI and Unwind Info to improve analysis\n",
         "license": {
             "name": "MIT",
             "text": "Copyright 2019 Brick\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -5735,7 +5736,7 @@
             "python3"
         ],
         "description": "Decorate encountered syscalls with details like name and arguments",
-        "longdescription": "A plugins that print out details about encountered syscalls like name and arguments",
+        "longdescription": "BinaryNinja Syscall annotator\n====================\nThis is a plugin for Binary Ninja Reversing Platform.\nUpon encountering a syscall it gets annotated with retrieved arguments.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright 2019 Michal Melewski\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -6762,6 +6763,7 @@
             "name": "BSD-0-clause",
             "text": "Copyright (C) 2018 by whitequark\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
         },
+        "longdescription": "# Binary Ninja Intel 8086 plugin\n\nThe Intel 8086 plugin provides a 16-bit x86 architecture for Binary Ninja.\n\n## Features\n\nThis plugin decodes and lifts all original 8086 instructions. However, 80186 (and more recent) instructions such as `enter` and `leave` are not recognized. Non-well-formed instructions (including unrecognized opcodes and invalid addressing modes) are displayed as `unrecognized` and rejected during lifting.\n\nThe `pascal` and `cdecl` calling conventions are provided.\n\n![](screenshot.png)\n\n## License\n\n[0-clause BSD](LICENSE-0BSD.txt)\n",
         "lastUpdated": 1567626763,
         "projectUrl": "https://github.com/whitequark/binja-i8086",
         "projectData": {
@@ -7320,7 +7322,7 @@
             "python3"
         ],
         "description": "A loader and diassembler for Game Boy ROMs.",
-        "longdescription": "This plugin loads Game Boy ROMs and disassemble Sharp LR35902 (Game Boy CPU) assembly code.",
+        "longdescription": "# Game Boy loader and architecture plugin for Binary Ninja\nAuthor: **Hugo Porcher (icecr4ck)**\n\n## Description\n\nA Binary Ninja plugin to load Game Boy ROMs and disassemble Game Boy architecture bytecode (Sharp LR35902).\n\nThis plugin is based on the description of Game Boy CPU opcodes from [here](https://github.com/lmmendes/game-boy-opcodes).\n\n## Game Boy characteristics\n\n* CPU: 8-bit\n* RAM size: 8KB\n* Similar to Intel 8080 and 8085 as well as [Zilog Z80](https://en.wikipedia.org/wiki/Zilog_Z80) microprocessors\n* ROM structure\n\t* 0-0x100: program executed when the Game Boy is powered up\n\t* 0x100-0x103: entrypoint\n\t* 0x104-0x133: scrolling Nintendo graphic (needs to remain unchanged)\n\t* 0x134-0x14f: ROM header\n\t\t* 0x134-0x142: ROM title in uppercase ASCII\n\t\t* 0x143: GB Color (0x80) or GB classic (0)\n\t\t* 0x144-0x145: Licensee code (new)\n\t\t* 0x146: GB (0) or Super GB (3)\n\t\t* 0x147: cartridge type\n\t\t* 0x148: ROM size (number of banks from 2 to 96)\n\t\t* 0x149: RAM size (nb of banks from 0 to 16)\n\t\t* 0x14a: japanese code (0) or not (1)\n\t\t* 0x14b: licensee code (old)\n\t\t* 0x14c: mask ROM version number\n\t\t* 0x14d: complement check\n\t\t* 0x14e-014f: checksum \n\n## Installation\n\nRun the following command in your Binary Ninja plugins directory:\n```bash\ngit clone https://github.com/icecr4ck/bnGB.git\n```\n\n## Minimum version\n\nThis plugin has only been tested on the following version of Binary Ninja:\n\n* release - 1.2.1921\n\n## References\n\n* [Game Boy CPU manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf)\n* [GB opcodes](https://github.com/lmmendes/game-boy-opcodes)  \n* [Using and writing Binary Ninja plugins](https://docs.binary.ninja/guide/plugins/index.html)\n* [Gameboy ROM header](https://www.zophar.net/fileuploads/2/10597teazh/gbrom.txt)\n\n## License\n\nThis plugin is released under a [MIT](LICENSE) license.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 Hugo Porcher\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -7962,7 +7964,7 @@
             "python3"
         ],
         "description": "RISC-V architecture plugin.",
-        "longdescription": "",
+        "longdescription": "# bn-riscv\n\nAn architecture plug-in that allows binary ninja to load RISC-V ELF binaries.\n\n## Installation\n\nFirst, you will need an installation of [capstone](https://github.com/aquynh/capstone) that supports RISC-V. Currently you have to install the `next` branch, e.g.,:\n\n```\npip install --user 'git+https://github.com/aquynh/capstone.git@next#subdirectory=bindings/python'\n```\n\nThen drop this repository into your plugins directory manually. Note that you should use it from master if possible, releases are somewhat rare.\n",
         "license": {
             "name": "Apache-2.0",
             "text": "Copyright 2020 Katharina Utz\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n\thttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
@@ -9193,7 +9195,7 @@
             "python3"
         ],
         "description": "Loader for common Nintendo Switch binaries",
-        "longdescription": "Loader for common Nintendo Switch binaries (Currently Supports: NSO, KIP)",
+        "longdescription": "# Switch-Binja-Loader\n### Author: **EliseZeroTwo**\n\nWork In Progress Binary Ninja Loader for common Nintendo Switch binaries\n\n![Image demoing SMO in Binja](https://github.com/EliseZeroTwo/Switch-Binja-Loader/blob/master/images/home.png)\n\n### Currently Supports\n- NSO\n- KIP\n- NRO\n\n## Credits\n- [ReSwitched for their nxo64.py loader](https://github.com/reswitched/loaders/blob/master/nxo64.py)\n- [Adubbz for his Ghidra Switch Loader](https://github.com/Adubbz/Ghidra-Switch-Loader)\n- [SwitchBrew](https://switchbrew.org/)\n\n## Installation Instructions\n\nInstall all needed packages from pip in requirements.txt (Windows and MacOS Binja ship with an embedded python, [read here on how the docs say to install pip packages](https://docs.binary.ninja/guide/plugins.html#installing-prerequisites), or what I reccomend doing is just changing the python interpreter to a system install of python3 in settings)\n### Windows\n\nClone this repository into `%APPDATA%/Binary Ninja/plugins/`\n\n### Darwin\n\nClone this repository into `~/Library/Application Support/Binary Ninja/plugins/`\n\n### Linux\n\nClone this repository into `~/.binaryninja/plugins/`\n## Minimum Version\n\nBinary Ninja v1200\n\n\n\n## License\n\nThis plugin is released under the [ISC license](https://github.com/EliseZeroTwo/Switch-Binja-Loader/blob/master/LICENSE.txt)\n\n## Metadata Version\n\n2\n",
         "license": {
             "name": "ISC",
             "text": "Copyright 2020 EliseZeroTwo\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
@@ -9483,7 +9485,7 @@
             "python3"
         ],
         "description": "Enables Discord Rich Presence Integration for Binary Ninja",
-        "longdescription": "Enables Discord Rich Presence Integration for Binary Ninja",
+        "longdescription": "<h1 align=\"center\">Binary Ninja Discord Rich Presence Integration</h1>\n<p align=\"center\">\n    <a href=\"https://github.com/x1tan/binaryninja-discord-integration/blob/master/LICENSE\">\n        <img alt=\"GitHub\" src=\"https://img.shields.io/github/license/x1tan/binaryninja-discord-integration\">\n    </a>\n</p>\n\n## Features\n\n![](https://i.imgur.com/hBTlbWF.png)\n\nThe plugin displays the file name of the binary in the current view as well as the elapsed time.\n\n## Requirements\n\nThe plugin uses [`pypresence==4.2.0`](https://pypi.org/project/pypresence/) for the Discord integration. Make sure, that\nthe Python interpreter used by Binary Ninja has `pypresence` installed.\n\n## Installation\n\nTo install this plugin, please see the \"Using Plugins\" section of the [Getting Started Guide](https://docs.binary.ninja/getting-started.html#using-plugins). Or use Binary Ninja's built in plugin manager.\n\n## License\n\nThis project is licensed under the MIT license.\n\n## Metadata Version\n\n2\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 xitan\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -9631,7 +9633,7 @@
             "Linux": "No additional installation required.",
             "Windows": "No additional installation required."
         },
-        "longdescription": "A plugin to detect several common crypto constructs and magic vars.",
+        "longdescription": "BinaryNinja CryptoScan\n======================\nPlugin for [Binary Ninja](https://binary.ninja/) platform\n\n## General\nThis Binja plugin is effectively trying to replicate [findcrypt](https://github.com/you0708/ida/tree/master/idapython_tools/findcrypt) functionality. It supports a larger range of constants.\n\n## Features\n### Overview\nThe plugin registers a single call that is accessible from the 'Tools' menu or by right-clicking in the main binary view window. \n\nScan configurations are reloaded on _every_ call to the scan function. This means you can CRUD json config files and rescan immediately. \n\nThe plugin supports the following types of scans:\n\n - Scanning for constants in data \n - Scanning for constants in the IL \n\n### Supported cryptography\n\nThe following constants are defined in scan configurations:\n\n - AES: sboxes, td0-4, te0-4\n - ARIA: sbox2, sbox4 (1 and 3 are equal to Rijndael)\n - BLAKE: 224, 256, 384 and 512 inits \n - Blowfish: p_array and sbox\n - CRC32: lzma tables 0-7, m_tab_le and m_tab_be, ms_table0-6\n - DES: p32i, pc1_left, pc1_right, pc2, sbox1-8\n - DFC: sbox\n - Elliptic Curves: p-192, p-224, p-256, p-384, p-521, Curve25519\n - IKE: modp group shared component\n - KASUMI: key expansion mod, sbox_s7, sbox_s9\n - MD5: initstate and md5_t\n - NewDES: sbox\n - RC5/RC6: combined constant\n - SHA1: h\n - SHA224: h\n - SHA256: both k and h \n - SHA512: h\n - SM3: init\n - SM4: sbox, ck and fk\n - TEA: delta\n - Zlib: distance_starts, distance_extrabits, length_starts, length_extrabits\n\n### Reporting\nIf any matches are identified a Markdown (for GUI) or text (for CLI) report will be shown, listing which scans were matched, what family they belong to as well as the address in the binary.\nThe aim of the report was to allow easy copy-pasting of the address for use with the 'Go to address...' function. \n\nWhilst data matches only contain the address at which the constant is defined, IL matches will also indicate the function they were discovered in.\n\n### Configuration\nIndividual scan configurations are kept in the scans subfolder. The following fields are required in the JSON:\n\n - name: short name for the scan\n - description: long name or description, only for author's quality of life \n - threshold: for multi-byte constants, minimum amount of n-sized chunks that must be found (e.g. when loading chunked in registers) \n - type: static or signature (signatures are currently not implemented though)\n - flags: array of single byte strings, usually 4 bytes but no upper bound is set. You can now add null bytes. \n - on_match: object with subfields\n   - type: symbol is the only supported value right now, adds a symbol at the detected address\n   - name: name to give to the symbol\n\n## TODO\n- [x] Add more constants \n- [x] Make CryptoScan run in the background\n- [x] Deal with null bytes in the flags better\n- [ ] Flesh out how signature detection will work\n- [ ] Refactor data scanning to improve speed on very large binaries \n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2018 Ben Pottier\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
