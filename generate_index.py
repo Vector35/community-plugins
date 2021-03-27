@@ -124,6 +124,8 @@ def getPluginJson(plugin):
 
     # Replace the fwd slash with _ and then strip all non (alpha, numeric, _ )
     data["path"] = re.sub("[^a-zA-Z0-9_]", "", re.sub("/", "_", projectData["full_name"]))
+    if "subfolders" in data.keys():
+        data["subfolders"] = [re.sub("[^a-zA-Z0-9_]", "", re.sub("/", "_", projectData["full_name"]))] + data["subfolders"]
     data["commit"] = commit
 
     # TODO: Consider adding license info directly from the repository's json data (would need to test unlicensed plugins)

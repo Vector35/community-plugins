@@ -1,5 +1,9 @@
 [
     {
+        "name":"jonpalmisc/screenshot_ninja",
+        "auto_update":true
+    },
+    {
         "name":"Ayrx/binja-JNIAnalyzer",
         "auto_update":true
     },

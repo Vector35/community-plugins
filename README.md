@@ -20,7 +20,7 @@
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|2020-10-02|MIT|helper|Find Delphi VMTs and generate their structures|
 |[Dependency analyzer](https://github.com/Shizmob/binja-depanalyzer)|[Shiz](https://github.com/Shizmob)|2020-05-24|MIT|helper|Analyze dependencies and resolve obfuscated imports|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|2020-11-04|MIT|helper, ui|devi - DEvirtualize VIrtual calls in C++ binaries|
-|[Discord Rich Presence Integration](https://github.com/x1tan/binaryninja-discord-integration)|[xitan](https://github.com/x1tan)|2020-07-17|MIT|helper|Enables Discord Rich Presence Integration for Binary Ninja|
+|[Discord Rich Presence Integration](https://github.com/x1tan/binaryninja-discord-integration)|[xitan](https://github.com/x1tan)|2021-03-25|MIT|helper|Enables Discord Rich Presence Integration for Binary Ninja|
 |[Division and Modulo Deoptimizer](https://github.com/jmprdi/binja-division-deoptimization)|[Nathan Peercy](https://github.com/jmprdi)|2020-05-11|MIT|binaryview, helper, ui|Deoptimize Divisions and Modulos in Binary Ninja.|
 |[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-03-01|MIT|architecture, binaryview|DUMB: An Example Architecture for Binary Ninja|
 |[Emotet API+string deobfuscator](https://github.com/mauronz/binja-emotet)|[Francesco Muroni](https://github.com/mauronz)|2020-09-21|MIT|helper|Deobufscate API calls and strings in unpacked Emotet samples.|
@@ -42,7 +42,7 @@
 |[Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|[whitequark](https://github.com/whitequark)|2019-09-04|BSD-0-clause|arch|A plugin providing the 16-bit Intel architecture.|
 |[Itanium C++ ABI](https://github.com/whitequark/binja_itanium_cxx_abi)|[whitequark](https://github.com/whitequark)|2020-05-17|BSD-0-clause|analysis|A plugin providing an analysis for Itanium C++ ABI.|
 |[JMPscare](https://github.com/fgsect/JMPscare-binja)|[Lukas Seidel](https://github.com/fgsect)|2021-03-01|MIT|binaryview, core, helper, ui|Fuzzing Introspection for use with the JMPscare Toolkit.|
-|[JNIAnalyzer](https://github.com/Ayrx/binja-JNIAnalyzer)|[Terry Chia (Ayrx)](https://github.com/Ayrx)|2021-02-24|MIT|helper|Analysis scripts for Binary Ninja to work with Android NDK libraries.|
+|[JNIAnalyzer](https://github.com/Ayrx/binja-JNIAnalyzer)|[Terry Chia (Ayrx)](https://github.com/Ayrx)|2021-03-26|MIT|helper|Analysis scripts for Binary Ninja to work with Android NDK libraries.|
 |[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|2019-07-06|MIT|core, ui|A plugin that eases fixing jump table branches|
 |[kallsyms](https://github.com/zznop/bn-kallsyms)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|2021-03-09|MIT|helper|binary ninja plugin for abusing logging functions|
@@ -56,6 +56,7 @@
 |[Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|[whitequark](https://github.com/whitequark)|2020-01-19|BSD-0-clause|architecture|A plugin providing the Renesas M16C architecture.|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-13|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2021-01-06|MIT|helper|Demangles Rust symbols.|
+|[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|2021-03-27|MIT|helper|Easily capture Binary Ninja screenshots in ultra-high resolution|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|2020-10-27|2-Clause BSD|helper|Symbolic execution plugin for BinaryNinja|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|2021-01-05|MIT|binaryview|Binary View for loading 32 bits and 64 bits Apple SEPROM|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|2019-07-14|MIT|helper, ui|Synchronized source code pane for debug binaries|
@@ -63,7 +64,7 @@
 |[Switch Loader](https://github.com/EliseZeroTwo/Switch-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2020-07-22|ISC|binaryview, helper|Loader for common Nintendo Switch binaries|
 |[Symgrate2 Plugin](https://github.com/travisgoodspeed/symgrate2-binja-plugin)|[Travis Goodspeed](https://github.com/travisgoodspeed)|2020-11-25|MIT|helper|This is a client plugin for recovering symbols using the Symgrate2 server.|
 |[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski](https://github.com/carstein)|2019-07-15|MIT|helper|Decorate encountered syscalls with details like name and arguments|
-|[Tag Team](https://github.com/psifertex/tagteam)|[psifertex](https://github.com/psifertex)|2021-03-04|Apache-2.0|helper|Tags functions using emoji for a number of interesting characteristics|
+|[Tag Team](https://github.com/psifertex/tagteam)|[psifertex](https://github.com/psifertex)|2021-03-11|Apache-2.0|helper|Tags functions using emoji for a number of interesting characteristics|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|2019-07-10|MIT|architecture|A disassembler and lifter for the VMNDH-2k12 architecture.|
 |[VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|[Layle](https://github.com/vtil-project)|2020-07-04|BSD-3-Clause|architecture, binaryview|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|
 |[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|2021-01-07|Apache-2.0|helper|Assistant plugin for vulnerability research.|

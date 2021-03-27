@@ -1,6 +1,150 @@
 [
     {
         "pluginmetadataversion": 2,
+        "name": "Screenshot Ninja",
+        "description": "Easily capture Binary Ninja screenshots in ultra-high resolution",
+        "version": "1.3.0",
+        "author": "jonpalmisc",
+        "type": [
+            "helper"
+        ],
+        "platforms": [
+            "Darwin",
+            "Linux",
+            "Windows"
+        ],
+        "api": [
+            "python3"
+        ],
+        "license": {
+            "name": "MIT",
+            "text": "Copyright (c) 2021 Jon Palmisciano\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        },
+        "installinstructions": {
+            "Darwin": "No special instructions.",
+            "Linux": "No special instructions.",
+            "Windows": "No special instructions."
+        },
+        "minimumbinaryninjaversion": 1200,
+        "lastUpdated": 1616858785,
+        "projectUrl": "https://github.com/jonpalmisc/screenshot_ninja",
+        "projectData": {
+            "id": 351544484,
+            "node_id": "MDEwOlJlcG9zaXRvcnkzNTE1NDQ0ODQ=",
+            "name": "screenshot_ninja",
+            "full_name": "jonpalmisc/screenshot_ninja",
+            "private": false,
+            "owner": {
+                "login": "jonpalmisc",
+                "id": 41548458,
+                "node_id": "MDQ6VXNlcjQxNTQ4NDU4",
+                "avatar_url": "https://avatars.githubusercontent.com/u/41548458?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/jonpalmisc",
+                "html_url": "https://github.com/jonpalmisc",
+                "followers_url": "https://api.github.com/users/jonpalmisc/followers",
+                "following_url": "https://api.github.com/users/jonpalmisc/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jonpalmisc/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/jonpalmisc/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jonpalmisc/subscriptions",
+                "organizations_url": "https://api.github.com/users/jonpalmisc/orgs",
+                "repos_url": "https://api.github.com/users/jonpalmisc/repos",
+                "events_url": "https://api.github.com/users/jonpalmisc/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/jonpalmisc/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/jonpalmisc/screenshot_ninja",
+            "description": "Easily capture Binary Ninja screenshots (in ultra-high resolution)",
+            "fork": false,
+            "url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja",
+            "forks_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/forks",
+            "keys_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/teams",
+            "hooks_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/hooks",
+            "issue_events_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/events",
+            "assignees_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/tags",
+            "blobs_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/languages",
+            "stargazers_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/stargazers",
+            "contributors_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/contributors",
+            "subscribers_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/subscribers",
+            "subscription_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/subscription",
+            "commits_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/merges",
+            "archive_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/downloads",
+            "issues_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/deployments",
+            "created_at": "2021-03-25T18:57:04Z",
+            "updated_at": "2021-03-27T15:25:12Z",
+            "pushed_at": "2021-03-27T15:26:25Z",
+            "git_url": "git://github.com/jonpalmisc/screenshot_ninja.git",
+            "ssh_url": "git@github.com:jonpalmisc/screenshot_ninja.git",
+            "clone_url": "https://github.com/jonpalmisc/screenshot_ninja.git",
+            "svn_url": "https://github.com/jonpalmisc/screenshot_ninja",
+            "homepage": "",
+            "size": 131,
+            "stargazers_count": 2,
+            "watchers_count": 2,
+            "language": "Python",
+            "has_issues": true,
+            "has_projects": false,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 1,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 2,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "push": false,
+                "pull": true
+            },
+            "temp_clone_token": "",
+            "network_count": 0,
+            "subscribers_count": 1
+        },
+        "authorUrl": "https://github.com/jonpalmisc",
+        "packageUrl": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/zipball/refs/tags/v1.3.1",
+        "dependencies": "",
+        "path": "jonpalmisc_screenshot_ninja",
+        "commit": "c0f94e2e913a89d7db6ebd3bed565cc7f5e3400f",
+        "minimumBinaryNinjaVersion": 0
+    },
+    {
+        "pluginmetadataversion": 2,
         "name": "JNIAnalyzer",
         "type": [
             "helper"
@@ -22,10 +166,10 @@
             "Darwin": "Follow the [installation instructions](https://github.com/Ayrx/binja-JNIAnalyzer#installation) to setup the required dependencies.",
             "Linux": "Follow the [installation instructions](https://github.com/Ayrx/binja-JNIAnalyzer#installation) to setup the required dependencies."
         },
-        "version": "0.1",
+        "version": "0.2.1",
         "author": "Terry Chia (Ayrx)",
         "minimumbinaryninjaversion": 2000,
-        "lastUpdated": 1614145279,
+        "lastUpdated": 1616813491,
         "projectUrl": "https://github.com/Ayrx/binja-JNIAnalyzer",
         "projectData": {
             "id": 334364082,
@@ -94,14 +238,14 @@
             "releases_url": "https://api.github.com/repos/Ayrx/binja-JNIAnalyzer/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Ayrx/binja-JNIAnalyzer/deployments",
             "created_at": "2021-01-30T08:23:20Z",
-            "updated_at": "2021-02-24T14:54:37Z",
-            "pushed_at": "2021-02-24T08:28:48Z",
+            "updated_at": "2021-03-27T02:50:56Z",
+            "pushed_at": "2021-03-27T02:51:31Z",
             "git_url": "git://github.com/Ayrx/binja-JNIAnalyzer.git",
             "ssh_url": "git@github.com:Ayrx/binja-JNIAnalyzer.git",
             "clone_url": "https://github.com/Ayrx/binja-JNIAnalyzer.git",
             "svn_url": "https://github.com/Ayrx/binja-JNIAnalyzer",
             "homepage": "",
-            "size": 41,
+            "size": 43,
             "stargazers_count": 3,
             "watchers_count": 3,
             "language": "Python",
@@ -133,13 +277,13 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 1
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/Ayrx",
-        "packageUrl": "https://api.github.com/repos/Ayrx/binja-JNIAnalyzer/zipball/v0.1",
+        "packageUrl": "https://api.github.com/repos/Ayrx/binja-JNIAnalyzer/zipball/refs/tags/0.2.1",
         "dependencies": "git+https://github.com/androguard/androguard@8d091cbb309c0c50bf239f805cc1e0931b8dcddc\n",
         "path": "Ayrx_binjaJNIAnalyzer",
-        "commit": "a19bf1dea12a660d051698386b86b73304006f41",
+        "commit": "7536ba4028b5a1c56ce43e0e8145ac2bda592844",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -239,7 +383,7 @@
             "releases_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/deployments",
             "created_at": "2021-03-03T18:04:19Z",
-            "updated_at": "2021-03-10T09:13:22Z",
+            "updated_at": "2021-03-27T17:08:50Z",
             "pushed_at": "2021-03-05T14:24:42Z",
             "git_url": "git://github.com/mrphrazer/obfuscation_detection.git",
             "ssh_url": "git@github.com:mrphrazer/obfuscation_detection.git",
@@ -247,15 +391,15 @@
             "svn_url": "https://github.com/mrphrazer/obfuscation_detection",
             "homepage": "",
             "size": 9031,
-            "stargazers_count": 53,
-            "watchers_count": 53,
+            "stargazers_count": 68,
+            "watchers_count": 68,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 6,
+            "forks_count": 8,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -267,9 +411,9 @@
                 "url": "https://api.github.com/licenses/gpl-2.0",
                 "node_id": "MDc6TGljZW5zZTg="
             },
-            "forks": 6,
+            "forks": 8,
             "open_issues": 0,
-            "watchers": 53,
+            "watchers": 68,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -277,11 +421,11 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 6,
-            "subscribers_count": 3
+            "network_count": 8,
+            "subscribers_count": 5
         },
         "authorUrl": "https://github.com/mrphrazer",
-        "packageUrl": "https://api.github.com/repos/mrphrazer/obfuscation_detection/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/mrphrazer/obfuscation_detection/zipball/refs/tags/v1.0",
         "dependencies": "",
         "path": "mrphrazer_obfuscation_detection",
         "commit": "38735a24158a7ad327732f02d8ef9383c8044bcb",
@@ -298,7 +442,7 @@
             "python3"
         ],
         "description": "Tags functions using emoji for a number of interesting characteristics",
-        "longdescription": "LONG DESCRIPTION HERE ONCE I GET AN IMAGE",
+        "longdescription": "# Tag Team\nSample function created on [stream](https://www.youtube.com/watch?v=BEB52ZYr2Gw).\n\n [Tag List](https://raw.githubusercontent.com/psifertex/tagteam/master/images/taglist.png)\n\n ![Tags At Location](https://raw.githubusercontent.com/psifertex/tagteam/master/images/tagsat.png)\n\n",
         "license": {
             "name": "Apache-2.0",
             "text": "Copyright 2021 psifertex\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n\thttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
@@ -313,9 +457,13 @@
             "Windows": "",
             "Linux": ""
         },
-        "version": "1.0",
+        "subfolders": [
+            "psifertex_tagteam",
+            "sub"
+        ],
+        "version": "1.1.3",
         "minimumbinaryninjaversion": 1555,
-        "lastUpdated": 1614903742,
+        "lastUpdated": 1615525176,
         "projectUrl": "https://github.com/psifertex/tagteam",
         "projectData": {
             "id": 344646065,
@@ -384,14 +532,14 @@
             "releases_url": "https://api.github.com/repos/psifertex/tagteam/releases{/id}",
             "deployments_url": "https://api.github.com/repos/psifertex/tagteam/deployments",
             "created_at": "2021-03-05T00:19:23Z",
-            "updated_at": "2021-03-05T00:28:04Z",
-            "pushed_at": "2021-03-11T01:51:13Z",
+            "updated_at": "2021-03-12T04:59:34Z",
+            "pushed_at": "2021-03-12T04:59:35Z",
             "git_url": "git://github.com/psifertex/tagteam.git",
             "ssh_url": "git@github.com:psifertex/tagteam.git",
             "clone_url": "https://github.com/psifertex/tagteam.git",
             "svn_url": "https://github.com/psifertex/tagteam",
             "homepage": null,
-            "size": 9,
+            "size": 496,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
@@ -430,10 +578,10 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/psifertex",
-        "packageUrl": "https://api.github.com/repos/psifertex/tagteam/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/psifertex/tagteam/zipball/refs/tags/1.1.3",
         "dependencies": "",
         "path": "psifertex_tagteam",
-        "commit": "79ec3d4ecccd93948eb2086b2be5335b824a53f5",
+        "commit": "59fcf85b426b0735a0fe31b70fac95dd7229bb71",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -597,7 +745,7 @@
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/fgsect",
-        "packageUrl": "https://api.github.com/repos/fgsect/JMPscare-binja/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/fgsect/JMPscare-binja/zipball/refs/tags/1.0",
         "path": "fgsect_JMPscarebinja",
         "commit": "6bc5793a43b819238af3889d77b095e7aa20e1b6",
         "minimumBinaryNinjaVersion": 0
@@ -742,7 +890,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/ZetaTwo",
-        "packageUrl": "https://api.github.com/repos/ZetaTwo/binja-gameboy/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/ZetaTwo/binja-gameboy/zipball/refs/tags/v1.0",
         "dependencies": "",
         "path": "ZetaTwo_binjagameboy",
         "commit": "692b38fe15ded77d9081ef12906dd117257af0d0",
@@ -887,7 +1035,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/inspier",
-        "packageUrl": "https://api.github.com/repos/inspier/BinjaRustDemangler/zipball/0.1.2",
+        "packageUrl": "https://api.github.com/repos/inspier/BinjaRustDemangler/zipball/refs/tags/0.1.2",
         "path": "inspier_BinjaRustDemangler",
         "commit": "9109ac2d2b34cec887986b5d3971f3ce0da6c38d"
     },
@@ -990,7 +1138,7 @@
             "releases_url": "https://api.github.com/repos/PistonMiner/binaryninja-bindiff-viewer/releases{/id}",
             "deployments_url": "https://api.github.com/repos/PistonMiner/binaryninja-bindiff-viewer/deployments",
             "created_at": "2020-12-16T15:52:19Z",
-            "updated_at": "2021-02-17T14:49:31Z",
+            "updated_at": "2021-03-26T18:08:20Z",
             "pushed_at": "2020-12-17T21:51:55Z",
             "git_url": "git://github.com/PistonMiner/binaryninja-bindiff-viewer.git",
             "ssh_url": "git@github.com:PistonMiner/binaryninja-bindiff-viewer.git",
@@ -998,8 +1146,8 @@
             "svn_url": "https://github.com/PistonMiner/binaryninja-bindiff-viewer",
             "homepage": null,
             "size": 2339,
-            "stargazers_count": 25,
-            "watchers_count": 25,
+            "stargazers_count": 26,
+            "watchers_count": 26,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1020,7 +1168,7 @@
             },
             "forks": 1,
             "open_issues": 0,
-            "watchers": 25,
+            "watchers": 26,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -1032,7 +1180,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/PistonMiner",
-        "packageUrl": "https://api.github.com/repos/PistonMiner/binaryninja-bindiff-viewer/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/PistonMiner/binaryninja-bindiff-viewer/zipball/refs/tags/1.0",
         "path": "PistonMiner_binaryninjabindiffviewer",
         "commit": "89350bd8f49703d3cb1376e9d671b89a23eb22e1",
         "minimumBinaryNinjaVersion": 0
@@ -1134,7 +1282,7 @@
             "releases_url": "https://api.github.com/repos/kryptoslogic/binja_degobfuscate/releases{/id}",
             "deployments_url": "https://api.github.com/repos/kryptoslogic/binja_degobfuscate/deployments",
             "created_at": "2020-11-29T19:30:26Z",
-            "updated_at": "2021-02-25T04:14:33Z",
+            "updated_at": "2021-03-24T11:17:26Z",
             "pushed_at": "2021-02-05T09:11:34Z",
             "git_url": "git://github.com/kryptoslogic/binja_degobfuscate.git",
             "ssh_url": "git@github.com:kryptoslogic/binja_degobfuscate.git",
@@ -1142,8 +1290,8 @@
             "svn_url": "https://github.com/kryptoslogic/binja_degobfuscate",
             "homepage": "",
             "size": 1439,
-            "stargazers_count": 23,
-            "watchers_count": 23,
+            "stargazers_count": 26,
+            "watchers_count": 26,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1164,7 +1312,7 @@
             },
             "forks": 2,
             "open_issues": 1,
-            "watchers": 23,
+            "watchers": 26,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -1200,7 +1348,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/kryptoslogic",
-        "packageUrl": "https://api.github.com/repos/kryptoslogic/binja_degobfuscate/zipball/1.0.1",
+        "packageUrl": "https://api.github.com/repos/kryptoslogic/binja_degobfuscate/zipball/refs/tags/1.0.1",
         "dependencies": "",
         "path": "kryptoslogic_binja_degobfuscate",
         "commit": "f76b806378f5d623760b8b031bbc30b0f9f8579b",
@@ -1346,7 +1494,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/travisgoodspeed",
-        "packageUrl": "https://api.github.com/repos/travisgoodspeed/symgrate2-binja-plugin/zipball/1.3.3",
+        "packageUrl": "https://api.github.com/repos/travisgoodspeed/symgrate2-binja-plugin/zipball/refs/tags/1.3.3",
         "path": "travisgoodspeed_symgrate2binjaplugin",
         "commit": "8b887dfca9d7944c42ed4f58b563a7b1d388b97f",
         "minimumBinaryNinjaVersion": 0
@@ -1449,7 +1597,7 @@
             "releases_url": "https://api.github.com/repos/Martyx00/VulnFanatic/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/VulnFanatic/deployments",
             "created_at": "2020-04-11T11:50:15Z",
-            "updated_at": "2021-03-07T11:42:05Z",
+            "updated_at": "2021-03-18T06:02:26Z",
             "pushed_at": "2021-01-07T18:28:24Z",
             "git_url": "git://github.com/Martyx00/VulnFanatic.git",
             "ssh_url": "git@github.com:Martyx00/VulnFanatic.git",
@@ -1457,15 +1605,15 @@
             "svn_url": "https://github.com/Martyx00/VulnFanatic",
             "homepage": "",
             "size": 397,
-            "stargazers_count": 201,
-            "watchers_count": 201,
+            "stargazers_count": 203,
+            "watchers_count": 203,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 31,
+            "forks_count": 32,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -1477,9 +1625,9 @@
                 "url": "https://api.github.com/licenses/apache-2.0",
                 "node_id": "MDc6TGljZW5zZTI="
             },
-            "forks": 31,
+            "forks": 32,
             "open_issues": 1,
-            "watchers": 201,
+            "watchers": 203,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -1487,11 +1635,11 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 31,
+            "network_count": 32,
             "subscribers_count": 10
         },
         "authorUrl": "https://github.com/Martyx00",
-        "packageUrl": "https://api.github.com/repos/Martyx00/VulnFanatic/zipball/3.5",
+        "packageUrl": "https://api.github.com/repos/Martyx00/VulnFanatic/zipball/refs/tags/3.5",
         "path": "Martyx00_VulnFanatic",
         "commit": "c21e868e63fd2ed3a54995122aa333c1d313f72d",
         "minimumBinaryNinjaVersion": 0
@@ -1636,7 +1784,7 @@
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/Martyx00",
-        "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/1.6",
+        "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/refs/tags/1.6",
         "path": "Martyx00_ghinja",
         "commit": "e75413bd4cf0ae046af17bb1f4901b9f5aa1a8dc",
         "minimumBinaryNinjaVersion": 0
@@ -1781,7 +1929,7 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/matteyeux",
-        "packageUrl": "https://api.github.com/repos/matteyeux/seprom-loader/zipball/1.0.3",
+        "packageUrl": "https://api.github.com/repos/matteyeux/seprom-loader/zipball/refs/tags/1.0.3",
         "path": "matteyeux_sepromloader",
         "commit": "2bde6b37b684c35f2936904f3bc187391033da6d",
         "minimumBinaryNinjaVersion": 0
@@ -1915,7 +2063,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/murx-",
-        "packageUrl": "https://api.github.com/repos/murx-/devi_binja/zipball/0.2",
+        "packageUrl": "https://api.github.com/repos/murx-/devi_binja/zipball/refs/tags/0.2",
         "dependencies": "",
         "path": "murx_devi_binja",
         "commit": "4770a0cceb67edd4d841ffebb5b399988f8f2fd9",
@@ -2059,10 +2207,10 @@
             },
             "temp_clone_token": "",
             "network_count": 3,
-            "subscribers_count": 1
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/d-we",
-        "packageUrl": "https://api.github.com/repos/d-we/binja-golang-symbol-restore/zipball/1.2",
+        "packageUrl": "https://api.github.com/repos/d-we/binja-golang-symbol-restore/zipball/refs/tags/1.2",
         "path": "dwe_binjagolangsymbolrestore",
         "commit": "251cc45cab66512fd404eaf69ec6e018684aa5d4",
         "minimumBinaryNinjaVersion": 0
@@ -2208,7 +2356,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/f0rki",
-        "packageUrl": "https://api.github.com/repos/f0rki/bn-goloader/zipball/1.1",
+        "packageUrl": "https://api.github.com/repos/f0rki/bn-goloader/zipball/refs/tags/1.1",
         "path": "f0rki_bngoloader",
         "commit": "f3945aa7759f09e9dd8ccd38de87186c17d47e08",
         "minimumBinaryNinjaVersion": 0
@@ -2555,7 +2703,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/jeffli678",
-        "packageUrl": "https://api.github.com/repos/jeffli678/bnhook/zipball/1.1",
+        "packageUrl": "https://api.github.com/repos/jeffli678/bnhook/zipball/refs/tags/1.1",
         "path": "jeffli678_bnhook",
         "commit": "6dc6569cfe80c08f1c1533b80fb50944f2cf2cef",
         "minimumBinaryNinjaVersion": 0
@@ -2701,7 +2849,7 @@
             "subscribers_count": 6
         },
         "authorUrl": "https://github.com/thebabush",
-        "packageUrl": "https://api.github.com/repos/thebabush/nampa/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/thebabush/nampa/zipball/refs/tags/1.0",
         "path": "thebabush_nampa",
         "commit": "96269bb709d1c65f61391defdd3c03cbb1e74ff8",
         "minimumBinaryNinjaVersion": 0
@@ -2847,7 +2995,7 @@
             "subscribers_count": 0
         },
         "authorUrl": "https://github.com/trib0r3",
-        "packageUrl": "https://api.github.com/repos/trib0r3/binja-yara/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/trib0r3/binja-yara/zipball/refs/tags/1.0",
         "path": "trib0r3_binjayara",
         "commit": "acb8c0279af364c9404426e0cdbda2590e574116",
         "minimumBinaryNinjaVersion": 0
@@ -2989,7 +3137,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/Shizmob",
-        "packageUrl": "https://api.github.com/repos/Shizmob/binja-depanalyzer/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/Shizmob/binja-depanalyzer/zipball/refs/tags/1.0",
         "path": "Shizmob_binjadepanalyzer",
         "commit": "99b2a2e51870ddcb91eade4cefa83b655317a499",
         "minimumBinaryNinjaVersion": 0
@@ -3134,7 +3282,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/atxsinn3r",
-        "packageUrl": "https://api.github.com/repos/atxsinn3r/BinjaHLILDump/zipball/1.1",
+        "packageUrl": "https://api.github.com/repos/atxsinn3r/BinjaHLILDump/zipball/refs/tags/1.1",
         "dependencies": "",
         "path": "atxsinn3r_BinjaHLILDump",
         "commit": "cb21cf15408e23e0fab977cbbd00437266dd0431",
@@ -3235,7 +3383,7 @@
             "deployments_url": "https://api.github.com/repos/hugsy/gef-binja/deployments",
             "created_at": "2020-05-12T20:56:41Z",
             "updated_at": "2021-02-07T23:55:36Z",
-            "pushed_at": "2020-08-10T01:30:17Z",
+            "pushed_at": "2021-03-27T00:30:45Z",
             "git_url": "git://github.com/hugsy/gef-binja.git",
             "ssh_url": "git@github.com:hugsy/gef-binja.git",
             "clone_url": "https://github.com/hugsy/gef-binja.git",
@@ -3250,11 +3398,11 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 5,
+            "forks_count": 6,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -3262,8 +3410,8 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 5,
-            "open_issues": 2,
+            "forks": 6,
+            "open_issues": 3,
             "watchers": 39,
             "default_branch": "master",
             "permissions": {
@@ -3272,11 +3420,11 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 5,
+            "network_count": 6,
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/hugsy",
-        "packageUrl": "https://api.github.com/repos/hugsy/gef-binja/zipball/v0.2",
+        "packageUrl": "https://api.github.com/repos/hugsy/gef-binja/zipball/refs/tags/v0.2",
         "path": "hugsy_gefbinja",
         "commit": "0885ec31de151eba7e3b899fe1ef237ce4e68491",
         "minimumBinaryNinjaVersion": 0,
@@ -3423,7 +3571,7 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/joshwatson",
-        "packageUrl": "https://api.github.com/repos/joshwatson/binaryninja-msp430/zipball/0.4",
+        "packageUrl": "https://api.github.com/repos/joshwatson/binaryninja-msp430/zipball/refs/tags/0.4",
         "path": "joshwatson_binaryninjamsp430",
         "commit": "59b51a61c8189bcadd7cba64ff449255aeb1ec0a",
         "minimumBinaryNinjaVersion": 0
@@ -3571,7 +3719,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/apekros",
-        "packageUrl": "https://api.github.com/repos/apekros/binja_sigmaker/zipball/2.0",
+        "packageUrl": "https://api.github.com/repos/apekros/binja_sigmaker/zipball/refs/tags/2.0",
         "path": "apekros_binja_sigmaker",
         "commit": "c8915abbfb4d25a054e0f75585a6890ac594c9a6",
         "minimumBinaryNinjaVersion": 0
@@ -3717,7 +3865,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/Vasco-jofra",
-        "packageUrl": "https://api.github.com/repos/Vasco-jofra/jump-table-branch-editor/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/Vasco-jofra/jump-table-branch-editor/zipball/refs/tags/v1.0",
         "dependencies": "",
         "path": "Vascojofra_jumptablebrancheditor",
         "commit": "7c287e047a3655e381e087b246c31bc5b4956f98",
@@ -3857,7 +4005,7 @@
             "subscribers_count": 8
         },
         "authorUrl": "https://github.com/zznop",
-        "packageUrl": "https://api.github.com/repos/zznop/bnida/zipball/1.2",
+        "packageUrl": "https://api.github.com/repos/zznop/bnida/zipball/refs/tags/1.2",
         "dependencies": "",
         "path": "zznop_bnida",
         "commit": "395af069aa8b82fb63b3f0643fef47482f468e12",
@@ -3998,7 +4146,7 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/zznop",
-        "packageUrl": "https://api.github.com/repos/zznop/bn-genesis/zipball/1.1",
+        "packageUrl": "https://api.github.com/repos/zznop/bn-genesis/zipball/refs/tags/1.1",
         "path": "zznop_bngenesis",
         "commit": "2c13bf82407ba6ccbaff7583f018fc2eb8d76106",
         "minimumBinaryNinjaVersion": 0,
@@ -4132,7 +4280,7 @@
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/zznop",
-        "packageUrl": "https://api.github.com/repos/zznop/bn-kallsyms/zipball/1.1",
+        "packageUrl": "https://api.github.com/repos/zznop/bn-kallsyms/zipball/refs/tags/1.1",
         "dependencies": "",
         "path": "zznop_bnkallsyms",
         "commit": "1bf5cc551fe0d84a974063ef73cea0ce80bd4f01",
@@ -4267,7 +4415,7 @@
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/zznop",
-        "packageUrl": "https://api.github.com/repos/zznop/bn-recursion/zipball/1.1",
+        "packageUrl": "https://api.github.com/repos/zznop/bn-recursion/zipball/refs/tags/1.1",
         "dependencies": "",
         "path": "zznop_bnrecursion",
         "commit": "00d8930bbb721c3a59c939e44b221a39ff761f06",
@@ -4410,7 +4558,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/bkerler",
-        "packageUrl": "https://api.github.com/repos/bkerler/annotate/zipball/v1.2",
+        "packageUrl": "https://api.github.com/repos/bkerler/annotate/zipball/refs/tags/v1.2",
         "path": "bkerler_annotate",
         "commit": "c74cd87fa601ca7b3d438b50ac8e79ed0102fc68",
         "installinstructions": {}
@@ -4555,7 +4703,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/verylazyguy",
-        "packageUrl": "https://api.github.com/repos/verylazyguy/binaryninja-vmndh/zipball/v0.2",
+        "packageUrl": "https://api.github.com/repos/verylazyguy/binaryninja-vmndh/zipball/refs/tags/v0.2",
         "dependencies": "",
         "path": "verylazyguy_binaryninjavmndh",
         "commit": "4bf54f04e059b0c646bad350586b89fa9a906614",
@@ -4701,7 +4849,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/0x1F9F1",
-        "packageUrl": "https://api.github.com/repos/0x1F9F1/binja-msvc/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/0x1F9F1/binja-msvc/zipball/refs/tags/1.0",
         "dependencies": "",
         "path": "0x1F9F1_binjamsvc",
         "commit": "eb3399883492fafc2e5acb332b98d34223285797",
@@ -4805,16 +4953,16 @@
             "releases_url": "https://api.github.com/repos/fluxchief/binaryninja_avr/releases{/id}",
             "deployments_url": "https://api.github.com/repos/fluxchief/binaryninja_avr/deployments",
             "created_at": "2018-01-14T11:57:43Z",
-            "updated_at": "2021-03-11T17:13:12Z",
+            "updated_at": "2021-03-11T21:05:08Z",
             "pushed_at": "2021-03-11T17:22:36Z",
             "git_url": "git://github.com/fluxchief/binaryninja_avr.git",
             "ssh_url": "git@github.com:fluxchief/binaryninja_avr.git",
             "clone_url": "https://github.com/fluxchief/binaryninja_avr.git",
             "svn_url": "https://github.com/fluxchief/binaryninja_avr",
             "homepage": null,
-            "size": 95,
-            "stargazers_count": 32,
-            "watchers_count": 32,
+            "size": 94,
+            "stargazers_count": 33,
+            "watchers_count": 33,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -4835,7 +4983,7 @@
             },
             "forks": 7,
             "open_issues": 3,
-            "watchers": 32,
+            "watchers": 33,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -4847,7 +4995,7 @@
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/fluxchief",
-        "packageUrl": "https://api.github.com/repos/fluxchief/binaryninja_avr/zipball/0.3",
+        "packageUrl": "https://api.github.com/repos/fluxchief/binaryninja_avr/zipball/refs/tags/0.3",
         "dependencies": "",
         "path": "fluxchief_binaryninja_avr",
         "commit": "861e0d8c7b6bbbe55f087029cf07bee62d634507",
@@ -4993,7 +5141,7 @@
             "subscribers_count": 8
         },
         "authorUrl": "https://github.com/withzombies",
-        "packageUrl": "https://api.github.com/repos/withzombies/bnil-graph/zipball/v1.3.2",
+        "packageUrl": "https://api.github.com/repos/withzombies/bnil-graph/zipball/refs/tags/v1.3.2",
         "dependencies": "",
         "path": "withzombies_bnilgraph",
         "commit": "575a312f418f78af6e463c249fe2bdd26a2ce8c2",
@@ -5136,7 +5284,7 @@
             "subscribers_count": 0
         },
         "authorUrl": "https://github.com/mechanicalnull",
-        "packageUrl": "https://api.github.com/repos/mechanicalnull/sourcery_pane/zipball/v0.1",
+        "packageUrl": "https://api.github.com/repos/mechanicalnull/sourcery_pane/zipball/refs/tags/v0.1",
         "dependencies": "",
         "path": "mechanicalnull_sourcery_pane",
         "commit": "dd133ebf553d6e05383acfd53f3ef5a1e5ae3a72",
@@ -5282,7 +5430,7 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/chame1eon",
-        "packageUrl": "https://api.github.com/repos/chame1eon/binaryninja-frida/zipball/v1.3.1",
+        "packageUrl": "https://api.github.com/repos/chame1eon/binaryninja-frida/zipball/refs/tags/v1.3.1",
         "path": "chame1eon_binaryninjafrida",
         "commit": "6292320d1854abaa9a1f2a59234c49faebf86416",
         "minimumBinaryNinjaVersion": 0
@@ -5426,7 +5574,7 @@
             "subscribers_count": 0
         },
         "authorUrl": "https://github.com/Vasco-jofra",
-        "packageUrl": "https://api.github.com/repos/Vasco-jofra/format-string-finder-binja/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/Vasco-jofra/format-string-finder-binja/zipball/refs/tags/v1.0",
         "dependencies": "",
         "path": "Vascojofra_formatstringfinderbinja",
         "commit": "d1854604fc5d1fb4f6fdb9d3078d33020ae21c74",
@@ -5571,7 +5719,7 @@
             "subscribers_count": 0
         },
         "authorUrl": "https://github.com/shareef12",
-        "packageUrl": "https://api.github.com/repos/shareef12/driveranalyzer/zipball/v1.0.0",
+        "packageUrl": "https://api.github.com/repos/shareef12/driveranalyzer/zipball/refs/tags/v1.0.0",
         "path": "shareef12_driveranalyzer",
         "commit": "36dcd34e0fc7f634171050a4806f055bbe1cc47d",
         "minimumBinaryNinjaVersion": 0
@@ -5705,7 +5853,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/carstein",
-        "packageUrl": "https://api.github.com/repos/carstein/Syscaller/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/carstein/Syscaller/zipball/refs/tags/v1.0",
         "dependencies": "",
         "path": "carstein_Syscaller",
         "commit": "7e102546a58a08cb81755ec2d6be338ce2ce7765",
@@ -5848,10 +5996,10 @@
             },
             "temp_clone_token": "",
             "network_count": 2,
-            "subscribers_count": 1
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/404d",
-        "packageUrl": "https://api.github.com/repos/404d/peutils/zipball/v1.3",
+        "packageUrl": "https://api.github.com/repos/404d/peutils/zipball/refs/tags/v1.3",
         "path": "404d_peutils",
         "commit": "cd359c99808b717aa5ece535671e20c02f94f2e4",
         "minimumBinaryNinjaVersion": 0
@@ -5987,10 +6135,10 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 1
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/404d",
-        "packageUrl": "https://api.github.com/repos/404d/autoutils/zipball/v0.3",
+        "packageUrl": "https://api.github.com/repos/404d/autoutils/zipball/refs/tags/v0.3",
         "path": "404d_autoutils",
         "commit": "861559b9cfe98bdea6caec233280d587649d23f5",
         "minimumBinaryNinjaVersion": 0
@@ -6094,7 +6242,7 @@
             "deployments_url": "https://api.github.com/repos/ForAllSecure/bncov/deployments",
             "created_at": "2019-05-01T17:47:24Z",
             "updated_at": "2021-03-04T17:15:49Z",
-            "pushed_at": "2021-03-09T20:20:58Z",
+            "pushed_at": "2021-03-12T20:48:04Z",
             "git_url": "git://github.com/ForAllSecure/bncov.git",
             "ssh_url": "git@github.com:ForAllSecure/bncov.git",
             "clone_url": "https://github.com/ForAllSecure/bncov.git",
@@ -6155,7 +6303,7 @@
             "subscribers_count": 9
         },
         "authorUrl": "https://github.com/ForAllSecure",
-        "packageUrl": "https://api.github.com/repos/ForAllSecure/bncov/zipball/1.3.1",
+        "packageUrl": "https://api.github.com/repos/ForAllSecure/bncov/zipball/refs/tags/1.3.1",
         "dependencies": "msgpack\n",
         "path": "ForAllSecure_bncov",
         "commit": "11bd93f8e9262f1a1e6cecb3d90e818875a892a9",
@@ -6302,7 +6450,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/ehntoo",
-        "packageUrl": "https://api.github.com/repos/ehntoo/binaryninja-svd/zipball/v2.0.0",
+        "packageUrl": "https://api.github.com/repos/ehntoo/binaryninja-svd/zipball/refs/tags/v2.0.0",
         "path": "ehntoo_binaryninjasvd",
         "commit": "681ee61e1879fcd0d6e917e1dbe6457eff4a120e",
         "minimumBinaryNinjaVersion": 0
@@ -6442,7 +6590,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/whitequark",
-        "packageUrl": "https://api.github.com/repos/whitequark/binja_function_abi/zipball/v1.1",
+        "packageUrl": "https://api.github.com/repos/whitequark/binja_function_abi/zipball/refs/tags/v1.1",
         "dependencies": "",
         "path": "whitequark_binja_function_abi",
         "commit": "6373f1bb08e9f01500c3c82ea56c91d1c4a6a7c1",
@@ -6584,7 +6732,7 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/whitequark",
-        "packageUrl": "https://api.github.com/repos/whitequark/binja_itanium_cxx_abi/zipball/v1.1",
+        "packageUrl": "https://api.github.com/repos/whitequark/binja_itanium_cxx_abi/zipball/refs/tags/v1.1",
         "dependencies": "",
         "path": "whitequark_binja_itanium_cxx_abi",
         "commit": "86a3eba57888f3c9ee0d75e4210a08641ecfc19d",
@@ -6725,7 +6873,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/whitequark",
-        "packageUrl": "https://api.github.com/repos/whitequark/binja-i8086/zipball/v0.1",
+        "packageUrl": "https://api.github.com/repos/whitequark/binja-i8086/zipball/refs/tags/v0.1",
         "dependencies": "",
         "path": "whitequark_binjai8086",
         "commit": "72b6210ef4587eae5a85df6ba543fc0ef2b4da6f",
@@ -6871,7 +7019,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/whitequark",
-        "packageUrl": "https://api.github.com/repos/whitequark/binja-m16c/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/whitequark/binja-m16c/zipball/refs/tags/v1.0",
         "dependencies": "",
         "path": "whitequark_binjam16c",
         "commit": "debf368e5df90a96d6c8b0bc128626a9d6834bb4",
@@ -6970,7 +7118,7 @@
             "releases_url": "https://api.github.com/repos/c3r34lk1ll3r/Instruction_Slicer/releases{/id}",
             "deployments_url": "https://api.github.com/repos/c3r34lk1ll3r/Instruction_Slicer/deployments",
             "created_at": "2019-10-03T12:01:55Z",
-            "updated_at": "2020-05-02T02:56:03Z",
+            "updated_at": "2021-03-17T03:12:11Z",
             "pushed_at": "2020-11-25T13:41:18Z",
             "git_url": "git://github.com/c3r34lk1ll3r/Instruction_Slicer.git",
             "ssh_url": "git@github.com:c3r34lk1ll3r/Instruction_Slicer.git",
@@ -6978,8 +7126,8 @@
             "svn_url": "https://github.com/c3r34lk1ll3r/Instruction_Slicer",
             "homepage": null,
             "size": 4,
-            "stargazers_count": 3,
-            "watchers_count": 3,
+            "stargazers_count": 4,
+            "watchers_count": 4,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -7000,7 +7148,7 @@
             },
             "forks": 0,
             "open_issues": 2,
-            "watchers": 3,
+            "watchers": 4,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -7012,7 +7160,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/c3r34lk1ll3r",
-        "packageUrl": "https://api.github.com/repos/c3r34lk1ll3r/Instruction_Slicer/zipball/v1.1",
+        "packageUrl": "https://api.github.com/repos/c3r34lk1ll3r/Instruction_Slicer/zipball/refs/tags/v1.1",
         "dependencies": "",
         "path": "c3r34lk1ll3r_Instruction_Slicer",
         "commit": "e960a2a5bdf598c691cfb99baa48788ebef6078d",
@@ -7155,7 +7303,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/c3r34lk1ll3r",
-        "packageUrl": "https://api.github.com/repos/c3r34lk1ll3r/BinRida/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/c3r34lk1ll3r/BinRida/zipball/refs/tags/v1.0",
         "dependencies": "",
         "path": "c3r34lk1ll3r_BinRida",
         "commit": "4ea4c1626f57702f04747fc811b07ff78202770c",
@@ -7259,7 +7407,7 @@
             "releases_url": "https://api.github.com/repos/icecr4ck/bnGB/releases{/id}",
             "deployments_url": "https://api.github.com/repos/icecr4ck/bnGB/deployments",
             "created_at": "2018-10-07T22:49:14Z",
-            "updated_at": "2020-11-17T13:22:48Z",
+            "updated_at": "2021-03-12T16:54:24Z",
             "pushed_at": "2020-11-17T13:23:53Z",
             "git_url": "git://github.com/icecr4ck/bnGB.git",
             "ssh_url": "git@github.com:icecr4ck/bnGB.git",
@@ -7267,8 +7415,8 @@
             "svn_url": "https://github.com/icecr4ck/bnGB",
             "homepage": "",
             "size": 24,
-            "stargazers_count": 7,
-            "watchers_count": 7,
+            "stargazers_count": 8,
+            "watchers_count": 8,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -7289,7 +7437,7 @@
             },
             "forks": 2,
             "open_issues": 0,
-            "watchers": 7,
+            "watchers": 8,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -7301,7 +7449,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/icecr4ck",
-        "packageUrl": "https://api.github.com/repos/icecr4ck/bnGB/zipball/1.0.1",
+        "packageUrl": "https://api.github.com/repos/icecr4ck/bnGB/zipball/refs/tags/1.0.1",
         "dependencies": "",
         "path": "icecr4ck_bnGB",
         "commit": "f098d7906dc72088cb555afded2c8c87cfd13b65",
@@ -7648,7 +7796,7 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/wrigjl",
-        "packageUrl": "https://api.github.com/repos/wrigjl/binaryninja-m68k/zipball/0.4",
+        "packageUrl": "https://api.github.com/repos/wrigjl/binaryninja-m68k/zipball/refs/tags/0.4",
         "path": "wrigjl_binaryninjam68k",
         "commit": "11982c99afd8a5812e38be67b91235316f82b84e",
         "minimumBinaryNinjaVersion": 0
@@ -7797,7 +7945,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/janbbeck",
-        "packageUrl": "https://api.github.com/repos/janbbeck/CleanTricks/zipball/1.4",
+        "packageUrl": "https://api.github.com/repos/janbbeck/CleanTricks/zipball/refs/tags/1.4",
         "path": "janbbeck_CleanTricks",
         "commit": "bf0b8efbc6e27b16e72f26640fef9cc4fd4e3c44",
         "minimumBinaryNinjaVersion": 0
@@ -7963,7 +8111,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/uni-due-syssec",
-        "packageUrl": "https://api.github.com/repos/uni-due-syssec/bn-riscv/zipball/v0.2",
+        "packageUrl": "https://api.github.com/repos/uni-due-syssec/bn-riscv/zipball/refs/tags/v0.2",
         "path": "uniduesyssec_bnriscv",
         "commit": "6cbd454ac0920ea9707483c2da31f613e1ff1143",
         "minimumBinaryNinjaVersion": 0
@@ -8130,7 +8278,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/jmprdi",
-        "packageUrl": "https://api.github.com/repos/jmprdi/binja-division-deoptimization/zipball/0.1.3",
+        "packageUrl": "https://api.github.com/repos/jmprdi/binja-division-deoptimization/zipball/refs/tags/0.1.3",
         "path": "jmprdi_binjadivisiondeoptimization",
         "commit": "d42ac1eb2f5ffc8704f76addfc45a3f45bef5678",
         "minimumBinaryNinjaVersion": 0
@@ -8274,7 +8422,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/Cryptogenic",
-        "packageUrl": "https://api.github.com/repos/Cryptogenic/idc_importer/zipball/v1.1",
+        "packageUrl": "https://api.github.com/repos/Cryptogenic/idc_importer/zipball/refs/tags/v1.1",
         "dependencies": "",
         "path": "Cryptogenic_idc_importer",
         "commit": "08431aed7311ac852c4da5eeb65bd3e7e1e085e3",
@@ -8379,16 +8527,16 @@
             "releases_url": "https://api.github.com/repos/lunixbochs/revsync/releases{/id}",
             "deployments_url": "https://api.github.com/repos/lunixbochs/revsync/deployments",
             "created_at": "2017-05-12T23:59:40Z",
-            "updated_at": "2021-01-13T18:55:59Z",
-            "pushed_at": "2020-08-17T18:25:56Z",
+            "updated_at": "2021-03-25T09:35:59Z",
+            "pushed_at": "2021-03-17T23:53:25Z",
             "git_url": "git://github.com/lunixbochs/revsync.git",
             "ssh_url": "git@github.com:lunixbochs/revsync.git",
             "clone_url": "https://github.com/lunixbochs/revsync.git",
             "svn_url": "https://github.com/lunixbochs/revsync",
             "homepage": null,
-            "size": 117,
-            "stargazers_count": 80,
-            "watchers_count": 80,
+            "size": 125,
+            "stargazers_count": 82,
+            "watchers_count": 82,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -8399,7 +8547,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -8408,8 +8556,8 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 17,
-            "open_issues": 2,
-            "watchers": 80,
+            "open_issues": 3,
+            "watchers": 82,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -8418,10 +8566,10 @@
             },
             "temp_clone_token": "",
             "network_count": 17,
-            "subscribers_count": 11
+            "subscribers_count": 12
         },
         "authorUrl": "https://github.com/lunixbochs",
-        "packageUrl": "https://api.github.com/repos/lunixbochs/revsync/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/lunixbochs/revsync/zipball/refs/tags/1.0",
         "path": "lunixbochs_revsync",
         "commit": "0d4087c73dc146d0142f81a243e56305febd50ea",
         "minimumBinaryNinjaVersion": 0
@@ -8566,7 +8714,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/toolCHAINZ",
-        "packageUrl": "https://api.github.com/repos/toolCHAINZ/DUMB/zipball/v1.0.3",
+        "packageUrl": "https://api.github.com/repos/toolCHAINZ/DUMB/zipball/refs/tags/v1.0.3",
         "dependencies": "",
         "path": "toolCHAINZ_DUMB",
         "commit": "4aa106b0002f11b00349b3fffa3565c19de86d5a",
@@ -8669,7 +8817,7 @@
             "releases_url": "https://api.github.com/repos/toolCHAINZ/hexfiles/releases{/id}",
             "deployments_url": "https://api.github.com/repos/toolCHAINZ/hexfiles/deployments",
             "created_at": "2020-07-25T20:57:26Z",
-            "updated_at": "2020-10-03T21:01:45Z",
+            "updated_at": "2021-03-17T03:12:13Z",
             "pushed_at": "2020-10-03T21:05:32Z",
             "git_url": "git://github.com/toolCHAINZ/hexfiles.git",
             "ssh_url": "git@github.com:toolCHAINZ/hexfiles.git",
@@ -8677,8 +8825,8 @@
             "svn_url": "https://github.com/toolCHAINZ/hexfiles",
             "homepage": "",
             "size": 18,
-            "stargazers_count": 3,
-            "watchers_count": 3,
+            "stargazers_count": 4,
+            "watchers_count": 4,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -8699,7 +8847,7 @@
             },
             "forks": 1,
             "open_issues": 3,
-            "watchers": 3,
+            "watchers": 4,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -8711,7 +8859,7 @@
             "subscribers_count": 0
         },
         "authorUrl": "https://github.com/toolCHAINZ",
-        "packageUrl": "https://api.github.com/repos/toolCHAINZ/hexfiles/zipball/1.0.2",
+        "packageUrl": "https://api.github.com/repos/toolCHAINZ/hexfiles/zipball/refs/tags/1.0.2",
         "dependencies": "argparse-addons==0.6.0\nbincopy==17.7.1\nhumanfriendly==8.2\npyreadline==2.1\n",
         "path": "toolCHAINZ_hexfiles",
         "commit": "e49eff33965aeedbc487ea30953b6bf3879f6797",
@@ -8804,7 +8952,7 @@
             "releases_url": "https://api.github.com/repos/CarveSystems/binjawa/releases{/id}",
             "deployments_url": "https://api.github.com/repos/CarveSystems/binjawa/deployments",
             "created_at": "2020-06-12T00:04:19Z",
-            "updated_at": "2020-08-02T01:53:29Z",
+            "updated_at": "2021-03-17T03:12:29Z",
             "pushed_at": "2020-06-30T19:26:51Z",
             "git_url": "git://github.com/CarveSystems/binjawa.git",
             "ssh_url": "git@github.com:CarveSystems/binjawa.git",
@@ -8812,8 +8960,8 @@
             "svn_url": "https://github.com/CarveSystems/binjawa",
             "homepage": null,
             "size": 943,
-            "stargazers_count": 1,
-            "watchers_count": 1,
+            "stargazers_count": 2,
+            "watchers_count": 2,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -8834,7 +8982,7 @@
             },
             "forks": 0,
             "open_issues": 0,
-            "watchers": 1,
+            "watchers": 2,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -8866,7 +9014,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/CarveSystems",
-        "packageUrl": "https://api.github.com/repos/CarveSystems/binjawa/zipball/0.5.0",
+        "packageUrl": "https://api.github.com/repos/CarveSystems/binjawa/zipball/refs/tags/0.5.0",
         "dependencies": "wasamole==0.5.0\n",
         "path": "CarveSystems_binjawa",
         "commit": "9f17b2f77901be78468a57008af5cb055d62a89b",
@@ -9029,7 +9177,7 @@
             "subscribers_count": 6
         },
         "authorUrl": "https://github.com/vtil-project",
-        "packageUrl": "https://api.github.com/repos/vtil-project/VTIL-BinaryNinja/zipball/1.1",
+        "packageUrl": "https://api.github.com/repos/vtil-project/VTIL-BinaryNinja/zipball/refs/tags/1.1",
         "path": "vtilproject_VTILBinaryNinja",
         "commit": "dc3b55ac068a6c62e50de792c74cacc634bc75c6",
         "minimumBinaryNinjaVersion": 0
@@ -9175,7 +9323,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/EliseZeroTwo",
-        "packageUrl": "https://api.github.com/repos/EliseZeroTwo/Switch-Binja-Loader/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/EliseZeroTwo/Switch-Binja-Loader/zipball/refs/tags/v1.0",
         "path": "EliseZeroTwo_SwitchBinjaLoader",
         "commit": "9a170fc502bc8bf2748dba94f133524e32113778",
         "minimumBinaryNinjaVersion": 0
@@ -9277,7 +9425,7 @@
             "releases_url": "https://api.github.com/repos/borzacchiello/seninja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/borzacchiello/seninja/deployments",
             "created_at": "2019-07-05T16:50:03Z",
-            "updated_at": "2021-03-10T07:06:54Z",
+            "updated_at": "2021-03-25T14:00:43Z",
             "pushed_at": "2021-01-05T11:17:42Z",
             "git_url": "git://github.com/borzacchiello/seninja.git",
             "ssh_url": "git@github.com:borzacchiello/seninja.git",
@@ -9285,8 +9433,8 @@
             "svn_url": "https://github.com/borzacchiello/seninja",
             "homepage": "",
             "size": 1344,
-            "stargazers_count": 66,
-            "watchers_count": 66,
+            "stargazers_count": 69,
+            "watchers_count": 69,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -9307,7 +9455,7 @@
             },
             "forks": 6,
             "open_issues": 1,
-            "watchers": 66,
+            "watchers": 69,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -9319,7 +9467,7 @@
             "subscribers_count": 8
         },
         "authorUrl": "https://github.com/borzacchiello",
-        "packageUrl": "https://api.github.com/repos/borzacchiello/seninja/zipball/0.2.2",
+        "packageUrl": "https://api.github.com/repos/borzacchiello/seninja/zipball/refs/tags/0.2.2",
         "dependencies": "",
         "path": "borzacchiello_seninja",
         "commit": "e9555d4233e7cfec3744c3fa21236992f6963931",
@@ -9346,10 +9494,10 @@
             "Windows"
         ],
         "dependencies": "",
-        "version": "0.8.0",
+        "version": "0.8.1",
         "author": "xitan",
         "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1594987604,
+        "lastUpdated": 1616675284,
         "projectUrl": "https://github.com/x1tan/binaryninja-discord-integration",
         "projectData": {
             "id": 280407364,
@@ -9418,23 +9566,23 @@
             "releases_url": "https://api.github.com/repos/x1tan/binaryninja-discord-integration/releases{/id}",
             "deployments_url": "https://api.github.com/repos/x1tan/binaryninja-discord-integration/deployments",
             "created_at": "2020-07-17T11:30:49Z",
-            "updated_at": "2020-11-21T06:19:05Z",
-            "pushed_at": "2020-07-17T12:06:44Z",
+            "updated_at": "2021-03-25T12:27:16Z",
+            "pushed_at": "2021-03-25T12:28:04Z",
             "git_url": "git://github.com/x1tan/binaryninja-discord-integration.git",
             "ssh_url": "git@github.com:x1tan/binaryninja-discord-integration.git",
             "clone_url": "https://github.com/x1tan/binaryninja-discord-integration.git",
             "svn_url": "https://github.com/x1tan/binaryninja-discord-integration",
             "homepage": "",
-            "size": 2,
-            "stargazers_count": 3,
-            "watchers_count": 3,
+            "size": 3,
+            "stargazers_count": 4,
+            "watchers_count": 4,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 0,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -9446,9 +9594,9 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 0,
+            "forks": 1,
             "open_issues": 0,
-            "watchers": 3,
+            "watchers": 4,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -9456,13 +9604,13 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 0,
+            "network_count": 1,
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/x1tan",
-        "packageUrl": "https://api.github.com/repos/x1tan/binaryninja-discord-integration/zipball/v0.8.0",
+        "packageUrl": "https://api.github.com/repos/x1tan/binaryninja-discord-integration/zipball/refs/tags/v0.8.1",
         "path": "x1tan_binaryninjadiscordintegration",
-        "commit": "53dd9d832bbd025b25fff19a4206b9a889cec20b",
+        "commit": "9f4ee8ecf1731154e009990aebbb5ee0e77097b9",
         "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
@@ -9566,7 +9714,7 @@
             "releases_url": "https://api.github.com/repos/Rami114/cryptoscan/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Rami114/cryptoscan/deployments",
             "created_at": "2018-05-08T15:43:04Z",
-            "updated_at": "2021-03-10T11:05:13Z",
+            "updated_at": "2021-03-17T05:51:38Z",
             "pushed_at": "2020-08-02T21:56:56Z",
             "git_url": "git://github.com/Rami114/cryptoscan.git",
             "ssh_url": "git@github.com:Rami114/cryptoscan.git",
@@ -9574,8 +9722,8 @@
             "svn_url": "https://github.com/Rami114/cryptoscan",
             "homepage": null,
             "size": 65,
-            "stargazers_count": 39,
-            "watchers_count": 39,
+            "stargazers_count": 40,
+            "watchers_count": 40,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -9596,7 +9744,7 @@
             },
             "forks": 5,
             "open_issues": 1,
-            "watchers": 39,
+            "watchers": 40,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -9608,7 +9756,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/Rami114",
-        "packageUrl": "https://api.github.com/repos/Rami114/cryptoscan/zipball/1.1",
+        "packageUrl": "https://api.github.com/repos/Rami114/cryptoscan/zipball/refs/tags/1.1",
         "path": "Rami114_cryptoscan",
         "commit": "03ce54f53f097dcf5a00caca2258ff548a5b5f71",
         "minimumBinaryNinjaVersion": 0
@@ -9757,7 +9905,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/uafio",
-        "packageUrl": "https://api.github.com/repos/uafio/BinaryNinja-CHIP8-Arch/zipball/1.0",
+        "packageUrl": "https://api.github.com/repos/uafio/BinaryNinja-CHIP8-Arch/zipball/refs/tags/1.0",
         "dependencies": "",
         "path": "uafio_BinaryNinjaCHIP8Arch",
         "commit": "7cc8276710a7f7bbfd5ee911efe33d0f29699ff3",
@@ -9903,7 +10051,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/mauronz",
-        "packageUrl": "https://api.github.com/repos/mauronz/binja-emotet/zipball/0.1",
+        "packageUrl": "https://api.github.com/repos/mauronz/binja-emotet/zipball/refs/tags/0.1",
         "path": "mauronz_binjaemotet",
         "commit": "580b5eb73bc9665b15126ee7648dff815df01b48",
         "minimumBinaryNinjaVersion": 0
@@ -10067,7 +10215,7 @@
             "subscribers_count": 6
         },
         "authorUrl": "https://github.com/BlackwingHQ",
-        "packageUrl": "https://api.github.com/repos/BlackwingHQ/iBoot64Binja/zipball/1.0.1",
+        "packageUrl": "https://api.github.com/repos/BlackwingHQ/iBoot64Binja/zipball/refs/tags/1.0.1",
         "dependencies": "",
         "path": "BlackwingHQ_iBoot64Binja",
         "commit": "741b12065f090f53c2fabf17167eafb99b15fc70",
@@ -10207,7 +10355,7 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/sum-catnip",
-        "packageUrl": "https://api.github.com/repos/sum-catnip/logrn/zipball/1.0.2",
+        "packageUrl": "https://api.github.com/repos/sum-catnip/logrn/zipball/refs/tags/1.0.2",
         "dependencies": "",
         "path": "sumcatnip_logrn",
         "commit": "dc0fccfb6fe29a19c2219f668b895a3d23444609",
@@ -10311,7 +10459,7 @@
             "releases_url": "https://api.github.com/repos/ImNotAVirus/delphi_ninja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/ImNotAVirus/delphi_ninja/deployments",
             "created_at": "2020-09-27T10:19:40Z",
-            "updated_at": "2020-12-25T18:38:45Z",
+            "updated_at": "2021-03-17T03:12:10Z",
             "pushed_at": "2020-10-09T14:30:43Z",
             "git_url": "git://github.com/ImNotAVirus/delphi_ninja.git",
             "ssh_url": "git@github.com:ImNotAVirus/delphi_ninja.git",
@@ -10319,8 +10467,8 @@
             "svn_url": "https://github.com/ImNotAVirus/delphi_ninja",
             "homepage": "",
             "size": 543,
-            "stargazers_count": 6,
-            "watchers_count": 6,
+            "stargazers_count": 7,
+            "watchers_count": 7,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -10341,7 +10489,7 @@
             },
             "forks": 1,
             "open_issues": 0,
-            "watchers": 6,
+            "watchers": 7,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -10353,7 +10501,7 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/ImNotAVirus",
-        "packageUrl": "https://api.github.com/repos/ImNotAVirus/delphi_ninja/zipball/0.1.1",
+        "packageUrl": "https://api.github.com/repos/ImNotAVirus/delphi_ninja/zipball/refs/tags/0.1.1",
         "dependencies": "",
         "path": "ImNotAVirus_delphi_ninja",
         "commit": "9524a8ed29a70c0c566b07767dc2628bb7d6b7a8",
