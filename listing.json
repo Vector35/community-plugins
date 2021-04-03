@@ -278,5 +278,9 @@
     {
         "name":"ImNotAVirus/delphi_ninja",
         "auto_update":true
+    },
+    {
+        "name":"lwerdna/call_shellcode",
+        "auto_update":true
     }
 ]
