@@ -12,6 +12,10 @@
         "auto_update":true
     },
     {
+        "name":"psifertex/callgraph",
+        "auto_update":true
+    },
+    {
         "name":"psifertex/tagteam",
         "auto_update":true
     },
