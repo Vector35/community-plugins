@@ -282,5 +282,9 @@
     {
         "name":"lwerdna/call_shellcode",
         "auto_update":true
+    },
+    {
+        "name":"lwerdna/keypatch_binja",
+        "auto_update":true
     }
 ]
