@@ -9,6 +9,7 @@
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|2020-08-19|MIT|architecture, binaryview, core, ui|Generate and find signatures.|
 |[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2019-09-26|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|2021-01-18|Apache-2.0|architecture|RISC-V architecture plugin.|
+|[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|2021-04-25|MIT|helper|Helper plugin for analyzing UEFI firmware|
 |[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|2020-12-18|MIT|helper|Code coverage analysis and visualization plugin|
 |[BNHook](https://github.com/jeffli678/bnhook)|[Grant Orndorff](https://github.com/jeffli678)|2021-03-29|MIT|core, ui|Insert custom hooks|
 |[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Transfer analysis data between Binary Ninja and IDA|

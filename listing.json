@@ -1,5 +1,9 @@
 [
     {
+        "name":"zznop/bn-uefi-helper",
+        "auto_update":true
+    },
+    {
         "name":"yellowbyte/opaque-predicates-detective",
         "auto_update":true
     },
