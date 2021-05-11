@@ -9,7 +9,7 @@
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|2020-08-19|MIT|architecture, binaryview, core, ui|Generate and find signatures.|
 |[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2019-09-26|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|2021-01-18|Apache-2.0|architecture|RISC-V architecture plugin.|
-|[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|2021-04-25|MIT|helper|Helper plugin for analyzing UEFI firmware|
+|[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|2021-05-02|MIT|helper|Helper plugin for analyzing UEFI firmware|
 |[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|2020-12-18|MIT|helper|Code coverage analysis and visualization plugin|
 |[BNHook](https://github.com/jeffli678/bnhook)|[Grant Orndorff](https://github.com/jeffli678)|2021-03-29|MIT|core, ui|Insert custom hooks|
 |[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Transfer analysis data between Binary Ninja and IDA|
@@ -76,6 +76,7 @@
 |[WASM Plugin](https://github.com/CarveSystems/binjawa)|[Meador Inge](https://github.com/CarveSystems)|2020-06-30|MIT|architecture, binaryview|This is a plugin for disassembling and lifting WASM images..|
 |[Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|[shareef12](https://github.com/shareef12)|2019-08-07|MIT|helper|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|
 |[YARA Scan](https://github.com/trib0r3/binja-yara)|[trib0r3](https://github.com/trib0r3)|2020-05-26|MIT|binaryview, core|YARA signatures|
+|[μBlaze Architecture Plugin](https://github.com/amtal/microblaze)|[Vector 35 Inc](https://github.com/amtal)|2021-05-11|MIT|architecture|Configurable soft core for Xilinx FPGAs.|
 # Binary Ninja Community Plugins
 
 Plugins in this repository are provided by the community. Vector 35, Inc. makes no guarantees to the quality, safety or efficacy of the plugins herein.

@@ -1,5 +1,9 @@
 [
     {
+        "name":"amtal/microblaze",
+        "auto_update":true
+    },
+    {
         "name":"zznop/bn-uefi-helper",
         "auto_update":true
     },
