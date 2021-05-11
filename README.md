@@ -76,7 +76,7 @@
 |[WASM Plugin](https://github.com/CarveSystems/binjawa)|[Meador Inge](https://github.com/CarveSystems)|2020-06-30|MIT|architecture, binaryview|This is a plugin for disassembling and lifting WASM images..|
 |[Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|[shareef12](https://github.com/shareef12)|2019-08-07|MIT|helper|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|
 |[YARA Scan](https://github.com/trib0r3/binja-yara)|[trib0r3](https://github.com/trib0r3)|2020-05-26|MIT|binaryview, core|YARA signatures|
-|[μBlaze Architecture Plugin](https://github.com/amtal/microblaze)|[Vector 35 Inc](https://github.com/amtal)|2021-05-11|MIT|architecture|Configurable soft core for Xilinx FPGAs.|
+|[μBlaze Architecture Plugin](https://github.com/amtal/microblaze)|[amtal](https://github.com/amtal)|2021-05-11|MIT|architecture|Configurable soft core for Xilinx FPGAs.|
 # Binary Ninja Community Plugins
 
 Plugins in this repository are provided by the community. Vector 35, Inc. makes no guarantees to the quality, safety or efficacy of the plugins herein.

@@ -9,7 +9,7 @@
             "python3"
         ],
         "description": "Configurable soft core for Xilinx FPGAs.",
-        "longdescription": "# \u03bcBlaze Architecture Plugin\n\n[MicroBlaze](https://en.wikipedia.org/wiki/MicroBlaze) is a configurable [soft processor](https://en.wikipedia.org/wiki/Soft_microprocessor) core from Xilinx going all the way back to their Spartan-II series of [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array)s. It can be found in a variety of roles within larger FPGA designs: from bare-bones microcontroller, to full Linux application processor, to early-boot [embedded controller](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841724/PMU+Firmware).\n\n![Example Disassembly and HLIL](https://raw.githubusercontent.com/amtal/microblaze/master/img/header.gif)\n\n## Features\n\nThis plugin works on Linux binaries:\n\n* Relocations\u2020 for working Triage Summary imports!\n* Syscall arguments!\u2021\n* That one cursed ELF `e_machine` value that's no longer used!\n\nThis plugin supports bare-metal firmware:\n\n* Bus transfer and MSR intrinsics!\n* Intrinsics for privileged operations!\n* 64-bit instruction\u2260 extensions!\n\nMinor, unimportant quality of life things:\n\n* Nice disassembly of relative branches and 32-bit immediates!\n* Delay slots are properly lifted!\n* Disassembles\u30ad all configuration options in [UG984 (v2020.2)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2020_2/ug984-vivado-microblaze-ref.pdf) even the weird ones!\n\n## Usage\n\nAll ELF files should Just Work\u2122 but otherwise:\n\n- Likely use `ublaze32be` architecture for older designs.\n- Likely use `ublaze32le` architecture for newer Zynq designs.\n- The `linux-ublaze32xx` default platforms aren't meaningfully different from `arch.standalone_platform`, you don't need to override them.\n- If HLIL looks broken, check source to see if that configuration option has been properly implemented yet.\n\nIf you want to cite this plugin please use:\n\n<pre>\n  @online{ublaze-arch-plugin,\n    title     = {{\\mu}Blaze Architecture Plugin for Binary Ninja},\n    url       = {https://github.com/amtal/microblaze},\n    author    = {amtal},\n    year      = 2021,\n  }\n</pre>\n\n## Caveats\n\n*\u2020 relocations not well-tested, probably buggy*\n\n*\u2021 minimum viable product, BYOSyscall typelib/headers*\n\n*\u2260 literally just the added 64-from-32 instructions, but 64-bit architecture variant should be trivial if anyone needs it now*\n\n*\u30adbut definitely does not lift correctly, if someone has a clever cross-config validation plan lmk*\n",
+        "longdescription": "# \u03bcBlaze Architecture Plugin\n\n[MicroBlaze](https://en.wikipedia.org/wiki/MicroBlaze) is a configurable [soft processor](https://en.wikipedia.org/wiki/Soft_microprocessor) core from Xilinx going all the way back to their Spartan-II series of [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array)s. It can be found in a variety of roles within larger FPGA designs: from bare-bones microcontroller, to full Linux application processor, to early-boot [embedded controller](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841724/PMU+Firmware).\n\n![Example Disassembly and HLIL](https://raw.githubusercontent.com/amtal/microblaze/master/img/header.gif)\n\n## Features\n\nThis plugin works on Linux binaries:\n\n* Relocations\u2020 for working Triage Summary imports!\n* Syscall arguments!\u2021\n* That one cursed ELF `e_machine` value that's no longer used!\n\nThis plugin supports bare-metal firmware:\n\n* Bus transfer and MSR intrinsics!\n* Intrinsics for privileged operations!\n* 64-bit instruction\u2260 extensions!\n\nMinor, unimportant quality of life things:\n\n* Nice disassembly of relative branches and 32-bit immediates!\n* Delay slots are properly lifted!\n* Disassembles\u30ad all configuration options in [UG984 (v2020.2)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2020_2/ug984-vivado-microblaze-ref.pdf) even the weird ones!\n\n## Usage\n\nAll ELF files should Just Work\u2122 but otherwise:\n\n- Likely use `ublaze32be` architecture for older designs.\n- Likely use `ublaze32le` architecture for newer Zynq designs.\n- The `linux-ublaze32xx` default platforms aren't meaningfully different from `arch.standalone_platform`, you don't need to override them.\n- If HLIL looks broken, check source to see if that configuration option has been properly implemented yet.\n\nIf you want to cite this plugin please use:\n\n<pre>\n  @online{ublaze-arch-plugin,\n    title     = {{\\mu}Blaze Architecture Plugin for Binary Ninja},\n    url       = {https://github.com/amtal/microblaze},\n    author    = {amtal},\n    doi       = {10.5281/zenodo.4749824},\n    year      = 2021,\n  }\n</pre>\n\n## Caveats\n\n*\u2020 relocations not well-tested, probably buggy*\n\n*\u2021 minimum viable product, BYOSyscall typelib/headers*\n\n*\u2260 literally just the added 64-from-32 instructions, but 64-bit architecture variant should be trivial if anyone needs it now*\n\n*\u30adbut definitely does not lift correctly, if someone has a clever cross-config validation plan lmk*\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2021 amtal\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -26,9 +26,9 @@
         },
         "dependencies": "",
         "version": "0.0.1",
-        "author": "Vector 35 Inc",
+        "author": "amtal",
         "minimumbinaryninjaversion": 2800,
-        "lastUpdated": 1620748839,
+        "lastUpdated": 1620758507,
         "projectUrl": "https://github.com/amtal/microblaze",
         "projectData": {
             "id": 366436368,
@@ -97,14 +97,14 @@
             "releases_url": "https://api.github.com/repos/amtal/microblaze/releases{/id}",
             "deployments_url": "https://api.github.com/repos/amtal/microblaze/deployments",
             "created_at": "2021-05-11T15:47:26Z",
-            "updated_at": "2021-05-11T16:01:48Z",
-            "pushed_at": "2021-05-11T16:00:39Z",
+            "updated_at": "2021-05-11T18:38:29Z",
+            "pushed_at": "2021-05-11T18:41:47Z",
             "git_url": "git://github.com/amtal/microblaze.git",
             "ssh_url": "git@github.com:amtal/microblaze.git",
             "clone_url": "https://github.com/amtal/microblaze.git",
             "svn_url": "https://github.com/amtal/microblaze",
-            "homepage": null,
-            "size": 0,
+            "homepage": "",
+            "size": 402,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
@@ -139,9 +139,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/amtal",
-        "packageUrl": "https://api.github.com/repos/amtal/microblaze/zipball/refs/tags/0.0.1",
+        "packageUrl": "https://api.github.com/repos/amtal/microblaze/zipball/refs/tags/0.0.4",
         "path": "amtal_microblaze",
-        "commit": "1ab077b953fcc9bfa16443fdfed6cdd33602c50d",
+        "commit": "8225cf8bca26a553ac82fdad350d75c4dabd4893",
         "minimumBinaryNinjaVersion": 0
     },
     {
