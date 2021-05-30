@@ -14,7 +14,7 @@ user = None
 token = None
 
 
-def printProgressBar(iteration, total, prefix = '', length = 79, fill = '█'):
+def printProgressBar(iteration, total, prefix = '', length = 60, fill = '█'):
     filledLength = int(length * iteration // total)
     bar = (fill * filledLength) + ('-' * (length - filledLength))
     percent = 100 * (iteration / float(total))
