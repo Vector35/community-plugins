@@ -1,5 +1,13 @@
 [
     {
+        "name":"pistonminer/binaryninja-gc-load-map",
+        "auto_update":true
+    },
+    {
+        "name":"pistonminer/binaryninja-gc-dol",
+        "auto_update":true
+    },
+    {
         "name":"amtal/microblaze",
         "auto_update":true
     },
