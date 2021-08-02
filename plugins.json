@@ -1,6 +1,151 @@
 [
     {
         "pluginmetadataversion": 2,
+        "name": "XNU Sysctl Hunter",
+        "type": [
+            "helper"
+        ],
+        "api": [
+            "python3"
+        ],
+        "description": "XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli use.",
+        "longdescription": "XNU Sysctl Hunter\n====================\nXNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for batch processing.\n\n# Screenshots\nOID structures are created, and their location is tagged for review later. A comment denotes the path to the OID in the MIB tree:\n![Tagged OIDs](screenshots/tagged_oids.png?raw=true \"OIDs get tagged\")\n\nOID handler function prototypes are corrected:\n![Prototypes Corrected](screenshots/prototype.png?raw=true \"OID Handler Prototypes Corrected\")\n\n## Headless Usage\nCall it from the command line targeting a single kext:\n```\n$ ./hunter.py /System/Library/Extensions/L2TP.kext\n[*] Creating necessary type definitions\n[*] Creating OID structs\n[+] Identified 3 sysctl OIDs\n[*] Tagging OIDs\n[*] Correcting prototype for 1 OID handlers\n[*] Dumping OIDs\n{\"flags\": [\"CTLFLAG_RD\", \"CTLFLAG_WR\", \"CTLFLAG_NOAUTO\", \"CTLFLAG_KERN\", \"CTLFLAG_OID2\", \"CTLTYPE_INT\"], \"type\": \"leaf\", \"handler\": \"_\", \"name\n\": \"nb_threads\", \"description\": \"nb_threads\", \"fmt\": \"I\", \"path\": \"net.ppp.l2tp.nb_threads\"}\n{\"flags\": [\"CTLFLAG_RD\", \"CTLFLAG_WR\", \"CTLFLAG_NOAUTO\", \"CTLFLAG_KERN\", \"CTLFLAG_OID2\", \"CTLTYPE_INT\"], \"type\": \"leaf\", \"name\": \"thread_outq_\nsize\", \"description\": \"thread_outq_size\", \"fmt\": \"I\", \"path\": \"net.ppp.l2tp.thread_outq_size\"}\n{\"flags\": [\"CTLFLAG_RD\", \"CTLFLAG_WR\", \"CTLFLAG_OID2\", \"CTLTYPE_NODE\"], \"type\": \"container\", \"name\": \"l2tp\", \"description\": \"l2tp\", \"fmt\": \"N\"\n, \"path\": \"net.ppp.l2tp\"}\n```\n\nSuppress status lines with the `quiet` option:\n```\n$ ./hunter.py -q /System/Library/Extensions/L2TP.kext\n\n{\"flags\": [\"CTLFLAG_RD\", \"CTLFLAG_WR\", \"CTLFLAG_NOAUTO\", \"CTLFLAG_KERN\", \"CTLFLAG_OID2\", \"CTLTYPE_INT\"], \"type\": \"leaf\", \"handler\": \"_\", \"name\n\": \"nb_threads\", \"description\": \"nb_threads\", \"fmt\": \"I\", \"path\": \"net.ppp.l2tp.nb_threads\"}\n{\"flags\": [\"CTLFLAG_RD\", \"CTLFLAG_WR\", \"CTLFLAG_NOAUTO\", \"CTLFLAG_KERN\", \"CTLFLAG_OID2\", \"CTLTYPE_INT\"], \"type\": \"leaf\", \"name\": \"thread_outq_\nsize\", \"description\": \"thread_outq_size\", \"fmt\": \"I\", \"path\": \"net.ppp.l2tp.thread_outq_size\"}\n{\"flags\": [\"CTLFLAG_RD\", \"CTLFLAG_WR\", \"CTLFLAG_OID2\", \"CTLTYPE_NODE\"], \"type\": \"container\", \"name\": \"l2tp\", \"description\": \"l2tp\", \"fmt\": \"N\"\n, \"path\": \"net.ppp.l2tp\"}\n```\n\nSave the BNDB for more reversing later (OIDs are marked in the Tags section):\n```\n$ ./hunter.py -q -o /tmp/ /System/Library/Extensions/L2TP.kext\n\n{\"flags\": [\"CTLFLAG_RD\", \"CTLFLAG_WR\", \"CTLFLAG_NOAUTO\", \"CTLFLAG_KERN\", \"CTLFLAG_OID2\", \"CTLTYPE_INT\"], \"type\": \"leaf\", \"handler\": \"_\", \"name\n\": \"nb_threads\", \"description\": \"nb_threads\", \"fmt\": \"I\", \"path\": \"net.ppp.l2tp.nb_threads\"}\n{\"flags\": [\"CTLFLAG_RD\", \"CTLFLAG_WR\", \"CTLFLAG_NOAUTO\", \"CTLFLAG_KERN\", \"CTLFLAG_OID2\", \"CTLTYPE_INT\"], \"type\": \"leaf\", \"name\": \"thread_outq_\nsize\", \"description\": \"thread_outq_size\", \"fmt\": \"I\", \"path\": \"net.ppp.l2tp.thread_outq_size\"}\n{\"flags\": [\"CTLFLAG_RD\", \"CTLFLAG_WR\", \"CTLFLAG_OID2\", \"CTLTYPE_NODE\"], \"type\": \"container\", \"name\": \"l2tp\", \"description\": \"l2tp\", \"fmt\": \"N\"\n, \"path\": \"net.ppp.l2tp\"}\n\n$ ls /tmp/\nL2TP.kext.bndb\n```\n\nBatch process a whole directory of Kexts and save the results\n```\n$ ./hunter.py -q -o ./bndbs /System/Library/Extensions/*\n```\n\nFilter JSON output to analyze attributes in bulk\n```\n$ ./hunter.py -q /System/Library/Extensions/L2TP.kext | jq -r '.path'\nnet.ppp.l2tp.nb_threads\nnet.ppp.l2tp.thread_outq_size\nnet.ppp.l2tp\n```\n",
+        "license": {
+            "name": "MIT",
+            "text": "Copyright 2021 actae0n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        },
+        "platforms": [
+            "Darwin",
+            "Linux",
+            "Windows"
+        ],
+        "installinstructions": {
+            "Darwin": "",
+            "Windows": "",
+            "Linux": ""
+        },
+        "version": "0.1.0",
+        "author": "actae0n",
+        "minimumbinaryninjaversion": 2805,
+        "lastUpdated": 1626914641,
+        "projectUrl": "https://github.com/xpcmdshell/SysctlHunter",
+        "projectData": {
+            "id": 387693510,
+            "node_id": "MDEwOlJlcG9zaXRvcnkzODc2OTM1MTA=",
+            "name": "SysctlHunter",
+            "full_name": "xpcmdshell/SysctlHunter",
+            "private": false,
+            "owner": {
+                "login": "xpcmdshell",
+                "id": 19864268,
+                "node_id": "MDQ6VXNlcjE5ODY0MjY4",
+                "avatar_url": "https://avatars.githubusercontent.com/u/19864268?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/xpcmdshell",
+                "html_url": "https://github.com/xpcmdshell",
+                "followers_url": "https://api.github.com/users/xpcmdshell/followers",
+                "following_url": "https://api.github.com/users/xpcmdshell/following{/other_user}",
+                "gists_url": "https://api.github.com/users/xpcmdshell/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/xpcmdshell/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/xpcmdshell/subscriptions",
+                "organizations_url": "https://api.github.com/users/xpcmdshell/orgs",
+                "repos_url": "https://api.github.com/users/xpcmdshell/repos",
+                "events_url": "https://api.github.com/users/xpcmdshell/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/xpcmdshell/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/xpcmdshell/SysctlHunter",
+            "description": null,
+            "fork": false,
+            "url": "https://api.github.com/repos/xpcmdshell/SysctlHunter",
+            "forks_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/forks",
+            "keys_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/teams",
+            "hooks_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/hooks",
+            "issue_events_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/events",
+            "assignees_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/tags",
+            "blobs_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/languages",
+            "stargazers_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/stargazers",
+            "contributors_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/contributors",
+            "subscribers_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/subscribers",
+            "subscription_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/subscription",
+            "commits_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/merges",
+            "archive_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/downloads",
+            "issues_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/labels{/name}",
+            "releases_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/xpcmdshell/SysctlHunter/deployments",
+            "created_at": "2021-07-20T06:21:57Z",
+            "updated_at": "2021-07-22T13:41:01Z",
+            "pushed_at": "2021-07-22T00:44:01Z",
+            "git_url": "git://github.com/xpcmdshell/SysctlHunter.git",
+            "ssh_url": "git@github.com:xpcmdshell/SysctlHunter.git",
+            "clone_url": "https://github.com/xpcmdshell/SysctlHunter.git",
+            "svn_url": "https://github.com/xpcmdshell/SysctlHunter",
+            "homepage": null,
+            "size": 627,
+            "stargazers_count": 1,
+            "watchers_count": 1,
+            "language": "Python",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 1,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 1,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "push": false,
+                "pull": true
+            },
+            "temp_clone_token": "",
+            "network_count": 0,
+            "subscribers_count": 1
+        },
+        "authorUrl": "https://github.com/xpcmdshell",
+        "packageUrl": "https://api.github.com/repos/xpcmdshell/SysctlHunter/zipball/refs/tags/0.1.0",
+        "dependencies": "",
+        "path": "xpcmdshell_SysctlHunter",
+        "commit": "15984340cc7b08361c5a98b65f7ee2eccd6999a8",
+        "minimumBinaryNinjaVersion": 0
+    },
+    {
+        "pluginmetadataversion": 2,
         "name": "GameCube symbol map loader",
         "type": [
             "helper"
@@ -1323,7 +1468,6 @@
             "Linux": ""
         },
         "subfolders": [
-            "psifertex_tagteam",
             "sub"
         ],
         "version": "1.1.3",
@@ -1627,7 +1771,7 @@
             "python3"
         ],
         "description": "A loader and diassembler for Game Boy ROMs.",
-        "longdescription": "# Gameboy Binary Ninja plugin\n\n## Description\n\nA Binary Ninja plugin to load Game Boy ROMs and disassemble Game Boy architecture bytecode (Sharp LR35902).\n\nBased on [bnGB](https://github.com/icecr4ck/bnGB) by [Hugo Porcher (icecr4ck)](https://github.com/icecr4ck).\n\nFor a list of changes, read the [changelog](CHANGELOG).\n\n### Improvements\n* Added proper IO register symbols\n* Added ISR symbols\n* Fixed some incorrect branching\n* Fixed some incorrect addressing modes\n\n### Todo\n* Implement LLIL lifting\n* Fix sub_d (stop disas from 0)\n* Thorough testing\n\n## Installation\n\nEither install the plugin from the plugin manager or manually clone the repository to your plugin directory.\n\n## Minimum version\n\nThis plugin has only been tested on the following version of Binary Ninja:\n\n* release - 2.3.2660\n\n## References\n\n* [Gameboy Project](https://github.com/ZetaTwo/gameboy-project)\n* [Gameboy Pan Docs](http://bgb.bircd.org/pandocs.htm)\n* [Gameboy opcodes](https://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html)  \n\n## Testing\n\n* [GBDK-2020](https://github.com/gbdk-2020/gbdk-2020)\n\n## License\n\nThis plugin is released under a [MIT](LICENSE) license.\n",
+        "longdescription": "# Gameboy Binary Ninja plugin\n\n## Description\n\nA Binary Ninja plugin to load Game Boy ROMs and disassemble Game Boy architecture bytecode (Sharp LR35902).\n\nBased on [bnGB](https://github.com/icecr4ck/bnGB) by [Hugo Porcher (icecr4ck)](https://github.com/icecr4ck).\n\n### Improvements\n* Added proper IO register symbols\n* Added ISR symbols\n* Fixed some incorrect branching\n* Fixed some incorrect addressing modes\n\n### Todo\n* Implement LLIL lifting\n* Thorough testing\n\n## Installation\n\nRun the following command in your Binary Ninja plugins directory:\n```bash\ngit clone https://github.com/ZetaTwo/binja-gameboy.git\n```\n\n## Minimum version\n\nThis plugin has only been tested on the following version of Binary Ninja:\n\n* release - 2.2.2487\n\n## References\n\n* [Gameboy Project](https://github.com/ZetaTwo/gameboy-project)\n* [Gameboy Pan Docs](http://bgb.bircd.org/pandocs.htm)\n* [Gameboy opcodes](https://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html)  \n\n\n## License\n\nThis plugin is released under a [MIT](LICENSE) license.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020 Hugo Porcher\n\nCopyright (c) 2021 Carl Svensson (calle.svensson@zeta-two.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -7845,7 +7989,7 @@
             "releases_url": "https://api.github.com/repos/whitequark/binja-m16c/releases{/id}",
             "deployments_url": "https://api.github.com/repos/whitequark/binja-m16c/deployments",
             "created_at": "2020-01-14T22:07:10Z",
-            "updated_at": "2021-02-11T16:49:14Z",
+            "updated_at": "2021-08-02T22:22:10Z",
             "pushed_at": "2020-02-14T21:08:54Z",
             "git_url": "git://github.com/whitequark/binja-m16c.git",
             "ssh_url": "git@github.com:whitequark/binja-m16c.git",
@@ -7853,8 +7997,8 @@
             "svn_url": "https://github.com/whitequark/binja-m16c",
             "homepage": null,
             "size": 91,
-            "stargazers_count": 9,
-            "watchers_count": 9,
+            "stargazers_count": 10,
+            "watchers_count": 10,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -7875,7 +8019,7 @@
             },
             "forks": 4,
             "open_issues": 0,
-            "watchers": 9,
+            "watchers": 10,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -10061,7 +10205,7 @@
             "python3"
         ],
         "description": "Loader for common Nintendo Switch binaries",
-        "longdescription": "# Switch-Binja-Loader\n### Author: **EliseZeroTwo**\n\nWork In Progress Binary Ninja Loader for common Nintendo Switch binaries\n\n![Image demoing SMO in Binja](https://github.com/EliseZeroTwo/Switch-Binja-Loader/blob/master/images/home.png)\n\n### Currently Supports\n- NSO\n- KIP\n- NRO\n\n## Credits\n- [ReSwitched for their nxo64.py loader](https://github.com/reswitched/loaders/blob/master/nxo64.py)\n- [Adubbz for his Ghidra Switch Loader](https://github.com/Adubbz/Ghidra-Switch-Loader)\n- [SwitchBrew](https://switchbrew.org/)\n\n## Installation Instructions\n\nInstall all needed packages from pip in requirements.txt (Windows and MacOS Binja ship with an embedded python, [read here on how the docs say to install pip packages](https://docs.binary.ninja/guide/plugins.html#installing-prerequisites), or what I reccomend doing is just changing the python interpreter to a system install of python3 in settings)\n### Windows\n\nClone this repository into `%APPDATA%/Binary Ninja/plugins/`\n\n### Darwin\n\nClone this repository into `~/Library/Application Support/Binary Ninja/plugins/`\n\n### Linux\n\nClone this repository into `~/.binaryninja/plugins/`\n## Minimum Version\n\nBinary Ninja v1200\n\n\n\n## License\n\nThis plugin is released under the [ISC license](https://github.com/EliseZeroTwo/Switch-Binja-Loader/blob/master/LICENSE.txt)\n\n## Metadata Version\n\n2\n",
+        "longdescription": "# Switch-Binja-Loader\n### Author: **EliseZeroTwo**\n\nWork In Progress Binary Ninja Loader for common Nintendo Switch binaries\n\n![Image demoing SMO in Binja](https://github.com/EliseZeroTwo/Switch-Binja-Loader/blob/master/images/home.png)\n\n### Currently Supports\n- NSO\n- KIP\n\n## Credits\n- [ReSwitched for their nxo64.py loader](https://github.com/reswitched/loaders/blob/master/nxo64.py)\n- [Adubbz for his Ghidra Switch Loader](https://github.com/Adubbz/Ghidra-Switch-Loader)\n- [SwitchBrew](https://switchbrew.org/)\n\n## Installation Instructions\n\nInstall all needed packages from pip in requirements.txt (Windows and MacOS Binja ship with an embedded python, [read here on how the docs say to install pip packages](https://docs.binary.ninja/guide/plugins.html#installing-prerequisites), or what I reccomend doing is just changing the python interpreter to a system install of python3 in settings)\n### Windows\n\nClone this repository into `%APPDATA%/Binary Ninja/plugins/`\n\n### Darwin\n\nClone this repository into `~/Library/Application Support/Binary Ninja/plugins/`\n\n### Linux\n\nClone this repository into `~/.binaryninja/plugins/`\n## Minimum Version\n\nBinary Ninja v1200\n\n\n\n## License\n\nThis plugin is released under the [ISC license](https://github.com/EliseZeroTwo/Switch-Binja-Loader/blob/master/LICENSE.txt)\n\n## Metadata Version\n\n2\n",
         "license": {
             "name": "ISC",
             "text": "Copyright 2020 EliseZeroTwo\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
