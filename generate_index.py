@@ -92,14 +92,20 @@ def getPluginJson(plugin):
         return None
 
     data = None
-    pluginjson = f"{projectUrl}/contents/plugin.json?ref={plugin['tag']}"
+    if "subdirectory" in plugin:
+        pluginjson = f"{projectUrl}/contents/{plugin['subdirectory']}/plugin.json?ref={plugin['tag']}"
+    else:
+        pluginjson = f"{projectUrl}/contents/plugin.json?ref={plugin['tag']}"
     try:
         content = getfile(pluginjson).json()['content']
         data = json.loads(base64.b64decode(content))
         if ('longdescription' in data and len(data['longdescription']) < 100) or ('longdescription' not in data):
             try:
-                for readmefile in ["README.md", "README.MD", "readme.md", "README", "readme", "Readme.md"]:
-                    readmeUrl = f"{projectUrl}/contents/{readmefile}"
+                readmes = ["README.md", "README.MD", "readme.md", "README", "readme", "Readme.md"]
+                if "subdirectory" in plugin:
+                    readmes = [f"{plugin['subdirectory']}/{x}" for x in readmes]
+                for readmefile in readmes:
+                    readmeUrl = f"{projectUrl}/contents/{readmefile}?ref={plugin['tag']}"
                     readmeJson = getfile(readmeUrl).json()
                     if all (k in readmeJson for k in ("encoding", "content")):
                         if readmeJson["encoding"] == "base64":
@@ -116,7 +122,10 @@ def getPluginJson(plugin):
 
     requirements_txt = ""
     try:
-        req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
+        if "subdirectory" in plugin:
+            req_json = getfile(f"{projectUrl}/contents/{plugin['subdirectory']}/requirements.txt?ref={plugin['tag']}").json()
+        else:
+            req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
         if "content" in req_json:
             requirements_txt = base64.b64decode(req_json["content"]).decode('utf-8')
             if requirements_txt.startswith("\ufeff"):  # Remove BOM from file contents
@@ -134,9 +143,8 @@ def getPluginJson(plugin):
     data["dependencies"] = requirements_txt
 
     # Replace the fwd slash with _ and then strip all non (alpha, numeric, _ )
+
     data["path"] = re.sub("[^a-zA-Z0-9_]", "", re.sub("/", "_", projectData["full_name"]))
-    if "subfolders" in data.keys():
-        data["subfolders"] = [re.sub("[^a-zA-Z0-9_]", "", re.sub("/", "_", projectData["full_name"]))] + data["subfolders"]
     data["commit"] = commit
 
     # TODO: Consider adding license info directly from the repository's json data (would need to test unlicensed plugins)
@@ -150,6 +158,8 @@ def getPluginJson(plugin):
         data["platforms"] = []
     if "installinstructions" not in data:
         data["installinstructions"] = {}
+    if "subdirectory" in plugin:
+        data["subdirectory"] = plugin["subdirectory"]
     return data
 
 
