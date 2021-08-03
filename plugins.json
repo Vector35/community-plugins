@@ -28,8 +28,8 @@
         "version": "1.0",
         "author": "Glenn Smith",
         "minimumbinaryninjaversion": 2846,
-        "lastUpdated": 1628029291,
-        "projectUrl": "https://github.com/CouleeApps/hex-integers",
+        "lastUpdated": 1628030696,
+        "projectUrl": "https://github.com/CouleeApps/hex_integers",
         "projectData": {
             "id": 392465826,
             "node_id": "MDEwOlJlcG9zaXRvcnkzOTI0NjU4MjY=",
@@ -97,8 +97,8 @@
             "releases_url": "https://api.github.com/repos/CouleeApps/hex_integers/releases{/id}",
             "deployments_url": "https://api.github.com/repos/CouleeApps/hex_integers/deployments",
             "created_at": "2021-08-03T21:52:26Z",
-            "updated_at": "2021-08-03T22:19:46Z",
-            "pushed_at": "2021-08-03T22:21:31Z",
+            "updated_at": "2021-08-03T22:43:49Z",
+            "pushed_at": "2021-08-03T22:44:56Z",
             "git_url": "git://github.com/CouleeApps/hex_integers.git",
             "ssh_url": "git@github.com:CouleeApps/hex_integers.git",
             "clone_url": "https://github.com/CouleeApps/hex_integers.git",
@@ -139,9 +139,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/CouleeApps",
-        "packageUrl": "https://api.github.com/repos/CouleeApps/hex_integers/zipball/refs/tags/1.0",
+        "packageUrl": "https://api.github.com/repos/CouleeApps/hex_integers/zipball/refs/tags/1.1",
         "path": "CouleeApps_hex_integers",
-        "commit": "b86ec0e51512b6c6dd8c9b1f4f78496c5ad1ca7b",
+        "commit": "8a006311beda312b1bbc94052275fa43c297fc51",
         "minimumBinaryNinjaVersion": 0
     },
     {
