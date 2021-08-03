@@ -1,5 +1,9 @@
 [
     {
+        "name":"CouleeApps/hex_integers",
+        "auto_update":true
+    },
+    {
         "name":"xpcmdshell/SysctlHunter",
         "auto_update":true
     },
