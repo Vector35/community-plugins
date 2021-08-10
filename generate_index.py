@@ -98,7 +98,11 @@ def getPluginJson(plugin):
         pluginjson = f"{projectUrl}/contents/plugin.json?ref={plugin['tag']}"
     try:
         content = getfile(pluginjson).json()['content']
-        data = json.loads(base64.b64decode(content))
+        try:
+            data = json.loads(base64.b64decode(content))
+        except:
+            print(f"\n\nInvalid json when parsing {pluginjson}.\n")
+            raise
         if ('longdescription' in data and len(data['longdescription']) < 100) or ('longdescription' not in data):
             try:
                 readmes = ["README.md", "README.MD", "readme.md", "README", "readme", "Readme.md"]
