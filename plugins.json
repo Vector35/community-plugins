@@ -1,5 +1,149 @@
 [
     {
+        "api": [
+            "python3"
+        ],
+        "author": "Markus Gaasedelen",
+        "description": "A Coverage Explorer for Reverse Engineers",
+        "license": {
+            "name": "MIT",
+            "text": "Copyright (c) 2021> Markus Gaasedelen\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        },
+        "longdescription": "# Lighthouse - A Coverage Explorer for Reverse Engineers\n\n<p align=\"center\">\n<img alt=\"Lighthouse Plugin\" src=\"https://raw.githubusercontent.com/gaasedelen/lighthouse/master/screenshots/overview.gif\"/>\n</p>\n\n## Overview\n\nLighthouse is a powerful code coverage explorer for [IDA Pro](https://www.hex-rays.com/products/ida/) and [Binary Ninja](https://binary.ninja/), providing software researchers with uniquely interactive controls to study execution maps for native applications without requiring symbols or source.\n\nFor additional usage information, please check out the full [README](https://github.com/gaasedelen/lighthouse) on GitHub.\n",
+        "minimumbinaryninjaversion": 2918,
+        "name": "Lighthouse",
+        "platforms": [
+            "Darwin",
+            "Linux",
+            "Windows"
+        ],
+        "pluginmetadataversion": 2,
+        "type": [
+            "helper"
+        ],
+        "version": "0.9.2",
+        "lastUpdated": 1628628292,
+        "projectUrl": "https://github.com/gaasedelen/lighthouse",
+        "projectData": {
+            "id": 81627212,
+            "node_id": "MDEwOlJlcG9zaXRvcnk4MTYyNzIxMg==",
+            "name": "lighthouse",
+            "full_name": "gaasedelen/lighthouse",
+            "private": false,
+            "owner": {
+                "login": "gaasedelen",
+                "id": 9522648,
+                "node_id": "MDQ6VXNlcjk1MjI2NDg=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/9522648?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/gaasedelen",
+                "html_url": "https://github.com/gaasedelen",
+                "followers_url": "https://api.github.com/users/gaasedelen/followers",
+                "following_url": "https://api.github.com/users/gaasedelen/following{/other_user}",
+                "gists_url": "https://api.github.com/users/gaasedelen/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/gaasedelen/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/gaasedelen/subscriptions",
+                "organizations_url": "https://api.github.com/users/gaasedelen/orgs",
+                "repos_url": "https://api.github.com/users/gaasedelen/repos",
+                "events_url": "https://api.github.com/users/gaasedelen/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/gaasedelen/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/gaasedelen/lighthouse",
+            "description": "A Code Coverage Explorer for Reverse Engineers",
+            "fork": false,
+            "url": "https://api.github.com/repos/gaasedelen/lighthouse",
+            "forks_url": "https://api.github.com/repos/gaasedelen/lighthouse/forks",
+            "keys_url": "https://api.github.com/repos/gaasedelen/lighthouse/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/gaasedelen/lighthouse/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/gaasedelen/lighthouse/teams",
+            "hooks_url": "https://api.github.com/repos/gaasedelen/lighthouse/hooks",
+            "issue_events_url": "https://api.github.com/repos/gaasedelen/lighthouse/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/gaasedelen/lighthouse/events",
+            "assignees_url": "https://api.github.com/repos/gaasedelen/lighthouse/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/gaasedelen/lighthouse/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/gaasedelen/lighthouse/tags",
+            "blobs_url": "https://api.github.com/repos/gaasedelen/lighthouse/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/gaasedelen/lighthouse/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/gaasedelen/lighthouse/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/gaasedelen/lighthouse/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/gaasedelen/lighthouse/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/gaasedelen/lighthouse/languages",
+            "stargazers_url": "https://api.github.com/repos/gaasedelen/lighthouse/stargazers",
+            "contributors_url": "https://api.github.com/repos/gaasedelen/lighthouse/contributors",
+            "subscribers_url": "https://api.github.com/repos/gaasedelen/lighthouse/subscribers",
+            "subscription_url": "https://api.github.com/repos/gaasedelen/lighthouse/subscription",
+            "commits_url": "https://api.github.com/repos/gaasedelen/lighthouse/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/gaasedelen/lighthouse/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/gaasedelen/lighthouse/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/gaasedelen/lighthouse/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/gaasedelen/lighthouse/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/gaasedelen/lighthouse/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/gaasedelen/lighthouse/merges",
+            "archive_url": "https://api.github.com/repos/gaasedelen/lighthouse/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/gaasedelen/lighthouse/downloads",
+            "issues_url": "https://api.github.com/repos/gaasedelen/lighthouse/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/gaasedelen/lighthouse/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/gaasedelen/lighthouse/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/gaasedelen/lighthouse/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/gaasedelen/lighthouse/labels{/name}",
+            "releases_url": "https://api.github.com/repos/gaasedelen/lighthouse/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/gaasedelen/lighthouse/deployments",
+            "created_at": "2017-02-11T03:13:36Z",
+            "updated_at": "2021-08-10T20:39:09Z",
+            "pushed_at": "2021-08-10T20:42:31Z",
+            "git_url": "git://github.com/gaasedelen/lighthouse.git",
+            "ssh_url": "git@github.com:gaasedelen/lighthouse.git",
+            "clone_url": "https://github.com/gaasedelen/lighthouse.git",
+            "svn_url": "https://github.com/gaasedelen/lighthouse",
+            "homepage": "",
+            "size": 11157,
+            "stargazers_count": 1473,
+            "watchers_count": 1473,
+            "language": "Python",
+            "has_issues": true,
+            "has_projects": false,
+            "has_downloads": true,
+            "has_wiki": false,
+            "has_pages": false,
+            "forks_count": 239,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 9,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "forks": 239,
+            "open_issues": 9,
+            "watchers": 1473,
+            "default_branch": "master",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            },
+            "temp_clone_token": "",
+            "network_count": 239,
+            "subscribers_count": 57
+        },
+        "authorUrl": "https://github.com/gaasedelen",
+        "packageUrl": "https://api.github.com/repos/gaasedelen/lighthouse/zipball/refs/tags/v0.9.2",
+        "dependencies": "",
+        "path": "gaasedelen_lighthouse",
+        "commit": "7245a2d2c4e84351cd259ed81dafa4263167909a",
+        "minimumBinaryNinjaVersion": 0,
+        "installinstructions": {},
+        "subdir": "binjastub"
+    },
+    {
         "pluginmetadataversion": 2,
         "name": "Hex Integers in Python Console",
         "type": [
@@ -104,7 +248,7 @@
             "clone_url": "https://github.com/CouleeApps/hex_integers.git",
             "svn_url": "https://github.com/CouleeApps/hex_integers",
             "homepage": null,
-            "size": 0,
+            "size": 8,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
@@ -130,8 +274,10 @@
             "watchers": 0,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -275,7 +421,9 @@
             "default_branch": "main",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -318,7 +466,7 @@
         "author": "Linus S. (aka PistonMiner)",
         "minimumbinaryninjaversion": 2846,
         "lastUpdated": 1625773938,
-        "projectUrl": "https://github.com/pistonminer/binaryninja-gc-load-map",
+        "projectUrl": "https://github.com/PistonMiner/binaryninja-gc-load-map",
         "projectData": {
             "id": 384231617,
             "node_id": "MDEwOlJlcG9zaXRvcnkzODQyMzE2MTc=",
@@ -420,14 +568,16 @@
             "default_branch": "main",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
             "network_count": 0,
             "subscribers_count": 1
         },
-        "authorUrl": "https://github.com/pistonminer",
+        "authorUrl": "https://github.com/PistonMiner",
         "packageUrl": "https://api.github.com/repos/PistonMiner/binaryninja-gc-load-map/zipball/refs/tags/v1.0.0",
         "dependencies": "",
         "path": "PistonMiner_binaryninjagcloadmap",
@@ -463,7 +613,7 @@
         "author": "Linus S. (aka PistonMiner)",
         "minimumbinaryninjaversion": 2846,
         "lastUpdated": 1625773954,
-        "projectUrl": "https://github.com/pistonminer/binaryninja-gc-dol",
+        "projectUrl": "https://github.com/PistonMiner/binaryninja-gc-dol",
         "projectData": {
             "id": 384217908,
             "node_id": "MDEwOlJlcG9zaXRvcnkzODQyMTc5MDg=",
@@ -565,14 +715,16 @@
             "default_branch": "main",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
             "network_count": 0,
             "subscribers_count": 1
         },
-        "authorUrl": "https://github.com/pistonminer",
+        "authorUrl": "https://github.com/PistonMiner",
         "packageUrl": "https://api.github.com/repos/PistonMiner/binaryninja-gc-dol/zipball/refs/tags/v1.0.0",
         "dependencies": "",
         "path": "PistonMiner_binaryninjagcdol",
@@ -711,7 +863,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -849,7 +1003,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -989,7 +1145,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -1134,7 +1292,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -1277,7 +1437,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -1388,7 +1550,7 @@
             "releases_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/deployments",
             "created_at": "2021-03-03T18:04:19Z",
-            "updated_at": "2021-08-10T01:41:56Z",
+            "updated_at": "2021-08-10T19:28:42Z",
             "pushed_at": "2021-08-10T01:45:43Z",
             "git_url": "git://github.com/mrphrazer/obfuscation_detection.git",
             "ssh_url": "git@github.com:mrphrazer/obfuscation_detection.git",
@@ -1396,15 +1558,15 @@
             "svn_url": "https://github.com/mrphrazer/obfuscation_detection",
             "homepage": "",
             "size": 14913,
-            "stargazers_count": 110,
-            "watchers_count": 110,
+            "stargazers_count": 124,
+            "watchers_count": 124,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 14,
+            "forks_count": 16,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -1416,17 +1578,19 @@
                 "url": "https://api.github.com/licenses/gpl-2.0",
                 "node_id": "MDc6TGljZW5zZTg="
             },
-            "forks": 14,
+            "forks": 16,
             "open_issues": 0,
-            "watchers": 110,
+            "watchers": 124,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 14,
+            "network_count": 16,
             "subscribers_count": 6
         },
         "authorUrl": "https://github.com/mrphrazer",
@@ -1566,11 +1730,18 @@
             "watchers": 9,
             "default_branch": "main",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
             "network_count": 0,
             "subscribers_count": 2
         },
@@ -1714,11 +1885,18 @@
             "watchers": 0,
             "default_branch": "main",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
             "network_count": 1,
             "subscribers_count": 1
         },
@@ -1862,7 +2040,9 @@
             "default_branch": "main",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -2027,7 +2207,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -2172,7 +2354,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -2317,7 +2501,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -2461,10 +2647,17 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
-                "push": false,
+                "maintain": false,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "kryptoslogic",
                 "id": 43409078,
@@ -2627,7 +2820,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -2772,7 +2967,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -2917,7 +3114,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -3062,7 +3261,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -3196,7 +3397,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -3343,7 +3546,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -3489,7 +3694,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -3636,7 +3843,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -3982,7 +4191,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -4128,7 +4339,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -4270,7 +4483,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -4415,7 +4630,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -4557,7 +4774,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -4704,7 +4923,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -4852,7 +5073,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -4998,7 +5221,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -5138,7 +5363,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -5279,7 +5506,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -5413,7 +5642,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -5548,7 +5779,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -5691,7 +5924,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -5836,7 +6071,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -5982,7 +6219,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -6128,7 +6367,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -6274,7 +6515,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -6417,7 +6660,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -6563,7 +6808,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -6707,7 +6954,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -6852,7 +7101,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -6986,7 +7237,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -7132,7 +7385,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -7271,7 +7526,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -7416,7 +7673,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -7583,7 +7842,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -7723,7 +7984,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -7865,7 +8128,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -8007,7 +8272,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -8153,7 +8420,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -8294,7 +8563,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -8437,7 +8708,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -8583,7 +8856,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -8730,7 +9005,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -9079,7 +9356,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -9225,7 +9504,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -9392,7 +9673,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -9556,7 +9839,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -9669,7 +9954,7 @@
             "releases_url": "https://api.github.com/repos/lunixbochs/revsync/releases{/id}",
             "deployments_url": "https://api.github.com/repos/lunixbochs/revsync/deployments",
             "created_at": "2017-05-12T23:59:40Z",
-            "updated_at": "2021-08-07T13:46:56Z",
+            "updated_at": "2021-08-10T16:43:03Z",
             "pushed_at": "2021-08-06T01:30:02Z",
             "git_url": "git://github.com/lunixbochs/revsync.git",
             "ssh_url": "git@github.com:lunixbochs/revsync.git",
@@ -9703,7 +9988,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -9848,7 +10135,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -9993,7 +10282,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -10128,7 +10419,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -10291,7 +10584,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -10457,7 +10752,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -10601,7 +10898,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -10742,7 +11041,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -10890,7 +11191,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -11039,7 +11342,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -11185,7 +11490,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -11329,7 +11636,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -11489,7 +11798,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -11635,7 +11946,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -11782,7 +12095,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -11928,7 +12243,9 @@
             "default_branch": "master",
             "permissions": {
                 "admin": false,
+                "maintain": false,
                 "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",

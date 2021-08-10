@@ -1,5 +1,11 @@
 [
     {
+        "name":"gaasedelen/lighthouse",
+        "auto_update":true,
+	"subdir":"binjastub"
+
+    },
+    {
         "name":"CouleeApps/hex_integers",
         "auto_update":true
     },
@@ -8,11 +14,11 @@
         "auto_update":true
     },
     {
-        "name":"pistonminer/binaryninja-gc-load-map",
+        "name":"PistonMiner/binaryninja-gc-load-map",
         "auto_update":true
     },
     {
-        "name":"pistonminer/binaryninja-gc-dol",
+        "name":"PistonMiner/binaryninja-gc-dol",
         "auto_update":true
     },
     {

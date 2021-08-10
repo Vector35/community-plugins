@@ -31,8 +31,8 @@
 |[Frida](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|2020-06-01|MIT|helper|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
 |[Function ABI](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|2019-11-21|BSD-0-clause|ui|A plugin that adds a GUI for changing function ABI.|
 |[Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|[Hugo Porcher (@icecr4ck)](https://github.com/icecr4ck)|2020-11-17|MIT|architecture, binaryview|A loader and diassembler for Game Boy ROMs.|
-|[GameCube DOL](https://github.com/pistonminer/binaryninja-gc-dol)|[Linus S. (aka PistonMiner)](https://github.com/pistonminer)|2021-07-08|MIT|binaryview|GameCube DOL file BinaryView|
-|[GameCube symbol map loader](https://github.com/pistonminer/binaryninja-gc-load-map)|[Linus S. (aka PistonMiner)](https://github.com/pistonminer)|2021-07-08|MIT|helper|GameCube symbol map loader|
+|[GameCube DOL](https://github.com/PistonMiner/binaryninja-gc-dol)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-07-08|MIT|binaryview|GameCube DOL file BinaryView|
+|[GameCube symbol map loader](https://github.com/PistonMiner/binaryninja-gc-load-map)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-07-08|MIT|helper|GameCube symbol map loader|
 |[GEF-Binja](https://github.com/hugsy/gef-binja)|[hugsy](https://github.com/hugsy)|2020-05-18|MIT|helper, ui|Interface Binary Ninja with GDB-GEF easily.|
 |[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|2019-07-23|MIT|patch|SEGA Megadrive/Genesis ROM Hacking Toolkit|
 |[Ghinja](https://github.com/Martyx00/ghinja)|[Martin Petran](https://github.com/Martyx00)|2020-12-17|Apache-2.0|ui|Plugin to embed Ghidra Decompiler into Binary Ninja|
@@ -52,6 +52,7 @@
 |[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|2019-07-06|MIT|core, ui|A plugin that eases fixing jump table branches|
 |[kallsyms](https://github.com/zznop/bn-kallsyms)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|
 |[keypatch](https://github.com/lwerdna/keypatch_binja)|[lwerdna](https://github.com/lwerdna)|2021-04-09|Unlicense|helper, ui|Remake of keypatch plugin for Binary Ninja|
+|[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|2021-08-10|MIT|helper|A Coverage Explorer for Reverse Engineers|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|2021-03-09|MIT|helper|binary ninja plugin for abusing logging functions|
 |[Motorola 68k Architecture Plugin](https://github.com/wrigjl/binaryninja-m68k)|[Alex Forencich](https://github.com/wrigjl)|2020-12-30|MIT|architecture|A disassembler and lifter for the Motorola 68k architecture.|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2019-09-06|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
