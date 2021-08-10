@@ -57,7 +57,7 @@
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2019-09-06|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|2019-07-12|MIT|helper|Parses MSVC structures to improve analysis|
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|2020-05-27|LGPL v3|binaryview, core|FLIRT for (binary) ninjas|
-|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|2021-03-05|GPL-2.0|helper|Automatically detect control-flow flattening and other state machines|
+|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|2021-08-09|GPL-2.0|helper|Automatically detect obfuscated code and other state machines|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|2021-04-09|MIT|helper|detect opaque predicates|
 |[peutils](https://github.com/404d/peutils)|[404'd](https://github.com/404d)|2020-12-12|MIT|helper|Binary Ninja plugin providing various niche utilities for working with PE binaries|
 |[recursion](https://github.com/zznop/bn-recursion)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Locate and annotate direct and indirect recursion|
@@ -101,9 +101,9 @@ To install plugins, you can either use the Plugin Manager in the UI or clone the
 
  1. Create a new repository (Optionally, just copy it from the [sample plugin](https://github.com/Vector35/sample_plugin))
  1. Fill out a [`plugin.json`](https://github.com/Vector35/sample_plugin/blob/master/plugin.json). Optionally you can use the `generate_plugininfo.py -i` to interactively walk you through setting the required fields. The `plugin.json` must pass all the checks when run through `generate_plugininfo.py -v plugin.json`. `generate_plugininfo.py` can also generate your `README.md` and your `LICENSE` file with the `-r`, `-l`, or `-a` (all) options. Below is a list of the required and recommended fields.
- 1. Create and push a git tag with the version of your plugin (e.g. `v1.1`). Create a release, optionally attaching build artifacts as required.
- 1. File an [issue](https://github.com/Vector35/community-plugins/issues) with a link to your repo and the tag name of the release.
- 1. To update your plugin repeat the two previous steps.
+ 1. Create and push a git tag with the version of your plugin (e.g. `v1.1`). Create a release, optionally attaching build artifacts as required. We recommend using our [release helper](https://github.com/Vector35/release_helper) which simplifies this process.
+ 1. File an [issue](https://github.com/Vector35/community-plugins/issues) with a link to your repo.
+ 1. To update your plugin, simply do a new release! For future updates we'll automatically detect and add the new release to the plugin manager for you! (This previously was a manual step that has been since automated)
 
 ### Required Fields
 
@@ -112,16 +112,16 @@ To be displayed in the plugin loader, your `plugin.json` MUST have the following
  - `pluginmetadataversion` - The current version is the integer `2`
  - `name` - Good names do not use "Binary Ninja" or "Binja" neither do they use the words "plugin" or "extension". So instead of "Binja 6502 Architecture Plugin" simply use "6502 Architecture"
  - `author` - Your name, handle, or company name.
- - `api` - A list of supported architectures. Though we support `python2` and `python3` we highly recommend plugin authors support `python3` as `python2` support will be dropped as some time in the near future.
+ - `api` - A list of supported architectures. Currently only `python3` is supported. 
  - `license` - A json object with `name` and `text` keys.
  - `description` - This is a short (<50 character) description of the plugin.
- - `longdescription` - A longer Markdown formatted description of the plugin including hyperlinks and images as needed.
  - `version` - Version string
  - `minimumBinaryNinjaVersion` - An integer _build number_ so instead of `1.1.555` use `555`.
  - `platforms` - A list of strings one for each supported platform. Valid platforms are `Darwin`, `Linux`, and `Windows`
 
 ### Recommended Fields
 
+ - `longdescription` - A longer Markdown formatted description of the plugin including hyperlinks and images as needed. This will be shown in the plugin preview in the plugin manager and images are highly recommended. If not specified or if empty, the [README file](https://github.com/Vector35/community-plugins/blob/master/generate_index.py#L104) from your repository will be automatically used instead.
  - `type` - A list of strings of the following types: `core`, `ui`, `architecture`, `binaryview`, and `helper`.
    - `helper` - Plugin that adds some base functionality to Binary Ninja. Most plugins will be of this type.
    - `ui` - The plugin extends the UI is some way.
