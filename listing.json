@@ -1,5 +1,10 @@
 [
     {
+        "name":"zackorndorff/binja-xtensa",
+        "auto_update":true
+
+    },
+    {
         "name":"gaasedelen/lighthouse",
         "auto_update":true,
 	"subdir":"binjastub"
@@ -163,10 +168,6 @@
     },
     {
         "name":"0x1F9F1/binja-msvc",
-        "auto_update":true
-    },
-    {
-        "name":"fluxchief/binaryninja_avr",
         "auto_update":true
     },
     {
