@@ -98,7 +98,7 @@
             "releases_url": "https://api.github.com/repos/EliseZeroTwo/iBoot-Binja-Loader/releases{/id}",
             "deployments_url": "https://api.github.com/repos/EliseZeroTwo/iBoot-Binja-Loader/deployments",
             "created_at": "2020-08-04T15:23:27Z",
-            "updated_at": "2021-09-28T03:23:20Z",
+            "updated_at": "2021-09-30T18:40:51Z",
             "pushed_at": "2021-09-25T13:53:42Z",
             "git_url": "git://github.com/EliseZeroTwo/iBoot-Binja-Loader.git",
             "ssh_url": "git@github.com:EliseZeroTwo/iBoot-Binja-Loader.git",
@@ -106,8 +106,8 @@
             "svn_url": "https://github.com/EliseZeroTwo/iBoot-Binja-Loader",
             "homepage": null,
             "size": 40,
-            "stargazers_count": 16,
-            "watchers_count": 16,
+            "stargazers_count": 18,
+            "watchers_count": 18,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -127,9 +127,12 @@
                 "node_id": "MDc6TGljZW5zZTEw"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
-            "watchers": 16,
+            "watchers": 18,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -275,6 +278,15 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "disassembler",
+                "esp8266",
+                "lifter",
+                "xtensa"
+            ],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 6,
@@ -389,23 +401,23 @@
             "releases_url": "https://api.github.com/repos/gaasedelen/lighthouse/releases{/id}",
             "deployments_url": "https://api.github.com/repos/gaasedelen/lighthouse/deployments",
             "created_at": "2017-02-11T03:13:36Z",
-            "updated_at": "2021-09-28T06:16:33Z",
-            "pushed_at": "2021-08-10T20:42:31Z",
+            "updated_at": "2021-10-08T19:48:41Z",
+            "pushed_at": "2021-10-06T02:48:39Z",
             "git_url": "git://github.com/gaasedelen/lighthouse.git",
             "ssh_url": "git@github.com:gaasedelen/lighthouse.git",
             "clone_url": "https://github.com/gaasedelen/lighthouse.git",
             "svn_url": "https://github.com/gaasedelen/lighthouse",
             "homepage": "",
-            "size": 11163,
-            "stargazers_count": 1530,
-            "watchers_count": 1530,
+            "size": 11185,
+            "stargazers_count": 1531,
+            "watchers_count": 1531,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 243,
+            "forks_count": 244,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -418,9 +430,20 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
-            "forks": 243,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "code-coverage",
+                "hexrays",
+                "ida",
+                "ida-pro",
+                "idapython",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
+            "forks": 244,
             "open_issues": 9,
-            "watchers": 1530,
+            "watchers": 1531,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -430,7 +453,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 243,
+            "network_count": 244,
             "subscribers_count": 55
         },
         "authorUrl": "https://github.com/gaasedelen",
@@ -471,7 +494,7 @@
         "version": "1.0",
         "author": "Glenn Smith",
         "minimumbinaryninjaversion": 2846,
-        "lastUpdated": 1632197169,
+        "lastUpdated": 1633719900,
         "projectUrl": "https://github.com/CouleeApps/hex_integers",
         "projectData": {
             "id": 392465826,
@@ -540,8 +563,8 @@
             "releases_url": "https://api.github.com/repos/CouleeApps/hex_integers/releases{/id}",
             "deployments_url": "https://api.github.com/repos/CouleeApps/hex_integers/deployments",
             "created_at": "2021-08-03T21:52:26Z",
-            "updated_at": "2021-09-21T04:03:47Z",
-            "pushed_at": "2021-09-21T04:06:09Z",
+            "updated_at": "2021-10-08T19:03:34Z",
+            "pushed_at": "2021-10-08T19:05:00Z",
             "git_url": "git://github.com/CouleeApps/hex_integers.git",
             "ssh_url": "git@github.com:CouleeApps/hex_integers.git",
             "clone_url": "https://github.com/CouleeApps/hex_integers.git",
@@ -569,6 +592,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 0,
@@ -585,9 +611,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/CouleeApps",
-        "packageUrl": "https://api.github.com/repos/CouleeApps/hex_integers/zipball/refs/tags/1.3",
+        "packageUrl": "https://api.github.com/repos/CouleeApps/hex_integers/zipball/refs/tags/1.5",
         "path": "CouleeApps_hex_integers",
-        "commit": "3e592a2d26ef8513839317dcdabd388ab24ffb38",
+        "commit": "4443733eef731c2856aa3fcc28153e0c8a37832a",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -716,6 +742,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 7,
@@ -864,6 +893,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 0,
@@ -1012,6 +1044,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 0,
@@ -1161,6 +1196,13 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binaryninja",
+                "microblaze",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 2,
@@ -1279,7 +1321,7 @@
             "releases_url": "https://api.github.com/repos/zznop/bn-uefi-helper/releases{/id}",
             "deployments_url": "https://api.github.com/repos/zznop/bn-uefi-helper/deployments",
             "created_at": "2021-04-18T04:55:34Z",
-            "updated_at": "2021-09-16T21:33:06Z",
+            "updated_at": "2021-10-05T09:20:58Z",
             "pushed_at": "2021-05-30T03:56:08Z",
             "git_url": "git://github.com/zznop/bn-uefi-helper.git",
             "ssh_url": "git@github.com:zznop/bn-uefi-helper.git",
@@ -1302,6 +1344,9 @@
             "open_issues_count": 1,
             "license": null,
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 5,
             "open_issues": 1,
             "watchers": 64,
@@ -1445,6 +1490,13 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binaryninja-plugin",
+                "deobfuscation",
+                "opaque-predicates"
+            ],
+            "visibility": "public",
             "forks": 3,
             "open_issues": 0,
             "watchers": 16,
@@ -1593,6 +1645,13 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "binary-ninja-plugin",
+                "screenshot-ninja"
+            ],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 4,
@@ -1739,6 +1798,14 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "android",
+                "binary-ninja",
+                "binary-ninja-plugin",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 7,
@@ -1858,7 +1925,7 @@
             "releases_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/deployments",
             "created_at": "2021-03-03T18:04:19Z",
-            "updated_at": "2021-09-06T22:07:51Z",
+            "updated_at": "2021-10-01T19:36:57Z",
             "pushed_at": "2021-08-14T15:13:37Z",
             "git_url": "git://github.com/mrphrazer/obfuscation_detection.git",
             "ssh_url": "git@github.com:mrphrazer/obfuscation_detection.git",
@@ -1866,15 +1933,15 @@
             "svn_url": "https://github.com/mrphrazer/obfuscation_detection",
             "homepage": "",
             "size": 14915,
-            "stargazers_count": 137,
-            "watchers_count": 137,
+            "stargazers_count": 139,
+            "watchers_count": 139,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 18,
+            "forks_count": 20,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -1887,9 +1954,12 @@
                 "node_id": "MDc6TGljZW5zZTg="
             },
             "allow_forking": true,
-            "forks": 18,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 20,
             "open_issues": 0,
-            "watchers": 137,
+            "watchers": 139,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -1899,7 +1969,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 18,
+            "network_count": 20,
             "subscribers_count": 8
         },
         "authorUrl": "https://github.com/mrphrazer",
@@ -2035,6 +2105,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 1,
             "watchers": 9,
@@ -2191,6 +2264,9 @@
                 "node_id": "MDc6TGljZW5zZTA="
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 1,
             "watchers": 0,
@@ -2346,6 +2422,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 4,
@@ -2514,6 +2593,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 1,
@@ -2640,7 +2722,7 @@
             "clone_url": "https://github.com/inspier/BinjaRustDemangler.git",
             "svn_url": "https://github.com/inspier/BinjaRustDemangler",
             "homepage": null,
-            "size": 439,
+            "size": 445,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
@@ -2662,6 +2744,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 0,
@@ -2781,7 +2866,7 @@
             "releases_url": "https://api.github.com/repos/PistonMiner/binaryninja-bindiff-viewer/releases{/id}",
             "deployments_url": "https://api.github.com/repos/PistonMiner/binaryninja-bindiff-viewer/deployments",
             "created_at": "2020-12-16T15:52:19Z",
-            "updated_at": "2021-09-20T14:35:06Z",
+            "updated_at": "2021-10-05T10:03:16Z",
             "pushed_at": "2021-09-18T08:27:22Z",
             "git_url": "git://github.com/PistonMiner/binaryninja-bindiff-viewer.git",
             "ssh_url": "git@github.com:PistonMiner/binaryninja-bindiff-viewer.git",
@@ -2789,8 +2874,8 @@
             "svn_url": "https://github.com/PistonMiner/binaryninja-bindiff-viewer",
             "homepage": null,
             "size": 2341,
-            "stargazers_count": 38,
-            "watchers_count": 38,
+            "stargazers_count": 39,
+            "watchers_count": 39,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2810,9 +2895,12 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 4,
             "open_issues": 2,
-            "watchers": 38,
+            "watchers": 39,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -2957,6 +3045,11 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binaryninja-plugin"
+            ],
+            "visibility": "public",
             "forks": 2,
             "open_issues": 1,
             "watchers": 29,
@@ -3131,6 +3224,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 8,
@@ -3279,6 +3375,14 @@
                 "node_id": "MDc6TGljZW5zZTI="
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "exploit-development",
+                "vulnerability",
+                "vulnerability-assessment",
+                "vulnerability-scanners"
+            ],
+            "visibility": "public",
             "forks": 35,
             "open_issues": 2,
             "watchers": 218,
@@ -3398,7 +3502,7 @@
             "releases_url": "https://api.github.com/repos/Martyx00/ghinja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/ghinja/deployments",
             "created_at": "2020-10-20T18:40:01Z",
-            "updated_at": "2021-09-25T18:01:40Z",
+            "updated_at": "2021-09-29T05:42:48Z",
             "pushed_at": "2021-05-02T03:32:20Z",
             "git_url": "git://github.com/Martyx00/ghinja.git",
             "ssh_url": "git@github.com:Martyx00/ghinja.git",
@@ -3406,8 +3510,8 @@
             "svn_url": "https://github.com/Martyx00/ghinja",
             "homepage": "",
             "size": 671,
-            "stargazers_count": 60,
-            "watchers_count": 60,
+            "stargazers_count": 61,
+            "watchers_count": 61,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -3427,9 +3531,12 @@
                 "node_id": "MDc6TGljZW5zZTI="
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 3,
             "open_issues": 1,
-            "watchers": 60,
+            "watchers": 61,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -3575,6 +3682,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 2,
             "open_issues": 0,
             "watchers": 19,
@@ -3712,6 +3822,9 @@
             "open_issues_count": 1,
             "license": null,
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 4,
             "open_issues": 1,
             "watchers": 11,
@@ -3862,6 +3975,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 3,
             "open_issues": 1,
             "watchers": 7,
@@ -4011,6 +4127,13 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "go-reversing",
+                "golang-reversing"
+            ],
+            "visibility": "public",
             "forks": 7,
             "open_issues": 0,
             "watchers": 19,
@@ -4132,7 +4255,7 @@
             "releases_url": "https://api.github.com/repos/jeffli678/bnhook/releases{/id}",
             "deployments_url": "https://api.github.com/repos/jeffli678/bnhook/deployments",
             "created_at": "2019-05-14T19:05:34Z",
-            "updated_at": "2021-06-21T01:53:17Z",
+            "updated_at": "2021-10-06T04:09:19Z",
             "pushed_at": "2021-03-29T07:34:38Z",
             "git_url": "git://github.com/jeffli678/bnhook.git",
             "ssh_url": "git@github.com:jeffli678/bnhook.git",
@@ -4140,8 +4263,8 @@
             "svn_url": "https://github.com/jeffli678/bnhook",
             "homepage": null,
             "size": 16,
-            "stargazers_count": 0,
-            "watchers_count": 0,
+            "stargazers_count": 2,
+            "watchers_count": 2,
             "language": "Python",
             "has_issues": false,
             "has_projects": true,
@@ -4161,9 +4284,12 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 2,
             "open_issues": 0,
-            "watchers": 0,
+            "watchers": 2,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -4269,6 +4395,9 @@
                     "node_id": "MDc6TGljZW5zZTEz"
                 },
                 "allow_forking": true,
+                "is_template": false,
+                "topics": [],
+                "visibility": "public",
                 "forks": 8,
                 "open_issues": 3,
                 "watchers": 21,
@@ -4370,6 +4499,9 @@
                     "node_id": "MDc6TGljZW5zZTEz"
                 },
                 "allow_forking": true,
+                "is_template": false,
+                "topics": [],
+                "visibility": "public",
                 "forks": 8,
                 "open_issues": 3,
                 "watchers": 21,
@@ -4512,6 +4644,16 @@
                 "node_id": "MDc6TGljZW5zZTEy"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-analysis",
+                "binary-ninja",
+                "binary-ninja-plugin",
+                "reverse-engineering",
+                "security",
+                "signature-matcher"
+            ],
+            "visibility": "public",
             "forks": 11,
             "open_issues": 3,
             "watchers": 53,
@@ -4661,6 +4803,12 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binja",
+                "yara"
+            ],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 0,
@@ -4806,6 +4954,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 3,
@@ -4954,6 +5105,9 @@
                 "node_id": "MDc6TGljZW5zZTU="
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 4,
             "open_issues": 0,
             "watchers": 16,
@@ -5099,6 +5253,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 6,
             "open_issues": 2,
             "watchers": 42,
@@ -5249,6 +5406,17 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "disassembler",
+                "lifter",
+                "microcorruption",
+                "msp430",
+                "reversing",
+                "static-analysis"
+            ],
+            "visibility": "public",
             "forks": 5,
             "open_issues": 5,
             "watchers": 24,
@@ -5400,6 +5568,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 1,
             "watchers": 6,
@@ -5549,6 +5720,12 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "plugin"
+            ],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 1,
             "watchers": 2,
@@ -5663,7 +5840,7 @@
             "releases_url": "https://api.github.com/repos/zznop/bnida/releases{/id}",
             "deployments_url": "https://api.github.com/repos/zznop/bnida/deployments",
             "created_at": "2018-06-02T04:46:19Z",
-            "updated_at": "2021-06-28T14:54:41Z",
+            "updated_at": "2021-10-06T04:31:48Z",
             "pushed_at": "2020-12-06T05:30:16Z",
             "git_url": "git://github.com/zznop/bnida.git",
             "ssh_url": "git@github.com:zznop/bnida.git",
@@ -5671,8 +5848,8 @@
             "svn_url": "https://github.com/zznop/bnida",
             "homepage": "",
             "size": 2605,
-            "stargazers_count": 97,
-            "watchers_count": 97,
+            "stargazers_count": 98,
+            "watchers_count": 98,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -5692,9 +5869,12 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 12,
             "open_issues": 2,
-            "watchers": 97,
+            "watchers": 98,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -5836,6 +6016,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 1,
             "watchers": 22,
@@ -5973,6 +6156,9 @@
             "open_issues_count": 0,
             "license": null,
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 2,
             "open_issues": 0,
             "watchers": 13,
@@ -6111,6 +6297,9 @@
             "open_issues_count": 0,
             "license": null,
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 2,
             "open_issues": 0,
             "watchers": 2,
@@ -6257,6 +6446,14 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "annotation",
+                "binary-ninja",
+                "binja",
+                "plugin"
+            ],
+            "visibility": "public",
             "forks": 3,
             "open_issues": 0,
             "watchers": 8,
@@ -6405,6 +6602,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 3,
@@ -6554,6 +6754,13 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "binaryninja",
+                "binja"
+            ],
+            "visibility": "public",
             "forks": 3,
             "open_issues": 0,
             "watchers": 10,
@@ -6703,6 +6910,17 @@
                 "node_id": "MDc6TGljZW5zZTI="
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "automation",
+                "binaryninja",
+                "binaryninja-plugin",
+                "bnil-graph",
+                "bnil-instruction-tree",
+                "graph",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
             "forks": 8,
             "open_issues": 0,
             "watchers": 61,
@@ -6849,6 +7067,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 3,
             "open_issues": 0,
             "watchers": 3,
@@ -6998,6 +7219,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 6,
             "open_issues": 0,
             "watchers": 38,
@@ -7145,6 +7369,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 18,
@@ -7293,6 +7520,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 1,
             "watchers": 4,
@@ -7430,6 +7660,9 @@
             "open_issues_count": 1,
             "license": null,
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 10,
             "open_issues": 1,
             "watchers": 33,
@@ -7579,6 +7812,13 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "binja",
+                "windows-pe"
+            ],
+            "visibility": "public",
             "forks": 2,
             "open_issues": 1,
             "watchers": 8,
@@ -7721,6 +7961,12 @@
             "open_issues_count": 0,
             "license": null,
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "binja"
+            ],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 2,
@@ -7869,6 +8115,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 13,
             "open_issues": 1,
             "watchers": 82,
@@ -8039,6 +8288,9 @@
                 "node_id": "MDc6TGljZW5zZTA="
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 3,
             "open_issues": 4,
             "watchers": 8,
@@ -8182,6 +8434,9 @@
                 "node_id": "MDc6TGljZW5zZTA="
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 5,
@@ -8327,6 +8582,9 @@
                 "node_id": "MDc6TGljZW5zZTA="
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 3,
             "open_issues": 0,
             "watchers": 45,
@@ -8472,6 +8730,9 @@
                 "node_id": "MDc6TGljZW5zZTA="
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 13,
@@ -8592,7 +8853,7 @@
             "releases_url": "https://api.github.com/repos/whitequark/binja-m16c/releases{/id}",
             "deployments_url": "https://api.github.com/repos/whitequark/binja-m16c/deployments",
             "created_at": "2020-01-14T22:07:10Z",
-            "updated_at": "2021-08-19T20:15:47Z",
+            "updated_at": "2021-10-02T12:45:50Z",
             "pushed_at": "2020-02-14T21:08:54Z",
             "git_url": "git://github.com/whitequark/binja-m16c.git",
             "ssh_url": "git@github.com:whitequark/binja-m16c.git",
@@ -8600,8 +8861,8 @@
             "svn_url": "https://github.com/whitequark/binja-m16c",
             "homepage": null,
             "size": 91,
-            "stargazers_count": 9,
-            "watchers_count": 9,
+            "stargazers_count": 10,
+            "watchers_count": 10,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -8621,9 +8882,12 @@
                 "node_id": "MDc6TGljZW5zZTM1"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 4,
             "open_issues": 0,
-            "watchers": 9,
+            "watchers": 10,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -8765,6 +9029,13 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binaryninja-plugin",
+                "reverse-engineering",
+                "slicing"
+            ],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 2,
             "watchers": 7,
@@ -8911,6 +9182,15 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "binary-ninja-plugin",
+                "dynamic-binary-instrumentation",
+                "frida",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
             "forks": 5,
             "open_issues": 0,
             "watchers": 11,
@@ -9060,6 +9340,14 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "disassembly",
+                "gameboy-cpu",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
             "forks": 2,
             "open_issues": 0,
             "watchers": 8,
@@ -9210,6 +9498,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 5,
             "open_issues": 3,
             "watchers": 8,
@@ -9318,6 +9609,9 @@
                     "node_id": "MDc6TGljZW5zZTEz"
                 },
                 "allow_forking": true,
+                "is_template": false,
+                "topics": [],
+                "visibility": "public",
                 "forks": 9,
                 "open_issues": 0,
                 "watchers": 6,
@@ -9419,6 +9713,9 @@
                     "node_id": "MDc6TGljZW5zZTEz"
                 },
                 "allow_forking": true,
+                "is_template": false,
+                "topics": [],
+                "visibility": "public",
                 "forks": 9,
                 "open_issues": 0,
                 "watchers": 6,
@@ -9564,6 +9861,9 @@
                 "node_id": "MDc6TGljZW5zZTE1"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 2,
             "open_issues": 0,
             "watchers": 4,
@@ -9684,14 +9984,14 @@
             "releases_url": "https://api.github.com/repos/uni-due-syssec/bn-riscv/releases{/id}",
             "deployments_url": "https://api.github.com/repos/uni-due-syssec/bn-riscv/deployments",
             "created_at": "2019-12-04T09:57:25Z",
-            "updated_at": "2021-07-21T13:50:37Z",
-            "pushed_at": "2021-07-21T13:50:34Z",
+            "updated_at": "2021-10-01T10:11:39Z",
+            "pushed_at": "2021-10-01T10:11:36Z",
             "git_url": "git://github.com/uni-due-syssec/bn-riscv.git",
             "ssh_url": "git@github.com:uni-due-syssec/bn-riscv.git",
             "clone_url": "https://github.com/uni-due-syssec/bn-riscv.git",
             "svn_url": "https://github.com/uni-due-syssec/bn-riscv",
             "homepage": "",
-            "size": 270,
+            "size": 275,
             "stargazers_count": 6,
             "watchers_count": 6,
             "language": "Python",
@@ -9700,7 +10000,7 @@
             "has_downloads": true,
             "has_wiki": false,
             "has_pages": false,
-            "forks_count": 4,
+            "forks_count": 5,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -9713,7 +10013,13 @@
                 "node_id": "MDc6TGljZW5zZTI="
             },
             "allow_forking": true,
-            "forks": 4,
+            "is_template": false,
+            "topics": [
+                "binary-ninja-plugin",
+                "riscv"
+            ],
+            "visibility": "public",
+            "forks": 5,
             "open_issues": 3,
             "watchers": 6,
             "default_branch": "master",
@@ -9745,7 +10051,7 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 4,
+            "network_count": 5,
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/uni-due-syssec",
@@ -9854,7 +10160,7 @@
             "releases_url": "https://api.github.com/repos/jmprdi/binja-division-deoptimization/releases{/id}",
             "deployments_url": "https://api.github.com/repos/jmprdi/binja-division-deoptimization/deployments",
             "created_at": "2020-04-06T18:24:33Z",
-            "updated_at": "2021-03-31T17:38:21Z",
+            "updated_at": "2021-10-05T18:04:15Z",
             "pushed_at": "2020-08-20T14:45:52Z",
             "git_url": "git://github.com/jmprdi/binja-division-deoptimization.git",
             "ssh_url": "git@github.com:jmprdi/binja-division-deoptimization.git",
@@ -9862,8 +10168,8 @@
             "svn_url": "https://github.com/jmprdi/binja-division-deoptimization",
             "homepage": null,
             "size": 405,
-            "stargazers_count": 2,
-            "watchers_count": 2,
+            "stargazers_count": 3,
+            "watchers_count": 3,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -9883,9 +10189,12 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 1,
-            "watchers": 2,
+            "watchers": 3,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -10050,6 +10359,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 3,
             "open_issues": 1,
             "watchers": 29,
@@ -10200,6 +10512,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 22,
             "open_issues": 3,
             "watchers": 88,
@@ -10348,6 +10663,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 2,
             "open_issues": 1,
             "watchers": 6,
@@ -10496,6 +10814,14 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binaryninja",
+                "binaryninja-plugin",
+                "binja",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 3,
             "watchers": 4,
@@ -10634,6 +10960,12 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binaryninja-plugin",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 1,
             "watchers": 5,
@@ -10800,6 +11132,9 @@
             "open_issues_count": 0,
             "license": null,
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 9,
             "open_issues": 0,
             "watchers": 66,
@@ -10969,6 +11304,9 @@
                 "node_id": "MDc6TGljZW5zZTEw"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 17,
@@ -11116,6 +11454,14 @@
                 "node_id": "MDc6TGljZW5zZTQ="
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binaryninja",
+                "binaryninja-plugin",
+                "reverse-engineering",
+                "symbolic-execution"
+            ],
+            "visibility": "public",
             "forks": 7,
             "open_issues": 1,
             "watchers": 96,
@@ -11260,6 +11606,15 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binaryninja",
+                "binaryninja-plugin",
+                "discord",
+                "discord-integration",
+                "discord-rich-presence"
+            ],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 1,
             "watchers": 5,
@@ -11411,6 +11766,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 5,
             "open_issues": 1,
             "watchers": 41,
@@ -11563,6 +11921,9 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 3,
@@ -11683,7 +12044,7 @@
             "releases_url": "https://api.github.com/repos/mauronz/binja-emotet/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mauronz/binja-emotet/deployments",
             "created_at": "2020-08-05T20:58:52Z",
-            "updated_at": "2020-12-22T06:46:00Z",
+            "updated_at": "2021-10-03T17:26:59Z",
             "pushed_at": "2020-09-21T21:42:42Z",
             "git_url": "git://github.com/mauronz/binja-emotet.git",
             "ssh_url": "git@github.com:mauronz/binja-emotet.git",
@@ -11691,8 +12052,8 @@
             "svn_url": "https://github.com/mauronz/binja-emotet",
             "homepage": null,
             "size": 363,
-            "stargazers_count": 12,
-            "watchers_count": 12,
+            "stargazers_count": 13,
+            "watchers_count": 13,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -11712,9 +12073,12 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 2,
             "open_issues": 0,
-            "watchers": 12,
+            "watchers": 13,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -11859,6 +12223,13 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja-plugin",
+                "ios",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
             "forks": 6,
             "open_issues": 1,
             "watchers": 36,
@@ -12022,6 +12393,14 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binary-ninja",
+                "binary-ninja-plugin",
+                "plugin",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 0,
@@ -12171,6 +12550,13 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [
+                "binaryninja-plugin",
+                "delphi",
+                "reverse-engineering"
+            ],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 7,
@@ -12321,6 +12707,9 @@
                 "node_id": "MDc6TGljZW5zZTE1"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 1,
             "open_issues": 0,
             "watchers": 2,
@@ -12470,6 +12859,9 @@
                 "node_id": "MDc6TGljZW5zZTE1"
             },
             "allow_forking": true,
+            "is_template": false,
+            "topics": [],
+            "visibility": "public",
             "forks": 0,
             "open_issues": 0,
             "watchers": 0,
