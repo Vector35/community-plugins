@@ -1,5 +1,10 @@
 [
     {
+        "name":"ehennenfent/binja_explain_instruction",
+        "auto_update":true
+
+    },
+    {
         "name":"EliseZeroTwo/iBoot-Binja-Loader",
         "auto_update":true
 
