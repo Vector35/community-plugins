@@ -4,7 +4,7 @@
 |------------|--------|--------------|---------|----------|-------------|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|2019-07-09|MIT|binaryview|A plugin that annotates function arguments.|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|2020-12-12|MIT|helper|Various auto analysis utilities|
-|[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-06-04|MIT|helper, ui|View BinDiff results and port symbols|
+|[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-10-17|MIT|helper, ui|View BinDiff results and port symbols|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|2020-08-19|MIT|architecture, binaryview, core, ui|Generate and find signatures.|
 |[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2021-05-19|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|2021-01-18|Apache-2.0|architecture|RISC-V architecture plugin.|
@@ -83,7 +83,7 @@
 |[XNU Sysctl Hunter](https://github.com/xpcmdshell/SysctlHunter)|[actae0n](https://github.com/xpcmdshell)|2021-07-21|MIT|helper|XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli use.|
 |[Xtensa Architecture and ESP8266 Loader](https://github.com/zackorndorff/binja-xtensa)|[Zack Orndorff](https://github.com/zackorndorff)|2021-08-16|MIT|architecture, binaryview|Xtensa Architecture and ESP8266 Image Loader|
 |[YARA Scan](https://github.com/trib0r3/binja-yara)|[trib0r3](https://github.com/trib0r3)|2020-05-26|MIT|binaryview, core|YARA signatures|
-|[μBlaze Architecture Plugin](https://github.com/amtal/microblaze)|[amtal](https://github.com/amtal)|2021-05-11|MIT|architecture|Configurable soft core for Xilinx FPGAs.|
+|[μBlaze Architecture Plugin](https://github.com/amtal/microblaze)|[amtal](https://github.com/amtal)|2021-10-15|MIT|architecture|Configurable soft core for Xilinx FPGAs.|
 # Binary Ninja Community Plugins
 
 Plugins in this repository are provided by the community. Vector 35, Inc. makes no guarantees to the quality, safety or efficacy of the plugins herein.
