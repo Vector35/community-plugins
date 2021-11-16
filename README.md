@@ -2,22 +2,23 @@
 
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
-|[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|2019-07-09|MIT|binaryview|A plugin that annotates function arguments.|
+|[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|2019-07-08|MIT|binaryview|A plugin that annotates function arguments.|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|2020-12-12|MIT|helper|Various auto analysis utilities|
 |[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-10-17|MIT|helper, ui|View BinDiff results and port symbols|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|2020-08-19|MIT|architecture, binaryview, core, ui|Generate and find signatures.|
-|[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2021-05-19|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
+|[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2021-05-18|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|2021-01-18|Apache-2.0|architecture|RISC-V architecture plugin.|
 |[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|2021-05-29|MIT|helper|Helper plugin for analyzing UEFI firmware|
 |[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|2021-11-03|MIT|helper|Code coverage analysis and visualization plugin|
 |[BNHook](https://github.com/jeffli678/bnhook)|[Grant Orndorff](https://github.com/jeffli678)|2021-03-29|MIT|core, ui|Insert custom hooks|
 |[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Transfer analysis data between Binary Ninja and IDA|
 |[BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|2021-06-07|Apache-2.0|ui|A plugin to graph BNIL instruction trees|
-|[Call Shellcode](https://github.com/lwerdna/call_shellcode)|[lwerdna](https://github.com/lwerdna)|2021-04-03|Unlicense|helper|Add "call shellcode" menu option which executes highlighted bytes.|
+|[Call Shellcode](https://github.com/lwerdna/call_shellcode)|[lwerdna](https://github.com/lwerdna)|2021-04-02|Unlicense|helper|Add "call shellcode" menu option which executes highlighted bytes.|
 |[Callgraph](https://github.com/psifertex/callgraph)|[Josh Watson / Jordan Wiens](https://github.com/psifertex)|2021-04-07|MIT|ui|Callgraph generator for called or calling funcs|
 |[CHIP-8 ROM Loader](https://github.com/uafio/BinaryNinja-CHIP8-Arch)|[uafio](https://github.com/uafio)|2020-08-15|MIT|architecture, binaryview, core, helper, ui|Load and disassemble CHIP-8 ROM.|
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|2020-06-08|MIT|architecture, binaryview, core, helper, ui|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|2020-08-02|MIT|binaryview, ui|A plugin to detect several common crypto constructs and magic vars.|
+|[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|2021-11-15|MIT|helper|Load old COFF .dbg files as well as CAB-ed .db_ files!|
 |[DeGObfuscate](https://github.com/kryptoslogic/binja_degobfuscate)|[Jamie Hankins](https://github.com/kryptoslogic)|2020-12-02|MIT|helper|De-obfuscates strings inside of obfuscated Go binaries|
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|2020-10-02|MIT|helper|Find Delphi VMTs and generate their structures|
 |[Dependency analyzer](https://github.com/Shizmob/binja-depanalyzer)|[Shiz](https://github.com/Shizmob)|2020-05-24|MIT|helper|Analyze dependencies and resolve obfuscated imports|
@@ -35,12 +36,12 @@
 |[GameCube symbol map loader](https://github.com/PistonMiner/binaryninja-gc-load-map)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-07-08|MIT|helper|GameCube symbol map loader|
 |[GEF-Binja](https://github.com/hugsy/gef-binja)|[hugsy](https://github.com/hugsy)|2020-05-18|MIT|helper, ui|Interface Binary Ninja with GDB-GEF easily.|
 |[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|2019-07-23|MIT|patch|SEGA Megadrive/Genesis ROM Hacking Toolkit|
-|[Ghinja](https://github.com/Martyx00/ghinja)|[Martin Petran](https://github.com/Martyx00)|2021-10-21|Apache-2.0|ui|Plugin to embed Ghidra Decompiler into Binary Ninja|
+|[Ghinja](https://github.com/Martyx00/ghinja)|[Martin Petran](https://github.com/Martyx00)|2021-10-20|Apache-2.0|ui|Plugin to embed Ghidra Decompiler into Binary Ninja|
 |[GO Loader Assist](https://github.com/f0rki/bn-goloader)|[Michael Rodler](https://github.com/f0rki)|2021-02-02|MIT|ui|Short script that parses go symbol table and renames/creates functions.|
 |[Golang Symbol Restore](https://github.com/d-we/binja-golang-symbol-restore)|[Daniel Weber](https://github.com/d-we)|2020-10-19|MIT|helper|Binary Ninja plugin for restoring function names from stripped Golang binaries|
 |[Hex Integers in Python Console](https://github.com/CouleeApps/hex_integers)|[Glenn Smith](https://github.com/CouleeApps)|2021-10-08|MIT|helper|Makes your integers print as hex in the python console.|
 |[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-10-03|MIT|binaryview|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|
-|[HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|[atxsinn3r](https://github.com/atxsinn3r)|2020-06-07|BSD-3-Clause|helper|Dumps HLIL code to a directory|
+|[HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|[atxsinn3r](https://github.com/atxsinn3r)|2020-06-06|BSD-3-Clause|helper|Dumps HLIL code to a directory|
 |[iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|[Blackwing Intelligence](https://github.com/BlackwingHQ)|2020-10-01|MIT|binaryview|Binary View for loading iBoot, SecureROM, etc. firmware|
 |[iBootLoader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2021-09-25|ISC|binaryview, helper|iBoot/SecureROM Loader|
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|2020-03-26|MIT|helper|Allows users to import idc database dumps from IDA into Binary Ninja.|

@@ -1,339 +1,340 @@
 [
-    {
-        "name":"ehennenfent/binja_explain_instruction",
-        "auto_update":true
-
-    },
-    {
-        "name":"EliseZeroTwo/iBoot-Binja-Loader",
-        "auto_update":true
-
-    },
-    {
-        "name":"zackorndorff/binja-xtensa",
-        "auto_update":true
-
-    },
-    {
-        "name":"gaasedelen/lighthouse",
-        "auto_update":true,
-	"subdir":"binjastub"
-
-    },
-    {
-        "name":"CouleeApps/hex_integers",
-        "auto_update":true
-    },
-    {
-        "name":"xpcmdshell/SysctlHunter",
-        "auto_update":true
-    },
-    {
-        "name":"PistonMiner/binaryninja-gc-load-map",
-        "auto_update":true
-    },
-    {
-        "name":"PistonMiner/binaryninja-gc-dol",
-        "auto_update":true
-    },
-    {
-        "name":"amtal/microblaze",
-        "auto_update":true
-    },
-    {
-        "name":"zznop/bn-uefi-helper",
-        "auto_update":true
-    },
-    {
-        "name":"yellowbyte/opaque-predicates-detective",
-        "auto_update":true
-    },
-    {
-        "name":"jonpalmisc/screenshot_ninja",
-        "auto_update":true
-    },
-    {
-        "name":"Ayrx/binja-JNIAnalyzer",
-        "auto_update":true
-    },
-    {
-        "name":"mrphrazer/obfuscation_detection",
-        "auto_update":true
-    },
-    {
-        "name":"psifertex/callgraph",
-        "auto_update":true
-    },
-    {
-        "name":"psifertex/tagteam",
-        "auto_update":true
-    },
-    {
-        "name":"fgsect/JMPscare-binja",
-        "auto_update":true
-    },
-    {
-        "name":"ZetaTwo/binja-gameboy",
-        "auto_update":true
-    },
-    {
-        "name":"inspier/BinjaRustDemangler",
-        "auto_update":true
-    },
-    {
-        "name":"PistonMiner/binaryninja-bindiff-viewer",
-        "auto_update":true
-    },
-    {
-        "name":"kryptoslogic/binja_degobfuscate",
-        "auto_update":true
-    },
-    {
-        "name":"travisgoodspeed/symgrate2-binja-plugin",
-        "auto_update":true
-    },
-    {
-        "name":"Martyx00/VulnFanatic",
-        "auto_update":true
-    },
-    {
-        "name":"Martyx00/ghinja",
-        "auto_update":true
-    },
-    {
-        "name":"matteyeux/seprom-loader",
-        "auto_update":true
-    },
-    {
-        "name":"murx-/devi_binja",
-        "auto_update":true
-    },
-    {
-        "name":"d-we/binja-golang-symbol-restore",
-        "auto_update":true
-    },
-    {
-        "name":"f0rki/bn-goloader",
-        "auto_update":true
-    },
-    {
-        "name":"jeffli678/bnhook",
-        "auto_update":true
-    },
-    {
-        "name":"thebabush/nampa",
-        "auto_update":true
-    },
-    {
-        "name":"trib0r3/binja-yara",
-        "auto_update":true
-    },
-    {
-        "name":"Shizmob/binja-depanalyzer",
-        "auto_update":true
-    },
-    {
-        "name":"atxsinn3r/BinjaHLILDump",
-        "auto_update":true
-    },
-    {
-        "name":"hugsy/gef-binja",
-        "auto_update":true
-    },
-    {
-        "name": "joshwatson/binaryninja-msp430",
-        "tag": "0.4"
-    },
-    {
-        "name": "apekros/binja_sigmaker",
-        "tag": "2.0"
-    },
-    {
-        "name": "Vasco-jofra/jump-table-branch-editor",
-        "tag": "v1.0"
-    },
-    {
-        "name": "zznop/bnida",
-        "tag": "1.2"
-    },
-    {
-        "name": "zznop/bn-genesis",
-        "tag": "1.1"
-    },
-    {
-        "name": "zznop/bn-kallsyms",
-        "tag": "1.1"
-    },
-    {
-        "name": "zznop/bn-recursion",
-        "tag": "1.1"
-    },
-    {
-        "name": "bkerler/annotate",
-        "tag": "v1.2"
-    },
-    {
-        "name":"verylazyguy/binaryninja-vmndh",
-        "auto_update":true
-    },
-    {
-        "name":"0x1F9F1/binja-msvc",
-        "auto_update":true
-    },
-    {
-        "name":"withzombies/bnil-graph",
-        "auto_update":true
-    },
-    {
-        "name":"mechanicalnull/sourcery_pane",
-        "auto_update":true
-    },
-    {
-        "name":"chame1eon/binaryninja-frida",
-        "auto_update":true
-    },
-    {
-        "name":"Vasco-jofra/format-string-finder-binja",
-        "auto_update":true
-    },
-    {
-        "name":"shareef12/driveranalyzer",
-        "auto_update":true
-    },
-    {
-        "name":"carstein/Syscaller",
-        "auto_update":true
-    },
-    {
-        "name":"404d/peutils",
-        "auto_update":true
-    },
-    {
-        "name":"404d/autoutils",
-        "auto_update":true
-    },
-    {
-        "name":"ForAllSecure/bncov",
-        "auto_update":true
-    },
-    {
-        "name":"ehntoo/binaryninja-svd",
-        "auto_update":true
-    },
-    {
-        "name":"whitequark/binja_function_abi",
-        "auto_update":true
-    },
-    {
-        "name":"whitequark/binja_itanium_cxx_abi",
-        "auto_update":true
-    },
-    {
-        "name":"whitequark/binja-i8086",
-        "auto_update":true
-    },
-    {
-        "name":"whitequark/binja-m16c",
-        "auto_update":true
-    },
-    {
-        "name":"c3r34lk1ll3r/Instruction_Slicer",
-        "auto_update":true
-    },
-    {
-        "name":"c3r34lk1ll3r/BinRida",
-        "auto_update":true
-    },
-    {
-        "name":"icecr4ck/bnGB",
-        "auto_update":true
-    },
-    {
-        "name":"wrigjl/binaryninja-m68k",
-        "auto_update":true
-    },
-    {
-        "name":"janbbeck/CleanTricks",
-        "auto_update":true
-    },
-    {
-        "name":"uni-due-syssec/bn-riscv",
-        "auto_update":true
-    },
-    {
-        "name":"jmprdi/binja-division-deoptimization",
-        "auto_update":true
-    },
-    {
-        "name":"Cryptogenic/idc_importer",
-        "auto_update":true
-    },
-    {
-        "name":"atxsinn3r/BinjaHLILDump",
-        "auto_update":true
-    },
-    {
-        "name":"lunixbochs/revsync",
-        "auto_update":true
-    },
-    {
-        "name":"toolCHAINZ/DUMB",
-        "auto_update":true
-    },
-    {
-        "name":"toolCHAINZ/hexfiles",
-        "auto_update":true
-    },
-    {
-        "name":"CarveSystems/binjawa",
-        "auto_update":true
-    },
-    {
-        "name":"vtil-project/VTIL-BinaryNinja",
-        "auto_update":true
-    },
-    {
-        "name":"EliseZeroTwo/Switch-Binja-Loader",
-        "auto_update":true
-    },
-    {
-        "name":"borzacchiello/seninja",
-        "auto_update":true
-    },
-    {
-        "name":"x1tan/binaryninja-discord-integration",
-        "auto_update":true
-    },
-    {
-        "name":"Rami114/cryptoscan",
-        "auto_update":true
-    },
-    {
-        "name":"uafio/BinaryNinja-CHIP8-Arch",
-        "auto_update":true
-    },
-    {
-        "name":"mauronz/binja-emotet",
-        "auto_update":true
-    },
-    {
-        "name":"BlackwingHQ/iBoot64Binja",
-        "auto_update":true
-    },
-    {
-        "name":"sum-catnip/logrn",
-        "auto_update":true
-    },
-    {
-        "name":"ImNotAVirus/delphi_ninja",
-        "auto_update":true
-    },
-    {
-        "name":"lwerdna/call_shellcode",
-        "auto_update":true
-    },
-    {
-        "name":"lwerdna/keypatch_binja",
-        "auto_update":true
-    }
+  {
+    "name": "gamozolabs/coff_nm",
+    "auto_update": true,
+    "subdir": "binaryninja/dbg_load"
+  },
+  {
+    "name": "ehennenfent/binja_explain_instruction",
+    "auto_update": true
+  },
+  {
+    "name": "EliseZeroTwo/iBoot-Binja-Loader",
+    "auto_update": true
+  },
+  {
+    "name": "zackorndorff/binja-xtensa",
+    "auto_update": true
+  },
+  {
+    "name": "gaasedelen/lighthouse",
+    "auto_update": true,
+    "subdir": "binjastub"
+  },
+  {
+    "name": "CouleeApps/hex_integers",
+    "auto_update": true
+  },
+  {
+    "name": "xpcmdshell/SysctlHunter",
+    "auto_update": true
+  },
+  {
+    "name": "PistonMiner/binaryninja-gc-load-map",
+    "auto_update": true
+  },
+  {
+    "name": "PistonMiner/binaryninja-gc-dol",
+    "auto_update": true
+  },
+  {
+    "name": "amtal/microblaze",
+    "auto_update": true
+  },
+  {
+    "name": "zznop/bn-uefi-helper",
+    "auto_update": true
+  },
+  {
+    "name": "yellowbyte/opaque-predicates-detective",
+    "auto_update": true
+  },
+  {
+    "name": "jonpalmisc/screenshot_ninja",
+    "auto_update": true
+  },
+  {
+    "name": "Ayrx/binja-JNIAnalyzer",
+    "auto_update": true
+  },
+  {
+    "name": "mrphrazer/obfuscation_detection",
+    "auto_update": true
+  },
+  {
+    "name": "psifertex/callgraph",
+    "auto_update": true
+  },
+  {
+    "name": "psifertex/tagteam",
+    "auto_update": true
+  },
+  {
+    "name": "fgsect/JMPscare-binja",
+    "auto_update": true
+  },
+  {
+    "name": "ZetaTwo/binja-gameboy",
+    "auto_update": true
+  },
+  {
+    "name": "inspier/BinjaRustDemangler",
+    "auto_update": true
+  },
+  {
+    "name": "PistonMiner/binaryninja-bindiff-viewer",
+    "auto_update": true
+  },
+  {
+    "name": "kryptoslogic/binja_degobfuscate",
+    "auto_update": true
+  },
+  {
+    "name": "travisgoodspeed/symgrate2-binja-plugin",
+    "auto_update": true
+  },
+  {
+    "name": "Martyx00/VulnFanatic",
+    "auto_update": true
+  },
+  {
+    "name": "Martyx00/ghinja",
+    "auto_update": true
+  },
+  {
+    "name": "matteyeux/seprom-loader",
+    "auto_update": true
+  },
+  {
+    "name": "murx-/devi_binja",
+    "auto_update": true
+  },
+  {
+    "name": "d-we/binja-golang-symbol-restore",
+    "auto_update": true
+  },
+  {
+    "name": "f0rki/bn-goloader",
+    "auto_update": true
+  },
+  {
+    "name": "jeffli678/bnhook",
+    "auto_update": true
+  },
+  {
+    "name": "thebabush/nampa",
+    "auto_update": true
+  },
+  {
+    "name": "trib0r3/binja-yara",
+    "auto_update": true
+  },
+  {
+    "name": "Shizmob/binja-depanalyzer",
+    "auto_update": true
+  },
+  {
+    "name": "atxsinn3r/BinjaHLILDump",
+    "auto_update": true
+  },
+  {
+    "name": "hugsy/gef-binja",
+    "auto_update": true
+  },
+  {
+    "name": "joshwatson/binaryninja-msp430",
+    "tag": "0.4"
+  },
+  {
+    "name": "apekros/binja_sigmaker",
+    "tag": "2.0"
+  },
+  {
+    "name": "Vasco-jofra/jump-table-branch-editor",
+    "tag": "v1.0"
+  },
+  {
+    "name": "zznop/bnida",
+    "tag": "1.2"
+  },
+  {
+    "name": "zznop/bn-genesis",
+    "tag": "1.1"
+  },
+  {
+    "name": "zznop/bn-kallsyms",
+    "tag": "1.1"
+  },
+  {
+    "name": "zznop/bn-recursion",
+    "tag": "1.1"
+  },
+  {
+    "name": "bkerler/annotate",
+    "tag": "v1.2"
+  },
+  {
+    "name": "verylazyguy/binaryninja-vmndh",
+    "auto_update": true
+  },
+  {
+    "name": "0x1F9F1/binja-msvc",
+    "auto_update": true
+  },
+  {
+    "name": "withzombies/bnil-graph",
+    "auto_update": true
+  },
+  {
+    "name": "mechanicalnull/sourcery_pane",
+    "auto_update": true
+  },
+  {
+    "name": "chame1eon/binaryninja-frida",
+    "auto_update": true
+  },
+  {
+    "name": "Vasco-jofra/format-string-finder-binja",
+    "auto_update": true
+  },
+  {
+    "name": "shareef12/driveranalyzer",
+    "auto_update": true
+  },
+  {
+    "name": "carstein/Syscaller",
+    "auto_update": true
+  },
+  {
+    "name": "404d/peutils",
+    "auto_update": true
+  },
+  {
+    "name": "404d/autoutils",
+    "auto_update": true
+  },
+  {
+    "name": "ForAllSecure/bncov",
+    "auto_update": true
+  },
+  {
+    "name": "ehntoo/binaryninja-svd",
+    "auto_update": true
+  },
+  {
+    "name": "whitequark/binja_function_abi",
+    "auto_update": true
+  },
+  {
+    "name": "whitequark/binja_itanium_cxx_abi",
+    "auto_update": true
+  },
+  {
+    "name": "whitequark/binja-i8086",
+    "auto_update": true
+  },
+  {
+    "name": "whitequark/binja-m16c",
+    "auto_update": true
+  },
+  {
+    "name": "c3r34lk1ll3r/Instruction_Slicer",
+    "auto_update": true
+  },
+  {
+    "name": "c3r34lk1ll3r/BinRida",
+    "auto_update": true
+  },
+  {
+    "name": "icecr4ck/bnGB",
+    "auto_update": true
+  },
+  {
+    "name": "wrigjl/binaryninja-m68k",
+    "auto_update": true
+  },
+  {
+    "name": "janbbeck/CleanTricks",
+    "auto_update": true
+  },
+  {
+    "name": "uni-due-syssec/bn-riscv",
+    "auto_update": true
+  },
+  {
+    "name": "jmprdi/binja-division-deoptimization",
+    "auto_update": true
+  },
+  {
+    "name": "Cryptogenic/idc_importer",
+    "auto_update": true
+  },
+  {
+    "name": "atxsinn3r/BinjaHLILDump",
+    "auto_update": true
+  },
+  {
+    "name": "lunixbochs/revsync",
+    "auto_update": true
+  },
+  {
+    "name": "toolCHAINZ/DUMB",
+    "auto_update": true
+  },
+  {
+    "name": "toolCHAINZ/hexfiles",
+    "auto_update": true
+  },
+  {
+    "name": "CarveSystems/binjawa",
+    "auto_update": true
+  },
+  {
+    "name": "vtil-project/VTIL-BinaryNinja",
+    "auto_update": true
+  },
+  {
+    "name": "EliseZeroTwo/Switch-Binja-Loader",
+    "auto_update": true
+  },
+  {
+    "name": "borzacchiello/seninja",
+    "auto_update": true
+  },
+  {
+    "name": "x1tan/binaryninja-discord-integration",
+    "auto_update": true
+  },
+  {
+    "name": "Rami114/cryptoscan",
+    "auto_update": true
+  },
+  {
+    "name": "uafio/BinaryNinja-CHIP8-Arch",
+    "auto_update": true
+  },
+  {
+    "name": "mauronz/binja-emotet",
+    "auto_update": true
+  },
+  {
+    "name": "BlackwingHQ/iBoot64Binja",
+    "auto_update": true
+  },
+  {
+    "name": "sum-catnip/logrn",
+    "auto_update": true
+  },
+  {
+    "name": "ImNotAVirus/delphi_ninja",
+    "auto_update": true
+  },
+  {
+    "name": "lwerdna/call_shellcode",
+    "auto_update": true
+  },
+  {
+    "name": "lwerdna/keypatch_binja",
+    "auto_update": true
+  }
 ]
