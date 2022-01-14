@@ -7,6 +7,7 @@
 |[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-10-17|MIT|helper, ui|View BinDiff results and port symbols|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|2020-08-19|MIT|architecture, binaryview, core, ui|Generate and find signatures.|
 |[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2021-05-19|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
+|[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|2022-01-13|MIT|helper|Recover Linux kernel build configurations|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|2021-01-18|Apache-2.0|architecture|RISC-V architecture plugin.|
 |[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|2021-05-29|MIT|helper|Helper plugin for analyzing UEFI firmware|
 |[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|2021-11-03|MIT|helper|Code coverage analysis and visualization plugin|

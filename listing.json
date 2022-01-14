@@ -1,5 +1,9 @@
 [
   {
+    "name": "zznop/bn-kconfig-recover",
+    "auto_update": true
+  },
+  {
     "name": "ex0dus-0x/fuzzable",
     "auto_update": true
   },
