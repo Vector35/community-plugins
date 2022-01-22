@@ -1,5 +1,10 @@
 [
   {
+    "name": "bootleg/ret-sync",
+    "auto_update": true,
+    "subdir": "ext_bn/retsync"
+  },
+  {
     "name": "zznop/bn-kconfig-recover",
     "auto_update": true
   },
