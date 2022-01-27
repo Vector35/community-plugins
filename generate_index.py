@@ -139,9 +139,11 @@ def getPluginJson(plugin):
         pass
 
     # Additional fields required for internal use
-    data["lastUpdated"] = int(parser.parse(releaseData["published_at"]).timestamp())
+    lastUpdated = int(parser.parse(releaseData["published_at"]).timestamp())
+    data["lastUpdated"] = lastUpdated
     data["projectUrl"] = site + userAndProject
     data["projectData"] = projectData
+    data["projectData"]["updated_at"] = datetime.utcfromtimestamp(lastUpdated).isoformat()
     data["authorUrl"] = site + userName
     data["packageUrl"] = zipUrl
     data["dependencies"] = requirements_txt
