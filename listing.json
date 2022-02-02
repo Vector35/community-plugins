@@ -160,7 +160,7 @@
   },
   {
     "name": "joshwatson/binaryninja-msp430",
-    "tag": "0.4"
+    "auto_update": true
   },
   {
     "name": "apekros/binja_sigmaker",
