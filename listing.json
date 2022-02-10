@@ -1,5 +1,9 @@
 [
   {
+    "name": "elbiazo/calltree",
+    "auto_update": true
+  },
+  {
     "name": "matteyeux/binja-import-header",
     "auto_update": true
   },
