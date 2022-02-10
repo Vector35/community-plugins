@@ -1,5 +1,9 @@
 [
   {
+    "name": "fabianfreyer/binja-il-hierarchy",
+    "auto_update": true
+  },
+  {
     "name": "elbiazo/calltree",
     "auto_update": true
   },

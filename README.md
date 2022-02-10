@@ -49,6 +49,7 @@
 |[iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|[Blackwing Intelligence](https://github.com/BlackwingHQ)|2020-10-01|MIT|binaryview|Binary View for loading iBoot, SecureROM, etc. firmware|
 |[iBootLoader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2021-09-25|ISC|binaryview, helper|iBoot/SecureROM Loader|
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|2020-03-26|MIT|helper|Allows users to import idc database dumps from IDA into Binary Ninja.|
+|[ilhierarchy](https://github.com/fabianfreyer/binja-il-hierarchy)|[Fabian Freyer](https://github.com/fabianfreyer)|2022-02-05|MIT|core, ui|Show current IL instruction hierarchy in sidebar|
 |[Improved Gameboy Architecture](https://github.com/ZetaTwo/binja-gameboy)|[Carl Svensson (@zetatwo)](https://github.com/ZetaTwo)|2022-01-29|MIT|architecture, binaryview|A loader and diassembler for Game Boy ROMs.|
 |[Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2020-11-25|MIT|helper|Forward and backward instruction slicer|
 |[Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|[whitequark](https://github.com/whitequark)|2019-09-04|BSD-0-clause|arch|A plugin providing the 16-bit Intel architecture.|
