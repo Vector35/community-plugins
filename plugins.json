@@ -118,7 +118,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 44,
+            "open_issues_count": 43,
             "license": {
                 "key": "lgpl-2.1",
                 "name": "GNU Lesser General Public License v2.1",
@@ -139,7 +139,7 @@
             ],
             "visibility": "public",
             "forks": 1,
-            "open_issues": 44,
+            "open_issues": 43,
             "watchers": 29,
             "default_branch": "main",
             "permissions": {
@@ -344,7 +344,7 @@
             "python3"
         ],
         "description": "Generates calltree",
-        "longdescription": "# Calltree\n\nAuthor: **Eric Biazo**\n\nCalltree generator for function\n\n## Description:\n\nGenerates call tree\n\n## Releases\n\n* v0.0 -- Beta release\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * 2966\n\n## License\n\nThis plugin is released under an [MIT license](./LICENSE).\n\n## Caution\n\nWhen working with really big binaries with alot of xrefs, you would want to change recursive depth to smaller number or else Binary Ninja might hang.\n## Description\n\n![](images/2022-02-09-16-42-57.png)\n\n### Expand and Collapse tree\n\n**Expanded**\n\n![](images/2022-02-09-16-50-03.png)\n\n**Collapse**\n\n![](images/2022-02-09-16-51-28.png)\n\n**Search**\n\n![](images/2022-02-09-16-53-33.png)\n\n**Recursion Depth**\n\n**Show Only Root Level**\n\n![](images/2022-02-09-16-57-21.png)\n\n**Default Recursion Depth in Setting**\n\n![](images/2022-02-09-16-59-03.png)\n\n## Future Work:\n\n- [ ] Ability to expand selected function\n- [x] Ability to expand all functions\n- [x] Setting and viewing depth of function recursion\n- [x] Move widget to side bar\n- [ ] Generating graph on current call tree\n- [ ] Refactor Code\n- [x] Documentation",
+        "longdescription": "# Calltree\n\nAuthor: **Eric Biazo**\n\nCalltree generator for function\n\n## Description:\n\nGenerates call tree\n\n## Releases\n\n* 1.0 -- Public Release\n* 0.0 -- Beta Release\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * 2966\n\n## License\n\nThis plugin is released under an [MIT license](./LICENSE).\n\n## Caution\n\nWhen working with really big binaries with alot of xrefs, you would want to change recursive depth to smaller number or else Binary Ninja might hang.\n## Description\n\n![](images/2022-02-09-16-42-57.png)\n\n### Expand and Collapse tree\n\n**Expand**\n\n![](images/2022-02-09-16-50-03.png)\n\n**Collapse**\n\n![](images/2022-02-09-16-51-28.png)\n\n**Search**\n\n![](images/2022-02-09-16-53-33.png)\n\n**Recursion Depth**\n\n**Show Only Root Level**\n\n![](images/2022-02-09-16-57-21.png)\n\n**Default Recursion Depth in Setting**\n\n![](images/2022-02-09-16-59-03.png)",
         "license": {
             "name": "MIT",
             "text": "Copyright 2021 Eric Biazo\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -359,9 +359,9 @@
             "Windows": "",
             "Linux": ""
         },
-        "version": "0.0.0",
+        "version": "1.0",
         "minimumbinaryninjaversion": 2966,
-        "lastUpdated": 1644448414,
+        "lastUpdated": 1644617562,
         "projectUrl": "https://github.com/elbiazo/calltree",
         "projectData": {
             "id": 400356628,
@@ -430,14 +430,14 @@
             "releases_url": "https://api.github.com/repos/elbiazo/calltree/releases{/id}",
             "deployments_url": "https://api.github.com/repos/elbiazo/calltree/deployments",
             "created_at": "2021-08-27T01:48:09Z",
-            "updated_at": "2022-02-09T23:13:34",
-            "pushed_at": "2022-02-10T14:53:35Z",
+            "updated_at": "2022-02-11T22:12:42",
+            "pushed_at": "2022-02-11T22:12:23Z",
             "git_url": "git://github.com/elbiazo/calltree.git",
             "ssh_url": "git@github.com:elbiazo/calltree.git",
             "clone_url": "https://github.com/elbiazo/calltree.git",
             "svn_url": "https://github.com/elbiazo/calltree",
             "homepage": "",
-            "size": 199,
+            "size": 226,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Python",
@@ -450,7 +450,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 2,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -463,7 +463,7 @@
             "topics": [],
             "visibility": "public",
             "forks": 1,
-            "open_issues": 1,
+            "open_issues": 2,
             "watchers": 1,
             "default_branch": "main",
             "permissions": {
@@ -478,10 +478,10 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/elbiazo",
-        "packageUrl": "https://api.github.com/repos/elbiazo/calltree/zipball/refs/tags/1.0",
+        "packageUrl": "https://api.github.com/repos/elbiazo/calltree/zipball/refs/tags/1.1",
         "dependencies": "",
         "path": "elbiazo_calltree",
-        "commit": "edc3642b40f1648730b13fbdd66f85c55200d12e",
+        "commit": "c55d7919eb71a1ea339c63bbcd4dc1c91f4b9251",
         "minimumBinaryNinjaVersion": 0
     },
     {
