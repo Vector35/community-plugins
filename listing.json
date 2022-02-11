@@ -1,5 +1,9 @@
 [
   {
+    "name": "fkie-cad/dewolf",
+    "auto_update": true
+  },
+  {
     "name": "fabianfreyer/binja-il-hierarchy",
     "auto_update": true
   },
