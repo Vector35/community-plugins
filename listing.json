@@ -1,5 +1,9 @@
 [
   {
+    "name": "EliseZeroTwo/SEH-Helper",
+    "auto_update": true
+  },
+  {
     "name": "fkie-cad/dewolf",
     "auto_update": true
   },
