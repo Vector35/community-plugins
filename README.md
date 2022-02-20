@@ -2,6 +2,7 @@
 
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
+|[0CD](https://github.com/0xb0bb/0CD)|[b0bb](https://github.com/0xb0bb)|2022-02-17|MIT|helper|Quality of life utilities for obsessive compulsive CTF enthusiasts.|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|2019-07-09|MIT|binaryview|A plugin that annotates function arguments.|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|2020-12-12|MIT|helper|Various auto analysis utilities|
 |[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-10-17|MIT|helper, ui|View BinDiff results and port symbols|
@@ -23,7 +24,6 @@
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|2020-08-02|MIT|binaryview, ui|A plugin to detect several common crypto constructs and magic vars.|
 |[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|2021-11-15|MIT|helper|Load old COFF .dbg files as well as CAB-ed .db_ files!|
 |[DeGObfuscate](https://github.com/kryptoslogic/binja_degobfuscate)|[Jamie Hankins](https://github.com/kryptoslogic)|2020-12-02|MIT|helper|De-obfuscates strings inside of obfuscated Go binaries|
-|[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|2020-10-02|MIT|helper|Find Delphi VMTs and generate their structures|
 |[Dependency analyzer](https://github.com/Shizmob/binja-depanalyzer)|[Shiz](https://github.com/Shizmob)|2020-05-24|MIT|helper|Analyze dependencies and resolve obfuscated imports|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|2020-11-04|MIT|helper, ui|devi - DEvirtualize VIrtual calls in C++ binaries|
 |[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|2022-02-16|LGPL-2.1|helper, ui|Research Decompiler to generate a C-like function representation|
@@ -75,7 +75,7 @@
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-13|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2021-10-31|MIT|helper|Demangles Rust symbols.|
 |[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|2021-10-09|MIT|helper|Easily capture Binary Ninja screenshots in ultra-high resolution|
-|[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2022-02-16|MIT|helper, ui|Helper for exploring structured exception handlers in PEs|
+|[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2022-02-19|MIT|helper, ui|Helper for exploring structured exception handlers in PEs|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|2022-01-25|2-Clause BSD|helper|Symbolic execution plugin for BinaryNinja|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|2021-01-05|MIT|binaryview|Binary View for loading 32 bits and 64 bits Apple SEPROM|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|2019-07-14|MIT|helper, ui|Synchronized source code pane for debug binaries|
