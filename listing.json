@@ -4,6 +4,10 @@
     "auto_update": true
   },
   {
+    "name": "0xb0bb/0CD",
+    "auto_update": true
+  },
+  {
     "name": "fkie-cad/dewolf",
     "auto_update": true
   },
@@ -356,10 +360,6 @@
   },
   {
     "name": "sum-catnip/logrn",
-    "auto_update": true
-  },
-  {
-    "name": "ImNotAVirus/delphi_ninja",
     "auto_update": true
   },
   {
