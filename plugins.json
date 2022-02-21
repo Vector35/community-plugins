@@ -402,13 +402,13 @@
             "deployments_url": "https://api.github.com/repos/fkie-cad/dewolf/deployments",
             "created_at": "2021-12-01T08:29:24Z",
             "updated_at": "2022-02-16T11:08:38",
-            "pushed_at": "2022-02-16T11:08:30Z",
+            "pushed_at": "2022-02-21T10:15:55Z",
             "git_url": "git://github.com/fkie-cad/dewolf.git",
             "ssh_url": "git@github.com:fkie-cad/dewolf.git",
             "clone_url": "https://github.com/fkie-cad/dewolf.git",
             "svn_url": "https://github.com/fkie-cad/dewolf",
             "homepage": "",
-            "size": 3352,
+            "size": 3388,
             "stargazers_count": 30,
             "watchers_count": 30,
             "language": "Python",
@@ -421,7 +421,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 49,
+            "open_issues_count": 50,
             "license": {
                 "key": "lgpl-2.1",
                 "name": "GNU Lesser General Public License v2.1",
@@ -442,7 +442,7 @@
             ],
             "visibility": "public",
             "forks": 1,
-            "open_issues": 49,
+            "open_issues": 50,
             "watchers": 30,
             "default_branch": "main",
             "permissions": {
@@ -1044,15 +1044,15 @@
             "svn_url": "https://github.com/bootleg/ret-sync",
             "homepage": "",
             "size": 5717,
-            "stargazers_count": 1226,
-            "watchers_count": 1226,
+            "stargazers_count": 1229,
+            "watchers_count": 1229,
             "language": "C",
             "has_issues": true,
             "has_projects": true,
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 192,
+            "forks_count": 191,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -1077,9 +1077,9 @@
                 "software-analysis"
             ],
             "visibility": "public",
-            "forks": 192,
+            "forks": 191,
             "open_issues": 2,
-            "watchers": 1226,
+            "watchers": 1229,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -1089,7 +1089,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 192,
+            "network_count": 191,
             "subscribers_count": 47
         },
         "authorUrl": "https://github.com/bootleg",
@@ -2099,8 +2099,8 @@
             "svn_url": "https://github.com/gaasedelen/lighthouse",
             "homepage": "",
             "size": 11219,
-            "stargazers_count": 1637,
-            "watchers_count": 1637,
+            "stargazers_count": 1638,
+            "watchers_count": 1638,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -2133,7 +2133,7 @@
             "visibility": "public",
             "forks": 257,
             "open_issues": 16,
-            "watchers": 1637,
+            "watchers": 1638,
             "default_branch": "develop",
             "permissions": {
                 "admin": false,
@@ -2144,7 +2144,7 @@
             },
             "temp_clone_token": "",
             "network_count": 257,
-            "subscribers_count": 57
+            "subscribers_count": 56
         },
         "authorUrl": "https://github.com/gaasedelen",
         "packageUrl": "https://api.github.com/repos/gaasedelen/lighthouse/zipball/refs/tags/v0.9.2",
@@ -3529,7 +3529,7 @@
             "python3"
         ],
         "description": "Automatically detect obfuscated code and other state machines",
-        "longdescription": "# Obfuscation Detection (v1.2)\nAuthor: **Tim Blazytko**\n\n_Automatically detect obfuscated code and other state machines_\n\n## Description:\n\nScripts and binaries to automatically detect obfuscated code and state machines in binaries.\n\nImplementation is based on Binary Ninja. Check out the following blog posts for more information:\n\n* [Automated Detection of Control-flow Flattening](https://synthesis.to/2021/03/03/flattening_detection.html)\n* [Automated Detection of Obfuscated Code](https://synthesis.to/2021/08/10/obfuscation_detection.html)\n\n## Usage\n\nTo detect control-flow flattening, run `detect_flattening.py`:\n\n```\n$ ./detect_flattening.py samples/finspy \nFunction 0x401602 has a flattening score of 0.9473684210526315.\nFunction 0x4017c0 has a flattening score of 0.9981378026070763.\nFunction 0x405150 has a flattening score of 0.9166666666666666.\nFunction 0x405270 has a flattening score of 0.9166666666666666.\nFunction 0x405370 has a flattening score of 0.9984544049459042.\nFunction 0x4097a0 has a flattening score of 0.9992378048780488.\nFunction 0x412c70 has a flattening score of 0.9629629629629629.\nFunction 0x412df0 has a flattening score of 0.9629629629629629.\nFunction 0x412f70 has a flattening score of 0.9927007299270073.\nFunction 0x4138e0 has a flattening score of 0.9629629629629629.\n```\n\nTo apply various heuristics to detect obfuscated code, run `detect_obfuscation.py`:\n\n```\n$ ./detect_obfuscation.py samples/finspy \n================================================================================\nControl Flow Flattening\nFunction 0x401602 (sub_401602) has a flattening score of 0.9473684210526315.\nFunction 0x4017c0 (sub_4017c0) has a flattening score of 0.9981378026070763.\nFunction 0x405150 (sub_405150) has a flattening score of 0.9166666666666666.\nFunction 0x405270 (sub_405270) has a flattening score of 0.9166666666666666.\nFunction 0x405370 (sub_405370) has a flattening score of 0.9984544049459042.\nFunction 0x4097a0 (sub_4097a0) has a flattening score of 0.9992378048780488.\nFunction 0x412c70 (sub_412c70) has a flattening score of 0.9629629629629629.\nFunction 0x412df0 (sub_412df0) has a flattening score of 0.9629629629629629.\nFunction 0x412f70 (sub_412f70) has a flattening score of 0.9927007299270073.\nFunction 0x4138e0 (sub_4138e0) has a flattening score of 0.9629629629629629.\n================================================================================\nCyclomatic Complexity\nFunction 0x4097a0 (sub_4097a0) has a cyclomatic complexity of 524.\nFunction 0x405370 (sub_405370) has a cyclomatic complexity of 258.\nFunction 0x4017c0 (sub_4017c0) has a cyclomatic complexity of 214.\nFunction 0x412f70 (sub_412f70) has a cyclomatic complexity of 54.\nFunction 0x4138e0 (sub_4138e0) has a cyclomatic complexity of 10.\nFunction 0x412df0 (sub_412df0) has a cyclomatic complexity of 10.\n================================================================================\nLarge Basic Blocks\nBasic blocks in function 0x405340 (sub_405340) contain on average 11 instructions.\nBasic blocks in function 0x401240 (_start) contain on average 11 instructions.\nBasic blocks in function 0x4013e3 (sub_4013e3) contain on average 10 instructions.\nBasic blocks in function 0x413a80 (init) contain on average 9 instructions.\nBasic blocks in function 0x401349 (sub_401349) contain on average 7 instructions.\nBasic blocks in function 0x401030 (_init) contain on average 6 instructions.\n================================================================================\nInstruction Overlapping\n```\n\n\n## Note\n\nThe password for the zipped malware samples is \"infected\". To unpack, use the following command line:\n\n```\n$ unzip -P infected samples.zip\n```\n\n## Contact\n\nFor more information, contact [@mr_phrazer](https://twitter.com/mr_phrazer).\n\n",
+        "longdescription": "# Obfuscation Detection (v1.3)\nAuthor: **Tim Blazytko**\n\n_Automatically detect obfuscated code and other state machines_\n\n## Description:\n\nScripts and binaries to automatically detect obfuscated code and state machines in binaries.\n\nImplementation is based on Binary Ninja. Check out the following blog posts for more information:\n\n* [Automated Detection of Control-flow Flattening](https://synthesis.to/2021/03/03/flattening_detection.html)\n* [Automated Detection of Obfuscated Code](https://synthesis.to/2021/08/10/obfuscation_detection.html)\n\n## Usage\n\nTo detect control-flow flattening, run `detect_flattening.py`:\n\n```\n$ ./detect_flattening.py samples/finspy \nFunction 0x401602 has a flattening score of 0.9473684210526315.\nFunction 0x4017c0 has a flattening score of 0.9981378026070763.\nFunction 0x405150 has a flattening score of 0.9166666666666666.\nFunction 0x405270 has a flattening score of 0.9166666666666666.\nFunction 0x405370 has a flattening score of 0.9984544049459042.\nFunction 0x4097a0 has a flattening score of 0.9992378048780488.\nFunction 0x412c70 has a flattening score of 0.9629629629629629.\nFunction 0x412df0 has a flattening score of 0.9629629629629629.\nFunction 0x412f70 has a flattening score of 0.9927007299270073.\nFunction 0x4138e0 has a flattening score of 0.9629629629629629.\n```\n\nTo apply various heuristics to detect obfuscated code, run `detect_obfuscation.py`:\n\n```\n$ ./detect_obfuscation.py samples/finspy \n================================================================================\nControl Flow Flattening\nFunction 0x401602 (sub_401602) has a flattening score of 0.9473684210526315.\nFunction 0x4017c0 (sub_4017c0) has a flattening score of 0.9981378026070763.\nFunction 0x405150 (sub_405150) has a flattening score of 0.9166666666666666.\nFunction 0x405270 (sub_405270) has a flattening score of 0.9166666666666666.\nFunction 0x405370 (sub_405370) has a flattening score of 0.9984544049459042.\nFunction 0x4097a0 (sub_4097a0) has a flattening score of 0.9992378048780488.\nFunction 0x412c70 (sub_412c70) has a flattening score of 0.9629629629629629.\nFunction 0x412df0 (sub_412df0) has a flattening score of 0.9629629629629629.\nFunction 0x412f70 (sub_412f70) has a flattening score of 0.9927007299270073.\nFunction 0x4138e0 (sub_4138e0) has a flattening score of 0.9629629629629629.\n================================================================================\nCyclomatic Complexity\nFunction 0x4097a0 (sub_4097a0) has a cyclomatic complexity of 524.\nFunction 0x405370 (sub_405370) has a cyclomatic complexity of 258.\nFunction 0x4017c0 (sub_4017c0) has a cyclomatic complexity of 214.\nFunction 0x412f70 (sub_412f70) has a cyclomatic complexity of 54.\nFunction 0x4138e0 (sub_4138e0) has a cyclomatic complexity of 10.\nFunction 0x412df0 (sub_412df0) has a cyclomatic complexity of 10.\n================================================================================\nLarge Basic Blocks\nBasic blocks in function 0x405340 (sub_405340) contain on average 11 instructions.\nBasic blocks in function 0x401240 (_start) contain on average 11 instructions.\nBasic blocks in function 0x4013e3 (sub_4013e3) contain on average 10 instructions.\nBasic blocks in function 0x413a80 (init) contain on average 9 instructions.\nBasic blocks in function 0x401349 (sub_401349) contain on average 7 instructions.\nBasic blocks in function 0x401030 (_init) contain on average 6 instructions.\n================================================================================\nInstruction Overlapping\n```\n\n\n## Note\n\nThe password for the zipped malware samples is \"infected\". To unpack, use the following command line:\n\n```\n$ unzip -P infected samples.zip\n```\n\n## Contact\n\nFor more information, contact [@mr_phrazer](https://twitter.com/mr_phrazer).\n\n",
         "license": {
             "name": "GPL-2.0",
             "text": "Copyright 2021 Tim Blazytko\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, see <http://www.gnu.org/licenses/>."
@@ -3544,9 +3544,9 @@
             "Windows": "",
             "Linux": ""
         },
-        "version": "1.2",
+        "version": "1.3",
         "minimumbinaryninjaversion": 2487,
-        "lastUpdated": 1628954017,
+        "lastUpdated": 1644866674,
         "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
         "projectData": {
             "id": 344218653,
@@ -3615,7 +3615,7 @@
             "releases_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/deployments",
             "created_at": "2021-03-03T18:04:19Z",
-            "updated_at": "2021-08-14T15:13:37",
+            "updated_at": "2022-02-14T19:24:34",
             "pushed_at": "2022-02-14T19:24:34Z",
             "git_url": "git://github.com/mrphrazer/obfuscation_detection.git",
             "ssh_url": "git@github.com:mrphrazer/obfuscation_detection.git",
@@ -3663,10 +3663,10 @@
             "subscribers_count": 8
         },
         "authorUrl": "https://github.com/mrphrazer",
-        "packageUrl": "https://api.github.com/repos/mrphrazer/obfuscation_detection/zipball/refs/tags/v1.2",
+        "packageUrl": "https://api.github.com/repos/mrphrazer/obfuscation_detection/zipball/refs/tags/v1.3",
         "dependencies": "",
         "path": "mrphrazer_obfuscation_detection",
-        "commit": "ad2ebf849815dacaa4b29effc00c2becb4d63c07",
+        "commit": "0deaa9c40a9048d7c6f640631b6886c6d7aecfe4",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -4724,7 +4724,7 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 5,
+            "forks_count": 6,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -4742,7 +4742,7 @@
                 "binaryninja-plugin"
             ],
             "visibility": "public",
-            "forks": 5,
+            "forks": 6,
             "open_issues": 1,
             "watchers": 37,
             "default_branch": "master",
@@ -4780,8 +4780,8 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 5,
-            "subscribers_count": 5
+            "network_count": 6,
+            "subscribers_count": 6
         },
         "authorUrl": "https://github.com/kryptoslogic",
         "packageUrl": "https://api.github.com/repos/kryptoslogic/binja_degobfuscate/zipball/refs/tags/1.0.1",
