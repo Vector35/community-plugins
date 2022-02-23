@@ -1,5 +1,9 @@
 [
   {
+    "name": "ImNotAVirus/delphi_ninja",
+    "auto_update": true
+  },
+  {
     "name": "EliseZeroTwo/SEH-Helper",
     "auto_update": true
   },
