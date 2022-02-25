@@ -44,15 +44,15 @@ def getPluginJson(plugin):
     releaseData = None
 
     if 'auto_update' in plugin and plugin['auto_update']:
-        releaseList = f"{projectUrl}/releases"
+        latestRelease = f"{projectUrl}/releases/latest"
         try:
-            releaseData = sorted(getfile(releaseList).json(), key=lambda x: parser.parse(x['published_at']), reverse=True)[0]
+            releaseData = getfile(latestRelease).json()
             if "message" in releaseData and releaseData["message"] == "Not Found":
                 print(f"\n\nERROR: {plugin['name']}, Couldn't get release information. Likely the user created a tag but no associated release.\n")
                 return None
             plugin['tag'] = releaseData['tag_name']
         except requests.exceptions.HTTPError:
-            print(f" Unable get get url {releaseList}")
+            print(f" Unable get get url {latestRelease}")
             return None
     else:
 
