@@ -1,5 +1,9 @@
 [
   {
+    "name": "cxnder/bn-dyldsharedcache",
+    "auto_update": true
+  },
+  {
     "name": "ImNotAVirus/delphi_ninja",
     "auto_update": true
   },
