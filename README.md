@@ -6,6 +6,7 @@
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|2019-07-09|MIT|binaryview|A plugin that annotates function arguments.|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|2020-12-12|MIT|helper|Various auto analysis utilities|
 |[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-10-17|MIT|helper, ui|View BinDiff results and port symbols|
+|[Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|[Terry Chia](https://github.com/Ayrx)|2021-01-30|MIT|helper|Manage custom type libraries.|
 |[binja-import-header](https://github.com/matteyeux/binja-import-header)|[matteyeux](https://github.com/matteyeux)|2021-12-21|MIT|helper|Import header file to Binary Ninja types view|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|2020-08-19|MIT|architecture, binaryview, core, ui|Generate and find signatures.|
 |[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2021-05-19|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
@@ -17,8 +18,8 @@
 |[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Transfer analysis data between Binary Ninja and IDA|
 |[BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|2021-06-07|Apache-2.0|ui|A plugin to graph BNIL instruction trees|
 |[Call Shellcode](https://github.com/lwerdna/call_shellcode)|[lwerdna](https://github.com/lwerdna)|2021-04-03|Unlicense|helper|Add "call shellcode" menu option which executes highlighted bytes.|
-|[Callgraph](https://github.com/psifertex/callgraph)|[Josh Watson / Jordan Wiens](https://github.com/psifertex)|2021-04-07|MIT|ui|Callgraph generator for called or calling funcs|
-|[Calltree](https://github.com/elbiazo/calltree)|[Eric Biazo](https://github.com/elbiazo)|2022-02-11|MIT|binaryview, helper, ui|Generates calltree|
+|[Callgraph](https://github.com/psifertex/callgraph)|[Josh Watson / Jordan Wiens](https://github.com/psifertex)|2022-04-20|MIT|ui|Callgraph generator for called or calling funcs|
+|[Calltree](https://github.com/elbiazo/calltree)|[Eric Biazo](https://github.com/elbiazo)|2022-05-04|MIT|binaryview, helper, ui|Generates calltree|
 |[CHIP-8 ROM Loader](https://github.com/uafio/BinaryNinja-CHIP8-Arch)|[uafio](https://github.com/uafio)|2020-08-15|MIT|architecture, binaryview, core, helper, ui|Load and disassemble CHIP-8 ROM.|
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|2020-06-08|MIT|architecture, binaryview, core, helper, ui|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|2020-08-02|MIT|binaryview, ui|A plugin to detect several common crypto constructs and magic vars.|
@@ -58,7 +59,7 @@
 |[Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|[whitequark](https://github.com/whitequark)|2019-09-04|BSD-0-clause|arch|A plugin providing the 16-bit Intel architecture.|
 |[Itanium C++ ABI](https://github.com/whitequark/binja_itanium_cxx_abi)|[whitequark](https://github.com/whitequark)|2020-05-17|BSD-0-clause|analysis|A plugin providing an analysis for Itanium C++ ABI.|
 |[JMPscare](https://github.com/fgsect/JMPscare-binja)|[Lukas Seidel](https://github.com/fgsect)|2021-03-01|MIT|binaryview, core, helper, ui|Fuzzing Introspection for use with the JMPscare Toolkit.|
-|[JNIAnalyzer](https://github.com/Ayrx/binja-JNIAnalyzer)|[Terry Chia (Ayrx)](https://github.com/Ayrx)|2021-03-26|MIT|helper|Analysis scripts for Binary Ninja to work with Android NDK libraries.|
+|[JNIAnalyzer](https://github.com/Ayrx/binja-JNIAnalyzer)|[Terry Chia (Ayrx)](https://github.com/Ayrx)|2022-03-27|MIT|helper|Analysis scripts for Binary Ninja to work with Android NDK libraries.|
 |[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|2019-07-06|MIT|core, ui|A plugin that eases fixing jump table branches|
 |[kallsyms](https://github.com/zznop/bn-kallsyms)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|
 |[keypatch](https://github.com/lwerdna/keypatch_binja)|[lwerdna](https://github.com/lwerdna)|2021-04-09|Unlicense|helper, ui|Remake of keypatch plugin for Binary Ninja|

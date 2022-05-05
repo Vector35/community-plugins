@@ -1,5 +1,9 @@
 [
   {
+    "name": "Ayrx/binja-typemanager",
+    "auto_update": true
+  },
+  {
     "name": "cxnder/bn-dyldsharedcache",
     "auto_update": true
   },
