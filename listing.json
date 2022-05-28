@@ -1,5 +1,9 @@
 [
   {
+    "name": "0bs3n/arch-blackfin",
+    "auto_update": true
+  },
+  {
     "name": "matteyeux/comments-viewer",
     "auto_update": true
   },
