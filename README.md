@@ -97,7 +97,7 @@
 |[XNU Sysctl Hunter](https://github.com/xpcmdshell/SysctlHunter)|[actae0n](https://github.com/xpcmdshell)|2021-07-21|MIT|helper|XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli use.|
 |[Xtensa Architecture and ESP8266 Loader](https://github.com/zackorndorff/binja-xtensa)|[Zack Orndorff](https://github.com/zackorndorff)|2021-08-16|MIT|architecture, binaryview|Xtensa Architecture and ESP8266 Image Loader|
 |[YARA Scan](https://github.com/trib0r3/binja-yara)|[trib0r3](https://github.com/trib0r3)|2020-05-26|MIT|binaryview, core|YARA signatures|
-|[μBlaze Architecture Plugin](https://github.com/amtal/microblaze)|[amtal](https://github.com/amtal)|2021-10-15|MIT|architecture|Configurable soft core for Xilinx FPGAs.|
+|[μBlaze Architecture Plugin](https://github.com/amtal/microblaze)|[amtal](https://github.com/amtal)|2022-05-29|MIT|architecture|Configurable soft core for Xilinx FPGAs.|
 # Binary Ninja Community Plugins
 
 Plugins in this repository are provided by the community. Vector 35, Inc. makes no guarantees to the quality, safety or efficacy of the plugins herein.
