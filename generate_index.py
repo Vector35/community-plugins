@@ -107,7 +107,8 @@ def getPluginJson(plugin):
             try:
                 readmes = ["README.md", "README.MD", "readme.md", "README", "readme", "Readme.md"]
                 if "subdir" in plugin:
-                    readmes = [f"{plugin['subdir']}/{x}" for x in readmes]
+                    # Yes, this is suboptimal but I'd rather waste time at generation of this list to make sure we get better long descriptions
+                    readmes = [f"{plugin['subdir']}/{x}" for x in readmes] + readmes
                 for readmefile in readmes:
                     readmeUrl = f"{projectUrl}/contents/{readmefile}?ref={plugin['tag']}"
                     readmeJson = getfile(readmeUrl).json()
@@ -128,6 +129,8 @@ def getPluginJson(plugin):
     try:
         if "subdir" in plugin:
             req_json = getfile(f"{projectUrl}/contents/{plugin['subdir']}/requirements.txt?ref={plugin['tag']}").json()
+            if not "content" in req_json: # Try top-level requirements as well
+                req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
         else:
             req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
         if "content" in req_json:
