@@ -53,6 +53,7 @@
 |[Hex Integers in Python Console](https://github.com/CouleeApps/hex_integers)|[Glenn Smith](https://github.com/CouleeApps)|2022-02-11|MIT|helper|Makes your integers print as hex in the python console.|
 |[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-10-03|MIT|binaryview|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|
 |[HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|[atxsinn3r](https://github.com/atxsinn3r)|2020-06-07|BSD-3-Clause|helper|Dumps HLIL code to a directory|
+|[Hyara](https://github.com/hyuunnn/hyara)|[Hyun Yi](https://github.com/hyuunnn)|2022-06-19|MIT|ui|YARA rule making tool for Binary Ninja, Cutter, and IDA|
 |[iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|[Blackwing Intelligence](https://github.com/BlackwingHQ)|2020-10-01|MIT|binaryview|Binary View for loading iBoot, SecureROM, etc. firmware|
 |[iBootLoader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2021-09-25|ISC|binaryview, helper|iBoot/SecureROM Loader|
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|2020-03-26|MIT|helper|Allows users to import idc database dumps from IDA into Binary Ninja.|
@@ -77,6 +78,7 @@
 |[peutils](https://github.com/404d/peutils)|[404'd](https://github.com/404d)|2020-12-12|MIT|helper|Binary Ninja plugin providing various niche utilities for working with PE binaries|
 |[recursion](https://github.com/zznop/bn-recursion)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Locate and annotate direct and indirect recursion|
 |[Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|[whitequark](https://github.com/whitequark)|2020-01-19|BSD-0-clause|architecture|A plugin providing the Renesas M16C architecture.|
+|[Renesus V850 architecture plugin](https://github.com/tizmd/binja-v850)|[Tomonori Izumida <tizmd@iij.ad.jp>](https://github.com/tizmd)|2022-06-18|MIT|architecture|An architecture plugin for Renesus V850 series|
 |[ret-sync](https://github.com/bootleg/ret-sync)|[Alexandre Gazet](https://github.com/bootleg)|2022-01-21|MIT|helper|Helper plugin to synchronize Binary Ninja with a debugging session|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-13|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2021-10-31|MIT|helper|Demangles Rust symbols.|

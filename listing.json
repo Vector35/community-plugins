@@ -1,5 +1,14 @@
 [
   {
+    "name": "hyuunnn/hyara",
+    "auto_update": true,
+    "subdir": "hyara_lib/integration/bn_hyara"
+  },
+  {
+    "name": "tizmd/binja-v850",
+    "auto_update": true
+  },
+  {
     "name": "CySHell/ClassyPP",
     "auto_update": true
   },
