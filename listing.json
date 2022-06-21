@@ -1,5 +1,9 @@
 [
   {
+    "name": "SmoothHacker/BN-TypeLib-Exporter",
+    "auto_update": true
+  },
+  {
     "name": "hyuunnn/hyara",
     "auto_update": true,
     "subdir": "hyara_lib/integration/bn_hyara"
