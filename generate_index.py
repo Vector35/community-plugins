@@ -9,7 +9,6 @@ from dateutil import parser
 import re
 from datetime import datetime
 from pathlib import Path
-import time
 
 token = None
 
@@ -26,8 +25,7 @@ def printProgressBar(iteration, total, prefix = '', length = 60, fill = '█'):
 
 
 def getfile(url):
-    time.sleep(2)
-    return requests.get(url, headers={'Authorization': token})
+    return requests.get(url, headers={'Authorization': f'token {token}'})
 
 
 def getPluginJson(plugin):
