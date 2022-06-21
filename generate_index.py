@@ -10,7 +10,6 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-user = None
 token = None
 
 
@@ -26,7 +25,7 @@ def printProgressBar(iteration, total, prefix = '', length = 60, fill = '█'):
 
 
 def getfile(url):
-    return requests.get(url, auth=HTTPBasicAuth(user, token))
+    return requests.get(url, headers={'Authorization': token})
 
 
 def getPluginJson(plugin):
@@ -179,12 +178,9 @@ def main():
     parser.add_argument("-r", "--readmeskip", action="store_true", default=False,
         help="Skip generating a README.md")
     parser.add_argument("-l", "--listing", action="store", default="listing.json")
-    parser.add_argument("username")
     parser.add_argument("token")
     args = parser.parse_args(sys.argv[1:])
-    global user
     global token
-    user = args.username
     token = args.token
 
     pluginjson = Path("./plugins.json")
