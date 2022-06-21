@@ -1,0 +1,25 @@
+name: Update Plugin Repository
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        required: true
+
+jobs:
+  run:
+    name: Update Plugins.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Run Generator
+        run: python3 generate_index.py ${{ secrets.M_GITHUB_TOKEN }}
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: ${{ github.actor }}
+          author_email: pluginmanager@vector35.com
+          message: ${{ inputs.message }}
+          add: '*.json'
