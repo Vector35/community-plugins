@@ -2428,7 +2428,7 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 198,
+            "forks_count": 197,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -2453,7 +2453,7 @@
                 "software-analysis"
             ],
             "visibility": "public",
-            "forks": 198,
+            "forks": 197,
             "open_issues": 2,
             "watchers": 1319,
             "default_branch": "master",
@@ -2465,7 +2465,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 198,
+            "network_count": 197,
             "subscribers_count": 49
         },
         "authorUrl": "https://github.com/bootleg",
@@ -14504,8 +14504,8 @@
             "svn_url": "https://github.com/borzacchiello/seninja",
             "homepage": "",
             "size": 1849,
-            "stargazers_count": 119,
-            "watchers_count": 119,
+            "stargazers_count": 120,
+            "watchers_count": 120,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -14535,7 +14535,7 @@
             "visibility": "public",
             "forks": 8,
             "open_issues": 0,
-            "watchers": 119,
+            "watchers": 120,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
