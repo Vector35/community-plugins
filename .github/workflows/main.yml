@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       message:
+        description: 'automatically update readme and plugin.json based on updates and latest listing'
         required: true
 
 jobs:
@@ -25,7 +26,7 @@ jobs:
           author_name: ${{ github.actor }}
           author_email: pluginmanager@vector35.com
           message: ${{ inputs.message }}
-          add: '*.json'
+          add: '["*.json", "*.md"]'
 
       - name: Report Status
         if: always()
