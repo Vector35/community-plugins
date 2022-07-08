@@ -1,5 +1,9 @@
 [
   {
+    "name": "pbiernat/ripr",
+    "auto_update": true
+  },
+  {
     "name": "SmoothHacker/BN-TypeLib-Exporter",
     "auto_update": true
   },
