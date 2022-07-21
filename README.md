@@ -69,6 +69,7 @@
 |[keypatch](https://github.com/lwerdna/keypatch_binja)|[lwerdna](https://github.com/lwerdna)|2021-04-09|Unlicense|helper, ui|Remake of keypatch plugin for Binary Ninja|
 |[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|2021-08-10|MIT|helper|A Coverage Explorer for Reverse Engineers|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|2021-03-09|MIT|helper|binary ninja plugin for abusing logging functions|
+|[MemoryLayoutLoader](https://github.com/CySHell/MemoryLayoutLoader)|[CyShell](https://github.com/CySHell)|2022-07-14|MIT|binaryview|Load a raw file into the current memory space.|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|2022-06-10|MIT|architecture|A disassembler and lifter for the Motorola 68k architecture.|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2022-02-02|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|2019-07-12|MIT|helper|Parses MSVC structures to improve analysis|
@@ -93,7 +94,7 @@
 |[Symgrate2 Plugin](https://github.com/travisgoodspeed/symgrate2-binja-plugin)|[Travis Goodspeed](https://github.com/travisgoodspeed)|2021-09-11|MIT|helper|This is a client plugin for recovering symbols using the Symgrate2 server.|
 |[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski](https://github.com/carstein)|2019-07-15|MIT|helper|Decorate encountered syscalls with details like name and arguments|
 |[Tag Team](https://github.com/psifertex/tagteam)|[psifertex](https://github.com/psifertex)|2021-03-12|Apache-2.0|helper|Tags functions using emoji for a number of interesting characteristics|
-|[TypeLib Exporter](https://github.com/SmoothHacker/BN-TypeLib-Exporter)|[Scott Lagler](https://github.com/SmoothHacker)|2022-06-28|MIT|binaryview, helper, ui|This plugin compiles exported functions and its corresponding types into a type library.|
+|[TypeLib Exporter](https://github.com/SmoothHacker/BN-TypeLib-Exporter)|[SmoothHacker](https://github.com/SmoothHacker)|2022-07-13|MIT|binaryview, helper, ui|This plugin compiles exported functions and its corresponding types into a type library.|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|2019-07-10|MIT|architecture|A disassembler and lifter for the VMNDH-2k12 architecture.|
 |[VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|[Layle](https://github.com/vtil-project)|2020-07-05|BSD-3-Clause|architecture, binaryview|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|
 |[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|2021-01-07|Apache-2.0|helper|Assistant plugin for vulnerability research.|
