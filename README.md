@@ -32,7 +32,6 @@
 |[Dependency analyzer](https://github.com/Shizmob/binja-depanalyzer)|[Shiz](https://github.com/Shizmob)|2020-05-25|MIT|helper|Analyze dependencies and resolve obfuscated imports|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|2020-11-04|MIT|helper, ui|devi - DEvirtualize VIrtual calls in C++ binaries|
 |[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|2022-07-29|LGPL-2.1|helper, ui|Research Decompiler to generate a C-like function representation|
-|[Discord Rich Presence Integration](https://github.com/x1tan/binaryninja-discord-integration)|[xitan](https://github.com/x1tan)|2021-03-25|MIT|helper|Enables Discord Rich Presence Integration for Binary Ninja|
 |[Division and Modulo Deoptimizer](https://github.com/jmprdi/binja-division-deoptimization)|[Nathan Peercy](https://github.com/jmprdi)|2020-05-12|MIT|binaryview, helper, ui|Deoptimize Divisions and Modulos in Binary Ninja.|
 |[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-03-01|MIT|architecture, binaryview|DUMB: An Example Architecture for Binary Ninja|
 |[Dyld Shared Cache Processor](https://github.com/cxnder/bn-dyldsharedcache)|[cynder (kat)](https://github.com/cxnder)|2022-03-01|MIT|architecture, binaryview, core, helper, ui|Processing for Apple's dyld_shared_cache format.|
