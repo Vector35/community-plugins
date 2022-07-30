@@ -384,10 +384,6 @@
     "auto_update": true
   },
   {
-    "name": "x1tan/binaryninja-discord-integration",
-    "auto_update": true
-  },
-  {
     "name": "Rami114/cryptoscan",
     "auto_update": true
   },
