@@ -1,5 +1,9 @@
 [
   {
+    "name": "LittleDyingDuck/BinaryNinja-RichPrecense",
+    "auto_update": true
+  },
+  {
     "name": "CySHell/MemoryLayoutLoader",
     "auto_update": true
   },
