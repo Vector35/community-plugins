@@ -191,6 +191,8 @@ def main():
         printProgressBar(i, len(listing), prefix="Collecting Plugin JSON files:")
         jsonData = getPluginJson(plugin)
         if jsonData is None:
+            print(f"Could not load plugin: {plugin['name']}")
+            sys.exit(1)
             return
         allPlugins[plugin["name"]] = jsonData
     printProgressBar(len(listing), len(listing), prefix="Collecting Plugin JSON files:")
