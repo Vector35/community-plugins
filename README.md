@@ -9,6 +9,7 @@
 |[Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|[Terry Chia](https://github.com/Ayrx)|2021-01-30|MIT|helper|Manage custom type libraries.|
 |[binja-import-header](https://github.com/matteyeux/binja-import-header)|[matteyeux](https://github.com/matteyeux)|2021-12-21|MIT|helper|Import header file to Binary Ninja types view|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|2020-08-19|MIT|architecture, binaryview, core, ui|Generate and find signatures.|
+|[Binja Discord Integration](https://github.com/LittleDyingDuck/BinaryNinja-RichPrecense)|[duck](https://github.com/littledyingduck)|2022-08-10|No License| core, ui|Discord rich precense, must have display activity enabled on Discord. Slight rework of a broken, no longer maintained plugin.|
 |[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2021-05-19|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|2022-05-28|GPL-3.0|architecture|A Binary Ninja architecture plugin for the AD Blackfin architecture|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|2022-01-14|MIT|helper|Recover Linux kernel build configurations|
