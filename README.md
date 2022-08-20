@@ -87,7 +87,7 @@
 |[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|2022-06-09|MIT|helper|Easily capture Binary Ninja screenshots in ultra-high resolution|
 |[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2022-02-19|MIT|helper, ui|Helper for exploring structured exception handlers in PEs|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|2022-01-25|2-Clause BSD|helper|Symbolic execution plugin for BinaryNinja|
-|[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|2022-06-29|MIT|binaryview|Binary View for loading 32 bits and 64 bits Apple SEPROM|
+|[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|2022-08-20|MIT|binaryview|Binary View for loading 32 bits and 64 bits Apple SEPROM|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|2019-07-15|MIT|helper, ui|Synchronized source code pane for debug binaries|
 |[SVD Memory Map Parser](https://github.com/ehntoo/binaryninja-svd)|[Mitchell Johnson (@ehntoo)](https://github.com/ehntoo)|2021-12-30|MIT or Apache 2.0|helper|A parser for the CMSIS System View Description format|
 |[Switch Loader](https://github.com/EliseZeroTwo/Switch-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2020-07-22|ISC|binaryview, helper|Loader for common Nintendo Switch binaries|
