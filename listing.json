@@ -4,10 +4,6 @@
     "auto_update": true
   },
   {
-    "name": "CySHell/MemoryLayoutLoader",
-    "auto_update": true
-  },
-  {
     "name": "pbiernat/ripr",
     "auto_update": true
   },
