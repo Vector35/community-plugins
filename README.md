@@ -53,7 +53,7 @@
 |[Hex Integers in Python Console](https://github.com/CouleeApps/hex_integers)|[Glenn Smith](https://github.com/CouleeApps)|2022-02-12|MIT|helper|Makes your integers print as hex in the python console.|
 |[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-10-03|MIT|binaryview|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|
 |[HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|[atxsinn3r](https://github.com/atxsinn3r)|2020-06-07|BSD-3-Clause|helper|Dumps HLIL code to a directory|
-|[Hyara](https://github.com/hyuunnn/hyara)|[Hyun Yi](https://github.com/hyuunnn)|2022-08-28|MIT|ui|YARA rule making tool for Binary Ninja, Cutter, and IDA|
+|[Hyara](https://github.com/hyuunnn/hyara)|[Hyun Yi](https://github.com/hyuunnn)|2022-08-30|MIT|ui|YARA rule making tool for Binary Ninja, Cutter, and IDA|
 |[iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|[Blackwing Intelligence](https://github.com/BlackwingHQ)|2020-10-01|MIT|binaryview|Binary View for loading iBoot, SecureROM, etc. firmware|
 |[iBootLoader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2021-09-25|ISC|binaryview, helper|iBoot/SecureROM Loader|
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|2020-03-26|MIT|helper|Allows users to import idc database dumps from IDA into Binary Ninja.|
@@ -69,7 +69,6 @@
 |[keypatch](https://github.com/lwerdna/keypatch_binja)|[lwerdna](https://github.com/lwerdna)|2021-04-09|Unlicense|helper, ui|Remake of keypatch plugin for Binary Ninja|
 |[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|2021-08-10|MIT|helper|A Coverage Explorer for Reverse Engineers|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|2021-03-09|MIT|helper|binary ninja plugin for abusing logging functions|
-|[MemoryLayoutLoader](https://github.com/CySHell/MemoryLayoutLoader)|[CyShell](https://github.com/CySHell)|2022-07-14|MIT|binaryview|Load a raw file into the current memory space.|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|2022-06-10|MIT|architecture|A disassembler and lifter for the Motorola 68k architecture.|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2022-02-02|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|2019-07-12|MIT|helper|Parses MSVC structures to improve analysis|
