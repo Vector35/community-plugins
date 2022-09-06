@@ -41,7 +41,6 @@
 |[Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|[jofra](https://github.com/Vasco-jofra)|2019-07-15|MIT|helper|Finds format string vulnerabilities|
 |[Frida](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|2020-06-01|MIT|helper|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
 |[Function ABI](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|2019-11-22|BSD-0-clause|ui|A plugin that adds a GUI for changing function ABI.|
-|[Fuzzable](https://github.com/ex0dus-0x/fuzzable)|[ex0dus-0x](https://github.com/ex0dus-0x)|2021-11-17|MIT|ui|Automatically identify fuzzable targets in binaries.|
 |[Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|[Hugo Porcher (@icecr4ck)](https://github.com/icecr4ck)|2020-11-17|MIT|architecture, binaryview|A loader and diassembler for Game Boy ROMs.|
 |[GameCube DOL](https://github.com/PistonMiner/binaryninja-gc-dol)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-07-08|MIT|binaryview|GameCube DOL file BinaryView|
 |[GameCube symbol map loader](https://github.com/PistonMiner/binaryninja-gc-load-map)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-07-08|MIT|helper|GameCube symbol map loader|
@@ -53,7 +52,7 @@
 |[Hex Integers in Python Console](https://github.com/CouleeApps/hex_integers)|[Glenn Smith](https://github.com/CouleeApps)|2022-02-12|MIT|helper|Makes your integers print as hex in the python console.|
 |[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-10-03|MIT|binaryview|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|
 |[HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|[atxsinn3r](https://github.com/atxsinn3r)|2020-06-07|BSD-3-Clause|helper|Dumps HLIL code to a directory|
-|[Hyara](https://github.com/hyuunnn/hyara)|[Hyun Yi](https://github.com/hyuunnn)|2022-08-30|MIT|ui|YARA rule making tool for Binary Ninja, Cutter, and IDA|
+|[Hyara](https://github.com/hyuunnn/hyara)|[Hyun Yi](https://github.com/hyuunnn)|2022-09-03|MIT|ui|YARA rule making tool for Binary Ninja, Cutter, and IDA|
 |[iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|[Blackwing Intelligence](https://github.com/BlackwingHQ)|2020-10-01|MIT|binaryview|Binary View for loading iBoot, SecureROM, etc. firmware|
 |[iBootLoader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2021-09-25|ISC|binaryview, helper|iBoot/SecureROM Loader|
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|2020-03-26|MIT|helper|Allows users to import idc database dumps from IDA into Binary Ninja.|
