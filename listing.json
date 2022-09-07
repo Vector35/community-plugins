@@ -12,6 +12,10 @@
     "auto_update": true
   },
   {
+    "name": "ex0dus-0x/fuzzable",
+    "auto_update": true
+  },
+  {
     "name": "hyuunnn/hyara",
     "auto_update": true,
     "subdir": "hyara_lib/integration/bn_hyara"
