@@ -1,5 +1,9 @@
 [
   {
+    "name": "scmerrill/golang_1_18_restore_names",
+    "auto_update": true
+  },
+  {
     "name": "LittleDyingDuck/BinaryNinja-RichPrecense",
     "auto_update": true
   },
