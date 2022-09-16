@@ -41,7 +41,7 @@
 |[Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|[jofra](https://github.com/Vasco-jofra)|2019-07-15|MIT|helper|Finds format string vulnerabilities|
 |[Frida](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|2020-06-01|MIT|helper|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
 |[Function ABI](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|2019-11-22|BSD-0-clause|ui|A plugin that adds a GUI for changing function ABI.|
-|[Fuzzable](https://github.com/ex0dus-0x/fuzzable)|[ex0dus-0x](https://github.com/ex0dus-0x)|2022-09-07|MIT|ui|Framework for Automating Fuzzable Target Discovery with Static Analysis|
+|[Fuzzable](https://github.com/ex0dus-0x/fuzzable)|[ex0dus-0x](https://github.com/ex0dus-0x)|2021-11-17|MIT|ui|Automatically identify fuzzable targets in binaries.|
 |[Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|[Hugo Porcher (@icecr4ck)](https://github.com/icecr4ck)|2020-11-17|MIT|architecture, binaryview|A loader and diassembler for Game Boy ROMs.|
 |[GameCube DOL](https://github.com/PistonMiner/binaryninja-gc-dol)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-07-08|MIT|binaryview|GameCube DOL file BinaryView|
 |[GameCube symbol map loader](https://github.com/PistonMiner/binaryninja-gc-load-map)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2021-07-08|MIT|helper|GameCube symbol map loader|
