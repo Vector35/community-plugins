@@ -31,7 +31,7 @@
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|2022-02-21|MIT|helper|Find Delphi VMTs and generate their structures|
 |[Dependency analyzer](https://github.com/Shizmob/binja-depanalyzer)|[Shiz](https://github.com/Shizmob)|2020-05-25|MIT|helper|Analyze dependencies and resolve obfuscated imports|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|2020-11-04|MIT|helper, ui|devi - DEvirtualize VIrtual calls in C++ binaries|
-|[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|2022-07-29|LGPL-2.1|helper, ui|Research Decompiler to generate a C-like function representation|
+|[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|2022-10-06|LGPL-2.1|helper, ui|Research Decompiler to generate a C-like function representation|
 |[Division and Modulo Deoptimizer](https://github.com/jmprdi/binja-division-deoptimization)|[Nathan Peercy](https://github.com/jmprdi)|2020-05-12|MIT|binaryview, helper, ui|Deoptimize Divisions and Modulos in Binary Ninja.|
 |[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-03-01|MIT|architecture, binaryview|DUMB: An Example Architecture for Binary Ninja|
 |[Dyld Shared Cache Processor](https://github.com/cxnder/bn-dyldsharedcache)|[cynder (kat)](https://github.com/cxnder)|2022-03-01|MIT|architecture, binaryview, core, helper, ui|Processing for Apple's dyld_shared_cache format.|
@@ -57,7 +57,7 @@
 |[Hyara](https://github.com/hyuunnn/hyara)|[Hyun Yi](https://github.com/hyuunnn)|2022-09-03|MIT|ui|YARA rule making tool for Binary Ninja, Cutter, and IDA|
 |[iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|[Blackwing Intelligence](https://github.com/BlackwingHQ)|2020-10-01|MIT|binaryview|Binary View for loading iBoot, SecureROM, etc. firmware|
 |[iBootLoader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2021-09-25|ISC|binaryview, helper|iBoot/SecureROM Loader|
-|[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|2020-03-26|MIT|helper|Allows users to import idc database dumps from IDA into Binary Ninja.|
+|[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|2022-10-13|MIT|helper|Allows users to import idc database dumps from IDA into Binary Ninja.|
 |[ilhierarchy](https://github.com/fabianfreyer/binja-il-hierarchy)|[Fabian Freyer](https://github.com/fabianfreyer)|2022-02-06|MIT|core, ui|Show current IL instruction hierarchy in sidebar|
 |[Improved Gameboy Architecture](https://github.com/ZetaTwo/binja-gameboy)|[Carl Svensson (@zetatwo)](https://github.com/ZetaTwo)|2022-01-30|MIT|architecture, binaryview|A loader and diassembler for Game Boy ROMs.|
 |[Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2020-11-25|MIT|helper|Forward and backward instruction slicer|
