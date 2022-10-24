@@ -1,5 +1,9 @@
 [
   {
+    "name": "seeinglogic/ariadne",
+    "auto_update": true
+  },
+  {
     "name": "scmerrill/golang_1_18_restore_names",
     "auto_update": true
   },
