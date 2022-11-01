@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Browser-based interactive graph for viewing callgraph, static analysis, and coverage information",
-        "longdescription": "# Ariadne: Binary Ninja Graph Analysis Plugin\n\nAriadne is a Binary Ninja plugin that serves a browser-based interactive graph\nvisualization for assisting reverse engineers. It implements some common static\nanalysis tasks including call graph analysis, and can integrate block coverage\ninformation. This enables users to build interactive graphs and see exactly what\nthey are interested in.\n\n![Demo Screen Capture](screenshots/demo.gif)\n\n## Quickstart\n\n1. Install this plugin via the Plugin Manager or clone this repo to your Binary\n  Ninja [plugins folder](https://docs.binary.ninja/getting-started.html#user-folder)\n  - NOTE: If you install by cloning the repo, you may need to install the Python\n  dependencies in `requirements.txt`. Use the command palette (`CTRL+P` or\n  equivalent) to do `Install Python3 module` and copy the contents of\n  requirements.txt into the dialog.\n2. Open a binary in Binary Ninja\n3. Right click: Plugins > Ariadne > Analyze Target\n4. Watch the log and wait for analysis to complete\n5. Open a browser and surf to `http://localhost:8800` to view the interactive\n   graph (web UI)\n6. Navigate around in Binary Ninja; the graph will update when the current\n   function changes\n\n## Graph Styling\n\nThe quick rundown on what the shapes and colors on the graph mean:\n\n- Regular functions are green circles\n- Import functions are diamond-shaped and colored orange\n- Node size is based on cyclomatic complexity; more complex functions are\n  bigger circles\n- The current function active in BN is colored red\n- Functions that you've looked at in the BN UI have light blue borders\n- If you click on a node, it becomes the focus node\n  - The focus node is colored purple\n  - Out edges/nodes (callees) are colored pink\n  - In edges/nodes (calleRs) are colored blue\n  - Clicking on the focus node deselects it\n  - Clicking on another node makes that node the focus node\n\nNOTE: the default graph is a 2-hop neighborhood of the current function _BUT_ it\nwill be automatically pruned to a smaller graph if two hops would include too\nmany nodes. Use the context menu function graph to push the full context for\nthe current function or use\n[networkx](https://networkx.org/) to build custom graphs and push them to\nthe web UI.\n\n## Motivation\n\nThis tool is a proof-of-concept that was built to fill a gap that we observed in\nour own reverse-engineering workflows, with the goals of being highly\nconfigurable and to help make reverse-engineering faster.\n\nThe key insight we found building/using a graph tool is that looking at too many\nnodes is unhelpful and layout matters a lot, so we focused on just the analysis\nresults we wanted in the smallest and cleanest view possible.\n\nFrom there, we built the backend so any graph could be pushed to the backend and\ncommon graph tasks would be easy. Adding extra analysis tasks is also easy since\nthere are places for per-function and target-wide analysis.\n\n## Common Workflows\n\n- Source/Sink analysis: Context command allows you to select a function and see\n  all the paths to/from the current function in the web UI. ![source-sink](screenshots/source_sink.png)\n- Coverage analysis via [bncov](https://github.com/ForAllSecure/bncov): allows\n  visualization of coverage and shows where your coverage stops and uncovered\n  complexity resides. Requires bncov, but if coverage information is detected\n  before analysis starts it will automatically be added, or it can be added\n  separately. ![Coverage View](screenshots/coverage_analysis.png)\n  - The Descendent Complexity statistics (\"total\" as well as \"uncovered\") show\n    the sum of complexity for all functions reachable from a given function as\n    well as the sum for just functions with zero coverage. Very useful for\n    fuzzing!\n- Import Hiding: Sometimes imports are helpful, other times they just convolute\n  the graph because it's more important to see just the internal functions\n- Custom graphs: create any graph based on the target's graph (`ariadne.core.targets[bv].g`) and push it to the web UI with `ariadne.core.push_new_graph(new_graph)`\n- Standard styling: the default graph styling allows you to see which functions\n  you have already looked at, which functions are imports, and caller/callee\n  relationships. Helps you see which functions you haven't looked at that may be\n  of interest. ![Breadcrumb demo](screenshots/breadcrumbing.png)\n- Collapsible Function Metadata sidebar: Shows all the relevant static analysis\n  results for any function you click on. ![Focus node view](screenshots/focus_node.png)\n- Function search bar: start typing the name of the function you want to find in\n  the search bar in the upper left, when the name turns green you can stop\n  typing and hit enter to center the graph on the target function.\n- Freezing/unfreezing the graph: sometimes you don't want auto-updates\n- Save/Load analysis: redoing analysis is no good; headless analysis and\n  save/load features allow you to crunch binaries on a separate machine if you\n  want.\n\nSee the [tutorial](./tutorial/README.md) for detailed explanation of features\nand intended workflows that you can test out on an example binary.\n\n## Troubleshooting\n\nIf the web UI is unresponsive, check the websocket status in the upper right\ncorner. If you push a really large graph to the web UI, the page may freeze\nwhile the graph layout is computed. In any case, refreshing the page should\nreset the UI.\n\nUnhandled Python exceptions on startup or during processing are bugs and it'd be\ngreat if you would open a GitHub issue on the repo here and describe the problem\n(and include a binary to reproduce the problem, if possible).\n\n## Thank you!\n\nTo everyone who tries out this tool, it would mean a lot to me if you reach out\nand give me your thoughts on Twitter (@seeinglogic) or starring this repo. I\nhope this helps you or gives you ideas on how to look at things a little\ndifferently.\n",
+        "longdescription": "# Ariadne: Binary Ninja Graph Analysis Plugin\n\nAriadne is a Binary Ninja plugin that serves a browser-based interactive graph\nvisualization for assisting reverse engineers. It implements some common static\nanalysis tasks including call graph analysis, and can integrate block coverage\ninformation. This enables users to build interactive graphs and see exactly what\nthey are interested in.\n\n![Demo Screen Capture](screenshots/demo.gif)\n\n## Quickstart\n\n1. Install this plugin via the Plugin Manager or clone this repo to your Binary\n  Ninja [plugins folder](https://docs.binary.ninja/getting-started.html#user-folder)\n  - NOTE: If you install by cloning the repo, you may need to install the Python\n  dependencies in `requirements.txt`. Use the command palette (`CTRL+P` or\n  equivalent) to do `Install Python3 module` and copy the contents of\n  requirements.txt into the dialog.\n2. Open a binary in Binary Ninja\n3. Right click: Plugins > Ariadne > Analyze Target\n4. Watch the log and wait for analysis to complete\n5. Open a browser and surf to `http://localhost:8800` to view the interactive\n   graph (web UI)\n6. Navigate around in Binary Ninja; the graph will update when the current\n   function changes\n\n## Graph Styling\n\nThe quick rundown on what the shapes and colors on the graph mean:\n\n- Regular functions are green circles\n- Import functions are diamond-shaped and colored orange\n- Node size is based on cyclomatic complexity; more complex functions are\n  bigger circles\n- The current function active in BN is colored red\n- Nodes with double borders mean they have edges that weren't included for the\n  current graph (default: local neighborhood for active function in BN, see note\n  below)\n- Functions that you've looked at in the BN UI have light blue borders\n- If you click on a node, it becomes the focus node\n  - The focus node is colored purple\n  - Out edges/nodes (callees) are colored pink\n  - In edges/nodes (calleRs) are colored blue\n  - Clicking on the focus node deselects it\n  - Clicking on another node makes that node the focus node\n\nNOTE: the default graph is a 2-hop neighborhood of the current function _BUT_ it\nwill be automatically pruned to a smaller graph if two hops would include too\nmany nodes. Use the context menu function graph to push the full context for\nthe current function or use\n[networkx](https://networkx.org/) to build custom graphs and push them to\nthe web UI.\n\n## Motivation\n\nThis tool is a proof-of-concept that was built to fill a gap that we observed in\nour own reverse-engineering workflows, with the goals of being highly\nconfigurable and to help make reverse-engineering faster.\n\nThe key insight we found building/using a graph tool is that looking at too many\nnodes is unhelpful and layout matters a lot, so we focused on just the analysis\nresults we wanted in the smallest and cleanest view possible.\n\nFrom there, we built the backend so any graph could be pushed to the backend and\ncommon graph tasks would be easy. Adding extra analysis tasks is also easy since\nthere are places for per-function and target-wide analysis.\n\n## Common Workflows\n\n- Source/Sink analysis: Context command allows you to select a function and see\n  all the paths to/from the current function in the web UI. ![source-sink](screenshots/source_sink.png)\n- Coverage analysis via [bncov](https://github.com/ForAllSecure/bncov): allows\n  visualization of coverage and shows where your coverage stops and uncovered\n  complexity resides. Requires bncov, but if coverage information is detected\n  before analysis starts it will automatically be added, or it can be added\n  separately. ![Coverage View](screenshots/coverage_analysis.png)\n  - The Descendent Complexity statistics (\"total\" as well as \"uncovered\") show\n    the sum of complexity for all functions reachable from a given function as\n    well as the sum for just functions with zero coverage. Very useful for\n    fuzzing!\n- Import Hiding: Sometimes imports are helpful, other times they just convolute\n  the graph because it's more important to see just the internal functions\n- Custom graphs: create any graph based on the target's graph (`ariadne.core.targets[bv].g`) and push it to the web UI with `ariadne.core.push_new_graph(new_graph)`\n- Standard styling: the default graph styling allows you to see which functions\n  you have already looked at, which functions are imports, and caller/callee\n  relationships. Helps you see which functions you haven't looked at that may be\n  of interest. ![Breadcrumb demo](screenshots/breadcrumbing.png)\n- Collapsible Function Metadata sidebar: Shows all the relevant static analysis\n  results for any function you click on. ![Focus node view](screenshots/focus_node.png)\n- Function search bar: start typing the name of the function you want to find in\n  the search bar in the upper left, when the name turns green you can stop\n  typing and hit enter to center the graph on the target function.\n- Freezing/unfreezing the graph: sometimes you don't want auto-updates\n- Save/Load analysis: redoing analysis is no good; headless analysis and\n  save/load features allow you to crunch binaries on a separate machine if you\n  want.\n- Callgraph exploration: using the web UI's `Graph Focus Function` button, now\n  you can see what nodes aren't fully expanded in the current view and navigate\n  between functions from within the web UI.\n\nSee the [tutorial](./tutorial/README.md) for detailed explanation of features\nand intended workflows that you can test out on an example binary.\n\n## Troubleshooting\n\nIf the web UI is unresponsive, check the websocket status in the upper right\ncorner. If you push a really large graph to the web UI, the page may freeze\nwhile the graph layout is computed. In any case, refreshing the page should\nreset the UI.\n\nUnhandled Python exceptions on startup or during processing are bugs and it'd be\ngreat if you would open a GitHub issue on the repo here and describe the problem\n(and include a binary to reproduce the problem, if possible).\n\n## Thank you!\n\nTo everyone who tries out this tool, it would mean a lot to me if you reach out\nand give me your thoughts on Twitter (@seeinglogic) or starring this repo. I\nhope this helps you or gives you ideas on how to look at things a little\ndifferently.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright 2022 Mark Griffin (@seeinglogic)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n"
@@ -26,10 +26,10 @@
             "Windows": ""
         },
         "dependencies": "networkx\nwebsockets\nrequests",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "author": "Mark Griffin (@seeinglogic)",
         "minimumbinaryninjaversion": 3469,
-        "lastUpdated": 1666100109,
+        "lastUpdated": 1667228589,
         "projectUrl": "https://github.com/seeinglogic/ariadne",
         "projectData": {
             "id": 549689151,
@@ -98,21 +98,21 @@
             "releases_url": "https://api.github.com/repos/seeinglogic/ariadne/releases{/id}",
             "deployments_url": "https://api.github.com/repos/seeinglogic/ariadne/deployments",
             "created_at": "2022-10-11T15:23:09Z",
-            "updated_at": "2022-10-18T13:35:09",
-            "pushed_at": "2022-10-31T00:42:39Z",
+            "updated_at": "2022-10-31T15:03:09",
+            "pushed_at": "2022-10-31T15:03:08Z",
             "git_url": "git://github.com/seeinglogic/ariadne.git",
             "ssh_url": "git@github.com:seeinglogic/ariadne.git",
             "clone_url": "https://github.com/seeinglogic/ariadne.git",
             "svn_url": "https://github.com/seeinglogic/ariadne",
             "homepage": null,
-            "size": 3000,
-            "stargazers_count": 6,
-            "watchers_count": 6,
+            "size": 3011,
+            "stargazers_count": 8,
+            "watchers_count": 8,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
             "has_downloads": true,
-            "has_wiki": true,
+            "has_wiki": false,
             "has_pages": false,
             "forks_count": 0,
             "mirror_url": null,
@@ -133,7 +133,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 0,
-            "watchers": 6,
+            "watchers": 8,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -147,9 +147,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/seeinglogic",
-        "packageUrl": "https://api.github.com/repos/seeinglogic/ariadne/zipball/refs/tags/0.1.0",
+        "packageUrl": "https://api.github.com/repos/seeinglogic/ariadne/zipball/refs/tags/0.1.1",
         "path": "seeinglogic_ariadne",
-        "commit": "9cb7dc68da5bc481a8fb71979ed3d7343a9e82f2",
+        "commit": "e0966e19a5f0aefa35eb48fd291c20c0e02d0de8",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -974,13 +974,13 @@
             "deployments_url": "https://api.github.com/repos/ex0dus-0x/fuzzable/deployments",
             "created_at": "2021-05-16T18:38:59Z",
             "updated_at": "2022-09-21T18:23:16",
-            "pushed_at": "2022-10-30T02:23:22Z",
+            "pushed_at": "2022-11-01T16:47:30Z",
             "git_url": "git://github.com/ex0dus-0x/fuzzable.git",
             "ssh_url": "git@github.com:ex0dus-0x/fuzzable.git",
             "clone_url": "https://github.com/ex0dus-0x/fuzzable.git",
             "svn_url": "https://github.com/ex0dus-0x/fuzzable",
             "homepage": "",
-            "size": 1330,
+            "size": 1348,
             "stargazers_count": 332,
             "watchers_count": 332,
             "language": "Python",
@@ -1366,8 +1366,8 @@
         "api": [
             "python3"
         ],
-        "description": "Parse and extract class information from MSVC x64 C++ binaries.",
-        "longdescription": "# ClassyPP\n\nMicrosoft Visual Studio C++ Class information extraction.\n\n## Description:\n\nThis plugin aims to aid in reverse engineering binaries compiled with MSVC and written in C++. \nSuch binaries often contain extremely useful information about the classes and types used within it - Information that is invaluable \nto reverse engineering efforts.\n\nThis plugin performs 3 main actions:\n\n**RTTI Inspection**\n\nSearch the executable for RTTI (Real-Time Type information) structures, and define the actual symbols \nwith types within the BinaryView, including demangled class names.\n\n-BEFORE-\n\n![RTTI Inspection - Before](https://user-images.githubusercontent.com/34336222/171192716-bafebbb8-0684-47ef-94be-30de176b89a1.png)\n\n-AFTER-\n\n![RTTI Inspection - After](https://user-images.githubusercontent.com/34336222/171192825-c004b21e-96f9-44f4-9f50-4400a10fc01a.png)\n\n\n**Resolve and Define Virtual-Function tables**\n\nAny C++ class will have its own vfTable within the executable.\nIdentifying this vfTable is crucial in order to understand what functions belong to what class.\n\nThis plugin takes this process one step further - Using Graph theory algorithms it will approximate \nwhich class owns which function within a given vfTable. This is important because not all derived classes\noverride functions within their base class, which means that the derived class vfTable might contain \nfunctions that belong to the base class, and often times functions belonging to several different base \nclasses.\n\n-BEFORE-\n\n![vfTable - Before](https://user-images.githubusercontent.com/34336222/171192911-155679ca-c078-41a4-9faf-c85f552b9acc.png)\n\n\n-AFTER-\n\n![vfTable - After](https://user-images.githubusercontent.com/34336222/171192938-75f4397e-5013-477d-b761-be4a06f509ff.png)\n\n\n**Define class types for known Classes**\n\nUsing information extracted from the MSVC compiler (CL) regarding the memory layout of compiled classes it is possible\nto define the actual class type as it apears in memory - This type can later be applied to any function using the \"This\" pointer.\nVersion 1.0 of this plugin contains memory layout information from many classes of the following libraries:\n  - standard lib\n  - Protobuf\n  - Standard Template Library\n  - CryptoPP\nThe plugin will autoamtically define any class type in its database if the corresponding class is found to be resident in the executable.\n\n![class definition](https://user-images.githubusercontent.com/34336222/171192986-05e2f215-d02f-4800-ac4e-66e37403c9b0.png)\n\n## Installation\n\nThis plugin installs as a normal binja plugin - just clone it into the plugins' directory.\nEdit the Config.py file for values suitable to your environment.\n\t\n## Limitations:\n\t- Supports MSVC Only\n\t- x64 architecture only\n\t- Version 1.0 does not support Virtual Inheritence (Support for this will be added in the future)\n\n## Acknowledgment\n\nThis plugin uses the Demumble project in order to demangle C++ symbols - https://github.com/nico/demumble.\n\n## License\n\nThis plugin is released under an [MIT license](./license).\n",
+        "description": "Parse and extract class information from MSVC x86 32\\64 bit C++ binaries.",
+        "longdescription": "# ClassyPP\n\nMicrosoft Visual Studio C++ Class information extraction.\n\n## Description:\n\nThis plugin aims to aid in reverse engineering binaries compiled with MSVC and written in C++. \nSuch binaries often contain extremely useful information about the classes and types used within it - Information that is invaluable \nto reverse engineering efforts.\n\nThis plugin performs 3 main actions:\n\n**RTTI Inspection**\n\nSearch the executable for RTTI (Real-Time Type information) structures, and define the actual symbols \nwith types within the BinaryView, including demangled class names.\n\n-BEFORE-\n\n![RTTI Inspection - Before](https://user-images.githubusercontent.com/34336222/171192716-bafebbb8-0684-47ef-94be-30de176b89a1.png)\n\n-AFTER-\n\n![RTTI Inspection - After](https://user-images.githubusercontent.com/34336222/171192825-c004b21e-96f9-44f4-9f50-4400a10fc01a.png)\n\n\n**Resolve and Define Virtual-Function tables**\n\nAny C++ class will have its own vfTable within the executable.\nIdentifying this vfTable is crucial in order to understand what functions belong to what class.\n\nThis plugin takes this process one step further - Using Graph theory algorithms it will approximate \nwhich class owns which function within a given vfTable. This is important because not all derived classes\noverride functions within their base class, which means that the derived class vfTable might contain \nfunctions that belong to the base class, and often times functions belonging to several different base \nclasses.\n\n-BEFORE-\n\n![vfTable - Before](https://user-images.githubusercontent.com/34336222/171192911-155679ca-c078-41a4-9faf-c85f552b9acc.png)\n\n\n-AFTER-\n\n![vfTable - After](https://user-images.githubusercontent.com/34336222/171192938-75f4397e-5013-477d-b761-be4a06f509ff.png)\n\n**Detect and Define Constructor functions**\n\nBase on information obtained in the preceeding steps, it is possible to locate suspected constructor function for the \nvarious detected classes.\nThe plugin will either annotate the suspected constructor with a comment or change the name of the function to reflect\nthe high probability of it being a constructor.\n\n\n**Define class types for known Classes**\n\nUsing information extracted from the MSVC compiler (CL) regarding the memory layout of compiled classes it is possible\nto define the actual class type as it apears in memory - This type can later be applied to any function using the \"This\" pointer.\nVersion 1.0 of this plugin contains memory layout information from many classes of the following libraries:\n  - standard lib\n  - Protobuf\n  - Standard Template Library\n  - CryptoPP\nThe plugin will autoamtically define any class type in its database if the corresponding class is found to be resident in the executable.\n\n![class definition](https://user-images.githubusercontent.com/34336222/171192986-05e2f215-d02f-4800-ac4e-66e37403c9b0.png)\n\n## Installation\n\nThis plugin installs as a normal binja plugin - just clone it into the plugins' directory.\nEdit the Config.py file for values suitable to your environment.\n\t\n## Limitations:\n\t- Supports MSVC Only\n\t- x86 32\\64 bit architecture only\n\t- Currently no support for Multiple Virtual Inheritence (Support for this will be added in the future)\n\n## Acknowledgment\n\nThis plugin uses the Demumble project in order to demangle C++ symbols - https://github.com/nico/demumble.\n\n## License\n\nThis plugin is released under an [MIT license](./license).\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2022 CyShell\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -1379,10 +1379,10 @@
             "Windows": "See https://github.com/CySHell/ClassyPP"
         },
         "dependencies": "networkx",
-        "version": "1.1.0",
+        "version": "1.3.1",
         "author": "CyShell",
         "minimumbinaryninjaversion": 3233,
-        "lastUpdated": 1654595593,
+        "lastUpdated": 1667236215,
         "projectUrl": "https://github.com/CySHell/ClassyPP",
         "projectData": {
             "id": 467922092,
@@ -1451,16 +1451,16 @@
             "releases_url": "https://api.github.com/repos/CySHell/ClassyPP/releases{/id}",
             "deployments_url": "https://api.github.com/repos/CySHell/ClassyPP/deployments",
             "created_at": "2022-03-09T12:42:08Z",
-            "updated_at": "2022-06-07T09:53:13",
-            "pushed_at": "2022-10-31T13:12:57Z",
+            "updated_at": "2022-10-31T17:10:15",
+            "pushed_at": "2022-10-31T17:10:15Z",
             "git_url": "git://github.com/CySHell/ClassyPP.git",
             "ssh_url": "git@github.com:CySHell/ClassyPP.git",
             "clone_url": "https://github.com/CySHell/ClassyPP.git",
             "svn_url": "https://github.com/CySHell/ClassyPP",
             "homepage": null,
-            "size": 1687,
-            "stargazers_count": 5,
-            "watchers_count": 5,
+            "size": 1697,
+            "stargazers_count": 6,
+            "watchers_count": 6,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1486,7 +1486,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 1,
-            "watchers": 5,
+            "watchers": 6,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -1500,9 +1500,9 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/CySHell",
-        "packageUrl": "https://api.github.com/repos/CySHell/ClassyPP/zipball/refs/tags/1.1",
+        "packageUrl": "https://api.github.com/repos/CySHell/ClassyPP/zipball/refs/tags/1.3.1",
         "path": "CySHell_ClassyPP",
-        "commit": "eaae5da7746579bbb0af541dcd587283360daa93",
+        "commit": "4012c320fa332d348c78631dcce78ba7241c9e6f",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -3327,7 +3327,7 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 206,
+            "forks_count": 207,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -3353,7 +3353,7 @@
                 "software-analysis"
             ],
             "visibility": "public",
-            "forks": 206,
+            "forks": 207,
             "open_issues": 5,
             "watchers": 1435,
             "default_branch": "master",
@@ -3365,7 +3365,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 206,
+            "network_count": 207,
             "subscribers_count": 50
         },
         "authorUrl": "https://github.com/bootleg",
