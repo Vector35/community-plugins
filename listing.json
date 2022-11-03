@@ -1,5 +1,10 @@
 [
   {
+    "name": "crytic/ethersplay",
+    "auto_update": true,
+    "subdir": "ethersplay"
+  },
+  {
     "name": "seeinglogic/ariadne",
     "auto_update": true
   },
