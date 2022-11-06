@@ -23,7 +23,7 @@
 |[Callgraph](https://github.com/psifertex/callgraph)|[Josh Watson / Jordan Wiens](https://github.com/psifertex)|2022-04-20|MIT|ui|Callgraph generator for called or calling funcs|
 |[Calltree](https://github.com/elbiazo/calltree)|[Eric Biazo](https://github.com/elbiazo)|2022-05-05|MIT|binaryview, helper, ui|Generates calltree|
 |[CHIP-8 ROM Loader](https://github.com/uafio/BinaryNinja-CHIP8-Arch)|[uafio](https://github.com/uafio)|2020-08-15|MIT|architecture, binaryview, core, helper, ui|Load and disassemble CHIP-8 ROM.|
-|[ClassyPP](https://github.com/CySHell/ClassyPP)|[CyShell](https://github.com/CySHell)|2022-10-31|MIT|binaryview|Parse and extract class information from MSVC x86 32\64 bit C++ binaries.|
+|[ClassyPP](https://github.com/CySHell/ClassyPP)|[CyShell](https://github.com/CySHell)|2022-11-06|MIT|binaryview|Parse and extract class information from MSVC x86 32\64 bit C++ binaries.|
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|2020-06-08|MIT|architecture, binaryview, core, helper, ui|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|2022-05-27|MIT|ui|Binary Ninja comments viewer|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|2020-08-02|MIT|binaryview, ui|A plugin to detect several common crypto constructs and magic vars.|
