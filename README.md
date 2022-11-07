@@ -81,7 +81,7 @@
 |[peutils](https://github.com/404d/peutils)|[404'd](https://github.com/404d)|2020-12-12|MIT|helper|Binary Ninja plugin providing various niche utilities for working with PE binaries|
 |[recursion](https://github.com/zznop/bn-recursion)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Locate and annotate direct and indirect recursion|
 |[Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|[whitequark](https://github.com/whitequark)|2020-01-19|BSD-0-clause|architecture|A plugin providing the Renesas M16C architecture.|
-|[Renesus V850 architecture plugin](https://github.com/tizmd/binja-v850)|[Tomonori Izumida <tizmd@iij.ad.jp>](https://github.com/tizmd)|2022-06-18|MIT|architecture|An architecture plugin for Renesus V850 series|
+|[Renesas V850 architecture plugin](https://github.com/tizmd/binja-v850)|[Tomonori Izumida <tizmd@iij.ad.jp>](https://github.com/tizmd)|2022-11-07|MIT|architecture|An architecture plugin for Renesas V850 series|
 |[ret-sync](https://github.com/bootleg/ret-sync)|[Alexandre Gazet](https://github.com/bootleg)|2022-01-21|MIT|helper|Helper plugin to synchronize Binary Ninja with a debugging session|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-14|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|2022-07-08|MIT|helper|Package binary code as a Python class backed by Unicorn-Engine|

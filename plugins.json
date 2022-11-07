@@ -284,8 +284,8 @@
             "svn_url": "https://github.com/seeinglogic/ariadne",
             "homepage": null,
             "size": 3011,
-            "stargazers_count": 35,
-            "watchers_count": 35,
+            "stargazers_count": 37,
+            "watchers_count": 37,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -311,7 +311,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 0,
-            "watchers": 35,
+            "watchers": 37,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -1385,22 +1385,22 @@
     },
     {
         "pluginmetadataversion": 2,
-        "name": "Renesus V850 architecture plugin",
+        "name": "Renesas V850 architecture plugin",
         "type": [
             "architecture"
         ],
         "api": [
             "python3"
         ],
-        "description": "An architecture plugin for Renesus V850 series",
-        "longdescription": "# Renesus V850/RH850 Architecture plugin for Binary Ninja\n\n- TODO\n    + complete the lifting to Lifted IL\n\n\n",
+        "description": "An architecture plugin for Renesas V850 series",
+        "longdescription": "# Renesas V850/RH850 Architecture plugin for Binary Ninja\n\n- TODO\n    + complete the lifting to Lifted IL\n\n\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2021 Tomonori Izumida <tizmd@iij.ad.jp>\nCopyright (c) 2021 IIJ Innovation Institute\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
         },
         "dependencies": "",
         "author": "Tomonori Izumida <tizmd@iij.ad.jp>",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "minimumbinaryninjaversion": 1200,
         "platforms": [
             "Darwin",
@@ -1412,7 +1412,7 @@
             "Windows": "",
             "Linux": ""
         },
-        "lastUpdated": 1655534747,
+        "lastUpdated": 1667789390,
         "projectUrl": "https://github.com/tizmd/binja-v850",
         "projectData": {
             "id": 432962786,
@@ -1481,8 +1481,8 @@
             "releases_url": "https://api.github.com/repos/tizmd/binja-v850/releases{/id}",
             "deployments_url": "https://api.github.com/repos/tizmd/binja-v850/deployments",
             "created_at": "2021-11-29T08:35:41Z",
-            "updated_at": "2022-06-18T06:45:47",
-            "pushed_at": "2022-11-04T18:19:50Z",
+            "updated_at": "2022-11-07T02:49:50",
+            "pushed_at": "2022-11-07T02:48:07Z",
             "git_url": "git://github.com/tizmd/binja-v850.git",
             "ssh_url": "git@github.com:tizmd/binja-v850.git",
             "clone_url": "https://github.com/tizmd/binja-v850.git",
@@ -1530,9 +1530,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/tizmd",
-        "packageUrl": "https://api.github.com/repos/tizmd/binja-v850/zipball/refs/tags/0.1.1",
+        "packageUrl": "https://api.github.com/repos/tizmd/binja-v850/zipball/refs/tags/0.1.2",
         "path": "tizmd_binjav850",
-        "commit": "a1f72554f67d4fa5b96bc29a94e35579860c6c13",
+        "commit": "967757d108b07de5aa8d2d3d664c5ae9d650b968",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1636,7 +1636,7 @@
             "clone_url": "https://github.com/CySHell/ClassyPP.git",
             "svn_url": "https://github.com/CySHell/ClassyPP",
             "homepage": null,
-            "size": 1707,
+            "size": 1649,
             "stargazers_count": 6,
             "watchers_count": 6,
             "language": "Python",
