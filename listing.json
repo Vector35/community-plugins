@@ -1,5 +1,9 @@
 [
   {
+    "name": "nshp/binaryninja-printf",
+    "auto_update": true
+  },
+  {
     "name": "crytic/ethersplay",
     "auto_update": true,
     "subdir": "ethersplay"
