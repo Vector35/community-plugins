@@ -40,6 +40,7 @@
 |[ethersplay Ethereum Architecture Plugin](https://github.com/crytic/ethersplay)|[Trail of Bits](https://github.com/crytic)|2022-11-03|AGPL-3.0-only|architecture|A disassembler and lifter for the Ethereum architecture.|
 |[Explain Instruction](https://github.com/ehennenfent/binja_explain_instruction)|[Eric Hennenfent](https://github.com/ehennenfent)|2021-10-10|Apache 2|helper, ui|Displays a window that explains in simple English what an assembly instruction does|
 |[FIXED Discord Rich Presence](https://github.com/LittleDyingDuck/BinaryNinja-RichPrecense)|[duck](https://github.com/LittleDyingDuck)|2022-08-11|MIT|helper|Enables Discord Rich Presence Integration for Binary Ninja|
+|[Format String Analysis](https://github.com/nshp/binaryninja-printf)|[Nick Shipp](https://github.com/nshp)|2022-12-05|MIT|analysis|Script to automatically annotate variadic printf functions|
 |[Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|[jofra](https://github.com/Vasco-jofra)|2019-07-15|MIT|helper|Finds format string vulnerabilities|
 |[Frida](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|2020-06-01|MIT|helper|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
 |[Function ABI](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|2019-11-22|BSD-0-clause|ui|A plugin that adds a GUI for changing function ABI.|
