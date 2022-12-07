@@ -98,7 +98,7 @@
             "deployments_url": "https://api.github.com/repos/nshp/binaryninja-printf/deployments",
             "created_at": "2022-12-05T17:44:29Z",
             "updated_at": "2022-12-05T22:27:28",
-            "pushed_at": "2022-12-05T22:27:16Z",
+            "pushed_at": "2022-12-05T23:51:37Z",
             "git_url": "git://github.com/nshp/binaryninja-printf.git",
             "ssh_url": "git@github.com:nshp/binaryninja-printf.git",
             "clone_url": "https://github.com/nshp/binaryninja-printf.git",
@@ -118,7 +118,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 0,
+            "open_issues_count": 2,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -132,7 +132,7 @@
             "topics": [],
             "visibility": "public",
             "forks": 1,
-            "open_issues": 0,
+            "open_issues": 2,
             "watchers": 0,
             "default_branch": "main",
             "permissions": {
@@ -258,8 +258,8 @@
             "svn_url": "https://github.com/crytic/ethersplay",
             "homepage": null,
             "size": 2074,
-            "stargazers_count": 608,
-            "watchers_count": 608,
+            "stargazers_count": 609,
+            "watchers_count": 609,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -291,7 +291,7 @@
             "visibility": "public",
             "forks": 92,
             "open_issues": 9,
-            "watchers": 608,
+            "watchers": 609,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -4594,8 +4594,8 @@
             "svn_url": "https://github.com/gaasedelen/lighthouse",
             "homepage": "",
             "size": 11219,
-            "stargazers_count": 1803,
-            "watchers_count": 1803,
+            "stargazers_count": 1804,
+            "watchers_count": 1804,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -4630,7 +4630,7 @@
             "visibility": "public",
             "forks": 275,
             "open_issues": 23,
-            "watchers": 1803,
+            "watchers": 1804,
             "default_branch": "develop",
             "permissions": {
                 "admin": false,
@@ -6536,18 +6536,20 @@
             "text": "Copyright (c) 2020 Lukas Seidel\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
+            "Darwin",
             "Linux",
             "Windows"
         ],
         "installinstructions": {
+            "Darwin": "",
             "Linux": "",
             "Windows": ""
         },
         "dependencies": "",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "author": "Lukas Seidel",
-        "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1614609879,
+        "minimumbinaryninjaversion": 3164,
+        "lastUpdated": 1670422965,
         "projectUrl": "https://github.com/fgsect/JMPscare-binja",
         "projectData": {
             "id": 343431085,
@@ -6616,8 +6618,8 @@
             "releases_url": "https://api.github.com/repos/fgsect/JMPscare-binja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/fgsect/JMPscare-binja/deployments",
             "created_at": "2021-03-01T13:45:20Z",
-            "updated_at": "2021-03-01T14:44:39",
-            "pushed_at": "2021-03-01T14:42:44Z",
+            "updated_at": "2022-12-07T14:22:45",
+            "pushed_at": "2022-12-07T14:21:30Z",
             "git_url": "git://github.com/fgsect/JMPscare-binja.git",
             "ssh_url": "git@github.com:fgsect/JMPscare-binja.git",
             "clone_url": "https://github.com/fgsect/JMPscare-binja.git",
@@ -6686,9 +6688,9 @@
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/fgsect",
-        "packageUrl": "https://api.github.com/repos/fgsect/JMPscare-binja/zipball/refs/tags/1.0",
+        "packageUrl": "https://api.github.com/repos/fgsect/JMPscare-binja/zipball/refs/tags/1.1",
         "path": "fgsect_JMPscarebinja",
-        "commit": "6bc5793a43b819238af3889d77b095e7aa20e1b6",
+        "commit": "fab2f5557483023510776846dd387962b55fc1d8",
         "minimumBinaryNinjaVersion": 0
     },
     {

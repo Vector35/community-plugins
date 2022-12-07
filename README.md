@@ -66,7 +66,7 @@
 |[Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2020-11-25|MIT|helper|Forward and backward instruction slicer|
 |[Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|[whitequark](https://github.com/whitequark)|2019-09-04|BSD-0-clause|arch|A plugin providing the 16-bit Intel architecture.|
 |[Itanium C++ ABI](https://github.com/whitequark/binja_itanium_cxx_abi)|[whitequark](https://github.com/whitequark)|2020-05-17|BSD-0-clause|analysis|A plugin providing an analysis for Itanium C++ ABI.|
-|[JMPscare](https://github.com/fgsect/JMPscare-binja)|[Lukas Seidel](https://github.com/fgsect)|2021-03-01|MIT|binaryview, core, helper, ui|Fuzzing Introspection for use with the JMPscare Toolkit.|
+|[JMPscare](https://github.com/fgsect/JMPscare-binja)|[Lukas Seidel](https://github.com/fgsect)|2022-12-07|MIT|binaryview, core, helper, ui|Fuzzing Introspection for use with the JMPscare Toolkit.|
 |[JNIAnalyzer](https://github.com/Ayrx/binja-JNIAnalyzer)|[Terry Chia (Ayrx)](https://github.com/Ayrx)|2022-03-27|MIT|helper|Analysis scripts for Binary Ninja to work with Android NDK libraries.|
 |[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|2019-07-06|MIT|core, ui|A plugin that eases fixing jump table branches|
 |[kallsyms](https://github.com/zznop/bn-kallsyms)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|
