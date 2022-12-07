@@ -1,5 +1,9 @@
 [
   {
+    "name": "WhatTheFuzz/binaryninja-openai",
+    "auto_update": true
+  },
+  {
     "name": "nshp/binaryninja-printf",
     "auto_update": true
   },
