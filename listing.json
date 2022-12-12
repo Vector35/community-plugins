@@ -1,8 +1,13 @@
 [
   {
+    "name": "skr0x1c0/ipybinja",
+    "auto_update": true
+  },  
+  {
     "name": "AsherDLL/PCDump-bn",
     "auto_update": true
-  },  {
+  },
+  {
     "name": "WhatTheFuzz/binaryninja-openai",
     "auto_update": true
   },
