@@ -103,8 +103,8 @@
             "svn_url": "https://github.com/skr0x1c0/ipybinja",
             "homepage": "",
             "size": 1527,
-            "stargazers_count": 4,
-            "watchers_count": 4,
+            "stargazers_count": 6,
+            "watchers_count": 6,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -138,7 +138,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 0,
-            "watchers": 4,
+            "watchers": 6,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -263,8 +263,8 @@
             "svn_url": "https://github.com/AsherDLL/PCDump-bn",
             "homepage": "",
             "size": 27,
-            "stargazers_count": 2,
-            "watchers_count": 2,
+            "stargazers_count": 17,
+            "watchers_count": 17,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -298,7 +298,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 0,
-            "watchers": 2,
+            "watchers": 17,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -329,7 +329,7 @@
             "python3"
         ],
         "description": "Queries OpenAI's GPT3 to determine what a given function does.",
-        "longdescription": "[![CodeQL](https://github.com/WhatTheFuzz/binaryninja-openai/actions/workflows/codeql.yml/badge.svg)](https://github.com/WhatTheFuzz/binaryninja-openai/actions/workflows/codeql.yml)\n\n# BinaryNinja-OpenAI\n\nIntegrates OpenAI's GPT3 with Binary Ninja via a plugin. Creates a query asking\n\"What does this function do?\" followed by the instructions in the High Level IL\nfunction. Returns the response to the user in Binary Ninja's console.\n\n## Installation\n\nIf you're installing this as a standalone plugin, you can place (or sym-link)\nthis in Binary Ninja's plugin path. Default paths are detailed on\n[Vector 35's documentation][default-plugin-dir].\n\nThis plugin has been tested on macOS and Linux. It probably works on Windows;\nplease submit a pull request if you've tested it.\n\n### Dependencies\n\n- Python 3.10+\n- `openai` installed with `pip3 install --user openai`\n\n## API Key\n\nThis requires an [API token from OpenAI][token]. The plugin checks for the API\nkey in three ways (in this order).\n\nFirst, it tries to read the key from Binary Ninja's preferences. You can\naccess the entry in Binary Ninja via `Edit > Preferences > Settings > OpenAI`.\nOr, use the hotkey \u2318+, and search for `OpenAI`. You should see customizable\nsettings like so.\n\n![Settings](https://github.com/WhatTheFuzz/binaryninja-openai/blob/main/resources/settings.png?raw=true)\n\nSecond, it checks the environment variable `OPENAI_API_KEY`, which you can set\ninside of Binary Ninja's Python console like so:\n\n```python\nimport os\nos.environ[\"OPENAI_API_KEY\"] = \"INSERT KEY HERE\"\n```\n\nOr you can write it to a file. The file is set in [entry.py][entry] and is a\nparameter to the Agent class. By default it checks for the file\n`~/.openai/api_key.txt`. You can add your API token like so:\n\n```shell\nmkdir ~/.openai\necho -n \"INSERT KEY HERE\" > ~/.openai/api_key.txt\n```\n\nNote that if you have all three set, the plugin defaults to one set in Binary\nNinja. If your API token is invalid, you'll receive the following error:\n\n```python\nopenai.error.AuthenticationError: Incorrect API key provided: <BAD KEY HERE>.\nYou can find your API key at https://beta.openai.com.\n```\n\n## Usage\n\nAfter installation, you can right-click on any function in Binary Ninja and\nselect `Plugins > OpenAI > What Does this Function Do (HLIL)?`. Alternatively,\nselect a function in Binary Ninja (by clicking on any instruction in the\nfunction) and use the menu bar options\n`Plugins > OpenAI > What Does this Function Do (HLIL)?`. If your cursor has\nanything else selected other than an instruction inside a function, `OpenAI`\nwill not appear as a selection inside the `Plugins` menu. This can happen if\nyou've selected data or instructions that Binary Ninja determined did not belong\ninside of the function.\n\nThe output will appear in Binary Ninja's Log like so:\n\n![The output of running the plugin.](https://github.com/WhatTheFuzz/binaryninja-openai/blob/main/resources/output.png?raw=true)\n\n## OpenAI Model\n\nBy default, the plugin uses the `text-davinci-003` model, you can tweak this\ninside Binary Ninja's preferences. You can access these settings as described in\nthe [API Key](#api-key) section. It uses the maximum available number of tokens\nfor each model, as described in [OpenAI's documentation][tokens].\n\n## Known Issues\n\nPlease submit an issue if you find something that isn't working properly.\n\n## License\n\nThis project is licensed under the [MIT license][license].\n\n[default-plugin-dir]:https://docs.binary.ninja/guide/plugins.html\n[token]:https://beta.openai.com/account/api-keys\n[tokens]:https://beta.openai.com/docs/models/gpt-3\n[entry]:./src/entry.py\n[license]:./LICENSE\n",
+        "longdescription": "[![CodeQL](https://github.com/WhatTheFuzz/binaryninja-openai/actions/workflows/codeql.yml/badge.svg)](https://github.com/WhatTheFuzz/binaryninja-openai/actions/workflows/codeql.yml)\n\n# BinaryNinja-OpenAI\n\nIntegrates OpenAI's GPT3 with Binary Ninja via a plugin. Creates a query asking\n\"What does this function do?\" followed by the instructions in the High Level IL\nfunction or the decompiled pseudo-C. Returns the response to the user in Binary\nNinja's console.\n\n## Installation\n\nIf you're installing this as a standalone plugin, you can place (or sym-link)\nthis in Binary Ninja's plugin path. Default paths are detailed on\n[Vector 35's documentation][default-plugin-dir].\n\nThis plugin has been tested on macOS and Linux. It probably works on Windows;\nplease submit a pull request if you've tested it.\n\n### Dependencies\n\n- Python 3.10+\n- `openai` installed with `pip3 install --user openai`\n\n## API Key\n\nThis requires an [API token from OpenAI][token]. The plugin checks for the API\nkey in three ways (in this order).\n\nFirst, it tries to read the key from Binary Ninja's preferences. You can\naccess the entry in Binary Ninja via `Edit > Preferences > Settings > OpenAI`.\nOr, use the hotkey \u2318+, and search for `OpenAI`. You should see customizable\nsettings like so.\n\n![Settings](https://github.com/WhatTheFuzz/binaryninja-openai/blob/main/resources/settings.png?raw=true)\n\nSecond, it checks the environment variable `OPENAI_API_KEY`, which you can set\ninside of Binary Ninja's Python console like so:\n\n```python\nimport os\nos.environ[\"OPENAI_API_KEY\"] = \"INSERT KEY HERE\"\n```\n\nOr you can write it to a file. The file is set in [entry.py][entry] and is a\nparameter to the Agent class. By default it checks for the file\n`~/.openai/api_key.txt`. You can add your API token like so:\n\n```shell\nmkdir ~/.openai\necho -n \"INSERT KEY HERE\" > ~/.openai/api_key.txt\n```\n\nNote that if you have all three set, the plugin defaults to one set in Binary\nNinja. If your API token is invalid, you'll receive the following error:\n\n```python\nopenai.error.AuthenticationError: Incorrect API key provided: <BAD KEY HERE>.\nYou can find your API key at https://beta.openai.com.\n```\n\n## Usage\n\nAfter installation, you can right-click on any function in Binary Ninja and\nselect `Plugins > OpenAI > What Does this Function Do (HLIL)?`. Alternatively,\nselect a function in Binary Ninja (by clicking on any instruction in the\nfunction) and use the menu bar options\n`Plugins > OpenAI > What Does this Function Do (HLIL)?`. If your cursor has\nanything else selected other than an instruction inside a function, `OpenAI`\nwill not appear as a selection inside the `Plugins` menu. This can happen if\nyou've selected data or instructions that Binary Ninja determined did not belong\ninside of the function.\n\nThe output will appear in Binary Ninja's Log like so:\n\n![The output of running the plugin.](https://github.com/WhatTheFuzz/binaryninja-openai/blob/main/resources/output.png?raw=true)\n\n## OpenAI Model\n\nBy default, the plugin uses the `text-davinci-003` model, you can tweak this\ninside Binary Ninja's preferences. You can access these settings as described in\nthe [API Key](#api-key) section. It uses the maximum available number of tokens\nfor each model, as described in [OpenAI's documentation][tokens].\n\n## Known Issues\n\nPlease submit an issue if you find something that isn't working properly.\n\n## License\n\nThis project is licensed under the [MIT license][license].\n\n[default-plugin-dir]:https://docs.binary.ninja/guide/plugins.html\n[token]:https://beta.openai.com/account/api-keys\n[tokens]:https://beta.openai.com/docs/models/gpt-3\n[entry]:./src/entry.py\n[license]:./LICENSE\n",
         "license": {
             "name": "MIT",
             "text": "Copyright 2022 Sean Deaton (@WhatTheFuzz)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -339,13 +339,13 @@
             "Linux"
         ],
         "installinstructions": {
-            "Darwin": "pip3 install --user openai. Under your OpenAI account, create an API key and set it to the environment variable OPENAI_API_KEY inside Binary Ninja's Python console.",
-            "Linux": "pip3 install --user openai. Under your OpenAI account, create an API key and set it to the environment variable OPENAI_API_KEY inside Binary Ninja's Python console."
+            "Darwin": "`pip3 install --user openai`.\n Add your OpenAI API key to the OpenAI preferences in Binary Ninja.",
+            "Linux": "`pip3 install --user openai`.\n Add your OpenAI API key to the OpenAI preferences in Binary Ninja."
         },
         "dependencies": "openai",
-        "version": "1.3.0",
+        "version": "1.4.0",
         "minimumbinaryninjaversion": 3200,
-        "lastUpdated": 1670857188,
+        "lastUpdated": 1670947371,
         "projectUrl": "https://github.com/WhatTheFuzz/binaryninja-openai",
         "projectData": {
             "id": 573610355,
@@ -414,8 +414,8 @@
             "releases_url": "https://api.github.com/repos/WhatTheFuzz/binaryninja-openai/releases{/id}",
             "deployments_url": "https://api.github.com/repos/WhatTheFuzz/binaryninja-openai/deployments",
             "created_at": "2022-12-02T22:18:47Z",
-            "updated_at": "2022-12-12T14:59:48",
-            "pushed_at": "2022-12-12T15:00:19Z",
+            "updated_at": "2022-12-13T16:02:51",
+            "pushed_at": "2022-12-13T16:01:16Z",
             "git_url": "git://github.com/WhatTheFuzz/binaryninja-openai.git",
             "ssh_url": "git@github.com:WhatTheFuzz/binaryninja-openai.git",
             "clone_url": "https://github.com/WhatTheFuzz/binaryninja-openai.git",
@@ -435,7 +435,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -457,7 +457,7 @@
             ],
             "visibility": "public",
             "forks": 0,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 4,
             "default_branch": "main",
             "permissions": {
@@ -469,12 +469,12 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 1
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/WhatTheFuzz",
-        "packageUrl": "https://api.github.com/repos/WhatTheFuzz/binaryninja-openai/zipball/refs/tags/1.3.0",
+        "packageUrl": "https://api.github.com/repos/WhatTheFuzz/binaryninja-openai/zipball/refs/tags/1.4.0",
         "path": "WhatTheFuzz_binaryninjaopenai",
-        "commit": "be32b0928a53cd7ff145271609a4fc6bd30fbc1d",
+        "commit": "aacb73c5aa97b92b9050ba381423eb9413711338",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -736,8 +736,8 @@
             "svn_url": "https://github.com/crytic/ethersplay",
             "homepage": null,
             "size": 2074,
-            "stargazers_count": 612,
-            "watchers_count": 612,
+            "stargazers_count": 614,
+            "watchers_count": 614,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -769,7 +769,7 @@
             "visibility": "public",
             "forks": 92,
             "open_issues": 9,
-            "watchers": 612,
+            "watchers": 614,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -5072,8 +5072,8 @@
             "svn_url": "https://github.com/gaasedelen/lighthouse",
             "homepage": "",
             "size": 11219,
-            "stargazers_count": 1805,
-            "watchers_count": 1805,
+            "stargazers_count": 1806,
+            "watchers_count": 1806,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -5108,7 +5108,7 @@
             "visibility": "public",
             "forks": 275,
             "open_issues": 23,
-            "watchers": 1805,
+            "watchers": 1806,
             "default_branch": "develop",
             "permissions": {
                 "admin": false,
