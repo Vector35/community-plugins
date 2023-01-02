@@ -1,5 +1,9 @@
 [
   {
+    "name": "dipusone/golang_pclntab_parser",
+    "auto_update": true
+  },  
+  {
     "name": "skr0x1c0/ipybinja",
     "auto_update": true
   },  
