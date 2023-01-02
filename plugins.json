@@ -1,7 +1,7 @@
 [
     {
         "pluginmetadataversion": 2,
-        "name": "GoLang pclntab parser",
+        "name": "GoLang binary parser",
         "author": "Jacopo Ferrigno",
         "type": [
             "ui"
@@ -9,8 +9,8 @@
         "api": [
             "python3"
         ],
-        "description": "BinaryNinja plugin to parse gopclntab and restore functions names for all GoLang versions.",
-        "longdescription": "This plugin will parse the gopclntab and restore the function names extracting the information from the `.gopclntab` section in the binary. If there is no section named .gopclntab it will try to search for the section.",
+        "description": "BinaryNinja plugin to parse GoLang binaries and restore some information, like function names and type information",
+        "longdescription": "This plugin will parse a go binary and restore information like the functions names, by parsing the .gopclntab, and extract typing information from the executable itself.",
         "license": {
             "name": "MIT",
             "text": "Copyright 2023 Jacopo Ferrigno\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -25,9 +25,9 @@
             "Windows": "no special instructions, package manager is recommended",
             "Linux": "no special instructions, package manager is recommended"
         },
-        "version": "1.0",
+        "version": "1.1",
         "minimumbinaryninjaversion": 3946,
-        "lastUpdated": 1672602461,
+        "lastUpdated": 1672694158,
         "projectUrl": "https://github.com/dipusone/golang_pclntab_parser",
         "projectData": {
             "id": 584185954,
@@ -96,14 +96,14 @@
             "releases_url": "https://api.github.com/repos/dipusone/golang_pclntab_parser/releases{/id}",
             "deployments_url": "https://api.github.com/repos/dipusone/golang_pclntab_parser/deployments",
             "created_at": "2023-01-01T18:37:15Z",
-            "updated_at": "2023-01-01T19:47:41",
-            "pushed_at": "2023-01-01T19:55:59Z",
+            "updated_at": "2023-01-02T21:15:58",
+            "pushed_at": "2023-01-02T21:15:25Z",
             "git_url": "git://github.com/dipusone/golang_pclntab_parser.git",
             "ssh_url": "git@github.com:dipusone/golang_pclntab_parser.git",
             "clone_url": "https://github.com/dipusone/golang_pclntab_parser.git",
             "svn_url": "https://github.com/dipusone/golang_pclntab_parser",
             "homepage": null,
-            "size": 8,
+            "size": 33,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
@@ -262,10 +262,10 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/dipusone",
-        "packageUrl": "https://api.github.com/repos/dipusone/golang_pclntab_parser/zipball/refs/tags/1.0",
+        "packageUrl": "https://api.github.com/repos/dipusone/golang_pclntab_parser/zipball/refs/tags/1.1",
         "dependencies": "",
         "path": "dipusone_golang_pclntab_parser",
-        "commit": "073d6230668ba561811933e3fa88401eadf64f4c",
+        "commit": "6a12405cff09c7071033ef10943328dcfbba18db",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -704,7 +704,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -726,7 +726,7 @@
             ],
             "visibility": "public",
             "forks": 1,
-            "open_issues": 2,
+            "open_issues": 3,
             "watchers": 23,
             "default_branch": "main",
             "permissions": {
@@ -1005,8 +1005,8 @@
             "svn_url": "https://github.com/crytic/ethersplay",
             "homepage": null,
             "size": 2074,
-            "stargazers_count": 641,
-            "watchers_count": 641,
+            "stargazers_count": 642,
+            "watchers_count": 642,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1038,7 +1038,7 @@
             "visibility": "public",
             "forks": 92,
             "open_issues": 9,
-            "watchers": 641,
+            "watchers": 642,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -2228,8 +2228,8 @@
             "svn_url": "https://github.com/hyuunnn/Hyara",
             "homepage": "",
             "size": 8640,
-            "stargazers_count": 182,
-            "watchers_count": 182,
+            "stargazers_count": 183,
+            "watchers_count": 183,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2272,7 +2272,7 @@
             "visibility": "public",
             "forks": 41,
             "open_issues": 3,
-            "watchers": 182,
+            "watchers": 183,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
