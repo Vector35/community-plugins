@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "BinaryNinja plugin to parse GoLang binaries and restore some information, like function names and type information",
-        "longdescription": "This plugin will parse a go binary and restore information like the functions names, by parsing the .gopclntab, and extract typing information from the executable itself.",
+        "longdescription": "This plugin will parse a go binary and restore information like the functions/file names, by parsing the .gopclntab, and extract typing information from the executable itself.",
         "license": {
             "name": "MIT",
             "text": "Copyright 2023 Jacopo Ferrigno\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -25,9 +25,9 @@
             "Windows": "no special instructions, package manager is recommended",
             "Linux": "no special instructions, package manager is recommended"
         },
-        "version": "1.1",
+        "version": "1.2",
         "minimumbinaryninjaversion": 3946,
-        "lastUpdated": 1672694158,
+        "lastUpdated": 1672847103,
         "projectUrl": "https://github.com/dipusone/golang_pclntab_parser",
         "projectData": {
             "id": 584185954,
@@ -96,8 +96,8 @@
             "releases_url": "https://api.github.com/repos/dipusone/golang_pclntab_parser/releases{/id}",
             "deployments_url": "https://api.github.com/repos/dipusone/golang_pclntab_parser/deployments",
             "created_at": "2023-01-01T18:37:15Z",
-            "updated_at": "2023-01-02T21:15:58",
-            "pushed_at": "2023-01-02T21:15:25Z",
+            "updated_at": "2023-01-04T15:45:03",
+            "pushed_at": "2023-01-04T15:44:08Z",
             "git_url": "git://github.com/dipusone/golang_pclntab_parser.git",
             "ssh_url": "git@github.com:dipusone/golang_pclntab_parser.git",
             "clone_url": "https://github.com/dipusone/golang_pclntab_parser.git",
@@ -262,10 +262,10 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/dipusone",
-        "packageUrl": "https://api.github.com/repos/dipusone/golang_pclntab_parser/zipball/refs/tags/1.1",
+        "packageUrl": "https://api.github.com/repos/dipusone/golang_pclntab_parser/zipball/refs/tags/1.2",
         "dependencies": "",
         "path": "dipusone_golang_pclntab_parser",
-        "commit": "6a12405cff09c7071033ef10943328dcfbba18db",
+        "commit": "62a4239b0c479dceed2f36be1b4a19e594829b68",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -998,7 +998,7 @@
             "deployments_url": "https://api.github.com/repos/crytic/ethersplay/deployments",
             "created_at": "2017-10-18T21:17:19Z",
             "updated_at": "2022-11-03T17:37:14",
-            "pushed_at": "2022-12-29T20:10:55Z",
+            "pushed_at": "2023-01-03T15:05:25Z",
             "git_url": "git://github.com/crytic/ethersplay.git",
             "ssh_url": "git@github.com:crytic/ethersplay.git",
             "clone_url": "https://github.com/crytic/ethersplay.git",
@@ -1018,7 +1018,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 9,
+            "open_issues_count": 8,
             "license": {
                 "key": "agpl-3.0",
                 "name": "GNU Affero General Public License v3.0",
@@ -1037,7 +1037,7 @@
             ],
             "visibility": "public",
             "forks": 92,
-            "open_issues": 9,
+            "open_issues": 8,
             "watchers": 642,
             "default_branch": "master",
             "permissions": {
@@ -4421,8 +4421,8 @@
             "svn_url": "https://github.com/bootleg/ret-sync",
             "homepage": "",
             "size": 2516,
-            "stargazers_count": 1503,
-            "watchers_count": 1503,
+            "stargazers_count": 1505,
+            "watchers_count": 1505,
             "language": "C",
             "has_issues": true,
             "has_projects": true,
@@ -4430,7 +4430,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 214,
+            "forks_count": 215,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -4456,9 +4456,9 @@
                 "software-analysis"
             ],
             "visibility": "public",
-            "forks": 214,
+            "forks": 215,
             "open_issues": 10,
-            "watchers": 1503,
+            "watchers": 1505,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -4468,7 +4468,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 214,
+            "network_count": 215,
             "subscribers_count": 49
         },
         "authorUrl": "https://github.com/bootleg",
@@ -5343,8 +5343,8 @@
             "svn_url": "https://github.com/gaasedelen/lighthouse",
             "homepage": "",
             "size": 11219,
-            "stargazers_count": 1816,
-            "watchers_count": 1816,
+            "stargazers_count": 1819,
+            "watchers_count": 1819,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -5379,7 +5379,7 @@
             "visibility": "public",
             "forks": 276,
             "open_issues": 23,
-            "watchers": 1816,
+            "watchers": 1819,
             "default_branch": "develop",
             "permissions": {
                 "admin": false,
@@ -12546,8 +12546,8 @@
             "svn_url": "https://github.com/shareef12/driveranalyzer",
             "homepage": "",
             "size": 765,
-            "stargazers_count": 7,
-            "watchers_count": 7,
+            "stargazers_count": 8,
+            "watchers_count": 8,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -12574,7 +12574,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 1,
-            "watchers": 7,
+            "watchers": 8,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
