@@ -1,5 +1,9 @@
 [
   {
+    "name": "elbee-cyber/analyze_char_arrays",
+    "auto_update": true
+  },
+  {
     "name": "dipusone/golang_pclntab_parser",
     "auto_update": true
   },  
