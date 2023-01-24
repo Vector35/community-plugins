@@ -1,5 +1,9 @@
 [
   {
+    "name": "cxiao/hashdb_bn",
+    "auto_update": true
+  },
+  {
     "name": "elbee-cyber/analyze_char_arrays",
     "auto_update": true
   },
