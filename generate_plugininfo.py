@@ -5,30 +5,11 @@ This script helps in the process of creating required metadata to add a plugin t
 import json
 import argparse
 import os
-import sys
 import io
 import datetime
-import pprint
-import tempfile
 from builtins import input
-import sys, tempfile, os
-from subprocess import call
 
 currentpluginmetadataversion = 2
-
-# def getEditorData(message):
-# 	EDITOR = os.environ.get('EDITOR','vim')
-
-# 	initial_message = message
-# 	edited_message = ""
-# 	with tempfile.NamedTemporaryFile(suffix=".tmp") as tf:
-# 		tf.write(initial_message.encode("utf-8"))
-# 		tf.flush()
-# 		call([EDITOR, tf.name])
-
-# 		tf.seek(0)
-# 		edited_message = tf.read().decode("utf-8")
-# 	return edited_message
 
 validPluginTypes = ["core", "ui", "binaryview", "architecture", "helper"]
 validApis = ["python2", "python3"]
