@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 import sys
+import os
 import json
 import argparse
 import base64
 import requests
-from requests.auth import HTTPBasicAuth
 from dateutil import parser
 import re
 from datetime import datetime
@@ -28,7 +28,7 @@ def getfile(url):
     return requests.get(url, headers={'Authorization': f'token {token}'})
 
 
-def getPluginJson(plugin):
+def getPluginJson(plugin, shortUrls):
     if "site" in plugin:
         print("We only currently support github projects")
         return
@@ -59,7 +59,7 @@ def getPluginJson(plugin):
             plugin['tag'] = releaseData['tag_name']
 
         except requests.exceptions.HTTPError:
-            print(f" Unable get get url {latestRelease}")
+            print(f" Unable to get url {latestRelease}")
             return None
     else:
 
@@ -71,11 +71,12 @@ def getPluginJson(plugin):
                 print(f"Tried to use URL: {releases}")
                 return None
         except requests.exceptions.HTTPError:
-            print(f" Unable get get url {releases}")
+            print(f" Unable to get url {releases}")
             return None
 
     commit = None
     zipUrl = None
+    shortUrl = ""
     # Lookup the tag url and find the associated commit
     try:
         tagData = getfile(tagsUrl).json()
@@ -88,14 +89,29 @@ def getPluginJson(plugin):
             print(f"Unable to associate tag {plugin['tag']} with a commit for plugin {plugin['name']}")
             return None
     except requests.exceptions.HTTPError:
-        print(f" Unable get get url {tagsUrl}")
+        print(f" Unable to get url {tagsUrl}")
         return None
+
+    try:
+        if zipUrl in shortUrls: #avoid duplicates
+            shortUrl = shortUrls[zipUrl]
+        elif os.getenv("URL_SHORTENER"):
+            url = os.getenv("URL_SHORTENER")
+            jsonData = {"cdn_prefix": "v35.us", "url_long": zipUrl}
+            r = requests.post(url, json=jsonData)
+            jsonResponse = json.loads(r.text)
+            if jsonResponse['error'] == '':
+                shortUrl = jsonResponse["url_short"]
+            assert shortUrl.find("http") == 0
+    except:
+        print(f" Unable to shorten url {zipUrl}")
+        pass
 
     projectData = None
     try:
         projectData = getfile(projectUrl).json()
     except requests.exceptions.HTTPError:
-        print(f" Unable get get url {projectUrl}")
+        print(f" Unable to get url {projectUrl}")
         return None
 
     data = None
@@ -129,7 +145,7 @@ def getPluginJson(plugin):
             # Using old style json
             data = data["plugin"]
     except requests.exceptions.HTTPError:
-        print(f" Unable get get url {pluginjson}")
+        print(f" Unable to get url {pluginjson}")
         return None
 
     requirements_txt = ""
@@ -156,6 +172,7 @@ def getPluginJson(plugin):
     data["projectData"]["updated_at"] = datetime.utcfromtimestamp(lastUpdated).isoformat()
     data["authorUrl"] = site + userName
     data["packageUrl"] = zipUrl
+    data["packageShortUrl"] = shortUrl
     data["dependencies"] = requirements_txt
 
     # Replace the fwd slash with _ and then strip all non (alpha, numeric, _ )
@@ -193,21 +210,25 @@ def main():
 
     pluginjson = Path("./plugins.json")
 
+    oldPlugins = {}
+    shortUrls = {}
+    if pluginjson.exists():
+        with open(pluginjson) as pluginsFile:
+            for i, plugin in enumerate(json.load(pluginsFile)):
+                # Create lookup for existing urls to avoid duplication
+                if "packageShortUrl" in plugin and len(plugin["packageShortUrl"]) > 0:
+                    shortUrls[plugin["packageUrl"]] = plugin["packageShortUrl"]
+                oldPlugins[plugin["projectData"]["full_name"]] = plugin["lastUpdated"]
+
     allPlugins = {}
     listing = json.load(open(args.listing, "r", encoding="utf-8"))
     for i, plugin in enumerate(listing):
         printProgressBar(i, len(listing), prefix="Collecting Plugin JSON files:")
-        jsonData = getPluginJson(plugin)
+        jsonData = getPluginJson(plugin, shortUrls)
         if jsonData is None:
             return
         allPlugins[plugin["name"]] = jsonData
     printProgressBar(len(listing), len(listing), prefix="Collecting Plugin JSON files:")
-
-    oldPlugins = {}
-    if pluginjson.exists():
-        with open(pluginjson) as pluginsFile:
-            for i, plugin in enumerate(json.load(pluginsFile)):
-                oldPlugins[plugin["projectData"]["full_name"]] = plugin["lastUpdated"]
 
     newPlugins = []
     updatedPlugins = []

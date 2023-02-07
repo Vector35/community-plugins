@@ -16,11 +16,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-        
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Run Generator
+        env:
+          URL_SHORTENER: ${{ secrets.URL_SHORTENER }}
         run: python3 generate_index.py ${{ secrets.M_GITHUB_TOKEN }}
 
       - name: Commit changes
