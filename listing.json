@@ -110,10 +110,6 @@
     "auto_update": true
   },
   {
-    "name": "matteyeux/binja-import-header",
-    "auto_update": true
-  },
-  {
     "name": "bootleg/ret-sync",
     "auto_update": true,
     "subdir": "ext_bn/retsync"
