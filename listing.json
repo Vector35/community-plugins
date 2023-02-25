@@ -1,5 +1,10 @@
 [
   {
+    "name": "mahaloz/decomp2dbg",
+    "auto_update": true,
+    "subdir": "decompilers/d2d_binja"
+  },
+  {
     "name": "cxiao/hashdb_bn",
     "auto_update": true
   },
