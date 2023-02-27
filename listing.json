@@ -1,5 +1,9 @@
 [
   {
+    "name": "dayzerosec/AMD-SP-Loader",
+    "auto_update": true
+  },
+  {
     "name": "mahaloz/decomp2dbg",
     "auto_update": true,
     "subdir": "decompilers/d2d_binja"
