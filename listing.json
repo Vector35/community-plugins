@@ -275,7 +275,7 @@
   },
   {
     "name": "apekros/binja_sigmaker",
-    "tag": "2.0"
+    "auto_update": true
   },
   {
     "name": "Vasco-jofra/jump-table-branch-editor",
