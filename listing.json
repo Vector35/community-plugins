@@ -1,5 +1,9 @@
 [
   {
+    "name": "lockbox/pd-ninja",
+    "auto_update": true
+  },
+  {
     "name": "dayzerosec/AMD-SP-Loader",
     "auto_update": true
   },
