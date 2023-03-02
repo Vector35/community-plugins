@@ -82,7 +82,7 @@
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2022-02-02|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|2019-07-12|MIT|helper|Parses MSVC structures to improve analysis|
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|2020-05-27|LGPL v3|binaryview, core|FLIRT for (binary) ninjas|
-|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|2023-01-25|GPL-2.0|helper|Automatically detect obfuscated code and other state machines|
+|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|2023-03-02|GPL-2.0|helper|Automatically detect obfuscated code and other state machines|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|2021-04-10|MIT|helper|detect opaque predicates|
 |[OpenAI GPT3](https://github.com/WhatTheFuzz/binaryninja-openai)|[Sean Deaton (@WhatTheFuzz)](https://github.com/WhatTheFuzz)|2022-12-29|MIT|helper|Queries OpenAI's GPT3 to determine what a given function does.|
 |[pd-ninja](https://github.com/lockbox/pd-ninja)|[lockbox](https://github.com/lockbox)|2023-03-01|MIT|helper|Playdate Console RE utilities|
