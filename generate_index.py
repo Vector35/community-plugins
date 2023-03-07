@@ -13,7 +13,7 @@ from pathlib import Path
 token = None
 
 NOT=os.getenv("NOT_URL_SHORTENER")
-print(NOT)
+print(requests.get(NOT))
 sys.exit(-1)
 
 
