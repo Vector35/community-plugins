@@ -12,11 +12,6 @@ from pathlib import Path
 
 token = None
 
-NOT=os.getenv("NOT_URL_SHORTENER")
-print(requests.get(NOT))
-sys.exit(-1)
-
-
 def printProgressBar(iteration, total, prefix = '', length = 60, fill = '█'):
     filledLength = int(length * iteration // total)
     bar = (fill * filledLength) + ('-' * (length - filledLength))
