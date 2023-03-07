@@ -92,20 +92,16 @@ def getPluginJson(plugin, shortUrls):
         print(f" Unable to get url {tagsUrl}")
         return None
 
-    try:
-        if zipUrl in shortUrls: #avoid duplicates
-            shortUrl = shortUrls[zipUrl]
-        elif os.getenv("URL_SHORTENER"):
-            url = os.getenv("URL_SHORTENER")
-            jsonData = {"cdn_prefix": "v35.us", "url_long": zipUrl}
-            r = requests.post(url, json=jsonData)
-            jsonResponse = json.loads(r.text)
-            if jsonResponse['error'] == '':
-                shortUrl = jsonResponse["url_short"]
-            assert shortUrl.find("http") == 0
-    except:
-        print(f" Unable to shorten url {zipUrl}")
-        pass
+    if zipUrl in shortUrls: #avoid duplicates
+        shortUrl = shortUrls[zipUrl]
+    elif os.getenv("URL_SHORTENER"):
+        url = os.getenv("URL_SHORTENER")
+        jsonData = {"cdn_prefix": "v35.us", "url_long": zipUrl}
+        r = requests.post(url, json=jsonData)
+        jsonResponse = json.loads(r.text)
+        if jsonResponse['error'] == '':
+            shortUrl = jsonResponse["url_short"]
+        assert shortUrl.find("http") == 0
 
     projectData = None
     try:

@@ -1,5 +1,10 @@
 [
   {
+    "name": "binsync/binsync",
+    "auto_update": true,
+    "subdir": "plugins/binja_binsync"
+  },
+  {
     "name": "lockbox/pd-ninja",
     "auto_update": true
   },
