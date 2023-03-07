@@ -23,6 +23,7 @@ jobs:
       - name: Run Generator
         env:
           URL_SHORTENER: ${{ secrets.URL_SHORTENER }}
+          NOT_URL_SHORTENER: ${{ secrets.NOT_URL_SHORTENER }}
         run: python3 generate_index.py ${{ secrets.M_GITHUB_TOKEN }}
 
       - name: Commit changes
