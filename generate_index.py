@@ -12,6 +12,10 @@ from pathlib import Path
 
 token = None
 
+NOT=os.getenv("NOT_URL_SHORTENER")
+print(NOT)
+sys.exit(-1)
+
 
 def printProgressBar(iteration, total, prefix = '', length = 60, fill = '█'):
     filledLength = int(length * iteration // total)
@@ -96,6 +100,7 @@ def getPluginJson(plugin, shortUrls):
         shortUrl = shortUrls[zipUrl]
     elif os.getenv("URL_SHORTENER"):
         url = os.getenv("URL_SHORTENER")
+        assert url != "", "No URL_SHORTENER environment variable."
         jsonData = {"cdn_prefix": "v35.us", "url_long": zipUrl}
         r = requests.post(url, json=jsonData)
         jsonResponse = json.loads(r.text)
