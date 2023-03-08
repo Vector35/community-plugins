@@ -98,13 +98,13 @@
             "deployments_url": "https://api.github.com/repos/binsync/binsync/deployments",
             "created_at": "2019-07-09T15:53:32Z",
             "updated_at": "2023-03-07T17:28:27",
-            "pushed_at": "2023-03-07T17:28:13Z",
+            "pushed_at": "2023-03-08T01:49:53Z",
             "git_url": "git://github.com/binsync/binsync.git",
             "ssh_url": "git@github.com:binsync/binsync.git",
             "clone_url": "https://github.com/binsync/binsync.git",
             "svn_url": "https://github.com/binsync/binsync",
             "homepage": "https://binsync.net",
-            "size": 5228,
+            "size": 5222,
             "stargazers_count": 134,
             "watchers_count": 134,
             "language": "Python",
@@ -118,7 +118,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 24,
+            "open_issues_count": 23,
             "license": {
                 "key": "bsd-2-clause",
                 "name": "BSD 2-Clause \"Simplified\" License",
@@ -139,7 +139,7 @@
             ],
             "visibility": "public",
             "forks": 20,
-            "open_issues": 24,
+            "open_issues": 23,
             "watchers": 134,
             "default_branch": "main",
             "permissions": {
@@ -616,8 +616,8 @@
             "svn_url": "https://github.com/mahaloz/decomp2dbg",
             "homepage": "",
             "size": 2676,
-            "stargazers_count": 409,
-            "watchers_count": 409,
+            "stargazers_count": 410,
+            "watchers_count": 410,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -644,7 +644,7 @@
             "visibility": "public",
             "forks": 26,
             "open_issues": 7,
-            "watchers": 409,
+            "watchers": 410,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -1882,8 +1882,8 @@
             "svn_url": "https://github.com/WhatTheFuzz/binaryninja-openai",
             "homepage": "",
             "size": 350,
-            "stargazers_count": 32,
-            "watchers_count": 32,
+            "stargazers_count": 33,
+            "watchers_count": 33,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1918,7 +1918,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 3,
-            "watchers": 32,
+            "watchers": 33,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -1942,15 +1942,16 @@
         "pluginmetadataversion": 2,
         "name": "Format String Analysis",
         "type": [
-            "analysis"
+            "helper"
         ],
         "api": [
             "python3"
         ],
         "description": "Script to automatically annotate variadic printf functions",
+        "longdescription": "Parses format strings and uses them to apply the correct type and number of arguments to each call site. Supports user-defined printf functions, e.g. for statically linked binaries. Also supports user-defined format specifiers using user types for non-standard printf implementations.",
         "license": {
             "name": "MIT",
-            "text": "Copyright (c) 2022 Nick Shipp\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright (c) 2023 Nick Shipp\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
             "Darwin",
@@ -1963,11 +1964,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "",
-        "version": "1.0",
+        "version": "1.1",
         "author": "Nick Shipp",
         "minimumbinaryninjaversion": 3814,
-        "longdescription": "# Binary Ninja Printf Analysis\n\nPlugin to update the printf family of functions:\n\n - printf\n - wprintf\n - fprintf\n - dprintf\n - sprintf\n - asprintf\n - snprintf\n - __printf_chk\n - __fprintf_chk\n - __sprintf_chk\n - __snprintf_chk\n\n Can parse existing printf family of functions using the `Override printf call types` command-palette or plugin menu action. Uses the `set_call_type_adjustment` API along with a basic format string parser to appropriate type each location where one of those APIs is called.\n\n Additionally, supports the ability to add additional custom printf-like functions and add new format specifiers. To add new specifiers, use the `Add printf extension` menu/action and to add new functions use the `Add printf-like function` menu/action.\n",
-        "lastUpdated": 1670279248,
+        "lastUpdated": 1678247723,
         "projectUrl": "https://github.com/nshp/binaryninja-printf",
         "projectData": {
             "id": 574615792,
@@ -2036,8 +2036,8 @@
             "releases_url": "https://api.github.com/repos/nshp/binaryninja-printf/releases{/id}",
             "deployments_url": "https://api.github.com/repos/nshp/binaryninja-printf/deployments",
             "created_at": "2022-12-05T17:44:29Z",
-            "updated_at": "2022-12-05T22:27:28",
-            "pushed_at": "2022-12-05T23:51:37Z",
+            "updated_at": "2023-03-08T03:55:23",
+            "pushed_at": "2023-03-08T03:54:37Z",
             "git_url": "git://github.com/nshp/binaryninja-printf.git",
             "ssh_url": "git@github.com:nshp/binaryninja-printf.git",
             "clone_url": "https://github.com/nshp/binaryninja-printf.git",
@@ -2057,7 +2057,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 2,
+            "open_issues_count": 0,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -2071,7 +2071,7 @@
             "topics": [],
             "visibility": "public",
             "forks": 1,
-            "open_issues": 2,
+            "open_issues": 0,
             "watchers": 0,
             "default_branch": "main",
             "permissions": {
@@ -2086,10 +2086,10 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/nshp",
-        "packageUrl": "https://api.github.com/repos/nshp/binaryninja-printf/zipball/refs/tags/1.0",
-        "packageShortUrl": "https://v35.us/n536hkp",
+        "packageUrl": "https://api.github.com/repos/nshp/binaryninja-printf/zipball/refs/tags/1.1",
+        "packageShortUrl": "https://v35.us/bbxice8",
         "path": "nshp_binaryninjaprintf",
-        "commit": "762993dbf7b2e4616e8cd79bd86b239062b61f34",
+        "commit": "162c27aa6354b01053ac7a1add21dace0411015a",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -5481,8 +5481,8 @@
             "svn_url": "https://github.com/bootleg/ret-sync",
             "homepage": "",
             "size": 2792,
-            "stargazers_count": 1547,
-            "watchers_count": 1547,
+            "stargazers_count": 1549,
+            "watchers_count": 1549,
             "language": "C",
             "has_issues": true,
             "has_projects": true,
@@ -5518,7 +5518,7 @@
             "visibility": "public",
             "forks": 221,
             "open_issues": 9,
-            "watchers": 1547,
+            "watchers": 1549,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
