@@ -1,5 +1,9 @@
 [
   {
+    "name": "rikodot/binja_native_sigscan_loader",
+    "auto_update": true
+  },
+  {
     "name": "binsync/binsync",
     "auto_update": true,
     "subdir": "decompiler_stubs/binja_binsync"
