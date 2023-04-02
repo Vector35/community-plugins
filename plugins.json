@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Find and create signatures",
-        "longdescription": "This plugin allows to scan analyzed binaries for signatures or create them. Supports both normal signatures (e.g. 49 28 15 ? ? 30) and commonly used code signatures (e.g. \"\\x49\\x28\\x15\\x00\\x00\\x30\", \"xxx??x\").\n\nAs title suggests, it is coded in C++ and utilizes Binary Ninja's native API. For this reason this plugin serves just as a loader for the [actual plugin](https://github.com/rikodot/binja_native_sigscan).\n\nCurrently works on Windows only!",
+        "longdescription": "This plugin allows to scan analyzed binaries for signatures and their creation. Supports both normal signatures (e.g. 49 28 15 ? ? 30) and commonly used code signatures (e.g. \"\\x49\\x28\\x15\\x00\\x00\\x30\", \"xxx??x\").\n\nAs title suggests, it is coded in C++ and utilizes Binary Ninja's native API. For this reason this plugin serves just as a loader for the [actual plugin](https://github.com/rikodot/binja_native_sigscan).\n\nCurrently works on Windows only!\n\n![](https://github.com/rikodot/binja_native_sigscan/blob/main/preview.gif)",
         "license": {
             "name": "MIT",
             "text": "MIT License\n\nCopyright (c) 2023 rikodot\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -22,10 +22,10 @@
             "Windows": ""
         },
         "dependencies": "requests\nbs4",
-        "version": "1.0.0",
+        "version": "1.0.2",
         "author": "rikodot",
         "minimumbinaryninjaversion": 0,
-        "lastUpdated": 1680220971,
+        "lastUpdated": 1680448766,
         "projectUrl": "https://github.com/rikodot/binja_native_sigscan_loader",
         "projectData": {
             "id": 615848901,
@@ -54,7 +54,7 @@
                 "site_admin": false
             },
             "html_url": "https://github.com/rikodot/binja_native_sigscan_loader",
-            "description": null,
+            "description": "Loader for my Native Sigscan Binary Ninja plugin",
             "fork": false,
             "url": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader",
             "forks_url": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/forks",
@@ -94,14 +94,14 @@
             "releases_url": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/releases{/id}",
             "deployments_url": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/deployments",
             "created_at": "2023-03-18T21:15:46Z",
-            "updated_at": "2023-03-31T00:02:51",
-            "pushed_at": "2023-03-31T00:02:33Z",
+            "updated_at": "2023-04-02T15:19:26",
+            "pushed_at": "2023-04-02T15:19:09Z",
             "git_url": "git://github.com/rikodot/binja_native_sigscan_loader.git",
             "ssh_url": "git@github.com:rikodot/binja_native_sigscan_loader.git",
             "clone_url": "https://github.com/rikodot/binja_native_sigscan_loader.git",
             "svn_url": "https://github.com/rikodot/binja_native_sigscan_loader",
             "homepage": "",
-            "size": 14,
+            "size": 20,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
@@ -158,10 +158,10 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/rikodot",
-        "packageUrl": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/zipball/refs/tags/1.0.1",
-        "packageShortUrl": "https://v35.us/92rcezv",
+        "packageUrl": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/zipball/refs/tags/1.0.2",
+        "packageShortUrl": "https://v35.us/qkwbc87",
         "path": "rikodot_binja_native_sigscan_loader",
-        "commit": "3843c45ab124ebc5c588eab5fec681d375a343cc",
+        "commit": "eefecafa5a896dd1b093bfe3011256d855f1d885",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -270,8 +270,8 @@
             "svn_url": "https://github.com/binsync/binsync",
             "homepage": "https://binsync.net",
             "size": 7944,
-            "stargazers_count": 270,
-            "watchers_count": 270,
+            "stargazers_count": 285,
+            "watchers_count": 285,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -279,7 +279,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 22,
+            "forks_count": 25,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -303,9 +303,9 @@
                 "reverse-engineering"
             ],
             "visibility": "public",
-            "forks": 22,
+            "forks": 25,
             "open_issues": 21,
-            "watchers": 270,
+            "watchers": 285,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -335,7 +335,7 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 22,
+            "network_count": 25,
             "subscribers_count": 10
         },
         "authorUrl": "https://github.com/binsync",
@@ -2047,8 +2047,8 @@
             "svn_url": "https://github.com/WhatTheFuzz/binaryninja-openai",
             "homepage": "",
             "size": 351,
-            "stargazers_count": 40,
-            "watchers_count": 40,
+            "stargazers_count": 42,
+            "watchers_count": 42,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2056,7 +2056,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": true,
-            "forks_count": 2,
+            "forks_count": 3,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -2081,9 +2081,9 @@
                 "reverse-engineering"
             ],
             "visibility": "public",
-            "forks": 2,
+            "forks": 3,
             "open_issues": 4,
-            "watchers": 40,
+            "watchers": 42,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -2093,7 +2093,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 2,
+            "network_count": 3,
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/WhatTheFuzz",
@@ -5647,8 +5647,8 @@
             "svn_url": "https://github.com/bootleg/ret-sync",
             "homepage": "",
             "size": 2792,
-            "stargazers_count": 1572,
-            "watchers_count": 1572,
+            "stargazers_count": 1573,
+            "watchers_count": 1573,
             "language": "C",
             "has_issues": true,
             "has_projects": true,
@@ -5684,7 +5684,7 @@
             "visibility": "public",
             "forks": 224,
             "open_issues": 10,
-            "watchers": 1572,
+            "watchers": 1573,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -10916,7 +10916,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 13,
+            "forks_count": 14,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -10940,7 +10940,7 @@
                 "signature-matcher"
             ],
             "visibility": "public",
-            "forks": 13,
+            "forks": 14,
             "open_issues": 3,
             "watchers": 63,
             "default_branch": "master",
@@ -10952,7 +10952,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 13,
+            "network_count": 14,
             "subscribers_count": 7
         },
         "authorUrl": "https://github.com/thebabush",
@@ -11861,7 +11861,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -11875,7 +11875,7 @@
             "topics": [],
             "visibility": "public",
             "forks": 3,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 18,
             "default_branch": "master",
             "permissions": {
@@ -12155,8 +12155,8 @@
             "svn_url": "https://github.com/zznop/bnida",
             "homepage": "",
             "size": 2605,
-            "stargazers_count": 107,
-            "watchers_count": 107,
+            "stargazers_count": 108,
+            "watchers_count": 108,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -12183,7 +12183,7 @@
             "visibility": "public",
             "forks": 12,
             "open_issues": 2,
-            "watchers": 107,
+            "watchers": 108,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -14804,7 +14804,7 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 2
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja_function_abi/zipball/refs/tags/v1.1",
@@ -14955,7 +14955,7 @@
             },
             "temp_clone_token": "",
             "network_count": 9,
-            "subscribers_count": 6
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja_itanium_cxx_abi/zipball/refs/tags/v1.2",
@@ -15106,7 +15106,7 @@
             },
             "temp_clone_token": "",
             "network_count": 1,
-            "subscribers_count": 2
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja-i8086/zipball/refs/tags/v0.1",
@@ -15261,7 +15261,7 @@
             },
             "temp_clone_token": "",
             "network_count": 5,
-            "subscribers_count": 2
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja-m16c/zipball/refs/tags/v1.0",
