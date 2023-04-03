@@ -1,4 +1,9 @@
 [
+  
+  {
+    "name": "Njord0/BNPyc",
+    "auto_update": true
+  },
   {
     "name": "rikodot/binja_native_sigscan_loader",
     "auto_update": true
