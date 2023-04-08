@@ -59,7 +59,7 @@
 |[GoLang binary parser](https://github.com/dipusone/golang_pclntab_parser)|[Jacopo Ferrigno](https://github.com/dipusone)|2023-01-05|MIT|ui|BinaryNinja plugin to parse GoLang binaries and restore some information, like function names and type information|
 |[Golang Symbol Restore](https://github.com/d-we/binja-golang-symbol-restore)|[Daniel Weber](https://github.com/d-we)|2020-10-19|MIT|helper|Binary Ninja plugin for restoring function names from stripped Golang binaries|
 |[Golang Symbol Restore 1.18+](https://github.com/scmerrill/golang_1_18_restore_names)|[Spencer Merrill](https://github.com/scmerrill)|2022-09-08|MIT|helper|Binary Ninja plugin for restoring function names from stripped Golang binaries|
-|[HashDB](https://github.com/cxiao/hashdb_bn)|[Cindy Xiao](https://github.com/cxiao)|2023-01-29|3-Clause BSD|helper, ui|Plugin for interacting with the OALabs HashDB service.|
+|[HashDB](https://github.com/cxiao/hashdb_bn)|[Cindy Xiao](https://github.com/cxiao)|2023-04-08|3-Clause BSD|helper, ui|Plugin for interacting with the OALabs HashDB service.|
 |[Hex Integers in Python Console](https://github.com/CouleeApps/hex_integers)|[Glenn Smith](https://github.com/CouleeApps)|2023-01-16|MIT|helper|Makes your integers print as hex in the python console.|
 |[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-10-03|MIT|binaryview|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|
 |[HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|[atxsinn3r](https://github.com/atxsinn3r)|2020-06-07|BSD-3-Clause|helper|Dumps HLIL code to a directory|
@@ -83,7 +83,7 @@
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|2022-02-02|MIT|architecture|MSP430 Architecture Plugin for Binary Ninja|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|2019-07-12|MIT|helper|Parses MSVC structures to improve analysis|
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|2020-05-27|LGPL v3|binaryview, core|FLIRT for (binary) ninjas|
-|[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|2023-04-02|MIT|helper|Find and create signatures|
+|[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|2023-04-07|MIT|helper|Find and create signatures|
 |[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|2023-03-14|GPL-2.0|helper|Automatically detect obfuscated code and other interesting code constructs|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|2021-04-10|MIT|helper|detect opaque predicates|
 |[OpenAI GPT3](https://github.com/WhatTheFuzz/binaryninja-openai)|[Sean Deaton (@WhatTheFuzz)](https://github.com/WhatTheFuzz)|2022-12-29|MIT|helper|Queries OpenAI's GPT3 to determine what a given function does.|
