@@ -280,6 +280,8 @@ def main():
             readme.write(u"|------------|--------|--------------|---------|----------|-------------|\n")
 
             for plugin in dict(sorted(allPlugins.items(), key=lambda x: x[1]['name'].casefold())).values():
+                if "type" not in plugin:
+                    plugin['type'] = ["None"]
                 readme.write(f"|[{plugin['name']}]({plugin['projectUrl']})"
                     f"|[{plugin['author']}]({plugin['authorUrl']})"
                     f"|{datetime.fromtimestamp(plugin['lastUpdated']).date()}"
