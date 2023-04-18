@@ -4,10 +4,6 @@
     "auto_update": true
   },
   {
-    "name": "ald3ns/copy-as-yara",
-    "auto_update": true
-  },
-  {
     "name": "Njord0/BNPyc",
     "auto_update": true
   },
