@@ -16,7 +16,7 @@
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|2022-05-28|GPL-3.0|architecture|A Binary Ninja architecture plugin for the AD Blackfin architecture|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|2022-01-14|MIT|helper|Recover Linux kernel build configurations|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|2021-01-18|Apache-2.0|architecture|RISC-V architecture plugin.|
-|[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|2021-05-30|MIT|helper|Helper plugin for analyzing UEFI firmware|
+|[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|2023-04-28|MIT|helper|Helper plugin for analyzing UEFI firmware|
 |[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|2023-02-15|MIT|helper|Scriptable code coverage analysis and visualization plugin|
 |[BNHook](https://github.com/jeffli678/bnhook)|[Grant Orndorff](https://github.com/jeffli678)|2021-03-29|MIT|core, ui|Insert custom hooks|
 |[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Transfer analysis data between Binary Ninja and IDA|
@@ -99,6 +99,7 @@
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-14|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|2022-07-08|MIT|helper|Package binary code as a Python class backed by Unicorn-Engine|
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2021-10-31|MIT|helper|Demangles Rust symbols.|
+|[Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|[Cindy Xiao](https://github.com/cxiao)|2023-04-27|MIT|helper|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|
 |[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|2022-06-09|MIT|helper|Easily capture Binary Ninja screenshots in ultra-high resolution|
 |[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2022-02-19|MIT|helper, ui|Helper for exploring structured exception handlers in PEs|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|2022-01-25|2-Clause BSD|helper|Symbolic execution plugin for BinaryNinja|
