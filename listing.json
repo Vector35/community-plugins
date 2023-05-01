@@ -1,5 +1,9 @@
 [
   {
+    "name": "cxiao/rust_type_layout_helper_bn",
+    "auto_update": true
+  },
+  {
     "name": "jonpalmisc/bn-notepad",
     "auto_update": true
   },
