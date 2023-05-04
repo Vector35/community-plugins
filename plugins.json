@@ -496,7 +496,7 @@
         "version": "1.0.4",
         "author": "rikodot",
         "minimumbinaryninjaversion": 0,
-        "lastUpdated": 1680899752,
+        "lastUpdated": 1683206856,
         "projectUrl": "https://github.com/rikodot/binja_native_sigscan_loader",
         "projectData": {
             "id": 615848901,
@@ -565,8 +565,8 @@
             "releases_url": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/releases{/id}",
             "deployments_url": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/deployments",
             "created_at": "2023-03-18T21:15:46Z",
-            "updated_at": "2023-04-07T20:35:52",
-            "pushed_at": "2023-04-07T20:35:39Z",
+            "updated_at": "2023-05-04T13:27:36",
+            "pushed_at": "2023-05-04T13:27:07Z",
             "git_url": "git://github.com/rikodot/binja_native_sigscan_loader.git",
             "ssh_url": "git@github.com:rikodot/binja_native_sigscan_loader.git",
             "clone_url": "https://github.com/rikodot/binja_native_sigscan_loader.git",
@@ -629,10 +629,10 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/rikodot",
-        "packageUrl": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/zipball/refs/tags/1.0.4",
-        "packageShortUrl": "https://v35.us/l443gdx",
+        "packageUrl": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/zipball/refs/tags/1.0.5",
+        "packageShortUrl": "https://v35.us/86al2t2",
         "path": "rikodot_binja_native_sigscan_loader",
-        "commit": "78caa7b9a498b886b8f4ac9ddc5872c3e1f173ab",
+        "commit": "23fcf15e75b140be900e2ed29ac501c1b6bc4007",
         "minimumBinaryNinjaVersion": 0
     },
     {
