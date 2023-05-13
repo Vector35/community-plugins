@@ -20,7 +20,7 @@
 |[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|2023-02-15|MIT|helper|Scriptable code coverage analysis and visualization plugin|
 |[BNHook](https://github.com/jeffli678/bnhook)|[Grant Orndorff](https://github.com/jeffli678)|2021-03-29|MIT|core, ui|Insert custom hooks|
 |[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|2020-07-22|MIT|helper|Transfer analysis data between Binary Ninja and IDA|
-|[BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|2021-06-07|Apache-2.0|ui|A plugin to graph BNIL instruction trees|
+|[BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|2023-05-13|Apache-2.0|ui|A plugin to graph BNIL instruction trees|
 |[Call Shellcode](https://github.com/lwerdna/call_shellcode)|[lwerdna](https://github.com/lwerdna)|2021-04-03|Unlicense|helper|Add "call shellcode" menu option which executes highlighted bytes.|
 |[Callgraph](https://github.com/psifertex/callgraph)|[Josh Watson / Jordan Wiens](https://github.com/psifertex)|2022-04-20|MIT|ui|Callgraph generator for called or calling funcs|
 |[Calltree](https://github.com/elbiazo/calltree)|[Eric Biazo](https://github.com/elbiazo)|2023-03-07|MIT|binaryview, helper, ui|Generates calltree. Alternative view for callgraph|
