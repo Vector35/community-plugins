@@ -100,7 +100,7 @@
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|2022-07-08|MIT|helper|Package binary code as a Python class backed by Unicorn-Engine|
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2021-10-31|MIT|helper|Demangles Rust symbols.|
 |[Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|[Cindy Xiao](https://github.com/cxiao)|2023-04-27|MIT|helper|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|
-|[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|2022-06-09|MIT|helper|Easily capture Binary Ninja screenshots in ultra-high resolution|
+|[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|2023-05-18|MIT|helper|Easily capture Binary Ninja screenshots in ultra-high resolution|
 |[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2022-02-19|MIT|helper, ui|Helper for exploring structured exception handlers in PEs|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|2022-01-25|2-Clause BSD|helper|Symbolic execution plugin for BinaryNinja|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|2023-02-24|MIT|binaryview|Binary View for loading 32 bits and 64 bits Apple SEPROM|
