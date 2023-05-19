@@ -61,7 +61,7 @@
 |[Golang Symbol Restore 1.18+](https://github.com/scmerrill/golang_1_18_restore_names)|[Spencer Merrill](https://github.com/scmerrill)|2022-09-08|MIT|helper|Binary Ninja plugin for restoring function names from stripped Golang binaries|
 |[HashDB](https://github.com/cxiao/hashdb_bn)|[Cindy Xiao](https://github.com/cxiao)|2023-04-08|3-Clause BSD|helper, ui|Plugin for interacting with the OALabs HashDB service.|
 |[Hex Integers in Python Console](https://github.com/CouleeApps/hex_integers)|[Glenn Smith](https://github.com/CouleeApps)|2023-01-16|MIT|helper|Makes your integers print as hex in the python console.|
-|[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|2020-10-03|MIT|binaryview|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|
+|[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|2023-05-19|MIT|binaryview|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|
 |[HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|[atxsinn3r](https://github.com/atxsinn3r)|2020-06-07|BSD-3-Clause|helper|Dumps HLIL code to a directory|
 |[Hyara](https://github.com/hyuunnn/Hyara)|[Hyun Yi](https://github.com/hyuunnn)|2022-09-03|MIT|ui|YARA rule making tool for Binary Ninja, Cutter, and IDA|
 |[iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|[Blackwing Intelligence](https://github.com/BlackwingHQ)|2020-10-01|MIT|binaryview|Binary View for loading iBoot, SecureROM, etc. firmware|
