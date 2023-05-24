@@ -2833,7 +2833,7 @@
             "deployments_url": "https://api.github.com/repos/crytic/ethersplay/deployments",
             "created_at": "2017-10-18T21:17:19Z",
             "updated_at": "2022-11-03T17:37:14",
-            "pushed_at": "2023-05-23T21:00:54Z",
+            "pushed_at": "2023-05-24T15:49:57Z",
             "git_url": "git://github.com/crytic/ethersplay.git",
             "ssh_url": "git@github.com:crytic/ethersplay.git",
             "clone_url": "https://github.com/crytic/ethersplay.git",
@@ -2853,7 +2853,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 9,
+            "open_issues_count": 8,
             "license": {
                 "key": "agpl-3.0",
                 "name": "GNU Affero General Public License v3.0",
@@ -2872,7 +2872,7 @@
             ],
             "visibility": "public",
             "forks": 109,
-            "open_issues": 9,
+            "open_issues": 8,
             "watchers": 729,
             "default_branch": "master",
             "permissions": {
@@ -2904,7 +2904,7 @@
                 "site_admin": false
             },
             "network_count": 109,
-            "subscribers_count": 41
+            "subscribers_count": 40
         },
         "authorUrl": "https://github.com/crytic",
         "packageUrl": "https://api.github.com/repos/crytic/ethersplay/zipball/refs/tags/v0.1.0",
@@ -2925,7 +2925,7 @@
             "python3"
         ],
         "description": "Browser-based interactive graph for viewing callgraph, static analysis, and coverage information",
-        "longdescription": "# Ariadne: Binary Ninja Graph Analysis Plugin\n\nAriadne is a Binary Ninja plugin that serves a browser-based interactive graph\nvisualization for assisting reverse engineers. It implements some common static\nanalysis tasks including call graph analysis, and can integrate block coverage\ninformation. This enables users to build interactive graphs and see exactly what\nthey are interested in.\n\n![Demo Screen Capture](screenshots/demo.gif)\n\n## Quickstart\n\n1. Install this plugin via the Plugin Manager or clone this repo to your Binary\n  Ninja [plugins folder](https://docs.binary.ninja/getting-started.html#user-folder)\n  - NOTE: If you install by cloning the repo, you may need to install the Python\n  dependencies in `requirements.txt`. Use the command palette (`CTRL+P` or\n  equivalent) to do `Install Python3 module` and copy the contents of\n  requirements.txt into the dialog.\n2. Open a binary in Binary Ninja\n3. Right click: Plugins > Ariadne > Analyze Target\n4. Watch the log and wait for analysis to complete\n5. Open a browser and surf to `http://localhost:8800` to view the interactive\n   graph (web UI)\n6. Navigate around in Binary Ninja; the graph will update when the current\n   function changes\n\n## Graph Styling\n\nThe quick rundown on what the shapes and colors on the graph mean:\n\n- Regular functions are green circles\n- Import functions are diamond-shaped and colored orange\n- Node size is based on cyclomatic complexity; more complex functions are\n  bigger circles\n- The current function active in BN is colored red\n- Nodes with double borders mean they have edges that weren't included for the\n  current graph (default: local neighborhood for active function in BN, see note\n  below)\n- Functions that you've looked at in the BN UI have light blue borders\n- If you click on a node, it becomes the focus node\n  - The focus node is colored purple\n  - Out edges/nodes (callees) are colored pink\n  - In edges/nodes (calleRs) are colored blue\n  - Clicking on the focus node deselects it\n  - Clicking on another node makes that node the focus node\n\nNOTE: the default graph is a 2-hop neighborhood of the current function _BUT_ it\nwill be automatically pruned to a smaller graph if two hops would include too\nmany nodes. Use the context menu function graph to push the full context for\nthe current function or use\n[networkx](https://networkx.org/) to build custom graphs and push them to\nthe web UI.\n\n## Motivation\n\nThis tool is a proof-of-concept that was built to fill a gap that we observed in\nour own reverse-engineering workflows, with the goals of being highly\nconfigurable and to help make reverse-engineering faster.\n\nThe key insight we found building/using a graph tool is that looking at too many\nnodes is unhelpful and layout matters a lot, so we focused on just the analysis\nresults we wanted in the smallest and cleanest view possible.\n\nFrom there, we built the backend so any graph could be pushed to the backend and\ncommon graph tasks would be easy. Adding extra analysis tasks is also easy since\nthere are places for per-function and target-wide analysis.\n\n## Common Workflows\n\n- Source/Sink analysis: Context command allows you to select a function and see\n  all the paths to/from the current function in the web UI. ![source-sink](screenshots/source_sink.png)\n- Coverage analysis via [bncov](https://github.com/ForAllSecure/bncov): allows\n  visualization of coverage and shows where your coverage stops and uncovered\n  complexity resides. Requires bncov, but if coverage information is detected\n  before analysis starts it will automatically be added, or it can be added\n  separately. ![Coverage View](screenshots/coverage_analysis.png)\n  - The Descendent Complexity statistics (\"total\" as well as \"uncovered\") show\n    the sum of complexity for all functions reachable from a given function as\n    well as the sum for just functions with zero coverage. Very useful for\n    fuzzing!\n- Import Hiding: Sometimes imports are helpful, other times they just convolute\n  the graph because it's more important to see just the internal functions\n- Custom graphs: create any graph based on the target's graph (`ariadne.core.targets[bv].g`) and push it to the web UI with `ariadne.core.push_new_graph(new_graph)`\n- Standard styling: the default graph styling allows you to see which functions\n  you have already looked at, which functions are imports, and caller/callee\n  relationships. Helps you see which functions you haven't looked at that may be\n  of interest. ![Breadcrumb demo](screenshots/breadcrumbing.png)\n- Collapsible Function Metadata sidebar: Shows all the relevant static analysis\n  results for any function you click on. ![Focus node view](screenshots/focus_node.png)\n- Function search bar: start typing the name of the function you want to find in\n  the search bar in the upper left, when the name turns green you can stop\n  typing and hit enter to center the graph on the target function.\n- Freezing/unfreezing the graph: sometimes you don't want auto-updates\n- Save/Load analysis: redoing analysis is no good; headless analysis and\n  save/load features allow you to crunch binaries on a separate machine if you\n  want.\n- Callgraph exploration: using the web UI's `Graph Focus Function` button, now\n  you can see what nodes aren't fully expanded in the current view and navigate\n  between functions from within the web UI.\n\nSee the [tutorial](./tutorial/README.md) for detailed explanation of features\nand intended workflows that you can test out on an example binary.\n\n## Troubleshooting\n\nIf the web UI is unresponsive, check the websocket status in the upper right\ncorner. If you push a really large graph to the web UI, the page may freeze\nwhile the graph layout is computed. In any case, refreshing the page should\nreset the UI.\n\nUnhandled Python exceptions on startup or during processing are bugs and it'd be\ngreat if you would open a GitHub issue on the repo here and describe the problem\n(and include a binary to reproduce the problem, if possible).\n\n## Thank you!\n\nTo everyone who tries out this tool, it would mean a lot to me if you reach out\nand give me your thoughts on Twitter (@seeinglogic) or starring this repo. I\nhope this helps you or gives you ideas on how to look at things a little\ndifferently.\n",
+        "longdescription": "# Ariadne: Binary Ninja Graph Analysis Plugin\n\n[Ariadne](https://en.wikipedia.org/wiki/Ariadne#Mythology) is a Binary Ninja plugin that serves a browser-based interactive graph\nvisualization for assisting reverse engineers. It implements some common static\nanalysis tasks including call graph analysis, and can integrate block coverage\ninformation. This enables users to build interactive graphs and see exactly what\nthey are interested in.\n\n![Demo Screen Capture](screenshots/demo.gif)\n\n## Quickstart\n\n1. Install this plugin via the Plugin Manager or clone this repo to your Binary\n  Ninja [plugins folder](https://docs.binary.ninja/getting-started.html#user-folder)\n  - NOTE: If you install by cloning the repo, you may need to install the Python\n  dependencies in `requirements.txt`. Use the command palette (`CTRL+P` or\n  equivalent) to do `Install Python3 module` and copy the contents of\n  requirements.txt into the dialog.\n2. Open a binary in Binary Ninja\n3. Right click: Plugins > Ariadne > Analyze Target\n4. Watch the log and wait for analysis to complete\n5. Open a browser and surf to `http://localhost:8800` to view the interactive\n   graph (web UI)\n6. Navigate around in Binary Ninja; the graph will update when the current\n   function changes\n\n## Graph Styling\n\nThe quick rundown on what the shapes and colors on the graph mean:\n\n- Regular functions are green circles\n- Import functions are diamond-shaped and colored orange\n- Node size is based on cyclomatic complexity; more complex functions are\n  bigger circles\n- The current function active in BN is colored red\n- Nodes with double borders mean they have edges that weren't included for the\n  current graph (default: local neighborhood for active function in BN, see note\n  below)\n- Functions that you've looked at in the BN UI have light blue borders\n- If you click on a node, it becomes the \"focus node\"\n  - The focus node is colored purple\n  - Out edges/nodes (callees) are colored pink\n  - In edges/nodes (calleRs) are colored blue\n  - Clicking on the focus node deselects it\n  - Clicking on another node makes that node the focus node\n\nNOTE: the default graph is a 2-hop neighborhood of the current function _BUT_ it\nwill be automatically pruned to a smaller graph if two hops would include too\nmany nodes. Use the context menu function graph to push the full context for\nthe current function or use\n[networkx](https://networkx.org/) to build custom graphs and push them to\nthe web UI.\n\n## Motivation\n\n[Longer blog post on motivation](https://seeinglogic.com/posts/why-of-ariadne/)\n\nThis tool is a proof-of-concept that was built to fill a gap that we observed in\nour own reverse-engineering workflows, with the goals of being highly\nconfigurable and to help make reverse-engineering faster.\n\nThe key insight we found building/using a graph tool is that looking at too many\nnodes is unhelpful and layout matters a lot, so we focused on just the analysis\nresults we wanted in the smallest and cleanest view possible.\n\nFrom there, we built the backend so any graph could be pushed to the backend and\ncommon graph tasks would be easy. Adding extra analysis tasks is also easy since\nthere are places for per-function and target-wide analysis.\n\n## Common Workflows\n\nAriadne was built to handle some common workflows encountered in RE and fuzzing:\n\n- Source/Sink analysis: Context command allows you to select a function and see\n  all the paths to/from the current function in the web UI. ![source-sink](screenshots/source_sink.png)\n- Coverage analysis via [bncov](https://github.com/ForAllSecure/bncov): allows\n  visualization of coverage and shows where your coverage stops and uncovered\n  complexity resides. Requires bncov, but if coverage information is detected\n  before analysis starts it will automatically be added, or it can be added\n  separately. [More in-depth post on coverage automation and Ariadne](https://seeinglogic.com/posts/automated-coverage-analysis/)\n  - The Descendent Complexity metrics (\"uncovered\" as well as the normal one) show\n    the sum of complexity for all functions reachable from a given function as\n    well as the sum for just functions with zero coverage. Very useful for\n    fuzzing!\n  ![Coverage View](screenshots/coverage_analysis.png)\n- Import Hiding: Sometimes imports are helpful, other times they just convolute\n  the graph because it's more important to see just the internal functions\n- Custom graphs: create any graph based on the target's graph (`ariadne.core.targets[bv].g`) and push it to the web UI with `ariadne.core.push_new_graph(new_graph)`\n- Standard styling: the default graph styling allows you to see which functions\n  you have already looked at, which functions are imports, and caller/callee\n  relationships. Helps you see which functions you haven't looked at that may be\n  of interest. ![Breadcrumb demo](screenshots/breadcrumbing.png)\n- Collapsible Function Metadata sidebar: Shows all the relevant static analysis\n  results for any function you click on. ![Focus node view](screenshots/focus_node.png)\n- Function search bar: start typing the name of the function you want to find in\n  the search bar in the upper left, when the name turns green you can stop\n  typing and hit enter to center the graph on the target function.\n- Freezing/unfreezing the graph: sometimes you don't want auto-updates\n- Save/Load analysis: redoing analysis is no good; headless analysis and\n  save/load features allow you to crunch binaries on a separate machine if you\n  want.\n- Callgraph exploration: using the web UI's `Graph Focus Function` button, now\n  you can see what nodes aren't fully expanded in the current view and navigate\n  between functions from within the web UI.\n\nSee the [tutorial](./tutorial/README.md) for detailed explanation of features\nand intended workflows that you can test out on an example binary.\n\n## Troubleshooting\n\nIf the web UI is unresponsive, check the websocket status in the upper right\ncorner. If you push a really large graph to the web UI, the page may freeze\nwhile the graph layout is computed. In any case, refreshing the page should\nreset the UI.\n\nUnhandled Python exceptions on startup or during processing are bugs and it'd be\ngreat if you would open a GitHub issue on the repo here and describe the problem\n(and include a binary to reproduce the problem, if possible).\n\n## Thank you!\n\nTo everyone who tries out this tool, it would mean a lot to me if you reach out\nand give me your thoughts on [Twitter](https://twitter.com/seeinglogic) or starring this repo. I\nhope this helps you or gives you ideas on how to look at things a little\ndifferently.\n",
         "license": {
             "name": "MIT",
             "text": "Copyright 2022 Mark Griffin (@seeinglogic)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n"
@@ -2941,10 +2941,10 @@
             "Windows": ""
         },
         "dependencies": "networkx\nwebsockets\nrequests",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "author": "Mark Griffin (@seeinglogic)",
         "minimumbinaryninjaversion": 3469,
-        "lastUpdated": 1667228589,
+        "lastUpdated": 1684945719,
         "projectUrl": "https://github.com/seeinglogic/ariadne",
         "projectData": {
             "id": 549689151,
@@ -3013,14 +3013,14 @@
             "releases_url": "https://api.github.com/repos/seeinglogic/ariadne/releases{/id}",
             "deployments_url": "https://api.github.com/repos/seeinglogic/ariadne/deployments",
             "created_at": "2022-10-11T15:23:09Z",
-            "updated_at": "2022-10-31T15:03:09",
-            "pushed_at": "2023-01-23T05:08:12Z",
+            "updated_at": "2023-05-24T16:28:39",
+            "pushed_at": "2023-05-24T16:28:39Z",
             "git_url": "git://github.com/seeinglogic/ariadne.git",
             "ssh_url": "git@github.com:seeinglogic/ariadne.git",
             "clone_url": "https://github.com/seeinglogic/ariadne.git",
             "svn_url": "https://github.com/seeinglogic/ariadne",
             "homepage": null,
-            "size": 3026,
+            "size": 3038,
             "stargazers_count": 56,
             "watchers_count": 56,
             "language": "Python",
@@ -3063,10 +3063,10 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/seeinglogic",
-        "packageUrl": "https://api.github.com/repos/seeinglogic/ariadne/zipball/refs/tags/0.1.1",
-        "packageShortUrl": "https://v35.us/ec86n4j",
+        "packageUrl": "https://api.github.com/repos/seeinglogic/ariadne/zipball/refs/tags/0.1.2",
+        "packageShortUrl": "https://v35.us/i9ll7de",
         "path": "seeinglogic_ariadne",
-        "commit": "e0966e19a5f0aefa35eb48fd291c20c0e02d0de8",
+        "commit": "dad7a16cfc11e9b2d6abab51edcc5d66b00f2b75",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -7052,8 +7052,8 @@
             "svn_url": "https://github.com/gaasedelen/lighthouse",
             "homepage": "",
             "size": 11219,
-            "stargazers_count": 1907,
-            "watchers_count": 1907,
+            "stargazers_count": 1908,
+            "watchers_count": 1908,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -7088,7 +7088,7 @@
             "visibility": "public",
             "forks": 288,
             "open_issues": 29,
-            "watchers": 1907,
+            "watchers": 1908,
             "default_branch": "develop",
             "permissions": {
                 "admin": false,
@@ -8606,8 +8606,8 @@
             "svn_url": "https://github.com/mrphrazer/obfuscation_detection",
             "homepage": "",
             "size": 15463,
-            "stargazers_count": 350,
-            "watchers_count": 350,
+            "stargazers_count": 351,
+            "watchers_count": 351,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -8634,7 +8634,7 @@
             "visibility": "public",
             "forks": 45,
             "open_issues": 0,
-            "watchers": 350,
+            "watchers": 351,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -17680,7 +17680,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -17699,7 +17699,7 @@
             ],
             "visibility": "public",
             "forks": 2,
-            "open_issues": 2,
+            "open_issues": 1,
             "watchers": 4,
             "default_branch": "master",
             "permissions": {
