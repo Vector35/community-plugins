@@ -3,6 +3,7 @@
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
 |[0CD](https://github.com/0xb0bb/0CD)|[b0bb](https://github.com/0xb0bb)|2022-02-17|MIT|helper|Quality of life utilities for obsessive compulsive CTF enthusiasts.|
+|[Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|[Xusheng](https://github.com/xusheng6)|2023-06-09|MIT|helper|Add xref from caller to callee based on XFG hashes|
 |[AMD-SP/PSP Loader](https://github.com/dayzerosec/AMD-SP-Loader)|[dayzerosec](https://github.com/dayzerosec)|2023-01-29|MIT|binaryview|Loader for AMD-SP or PSP firmware binaries.|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|2019-07-09|MIT|binaryview|A plugin that annotates function arguments.|
 |[Ariadne](https://github.com/seeinglogic/ariadne)|[Mark Griffin (@seeinglogic)](https://github.com/seeinglogic)|2023-05-24|MIT|helper, ui|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|
