@@ -1,5 +1,9 @@
 [
   {
+    "name": "xusheng6/add-xfg-xref",
+    "auto_update": true
+  },
+  {
     "name": "cxiao/rust_type_layout_helper_bn",
     "auto_update": true
   },
