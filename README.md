@@ -3,7 +3,7 @@
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
 |[0CD](https://github.com/0xb0bb/0CD)|[b0bb](https://github.com/0xb0bb)|2022-02-17|MIT|helper|Quality of life utilities for obsessive compulsive CTF enthusiasts.|
-|[Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|[Xusheng](https://github.com/xusheng6)|2023-06-09|MIT|helper|Add xref from caller to callee based on XFG hashes|
+|[Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|[Xusheng](https://github.com/xusheng6)|2023-06-11|MIT|helper|Add xref from caller to callee based on XFG hashes|
 |[AMD-SP/PSP Loader](https://github.com/dayzerosec/AMD-SP-Loader)|[dayzerosec](https://github.com/dayzerosec)|2023-01-29|MIT|binaryview|Loader for AMD-SP or PSP firmware binaries.|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|2019-07-09|MIT|binaryview|A plugin that annotates function arguments.|
 |[Ariadne](https://github.com/seeinglogic/ariadne)|[Mark Griffin (@seeinglogic)](https://github.com/seeinglogic)|2023-05-24|MIT|helper, ui|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|
@@ -32,7 +32,7 @@
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|2022-05-27|MIT|ui|Binary Ninja comments viewer|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|2020-08-02|MIT|binaryview, ui|A plugin to detect several common crypto constructs and magic vars.|
 |[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|2021-11-15|MIT|helper|Load old COFF .dbg files as well as CAB-ed .db_ files!|
-|[decomp2dbg](https://github.com/mahaloz/decomp2dbg)|[Zion Basque (@mahaloz)](https://github.com/mahaloz)|2023-05-25|BSD 2-clause|core|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|
+|[decomp2dbg](https://github.com/mahaloz/decomp2dbg)|[Zion Basque (@mahaloz)](https://github.com/mahaloz)|2023-06-11|BSD 2-clause|core|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|
 |[DeGObfuscate](https://github.com/kryptoslogic/binja_degobfuscate)|[Jamie Hankins](https://github.com/kryptoslogic)|2020-12-02|MIT|helper|De-obfuscates strings inside of obfuscated Go binaries|
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|2022-02-21|MIT|helper|Find Delphi VMTs and generate their structures|
 |[Dependency analyzer](https://github.com/Shizmob/binja-depanalyzer)|[Shiz](https://github.com/Shizmob)|2020-05-25|MIT|helper|Analyze dependencies and resolve obfuscated imports|
