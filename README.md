@@ -13,7 +13,7 @@
 |[Binja IPython console](https://github.com/skr0x1c0/ipybinja)|[skr0x1c0](https://github.com/skr0x1c0)|2022-12-12|MIT|binaryview, core, helper, ui|IPython console widget for Binary Ninja|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|2023-01-29|MIT|architecture, binaryview, core, ui|Generate and find signatures.|
 |[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2021-05-19|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
-|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|2023-06-07|BSD 2-clause|core, ui|Adds support for cross-decompiler collab in the BinSync supported decompilers.|
+|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|2023-06-22|BSD 2-clause|core, ui|Adds support for cross-decompiler collab in the BinSync supported decompilers.|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|2022-05-28|GPL-3.0|architecture|A Binary Ninja architecture plugin for the AD Blackfin architecture|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|2022-01-14|MIT|helper|Recover Linux kernel build configurations|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|2021-01-18|Apache-2.0|architecture|RISC-V architecture plugin.|
@@ -99,9 +99,9 @@
 |[ret-sync](https://github.com/bootleg/ret-sync)|[Alexandre Gazet](https://github.com/bootleg)|2022-01-21|MIT|helper|Helper plugin to synchronize Binary Ninja with a debugging session|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-14|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|2022-07-08|MIT|helper|Package binary code as a Python class backed by Unicorn-Engine|
-|[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2021-10-31|MIT|helper|Demangles Rust symbols.|
+|[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2023-06-19|MIT|helper|Demangles Rust symbols.|
 |[Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|[Cindy Xiao](https://github.com/cxiao)|2023-04-27|MIT|helper|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|
-|[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|2023-05-18|MIT|helper|Easily capture Binary Ninja screenshots in ultra-high resolution|
+|[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|2023-06-17|MIT|helper|Easily capture Binary Ninja screenshots in ultra-high resolution|
 |[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2022-02-19|MIT|helper, ui|Helper for exploring structured exception handlers in PEs|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|2023-06-01|2-Clause BSD|helper|Symbolic execution plugin for BinaryNinja|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|2023-06-14|MIT|binaryview|Binary View for loading 32 bits and 64 bits Apple SEPROM|
