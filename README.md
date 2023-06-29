@@ -86,7 +86,7 @@
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|2020-05-27|LGPL v3|binaryview, core|FLIRT for (binary) ninjas|
 |[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|2023-05-04|MIT|helper|Find and create signatures|
 |[Notepad](https://github.com/jonpalmisc/bn-notepad)|[Jon Palmisciano](https://github.com/jonpalmisc)|2021-04-19|MIT|None|A notepad for taking notes inside Binary Ninja.|
-|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|2023-03-14|GPL-2.0|helper|Automatically detect obfuscated code and other interesting code constructs|
+|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|2023-06-29|GPL-2.0|helper|Automatically detect obfuscated code and other interesting code constructs|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|2021-04-10|MIT|helper|detect opaque predicates|
 |[OpenAI GPT3](https://github.com/WhatTheFuzz/binaryninja-openai)|[Sean Deaton (@WhatTheFuzz)](https://github.com/WhatTheFuzz)|2022-12-29|MIT|helper|Queries OpenAI's GPT3 to determine what a given function does.|
 |[pd-ninja](https://github.com/lockbox/pd-ninja)|[lockbox](https://github.com/lockbox)|2023-03-01|MIT|helper|Playdate Console RE utilities|
@@ -99,7 +99,7 @@
 |[ret-sync](https://github.com/bootleg/ret-sync)|[Alexandre Gazet](https://github.com/bootleg)|2022-01-21|MIT|helper|Helper plugin to synchronize Binary Ninja with a debugging session|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-14|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|2022-07-08|MIT|helper|Package binary code as a Python class backed by Unicorn-Engine|
-|[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2023-06-19|MIT|helper|Demangles Rust symbols.|
+|[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2023-06-26|MIT|helper|Demangles Rust symbols.|
 |[Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|[Cindy Xiao](https://github.com/cxiao)|2023-04-27|MIT|helper|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|
 |[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|2023-06-17|MIT|helper|Easily capture Binary Ninja screenshots in ultra-high resolution|
 |[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2022-02-19|MIT|helper, ui|Helper for exploring structured exception handlers in PEs|
