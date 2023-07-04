@@ -1,5 +1,9 @@
 [
   {
+    "name": "xusheng6/binja-GoReSym",
+    "auto_update": true
+  },
+  {
     "name": "xusheng6/add-xfg-xref",
     "auto_update": true
   },
