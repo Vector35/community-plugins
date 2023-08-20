@@ -19623,7 +19623,7 @@
             "python3"
         ],
         "description": "Remake of keypatch plugin for Binary Ninja",
-        "longdescription": "Remake of [keypatch](https://github.com/keystone-engine/keypatch) plugin for Binary Ninja.\n\n![](./preview.png)\n\n* assemble using [keystone](https://www.keystone-engine.org/)\n* fill areas with instructions or arbitrary bytes\n* search for instructions or bytes, with regular expressions\n\nThe plugin manager only installs and updates at release boundaries. If you want the hottest freshest code, navigate to your [plugins folder](https://docs.binary.ninja/guide/plugins.html) and clone this repo to get started, pull to update.\n",
+        "longdescription": "Remake of [keypatch](https://github.com/keystone-engine/keypatch) plugin for Binary Ninja.\n\n![](./preview.png)\n\n* assemble using [keystone](https://www.keystone-engine.org/)\n* fill areas with instructions or arbitrary bytes\n* search for instructions or bytes, with regular expressions\n\nThe plugin manager only installs and updates at release boundaries. If you want the hottest freshest code, navigate to your [plugins folder](https://docs.binary.ninja/guide/plugins.html) and clone this repo to get started, pull to update.\n\n## Developer Notes\n\nhttps://docs.binary.ninja/dev/plugins.html\n",
         "license": {
             "name": "Unlicense",
             "text": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any\nmeans.\n\nIn jurisdictions that recognize copyright laws, the author or authors\nof this software dedicate any and all copyright interest in the\nsoftware to the public domain. We make this dedication for the benefit\nof the public at large and to the detriment of our heirs and\nsuccessors. We intend this dedication to be an overt act of\nrelinquishment in perpetuity of all present and future rights to this\nsoftware under copyright law.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nFor more information, please refer to <http://unlicense.org>"
@@ -19639,9 +19639,9 @@
             "Linux": ""
         },
         "dependencies": "keystone-engine\n",
-        "version": "1.3",
+        "version": "1.5",
         "minimumbinaryninjaversion": 2660,
-        "lastUpdated": 1692561017,
+        "lastUpdated": 1692564405,
         "projectUrl": "https://github.com/lwerdna/keypatch_binja",
         "projectData": {
             "id": 352522331,
@@ -19710,14 +19710,14 @@
             "releases_url": "https://api.github.com/repos/lwerdna/keypatch_binja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/lwerdna/keypatch_binja/deployments",
             "created_at": "2021-03-29T05:05:29Z",
-            "updated_at": "2023-08-20T19:50:17",
-            "pushed_at": "2023-08-20T19:49:37Z",
+            "updated_at": "2023-08-20T20:46:45",
+            "pushed_at": "2023-08-20T20:48:19Z",
             "git_url": "git://github.com/lwerdna/keypatch_binja.git",
             "ssh_url": "git@github.com:lwerdna/keypatch_binja.git",
             "clone_url": "https://github.com/lwerdna/keypatch_binja.git",
             "svn_url": "https://github.com/lwerdna/keypatch_binja",
             "homepage": "",
-            "size": 183,
+            "size": 196,
             "stargazers_count": 10,
             "watchers_count": 10,
             "language": "Python",
@@ -19731,7 +19731,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "unlicense",
                 "name": "The Unlicense",
@@ -19745,7 +19745,7 @@
             "topics": [],
             "visibility": "public",
             "forks": 2,
-            "open_issues": 1,
+            "open_issues": 0,
             "watchers": 10,
             "default_branch": "master",
             "permissions": {
@@ -19782,10 +19782,10 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/lwerdna",
-        "packageUrl": "https://api.github.com/repos/lwerdna/keypatch_binja/zipball/refs/tags/1.4",
+        "packageUrl": "https://api.github.com/repos/lwerdna/keypatch_binja/zipball/refs/tags/1.5",
         "packageShortUrl": "",
         "path": "lwerdna_keypatch_binja",
-        "commit": "38631a75fe249b6d71b16619ffb2f0f887e20c53",
+        "commit": "4843ef984553d12a357a0d741212b2ae90af1377",
         "minimumBinaryNinjaVersion": 0
     }
 ]
