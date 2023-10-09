@@ -157,8 +157,7 @@
         "packageUrl": "https://api.github.com/repos/cxiao/rust_string_slicer/zipball/refs/tags/v1.0.0",
         "packageShortUrl": "https://v35.us/6208maz",
         "path": "cxiao_rust_string_slicer",
-        "commit": "49d80683b5cfa34284dcd7e50a3007e7818ecc9d",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "49d80683b5cfa34284dcd7e50a3007e7818ecc9d"
     },
     {
         "pluginmetadataversion": 2,
@@ -429,8 +428,7 @@
         "packageShortUrl": "https://v35.us/3795kbk",
         "dependencies": "",
         "path": "saagarjha_binjaswiftdemangler",
-        "commit": "4dd65a56e3d7afb90934948809b98a8d184e4a98",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "4dd65a56e3d7afb90934948809b98a8d184e4a98"
     },
     {
         "pluginmetadataversion": 2,
@@ -583,8 +581,7 @@
         "packageUrl": "https://api.github.com/repos/xusheng6/binja-GoReSym/zipball/refs/tags/1.0.0",
         "packageShortUrl": "https://v35.us/41wykeo",
         "path": "xusheng6_binjaGoReSym",
-        "commit": "55aa4db31ff6790932ab8ccbcea62744c021a70f",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "55aa4db31ff6790932ab8ccbcea62744c021a70f"
     },
     {
         "pluginmetadataversion": 2,
@@ -737,8 +734,7 @@
         "packageUrl": "https://api.github.com/repos/xusheng6/add-xfg-xref/zipball/refs/tags/1.0.1",
         "packageShortUrl": "https://v35.us/rpwdzhs",
         "path": "xusheng6_addxfgxref",
-        "commit": "fb8a6d0dbffa1dbe2a065453f25be680582f4f5e",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "fb8a6d0dbffa1dbe2a065453f25be680582f4f5e"
     },
     {
         "pluginmetadataversion": 2,
@@ -897,8 +893,7 @@
         "packageUrl": "https://api.github.com/repos/cxiao/rust_type_layout_helper_bn/zipball/refs/tags/v1.0.0",
         "packageShortUrl": "https://v35.us/7zcs184",
         "path": "cxiao_rust_type_layout_helper_bn",
-        "commit": "009b623df5d3e0bff995d9020b1884f6715be7d6",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "009b623df5d3e0bff995d9020b1884f6715be7d6"
     },
     {
         "pluginmetadataversion": 2,
@@ -1051,8 +1046,7 @@
         "packageShortUrl": "https://v35.us/wr4zdsg",
         "dependencies": "",
         "path": "jonpalmisc_bnnotepad",
-        "commit": "86d3160dfdf6969edd3ace1c634d74fe165cbea9",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "86d3160dfdf6969edd3ace1c634d74fe165cbea9"
     },
     {
         "pluginmetadataversion": 2,
@@ -1206,8 +1200,7 @@
         "packageShortUrl": "https://v35.us/xb4az8n",
         "dependencies": "xdis\n",
         "path": "Njord0_BNPyc",
-        "commit": "94496e66292e7a7cebfc73500d7e00f77daccfc2",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "94496e66292e7a7cebfc73500d7e00f77daccfc2"
     },
     {
         "pluginmetadataversion": 2,
@@ -1373,8 +1366,7 @@
         "packageUrl": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/zipball/refs/tags/1.0.5",
         "packageShortUrl": "https://v35.us/86al2t2",
         "path": "rikodot_binja_native_sigscan_loader",
-        "commit": "23fcf15e75b140be900e2ed29ac501c1b6bc4007",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "23fcf15e75b140be900e2ed29ac501c1b6bc4007"
     },
     {
         "pluginmetadataversion": 2,
@@ -1557,7 +1549,6 @@
         "dependencies": "binsync>=3.13.1",
         "path": "binsync_binsync",
         "commit": "5545bd7983246719def792bd645fcfb20d8a1c75",
-        "minimumBinaryNinjaVersion": 0,
         "subdir": "binsync/decompiler_stubs/binja_binsync"
     },
     {
@@ -1711,8 +1702,7 @@
         "packageUrl": "https://api.github.com/repos/lockbox/pd-ninja/zipball/refs/tags/1.2",
         "packageShortUrl": "https://v35.us/3dbptrc",
         "path": "lockbox_pdninja",
-        "commit": "0c17a323520a5e4698f6cfbb2595671cf836c7de",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "0c17a323520a5e4698f6cfbb2595671cf836c7de"
     },
     {
         "pluginmetadataversion": 2,
@@ -1885,8 +1875,7 @@
         "packageShortUrl": "https://v35.us/dooyn3e",
         "dependencies": "",
         "path": "dayzerosec_AMDSPLoader",
-        "commit": "0d9e7d40fbdb234c15840c2dfa9ef0feabf65276",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "0d9e7d40fbdb234c15840c2dfa9ef0feabf65276"
     },
     {
         "pluginmetadataversion": 2,
@@ -2040,7 +2029,6 @@
         "packageShortUrl": "https://v35.us/ni42jcg",
         "path": "mahaloz_decomp2dbg",
         "commit": "bca07ff4771caa34faa3f238afcf6b796928d370",
-        "minimumBinaryNinjaVersion": 0,
         "subdir": "decompilers/d2d_binja"
     },
     {
@@ -2412,8 +2400,7 @@
         "packageUrl": "https://api.github.com/repos/cxiao/hashdb_bn/zipball/refs/tags/v1.2.0",
         "packageShortUrl": "https://v35.us/e3oxv5k",
         "path": "cxiao_hashdb_bn",
-        "commit": "0548f3961ed8502393e20cdab653cadc6d76285a",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "0548f3961ed8502393e20cdab653cadc6d76285a"
     },
     {
         "pluginmetadataversion": 2,
@@ -2567,8 +2554,7 @@
         "packageUrl": "https://api.github.com/repos/elbee-cyber/analyze_char_arrays/zipball/refs/tags/1.1",
         "packageShortUrl": "https://v35.us/igifrn3",
         "path": "elbeecyber_analyze_char_arrays",
-        "commit": "219a524ca2283ceab4593a8b7843dacc604110e8",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "219a524ca2283ceab4593a8b7843dacc604110e8"
     },
     {
         "pluginmetadataversion": 2,
@@ -2837,8 +2823,7 @@
         "packageShortUrl": "https://v35.us/pu0d55x",
         "dependencies": "",
         "path": "dipusone_golang_pclntab_parser",
-        "commit": "1197699b4160de9aa3b4447f92f2fbf905cf22e8",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "1197699b4160de9aa3b4447f92f2fbf905cf22e8"
     },
     {
         "pluginmetadataversion": 2,
@@ -2997,7 +2982,6 @@
         "packageShortUrl": "https://v35.us/ejsymyt",
         "path": "skr0x1c0_ipybinja",
         "commit": "a0f3b05c1a36e1d5d90f4536e6e43e941eec35cb",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -3158,8 +3142,7 @@
         "packageShortUrl": "https://v35.us/37zleu3",
         "dependencies": "",
         "path": "AsherDLL_PCDumpbn",
-        "commit": "67aec1f1ba01687e773ef5fe6f26a7dd7b7351c7",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "67aec1f1ba01687e773ef5fe6f26a7dd7b7351c7"
     },
     {
         "pluginmetadataversion": 2,
@@ -3318,8 +3301,7 @@
         "packageUrl": "https://api.github.com/repos/WhatTheFuzz/binaryninja-openai/zipball/refs/tags/3.0.0",
         "packageShortUrl": "https://v35.us/yknyr7a",
         "path": "WhatTheFuzz_binaryninjaopenai",
-        "commit": "4d520c082ca257ae2dee27cfa565a4d2dc1decb1",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "4d520c082ca257ae2dee27cfa565a4d2dc1decb1"
     },
     {
         "pluginmetadataversion": 2,
@@ -3472,8 +3454,7 @@
         "packageUrl": "https://api.github.com/repos/nshp/binaryninja-printf/zipball/refs/tags/1.1",
         "packageShortUrl": "https://v35.us/bbxice8",
         "path": "nshp_binaryninjaprintf",
-        "commit": "162c27aa6354b01053ac7a1add21dace0411015a",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "162c27aa6354b01053ac7a1add21dace0411015a"
     },
     {
         "pluginmetadataversion": 2,
@@ -3652,7 +3633,6 @@
         "packageShortUrl": "https://v35.us/2t8784v",
         "path": "crytic_ethersplay",
         "commit": "fcc0d269f366a94665d5493e2e956ff11b483011",
-        "minimumBinaryNinjaVersion": 0,
         "subdir": "ethersplay"
     },
     {
@@ -3807,8 +3787,7 @@
         "packageUrl": "https://api.github.com/repos/seeinglogic/ariadne/zipball/refs/tags/0.1.2",
         "packageShortUrl": "https://v35.us/i9ll7de",
         "path": "seeinglogic_ariadne",
-        "commit": "dad7a16cfc11e9b2d6abab51edcc5d66b00f2b75",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "dad7a16cfc11e9b2d6abab51edcc5d66b00f2b75"
     },
     {
         "pluginmetadataversion": 2,
@@ -4077,8 +4056,7 @@
         "packageUrl": "https://api.github.com/repos/scmerrill/golang_1_18_restore_names/zipball/refs/tags/1.0",
         "packageShortUrl": "https://v35.us/20cbhm2",
         "path": "scmerrill_golang_1_18_restore_names",
-        "commit": "51acc8afc8f089c252919844aa446eece970c48c",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "51acc8afc8f089c252919844aa446eece970c48c"
     },
     {
         "pluginmetadataversion": 2,
@@ -4227,7 +4205,6 @@
         "packageShortUrl": "https://v35.us/2i1r6mr",
         "path": "LittleDyingDuck_BinaryNinjaRichPrecense",
         "commit": "afe022d412d8706fa3774d6e4245ef5c5de3c4cd",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -4379,8 +4356,7 @@
         "packageShortUrl": "https://v35.us/myuhjfx",
         "dependencies": "",
         "path": "pbiernat_ripr",
-        "commit": "502bc8b9f2d1dc6e13939a52a7e33e9289ca58da",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "502bc8b9f2d1dc6e13939a52a7e33e9289ca58da"
     },
     {
         "pluginmetadataversion": 2,
@@ -4540,8 +4516,7 @@
         "packageUrl": "https://api.github.com/repos/SmoothHacker/TypeLib-Exporter/zipball/refs/tags/v2.2",
         "packageShortUrl": "https://v35.us/hxtlexh",
         "path": "SmoothHacker_TypeLibExporter",
-        "commit": "392f338fd9b52be54011dc1d6074a939966c1be6",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "392f338fd9b52be54011dc1d6074a939966c1be6"
     },
     {
         "pluginmetadataversion": 2,
@@ -4701,8 +4676,7 @@
         "packageShortUrl": "https://v35.us/j1xxe5y",
         "dependencies": "ailment==9.2.26; python_version >= \"3.8\"\nangr==9.2.26; python_version >= \"3.8\"\narchinfo==9.2.26; python_version >= \"3.8\"\nbitstring==4.0.1; python_version >= \"3.8\"\ncachetools==5.2.0; python_version >= \"3.8\" and python_version < \"4.0\"\ncapstone==5.0.0; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\ncffi==1.15.1; implementation_name == \"cpython\" and python_version >= \"3.8\"\nclaripy==9.2.26; python_version >= \"3.8\"\ncle==9.2.26; python_version >= \"3.8\"\nclick==8.1.3; python_version >= \"3.7\"\ncolorama==0.4.6; python_version >= \"3.8\" and python_full_version < \"3.0.0\" and platform_system == \"Windows\" or python_version >= \"3.8\" and python_full_version >= \"3.7.0\" and platform_system == \"Windows\"\ncommonmark==0.9.1; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\ncontourpy==1.0.6; python_version >= \"3.8\"\ncppheaderparser==2.7.4; python_version >= \"3.8\"\ncssselect==1.2.0; python_version >= \"3.7\"\ncustom-inherit==2.4.0\ncycler==0.11.0; python_version >= \"3.8\"\ndecorator==5.1.1; python_version >= \"3.8\"\ndeprecated==1.2.13; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\"\ndpkt==1.9.8; python_version >= \"3.8\"\nfonttools==4.38.0; python_version >= \"3.8\"\nfuture==0.18.2; python_full_version >= \"3.6.0\" and python_version >= \"3.8\"\ngitdb==4.0.10; python_version >= \"3.8\"\ngitpython==3.1.29; python_version >= \"3.7\"\nitanium-demangler==1.1; python_version >= \"3.8\"\njinja2==3.1.2; python_version >= \"3.7\"\nkiwisolver==1.4.4; python_version >= \"3.8\"\nlief==0.12.3; python_version >= \"3.6\"\nlxml==4.9.1; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.5.0\"\nmarkupsafe==2.1.1; python_version >= \"3.7\"\nmatplotlib==3.6.2; python_version >= \"3.8\"\nmpmath==1.2.1; python_version >= \"3.8\"\nmulpyplexer==0.09; python_version >= \"3.8\"\nnampa==0.1.1; python_version >= \"3.8\"\nnetworkx==2.8.8; python_version >= \"3.8\"\nnumpy==1.23.5\npackaging==21.3; python_version >= \"3.8\"\npandas==1.5.2; python_version >= \"3.8\"\npefile==2022.5.30; python_full_version >= \"3.6.0\" and python_version >= \"3.8\"\npillow==9.3.0; python_version >= \"3.8\"\nplumbum==1.8.0; python_version >= \"3.8\"\nply==3.11; python_version >= \"3.8\"\nprogressbar2==4.2.0; python_full_version >= \"3.7.0\" and python_version >= \"3.8\"\nprotobuf==4.21.9; python_version >= \"3.8\"\npsutil==5.9.4; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\npulp==2.7.0\npycparser==2.21; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\npyelftools==0.29; python_version >= \"3.8\"\npygments==2.13.0; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\npyparsing==3.0.9; python_full_version >= \"3.6.8\" and python_version >= \"3.8\"\npyquery==1.4.3\npysmt==0.9.6.dev21; python_version >= \"3.8\"\npython-dateutil==2.8.2; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.3.0\" and python_version >= \"3.8\"\npython-utils==3.4.5; python_full_version >= \"3.7.0\" and python_version >= \"3.8\"\npytz==2022.6; python_version >= \"3.8\"\npyvex==9.2.26; python_version >= \"3.8\"\npywin32==305; platform_system == \"Windows\" and platform_python_implementation != \"PyPy\" and python_version >= \"3.8\"\nrich==12.6.0; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\nrpyc==5.2.3; python_version >= \"3.8\"\nscikit-criteria==0.7\nscipy==1.9.3; python_version >= \"3.8\"\nseaborn==0.12.1; python_version >= \"3.7\"\nsetuptools-scm==7.0.5; python_version >= \"3.8\"\nshellingham==1.5.0; python_version >= \"3.6\"\nsix==1.16.0; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.3.0\" and python_version >= \"3.8\"\nsmmap==5.0.0; python_version >= \"3.8\"\nsortedcontainers==2.4.0; python_version >= \"3.8\"\nsympy==1.11.1; python_version >= \"3.8\"\ntomli==2.0.1; python_version >= \"3.8\"\ntree-sitter==0.20.1; python_version >= \"3.3\"\ntyper==0.6.1; python_version >= \"3.6\"\ntyping-extensions==4.4.0; python_version >= \"3.8\"\nunicorn==2.0.1; python_version >= \"3.8\"\nwrapt==1.14.1; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.5.0\"\nz3-solver==4.10.2.0; python_version >= \"3.8\"\n",
         "path": "ex0dus0x_fuzzable",
-        "commit": "6ca1a739a3b79110f7f3fc81871b90a508a2adee",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "6ca1a739a3b79110f7f3fc81871b90a508a2adee"
     },
     {
         "pluginmetadataversion": 2,
@@ -4874,7 +4848,6 @@
         "packageShortUrl": "https://v35.us/r1sf835",
         "path": "hyuunnn_Hyara",
         "commit": "c56f0bbf26ce22bfc0660b70da52f2540d8514d7",
-        "minimumBinaryNinjaVersion": 0,
         "subdir": "hyara_lib/integration/bn_hyara"
     },
     {
@@ -5028,8 +5001,7 @@
         "packageUrl": "https://api.github.com/repos/tizmd/binja-v850/zipball/refs/tags/0.1.2",
         "packageShortUrl": "https://v35.us/s22qsoh",
         "path": "tizmd_binjav850",
-        "commit": "967757d108b07de5aa8d2d3d664c5ae9d650b968",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "967757d108b07de5aa8d2d3d664c5ae9d650b968"
     },
     {
         "pluginmetadataversion": 2,
@@ -5180,8 +5152,7 @@
         "packageUrl": "https://api.github.com/repos/CySHell/ClassyPP/zipball/refs/tags/1.7",
         "packageShortUrl": "https://v35.us/cgh5w3z",
         "path": "CySHell_ClassyPP",
-        "commit": "070a46b3284bd0c9abeacebae1d6230c832c1b5b",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "070a46b3284bd0c9abeacebae1d6230c832c1b5b"
     },
     {
         "pluginmetadataversion": 2,
@@ -5330,8 +5301,7 @@
         "packageShortUrl": "https://v35.us/1cx5zcq",
         "dependencies": "",
         "path": "0bs3n_archblackfin",
-        "commit": "5cd19a58b7790ab18dc5100ef8033254945329af",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "5cd19a58b7790ab18dc5100ef8033254945329af"
     },
     {
         "pluginmetadataversion": 2,
@@ -5484,8 +5454,7 @@
         "packageShortUrl": "https://v35.us/3kdp775",
         "dependencies": "",
         "path": "matteyeux_commentsviewer",
-        "commit": "6bc9fb7477ebd3619b35b01a05c79c814c05118b",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "6bc9fb7477ebd3619b35b01a05c79c814c05118b"
     },
     {
         "pluginmetadataversion": 2,
@@ -5637,7 +5606,6 @@
         "dependencies": "",
         "path": "Ayrx_binjatypemanager",
         "commit": "0d0f89447da64d399a0f05f4c974697713da97b9",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -5795,8 +5763,7 @@
         "packageUrl": "https://api.github.com/repos/0cyn/bn-dyldsharedcache/zipball/refs/tags/1.0.0",
         "packageShortUrl": "https://v35.us/js9s5qj",
         "path": "0cyn_bndyldsharedcache",
-        "commit": "ac313e5a6c6d85fe0d5c6b20e1cbfc72bcb5d710",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "ac313e5a6c6d85fe0d5c6b20e1cbfc72bcb5d710"
     },
     {
         "pluginmetadataversion": 2,
@@ -5953,8 +5920,7 @@
         "packageShortUrl": "https://v35.us/djs3ex9",
         "dependencies": "",
         "path": "ImNotAVirus_delphi_ninja",
-        "commit": "345f3355977d00dc507124b1e9a1a206f186dab3",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "345f3355977d00dc507124b1e9a1a206f186dab3"
     },
     {
         "pluginmetadataversion": 2,
@@ -6108,8 +6074,7 @@
         "packageUrl": "https://api.github.com/repos/EliseZeroTwo/SEH-Helper/zipball/refs/tags/v0.2.3",
         "packageShortUrl": "https://v35.us/2bc7hk3",
         "path": "EliseZeroTwo_SEHHelper",
-        "commit": "b2c62f6b4ed822e36e834d7689950e2e2cfe8e74",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "b2c62f6b4ed822e36e834d7689950e2e2cfe8e74"
     },
     {
         "pluginmetadataversion": 2,
@@ -6262,8 +6227,7 @@
         "packageUrl": "https://api.github.com/repos/0xb0bb/0CD/zipball/refs/tags/0.1",
         "packageShortUrl": "https://v35.us/c66smka",
         "path": "0xb0bb_0CD",
-        "commit": "cb6957da71ac3cf05cb9a254ddba6db7f34aa54a",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "cb6957da71ac3cf05cb9a254ddba6db7f34aa54a"
     },
     {
         "pluginmetadataversion": 2,
@@ -6445,8 +6409,7 @@
         "packageUrl": "https://api.github.com/repos/fkie-cad/dewolf/zipball/refs/tags/v0.2.0",
         "packageShortUrl": "https://v35.us/92exvvb",
         "path": "fkiecad_dewolf",
-        "commit": "a47d3e12506fdbdabd3c72b8dda5983d5dec937e",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "a47d3e12506fdbdabd3c72b8dda5983d5dec937e"
     },
     {
         "pluginmetadataversion": 2,
@@ -6600,8 +6563,7 @@
         "packageUrl": "https://api.github.com/repos/fabianfreyer/binja-il-hierarchy/zipball/refs/tags/v1.2",
         "packageShortUrl": "https://v35.us/9wi5xm5",
         "path": "fabianfreyer_binjailhierarchy",
-        "commit": "55583f9571bde964e25fa6a3f5746ecba734e3e3",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "55583f9571bde964e25fa6a3f5746ecba734e3e3"
     },
     {
         "pluginmetadataversion": 2,
@@ -6756,8 +6718,7 @@
         "packageShortUrl": "https://v35.us/hvs1p7o",
         "dependencies": "",
         "path": "elbiazo_calltree",
-        "commit": "270cb175647fc5931a0bc49294ed12ee60c582fc",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "270cb175647fc5931a0bc49294ed12ee60c582fc"
     },
     {
         "pluginmetadataversion": 2,
@@ -6920,7 +6881,6 @@
         "packageShortUrl": "https://v35.us/ses5e0r",
         "path": "bootleg_retsync",
         "commit": "59413993b868c4e43e40b00785d25b2dc1a0ab01",
-        "minimumBinaryNinjaVersion": 0,
         "subdir": "ext_bn/retsync"
     },
     {
@@ -7070,7 +7030,6 @@
         "dependencies": "",
         "path": "zznop_bnkconfigrecover",
         "commit": "3e30cc6b3e5e273674a3ce6bca6c3bc60ac22f11",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -7214,7 +7173,6 @@
         "dependencies": "",
         "path": "gamozolabs_coff_nm",
         "commit": "b7bcdbbb03ec22de79670b71558f5d7f7a1f2361",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {},
         "subdir": "binaryninja/dbg_load"
     },
@@ -7374,8 +7332,7 @@
         "packageUrl": "https://api.github.com/repos/ehennenfent/binja_explain_instruction/zipball/refs/tags/0.2.1-alpha",
         "packageShortUrl": "https://v35.us/rykx3hh",
         "path": "ehennenfent_binja_explain_instruction",
-        "commit": "8fbd8ab592f0dbcd532c30889e33c9da56d777a5",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "8fbd8ab592f0dbcd532c30889e33c9da56d777a5"
     },
     {
         "pluginmetadataversion": 2,
@@ -7529,8 +7486,7 @@
         "packageUrl": "https://api.github.com/repos/EliseZeroTwo/iBoot-Binja-Loader/zipball/refs/tags/v1.0.1",
         "packageShortUrl": "https://v35.us/cgzqswm",
         "path": "EliseZeroTwo_iBootBinjaLoader",
-        "commit": "ecf6d78aebd92c2dc199a42d22edb35516dd166d",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "ecf6d78aebd92c2dc199a42d22edb35516dd166d"
     },
     {
         "pluginmetadataversion": 2,
@@ -7690,8 +7646,7 @@
         "packageShortUrl": "https://v35.us/609u87i",
         "dependencies": "",
         "path": "zackorndorff_binjaxtensa",
-        "commit": "b2a9ef3c84ab21047e88e7fe41d9fc8fd6e4c5d4",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "b2a9ef3c84ab21047e88e7fe41d9fc8fd6e4c5d4"
     },
     {
         "api": [
@@ -7848,7 +7803,6 @@
         "dependencies": "",
         "path": "gaasedelen_lighthouse",
         "commit": "7245a2d2c4e84351cd259ed81dafa4263167909a",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {},
         "subdir": "binjastub"
     },
@@ -8003,8 +7957,7 @@
         "packageUrl": "https://api.github.com/repos/CouleeApps/hex_integers/zipball/refs/tags/1.9",
         "packageShortUrl": "https://v35.us/gup8g3s",
         "path": "CouleeApps_hex_integers",
-        "commit": "d7b20e7ac75b6d9b6238c4eacd0ec4a941ec7d71",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "d7b20e7ac75b6d9b6238c4eacd0ec4a941ec7d71"
     },
     {
         "pluginmetadataversion": 2,
@@ -8157,8 +8110,7 @@
         "packageShortUrl": "https://v35.us/4xv38m4",
         "dependencies": "",
         "path": "xpcmdshell_SysctlHunter",
-        "commit": "15984340cc7b08361c5a98b65f7ee2eccd6999a8",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "15984340cc7b08361c5a98b65f7ee2eccd6999a8"
     },
     {
         "pluginmetadataversion": 2,
@@ -8311,8 +8263,7 @@
         "packageShortUrl": "https://v35.us/r3wlaal",
         "dependencies": "",
         "path": "PistonMiner_binaryninjagcloadmap",
-        "commit": "90f0d6cb987c8d29c35047ca20b9c7c7460e6544",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "90f0d6cb987c8d29c35047ca20b9c7c7460e6544"
     },
     {
         "pluginmetadataversion": 2,
@@ -8465,8 +8416,7 @@
         "packageShortUrl": "https://v35.us/0gvp6f1",
         "dependencies": "",
         "path": "PistonMiner_binaryninjagcdol",
-        "commit": "7ed4b5946b7cc6831d078db6d9a99fa9c172f91c",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "7ed4b5946b7cc6831d078db6d9a99fa9c172f91c"
     },
     {
         "pluginmetadataversion": 2,
@@ -8623,8 +8573,7 @@
         "packageUrl": "https://api.github.com/repos/amtal/microblaze/zipball/refs/tags/1.0.1",
         "packageShortUrl": "https://v35.us/c7gs9mi",
         "path": "amtal_microblaze",
-        "commit": "2622aacc6a9fe3e9e11fc9ff91df00597ee2d96f",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "2622aacc6a9fe3e9e11fc9ff91df00597ee2d96f"
     },
     {
         "pluginmetadataversion": 2,
@@ -8771,8 +8720,7 @@
         "packageShortUrl": "https://v35.us/xo0306s",
         "dependencies": "",
         "path": "zznop_bnuefihelper",
-        "commit": "9251232bc2b0e6d466932f97c21ad655241e85c9",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "9251232bc2b0e6d466932f97c21ad655241e85c9"
     },
     {
         "pluginmetadataversion": 2,
@@ -8924,7 +8872,6 @@
         "packageShortUrl": "https://v35.us/73n2rbc",
         "path": "yellowbyte_opaquepredicatesdetective",
         "commit": "8fe4e5256c532e1b7f68a5ae56e8256c14cb8550",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -9082,8 +9029,7 @@
         "packageShortUrl": "https://v35.us/hmnsz34",
         "dependencies": "",
         "path": "jonpalmisc_screenshot_ninja",
-        "commit": "6ddbaacbd72d4f4c402f29d24dbc297894c86f9d",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "6ddbaacbd72d4f4c402f29d24dbc297894c86f9d"
     },
     {
         "pluginmetadataversion": 2,
@@ -9239,8 +9185,7 @@
         "packageShortUrl": "https://v35.us/5krgsj2",
         "dependencies": "git+https://github.com/androguard/androguard@8d091cbb309c0c50bf239f805cc1e0931b8dcddc\n",
         "path": "Ayrx_binjaJNIAnalyzer",
-        "commit": "61240dff6425f00939b10f9a4a30d0e9e9c6eb32",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "61240dff6425f00939b10f9a4a30d0e9e9c6eb32"
     },
     {
         "pluginmetadataversion": 2,
@@ -9393,8 +9338,7 @@
         "packageShortUrl": "https://v35.us/r6foog8",
         "dependencies": "",
         "path": "mrphrazer_obfuscation_detection",
-        "commit": "147c564aec7dbf02572618a452758188cc18a9f0",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "147c564aec7dbf02572618a452758188cc18a9f0"
     },
     {
         "pluginmetadataversion": 2,
@@ -9569,8 +9513,7 @@
         "packageShortUrl": "https://v35.us/hfk43q6",
         "dependencies": "",
         "path": "psifertex_callgraph",
-        "commit": "674ab1b19646656240c6c740558d00f8430a911a",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "674ab1b19646656240c6c740558d00f8430a911a"
     },
     {
         "pluginmetadataversion": 2,
@@ -9748,8 +9691,7 @@
         "packageShortUrl": "https://v35.us/2w0l2fh",
         "dependencies": "",
         "path": "psifertex_tagteam",
-        "commit": "59fcf85b426b0735a0fe31b70fac95dd7229bb71",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "59fcf85b426b0735a0fe31b70fac95dd7229bb71"
     },
     {
         "pluginmetadataversion": 2,
@@ -9925,8 +9867,7 @@
         "packageUrl": "https://api.github.com/repos/fgsect/JMPscare-binja/zipball/refs/tags/1.1",
         "packageShortUrl": "https://v35.us/bzyf0l7",
         "path": "fgsect_JMPscarebinja",
-        "commit": "fab2f5557483023510776846dd387962b55fc1d8",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "fab2f5557483023510776846dd387962b55fc1d8"
     },
     {
         "pluginmetadataversion": 2,
@@ -10080,8 +10021,7 @@
         "packageShortUrl": "https://v35.us/jtrorik",
         "dependencies": "",
         "path": "ZetaTwo_binjagameboy",
-        "commit": "7f570b83499f0c7e491d4c05ba1c1d154e490068",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "7f570b83499f0c7e491d4c05ba1c1d154e490068"
     },
     {
         "name": "Rust Demangle",
@@ -10387,8 +10327,7 @@
         "packageUrl": "https://api.github.com/repos/PistonMiner/binaryninja-bindiff-viewer/zipball/refs/tags/1.0.3",
         "packageShortUrl": "https://v35.us/dchjsnz",
         "path": "PistonMiner_binaryninjabindiffviewer",
-        "commit": "b57d0ae4d42ed8654cb87e11c765f8339eb4aa67",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "b57d0ae4d42ed8654cb87e11c765f8339eb4aa67"
     },
     {
         "pluginmetadataversion": 2,
@@ -10574,8 +10513,7 @@
         "packageShortUrl": "https://v35.us/5wskaos",
         "dependencies": "",
         "path": "kryptoslogic_binja_degobfuscate",
-        "commit": "f76b806378f5d623760b8b031bbc30b0f9f8579b",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "f76b806378f5d623760b8b031bbc30b0f9f8579b"
     },
     {
         "pluginmetadataversion": 2,
@@ -10728,8 +10666,7 @@
         "packageUrl": "https://api.github.com/repos/travisgoodspeed/symgrate2-binja-plugin/zipball/refs/tags/1.4.0",
         "packageShortUrl": "https://v35.us/0evkudn",
         "path": "travisgoodspeed_symgrate2binjaplugin",
-        "commit": "cf67fbb794897068ad5428756876cf15d77f0ab5",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "cf67fbb794897068ad5428756876cf15d77f0ab5"
     },
     {
         "pluginmetadataversion": 2,
@@ -10887,8 +10824,7 @@
         "packageUrl": "https://api.github.com/repos/Martyx00/VulnFanatic/zipball/refs/tags/3.5",
         "packageShortUrl": "https://v35.us/r8n469a",
         "path": "Martyx00_VulnFanatic",
-        "commit": "c21e868e63fd2ed3a54995122aa333c1d313f72d",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "c21e868e63fd2ed3a54995122aa333c1d313f72d"
     },
     {
         "pluginmetadataversion": 2,
@@ -11041,8 +10977,7 @@
         "packageUrl": "https://api.github.com/repos/Martyx00/ghinja/zipball/refs/tags/1.10",
         "packageShortUrl": "https://v35.us/d7jrhzn",
         "path": "Martyx00_ghinja",
-        "commit": "fe3fab3d7e51fe53cd6a75279465c08413043bc3",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "fe3fab3d7e51fe53cd6a75279465c08413043bc3"
     },
     {
         "pluginmetadataversion": 2,
@@ -11195,8 +11130,7 @@
         "packageUrl": "https://api.github.com/repos/matteyeux/seprom-loader/zipball/refs/tags/1.1.0",
         "packageShortUrl": "https://v35.us/4qssjfo",
         "path": "matteyeux_sepromloader",
-        "commit": "904599d88a8f181943b126e3bcdbbce46d1f023c",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "904599d88a8f181943b126e3bcdbbce46d1f023c"
     },
     {
         "pluginmetadataversion": 2,
@@ -11340,7 +11274,6 @@
         "dependencies": "",
         "path": "murx_devi_binja",
         "commit": "4770a0cceb67edd4d841ffebb5b399988f8f2fd9",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -11494,8 +11427,7 @@
         "packageUrl": "https://api.github.com/repos/d-we/binja-golang-symbol-restore/zipball/refs/tags/1.2",
         "packageShortUrl": "https://v35.us/a8jn25n",
         "path": "dwe_binjagolangsymbolrestore",
-        "commit": "251cc45cab66512fd404eaf69ec6e018684aa5d4",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "251cc45cab66512fd404eaf69ec6e018684aa5d4"
     },
     {
         "api": [
@@ -11653,8 +11585,7 @@
         "packageUrl": "https://api.github.com/repos/f0rki/bn-goloader/zipball/refs/tags/1.1",
         "packageShortUrl": "https://v35.us/n3wptp9",
         "path": "f0rki_bngoloader",
-        "commit": "f3945aa7759f09e9dd8ccd38de87186c17d47e08",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "f3945aa7759f09e9dd8ccd38de87186c17d47e08"
     },
     {
         "pluginmetadataversion": 2,
@@ -12021,8 +11952,7 @@
         "packageUrl": "https://api.github.com/repos/jeffli678/bnhook/zipball/refs/tags/1.2",
         "packageShortUrl": "https://v35.us/mtnws6e",
         "path": "jeffli678_bnhook",
-        "commit": "dba97f1428f8f9287e343049de7a828958bba231",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "dba97f1428f8f9287e343049de7a828958bba231"
     },
     {
         "pluginmetadataversion": 2,
@@ -12183,8 +12113,7 @@
         "packageUrl": "https://api.github.com/repos/thebabush/nampa/zipball/refs/tags/1.0",
         "packageShortUrl": "https://v35.us/kkyqc33",
         "path": "thebabush_nampa",
-        "commit": "96269bb709d1c65f61391defdd3c03cbb1e74ff8",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "96269bb709d1c65f61391defdd3c03cbb1e74ff8"
     },
     {
         "pluginmetadataversion": 2,
@@ -12341,8 +12270,7 @@
         "packageUrl": "https://api.github.com/repos/trib0r3/binja-yara/zipball/refs/tags/1.0",
         "packageShortUrl": "https://v35.us/64ubzl8",
         "path": "trib0r3_binjayara",
-        "commit": "acb8c0279af364c9404426e0cdbda2590e574116",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "acb8c0279af364c9404426e0cdbda2590e574116"
     },
     {
         "pluginmetadataversion": 2,
@@ -12492,8 +12420,7 @@
         "packageUrl": "https://api.github.com/repos/shizmob/binja-depanalyzer/zipball/refs/tags/1.0",
         "packageShortUrl": "https://v35.us/4um2717",
         "path": "shizmob_binjadepanalyzer",
-        "commit": "99b2a2e51870ddcb91eade4cefa83b655317a499",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "99b2a2e51870ddcb91eade4cefa83b655317a499"
     },
     {
         "pluginmetadataversion": 2,
@@ -12647,8 +12574,7 @@
         "packageShortUrl": "https://v35.us/rje9sbo",
         "dependencies": "",
         "path": "atxsinn3r_BinjaHLILDump",
-        "commit": "cb21cf15408e23e0fab977cbbd00437266dd0431",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "cb21cf15408e23e0fab977cbbd00437266dd0431"
     },
     {
         "pluginmetadataversion": 2,
@@ -12798,7 +12724,6 @@
         "packageShortUrl": "https://v35.us/b19mw4b",
         "path": "hugsy_gefbinja",
         "commit": "0885ec31de151eba7e3b899fe1ef237ce4e68491",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -12960,8 +12885,7 @@
         "packageUrl": "https://api.github.com/repos/joshwatson/binaryninja-msp430/zipball/refs/tags/0.6",
         "packageShortUrl": "https://v35.us/hhibziu",
         "path": "joshwatson_binaryninjamsp430",
-        "commit": "9bc5a79b1c6232260c2abc3bb4334e5ca3478baf",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "9bc5a79b1c6232260c2abc3bb4334e5ca3478baf"
     },
     {
         "pluginmetadataversion": 2,
@@ -13117,8 +13041,7 @@
         "packageUrl": "https://api.github.com/repos/apekros/binja_sigmaker/zipball/refs/tags/2.1",
         "packageShortUrl": "https://v35.us/17b9zfd",
         "path": "apekros_binja_sigmaker",
-        "commit": "c793037cb97311c4e239e0154b69eff89befd210",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "c793037cb97311c4e239e0154b69eff89befd210"
     },
     {
         "pluginmetadataversion": 2,
@@ -13276,8 +13199,7 @@
         "packageShortUrl": "https://v35.us/xjx4b44",
         "dependencies": "",
         "path": "Vascojofra_jumptablebrancheditor",
-        "commit": "7c287e047a3655e381e087b246c31bc5b4956f98",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "7c287e047a3655e381e087b246c31bc5b4956f98"
     },
     {
         "pluginmetadataversion": 2,
@@ -13426,7 +13348,6 @@
         "dependencies": "",
         "path": "zznop_bnida",
         "commit": "395af069aa8b82fb63b3f0643fef47482f468e12",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -13575,7 +13496,6 @@
         "packageShortUrl": "https://v35.us/dvka02p",
         "path": "zznop_bngenesis",
         "commit": "2c13bf82407ba6ccbaff7583f018fc2eb8d76106",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -13719,7 +13639,6 @@
         "dependencies": "",
         "path": "zznop_bnkallsyms",
         "commit": "1bf5cc551fe0d84a974063ef73cea0ce80bd4f01",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -13863,7 +13782,6 @@
         "dependencies": "",
         "path": "zznop_bnrecursion",
         "commit": "00d8930bbb721c3a59c939e44b221a39ff761f06",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -14173,8 +14091,7 @@
         "packageShortUrl": "https://v35.us/jzl1m9z",
         "dependencies": "",
         "path": "verylazyguy_binaryninjavmndh",
-        "commit": "4bf54f04e059b0c646bad350586b89fa9a906614",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "4bf54f04e059b0c646bad350586b89fa9a906614"
     },
     {
         "pluginmetadataversion": 2,
@@ -14332,8 +14249,7 @@
         "packageShortUrl": "https://v35.us/1od3p1b",
         "dependencies": "",
         "path": "0x1F9F1_binjamsvc",
-        "commit": "eb3399883492fafc2e5acb332b98d34223285797",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "eb3399883492fafc2e5acb332b98d34223285797"
     },
     {
         "pluginmetadataversion": 2,
@@ -14495,8 +14411,7 @@
         "packageShortUrl": "https://v35.us/0lr08er",
         "dependencies": "",
         "path": "withzombies_bnilgraph",
-        "commit": "534f4102caabb590c4e1fa6713630172c97bcf32",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "534f4102caabb590c4e1fa6713630172c97bcf32"
     },
     {
         "pluginmetadataversion": 2,
@@ -14647,8 +14562,7 @@
         "packageShortUrl": "https://v35.us/d25hv3v",
         "dependencies": "",
         "path": "mechanicalnull_sourcery_pane",
-        "commit": "dd133ebf553d6e05383acfd53f3ef5a1e5ae3a72",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "dd133ebf553d6e05383acfd53f3ef5a1e5ae3a72"
     },
     {
         "name": "Frida",
@@ -14801,8 +14715,7 @@
         "packageUrl": "https://api.github.com/repos/chame1eon/binaryninja-frida/zipball/refs/tags/v1.3.1",
         "packageShortUrl": "https://v35.us/sr190kl",
         "path": "chame1eon_binaryninjafrida",
-        "commit": "6292320d1854abaa9a1f2a59234c49faebf86416",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "6292320d1854abaa9a1f2a59234c49faebf86416"
     },
     {
         "pluginmetadataversion": 2,
@@ -14955,8 +14868,7 @@
         "packageShortUrl": "https://v35.us/4a1hvsz",
         "dependencies": "",
         "path": "Vascojofra_formatstringfinderbinja",
-        "commit": "d1854604fc5d1fb4f6fdb9d3078d33020ae21c74",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "d1854604fc5d1fb4f6fdb9d3078d33020ae21c74"
     },
     {
         "pluginmetadataversion": 2,
@@ -15108,8 +15020,7 @@
         "packageUrl": "https://api.github.com/repos/shareef12/driveranalyzer/zipball/refs/tags/v1.0.0",
         "packageShortUrl": "https://v35.us/klpexeo",
         "path": "shareef12_driveranalyzer",
-        "commit": "36dcd34e0fc7f634171050a4806f055bbe1cc47d",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "36dcd34e0fc7f634171050a4806f055bbe1cc47d"
     },
     {
         "pluginmetadataversion": 2,
@@ -15252,8 +15163,7 @@
         "packageShortUrl": "https://v35.us/rxc36vj",
         "dependencies": "",
         "path": "carstein_Syscaller",
-        "commit": "7e102546a58a08cb81755ec2d6be338ce2ce7765",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "7e102546a58a08cb81755ec2d6be338ce2ce7765"
     },
     {
         "pluginmetadataversion": 2,
@@ -15410,8 +15320,7 @@
         "packageUrl": "https://api.github.com/repos/404d/peutils/zipball/refs/tags/v1.3",
         "packageShortUrl": "https://v35.us/yd3oh0h",
         "path": "404d_peutils",
-        "commit": "cd359c99808b717aa5ece535671e20c02f94f2e4",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "cd359c99808b717aa5ece535671e20c02f94f2e4"
     },
     {
         "pluginmetadataversion": 2,
@@ -15561,8 +15470,7 @@
         "packageUrl": "https://api.github.com/repos/404d/autoutils/zipball/refs/tags/v0.3",
         "packageShortUrl": "https://v35.us/oym7uzg",
         "path": "404d_autoutils",
-        "commit": "861559b9cfe98bdea6caec233280d587649d23f5",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "861559b9cfe98bdea6caec233280d587649d23f5"
     },
     {
         "pluginmetadataversion": 2,
@@ -15735,8 +15643,7 @@
         "packageShortUrl": "https://v35.us/w8pl9xv",
         "dependencies": "msgpack\n",
         "path": "ForAllSecure_bncov",
-        "commit": "0a3cebcf888659aefeee37eb3225b6174be9de0d",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "0a3cebcf888659aefeee37eb3225b6174be9de0d"
     },
     {
         "pluginmetadataversion": 2,
@@ -15885,7 +15792,6 @@
         "packageShortUrl": "https://v35.us/e3swgye",
         "path": "ehntoo_binaryninjasvd",
         "commit": "52f1b321343ca7f72ab4ba3f254dabccef62f4c0",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -16036,7 +15942,6 @@
         "dependencies": "",
         "path": "whitequark_binja_function_abi",
         "commit": "6373f1bb08e9f01500c3c82ea56c91d1c4a6a7c1",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -16187,7 +16092,6 @@
         "dependencies": "",
         "path": "whitequark_binja_itanium_cxx_abi",
         "commit": "8a9a582243df4785d04bb69ea3a89dd6e1aee91f",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -16338,7 +16242,6 @@
         "dependencies": "",
         "path": "whitequark_binjai8086",
         "commit": "72b6210ef4587eae5a85df6ba543fc0ef2b4da6f",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -16492,8 +16395,7 @@
         "packageShortUrl": "https://v35.us/v058ruv",
         "dependencies": "",
         "path": "whitequark_binjam16c",
-        "commit": "debf368e5df90a96d6c8b0bc128626a9d6834bb4",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "debf368e5df90a96d6c8b0bc128626a9d6834bb4"
     },
     {
         "pluginmetadataversion": 2,
@@ -16647,7 +16549,6 @@
         "dependencies": "",
         "path": "c3r34lk1ll3r_Instruction_Slicer",
         "commit": "e960a2a5bdf598c691cfb99baa48788ebef6078d",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -16804,8 +16705,7 @@
         "packageShortUrl": "https://v35.us/hywe2iv",
         "dependencies": "",
         "path": "c3r34lk1ll3r_BinRida",
-        "commit": "e475e4e93fa7427962d140df35bf763d4fac5521",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "e475e4e93fa7427962d140df35bf763d4fac5521"
     },
     {
         "pluginmetadataversion": 2,
@@ -16964,8 +16864,7 @@
         "packageShortUrl": "https://v35.us/teasm6p",
         "dependencies": "",
         "path": "icecr4ck_bnGB",
-        "commit": "f098d7906dc72088cb555afded2c8c87cfd13b65",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "f098d7906dc72088cb555afded2c8c87cfd13b65"
     },
     {
         "pluginmetadataversion": 2,
@@ -17330,8 +17229,7 @@
         "packageShortUrl": "https://v35.us/17gkn79",
         "dependencies": "",
         "path": "galenbwill_binaryninjam68k",
-        "commit": "3338725ef57f57b9d9745afd386a76b8cfef9b28",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "3338725ef57f57b9d9745afd386a76b8cfef9b28"
     },
     {
         "pluginmetadataversion": 2,
@@ -17488,8 +17386,7 @@
         "packageUrl": "https://api.github.com/repos/janbbeck/CleanTricks/zipball/refs/tags/1.4",
         "packageShortUrl": "https://v35.us/fnjig8o",
         "path": "janbbeck_CleanTricks",
-        "commit": "bf0b8efbc6e27b16e72f26640fef9cc4fd4e3c44",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "bf0b8efbc6e27b16e72f26640fef9cc4fd4e3c44"
     },
     {
         "pluginmetadataversion": 2,
@@ -17666,8 +17563,7 @@
         "packageUrl": "https://api.github.com/repos/uni-due-syssec/bn-riscv/zipball/refs/tags/v0.2",
         "packageShortUrl": "https://v35.us/hm39i4r",
         "path": "uniduesyssec_bnriscv",
-        "commit": "6cbd454ac0920ea9707483c2da31f613e1ff1143",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "6cbd454ac0920ea9707483c2da31f613e1ff1143"
     },
     {
         "pluginmetadataversion": 2,
@@ -17842,8 +17738,7 @@
         "packageUrl": "https://api.github.com/repos/jmprdi/binja-division-deoptimization/zipball/refs/tags/0.1.3",
         "packageShortUrl": "https://v35.us/wva4jou",
         "path": "jmprdi_binjadivisiondeoptimization",
-        "commit": "d42ac1eb2f5ffc8704f76addfc45a3f45bef5678",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "d42ac1eb2f5ffc8704f76addfc45a3f45bef5678"
     },
     {
         "pluginmetadataversion": 2,
@@ -17996,8 +17891,7 @@
         "packageShortUrl": "https://v35.us/15w3q2f",
         "dependencies": "",
         "path": "Cryptogenic_idc_importer",
-        "commit": "7224a1f0c86253e52f660f11ccc188bfbffb98d9",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "7224a1f0c86253e52f660f11ccc188bfbffb98d9"
     },
     {
         "pluginmetadataversion": 2,
@@ -18151,8 +18045,7 @@
         "packageUrl": "https://api.github.com/repos/lunixbochs/revsync/zipball/refs/tags/1.0",
         "packageShortUrl": "https://v35.us/zkuz40m",
         "path": "lunixbochs_revsync",
-        "commit": "0d4087c73dc146d0142f81a243e56305febd50ea",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "0d4087c73dc146d0142f81a243e56305febd50ea"
     },
     {
         "pluginmetadataversion": 2,
@@ -18306,8 +18199,7 @@
         "packageShortUrl": "https://v35.us/ltqgrwe",
         "dependencies": "",
         "path": "toolCHAINZ_DUMB",
-        "commit": "4aa106b0002f11b00349b3fffa3565c19de86d5a",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "4aa106b0002f11b00349b3fffa3565c19de86d5a"
     },
     {
         "pluginmetadataversion": 2,
@@ -18465,8 +18357,7 @@
         "packageShortUrl": "https://v35.us/fasu0zq",
         "dependencies": "argparse-addons==0.12.0 ; python_version >= \"3.10\" and python_version < \"4.0\" \\\n    --hash=sha256:48b70ecd719054fcb0d7e6f25a1fecc13607aac61d446e83f47d211b4ead0d61 \\\n    --hash=sha256:6322a0dcd706887e76308d23136d5b86da0eab75a282dc6496701d1210b460af\nbincopy==17.14.5 ; python_version >= \"3.10\" and python_version < \"4.0\" \\\n    --hash=sha256:54d963954047d3bd23d46358dbb2bb7e49d749376850cb702a94791e0894d917 \\\n    --hash=sha256:5f4de7c37a3db7adcf3edc4833a223f3356d9bf08be72ec6e431c9f0acd29f18\nhumanfriendly==10.0 ; python_version >= \"3.10\" and python_version < \"4.0\" \\\n    --hash=sha256:1697e1a8a8f550fd43c2865cd84542fc175a61dcb779b6fee18cf6b6ccba1477 \\\n    --hash=sha256:6b0b831ce8f15f7300721aa49829fc4e83921a9a301cc7f606be6686a2288ddc\npyelftools==0.29 ; python_version >= \"3.10\" and python_version < \"4.0\" \\\n    --hash=sha256:519f38cf412f073b2d7393aa4682b0190fa901f7c3fa0bff2b82d537690c7fc1 \\\n    --hash=sha256:ec761596aafa16e282a31de188737e5485552469ac63b60cfcccf22263fd24ff\npyreadline3==3.4.1 ; sys_platform == \"win32\" and python_version >= \"3.10\" and python_version < \"4.0\" \\\n    --hash=sha256:6f3d1f7b8a31ba32b73917cefc1f28cc660562f39aea8646d30bd6eff21f7bae \\\n    --hash=sha256:b0efb6516fd4fb07b45949053826a62fa4cb353db5be2bbb4a7aa1fdd1e345fb\n",
         "path": "toolCHAINZ_hexfiles",
-        "commit": "0e292c7eb853ba974be660438848fc7b492e944f",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "0e292c7eb853ba974be660438848fc7b492e944f"
     },
     {
         "name": "WASM Plugin",
@@ -18803,8 +18694,7 @@
         "packageUrl": "https://api.github.com/repos/vtil-project/VTIL-BinaryNinja/zipball/refs/tags/1.1",
         "packageShortUrl": "https://v35.us/y93i6a6",
         "path": "vtilproject_VTILBinaryNinja",
-        "commit": "dc3b55ac068a6c62e50de792c74cacc634bc75c6",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "dc3b55ac068a6c62e50de792c74cacc634bc75c6"
     },
     {
         "pluginmetadataversion": 2,
@@ -18958,8 +18848,7 @@
         "packageUrl": "https://api.github.com/repos/EliseZeroTwo/Switch-Binja-Loader/zipball/refs/tags/v1.0",
         "packageShortUrl": "https://v35.us/wep1lxk",
         "path": "EliseZeroTwo_SwitchBinjaLoader",
-        "commit": "9a170fc502bc8bf2748dba94f133524e32113778",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "9a170fc502bc8bf2748dba94f133524e32113778"
     },
     {
         "pluginmetadataversion": 2,
@@ -19117,8 +19006,7 @@
         "packageUrl": "https://api.github.com/repos/borzacchiello/seninja/zipball/refs/tags/0.4.0",
         "packageShortUrl": "https://v35.us/kbezmb6",
         "path": "borzacchiello_seninja",
-        "commit": "7a0d939d9e58bed832b88da1e75546f4f2d11868",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "7a0d939d9e58bed832b88da1e75546f4f2d11868"
     },
     {
         "pluginmetadataversion": 2,
@@ -19284,8 +19172,7 @@
         "packageUrl": "https://api.github.com/repos/Rami114/cryptoscan/zipball/refs/tags/1.2",
         "packageShortUrl": "https://v35.us/wal8ekp",
         "path": "Rami114_cryptoscan",
-        "commit": "403f9762c368ef19d25252d16fe3eb5696228aa3",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "403f9762c368ef19d25252d16fe3eb5696228aa3"
     },
     {
         "pluginmetadataversion": 2,
@@ -19443,8 +19330,7 @@
         "packageShortUrl": "https://v35.us/b5ja22i",
         "dependencies": "",
         "path": "uafio_BinaryNinjaCHIP8Arch",
-        "commit": "7cc8276710a7f7bbfd5ee911efe33d0f29699ff3",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "7cc8276710a7f7bbfd5ee911efe33d0f29699ff3"
     },
     {
         "pluginmetadataversion": 2,
@@ -19597,8 +19483,7 @@
         "packageUrl": "https://api.github.com/repos/mauronz/binja-emotet/zipball/refs/tags/0.1",
         "packageShortUrl": "https://v35.us/06z92tu",
         "path": "mauronz_binjaemotet",
-        "commit": "580b5eb73bc9665b15126ee7648dff815df01b48",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "580b5eb73bc9665b15126ee7648dff815df01b48"
     },
     {
         "pluginmetadataversion": 2,
@@ -19775,8 +19660,7 @@
         "packageShortUrl": "https://v35.us/uefpoc6",
         "dependencies": "",
         "path": "BlackwingHQ_iBoot64Binja",
-        "commit": "741b12065f090f53c2fabf17167eafb99b15fc70",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "741b12065f090f53c2fabf17167eafb99b15fc70"
     },
     {
         "pluginmetadataversion": 2,
@@ -19930,7 +19814,6 @@
         "dependencies": "",
         "path": "sumcatnip_logrn",
         "commit": "dc0fccfb6fe29a19c2219f668b895a3d23444609",
-        "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
     {
@@ -20085,8 +19968,7 @@
         "packageUrl": "https://api.github.com/repos/lwerdna/call_shellcode/zipball/refs/tags/1.0",
         "packageShortUrl": "https://v35.us/7cygmd2",
         "path": "lwerdna_call_shellcode",
-        "commit": "9757afeaf0b57a38fbbd96116e33fee917fd309a",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "9757afeaf0b57a38fbbd96116e33fee917fd309a"
     },
     {
         "pluginmetadataversion": 2,
@@ -20240,7 +20122,6 @@
         "packageUrl": "https://api.github.com/repos/lwerdna/keypatch_binja/zipball/refs/tags/1.6",
         "packageShortUrl": "https://v35.us/gxhk1et",
         "path": "lwerdna_keypatch_binja",
-        "commit": "b2db80f00c741e6478c04f203b08761d4ff91633",
-        "minimumBinaryNinjaVersion": 0
+        "commit": "b2db80f00c741e6478c04f203b08761d4ff91633"
     }
 ]

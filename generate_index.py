@@ -181,7 +181,7 @@ def getPluginJson(plugin, shortUrls):
 
     if isinstance(data["api"], str):
         data["api"] = [data["api"]]
-    if "minimumBinaryNinjaVersion" not in data or not isinstance(data["minimumBinaryNinjaVersion"], int):
+    if ("minimumbinaryninjaversion" not in data or not isinstance(data["minimumbinaryninjaversion"], int)) or ("minimumBinaryNinjaVersion" not in data or not isinstance(data["minimumBinaryNinjaVersion"], int)):
         data["minimumBinaryNinjaVersion"] = 0
     if "platforms" not in data:
         data["platforms"] = []
