@@ -1,9 +1,5 @@
 [
   {
-    "name": "fluxchief/binaryninja_avr",
-    "auto_update": true
-  },
-  {
     "name": "cxiao/rust_string_slicer",
     "auto_update": true
   },
