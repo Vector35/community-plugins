@@ -87,7 +87,7 @@
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|2020-05-27|LGPL v3|binaryview, core|FLIRT for (binary) ninjas|
 |[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|2023-05-04|MIT|helper|Find and create signatures|
 |[Notepad](https://github.com/jonpalmisc/bn-notepad)|[Jon Palmisciano](https://github.com/jonpalmisc)|2021-04-19|MIT|None|A notepad for taking notes inside Binary Ninja.|
-|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|2023-09-19|GPL-2.0|helper|Automatically detect obfuscated code and other interesting code constructs|
+|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|2023-10-14|GPL-2.0|helper|Automatically detect obfuscated code and other interesting code constructs|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|2021-04-10|MIT|helper|detect opaque predicates|
 |[OpenAI GPT3](https://github.com/WhatTheFuzz/binaryninja-openai)|[Sean Deaton (@WhatTheFuzz)](https://github.com/WhatTheFuzz)|2023-09-11|MIT|helper|Queries OpenAI's GPT3 to determine what a given function does.|
 |[pd-ninja](https://github.com/lockbox/pd-ninja)|[lockbox](https://github.com/lockbox)|2023-03-01|MIT|helper|Playdate Console RE utilities|
