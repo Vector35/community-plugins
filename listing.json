@@ -1,5 +1,9 @@
 [
   {
+    "name": "xclusivor/binaryninja-xbe",
+    "auto_update": true
+  },
+  {
     "name": "cxiao/rust_string_slicer",
     "auto_update": true
   },
@@ -132,7 +136,7 @@
     "auto_update": true
   },
   {
-    "name": "cxnder/bn-dyldsharedcache",
+    "name": "0cyn/bn-dyldsharedcache",
     "auto_update": true
   },
   {
@@ -299,7 +303,7 @@
     "auto_update": true
   },
   {
-    "name": "Shizmob/binja-depanalyzer",
+    "name": "shizmob/binja-depanalyzer",
     "auto_update": true
   },
   {
@@ -455,7 +459,7 @@
     "auto_update": true
   },
   {
-    "name": "CarveSystems/binjawa",
+    "name": "ivision-research/binjawa",
     "auto_update": true
   },
   {
