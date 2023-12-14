@@ -1,5 +1,9 @@
 [
   {
+    "name": "pistonminer/binaryninja-go-callconv",
+    "auto_update": true
+  },
+  {
     "name": "xclusivor/binaryninja-xbe",
     "auto_update": true
   },
