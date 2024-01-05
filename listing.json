@@ -1,5 +1,13 @@
 [
   {
+    "name": "moval0x1/CommentsAndSymbols",
+    "auto_update": true
+  },
+  {
+    "name": "moval0x1/BinjaExportTox64dbg",
+    "auto_update": true
+  },
+  {
     "name": "pistonminer/binaryninja-go-callconv",
     "auto_update": true
   },
