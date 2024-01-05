@@ -1,0 +1,32 @@
+name: Validate New Plugin Repository
+on:
+  issues:
+    types: [opened]
+jobs:
+  run:
+    name: ValidateRepo 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Set Issue Content
+        run: echo "ISSUE_BODY=${{ github.event.issue.body }}" >> $GITHUB_ENV
+
+      - name: Run Validator
+        run: python3 validate_json.py ${{ secrets.M_GITHUB_TOKEN }}
+        env:
+          ISSUE_CONTENT: ${{ env.ISSUE_BODY }}
+
+      - name: Report Status
+        if: always()
+        uses: ravsamhq/notify-slack-action@v1
+        with:
+          status: ${{ job.status }}
+          notify_when: 'failure'
+          notification_title: '{workflow} has {status_message}'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
