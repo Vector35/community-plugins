@@ -14,7 +14,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Set Issue Content
-        run: echo "ISSUE_BODY=${{ github.event.issue.body }}" >> $GITHUB_ENV
+        run: echo "ISSUE_BODY=$(echo '${{ github.event.issue.body }}' | base64)" >> $GITHUB_ENV
 
       - name: Run Validator
         run: python3 validate_json.py ${{ secrets.M_GITHUB_TOKEN }}

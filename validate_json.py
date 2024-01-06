@@ -7,6 +7,13 @@ token = sys.argv[1]
 def getfile(url):
     return requests.get(url, headers={'Authorization': f'token {token}'})
 
+encoded_issue_content = os.environ.get('ISSUE_CONTENT')
+if encoded_issue_content:
+    issue_content = base64.b64decode(encoded_issue_content).decode('utf-8')
+else:
+    print("No issue environment variable.")
+    sys.exit(-1)
+
 issue_content = os.environ.get("ISSUE_CONTENT")
 
 if issue_content.startswith("Please add my plugin to the repository."):
