@@ -1,7 +1,7 @@
 ---
 name: New Plugin Request
 about: Add a new plugin
-title: "[NewPlugin]  $Author $RepoName $tag"
+title: "[NewPlugin]  $Author $RepoName"
 labels: ''
 assignees: ''
 
@@ -14,5 +14,4 @@ Yes, I've read the instructions, especially the part about creating an [actual r
 I either used the UI, or the `hub` command to create a _real_ release.
 
 Author: Me
-Repo name:
-Release:
+Repo URL: https://github.com/Me/Plugin

@@ -1,0 +1,30 @@
+name: New Plugin
+description: Add a new plugin to the repository
+title: "[New Plugin]: "
+labels: ["new plugin"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for writing a new plugin and submiting it!
+  - type: textarea
+    id: plugin-description
+    attributes:
+      label: Plugin Description
+      description: What does your plugin do?
+    validations:
+      required: false
+  - type: input
+    id: url
+    attributes:
+      label: Plugin Repository URL
+    validations:
+      required: true
+  - type: checkboxes
+    id: properrepo
+    attributes:
+      label: Real Release
+      description: Yes, I've read the instructions, especially the part about creating an [actual release](https://binary.ninja/2019/07/04/plugin-manager-2.0.html#5-create-a-release) and creating the tag.  I either used the UI, or the `hub` command to create a _real_ release.
+      options:
+        - label: I have made a real release
+          required: true
