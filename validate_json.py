@@ -41,9 +41,7 @@ if issue_content.startswith("Please add my plugin to the repository."):
                 tag = releaseData['tag_name']
                 pluginjsonurl = f"{projectUrl}/contents/plugin.json?ref={tag}"
                 content = getfile(pluginjsonurl).json()['content']
-                print(content)
                 jsoncontent = json.loads(base64.b64decode(content))
-                print(jsoncontent)
             except:
                 print(f"\n\nFailed to parse valid plugin.json from https://github.com/{repo}/blob/master/plugin.json")
                 sys.exit(-1)
