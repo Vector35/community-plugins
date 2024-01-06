@@ -32,12 +32,12 @@ if issue_content.startswith("Please add my plugin to the repository."):
                         sys.exit(-1)
 
             except:
-                print("\n\nFailed to load valid release data json from {latestRelease}")
+                print(f"\n\nFailed to load valid release data json from {latestRelease}")
                 sys.exit(-1)
             try:
                 tag = releaseData['tag_name']
                 pluginjsonurl = f"{projectUrl}/contents/plugin.json?ref={tag}"
                 content = getfile(pluginjson).json()['content']
             except:
-                print("\n\nFailed to parse valid plugin.json from https://github.com/{repo}/blob/master/plugin.json")
+                print(f"\n\nFailed to parse valid plugin.json from https://github.com/{repo}/blob/master/plugin.json")
                 sys.exit(-1)
