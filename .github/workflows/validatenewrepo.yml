@@ -24,7 +24,7 @@ jobs:
         with:
           #github-token: ${{secrets.M_GITHUB_TOKEN}}
           script: |
-            github.rest.issues.createComment({
+            await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -33,6 +33,12 @@ jobs:
               Please ensure it is valid JSON and that you have created an actual release.
               `
             })  
+            await github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed'
+            })
 
       - name: Report Status
         if: failure()
