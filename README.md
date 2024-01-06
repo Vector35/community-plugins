@@ -13,8 +13,9 @@
 |[Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|[Terry Chia](https://github.com/Ayrx)|2021-01-30|MIT|helper|Manage custom type libraries.|
 |[Binja IPython console](https://github.com/skr0x1c0/ipybinja)|[skr0x1c0](https://github.com/skr0x1c0)|2022-12-12|MIT|binaryview, core, helper, ui|IPython console widget for Binary Ninja|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|2023-01-29|MIT|architecture, binaryview, core, ui|Generate and find signatures.|
+|[BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|[moval0x1](https://github.com/moval0x1)|2024-01-06|MIT|binaryview|Export notations from Binja to x64dbg|
 |[BinRida](https://github.com/c3r34lk1ll3r/BinRida)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|2021-05-19|MIT|helper|This plugin allows to stalk, dump and instrument a process using Frida functionalities.|
-|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|2023-11-27|BSD 2-clause|core, ui|Adds support for cross-decompiler collab in the BinSync supported decompilers.|
+|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|2023-12-27|BSD 2-clause|core, ui|Adds support for cross-decompiler collab in the BinSync supported decompilers.|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|2022-05-28|GPL-3.0|architecture|A Binary Ninja architecture plugin for the AD Blackfin architecture|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|2022-01-14|MIT|helper|Recover Linux kernel build configurations|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|2021-01-18|Apache-2.0|architecture|RISC-V architecture plugin.|
@@ -33,7 +34,7 @@
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|2022-05-27|MIT|ui|Binary Ninja comments viewer|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|2023-09-22|MIT|binaryview, ui|A plugin to detect several common crypto constructs and magic vars.|
 |[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|2021-11-15|MIT|helper|Load old COFF .dbg files as well as CAB-ed .db_ files!|
-|[decomp2dbg](https://github.com/mahaloz/decomp2dbg)|[Zion Basque (@mahaloz)](https://github.com/mahaloz)|2023-11-30|BSD 2-clause|core|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|
+|[decomp2dbg](https://github.com/mahaloz/decomp2dbg)|[Zion Basque (@mahaloz)](https://github.com/mahaloz)|2024-01-04|BSD 2-clause|core|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|
 |[DeGObfuscate](https://github.com/kryptoslogic/binja_degobfuscate)|[Jamie Hankins](https://github.com/kryptoslogic)|2020-12-02|MIT|helper|De-obfuscates strings inside of obfuscated Go binaries|
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|2022-02-21|MIT|helper|Find Delphi VMTs and generate their structures|
 |[Dependency analyzer](https://github.com/shizmob/binja-depanalyzer)|[Shiz](https://github.com/shizmob)|2020-05-25|MIT|helper|Analyze dependencies and resolve obfuscated imports|
@@ -45,7 +46,6 @@
 |[Emotet API+string deobfuscator](https://github.com/mauronz/binja-emotet)|[Francesco Muroni](https://github.com/mauronz)|2020-09-21|MIT|helper|Deobufscate API calls and strings in unpacked Emotet samples.|
 |[ethersplay Ethereum Architecture Plugin](https://github.com/crytic/ethersplay)|[Trail of Bits](https://github.com/crytic)|2022-11-03|AGPL-3.0-only|architecture|A disassembler and lifter for the Ethereum architecture.|
 |[Explain Instruction](https://github.com/ehennenfent/binja_explain_instruction)|[Eric Hennenfent](https://github.com/ehennenfent)|2021-10-10|Apache 2|helper, ui|Displays a window that explains in simple English what an assembly instruction does|
-|[FIXED Discord Rich Presence](https://github.com/LittleDyingDuck/BinaryNinja-RichPrecense)|[duck](https://github.com/LittleDyingDuck)|2022-08-11|MIT|helper|Enables Discord Rich Presence Integration for Binary Ninja|
 |[Format String Analysis](https://github.com/nshp/binaryninja-printf)|[Nick Shipp](https://github.com/nshp)|2023-03-08|MIT|helper|Script to automatically annotate variadic printf functions|
 |[Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|[jofra](https://github.com/Vasco-jofra)|2019-07-15|MIT|helper|Finds format string vulnerabilities|
 |[Frida](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|2020-06-01|MIT|helper|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|
@@ -103,7 +103,7 @@
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|2020-05-14|MIT|ui|Realtime IDA Pro and Binary Ninja sync plugin|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|2022-07-08|MIT|helper|Package binary code as a Python class backed by Unicorn-Engine|
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|2023-07-09|MIT|helper|Demangles Rust symbols.|
-|[Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|[Cindy Xiao](https://github.com/cxiao)|2023-10-08|MIT|helper|Rust binary string recovery plugin|
+|[Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|[Cindy Xiao](https://github.com/cxiao)|2023-12-25|MIT|helper|Rust binary string recovery plugin|
 |[Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|[Cindy Xiao](https://github.com/cxiao)|2023-04-27|MIT|helper|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|
 |[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|2023-06-17|MIT|helper|Easily capture Binary Ninja screenshots in ultra-high resolution|
 |[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|2022-02-19|MIT|helper, ui|Helper for exploring structured exception handlers in PEs|
