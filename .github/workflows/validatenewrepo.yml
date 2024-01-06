@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -18,9 +18,25 @@ jobs:
         env:
           ISSUE_CONTENT: ${{ github.event.issue.body }}
 
+      - name: Comment
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          #github-token: ${{secrets.M_GITHUB_TOKEN}}
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `Sorry, this repository does not appear to have a valid plugin.json.
+
+              Please ensure it is valid JSON and that you have created an actual release.
+              `
+            })  
+
       - name: Report Status
-        if: always()
-        uses: ravsamhq/notify-slack-action@v1
+        if: failure()
+        uses: ravsamhq/notify-slack-action@v2
         with:
           status: ${{ job.status }}
           notify_when: 'failure'
