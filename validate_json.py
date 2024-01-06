@@ -16,7 +16,7 @@ if issue_content.startswith("Please add my plugin to the repository."):
             repo = line.split(" ")[-1]
             if repo.startswith("https://github"):
                 repo = repo[19:] # strip off beginning of URL if it exists
-            repo = repo.strip("/") #normalize path
+            repo = repo.strip().strip("/") # normalize path
             projectUrl = f"https://api.github.com/repos/{repo}"
             latestRelease = f"{projectUrl}/releases/latest"
             tagsUrl = f"{projectUrl}/tags"
