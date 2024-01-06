@@ -13,13 +13,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Set Issue Content
-        run: echo "ISSUE_BODY=$(echo '${{ github.event.issue.body }}' | base64)" >> $GITHUB_ENV
-
       - name: Run Validator
         run: python3 validate_json.py ${{ secrets.M_GITHUB_TOKEN }}
         env:
-          ISSUE_CONTENT: ${{ env.ISSUE_BODY }}
+          ISSUE_CONTENT: ${{ github.event.issue.body }}
 
       - name: Report Status
         if: always()
