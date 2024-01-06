@@ -57,7 +57,7 @@
 |[GEF-Binja](https://github.com/hugsy/gef-binja)|[hugsy](https://github.com/hugsy)|2020-05-18|MIT|helper, ui|Interface Binary Ninja with GDB-GEF easily.|
 |[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|2019-07-23|MIT|patch|SEGA Megadrive/Genesis ROM Hacking Toolkit|
 |[Ghinja](https://github.com/Martyx00/ghinja)|[Martin Petran](https://github.com/Martyx00)|2022-06-08|Apache-2.0|ui|Plugin to embed Ghidra Decompiler into Binary Ninja|
-|[Go Calling Convention](https://github.com/pistonminer/binaryninja-go-callconv)|[Linus S. (aka PistonMiner)](https://github.com/pistonminer)|2023-12-14|MIT|helper|Adds the "gocall" calling convention|
+|[Go Calling Convention](https://github.com/PistonMiner/binaryninja-go-callconv)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|2023-12-14|MIT|helper|Adds the "gocall" calling convention|
 |[GO Loader Assist](https://github.com/f0rki/bn-goloader)|[Michael Rodler](https://github.com/f0rki)|2021-02-02|MIT|ui|Short script that parses go symbol table and renames/creates functions.|
 |[GoLang binary parser](https://github.com/dipusone/golang_pclntab_parser)|[Jacopo Ferrigno](https://github.com/dipusone)|2023-01-05|MIT|ui|BinaryNinja plugin to parse GoLang binaries and restore some information, like function names and type information|
 |[Golang Symbol Restore](https://github.com/d-we/binja-golang-symbol-restore)|[Daniel Weber](https://github.com/d-we)|2020-10-19|MIT|helper|Binary Ninja plugin for restoring function names from stripped Golang binaries|

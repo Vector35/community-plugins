@@ -182,7 +182,7 @@
         "author": "Linus S. (aka PistonMiner)",
         "minimumbinaryninjaversion": 2846,
         "lastUpdated": 1702576093,
-        "projectUrl": "https://github.com/pistonminer/binaryninja-go-callconv",
+        "projectUrl": "https://github.com/PistonMiner/binaryninja-go-callconv",
         "projectData": {
             "id": 731694914,
             "node_id": "R_kgDOK5zHQg",
@@ -299,7 +299,7 @@
             "network_count": 0,
             "subscribers_count": 1
         },
-        "authorUrl": "https://github.com/pistonminer",
+        "authorUrl": "https://github.com/PistonMiner",
         "packageUrl": "https://api.github.com/repos/PistonMiner/binaryninja-go-callconv/zipball/refs/tags/v1.0.0",
         "packageShortUrl": "https://v35.us/kd6ipsb",
         "dependencies": "",
