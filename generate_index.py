@@ -50,6 +50,7 @@ def getPluginJson(plugin, shortUrls):
             match releaseData.get('message'):
                 case 'Not Found':
                     print(f"\n\nERROR: {plugin['name']}, Couldn't get release information. Likely the user created a tag but no associated release.\n")
+                    sys.exit()
                     return None
                 case 'Bad credentials':
                     print(f"\n\nERROR: Bad credentials, check access token.\n")
@@ -221,9 +222,8 @@ def main():
     for i, plugin in enumerate(listing):
         printProgressBar(i, len(listing), prefix="Collecting Plugin JSON files:")
         jsonData = getPluginJson(plugin, shortUrls)
-        if jsonData is None:
-            return
-        allPlugins[plugin["name"]] = jsonData
+        if jsonData is not None:
+            allPlugins[plugin["name"]] = jsonData
     printProgressBar(len(listing), len(listing), prefix="Collecting Plugin JSON files:")
 
     newPlugins = []
