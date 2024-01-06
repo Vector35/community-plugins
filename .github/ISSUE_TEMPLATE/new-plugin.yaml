@@ -18,6 +18,7 @@ body:
     id: url
     attributes:
       label: Plugin Repository URL
+      value: "Repo URL: "
     validations:
       required: true
   - type: checkboxes

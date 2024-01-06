@@ -10,16 +10,29 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Check Issue Label
+        id: check-label
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const labels = context.payload.issue.labels;
+            const hasLabel = labels.some(label => label.name === 'new plugin');
+            if (!hasLabel) {
+              core.setOutput('skipRemainingSteps', 'true');
+            }
+
       - name: Install dependencies
+        if: steps.check-label.outputs.skipRemainingSteps != 'true'
         run: pip install -r requirements.txt
 
       - name: Run Validator
+        if: steps.check-label.outputs.skipRemainingSteps != 'true'
         run: python3 validate_json.py ${{ secrets.M_GITHUB_TOKEN }}
         env:
           ISSUE_CONTENT: ${{ github.event.issue.body }}
 
       - name: Comment
-        if: failure()
+        if: (steps.check-label.outputs.skipRemainingSteps != 'true') && (failure())
         uses: actions/github-script@v7
         with:
           script: |
