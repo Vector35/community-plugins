@@ -15,10 +15,8 @@ issue_content = os.environ.get("ISSUE_CONTENT")
 lines = issue_content.split("\n")
 
 def validate_repo(line):
-    repo = line.split(" ")[-1]
-    if repo.startswith("https://github"):
-        repo = repo[19:] # strip off beginning of URL if it exists
-    repo = repo.strip().strip("/") # normalize path
+    repo = line.split(" ")[-1].lower() # handle both cases of just URL or with Repo URL: before
+    repo = repo.replace("https://github.com/","").strip().strip("/") # just get the user/project portion
     projectUrl = f"https://api.github.com/repos/{repo}"
     latestRelease = f"{projectUrl}/releases/latest"
     tagsUrl = f"{projectUrl}/tags"
