@@ -1,6 +1,9 @@
 import os
 import sys
 import requests
+import base64
+import json
+
 
 token = sys.argv[1]
 
@@ -36,15 +39,11 @@ if issue_content.startswith("Please add my plugin to the repository."):
                 sys.exit(-1)
             try:
                 tag = releaseData['tag_name']
-                print("Tag: ")
-                print(tag)
                 pluginjsonurl = f"{projectUrl}/contents/plugin.json?ref={tag}"
-                print("url: ")
-                print(pluginjsonurl)
-                content = getfile(pluginjson).json()['content']
-                print("content: ")
+                content = getfile(pluginjsonurl).json()['content']
                 print(content)
-                # Still need to base64 decode the content and json decode that...
+                jsoncontent = json.loads(base64.b64decode(content))
+                print(jsoncontent)
             except:
                 print(f"\n\nFailed to parse valid plugin.json from https://github.com/{repo}/blob/master/plugin.json")
                 sys.exit(-1)
