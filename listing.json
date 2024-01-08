@@ -1,5 +1,9 @@
 [
   {
+    "name": "dzervas/frinja",
+    "auto_update": true
+  },
+  {
     "name": "moval0x1/CommentsAndSymbols",
     "auto_update": true
   },
@@ -420,10 +424,6 @@
   },
   {
     "name": "c3r34lk1ll3r/Instruction_Slicer",
-    "auto_update": true
-  },
-  {
-    "name": "c3r34lk1ll3r/BinRida",
     "auto_update": true
   },
   {
