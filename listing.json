@@ -1,5 +1,9 @@
 [
   {
+    "name": "psifertex/discordpresence",
+    "auto_update": true
+  },
+  {
     "name": "dzervas/frinja",
     "auto_update": true
   },
