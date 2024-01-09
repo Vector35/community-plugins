@@ -279,18 +279,18 @@ def main():
             info = open("INFO", encoding="utf-8").read() + u"\n"
         with open("README.md", "w", encoding="utf-8") as readme:
             readme.write(u"# Binary Ninja Plugins\n\n")
-            readme.write(u"| PluginName | Author | Last Updated | License | Type | Description |\n")
-            readme.write(u"|------------|--------|--------------|---------|----------|-------------|\n")
+            readme.write(u"| PluginName | Author | Description | Last Updated | Type | License |\n")
+            readme.write(u"|------------|--------|-------------|--------------|------|---------|\n")
 
             for plugin in dict(sorted(allPlugins.items(), key=lambda x: x[1]['name'].casefold())).values():
                 if "type" not in plugin:
                     plugin['type'] = ["None"]
                 readme.write(f"|[{plugin['name']}]({plugin['projectUrl']})"
                     f"|[{plugin['author']}]({plugin['authorUrl']})"
+                    f"|{plugin['description']}|\n"
                     f"|{datetime.fromtimestamp(plugin['lastUpdated']).date()}"
-                    f"|{plugin['license']['name']}"
                     f"|{', '.join(sorted(plugin['type']))}"
-                    f"|{plugin['description']}|\n")
+                    f"|{plugin['license']['name']}")
             readme.write(info)
 
 
