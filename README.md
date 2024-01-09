@@ -40,7 +40,8 @@
 |2022-02-21|helper|MIT|[Dependency analyzer](https://github.com/shizmob/binja-depanalyzer)|[Shiz](https://github.com/shizmob)|Analyze dependencies and resolve obfuscated imports|
 |2020-05-25|helper|MIT|[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|devi - DEvirtualize VIrtual calls in C++ binaries|
 |2020-11-04|helper, ui|MIT|[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|
-|2023-05-04|helper, ui|LGPL-2.1|[Division and Modulo Deoptimizer](https://github.com/jmprdi/binja-division-deoptimization)|[Nathan Peercy](https://github.com/jmprdi)|Deoptimize Divisions and Modulos in Binary Ninja.|
+|2023-05-04|helper, ui|LGPL-2.1|[Discord Integration](https://github.com/psifertex/discordpresence)|[psifertex](https://github.com/psifertex)|Enables Discord Rich Presence Integration for Binary Ninja|
+|2024-01-09|helper|MIT|[Division and Modulo Deoptimizer](https://github.com/jmprdi/binja-division-deoptimization)|[Nathan Peercy](https://github.com/jmprdi)|Deoptimize Divisions and Modulos in Binary Ninja.|
 |2020-05-12|binaryview, helper, ui|MIT|[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|DUMB: An Example Architecture for Binary Ninja|
 |2020-03-01|architecture, binaryview|MIT|[Dyld Shared Cache Processor](https://github.com/0cyn/bn-dyldsharedcache)|[cynder (kat)](https://github.com/0cyn)|Processing for Apple's dyld_shared_cache format.|
 |2022-03-01|architecture, binaryview, core, helper, ui|MIT|[Emotet API+string deobfuscator](https://github.com/mauronz/binja-emotet)|[Francesco Muroni](https://github.com/mauronz)|Deobufscate API calls and strings in unpacked Emotet samples.|
