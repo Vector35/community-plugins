@@ -1,5 +1,9 @@
 [
   {
+    "name": "CTM1/BinjaDelphiMapper",
+    "auto_update": true
+  },
+  {
     "name": "psifertex/discordpresence",
     "auto_update": true
   },
