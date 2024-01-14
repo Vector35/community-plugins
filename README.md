@@ -34,7 +34,7 @@
 |[CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|[moval0x1](https://github.com/moval0x1)|Show comments and symbols renamed during the analysis process.|2024-01-06|binaryview, ui|MIT|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|A plugin to detect several common crypto constructs and magic vars.|2023-09-22|binaryview, ui|MIT|
 |[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|Load old COFF .dbg files as well as CAB-ed .db_ files!|2021-11-15|helper|MIT|
-|[decomp2dbg](https://github.com/mahaloz/decomp2dbg)|[Zion Basque (@mahaloz)](https://github.com/mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2024-01-08|core|BSD 2-clause|
+|[decomp2dbg](https://github.com/mahaloz/decomp2dbg)|[Zion Basque (@mahaloz)](https://github.com/mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2024-01-13|core|BSD 2-clause|
 |[DeGObfuscate](https://github.com/kryptoslogic/binja_degobfuscate)|[Jamie Hankins](https://github.com/kryptoslogic)|De-obfuscates strings inside of obfuscated Go binaries|2020-12-02|helper|MIT|
 |[Delphi Mapper](https://github.com/CTM1/BinjaDelphiMapper)|[Claudio Teixeira](https://github.com/CTM1)|A plugin that renames Delphi functions according to a .map file produced by IDR.|2024-01-11|binaryview|MIT|
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|Find Delphi VMTs and generate their structures|2022-02-21|helper|MIT|
