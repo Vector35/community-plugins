@@ -1,5 +1,9 @@
 [
   {
+    "name": "moval0x1/CommentsAndSymbols",
+    "auto_update": true
+  },
+  {
     "name": "x64dbg/x64dbgbinja",
     "auto_update": true
   },
