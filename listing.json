@@ -1,5 +1,9 @@
 [
   {
+    "name": "x64dbg/x64dbgbinja",
+    "auto_update": true
+  },
+  {
     "name": "CTM1/BinjaDelphiMapper",
     "auto_update": true
   },
