@@ -51,7 +51,7 @@
 |[Format String Analysis](https://github.com/nshp/binaryninja-printf)|[Nick Shipp](https://github.com/nshp)|Script to automatically annotate variadic printf functions|2023-03-08|helper|MIT|
 |[Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|[jofra](https://github.com/Vasco-jofra)|Finds format string vulnerabilities|2019-07-15|helper|MIT|
 |[Frida](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|2020-06-01|helper|MIT|
-|[Frinja](https://github.com/dzervas/frinja)|[Dimitris Zervas](https://github.com/dzervas)|Frida plugin for Binary Ninja - continuation of BinRida by @c3r34lk1ll3r|2024-01-12|helper|MIT|
+|[Frinja](https://github.com/dzervas/frinja)|[Dimitris Zervas](https://github.com/dzervas)|Frida plugin for Binary Ninja - continuation of BinRida by @c3r34lk1ll3r|2024-01-19|helper|MIT|
 |[Function ABI](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|A plugin that adds a GUI for changing function ABI.|2019-11-22|ui|BSD-0-clause|
 |[Fuzzable](https://github.com/ex0dus-0x/fuzzable)|[ex0dus-0x](https://github.com/ex0dus-0x)|Framework for Automating Fuzzable Target Discovery with Static Analysis|2023-11-22|ui|MIT|
 |[Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|[Hugo Porcher (@icecr4ck)](https://github.com/icecr4ck)|A loader and diassembler for Game Boy ROMs.|2020-11-17|architecture, binaryview|MIT|
