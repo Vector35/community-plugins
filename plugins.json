@@ -254,8 +254,8 @@
             "svn_url": "https://github.com/x64dbg/x64dbgbinja",
             "homepage": null,
             "size": 17,
-            "stargazers_count": 52,
-            "watchers_count": 52,
+            "stargazers_count": 54,
+            "watchers_count": 54,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -282,7 +282,7 @@
             "visibility": "public",
             "forks": 17,
             "open_issues": 0,
-            "watchers": 52,
+            "watchers": 54,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -610,38 +610,13 @@
             "watchers": 3,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "maintain": true,
-                "push": true,
-                "triage": true,
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                },
-                "dependabot_security_updates": {
-                    "status": "disabled"
-                },
-                "secret_scanning_validity_checks": {
-                    "status": "disabled"
-                }
-            },
             "network_count": 0,
             "subscribers_count": 1
         },
@@ -755,8 +730,8 @@
             "svn_url": "https://github.com/dzervas/frinja",
             "homepage": "",
             "size": 145,
-            "stargazers_count": 0,
-            "watchers_count": 0,
+            "stargazers_count": 7,
+            "watchers_count": 7,
             "language": "Python",
             "has_issues": false,
             "has_projects": true,
@@ -764,7 +739,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 0,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -790,9 +765,9 @@
                 "malware-analysis"
             ],
             "visibility": "public",
-            "forks": 0,
+            "forks": 1,
             "open_issues": 0,
-            "watchers": 0,
+            "watchers": 7,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -886,7 +861,7 @@
                 "has_wiki": true,
                 "has_pages": false,
                 "has_discussions": false,
-                "forks_count": 5,
+                "forks_count": 6,
                 "mirror_url": null,
                 "archived": false,
                 "disabled": false,
@@ -909,7 +884,7 @@
                     "reverse-engineering"
                 ],
                 "visibility": "public",
-                "forks": 5,
+                "forks": 6,
                 "open_issues": 0,
                 "watchers": 25,
                 "default_branch": "master"
@@ -998,7 +973,7 @@
                 "has_wiki": true,
                 "has_pages": false,
                 "has_discussions": false,
-                "forks_count": 5,
+                "forks_count": 6,
                 "mirror_url": null,
                 "archived": false,
                 "disabled": false,
@@ -1021,12 +996,12 @@
                     "reverse-engineering"
                 ],
                 "visibility": "public",
-                "forks": 5,
+                "forks": 6,
                 "open_issues": 0,
                 "watchers": 25,
                 "default_branch": "master"
             },
-            "network_count": 5,
+            "network_count": 6,
             "subscribers_count": 0
         },
         "authorUrl": "https://github.com/dzervas",
@@ -1143,8 +1118,8 @@
             "svn_url": "https://github.com/moval0x1/BinjaExportTox64dbg",
             "homepage": null,
             "size": 285,
-            "stargazers_count": 2,
-            "watchers_count": 2,
+            "stargazers_count": 4,
+            "watchers_count": 4,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1171,7 +1146,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 0,
-            "watchers": 2,
+            "watchers": 4,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -1913,8 +1888,8 @@
                 "watchers": 15,
                 "default_branch": "master",
                 "permissions": {
-                    "admin": true,
-                    "maintain": true,
+                    "admin": false,
+                    "maintain": false,
                     "push": true,
                     "triage": true,
                     "pull": true
@@ -2977,15 +2952,15 @@
             "deployments_url": "https://api.github.com/repos/binsync/binsync/deployments",
             "created_at": "2019-07-09T15:53:32Z",
             "updated_at": "2023-12-27T02:48:42",
-            "pushed_at": "2024-01-17T11:30:12Z",
+            "pushed_at": "2024-01-23T22:15:32Z",
             "git_url": "git://github.com/binsync/binsync.git",
             "ssh_url": "git@github.com:binsync/binsync.git",
             "clone_url": "https://github.com/binsync/binsync.git",
             "svn_url": "https://github.com/binsync/binsync",
             "homepage": "https://binsync.net",
-            "size": 8079,
-            "stargazers_count": 469,
-            "watchers_count": 469,
+            "size": 8113,
+            "stargazers_count": 473,
+            "watchers_count": 473,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -3020,7 +2995,7 @@
             "visibility": "public",
             "forks": 35,
             "open_issues": 51,
-            "watchers": 469,
+            "watchers": 473,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -3498,8 +3473,8 @@
             "svn_url": "https://github.com/mahaloz/decomp2dbg",
             "homepage": "",
             "size": 4097,
-            "stargazers_count": 524,
-            "watchers_count": 524,
+            "stargazers_count": 528,
+            "watchers_count": 528,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -3526,7 +3501,7 @@
             "visibility": "public",
             "forks": 33,
             "open_issues": 13,
-            "watchers": 524,
+            "watchers": 528,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -3647,7 +3622,7 @@
             "deployments_url": "https://api.github.com/repos/cxiao/hashdb_bn/deployments",
             "created_at": "2022-12-24T08:33:33Z",
             "updated_at": "2023-04-08T02:05:37",
-            "pushed_at": "2023-11-04T19:06:14Z",
+            "pushed_at": "2024-01-20T01:58:36Z",
             "git_url": "git://github.com/cxiao/hashdb_bn.git",
             "ssh_url": "git@github.com:cxiao/hashdb_bn.git",
             "clone_url": "https://github.com/cxiao/hashdb_bn.git",
@@ -4325,8 +4300,8 @@
                 "watchers": 15,
                 "default_branch": "master",
                 "permissions": {
-                    "admin": true,
-                    "maintain": true,
+                    "admin": false,
+                    "maintain": false,
                     "push": true,
                     "triage": true,
                     "pull": true
@@ -5085,8 +5060,8 @@
             "svn_url": "https://github.com/crytic/ethersplay",
             "homepage": null,
             "size": 2078,
-            "stargazers_count": 808,
-            "watchers_count": 808,
+            "stargazers_count": 809,
+            "watchers_count": 809,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -5094,7 +5069,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 122,
+            "forks_count": 123,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -5116,9 +5091,9 @@
                 "evm"
             ],
             "visibility": "public",
-            "forks": 122,
+            "forks": 123,
             "open_issues": 9,
-            "watchers": 808,
+            "watchers": 809,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -5149,7 +5124,7 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 122,
+            "network_count": 123,
             "subscribers_count": 41
         },
         "authorUrl": "https://github.com/crytic",
@@ -5567,8 +5542,8 @@
                 "watchers": 15,
                 "default_branch": "master",
                 "permissions": {
-                    "admin": true,
-                    "maintain": true,
+                    "admin": false,
+                    "maintain": false,
                     "push": true,
                     "triage": true,
                     "pull": true
@@ -6003,8 +5978,8 @@
             "svn_url": "https://github.com/ex0dus-0x/fuzzable",
             "homepage": "",
             "size": 1511,
-            "stargazers_count": 474,
-            "watchers_count": 474,
+            "stargazers_count": 476,
+            "watchers_count": 476,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -6038,7 +6013,7 @@
             "visibility": "public",
             "forks": 47,
             "open_issues": 17,
-            "watchers": 474,
+            "watchers": 476,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -6049,7 +6024,7 @@
             },
             "temp_clone_token": "",
             "network_count": 47,
-            "subscribers_count": 10
+            "subscribers_count": 11
         },
         "authorUrl": "https://github.com/ex0dus-0x",
         "packageUrl": "https://api.github.com/repos/ex0dus-0x/fuzzable/zipball/refs/tags/v2.0.7",
@@ -6166,8 +6141,8 @@
             "svn_url": "https://github.com/hyuunnn/Hyara",
             "homepage": "",
             "size": 8643,
-            "stargazers_count": 204,
-            "watchers_count": 204,
+            "stargazers_count": 205,
+            "watchers_count": 205,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -6179,7 +6154,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 4,
+            "open_issues_count": 5,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -6210,8 +6185,8 @@
             ],
             "visibility": "public",
             "forks": 44,
-            "open_issues": 4,
-            "watchers": 204,
+            "open_issues": 5,
+            "watchers": 205,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -6503,7 +6478,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 2,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -6517,7 +6492,7 @@
             "topics": [],
             "visibility": "public",
             "forks": 3,
-            "open_issues": 1,
+            "open_issues": 2,
             "watchers": 20,
             "default_branch": "main",
             "permissions": {
@@ -7721,13 +7696,13 @@
             "deployments_url": "https://api.github.com/repos/fkie-cad/dewolf/deployments",
             "created_at": "2021-12-01T08:29:24Z",
             "updated_at": "2023-05-04T11:31:15",
-            "pushed_at": "2024-01-18T14:10:54Z",
+            "pushed_at": "2024-01-25T12:12:48Z",
             "git_url": "git://github.com/fkie-cad/dewolf.git",
             "ssh_url": "git@github.com:fkie-cad/dewolf.git",
             "clone_url": "https://github.com/fkie-cad/dewolf.git",
             "svn_url": "https://github.com/fkie-cad/dewolf",
             "homepage": "",
-            "size": 3644,
+            "size": 3665,
             "stargazers_count": 140,
             "watchers_count": 140,
             "language": "Python",
@@ -7741,7 +7716,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 54,
+            "open_issues_count": 51,
             "license": {
                 "key": "lgpl-2.1",
                 "name": "GNU Lesser General Public License v2.1",
@@ -7763,7 +7738,7 @@
             ],
             "visibility": "public",
             "forks": 8,
-            "open_issues": 54,
+            "open_issues": 51,
             "watchers": 140,
             "default_branch": "main",
             "permissions": {
@@ -7796,7 +7771,7 @@
                 "site_admin": false
             },
             "network_count": 8,
-            "subscribers_count": 4
+            "subscribers_count": 5
         },
         "authorUrl": "https://github.com/fkie-cad",
         "packageUrl": "https://api.github.com/repos/fkie-cad/dewolf/zipball/refs/tags/v0.2.0",
@@ -8222,8 +8197,8 @@
             "svn_url": "https://github.com/bootleg/ret-sync",
             "homepage": "",
             "size": 2792,
-            "stargazers_count": 1819,
-            "watchers_count": 1819,
+            "stargazers_count": 1826,
+            "watchers_count": 1826,
             "language": "C",
             "has_issues": true,
             "has_projects": true,
@@ -8231,7 +8206,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 243,
+            "forks_count": 244,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -8257,9 +8232,9 @@
                 "software-analysis"
             ],
             "visibility": "public",
-            "forks": 243,
+            "forks": 244,
             "open_issues": 20,
-            "watchers": 1819,
+            "watchers": 1826,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -8269,7 +8244,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 243,
+            "network_count": 244,
             "subscribers_count": 51
         },
         "authorUrl": "https://github.com/bootleg",
@@ -9150,8 +9125,8 @@
             "svn_url": "https://github.com/gaasedelen/lighthouse",
             "homepage": "",
             "size": 11224,
-            "stargazers_count": 2068,
-            "watchers_count": 2068,
+            "stargazers_count": 2077,
+            "watchers_count": 2077,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -9159,7 +9134,7 @@
             "has_wiki": false,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 308,
+            "forks_count": 311,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -9184,9 +9159,9 @@
                 "reverse-engineering"
             ],
             "visibility": "public",
-            "forks": 308,
+            "forks": 311,
             "open_issues": 20,
-            "watchers": 2068,
+            "watchers": 2077,
             "default_branch": "develop",
             "permissions": {
                 "admin": false,
@@ -9196,7 +9171,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 308,
+            "network_count": 311,
             "subscribers_count": 61
         },
         "authorUrl": "https://github.com/gaasedelen",
@@ -9974,7 +9949,7 @@
             },
             "temp_clone_token": "",
             "network_count": 3,
-            "subscribers_count": 3
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/amtal",
         "packageUrl": "https://api.github.com/repos/amtal/microblaze/zipball/refs/tags/1.0.1",
@@ -10704,8 +10679,8 @@
             "svn_url": "https://github.com/mrphrazer/obfuscation_detection",
             "homepage": "",
             "size": 16314,
-            "stargazers_count": 471,
-            "watchers_count": 471,
+            "stargazers_count": 478,
+            "watchers_count": 478,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -10732,7 +10707,7 @@
             "visibility": "public",
             "forks": 58,
             "open_issues": 0,
-            "watchers": 471,
+            "watchers": 478,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -10889,38 +10864,13 @@
             "watchers": 18,
             "default_branch": "main",
             "permissions": {
-                "admin": true,
-                "maintain": true,
-                "push": true,
-                "triage": true,
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                },
-                "dependabot_security_updates": {
-                    "status": "disabled"
-                },
-                "secret_scanning_validity_checks": {
-                    "status": "disabled"
-                }
-            },
             "network_count": 1,
             "subscribers_count": 3
         },
@@ -11071,38 +11021,13 @@
             "watchers": 1,
             "default_branch": "main",
             "permissions": {
-                "admin": true,
-                "maintain": true,
-                "push": true,
-                "triage": true,
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                },
-                "dependabot_security_updates": {
-                    "status": "disabled"
-                },
-                "secret_scanning_validity_checks": {
-                    "status": "disabled"
-                }
-            },
             "network_count": 1,
             "subscribers_count": 2
         },
@@ -11894,22 +11819,11 @@
             "permissions": {
                 "admin": false,
                 "maintain": false,
-                "push": true,
-                "triage": true,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
             "custom_properties": {},
             "organization": {
                 "login": "kryptoslogic",
@@ -14744,8 +14658,8 @@
             "svn_url": "https://github.com/zznop/bnida",
             "homepage": "",
             "size": 2606,
-            "stargazers_count": 113,
-            "watchers_count": 113,
+            "stargazers_count": 112,
+            "watchers_count": 112,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -14772,7 +14686,7 @@
             "visibility": "public",
             "forks": 14,
             "open_issues": 2,
-            "watchers": 113,
+            "watchers": 112,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -15647,8 +15561,8 @@
             "svn_url": "https://github.com/0x1F9F1/binja-msvc",
             "homepage": "",
             "size": 84,
-            "stargazers_count": 13,
-            "watchers_count": 13,
+            "stargazers_count": 14,
+            "watchers_count": 14,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -15679,7 +15593,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 0,
-            "watchers": 13,
+            "watchers": 14,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -16313,7 +16227,7 @@
             },
             "temp_clone_token": "",
             "network_count": 1,
-            "subscribers_count": 1
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/Vasco-jofra",
         "packageUrl": "https://api.github.com/repos/Vasco-jofra/format-string-finder-binja/zipball/refs/tags/v1.0",
@@ -17499,7 +17413,7 @@
             "deployments_url": "https://api.github.com/repos/whitequark/binja_itanium_cxx_abi/deployments",
             "created_at": "2018-01-13T10:45:51Z",
             "updated_at": "2023-03-01T15:14:52",
-            "pushed_at": "2024-01-05T17:03:53Z",
+            "pushed_at": "2024-01-22T21:08:03Z",
             "git_url": "git://github.com/whitequark/binja_itanium_cxx_abi.git",
             "ssh_url": "git@github.com:whitequark/binja_itanium_cxx_abi.git",
             "clone_url": "https://github.com/whitequark/binja_itanium_cxx_abi.git",
@@ -18122,8 +18036,8 @@
             "svn_url": "https://github.com/icecr4ck/bnGB",
             "homepage": "",
             "size": 24,
-            "stargazers_count": 16,
-            "watchers_count": 16,
+            "stargazers_count": 17,
+            "watchers_count": 17,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -18155,7 +18069,7 @@
             "visibility": "public",
             "forks": 2,
             "open_issues": 1,
-            "watchers": 16,
+            "watchers": 17,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -20273,15 +20187,15 @@
             "deployments_url": "https://api.github.com/repos/borzacchiello/seninja/deployments",
             "created_at": "2019-07-05T16:50:03Z",
             "updated_at": "2023-06-01T18:06:21",
-            "pushed_at": "2023-09-30T16:57:29Z",
+            "pushed_at": "2024-01-22T19:12:05Z",
             "git_url": "git://github.com/borzacchiello/seninja.git",
             "ssh_url": "git@github.com:borzacchiello/seninja.git",
             "clone_url": "https://github.com/borzacchiello/seninja.git",
             "svn_url": "https://github.com/borzacchiello/seninja",
             "homepage": "",
-            "size": 1655,
-            "stargazers_count": 217,
-            "watchers_count": 217,
+            "size": 1686,
+            "stargazers_count": 218,
+            "watchers_count": 218,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -20289,11 +20203,11 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 20,
+            "forks_count": 21,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "bsd-2-clause",
                 "name": "BSD 2-Clause \"Simplified\" License",
@@ -20311,9 +20225,9 @@
                 "symbolic-execution"
             ],
             "visibility": "public",
-            "forks": 20,
-            "open_issues": 1,
-            "watchers": 217,
+            "forks": 21,
+            "open_issues": 0,
+            "watchers": 218,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -20323,7 +20237,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 20,
+            "network_count": 21,
             "subscribers_count": 12
         },
         "authorUrl": "https://github.com/borzacchiello",
@@ -20474,22 +20388,11 @@
             "permissions": {
                 "admin": false,
                 "maintain": false,
-                "push": true,
-                "triage": true,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
             "network_count": 7,
             "subscribers_count": 4
         },
@@ -20911,15 +20814,15 @@
             "deployments_url": "https://api.github.com/repos/BlackwingHQ/iBoot64Binja/deployments",
             "created_at": "2020-09-24T19:26:34Z",
             "updated_at": "2020-10-01T21:35:22",
-            "pushed_at": "2024-01-13T04:02:06Z",
+            "pushed_at": "2024-01-25T04:24:20Z",
             "git_url": "git://github.com/BlackwingHQ/iBoot64Binja.git",
             "ssh_url": "git@github.com:BlackwingHQ/iBoot64Binja.git",
             "clone_url": "https://github.com/BlackwingHQ/iBoot64Binja.git",
             "svn_url": "https://github.com/BlackwingHQ/iBoot64Binja",
             "homepage": "",
             "size": 93,
-            "stargazers_count": 47,
-            "watchers_count": 47,
+            "stargazers_count": 48,
+            "watchers_count": 48,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -20950,7 +20853,7 @@
             "visibility": "public",
             "forks": 8,
             "open_issues": 2,
-            "watchers": 47,
+            "watchers": 48,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -21285,13 +21188,38 @@
             "watchers": 6,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
+            "allow_update_branch": false,
+            "use_squash_pr_title_as_default": false,
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "disabled"
+                },
+                "secret_scanning_validity_checks": {
+                    "status": "disabled"
+                }
+            },
             "network_count": 1,
             "subscribers_count": 3
         },
@@ -21314,7 +21242,7 @@
             "python3"
         ],
         "description": "Remake of keypatch plugin for Binary Ninja",
-        "longdescription": "Remake of [keypatch](https://github.com/keystone-engine/keypatch) plugin for Binary Ninja.\n\n![](./preview.png)\n\n* assemble using [keystone](https://www.keystone-engine.org/)\n* fill areas with instructions or arbitrary bytes\n* search for instructions or bytes, with regular expressions\n\nThe plugin manager only installs and updates at release boundaries. If you want the hottest freshest code, navigate to your [plugins folder](https://docs.binary.ninja/guide/plugins.html) and clone this repo to get started, pull to update.\n\n## Developer Notes\n\nhttps://docs.binary.ninja/dev/plugins.html\n\nTests that must pass before PR considered, release made, etc.\n\n* file -> new binary data -> 1f 20 03 d5 1f 20 03 d5 1f 20 03 d5 1f 20 03 d5, create aarch64 function, now use keypatch to assemble at 0, 4, 8, and C the instruction `bl 0x1000`\n* fill from [0x4, 0xc) with manually entered bytes AA AA AA AA and get two `orn x10, x21, x10, asr #0x2a`\n* now fill from [0x4, 0xc) with assembled `nop`\n* now search for `1f .*? d5` and it shoudl hit at every nop\n",
+        "longdescription": "Remake of [keypatch](https://github.com/keystone-engine/keypatch) plugin for Binary Ninja.\n\nPython != 3.10 is needed on arm64 macs to avoid install issues with keystone-engine.\n\n![](./preview.png)\n\n* assemble using [keystone](https://www.keystone-engine.org/)\n* fill areas with instructions or arbitrary bytes\n* search for instructions or bytes, with regular expressions\n\nThe plugin manager only installs and updates at release boundaries. If you want the hottest freshest code, navigate to your [plugins folder](https://docs.binary.ninja/guide/plugins.html) and clone this repo to get started, pull to update.\n\n## Developer Notes\n\nhttps://docs.binary.ninja/dev/plugins.html\n\nTests that must pass before PR considered, release made, etc.\n\n* file -> new binary data -> 1f 20 03 d5 1f 20 03 d5 1f 20 03 d5 1f 20 03 d5 (right click, paste from, raw hex)\n* create aarch64 function, now use keypatch to assemble at 0, 4, 8, and C the instruction `bl 0x1000`\n* fill from [0x4, 0xc) with manually entered bytes AA AA AA AA and get two `orn x10, x21, x10, asr #0x2a`\n* now fill from [0x4, 0xc) with assembled `nop`\n* now search for `1f .*? d5` and it should hit at every nop (at 4 and 8)\n",
         "license": {
             "name": "Unlicense",
             "text": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any\nmeans.\n\nIn jurisdictions that recognize copyright laws, the author or authors\nof this software dedicate any and all copyright interest in the\nsoftware to the public domain. We make this dedication for the benefit\nof the public at large and to the detriment of our heirs and\nsuccessors. We intend this dedication to be an overt act of\nrelinquishment in perpetuity of all present and future rights to this\nsoftware under copyright law.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nFor more information, please refer to <http://unlicense.org>"
@@ -21329,10 +21257,10 @@
             "Windows": "",
             "Linux": ""
         },
-        "dependencies": "keystone-engine\n",
-        "version": "1.6",
+        "dependencies": "capstone\nkeystone-engine\n",
+        "version": "1.7",
         "minimumbinaryninjaversion": 2660,
-        "lastUpdated": 1692571369,
+        "lastUpdated": 1706199641,
         "projectUrl": "https://github.com/lwerdna/keypatch_binja",
         "projectData": {
             "id": 352522331,
@@ -21401,8 +21329,8 @@
             "releases_url": "https://api.github.com/repos/lwerdna/keypatch_binja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/lwerdna/keypatch_binja/deployments",
             "created_at": "2021-03-29T05:05:29Z",
-            "updated_at": "2023-08-20T22:42:49",
-            "pushed_at": "2023-08-20T22:42:57Z",
+            "updated_at": "2024-01-25T16:20:41",
+            "pushed_at": "2024-01-25T16:21:10Z",
             "git_url": "git://github.com/lwerdna/keypatch_binja.git",
             "ssh_url": "git@github.com:lwerdna/keypatch_binja.git",
             "clone_url": "https://github.com/lwerdna/keypatch_binja.git",
@@ -21440,21 +21368,46 @@
             "watchers": 9,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
+            "allow_update_branch": false,
+            "use_squash_pr_title_as_default": false,
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "disabled"
+                },
+                "secret_scanning_validity_checks": {
+                    "status": "disabled"
+                }
+            },
             "network_count": 2,
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/lwerdna",
-        "packageUrl": "https://api.github.com/repos/lwerdna/keypatch_binja/zipball/refs/tags/1.6",
-        "packageShortUrl": "https://v35.us/gxhk1et",
+        "packageUrl": "https://api.github.com/repos/lwerdna/keypatch_binja/zipball/refs/tags/1.7",
+        "packageShortUrl": "",
         "path": "lwerdna_keypatch_binja",
-        "commit": "b2db80f00c741e6478c04f203b08761d4ff91633",
+        "commit": "0eed014a0464874e75a316e2b02c78eb2f1e8ea8",
         "minimumBinaryNinjaVersion": 0
     }
 ]
