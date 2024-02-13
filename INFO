@@ -45,6 +45,7 @@ To be displayed in the plugin loader, your `plugin.json` MUST have the following
    - `architecture` - The plugin adds an architecture (e.g. `x86`, `ARM`, `MIPS`).
    - `binaryview` - The plugin adds a new BinaryView (e.g. `PE`, `MachO`, `ELF`).
    - `core` - Plugin that extends the core's analysis. Your plugin probably isn't one of these.
+   - `sync` - A plugin that synchronizes data with an external tool.
  - `installinstructions` - A json object with keys for each supported platform listed in `platforms` and text Markdown formatted.
 
 ## License
