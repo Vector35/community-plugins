@@ -108,9 +108,9 @@
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|Demangles Rust symbols.|2023-07-09|helper|MIT|
 |[Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|[Cindy Xiao](https://github.com/cxiao)|Rust binary string recovery plugin|2023-12-25|helper|MIT|
 |[Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|[Cindy Xiao](https://github.com/cxiao)|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|2023-04-27|helper|MIT|
-|[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|Easily capture Binary Ninja screenshots in ultra-high resolution|2023-06-17|helper|MIT|
+|[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|Easily capture Binary Ninja screenshots in ultra-high resolution|2024-02-26|helper|MIT|
 |[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|Helper for exploring structured exception handlers in PEs|2022-02-19|helper, ui|MIT|
-|[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|Symbolic execution plugin for BinaryNinja|2023-06-01|helper|2-Clause BSD|
+|[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|Symbolic execution plugin for BinaryNinja|2024-02-24|helper|2-Clause BSD|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|MIT|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|Synchronized source code pane for debug binaries|2019-07-15|helper, ui|MIT|
 |[SVD Memory Map Parser](https://github.com/ehntoo/binaryninja-svd)|[Mitchell Johnson (@ehntoo)](https://github.com/ehntoo)|A parser for the CMSIS System View Description format|2021-12-30|helper|MIT or Apache 2.0|
