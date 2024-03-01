@@ -45,6 +45,7 @@
 |[Division and Modulo Deoptimizer](https://github.com/jmprdi/binja-division-deoptimization)|[Nathan Peercy](https://github.com/jmprdi)|Deoptimize Divisions and Modulos in Binary Ninja.|2020-05-12|binaryview, helper, ui|MIT|
 |[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|DUMB: An Example Architecture for Binary Ninja|2020-03-01|architecture, binaryview|MIT|
 |[Dyld Shared Cache Processor](https://github.com/0cyn/bn-dyldsharedcache)|[cynder (kat)](https://github.com/0cyn)|Processing for Apple's dyld_shared_cache format.|2022-03-01|architecture, binaryview, core, helper, ui|MIT|
+|[EFI Inspector](https://github.com/zznop/efi-inspector)|[Brandon Miller](https://github.com/zznop)|Binary Ninja plugin for inspecting UEFI firmware images|2024-02-28|helper|MIT|
 |[Emotet API+string deobfuscator](https://github.com/mauronz/binja-emotet)|[Francesco Muroni](https://github.com/mauronz)|Deobufscate API calls and strings in unpacked Emotet samples.|2020-09-21|helper|MIT|
 |[ethersplay Ethereum Architecture Plugin](https://github.com/crytic/ethersplay)|[Trail of Bits](https://github.com/crytic)|A disassembler and lifter for the Ethereum architecture.|2022-11-03|architecture|AGPL-3.0-only|
 |[Explain Instruction](https://github.com/ehennenfent/binja_explain_instruction)|[Eric Hennenfent](https://github.com/ehennenfent)|Displays a window that explains in simple English what an assembly instruction does|2021-10-10|helper, ui|Apache 2|
@@ -74,7 +75,6 @@
 |[iBootLoader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|iBoot/SecureROM Loader|2023-02-24|binaryview, helper|ISC|
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|Allows users to import idc database dumps from IDA into Binary Ninja.|2022-10-13|helper|MIT|
 |[ilhierarchy](https://github.com/fabianfreyer/binja-il-hierarchy)|[Fabian Freyer](https://github.com/fabianfreyer)|Show current IL instruction hierarchy in sidebar|2022-02-06|core, ui|MIT|
-|[Improved Gameboy Architecture](https://github.com/ZetaTwo/binja-gameboy)|[Carl Svensson (@zetatwo)](https://github.com/ZetaTwo)|A loader and diassembler for Game Boy ROMs.|2022-01-30|architecture, binaryview|MIT|
 |[Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|Forward and backward instruction slicer|2020-11-25|helper|MIT|
 |[Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|[whitequark](https://github.com/whitequark)|A plugin providing the 16-bit Intel architecture.|2019-09-04|arch|BSD-0-clause|
 |[Itanium C++ ABI](https://github.com/whitequark/binja_itanium_cxx_abi)|[whitequark](https://github.com/whitequark)|A plugin providing an analysis for Itanium C++ ABI.|2023-03-01|analysis|BSD-0-clause|
@@ -119,6 +119,7 @@
 |[Symgrate2 Plugin](https://github.com/travisgoodspeed/symgrate2-binja-plugin)|[Travis Goodspeed](https://github.com/travisgoodspeed)|This is a client plugin for recovering symbols using the Symgrate2 server.|2021-09-11|helper|MIT|
 |[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski](https://github.com/carstein)|Decorate encountered syscalls with details like name and arguments|2019-07-15|helper|MIT|
 |[Tag Team](https://github.com/psifertex/tagteam)|[psifertex](https://github.com/psifertex)|Tags functions using emoji for a number of interesting characteristics|2021-03-12|helper|Apache-2.0|
+|[TE Loader](https://github.com/zznop/te-loader)|[Brandon Miller](https://github.com/zznop)|Binary Ninja plugin for loading EFI Terse Executable files|2024-02-28|architecture|MIT|
 |[TypeLib Exporter](https://github.com/SmoothHacker/TypeLib-Exporter)|[SmoothHacker](https://github.com/SmoothHacker)|This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.|2022-10-15|binaryview, helper, ui|MIT|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|MIT|
 |[VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|[Layle](https://github.com/vtil-project)|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2020-07-05|architecture, binaryview|BSD-3-Clause|
