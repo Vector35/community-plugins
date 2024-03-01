@@ -1,5 +1,13 @@
 [
   {
+    "name": "zznop/efi-inspector",
+    "auto_update": true
+  },
+  {
+    "name": "zznop/te-loader",
+    "auto_update": true
+  },
+  {
     "name": "x64dbg/x64dbgbinja",
     "auto_update": true
   },
@@ -271,7 +279,7 @@
     "auto_update": true
   },
   {
-    "name": "ZetaTwo/binja-gameboy",
+    "name": "samrussell/binja-gameboy",
     "auto_update": true
   },
   {
