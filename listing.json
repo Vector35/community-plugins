@@ -459,10 +459,6 @@
     "auto_update": true
   },
   {
-    "name": "jmprdi/binja-division-deoptimization",
-    "auto_update": true
-  },
-  {
     "name": "Cryptogenic/idc_importer",
     "auto_update": true
   },
