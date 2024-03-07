@@ -2266,10 +2266,10 @@
             "Windows": ""
         },
         "dependencies": "",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "author": "Xusheng",
         "minimumbinaryninjaversion": 3164,
-        "lastUpdated": 1709785984,
+        "lastUpdated": 1709789103,
         "projectUrl": "https://github.com/xusheng6/binja-GoReSym",
         "projectData": {
             "id": 662065494,
@@ -2338,8 +2338,8 @@
             "releases_url": "https://api.github.com/repos/xusheng6/binja-GoReSym/releases{/id}",
             "deployments_url": "https://api.github.com/repos/xusheng6/binja-GoReSym/deployments",
             "created_at": "2023-07-04T09:28:05Z",
-            "updated_at": "2024-03-07T04:33:04",
-            "pushed_at": "2024-03-07T05:13:52Z",
+            "updated_at": "2024-03-07T05:25:03",
+            "pushed_at": "2024-03-07T05:25:03Z",
             "git_url": "git://github.com/xusheng6/binja-GoReSym.git",
             "ssh_url": "git@github.com:xusheng6/binja-GoReSym.git",
             "clone_url": "https://github.com/xusheng6/binja-GoReSym.git",
@@ -2388,10 +2388,10 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/xusheng6",
-        "packageUrl": "https://api.github.com/repos/xusheng6/binja-GoReSym/zipball/refs/tags/1.0.2",
-        "packageShortUrl": "https://v35.us/sa949rz",
+        "packageUrl": "https://api.github.com/repos/xusheng6/binja-GoReSym/zipball/refs/tags/1.0.3",
+        "packageShortUrl": "https://v35.us/6z8ierr",
         "path": "xusheng6_binjaGoReSym",
-        "commit": "0643a4658923b04b1c3cd6f6f77954ca3d8491db",
+        "commit": "144e5977c1bd7794742596855cc9b8662a165ad5",
         "minimumBinaryNinjaVersion": 0
     },
     {
