@@ -3,7 +3,7 @@
 | PluginName | Author | Description | Last Updated | Type | License |
 |------------|--------|-------------|--------------|------|---------|
 |[0CD](https://github.com/0xb0bb/0CD)|[b0bb](https://github.com/0xb0bb)|Quality of life utilities for obsessive compulsive CTF enthusiasts.|2022-02-17|helper|MIT|
-|[Add GoReSym Info](https://github.com/xusheng6/binja-GoReSym)|[Xusheng](https://github.com/xusheng6)|Add information recovered by tool GoReSym into the binary view|2023-07-04|helper|MIT|
+|[Add GoReSym Info](https://github.com/xusheng6/binja-GoReSym)|[Xusheng](https://github.com/xusheng6)|Add information recovered by tool GoReSym into the binary view|2024-03-07|helper|MIT|
 |[Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|[Xusheng](https://github.com/xusheng6)|Add xref from caller to callee based on XFG hashes|2023-06-11|helper|MIT|
 |[AMD-SP/PSP Loader](https://github.com/dayzerosec/AMD-SP-Loader)|[dayzerosec](https://github.com/dayzerosec)|Loader for AMD-SP or PSP firmware binaries.|2023-01-29|binaryview|MIT|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|A plugin that annotates function arguments.|2019-07-09|binaryview|MIT|
