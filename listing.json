@@ -74,7 +74,7 @@
   {
     "name": "binsync/binsync",
     "auto_update": true,
-    "subdir": "binsync/decompiler_stubs/binja_binsync"
+    "subdir": "binsync/stub_files"
   },
   {
     "name": "lockbox/pd-ninja",
