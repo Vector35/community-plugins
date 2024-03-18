@@ -14,7 +14,7 @@
 |[Binja IPython console](https://github.com/skr0x1c0/ipybinja)|[skr0x1c0](https://github.com/skr0x1c0)|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|MIT|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|Generate and find signatures.|2023-01-29|architecture, binaryview, core, ui|MIT|
 |[BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|[moval0x1](https://github.com/moval0x1)|Export notations from Binja to x64dbg|2024-02-20|binaryview|MIT|
-|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2024-03-09|sync|BSD 2-clause|
+|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2024-03-15|sync|BSD 2-clause|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|GPL-3.0|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|MIT|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|RISC-V architecture plugin.|2021-01-18|architecture|Apache-2.0|
@@ -102,6 +102,7 @@
 |[Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|[whitequark](https://github.com/whitequark)|A plugin providing the Renesas M16C architecture.|2020-01-19|architecture|BSD-0-clause|
 |[Renesas V850 architecture plugin](https://github.com/tizmd/binja-v850)|[Tomonori Izumida <tizmd@iij.ad.jp>](https://github.com/tizmd)|An architecture plugin for Renesas V850 series|2022-11-07|architecture|MIT|
 |[ret-sync](https://github.com/bootleg/ret-sync)|[Alexandre Gazet](https://github.com/bootleg)|Helper plugin to synchronize Binary Ninja with a debugging session|2022-01-21|helper|MIT|
+|[ReverserAI](https://github.com/mrphrazer/reverser_ai)|[Tim Blazytko](https://github.com/mrphrazer)|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2024-03-17|helper|GPL-2.0|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|Realtime IDA Pro and Binary Ninja sync plugin|2020-05-14|ui|MIT|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|Package binary code as a Python class backed by Unicorn-Engine|2022-07-08|helper|MIT|
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|Demangles Rust symbols.|2023-07-09|helper|MIT|
