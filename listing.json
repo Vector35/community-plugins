@@ -1,4 +1,7 @@
-[
+[{
+    "name": "mrphrazer/reverser_ai",
+    "auto_update": true
+  },
   {
     "name": "zznop/efi-inspector",
     "auto_update": true
