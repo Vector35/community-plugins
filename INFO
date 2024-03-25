@@ -50,4 +50,4 @@ To be displayed in the plugin loader, your `plugin.json` MUST have the following
 
 ## License
 
-Note that content contained in the root of this repository itself is Copyright 2016, Vector 35, Inc. and [available](LICENSE) under an MIT license, but each individual plugin may be released under a different license.
+Note that content contained in the root of this repository itself is Copyright 2016-2024, Vector 35, Inc. and [available](LICENSE) under an MIT license, but each individual plugin may be released under a different license.
