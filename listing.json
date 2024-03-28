@@ -1,4 +1,8 @@
 [{
+    "name": "3Flatline/binja_plugin",
+    "auto_update": true
+  },
+  {
     "name": "mrphrazer/reverser_ai",
     "auto_update": true
   },
