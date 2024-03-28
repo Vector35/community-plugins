@@ -169,7 +169,7 @@
         },
         "authorUrl": "https://github.com/3Flatline",
         "packageUrl": "https://api.github.com/repos/3Flatline/binja_plugin/zipball/refs/tags/v0.1",
-        "packageShortUrl": "",
+        "packageShortUrl": "https://v35.us/lzbzdnq",
         "path": "3Flatline_binja_plugin",
         "commit": "42a627ccba8b90784e019339baa8136a7328cfa5",
         "minimumBinaryNinjaVersion": 0
@@ -322,7 +322,7 @@
         },
         "authorUrl": "https://github.com/mrphrazer",
         "packageUrl": "https://api.github.com/repos/mrphrazer/reverser_ai/zipball/refs/tags/v1.0.1",
-        "packageShortUrl": "",
+        "packageShortUrl": "https://v35.us/zcyp6rl",
         "dependencies": "toml>=0.10.2\nhuggingface_hub>=0.21.4\nllama-cpp-python>=0.2.56",
         "path": "mrphrazer_reverser_ai",
         "commit": "d7f098af05946485aa84a6cd27830fa6305f56c8",
@@ -3510,7 +3510,7 @@
         },
         "authorUrl": "https://github.com/rikodot",
         "packageUrl": "https://api.github.com/repos/rikodot/binja_native_sigscan_loader/zipball/refs/tags/1.0.7",
-        "packageShortUrl": "",
+        "packageShortUrl": "https://v35.us/br9ejqy",
         "path": "rikodot_binja_native_sigscan_loader",
         "commit": "5db5a8c3b97257c55e72922a8df94f77dc0cc065",
         "minimumBinaryNinjaVersion": 0
