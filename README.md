@@ -14,7 +14,7 @@
 |[Binja IPython console](https://github.com/skr0x1c0/ipybinja)|[skr0x1c0](https://github.com/skr0x1c0)|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|MIT|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|Generate and find signatures.|2023-01-29|architecture, binaryview, core, ui|MIT|
 |[BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|[moval0x1](https://github.com/moval0x1)|Export notations from Binja to x64dbg|2024-02-20|binaryview|MIT|
-|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2024-03-15|sync|BSD 2-clause|
+|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2024-03-30|sync|BSD 2-clause|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|GPL-3.0|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|MIT|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|RISC-V architecture plugin.|2021-01-18|architecture|Apache-2.0|
@@ -42,6 +42,7 @@
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|helper, ui|MIT|
 |[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2023-05-04|helper, ui|LGPL-2.1|
 |[Discord Integration](https://github.com/psifertex/discordpresence)|[psifertex](https://github.com/psifertex)|Enables Discord Rich Presence Integration for Binary Ninja|2024-01-09|helper|MIT|
+|[Dixie](https://github.com/3Flatline/DixieBinjaPlugin)|[3Flatline LLC](https://github.com/3Flatline)|Uses Dixie code scanner to find vulnerabilities using the Binary Ninja C representation|2024-03-29|ui|MIT|
 |[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|DUMB: An Example Architecture for Binary Ninja|2020-03-01|architecture, binaryview|MIT|
 |[Dyld Shared Cache Processor](https://github.com/0cyn/bn-dyldsharedcache)|[cynder (kat)](https://github.com/0cyn)|Processing for Apple's dyld_shared_cache format.|2022-03-01|architecture, binaryview, core, helper, ui|MIT|
 |[EFI Inspector](https://github.com/zznop/efi-inspector)|[Brandon Miller](https://github.com/zznop)|Binary Ninja plugin for inspecting UEFI firmware images|2024-02-28|helper|MIT|
@@ -74,6 +75,7 @@
 |[iBootLoader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|iBoot/SecureROM Loader|2023-02-24|binaryview, helper|ISC|
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|Allows users to import idc database dumps from IDA into Binary Ninja.|2022-10-13|helper|MIT|
 |[ilhierarchy](https://github.com/fabianfreyer/binja-il-hierarchy)|[Fabian Freyer](https://github.com/fabianfreyer)|Show current IL instruction hierarchy in sidebar|2022-02-06|core, ui|MIT|
+|[Improved Gameboy Architecture](https://github.com/samrussell/binja-gameboy)|[Sam Russell (@samrussell)](https://github.com/samrussell)|A loader and diassembler for Game Boy ROMs.|2024-03-28|architecture, binaryview|MIT|
 |[Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|Forward and backward instruction slicer|2020-11-25|helper|MIT|
 |[Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|[whitequark](https://github.com/whitequark)|A plugin providing the 16-bit Intel architecture.|2019-09-04|arch|BSD-0-clause|
 |[Itanium C++ ABI](https://github.com/whitequark/binja_itanium_cxx_abi)|[whitequark](https://github.com/whitequark)|A plugin providing an analysis for Itanium C++ ABI.|2023-03-01|analysis|BSD-0-clause|
@@ -88,7 +90,7 @@
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|MIT|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|Parses MSVC structures to improve analysis|2019-07-12|helper|MIT|
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|FLIRT for (binary) ninjas|2020-05-27|binaryview, core|LGPL v3|
-|[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|Find and create signatures|2023-11-19|helper|MIT|
+|[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|Find and create signatures|2024-03-21|helper|MIT|
 |[Notepad](https://github.com/jonpalmisc/bn-notepad)|[Jon Palmisciano](https://github.com/jonpalmisc)|A notepad for taking notes inside Binary Ninja.|2021-04-19|None|MIT|
 |[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|Automatically detect obfuscated code and other interesting code constructs|2023-10-14|helper|GPL-2.0|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|detect opaque predicates|2021-04-10|helper|MIT|
@@ -102,7 +104,7 @@
 |[Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|[whitequark](https://github.com/whitequark)|A plugin providing the Renesas M16C architecture.|2020-01-19|architecture|BSD-0-clause|
 |[Renesas V850 architecture plugin](https://github.com/tizmd/binja-v850)|[Tomonori Izumida <tizmd@iij.ad.jp>](https://github.com/tizmd)|An architecture plugin for Renesas V850 series|2022-11-07|architecture|MIT|
 |[ret-sync](https://github.com/bootleg/ret-sync)|[Alexandre Gazet](https://github.com/bootleg)|Helper plugin to synchronize Binary Ninja with a debugging session|2022-01-21|helper|MIT|
-|[ReverserAI](https://github.com/mrphrazer/reverser_ai)|[Tim Blazytko](https://github.com/mrphrazer)|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2024-03-17|helper|GPL-2.0|
+|[ReverserAI](https://github.com/mrphrazer/reverser_ai)|[Tim Blazytko](https://github.com/mrphrazer)|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2024-03-18|helper|GPL-2.0|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|Realtime IDA Pro and Binary Ninja sync plugin|2020-05-14|ui|MIT|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|Package binary code as a Python class backed by Unicorn-Engine|2022-07-08|helper|MIT|
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|Demangles Rust symbols.|2023-07-09|helper|MIT|
@@ -183,5 +185,5 @@ To be displayed in the plugin loader, your `plugin.json` MUST have the following
 
 ## License
 
-Note that content contained in the root of this repository itself is Copyright 2016, Vector 35, Inc. and [available](LICENSE) under an MIT license, but each individual plugin may be released under a different license.
+Note that content contained in the root of this repository itself is Copyright 2016-2024, Vector 35, Inc. and [available](LICENSE) under an MIT license, but each individual plugin may be released under a different license.
 
