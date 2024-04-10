@@ -14,7 +14,7 @@
 |[Binja IPython console](https://github.com/skr0x1c0/ipybinja)|[skr0x1c0](https://github.com/skr0x1c0)|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|MIT|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|Generate and find signatures.|2023-01-29|architecture, binaryview, core, ui|MIT|
 |[BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|[moval0x1](https://github.com/moval0x1)|Export notations from Binja to x64dbg|2024-02-20|binaryview|MIT|
-|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2024-03-30|sync|BSD 2-clause|
+|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2024-04-09|sync|BSD 2-clause|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|GPL-3.0|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|MIT|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|RISC-V architecture plugin.|2021-01-18|architecture|Apache-2.0|
@@ -40,9 +40,9 @@
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|Find Delphi VMTs and generate their structures|2022-02-21|helper|MIT|
 |[Dependency analyzer](https://github.com/shizmob/binja-depanalyzer)|[Shiz](https://github.com/shizmob)|Analyze dependencies and resolve obfuscated imports|2020-05-25|helper|MIT|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|helper, ui|MIT|
-|[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2023-05-04|helper, ui|LGPL-2.1|
+|[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2024-04-01|helper, ui|LGPL-2.1|
 |[Discord Integration](https://github.com/psifertex/discordpresence)|[psifertex](https://github.com/psifertex)|Enables Discord Rich Presence Integration for Binary Ninja|2024-01-09|helper|MIT|
-|[Dixie](https://github.com/3Flatline/DixieBinjaPlugin)|[3Flatline LLC](https://github.com/3Flatline)|Uses Dixie code scanner to find vulnerabilities using the Binary Ninja C representation|2024-03-29|ui|MIT|
+|[Dixie](https://github.com/3Flatline/DixieBinjaPlugin)|[3Flatline LLC](https://github.com/3Flatline)|Uses Dixie code scanner to find vulnerabilities using the Binary Ninja C representation|2024-04-02|ui|MIT|
 |[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|DUMB: An Example Architecture for Binary Ninja|2020-03-01|architecture, binaryview|MIT|
 |[Dyld Shared Cache Processor](https://github.com/0cyn/bn-dyldsharedcache)|[cynder (kat)](https://github.com/0cyn)|Processing for Apple's dyld_shared_cache format.|2022-03-01|architecture, binaryview, core, helper, ui|MIT|
 |[EFI Inspector](https://github.com/zznop/efi-inspector)|[Brandon Miller](https://github.com/zznop)|Binary Ninja plugin for inspecting UEFI firmware images|2024-02-28|helper|MIT|
@@ -52,7 +52,7 @@
 |[Format String Analysis](https://github.com/nshp/binaryninja-printf)|[Nick Shipp](https://github.com/nshp)|Script to automatically annotate variadic printf functions|2023-03-08|helper|MIT|
 |[Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|[jofra](https://github.com/Vasco-jofra)|Finds format string vulnerabilities|2019-07-15|helper|MIT|
 |[Frida](https://github.com/chame1eon/binaryninja-frida)|[Chame1eon](https://github.com/chame1eon)|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|2020-06-01|helper|MIT|
-|[Frinja](https://github.com/dzervas/frinja)|[Dimitris Zervas](https://github.com/dzervas)|Frida plugin for Binary Ninja - continuation of BinRida by @c3r34lk1ll3r|2024-01-19|helper|MIT|
+|[Frinja](https://github.com/dzervas/frinja)|[Dimitris Zervas](https://github.com/dzervas)|Frida plugin for Binary Ninja - continuation of BinRida by @c3r34lk1ll3r|2024-04-10|helper|MIT|
 |[Function ABI](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|A plugin that adds a GUI for changing function ABI.|2019-11-22|ui|BSD-0-clause|
 |[Fuzzable](https://github.com/ex0dus-0x/fuzzable)|[ex0dus-0x](https://github.com/ex0dus-0x)|Framework for Automating Fuzzable Target Discovery with Static Analysis|2023-11-22|ui|MIT|
 |[Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|[Hugo Porcher (@icecr4ck)](https://github.com/icecr4ck)|A loader and diassembler for Game Boy ROMs.|2020-11-17|architecture, binaryview|MIT|
@@ -68,7 +68,7 @@
 |[Golang Symbol Restore 1.18+](https://github.com/scmerrill/golang_1_18_restore_names)|[Spencer Merrill](https://github.com/scmerrill)|Binary Ninja plugin for restoring function names from stripped Golang binaries|2022-09-08|helper|MIT|
 |[HashDB](https://github.com/cxiao/hashdb_bn)|[Cindy Xiao](https://github.com/cxiao)|Plugin for interacting with the OALabs HashDB service.|2023-04-08|helper, ui|3-Clause BSD|
 |[Hex Integers in Python Console](https://github.com/CouleeApps/hex_integers)|[Glenn Smith](https://github.com/CouleeApps)|Makes your integers print as hex in the python console.|2023-11-01|helper|MIT|
-|[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|2023-05-24|binaryview|MIT|
+|[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|2024-04-09|binaryview|MIT|
 |[HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|[atxsinn3r](https://github.com/atxsinn3r)|Dumps HLIL code to a directory|2020-06-07|helper|BSD-3-Clause|
 |[Hyara](https://github.com/hyuunnn/Hyara)|[Hyun Yi](https://github.com/hyuunnn)|YARA rule making tool for Binary Ninja, Cutter, and IDA|2023-11-13|ui|MIT|
 |[iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|[Blackwing Intelligence](https://github.com/BlackwingHQ)|Binary View for loading iBoot, SecureROM, etc. firmware|2020-10-01|binaryview|MIT|
@@ -90,7 +90,7 @@
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|MIT|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|Parses MSVC structures to improve analysis|2019-07-12|helper|MIT|
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|FLIRT for (binary) ninjas|2020-05-27|binaryview, core|LGPL v3|
-|[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|Find and create signatures|2024-03-21|helper|MIT|
+|[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|Find and create signatures|2024-04-09|helper|MIT|
 |[Notepad](https://github.com/jonpalmisc/bn-notepad)|[Jon Palmisciano](https://github.com/jonpalmisc)|A notepad for taking notes inside Binary Ninja.|2021-04-19|None|MIT|
 |[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|Automatically detect obfuscated code and other interesting code constructs|2023-10-14|helper|GPL-2.0|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|detect opaque predicates|2021-04-10|helper|MIT|
@@ -112,6 +112,7 @@
 |[Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|[Cindy Xiao](https://github.com/cxiao)|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|2023-04-27|helper|MIT|
 |[Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|[jonpalmisc](https://github.com/jonpalmisc)|Easily capture Binary Ninja screenshots in ultra-high resolution|2024-02-26|helper|MIT|
 |[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|Helper for exploring structured exception handlers in PEs|2022-02-19|helper, ui|MIT|
+|[semgrep-bn](https://github.com/interruptlabs/semgrep_bn)|[Samman Palihapitiya](https://github.com/interruptlabs)|Search code with Semgrep|2024-04-10|helper|MIT|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|Symbolic execution plugin for BinaryNinja|2024-02-24|helper|2-Clause BSD|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|MIT|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|Synchronized source code pane for debug binaries|2019-07-15|helper, ui|MIT|
