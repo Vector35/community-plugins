@@ -1,4 +1,9 @@
-[{
+[
+  {
+    "name": "interruptlabs/semgrep_bn",
+    "auto_update": true
+  },
+  {
     "name": "3Flatline/DixieBinjaPlugin",
     "auto_update": true
   },
