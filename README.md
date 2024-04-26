@@ -9,6 +9,7 @@
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|A plugin that annotates function arguments.|2019-07-09|binaryview|MIT|
 |[Ariadne](https://github.com/seeinglogic/ariadne)|[Mark Griffin (@seeinglogic)](https://github.com/seeinglogic)|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|2023-05-24|helper, ui|MIT|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|Various auto analysis utilities|2020-12-12|helper|MIT|
+|[Banjo](https://github.com/ivision-research/banjo)|[Austin Ralls](https://github.com/ivision-research)|Adds support for Android Dex files|2024-04-26|architecture, binaryview|MIT|
 |[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|View BinDiff results and port symbols|2022-07-26|helper, ui|MIT|
 |[Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|[Terry Chia](https://github.com/Ayrx)|Manage custom type libraries.|2021-01-30|helper|MIT|
 |[Binja IPython console](https://github.com/skr0x1c0/ipybinja)|[skr0x1c0](https://github.com/skr0x1c0)|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|MIT|
@@ -94,7 +95,7 @@
 |[Notepad](https://github.com/jonpalmisc/bn-notepad)|[Jon Palmisciano](https://github.com/jonpalmisc)|A notepad for taking notes inside Binary Ninja.|2021-04-19|None|MIT|
 |[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|Automatically detect obfuscated code and other interesting code constructs|2023-10-14|helper|GPL-2.0|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|detect opaque predicates|2021-04-10|helper|MIT|
-|[OpenAI GPT3](https://github.com/WhatTheFuzz/binaryninja-openai)|[Sean Deaton (@WhatTheFuzz)](https://github.com/WhatTheFuzz)|Queries OpenAI's GPT3 to determine what a given function does.|2023-09-11|helper|MIT|
+|[OpenAI GPT3](https://github.com/WhatTheFuzz/binaryninja-openai)|[Sean Deaton (@WhatTheFuzz)](https://github.com/WhatTheFuzz)|Queries OpenAI's GPT3 to determine what a given function does.|2024-04-17|helper|MIT|
 |[Original Xbox Executable Loader](https://github.com/xclusivor/binaryninja-xbe)|[xclusivor](https://github.com/xclusivor)|Loader for Original Xbox Executables|2023-11-13|binaryview|MIT|
 |[pd-ninja](https://github.com/lockbox/pd-ninja)|[lockbox](https://github.com/lockbox)|Playdate Console RE utilities|2023-03-01|helper|MIT|
 |[peutils](https://github.com/404d/peutils)|[404'd](https://github.com/404d)|Binary Ninja plugin providing various niche utilities for working with PE binaries|2020-12-12|helper|MIT|
@@ -126,7 +127,7 @@
 |[TypeLib Exporter](https://github.com/SmoothHacker/TypeLib-Exporter)|[SmoothHacker](https://github.com/SmoothHacker)|This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.|2022-10-15|binaryview, helper, ui|MIT|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|MIT|
 |[VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|[Layle](https://github.com/vtil-project)|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2020-07-05|architecture, binaryview|BSD-3-Clause|
-|[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|Assistant plugin for vulnerability research.|2021-01-07|helper|Apache-2.0|
+|[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|Assistant plugin for vulnerability research.|2024-04-22|helper|Apache-2.0|
 |[WASM Plugin](https://github.com/ivision-research/binjawa)|[Meador Inge](https://github.com/ivision-research)|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|MIT|
 |[Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|[shareef12](https://github.com/shareef12)|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|2019-08-08|helper|MIT|
 |[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|Official x64dbg plugin for Binary Ninja.|2024-01-17|sync|MIT|
