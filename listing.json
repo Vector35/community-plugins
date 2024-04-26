@@ -1,5 +1,9 @@
 [
   {
+    "name": "ivision-research/banjo",
+    "auto_update": true
+  },
+  {
     "name": "interruptlabs/semgrep_bn",
     "auto_update": true
   },
