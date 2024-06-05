@@ -108,6 +108,7 @@
 |[ReverserAI](https://github.com/mrphrazer/reverser_ai)|[Tim Blazytko](https://github.com/mrphrazer)|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2024-03-18|helper|GPL-2.0|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|Realtime IDA Pro and Binary Ninja sync plugin|2020-05-14|ui|MIT|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|Package binary code as a Python class backed by Unicorn-Engine|2022-07-08|helper|MIT|
+|[RopView](https://github.com/elbee-cyber/RopView)|[elbee](https://github.com/elbee-cyber)|RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.|2024-06-02|binaryview, helper, ui|MIT|
 |[Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|[inspier](https://github.com/inspier)|Demangles Rust symbols.|2023-07-09|helper|MIT|
 |[Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|[Cindy Xiao](https://github.com/cxiao)|Rust binary string recovery plugin|2023-12-25|helper|MIT|
 |[Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|[Cindy Xiao](https://github.com/cxiao)|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|2023-04-27|helper|MIT|
