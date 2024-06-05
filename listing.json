@@ -1,5 +1,9 @@
 [
   {
+    "name": "elbee-cyber/RopView",
+    "auto_update": true
+  },
+  {
     "name": "ivision-research/banjo",
     "auto_update": true
   },
