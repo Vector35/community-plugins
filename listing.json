@@ -1,8 +1,13 @@
 [
   {
+    "name": "riskydissonance/matteyeux/binja-win-docs",
+    "auto_update": true
+  },
+  {
     "name": "riskydissonance/binja-doc-lookup",
     "auto_update": true
-  },{
+  },
+  {
     "name": "elbee-cyber/RopView",
     "auto_update": true
   },
