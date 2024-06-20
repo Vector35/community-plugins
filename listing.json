@@ -1,5 +1,8 @@
 [
   {
+    "name": "riskydissonance/binja-doc-lookup",
+    "auto_update": true
+  },{
     "name": "elbee-cyber/RopView",
     "auto_update": true
   },
