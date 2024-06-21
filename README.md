@@ -106,7 +106,7 @@
 |[Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|[whitequark](https://github.com/whitequark)|A plugin providing the Renesas M16C architecture.|2020-01-19|architecture|BSD-0-clause|
 |[Renesas V850 architecture plugin](https://github.com/tizmd/binja-v850)|[Tomonori Izumida <tizmd@iij.ad.jp>](https://github.com/tizmd)|An architecture plugin for Renesas V850 series|2022-11-07|architecture|MIT|
 |[ret-sync](https://github.com/bootleg/ret-sync)|[Alexandre Gazet](https://github.com/bootleg)|Helper plugin to synchronize Binary Ninja with a debugging session|2022-01-21|helper|MIT|
-|[ReverserAI](https://github.com/mrphrazer/reverser_ai)|[Tim Blazytko](https://github.com/mrphrazer)|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2024-03-18|helper|GPL-2.0|
+|[ReverserAI](https://github.com/mrphrazer/reverser_ai)|[Tim Blazytko](https://github.com/mrphrazer)|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2024-06-21|helper|GPL-2.0|
 |[revsync](https://github.com/lunixbochs/revsync)|[lunixbochs](https://github.com/lunixbochs)|Realtime IDA Pro and Binary Ninja sync plugin|2020-05-14|ui|MIT|
 |[ripr](https://github.com/pbiernat/ripr)|[Patrick Biernat](https://github.com/pbiernat)|Package binary code as a Python class backed by Unicorn-Engine|2022-07-08|helper|MIT|
 |[RopView](https://github.com/elbee-cyber/RopView)|[elbee](https://github.com/elbee-cyber)|RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.|2024-06-02|binaryview, helper, ui|MIT|
