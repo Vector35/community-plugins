@@ -1,5 +1,9 @@
 [
   {
+    "name": "amtal/droog",
+    "auto_update": true
+  },
+  {
     "name": "matteyeux/binja-win-docs",
     "auto_update": true
   },
