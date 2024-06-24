@@ -1,5 +1,9 @@
 [
   {
+    "name": "jordan9001/ctypes_export",
+    "auto_update": true
+  },
+  {
     "name": "amtal/droog",
     "auto_update": true
   },
