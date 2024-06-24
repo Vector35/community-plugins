@@ -16311,7 +16311,7 @@
         "pluginmetadataversion": 2,
         "name": "bnida",
         "type": [
-            "helper"
+            "sync"
         ],
         "api": [
             "python3"
@@ -16320,17 +16320,17 @@
         "longdescription": "# bnida\n\n## Description\n\nbnida is a suite of plugins that provide the ability to transfer analysis data between IDA Pro and Binary Ninja\ndatabases.\n\n## Documentation\n\nDocumentation can be found [here](https://zznop.github.io/bnida)\n\n## License\n\nThis project is released under the MIT license.\n",
         "license": {
             "name": "MIT",
-            "text": "Copyright 2020 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright 2024 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
             "Darwin",
             "Linux",
             "Windows"
         ],
-        "version": "1.2",
+        "version": "1.3",
         "author": "zznop",
         "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1595427527,
+        "lastUpdated": 1707958297,
         "projectUrl": "https://github.com/zznop/bnida",
         "projectData": {
             "id": 135787993,
@@ -16399,7 +16399,7 @@
             "releases_url": "https://api.github.com/repos/zznop/bnida/releases{/id}",
             "deployments_url": "https://api.github.com/repos/zznop/bnida/deployments",
             "created_at": "2018-06-02T04:46:19Z",
-            "updated_at": "2020-07-22T14:18:47",
+            "updated_at": "2024-02-15T00:51:37",
             "pushed_at": "2024-02-14T23:54:00Z",
             "git_url": "git://github.com/zznop/bnida.git",
             "ssh_url": "git@github.com:zznop/bnida.git",
@@ -16449,11 +16449,11 @@
             "subscribers_count": 9
         },
         "authorUrl": "https://github.com/zznop",
-        "packageUrl": "https://api.github.com/repos/zznop/bnida/zipball/refs/tags/1.2",
-        "packageShortUrl": "https://v35.us/58b8f5d",
+        "packageUrl": "https://api.github.com/repos/zznop/bnida/zipball/refs/tags/1.3",
+        "packageShortUrl": "https://v35.us/4k5gsp4",
         "dependencies": "",
         "path": "zznop_bnida",
-        "commit": "395af069aa8b82fb63b3f0643fef47482f468e12",
+        "commit": "2bd92f171fef717fb607772268239da6e026016e",
         "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
@@ -16616,20 +16616,20 @@
             "python3"
         ],
         "description": "Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database",
-        "longdescription": "# kallsyms\nAuthor: **zznop**\n\n_Binary Ninja plugin for importing symbols to a kernel binary from /proc/kallsyms_\n\n## Description:\n\nbn-kallsyms allows you to open a file containing kernel symbols (generated with `cat /proc/kallsyms > out.txt`) from\ninside the Binary Ninja UI to import symbol infromation and aid in kernel RE.\n\n**Before loading kernel symbols:**\n\n![Before kallsyms import](screens/before.png \"Before:\")\n\n**After loading kernel symbols:**\n\n![After kallsyms import](screens/after.png \"After:\")\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * release - 1.1.1142\n * dev - 1.1.1228-dev\n\n## License\n\nThis plugin is released under a [MIT](LICENSE) license.\n\n## Usage\n\n## Generating a kallsyms file\n\nTo generate a kallsyms file, simply run the following command:\n```\nsudo sh -c \"echo 0  > /proc/sys/kernel/kptr_restrict\" && sudo cat /proc/kallsyms > kallsyms.txt\n```\n\n## Loading kallsyms\n\nTo use this plugin, you must first extract the compressed kernel image from the boot image. To do this, use binwalk:\n\n```\n$ binwalk -e vmlinuz-4.13.0-43-generic\n```\n\nThis should create a sub-directory containing the decompressed kernel image:\n\n```\n$ file ~/_vmlinuz-4.13.0-43-generic.extracted/47B4 \n/home/joe/_vmlinuz-4.13.0-43-generic.extracted/47B4: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=3e0dc1c8b93e2f3f522a596cfc4b482065469041, stripped\n```\n\nLoad the kernel binary into Binary Ninja. Then, click `Tools->\"kallsyms: Apply kernel symbols\". You will then be\nprompted to select the `/proc/kallsyms` output file. Select it, and click \"Open\". The plugin will proceed to parse\nthe kallsyms file, create functions, and import symbol names into the database.\n",
+        "longdescription": "# bn-kallsyms ![Python Lint](https://github.com/zznop/bn-kallsyms/workflows/pylint/badge.svg)\n\n## Description:\n\nBinary Ninja plugin for importing symbols to a kernel binary from /proc/kallsyms\n\n**Before loading kernel symbols:**\n\n![Before kallsyms import](screens/before.png \"Before:\")\n\n**After loading kernel symbols:**\n\n![After kallsyms import](screens/after.png \"After:\")\n\n## License\n\nThis plugin is released under a [MIT](LICENSE) license.\n\n## Generating a kernel symbols file\n\nTo generate a kernel symbols file run the following command:\n```\nsudo sh -c \"echo 0  > /proc/sys/kernel/kptr_restrict\" && sudo cat /proc/kallsyms > kallsyms.txt\n```\n\n## Importing the kernel symbols\n\nTo use this plugin, ensure the kernel binary is decompressed. If it is a bzImage kernel, use binwalk:\n\n```\n$ binwalk -e vmlinuz-4.13.0-43-generic\n...\n$ file ~/_vmlinuz-4.13.0-43-generic.extracted/47B4\n/home/joe/_vmlinuz-4.13.0-43-generic.extracted/47B4: elf 64-bit lsb executable, x86-64, version 1 (sysv), statically linked, buildid[sha1]=3e0dc1c8b93e2f3f522a596cfc4b482065469041, stripped\n```\n\nLoad the kernel binary into Binary Ninja. Then, click `tools->\"kallsyms: apply kernel symbols\"`. You will be\nprompted to select the kernel symbols file. Select it, and click \"open\". the plugin will proceed to parse\nthe kernel symbol file, create functions, and import symbols into the database.\n",
         "license": {
             "name": "MIT",
-            "text": "Copyright 2020 zznop\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright 2020 Brandon Miller\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
             "Darwin",
             "Linux",
             "Windows"
         ],
-        "version": "1.1",
-        "author": "zznop",
+        "version": "1.2",
+        "author": "Brandon Miller",
         "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1595434434,
+        "lastUpdated": 1643512677,
         "projectUrl": "https://github.com/zznop/bn-kallsyms",
         "projectData": {
             "id": 137619091,
@@ -16698,7 +16698,7 @@
             "releases_url": "https://api.github.com/repos/zznop/bn-kallsyms/releases{/id}",
             "deployments_url": "https://api.github.com/repos/zznop/bn-kallsyms/deployments",
             "created_at": "2018-06-17T00:36:42Z",
-            "updated_at": "2020-07-22T16:13:54",
+            "updated_at": "2022-01-30T03:17:57",
             "pushed_at": "2022-01-30T03:16:55Z",
             "git_url": "git://github.com/zznop/bn-kallsyms.git",
             "ssh_url": "git@github.com:zznop/bn-kallsyms.git",
@@ -16742,11 +16742,11 @@
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/zznop",
-        "packageUrl": "https://api.github.com/repos/zznop/bn-kallsyms/zipball/refs/tags/1.1",
-        "packageShortUrl": "https://v35.us/g5jb3vf",
+        "packageUrl": "https://api.github.com/repos/zznop/bn-kallsyms/zipball/refs/tags/1.2",
+        "packageShortUrl": "https://v35.us/2d7ekjg",
         "dependencies": "",
         "path": "zznop_bnkallsyms",
-        "commit": "1bf5cc551fe0d84a974063ef73cea0ce80bd4f01",
+        "commit": "b7470acac8a5130243bdc4630b5eec09337730bd",
         "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },

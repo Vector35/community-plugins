@@ -24,7 +24,7 @@
 |[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|Helper plugin for analyzing UEFI firmware|2023-04-28|helper|MIT|
 |[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|Scriptable code coverage analysis and visualization plugin|2023-02-15|helper|MIT|
 |[BNHook](https://github.com/jeffli678/bnhook)|[Grant Orndorff](https://github.com/jeffli678)|Insert custom hooks|2021-03-29|core, ui|MIT|
-|[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|Transfer analysis data between Binary Ninja and IDA|2020-07-22|helper|MIT|
+|[bnida](https://github.com/zznop/bnida)|[zznop](https://github.com/zznop)|Transfer analysis data between Binary Ninja and IDA|2024-02-15|sync|MIT|
 |[BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|[Ryan Stortz (@withzombies)](https://github.com/withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|Apache-2.0|
 |[Call Shellcode](https://github.com/lwerdna/call_shellcode)|[lwerdna](https://github.com/lwerdna)|Add "call shellcode" menu option which executes highlighted bytes.|2021-04-03|helper|Unlicense|
 |[Callgraph](https://github.com/psifertex/callgraph)|[Josh Watson / Jordan Wiens](https://github.com/psifertex)|Callgraph generator for called or calling funcs|2022-04-20|ui|MIT|
@@ -86,7 +86,7 @@
 |[JMPscare](https://github.com/fgsect/JMPscare-binja)|[Lukas Seidel](https://github.com/fgsect)|Fuzzing Introspection for use with the JMPscare Toolkit.|2022-12-07|binaryview, core, helper, ui|MIT|
 |[JNIAnalyzer](https://github.com/Ayrx/binja-JNIAnalyzer)|[Terry Chia (Ayrx)](https://github.com/Ayrx)|Analysis scripts for Binary Ninja to work with Android NDK libraries.|2022-03-27|helper|MIT|
 |[Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|[jofra](https://github.com/Vasco-jofra)|A plugin that eases fixing jump table branches|2019-07-06|core, ui|MIT|
-|[kallsyms](https://github.com/zznop/bn-kallsyms)|[zznop](https://github.com/zznop)|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|2020-07-22|helper|MIT|
+|[kallsyms](https://github.com/zznop/bn-kallsyms)|[Brandon Miller](https://github.com/zznop)|Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database|2022-01-30|helper|MIT|
 |[keypatch](https://github.com/lwerdna/keypatch_binja)|[lwerdna](https://github.com/lwerdna)|Remake of keypatch plugin for Binary Ninja|2024-01-25|helper, ui|Unlicense|
 |[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|MIT|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|binary ninja plugin for abusing logging functions|2021-03-09|helper|MIT|
