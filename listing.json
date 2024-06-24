@@ -388,19 +388,19 @@
   },
   {
     "name": "zznop/bnida",
-    "tag": "1.2"
+    "auto_update": true
   },
   {
     "name": "zznop/bn-genesis",
-    "tag": "1.1"
+    "auto_update": true
   },
   {
     "name": "zznop/bn-kallsyms",
-    "tag": "1.1"
+    "auto_update": true
   },
   {
     "name": "zznop/bn-recursion",
-    "tag": "1.1"
+    "auto_update": true
   },
   {
     "name": "bkerler/annotate",
