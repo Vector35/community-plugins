@@ -1,5 +1,9 @@
 [
   {
+    "name": "leandrofroes/bn_ifl",
+    "auto_update": true
+  },
+  {
     "name": "jordan9001/ctypes_export",
     "auto_update": true
   },
