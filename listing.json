@@ -1,5 +1,9 @@
 [
   {
+    "name": "ergrelet/themida-unmutate-bn",
+    "auto_update": true
+  },
+  {
     "name": "leandrofroes/bn_ifl",
     "auto_update": true
   },
