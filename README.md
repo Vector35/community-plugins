@@ -79,7 +79,7 @@
 |[iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|[Blackwing Intelligence](https://github.com/BlackwingHQ)|Binary View for loading iBoot, SecureROM, etc. firmware|2020-10-01|binaryview|MIT|
 |[iBootLoader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|iBoot/SecureROM Loader|2023-02-24|binaryview, helper|ISC|
 |[IDC Importer](https://github.com/Cryptogenic/idc_importer)|[SpecterDev](https://github.com/Cryptogenic)|Allows users to import idc database dumps from IDA into Binary Ninja.|2022-10-13|helper|MIT|
-|[IFL](https://github.com/leandrofroes/bn_ifl)|[Leandro Froes](https://github.com/leandrofroes)|A small plugin that provides an user-friendly way to navigate between functions and their references.|2024-07-05|helper, ui|CC BY 3.0|
+|[IFL](https://github.com/leandrofroes/bn_ifl)|[Leandro Froes](https://github.com/leandrofroes)|A small plugin that provides an user-friendly way to navigate between functions and their references.|2024-07-09|helper, ui|CC BY 3.0|
 |[ilhierarchy](https://github.com/fabianfreyer/binja-il-hierarchy)|[Fabian Freyer](https://github.com/fabianfreyer)|Show current IL instruction hierarchy in sidebar|2022-02-06|core, ui|MIT|
 |[Improved Gameboy Architecture](https://github.com/samrussell/binja-gameboy)|[Sam Russell (@samrussell)](https://github.com/samrussell)|A loader and diassembler for Game Boy ROMs.|2024-03-28|architecture, binaryview|MIT|
 |[Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|[Andrea Ferraris](https://github.com/c3r34lk1ll3r)|Forward and backward instruction slicer|2020-11-25|helper|MIT|
