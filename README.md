@@ -11,7 +11,6 @@
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|Various auto analysis utilities|2020-12-12|helper|MIT|
 |[Banjo](https://github.com/ivision-research/banjo)|[Austin Ralls](https://github.com/ivision-research)|Adds support for Android Dex files|2024-04-26|architecture, binaryview|MIT|
 |[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|View BinDiff results and port symbols|2022-07-26|helper, ui|MIT|
-|[Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|[Austin Haggard](https://github.com/ahaggard2013)|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-07-11|architecture, binaryview, core, helper, ui|MIT|
 |[Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|[Terry Chia](https://github.com/Ayrx)|Manage custom type libraries.|2021-01-30|helper|MIT|
 |[Binja IPython console](https://github.com/skr0x1c0/ipybinja)|[skr0x1c0](https://github.com/skr0x1c0)|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|MIT|
 |[binja-doc-lookup](https://github.com/riskydissonance/binja-doc-lookup)|[riskydissonance](https://github.com/riskydissonance)|Lookup documentation for the selected token|2024-06-20|helper, ui|MIT|
