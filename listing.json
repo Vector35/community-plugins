@@ -1,9 +1,5 @@
 [
   {
-    "name": "ahaggard2013/binaryninja-ollama",
-    "auto_update": true
-  },
-  {
     "name": "ergrelet/themida-unmutate-bn",
     "auto_update": true
   },
