@@ -18,7 +18,7 @@
 |[binja-win-docs](https://github.com/matteyeux/binja-win-docs)|[matteyeux](https://github.com/matteyeux)|Binary Ninja plugin to display the documentation of a Windows function in a sidebar widget.|2024-04-11|helper, ui|Apache-2.0|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|Generate and find signatures.|2023-01-29|architecture, binaryview, core, ui|MIT|
 |[BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|[moval0x1](https://github.com/moval0x1)|Export notations from Binja to x64dbg|2024-02-20|binaryview|MIT|
-|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2024-07-17|sync|BSD 2-clause|
+|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2024-08-20|sync|BSD 2-clause|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|GPL-3.0|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|MIT|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|RISC-V architecture plugin.|2021-01-18|architecture|Apache-2.0|
@@ -31,7 +31,6 @@
 |[Callgraph](https://github.com/psifertex/callgraph)|[Josh Watson / Jordan Wiens](https://github.com/psifertex)|Callgraph generator for called or calling funcs|2022-04-20|ui|MIT|
 |[Calltree](https://github.com/elbiazo/calltree)|[Eric Biazo](https://github.com/elbiazo)|Generates calltree. Alternative view for callgraph|2023-03-07|binaryview, helper, ui|MIT|
 |[Char Arrays](https://github.com/elbee-cyber/analyze_char_arrays)|[elbee](https://github.com/elbee-cyber)|Displays char arrays by analyzing their use in functions|2023-01-18|binaryview, helper|MIT|
-|[CHIP-8 ROM Loader](https://github.com/uafio/BinaryNinja-CHIP8-Arch)|[uafio](https://github.com/uafio)|Load and disassemble CHIP-8 ROM.|2020-08-15|architecture, binaryview, core, helper, ui|MIT|
 |[ClassyPP](https://github.com/CySHell/ClassyPP)|[CyShell](https://github.com/CySHell)|Parse and extract class information from MSVC x86 32\64 bit C++ binaries.|2023-06-06|binaryview|MIT|
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|2020-06-08|architecture, binaryview, core, helper, ui|MIT|
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|Binary Ninja comments viewer|2022-05-27|ui|MIT|
@@ -39,7 +38,7 @@
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|A plugin to detect several common crypto constructs and magic vars.|2023-09-22|binaryview, ui|MIT|
 |[ctypes Export](https://github.com/jordan9001/ctypes_export)|[Jordan Whitehead](https://github.com/jordan9001)|Export types definitions as ctypes structures|2024-06-24|helper|MIT|
 |[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|Load old COFF .dbg files as well as CAB-ed .db_ files!|2021-11-15|helper|MIT|
-|[decomp2dbg](https://github.com/mahaloz/decomp2dbg)|[Zion Basque (@mahaloz)](https://github.com/mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2024-06-08|core|BSD 2-clause|
+|[decomp2dbg](https://github.com/mahaloz/decomp2dbg)|[Zion Basque (@mahaloz)](https://github.com/mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2024-07-18|core|BSD 2-clause|
 |[DeGObfuscate](https://github.com/kryptoslogic/binja_degobfuscate)|[Jamie Hankins](https://github.com/kryptoslogic)|De-obfuscates strings inside of obfuscated Go binaries|2020-12-02|helper|MIT|
 |[Delphi Mapper](https://github.com/CTM1/BinjaDelphiMapper)|[Claudio Teixeira](https://github.com/CTM1)|A plugin that renames Delphi functions according to a .map file produced by IDR.|2024-01-11|binaryview|MIT|
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|Find Delphi VMTs and generate their structures|2022-02-21|helper|MIT|
@@ -93,11 +92,12 @@
 |[keypatch](https://github.com/lwerdna/keypatch_binja)|[lwerdna](https://github.com/lwerdna)|Remake of keypatch plugin for Binary Ninja|2024-01-25|helper, ui|Unlicense|
 |[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|MIT|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|binary ninja plugin for abusing logging functions|2021-03-09|helper|MIT|
+|[MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|[vrzh](https://github.com/v-rzh)|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|MIT|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|MIT|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|MIT|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|Parses MSVC structures to improve analysis|2019-07-12|helper|MIT|
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|FLIRT for (binary) ninjas|2020-05-27|binaryview, core|LGPL v3|
-|[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|Find and create signatures|2024-04-09|helper|MIT|
+|[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|Find and create signatures|2024-08-13|helper|MIT|
 |[Notepad](https://github.com/jonpalmisc/bn-notepad)|[Jon Palmisciano](https://github.com/jonpalmisc)|A notepad for taking notes inside Binary Ninja.|2021-04-19|None|MIT|
 |[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|Automatically detect obfuscated code and other interesting code constructs|2024-04-29|helper|GPL-2.0|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|detect opaque predicates|2021-04-10|helper|MIT|
@@ -123,6 +123,7 @@
 |[semgrep-bn](https://github.com/interruptlabs/semgrep_bn)|[Samman Palihapitiya](https://github.com/interruptlabs)|Search code with Semgrep|2024-04-10|helper|MIT|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|Symbolic execution plugin for BinaryNinja|2024-02-24|helper|2-Clause BSD|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|MIT|
+|[Shellcoder](https://github.com/0xricksanchez/Shellcoder)|[434b](https://github.com/0xricksanchez)|Interactive shellcode disassembler/assembler|2024-07-31|helper|Apache 2.0|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|Synchronized source code pane for debug binaries|2019-07-15|helper, ui|MIT|
 |[SVD Memory Map Parser](https://github.com/ehntoo/binaryninja-svd)|[Mitchell Johnson (@ehntoo)](https://github.com/ehntoo)|A parser for the CMSIS System View Description format|2021-12-30|helper|MIT or Apache 2.0|
 |[Swift Demangler](https://github.com/saagarjha/binja-swift-demangler)|[Saagar Jha](https://github.com/saagarjha)|Demangles Swift functions.|2023-09-15|architecture, binaryview, core, helper, ui|MIT|
@@ -131,14 +132,14 @@
 |[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski](https://github.com/carstein)|Decorate encountered syscalls with details like name and arguments|2019-07-15|helper|MIT|
 |[Tag Team](https://github.com/psifertex/tagteam)|[psifertex](https://github.com/psifertex)|Tags functions using emoji for a number of interesting characteristics|2021-03-12|helper|Apache-2.0|
 |[TE Loader](https://github.com/zznop/te-loader)|[Brandon Miller](https://github.com/zznop)|Binary Ninja plugin for loading EFI Terse Executable files|2024-02-28|architecture|MIT|
-|[themida-unmutate-bn](https://github.com/ergrelet/themida-unmutate-bn)|[Erwan Grelet](https://github.com/ergrelet)|Static deobfuscator for Themida, WinLicense and Code Virtualizer 3.x's mutation-based obfuscation.|2024-07-16|helper|GPL-3.0-or-later|
+|[themida-unmutate-bn](https://github.com/ergrelet/themida-unmutate-bn)|[Erwan Grelet](https://github.com/ergrelet)|Static deobfuscator for Themida, WinLicense and Code Virtualizer 3.x's mutation-based obfuscation.|2024-07-28|helper|GPL-3.0-or-later|
 |[TypeLib Exporter](https://github.com/SmoothHacker/TypeLib-Exporter)|[SmoothHacker](https://github.com/SmoothHacker)|This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.|2022-10-15|binaryview, helper, ui|MIT|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|MIT|
 |[VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|[Layle](https://github.com/vtil-project)|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2020-07-05|architecture, binaryview|BSD-3-Clause|
 |[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|Assistant plugin for vulnerability research.|2024-04-22|helper|Apache-2.0|
 |[WASM Plugin](https://github.com/ivision-research/binjawa)|[Meador Inge](https://github.com/ivision-research)|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|MIT|
 |[Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|[shareef12](https://github.com/shareef12)|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|2019-08-08|helper|MIT|
-|[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|Official x64dbg plugin for Binary Ninja.|2024-01-17|sync|MIT|
+|[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|Official x64dbg plugin for Binary Ninja.|2024-08-17|sync|MIT|
 |[XNU Sysctl Hunter](https://github.com/xpcmdshell/SysctlHunter)|[actae0n](https://github.com/xpcmdshell)|XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli use.|2021-07-22|helper|MIT|
 |[Xtensa Architecture and ESP8266 Loader](https://github.com/zackorndorff/binja-xtensa)|[Zack Orndorff](https://github.com/zackorndorff)|Xtensa Architecture and ESP8266 Image Loader|2021-08-17|architecture, binaryview|MIT|
 |[YARA Scan](https://github.com/trib0r3/binja-yara)|[trib0r3](https://github.com/trib0r3)|YARA signatures|2020-05-26|binaryview, core|MIT|
