@@ -1,5 +1,13 @@
 [
   {
+    "name": "v-rzh/mclf-binja-loader",
+    "auto_update": true
+  },
+  {
+    "name": "0xricksanchez/Shellcoder",
+    "auto_update": true
+  },
+  {
     "name": "ahaggard2013/binaryninja-ollama",
     "auto_update": true
   },
