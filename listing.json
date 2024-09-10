@@ -475,10 +475,6 @@
     "auto_update": true
   },
   {
-    "name": "ehntoo/binaryninja-svd",
-    "auto_update": true
-  },
-  {
     "name": "whitequark/binja_function_abi",
     "auto_update": true
   },
