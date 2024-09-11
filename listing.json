@@ -1,5 +1,9 @@
 [
   {
+    "name": "tang613/BinAssist",
+    "auto_update": true
+  },
+  {
     "name": "v-rzh/mclf-binja-loader",
     "auto_update": true
   },
