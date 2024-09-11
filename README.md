@@ -13,6 +13,7 @@
 |[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|View BinDiff results and port symbols|2022-07-26|helper, ui|MIT|
 |[Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|[Austin Haggard](https://github.com/ahaggard2013)|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-07-16|architecture, binaryview, core, helper, ui|MIT|
 |[Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|[Terry Chia](https://github.com/Ayrx)|Manage custom type libraries.|2021-01-30|helper|MIT|
+|[BinAssist](https://github.com/jtang613/BinAssist)|[Jason Tang](https://github.com/jtang613)|A plugin that provides LLM helpers to explain code and assist in RE.|2024-09-11|helper, ui|MIT|
 |[Binja IPython console](https://github.com/skr0x1c0/ipybinja)|[skr0x1c0](https://github.com/skr0x1c0)|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|MIT|
 |[binja-doc-lookup](https://github.com/riskydissonance/binja-doc-lookup)|[riskydissonance](https://github.com/riskydissonance)|Lookup documentation for the selected token|2024-06-20|helper, ui|MIT|
 |[binja-win-docs](https://github.com/matteyeux/binja-win-docs)|[matteyeux](https://github.com/matteyeux)|Binary Ninja plugin to display the documentation of a Windows function in a sidebar widget.|2024-04-11|helper, ui|Apache-2.0|
