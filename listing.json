@@ -1,5 +1,9 @@
 [
   {
+    "name": "redthing1/binja_gameroms_plugin",
+    "auto_update": true
+  },
+  {
     "name": "nettitude/binja-fix-stomped-imports",
     "auto_update": true
   },
