@@ -1,5 +1,13 @@
 [
   {
+    "name": "nettitude/binja-fix-stomped-imports",
+    "auto_update": true
+  },
+  {
+    "name": "redthing1/binja_unisymbol",
+    "auto_update": true
+  },
+  {
     "name": "jtang613/BinAssist",
     "auto_update": true
   },
