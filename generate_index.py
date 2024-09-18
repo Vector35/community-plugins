@@ -183,7 +183,7 @@ def getPluginJson(plugin, shortUrls):
     # TODO: Consider adding license info directly from the repository's json data (would need to test unlicensed plugins)
     # data["license"] = {"name" : data["license"]["name"], "text": getfile(data["license"]["url"])}
 
-    if isinstance(data["api"], str):
+    if "api" in data.keys() and isinstance(data["api"], str):
         data["api"] = [data["api"]]
     if ("minimumbinaryninjaversion" not in data or not isinstance(data["minimumbinaryninjaversion"], int)) or ("minimumBinaryNinjaVersion" not in data or not isinstance(data["minimumBinaryNinjaVersion"], int)):
         data["minimumBinaryNinjaVersion"] = 0
