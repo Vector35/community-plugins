@@ -1,5 +1,9 @@
 [
   {
+    "name": "computerman00/BinaryNinja-PSVitaLoader",
+    "auto_update": true
+  },
+    {
     "name": "redthing1/binja_gameroms_plugin",
     "auto_update": true
   },
