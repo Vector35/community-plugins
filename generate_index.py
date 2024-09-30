@@ -180,7 +180,7 @@ def getPluginJson(plugin, shortUrls):
 
     # Additional fields required for internal use
     if view_only:
-        lastUpdated = int(parser.parse(plugin["updated_at"]).timestamp())
+        lastUpdated = int(parser.parse(projectData["updated_at"]).timestamp())
     else:
         lastUpdated = int(parser.parse(releaseData["published_at"]).timestamp())
     data["lastUpdated"] = lastUpdated
