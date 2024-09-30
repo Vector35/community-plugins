@@ -146,7 +146,10 @@ def getPluginJson(plugin, shortUrls):
                     # Yes, this is suboptimal but I'd rather waste time at generation of this list to make sure we get better long descriptions
                     readmes = [f"{plugin['subdir']}/{x}" for x in readmes] + readmes
                 for readmefile in readmes:
-                    readmeUrl = f"{projectUrl}/contents/{readmefile}?ref={plugin['tag']}"
+                    if view_only:
+                        readmeUrl = f"{projectUrl}/contents/{readmefile}"
+                    else:
+                        readmeUrl = f"{projectUrl}/contents/{readmefile}?ref={plugin['tag']}"
                     readmeJson = getfile(readmeUrl).json()
                     if all (k in readmeJson for k in ("encoding", "content")):
                         if readmeJson["encoding"] == "base64":
