@@ -44,7 +44,7 @@ def getPluginJson(plugin, shortUrls):
     tagsUrl = f"{projectUrl}/tags"
 
     releaseData = None
-    if 'view' in plugin and plugin['view']:
+    if 'view_only' in plugin and plugin['view_only']:
         view_only = True
     else:
         view_only = False
@@ -195,9 +195,11 @@ def getPluginJson(plugin, shortUrls):
         # Hack until new system is finished
         data["packageUrl"] = "https://127.0.0.1/"
         data["packageShortUrl"] = "https://127.0.0.1/"
+        data["view_only"] = True
     else:
         data["packageUrl"] = zipUrl
         data["packageShortUrl"] = shortUrl
+        data["view_only"] = False
     data["dependencies"] = requirements_txt
 
     # Replace the fwd slash with _ and then strip all non (alpha, numeric, _ )
