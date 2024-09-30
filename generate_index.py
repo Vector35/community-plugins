@@ -44,6 +44,10 @@ def getPluginJson(plugin, shortUrls):
     tagsUrl = f"{projectUrl}/tags"
 
     releaseData = None
+    if 'view' in plugin and plugin['view']:
+        view_only = True
+    else:
+        view_only = False
 
     if 'auto_update' in plugin and plugin['auto_update']:
         latestRelease = f"{projectUrl}/releases/latest"
@@ -64,8 +68,10 @@ def getPluginJson(plugin, shortUrls):
         except requests.exceptions.HTTPError:
             print(f" Unable to get url {latestRelease}")
             return None
+    elif view_only:
+        # No release for a view-only plugin
+        pass
     else:
-
         releases = f"{releasesUrl}/{plugin['tag']}"
         try:
             releaseData = getfile(releases).json()
@@ -81,31 +87,32 @@ def getPluginJson(plugin, shortUrls):
     zipUrl = None
     shortUrl = ""
     # Lookup the tag url and find the associated commit
-    try:
-        tagData = getfile(tagsUrl).json()
-        for tag in tagData:
-            if tag["name"] == plugin["tag"]:
-                commit = tag["commit"]["sha"]
-                zipUrl = tag["zipball_url"]
-                break
-        if commit is None:
-            print(f"Unable to associate tag {plugin['tag']} with a commit for plugin {plugin['name']}")
+    if not view_only:
+        try:
+            tagData = getfile(tagsUrl).json()
+            for tag in tagData:
+                if tag["name"] == plugin["tag"]:
+                    commit = tag["commit"]["sha"]
+                    zipUrl = tag["zipball_url"]
+                    break
+            if commit is None:
+                print(f"Unable to associate tag {plugin['tag']} with a commit for plugin {plugin['name']}")
+                return None
+        except requests.exceptions.HTTPError:
+            print(f" Unable to get url {tagsUrl}")
             return None
-    except requests.exceptions.HTTPError:
-        print(f" Unable to get url {tagsUrl}")
-        return None
 
-    if zipUrl in shortUrls: #avoid duplicates
-        shortUrl = shortUrls[zipUrl]
-    elif os.getenv("URL_SHORTENER"):
-        url = os.getenv("URL_SHORTENER")
-        assert url != "", "No URL_SHORTENER environment variable."
-        jsonData = {"cdn_prefix": "v35.us", "url_long": zipUrl}
-        r = requests.post(url, json=jsonData)
-        jsonResponse = json.loads(r.text)
-        if jsonResponse['error'] == '':
-            shortUrl = jsonResponse["url_short"]
-        assert shortUrl.find("http") == 0
+        if zipUrl in shortUrls: #avoid duplicates
+            shortUrl = shortUrls[zipUrl]
+        elif os.getenv("URL_SHORTENER"):
+            url = os.getenv("URL_SHORTENER")
+            assert url != "", "No URL_SHORTENER environment variable."
+            jsonData = {"cdn_prefix": "v35.us", "url_long": zipUrl}
+            r = requests.post(url, json=jsonData)
+            jsonResponse = json.loads(r.text)
+            if jsonResponse['error'] == '':
+                shortUrl = jsonResponse["url_short"]
+            assert shortUrl.find("http") == 0
 
     projectData = None
     try:
@@ -116,9 +123,15 @@ def getPluginJson(plugin, shortUrls):
 
     data = None
     if "subdir" in plugin:
-        pluginjson = f"{projectUrl}/contents/{plugin['subdir']}/plugin.json?ref={plugin['tag']}"
+        if view_only:
+            pluginjson = f"{projectUrl}/contents/{plugin['subdir']}/plugin.json"
+        else:
+            pluginjson = f"{projectUrl}/contents/{plugin['subdir']}/plugin.json?ref={plugin['tag']}"
     else:
-        pluginjson = f"{projectUrl}/contents/plugin.json?ref={plugin['tag']}"
+        if view_only:
+            pluginjson = f"{projectUrl}/contents/plugin.json"
+        else:
+            pluginjson = f"{projectUrl}/contents/plugin.json?ref={plugin['tag']}"
     try:
         content = getfile(pluginjson).json()['content']
         try:
@@ -149,30 +162,39 @@ def getPluginJson(plugin, shortUrls):
         return None
 
     requirements_txt = ""
-    try:
-        if "subdir" in plugin:
-            req_json = getfile(f"{projectUrl}/contents/{plugin['subdir']}/requirements.txt?ref={plugin['tag']}").json()
-            if not "content" in req_json: # Try top-level requirements as well
+    if not view_only:
+        try:
+            if "subdir" in plugin:
+                req_json = getfile(f"{projectUrl}/contents/{plugin['subdir']}/requirements.txt?ref={plugin['tag']}").json()
+                if not "content" in req_json: # Try top-level requirements as well
+                    req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
+            else:
                 req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
-        else:
-            req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
-        if "content" in req_json:
-            requirements_txt = base64.b64decode(req_json["content"]).decode('utf-8')
-            if requirements_txt.startswith("\ufeff"):  # Remove BOM from file contents
-                requirements_txt = requirements_txt[1:]
-            requirements_txt = requirements_txt.replace("\r\n", "\n")
-    except requests.exceptions.HTTPError:
-        pass
+            if "content" in req_json:
+                requirements_txt = base64.b64decode(req_json["content"]).decode('utf-8')
+                if requirements_txt.startswith("\ufeff"):  # Remove BOM from file contents
+                    requirements_txt = requirements_txt[1:]
+                requirements_txt = requirements_txt.replace("\r\n", "\n")
+        except requests.exceptions.HTTPError:
+            pass
 
     # Additional fields required for internal use
-    lastUpdated = int(parser.parse(releaseData["published_at"]).timestamp())
+    if view_only:
+        lastUpdated = int(parser.parse(plugin["updated_at"]).timestamp())
+    else:
+        lastUpdated = int(parser.parse(releaseData["published_at"]).timestamp())
     data["lastUpdated"] = lastUpdated
     data["projectUrl"] = site + userAndProject
     data["projectData"] = projectData
     data["projectData"]["updated_at"] = datetime.utcfromtimestamp(lastUpdated).isoformat()
     data["authorUrl"] = site + userName
-    data["packageUrl"] = zipUrl
-    data["packageShortUrl"] = shortUrl
+    if view_only:
+        # Hack until new system is finished
+        data["packageUrl"] = "https://127.0.0.1/"
+        data["packageShortUrl"] = "https://127.0.0.1/"
+    else:
+        data["packageUrl"] = zipUrl
+        data["packageShortUrl"] = shortUrl
     data["dependencies"] = requirements_txt
 
     # Replace the fwd slash with _ and then strip all non (alpha, numeric, _ )
@@ -193,6 +215,9 @@ def getPluginJson(plugin, shortUrls):
         data["installinstructions"] = {}
     if "subdir" in plugin:
         data["subdir"] = plugin["subdir"]
+    # Native plugins require this version to not product error logs.
+    if view_only and data["minimumBinaryNinjaVersion"] < 6124:
+        data["minimumBinaryNinjaVersion"] = 6124
     return data
 
 
