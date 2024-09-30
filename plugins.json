@@ -158,7 +158,8 @@
         "dependencies": "",
         "path": "unknowntrojan_binja_coolsigmaker",
         "commit": null,
-        "minimumBinaryNinjaVersion": 6124
+        "minimumBinaryNinjaVersion": 6124,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -312,7 +313,8 @@
         "dependencies": "pyyaml\n",
         "path": "computerman00_BinaryNinjaPSVitaLoader",
         "commit": "ebe866b10dcb33e7b77895c1aa17b3c35c76e98f",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "name": "Game ROM Loader",
@@ -455,6 +457,7 @@
         "dependencies": "",
         "path": "redthing1_binja_gameroms_plugin",
         "commit": "5ecea0c4d09e01b3cfe31470c6aab986328a5cbf",
+        "maximumBinaryNinjaVersion": 999999,
         "platforms": [],
         "installinstructions": {}
     },
@@ -639,7 +642,8 @@
         "dependencies": "",
         "path": "nettitude_binjafixstompedimports",
         "commit": "e2e9bd96195ca1ef03270e795382931e66397586",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "name": "UniSymbol",
@@ -780,6 +784,7 @@
         "dependencies": "",
         "path": "redthing1_binja_unisymbol",
         "commit": "f0c186f43fbfbec211de82dba3c3208e6612f5a4",
+        "maximumBinaryNinjaVersion": 999999,
         "platforms": [],
         "installinstructions": {}
     },
@@ -890,8 +895,8 @@
             "svn_url": "https://github.com/jtang613/BinAssist",
             "homepage": "",
             "size": 5335,
-            "stargazers_count": 2,
-            "watchers_count": 2,
+            "stargazers_count": 3,
+            "watchers_count": 3,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -926,7 +931,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 0,
-            "watchers": 2,
+            "watchers": 3,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -944,7 +949,8 @@
         "packageShortUrl": "https://v35.us/cbay2u5",
         "path": "jtang613_BinAssist",
         "commit": "3ddf48456695625b13cdb1386c349d0296fc77db",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -1099,7 +1105,8 @@
         "dependencies": "",
         "path": "vrzh_mclfbinjaloader",
         "commit": "a9632bd11e0a6c4f82d07f63dfea29727f35bb0f",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "api": [
@@ -1256,6 +1263,7 @@
         "path": "0xricksanchez_Shellcoder",
         "commit": "d821bbb78d1106f1f14e5c6055e42f32ce33305f",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -1414,7 +1422,8 @@
         "packageShortUrl": "https://v35.us/actzcfb",
         "path": "ahaggard2013_binaryninjaollama",
         "commit": "263991753d3f5185231c77251932089446e6aedf",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -1577,7 +1586,8 @@
         "packageShortUrl": "https://v35.us/o3cbryw",
         "path": "ergrelet_themidaunmutatebn",
         "commit": "c9c4da980d978037ecdb4a64f75ee1222d0517ce",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -1726,7 +1736,8 @@
         "dependencies": "",
         "path": "leandrofroes_bn_ifl",
         "commit": "c1b2c0f2905225b4e891bffcad4477e289a3ef92",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -1880,7 +1891,8 @@
         "packageShortUrl": "https://v35.us/5skusep",
         "path": "jordan9001_ctypes_export",
         "commit": "ea104948c6673c3abaffa031d2d39520b6741231",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -2033,7 +2045,8 @@
         "dependencies": "pymupdf>=1.19.0\n\n",
         "path": "amtal_droog",
         "commit": "f9a90310002b81c2310d81c81518c379187e3f94",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -2188,7 +2201,8 @@
         "dependencies": "requests\nbs4\n",
         "path": "matteyeux_binjawindocs",
         "commit": "0ace0072b0595dd355e27667caf9750ad395a61c",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -2343,7 +2357,8 @@
         "dependencies": "requests>=2.32.3\nlxml>=5.2.2\n",
         "path": "riskydissonance_binjadoclookup",
         "commit": "3883b41514ba9966427c57c0847fe5e12ef5d583",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -2495,7 +2510,8 @@
         "packageShortUrl": "https://v35.us/s02f2du",
         "path": "elbeecyber_RopView",
         "commit": "a8f92bff676834e09aa9fae5fd811500e5eb273a",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -2676,7 +2692,8 @@
         "dependencies": "",
         "path": "ivisionresearch_banjo",
         "commit": "b4c1c03f8f624820c645a962d06da12daca331dd",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -2851,7 +2868,8 @@
         "dependencies": "emoji\ntree-sitter\nsemgrep",
         "path": "interruptlabs_semgrep_bn",
         "commit": "6d59606e751016cb94977ae3dfd4019ae022f57c",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -3026,7 +3044,8 @@
         "packageShortUrl": "https://v35.us/e14zf9p",
         "path": "3Flatline_DixieBinjaPlugin",
         "commit": "d7682f40cfa39c372af2e29a59b49d635e6283bb",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -3180,7 +3199,8 @@
         "dependencies": "huggingface_hub>=0.21.4\nllama-cpp-python>=0.2.56\nnetworkx>=3.2.1\ntoml>=0.10.2\ntyper>=0.11\n",
         "path": "mrphrazer_reverser_ai",
         "commit": "d7b6700ac3b2b715cad048f656ed9f4b1e24a03f",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -3334,7 +3354,8 @@
         "packageShortUrl": "https://v35.us/gpgn07v",
         "path": "zznop_efiinspector",
         "commit": "27dc10e0043570142a1b7d392c3419f21372286c",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -3488,7 +3509,8 @@
         "packageShortUrl": "https://v35.us/atgwzh6",
         "path": "zznop_teloader",
         "commit": "109103448b592c8dd6bd2a5f46a5030828057e87",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -3658,6 +3680,7 @@
         "dependencies": "",
         "path": "x64dbg_x64dbgbinja",
         "commit": "d5dd821c0e246aaf3174a5d664fc498426b2e989",
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -3813,7 +3836,8 @@
         "dependencies": "",
         "path": "CTM1_BinjaDelphiMapper",
         "commit": "e0c87b4309c26998cd1337c5dc7a032f9f9a3cc0",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -3991,6 +4015,7 @@
         "path": "psifertex_discordpresence",
         "commit": "4009be1202b220166a9838252011e62439c0f898",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -4374,6 +4399,7 @@
         "path": "dzervas_frinja",
         "commit": "d1df94ffe87d78482931b163df6c0c033731bb2d",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -4529,7 +4555,8 @@
         "packageShortUrl": "https://v35.us/qjsnbzb",
         "path": "moval0x1_CommentsAndSymbols",
         "commit": "89c30e701d8b52c847a96956e97eff4a42aaaf4e",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -4683,7 +4710,8 @@
         "packageShortUrl": "https://v35.us/51ke3nc",
         "path": "moval0x1_BinjaExportTox64dbg",
         "commit": "f833ec7069df3aab1d39fea248b0c2c2672f896f",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -4837,7 +4865,8 @@
         "dependencies": "",
         "path": "PistonMiner_binaryninjagocallconv",
         "commit": "a7cb661b111ed7f89361126a3b1d95e3f1cd02c2",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -4991,7 +5020,8 @@
         "dependencies": "",
         "path": "xclusivor_binaryninjaxbe",
         "commit": "35fdcbb50aa53bd3b31de48b311a54ca9bf1e86a",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -5152,7 +5182,8 @@
         "packageShortUrl": "https://v35.us/mq4cwa4",
         "path": "cxiao_rust_string_slicer",
         "commit": "0d611a38a19a46d924a176dcc481230dd3129afc",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -5424,7 +5455,8 @@
         "dependencies": "",
         "path": "saagarjha_binjaswiftdemangler",
         "commit": "4dd65a56e3d7afb90934948809b98a8d184e4a98",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -5578,7 +5610,8 @@
         "packageShortUrl": "https://v35.us/xqm8ido",
         "path": "xusheng6_binjaGoReSym",
         "commit": "bc7aaa8dd8e0904c8eca14d35b5613bba9228b0a",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -5732,7 +5765,8 @@
         "packageShortUrl": "https://v35.us/rpwdzhs",
         "path": "xusheng6_addxfgxref",
         "commit": "fb8a6d0dbffa1dbe2a065453f25be680582f4f5e",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -5892,7 +5926,8 @@
         "packageShortUrl": "https://v35.us/7zcs184",
         "path": "cxiao_rust_type_layout_helper_bn",
         "commit": "009b623df5d3e0bff995d9020b1884f6715be7d6",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -6046,7 +6081,8 @@
         "dependencies": "",
         "path": "jonpalmisc_bnnotepad",
         "commit": "86d3160dfdf6969edd3ace1c634d74fe165cbea9",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -6201,7 +6237,8 @@
         "dependencies": "xdis\npygments",
         "path": "Njord0_BNPyc",
         "commit": "2bad86ee84dd371cff84919809f94982b8fad688",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -6370,7 +6407,8 @@
         "packageShortUrl": "https://v35.us/7zs4aue",
         "path": "rikodot_binja_native_sigscan_loader",
         "commit": "3de71499e4c0ab5b3ab2f12ec4a97d25e0a45c96",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -6554,6 +6592,7 @@
         "path": "binsync_binsync",
         "commit": "d3b2aa3aeb3458c3285ba2a8315951e103c2b6f9",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "subdir": "binsync/stub_files"
     },
     {
@@ -6708,7 +6747,8 @@
         "packageShortUrl": "https://v35.us/3dbptrc",
         "path": "lockbox_pdninja",
         "commit": "0c17a323520a5e4698f6cfbb2595671cf836c7de",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -6883,7 +6923,8 @@
         "dependencies": "",
         "path": "dayzerosec_AMDSPLoader",
         "commit": "0d9e7d40fbdb234c15840c2dfa9ef0feabf65276",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -7038,6 +7079,7 @@
         "path": "mahaloz_decomp2dbg",
         "commit": "ab879516b676af8e96c851a586cd6ab8b0a0fb6f",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "subdir": "decompilers/d2d_binja"
     },
     {
@@ -7410,7 +7452,8 @@
         "packageShortUrl": "https://v35.us/e3oxv5k",
         "path": "cxiao_hashdb_bn",
         "commit": "0548f3961ed8502393e20cdab653cadc6d76285a",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -7565,7 +7608,8 @@
         "packageShortUrl": "https://v35.us/igifrn3",
         "path": "elbeecyber_analyze_char_arrays",
         "commit": "219a524ca2283ceab4593a8b7843dacc604110e8",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -7835,7 +7879,8 @@
         "dependencies": "",
         "path": "dipusone_golang_pclntab_parser",
         "commit": "1197699b4160de9aa3b4447f92f2fbf905cf22e8",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -7995,6 +8040,7 @@
         "path": "skr0x1c0_ipybinja",
         "commit": "a0f3b05c1a36e1d5d90f4536e6e43e941eec35cb",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -8156,7 +8202,8 @@
         "dependencies": "",
         "path": "AsherDLL_PCDumpbn",
         "commit": "67aec1f1ba01687e773ef5fe6f26a7dd7b7351c7",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -8316,7 +8363,8 @@
         "packageShortUrl": "https://v35.us/qvxb5cp",
         "path": "WhatTheFuzz_binaryninjaopenai",
         "commit": "136a0e160bcdf57ab99df1f1a462cc1686821835",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -8470,7 +8518,8 @@
         "packageShortUrl": "https://v35.us/bbxice8",
         "path": "nshp_binaryninjaprintf",
         "commit": "162c27aa6354b01053ac7a1add21dace0411015a",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -8651,6 +8700,7 @@
         "path": "crytic_ethersplay",
         "commit": "fcc0d269f366a94665d5493e2e956ff11b483011",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "subdir": "ethersplay"
     },
     {
@@ -8806,7 +8856,8 @@
         "packageShortUrl": "https://v35.us/i9ll7de",
         "path": "seeinglogic_ariadne",
         "commit": "dad7a16cfc11e9b2d6abab51edcc5d66b00f2b75",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -9076,7 +9127,8 @@
         "packageShortUrl": "https://v35.us/20cbhm2",
         "path": "scmerrill_golang_1_18_restore_names",
         "commit": "51acc8afc8f089c252919844aa446eece970c48c",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "name": "ripr",
@@ -9228,7 +9280,8 @@
         "dependencies": "",
         "path": "pbiernat_ripr",
         "commit": "502bc8b9f2d1dc6e13939a52a7e33e9289ca58da",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -9389,7 +9442,8 @@
         "packageShortUrl": "https://v35.us/hxtlexh",
         "path": "SmoothHacker_TypeLibExporter",
         "commit": "392f338fd9b52be54011dc1d6074a939966c1be6",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -9550,7 +9604,8 @@
         "dependencies": "ailment==9.2.26; python_version >= \"3.8\"\nangr==9.2.26; python_version >= \"3.8\"\narchinfo==9.2.26; python_version >= \"3.8\"\nbitstring==4.0.1; python_version >= \"3.8\"\ncachetools==5.2.0; python_version >= \"3.8\" and python_version < \"4.0\"\ncapstone==5.0.0; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\ncffi==1.15.1; implementation_name == \"cpython\" and python_version >= \"3.8\"\nclaripy==9.2.26; python_version >= \"3.8\"\ncle==9.2.26; python_version >= \"3.8\"\nclick==8.1.3; python_version >= \"3.7\"\ncolorama==0.4.6; python_version >= \"3.8\" and python_full_version < \"3.0.0\" and platform_system == \"Windows\" or python_version >= \"3.8\" and python_full_version >= \"3.7.0\" and platform_system == \"Windows\"\ncommonmark==0.9.1; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\ncontourpy==1.0.6; python_version >= \"3.8\"\ncppheaderparser==2.7.4; python_version >= \"3.8\"\ncssselect==1.2.0; python_version >= \"3.7\"\ncustom-inherit==2.4.0\ncycler==0.11.0; python_version >= \"3.8\"\ndecorator==5.1.1; python_version >= \"3.8\"\ndeprecated==1.2.13; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\"\ndpkt==1.9.8; python_version >= \"3.8\"\nfonttools==4.38.0; python_version >= \"3.8\"\nfuture==0.18.2; python_full_version >= \"3.6.0\" and python_version >= \"3.8\"\ngitdb==4.0.10; python_version >= \"3.8\"\ngitpython==3.1.29; python_version >= \"3.7\"\nitanium-demangler==1.1; python_version >= \"3.8\"\njinja2==3.1.2; python_version >= \"3.7\"\nkiwisolver==1.4.4; python_version >= \"3.8\"\nlief==0.12.3; python_version >= \"3.6\"\nlxml==4.9.1; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.5.0\"\nmarkupsafe==2.1.1; python_version >= \"3.7\"\nmatplotlib==3.6.2; python_version >= \"3.8\"\nmpmath==1.2.1; python_version >= \"3.8\"\nmulpyplexer==0.09; python_version >= \"3.8\"\nnampa==0.1.1; python_version >= \"3.8\"\nnetworkx==2.8.8; python_version >= \"3.8\"\nnumpy==1.23.5\npackaging==21.3; python_version >= \"3.8\"\npandas==1.5.2; python_version >= \"3.8\"\npefile==2022.5.30; python_full_version >= \"3.6.0\" and python_version >= \"3.8\"\npillow==9.3.0; python_version >= \"3.8\"\nplumbum==1.8.0; python_version >= \"3.8\"\nply==3.11; python_version >= \"3.8\"\nprogressbar2==4.2.0; python_full_version >= \"3.7.0\" and python_version >= \"3.8\"\nprotobuf==4.21.9; python_version >= \"3.8\"\npsutil==5.9.4; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\npulp==2.7.0\npycparser==2.21; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\npyelftools==0.29; python_version >= \"3.8\"\npygments==2.13.0; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\npyparsing==3.0.9; python_full_version >= \"3.6.8\" and python_version >= \"3.8\"\npyquery==1.4.3\npysmt==0.9.6.dev21; python_version >= \"3.8\"\npython-dateutil==2.8.2; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.3.0\" and python_version >= \"3.8\"\npython-utils==3.4.5; python_full_version >= \"3.7.0\" and python_version >= \"3.8\"\npytz==2022.6; python_version >= \"3.8\"\npyvex==9.2.26; python_version >= \"3.8\"\npywin32==305; platform_system == \"Windows\" and platform_python_implementation != \"PyPy\" and python_version >= \"3.8\"\nrich==12.6.0; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\nrpyc==5.2.3; python_version >= \"3.8\"\nscikit-criteria==0.7\nscipy==1.9.3; python_version >= \"3.8\"\nseaborn==0.12.1; python_version >= \"3.7\"\nsetuptools-scm==7.0.5; python_version >= \"3.8\"\nshellingham==1.5.0; python_version >= \"3.6\"\nsix==1.16.0; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.3.0\" and python_version >= \"3.8\"\nsmmap==5.0.0; python_version >= \"3.8\"\nsortedcontainers==2.4.0; python_version >= \"3.8\"\nsympy==1.11.1; python_version >= \"3.8\"\ntomli==2.0.1; python_version >= \"3.8\"\ntree-sitter==0.20.1; python_version >= \"3.3\"\ntyper==0.6.1; python_version >= \"3.6\"\ntyping-extensions==4.4.0; python_version >= \"3.8\"\nunicorn==2.0.1; python_version >= \"3.8\"\nwrapt==1.14.1; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.5.0\"\nz3-solver==4.10.2.0; python_version >= \"3.8\"\n",
         "path": "ex0dus0x_fuzzable",
         "commit": "a587d1ccd27a365c561c7c0428f78adfb80738a9",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -9722,6 +9777,7 @@
         "path": "hyuunnn_Hyara",
         "commit": "3bd5d257036a0ef12cb873a653683be9af2ff235",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "subdir": "hyara_lib/integration/bn_hyara"
     },
     {
@@ -9876,7 +9932,8 @@
         "packageShortUrl": "https://v35.us/s22qsoh",
         "path": "tizmd_binjav850",
         "commit": "967757d108b07de5aa8d2d3d664c5ae9d650b968",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -10028,7 +10085,8 @@
         "packageShortUrl": "https://v35.us/cgh5w3z",
         "path": "CySHell_ClassyPP",
         "commit": "070a46b3284bd0c9abeacebae1d6230c832c1b5b",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -10178,7 +10236,8 @@
         "dependencies": "",
         "path": "0bs3n_archblackfin",
         "commit": "5cd19a58b7790ab18dc5100ef8033254945329af",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -10332,7 +10391,8 @@
         "dependencies": "",
         "path": "matteyeux_commentsviewer",
         "commit": "6bc9fb7477ebd3619b35b01a05c79c814c05118b",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -10485,6 +10545,7 @@
         "path": "Ayrx_binjatypemanager",
         "commit": "0d0f89447da64d399a0f05f4c974697713da97b9",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -10643,7 +10704,8 @@
         "packageShortUrl": "https://v35.us/js9s5qj",
         "path": "0cyn_bndyldsharedcache",
         "commit": "ac313e5a6c6d85fe0d5c6b20e1cbfc72bcb5d710",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -10802,7 +10864,8 @@
         "dependencies": "",
         "path": "ImNotAVirus_delphi_ninja",
         "commit": "345f3355977d00dc507124b1e9a1a206f186dab3",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -10957,7 +11020,8 @@
         "packageShortUrl": "https://v35.us/2bc7hk3",
         "path": "EliseZeroTwo_SEHHelper",
         "commit": "b2c62f6b4ed822e36e834d7689950e2e2cfe8e74",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -11111,7 +11175,8 @@
         "packageShortUrl": "https://v35.us/c66smka",
         "path": "0xb0bb_0CD",
         "commit": "cb6957da71ac3cf05cb9a254ddba6db7f34aa54a",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -11295,7 +11360,8 @@
         "packageShortUrl": "https://v35.us/e5idr0c",
         "path": "fkiecad_dewolf",
         "commit": "52e49c69379acb42bfddf0979bfcc43b243e6efd",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -11450,7 +11516,8 @@
         "packageShortUrl": "https://v35.us/9wi5xm5",
         "path": "fabianfreyer_binjailhierarchy",
         "commit": "55583f9571bde964e25fa6a3f5746ecba734e3e3",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -11606,7 +11673,8 @@
         "dependencies": "",
         "path": "elbiazo_calltree",
         "commit": "8dd1f517fb9797f0625b7f31c02cba4ae8367426",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -11770,6 +11838,7 @@
         "path": "bootleg_retsync",
         "commit": "59413993b868c4e43e40b00785d25b2dc1a0ab01",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "subdir": "ext_bn/retsync"
     },
     {
@@ -11920,6 +11989,7 @@
         "path": "zznop_bnkconfigrecover",
         "commit": "3e30cc6b3e5e273674a3ce6bca6c3bc60ac22f11",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -12064,6 +12134,7 @@
         "path": "gamozolabs_coff_nm",
         "commit": "b7bcdbbb03ec22de79670b71558f5d7f7a1f2361",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {},
         "subdir": "binaryninja/dbg_load"
     },
@@ -12224,7 +12295,8 @@
         "packageShortUrl": "https://v35.us/rykx3hh",
         "path": "ehennenfent_binja_explain_instruction",
         "commit": "8fbd8ab592f0dbcd532c30889e33c9da56d777a5",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -12379,7 +12451,8 @@
         "packageShortUrl": "https://v35.us/cgzqswm",
         "path": "EliseZeroTwo_iBootBinjaLoader",
         "commit": "ecf6d78aebd92c2dc199a42d22edb35516dd166d",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -12540,7 +12613,8 @@
         "dependencies": "",
         "path": "zackorndorff_binjaxtensa",
         "commit": "b2a9ef3c84ab21047e88e7fe41d9fc8fd6e4c5d4",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "api": [
@@ -12698,6 +12772,7 @@
         "path": "gaasedelen_lighthouse",
         "commit": "562595be9bd99e8a5dfef6017d608467f5706630",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {},
         "subdir": "binjastub"
     },
@@ -12853,7 +12928,8 @@
         "packageShortUrl": "https://v35.us/r9hh3iv",
         "path": "CouleeApps_hex_integers",
         "commit": "4191900686568469546126469179206662254674",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -13007,7 +13083,8 @@
         "dependencies": "",
         "path": "xpcmdshell_SysctlHunter",
         "commit": "15984340cc7b08361c5a98b65f7ee2eccd6999a8",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -13161,7 +13238,8 @@
         "dependencies": "",
         "path": "PistonMiner_binaryninjagcloadmap",
         "commit": "90f0d6cb987c8d29c35047ca20b9c7c7460e6544",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -13315,7 +13393,8 @@
         "dependencies": "",
         "path": "PistonMiner_binaryninjagcdol",
         "commit": "7ed4b5946b7cc6831d078db6d9a99fa9c172f91c",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -13473,7 +13552,8 @@
         "packageShortUrl": "https://v35.us/c7gs9mi",
         "path": "amtal_microblaze",
         "commit": "2622aacc6a9fe3e9e11fc9ff91df00597ee2d96f",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -13621,7 +13701,8 @@
         "dependencies": "",
         "path": "zznop_bnuefihelper",
         "commit": "9251232bc2b0e6d466932f97c21ad655241e85c9",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -13774,6 +13855,7 @@
         "path": "yellowbyte_opaquepredicatesdetective",
         "commit": "8fe4e5256c532e1b7f68a5ae56e8256c14cb8550",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -13932,7 +14014,8 @@
         "dependencies": "",
         "path": "jonpalmisc_screenshot_ninja",
         "commit": "0372819c54253c1b28671dd182286e18d6531390",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -14089,7 +14172,8 @@
         "dependencies": "git+https://github.com/androguard/androguard@8d091cbb309c0c50bf239f805cc1e0931b8dcddc\n",
         "path": "Ayrx_binjaJNIAnalyzer",
         "commit": "61240dff6425f00939b10f9a4a30d0e9e9c6eb32",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -14243,7 +14327,8 @@
         "dependencies": "",
         "path": "mrphrazer_obfuscation_detection",
         "commit": "d68595d781bb808c4dde2c8bd51b3d94d4bdc406",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -14425,7 +14510,8 @@
         "dependencies": "",
         "path": "psifertex_callgraph",
         "commit": "674ab1b19646656240c6c740558d00f8430a911a",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -14610,7 +14696,8 @@
         "dependencies": "",
         "path": "psifertex_tagteam",
         "commit": "59fcf85b426b0735a0fe31b70fac95dd7229bb71",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -14788,7 +14875,8 @@
         "packageShortUrl": "https://v35.us/bzyf0l7",
         "path": "fgsect_JMPscarebinja",
         "commit": "fab2f5557483023510776846dd387962b55fc1d8",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -15155,7 +15243,8 @@
         "dependencies": "",
         "path": "samrussell_binjagameboy",
         "commit": "f20a442fe7014f666ebf61ce8fa28743a7888a1d",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "name": "Rust Demangle",
@@ -15307,7 +15396,8 @@
         "packageUrl": "https://api.github.com/repos/inspier/BinjaRustDemangler/zipball/refs/tags/0.1.7",
         "packageShortUrl": "https://v35.us/93k1ky2",
         "path": "inspier_BinjaRustDemangler",
-        "commit": "d8e92c49a9615d2bc401cea922c82da408c802c5"
+        "commit": "d8e92c49a9615d2bc401cea922c82da408c802c5",
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -15462,7 +15552,8 @@
         "packageShortUrl": "https://v35.us/dchjsnz",
         "path": "PistonMiner_binaryninjabindiffviewer",
         "commit": "b57d0ae4d42ed8654cb87e11c765f8339eb4aa67",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -15650,7 +15741,8 @@
         "dependencies": "",
         "path": "kryptoslogic_binja_degobfuscate",
         "commit": "f76b806378f5d623760b8b031bbc30b0f9f8579b",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -15804,7 +15896,8 @@
         "packageShortUrl": "https://v35.us/0evkudn",
         "path": "travisgoodspeed_symgrate2binjaplugin",
         "commit": "cf67fbb794897068ad5428756876cf15d77f0ab5",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -15963,7 +16056,8 @@
         "packageShortUrl": "https://v35.us/yjlgrb7",
         "path": "Martyx00_VulnFanatic",
         "commit": "944cd6d8138bcebfa1f1fa8665f6bbb95914b8fd",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -16117,7 +16211,8 @@
         "packageShortUrl": "https://v35.us/d7jrhzn",
         "path": "Martyx00_ghinja",
         "commit": "fe3fab3d7e51fe53cd6a75279465c08413043bc3",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -16271,7 +16366,8 @@
         "packageShortUrl": "https://v35.us/4qssjfo",
         "path": "matteyeux_sepromloader",
         "commit": "904599d88a8f181943b126e3bcdbbce46d1f023c",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -16416,6 +16512,7 @@
         "path": "murx_devi_binja",
         "commit": "4770a0cceb67edd4d841ffebb5b399988f8f2fd9",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -16570,7 +16667,8 @@
         "packageShortUrl": "https://v35.us/a8jn25n",
         "path": "dwe_binjagolangsymbolrestore",
         "commit": "251cc45cab66512fd404eaf69ec6e018684aa5d4",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "api": [
@@ -16729,7 +16827,8 @@
         "packageShortUrl": "https://v35.us/n3wptp9",
         "path": "f0rki_bngoloader",
         "commit": "f3945aa7759f09e9dd8ccd38de87186c17d47e08",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -17097,7 +17196,8 @@
         "packageShortUrl": "https://v35.us/mtnws6e",
         "path": "jeffli678_bnhook",
         "commit": "dba97f1428f8f9287e343049de7a828958bba231",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -17259,7 +17359,8 @@
         "packageShortUrl": "https://v35.us/kkyqc33",
         "path": "thebabush_nampa",
         "commit": "96269bb709d1c65f61391defdd3c03cbb1e74ff8",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -17417,7 +17518,8 @@
         "packageShortUrl": "https://v35.us/64ubzl8",
         "path": "trib0r3_binjayara",
         "commit": "acb8c0279af364c9404426e0cdbda2590e574116",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -17568,7 +17670,8 @@
         "packageShortUrl": "https://v35.us/4um2717",
         "path": "shizmob_binjadepanalyzer",
         "commit": "99b2a2e51870ddcb91eade4cefa83b655317a499",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -17719,6 +17822,7 @@
         "path": "hugsy_gefbinja",
         "commit": "0885ec31de151eba7e3b899fe1ef237ce4e68491",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -17881,7 +17985,8 @@
         "packageShortUrl": "https://v35.us/hhibziu",
         "path": "joshwatson_binaryninjamsp430",
         "commit": "9bc5a79b1c6232260c2abc3bb4334e5ca3478baf",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -18038,7 +18143,8 @@
         "packageShortUrl": "https://v35.us/17b9zfd",
         "path": "apekros_binja_sigmaker",
         "commit": "c793037cb97311c4e239e0154b69eff89befd210",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -18197,7 +18303,8 @@
         "dependencies": "",
         "path": "Vascojofra_jumptablebrancheditor",
         "commit": "7c287e047a3655e381e087b246c31bc5b4956f98",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -18347,6 +18454,7 @@
         "path": "zznop_bnida",
         "commit": "2bd92f171fef717fb607772268239da6e026016e",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -18496,6 +18604,7 @@
         "path": "zznop_bngenesis",
         "commit": "2c13bf82407ba6ccbaff7583f018fc2eb8d76106",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -18640,6 +18749,7 @@
         "path": "zznop_bnkallsyms",
         "commit": "b7470acac8a5130243bdc4630b5eec09337730bd",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -18784,6 +18894,7 @@
         "path": "zznop_bnrecursion",
         "commit": "00d8930bbb721c3a59c939e44b221a39ff761f06",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -18939,6 +19050,7 @@
         "packageShortUrl": "https://v35.us/m7b3fp0",
         "path": "bkerler_annotate",
         "commit": "c74cd87fa601ca7b3d438b50ac8e79ed0102fc68",
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -19094,7 +19206,8 @@
         "dependencies": "",
         "path": "verylazyguy_binaryninjavmndh",
         "commit": "4bf54f04e059b0c646bad350586b89fa9a906614",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -19253,7 +19366,8 @@
         "dependencies": "",
         "path": "0x1F9F1_binjamsvc",
         "commit": "eb3399883492fafc2e5acb332b98d34223285797",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -19416,7 +19530,8 @@
         "dependencies": "",
         "path": "withzombies_bnilgraph",
         "commit": "534f4102caabb590c4e1fa6713630172c97bcf32",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -19568,7 +19683,8 @@
         "dependencies": "",
         "path": "mechanicalnull_sourcery_pane",
         "commit": "dd133ebf553d6e05383acfd53f3ef5a1e5ae3a72",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "name": "Frida",
@@ -19722,7 +19838,8 @@
         "packageShortUrl": "https://v35.us/sr190kl",
         "path": "chame1eon_binaryninjafrida",
         "commit": "6292320d1854abaa9a1f2a59234c49faebf86416",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -19880,7 +19997,8 @@
         "dependencies": "",
         "path": "Vascojofra_formatstringfinderbinja",
         "commit": "d1854604fc5d1fb4f6fdb9d3078d33020ae21c74",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -20033,7 +20151,8 @@
         "packageShortUrl": "https://v35.us/klpexeo",
         "path": "shareef12_driveranalyzer",
         "commit": "36dcd34e0fc7f634171050a4806f055bbe1cc47d",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -20177,7 +20296,8 @@
         "dependencies": "",
         "path": "carstein_Syscaller",
         "commit": "7e102546a58a08cb81755ec2d6be338ce2ce7765",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -20335,7 +20455,8 @@
         "packageShortUrl": "https://v35.us/yd3oh0h",
         "path": "404d_peutils",
         "commit": "cd359c99808b717aa5ece535671e20c02f94f2e4",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -20486,7 +20607,8 @@
         "packageShortUrl": "https://v35.us/oym7uzg",
         "path": "404d_autoutils",
         "commit": "861559b9cfe98bdea6caec233280d587649d23f5",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -20661,7 +20783,8 @@
         "dependencies": "msgpack\n",
         "path": "ForAllSecure_bncov",
         "commit": "0a3cebcf888659aefeee37eb3225b6174be9de0d",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -20812,6 +20935,7 @@
         "path": "whitequark_binja_function_abi",
         "commit": "6373f1bb08e9f01500c3c82ea56c91d1c4a6a7c1",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -20963,6 +21087,7 @@
         "path": "whitequark_binja_itanium_cxx_abi",
         "commit": "8a9a582243df4785d04bb69ea3a89dd6e1aee91f",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -21114,6 +21239,7 @@
         "path": "whitequark_binjai8086",
         "commit": "72b6210ef4587eae5a85df6ba543fc0ef2b4da6f",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -21268,7 +21394,8 @@
         "dependencies": "",
         "path": "whitequark_binjam16c",
         "commit": "debf368e5df90a96d6c8b0bc128626a9d6834bb4",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -21423,6 +21550,7 @@
         "path": "c3r34lk1ll3r_Instruction_Slicer",
         "commit": "e960a2a5bdf598c691cfb99baa48788ebef6078d",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -21583,7 +21711,8 @@
         "dependencies": "",
         "path": "icecr4ck_bnGB",
         "commit": "f098d7906dc72088cb555afded2c8c87cfd13b65",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -21949,7 +22078,8 @@
         "dependencies": "",
         "path": "galenbwill_binaryninjam68k",
         "commit": "3338725ef57f57b9d9745afd386a76b8cfef9b28",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -22107,7 +22237,8 @@
         "packageShortUrl": "https://v35.us/fnjig8o",
         "path": "janbbeck_CleanTricks",
         "commit": "bf0b8efbc6e27b16e72f26640fef9cc4fd4e3c44",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -22286,7 +22417,8 @@
         "packageShortUrl": "https://v35.us/hm39i4r",
         "path": "uniduesyssec_bnriscv",
         "commit": "6cbd454ac0920ea9707483c2da31f613e1ff1143",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -22440,7 +22572,8 @@
         "dependencies": "",
         "path": "Cryptogenic_idc_importer",
         "commit": "7224a1f0c86253e52f660f11ccc188bfbffb98d9",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -22595,7 +22728,8 @@
         "dependencies": "",
         "path": "atxsinn3r_BinjaHLILDump",
         "commit": "cb21cf15408e23e0fab977cbbd00437266dd0431",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -22750,7 +22884,8 @@
         "packageShortUrl": "https://v35.us/zkuz40m",
         "path": "lunixbochs_revsync",
         "commit": "0d4087c73dc146d0142f81a243e56305febd50ea",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -22905,7 +23040,8 @@
         "dependencies": "",
         "path": "toolCHAINZ_DUMB",
         "commit": "4aa106b0002f11b00349b3fffa3565c19de86d5a",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -23064,7 +23200,8 @@
         "dependencies": "argparse-addons==0.12.0 ; python_version >= \"3.10\" and python_version < \"4.0\"\nbincopy==17.14.5 ; python_version >= \"3.10\" and python_version < \"4.0\"\nhumanfriendly==10.0 ; python_version >= \"3.10\" and python_version < \"4.0\"\npyelftools==0.31 ; python_version >= \"3.10\" and python_version < \"4.0\"\npyreadline3==3.4.1 ; sys_platform == \"win32\" and python_version >= \"3.10\" and python_version < \"4.0\"\n",
         "path": "toolCHAINZ_hexfiles",
         "commit": "b3a1f48e8f740bd8644c56109938a95b9ab08804",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "name": "WASM Plugin",
@@ -23232,6 +23369,7 @@
         "dependencies": "wasamole==0.5.0\n",
         "path": "ivisionresearch_binjawa",
         "commit": "9f17b2f77901be78468a57008af5cb055d62a89b",
+        "maximumBinaryNinjaVersion": 999999,
         "platforms": [],
         "installinstructions": {}
     },
@@ -23404,7 +23542,8 @@
         "packageShortUrl": "https://v35.us/y93i6a6",
         "path": "vtilproject_VTILBinaryNinja",
         "commit": "dc3b55ac068a6c62e50de792c74cacc634bc75c6",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -23559,7 +23698,8 @@
         "packageShortUrl": "https://v35.us/wep1lxk",
         "path": "EliseZeroTwo_SwitchBinjaLoader",
         "commit": "9a170fc502bc8bf2748dba94f133524e32113778",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -23718,7 +23858,8 @@
         "packageShortUrl": "https://v35.us/o289z4p",
         "path": "borzacchiello_seninja",
         "commit": "eecbb8bffc1baf4e55e5fd0b3395618f30ee7697",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -23885,7 +24026,8 @@
         "packageShortUrl": "https://v35.us/wal8ekp",
         "path": "Rami114_cryptoscan",
         "commit": "403f9762c368ef19d25252d16fe3eb5696228aa3",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -24039,7 +24181,8 @@
         "packageShortUrl": "https://v35.us/06z92tu",
         "path": "mauronz_binjaemotet",
         "commit": "580b5eb73bc9665b15126ee7648dff815df01b48",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -24218,7 +24361,8 @@
         "dependencies": "",
         "path": "BlackwingHQ_iBoot64Binja",
         "commit": "741b12065f090f53c2fabf17167eafb99b15fc70",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -24373,6 +24517,7 @@
         "path": "sumcatnip_logrn",
         "commit": "dc0fccfb6fe29a19c2219f668b895a3d23444609",
         "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
     {
@@ -24528,7 +24673,8 @@
         "packageShortUrl": "https://v35.us/7cygmd2",
         "path": "lwerdna_call_shellcode",
         "commit": "9757afeaf0b57a38fbbd96116e33fee917fd309a",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     },
     {
         "pluginmetadataversion": 2,
@@ -24683,6 +24829,7 @@
         "packageShortUrl": "https://v35.us/0fyihyw",
         "path": "lwerdna_keypatch_binja",
         "commit": "0eed014a0464874e75a316e2b02c78eb2f1e8ea8",
-        "minimumBinaryNinjaVersion": 0
+        "minimumBinaryNinjaVersion": 0,
+        "maximumBinaryNinjaVersion": 999999
     }
 ]
