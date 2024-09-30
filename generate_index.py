@@ -212,6 +212,8 @@ def getPluginJson(plugin, shortUrls):
         data["api"] = [data["api"]]
     if ("minimumbinaryninjaversion" not in data or not isinstance(data["minimumbinaryninjaversion"], int)) or ("minimumBinaryNinjaVersion" not in data or not isinstance(data["minimumBinaryNinjaVersion"], int)):
         data["minimumBinaryNinjaVersion"] = 0
+    if ("maximumBinaryNinjaVersion" not in data or not isinstance(data["maximumBinaryNinjaVersion"], int)):
+        data["maximumBinaryNinjaVersion"] = 999999
     if "platforms" not in data:
         data["platforms"] = []
     if "installinstructions" not in data:
