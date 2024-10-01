@@ -1,5 +1,9 @@
 [
   {
+    "name": "computerman00/BinaryNinja-PSVitaLoader",
+    "auto_update": true
+  },
+  {
     "name": "unknowntrojan/binja_coolsigmaker",
     "view_only": true
   },
