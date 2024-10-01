@@ -1,5 +1,9 @@
 [
   {
+    "name": "Martyx00/PowerPC-VLE-Extension",
+    "view_only": true
+  },
+  {
     "name": "computerman00/BinaryNinja-PSVitaLoader",
     "auto_update": true
   },
