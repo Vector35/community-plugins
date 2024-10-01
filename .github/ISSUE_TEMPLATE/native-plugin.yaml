@@ -1,0 +1,23 @@
+name: New (NATIVE) Plugin
+description: For C, C++, or Rust plugins.
+title: "[New NATIVE Plugin]: "
+labels: ["new plugin"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for writing a new plugin and submiting it!
+  - type: textarea
+    id: plugin-description
+    attributes:
+      label: Plugin Description
+      description: What does your plugin do?
+    validations:
+      required: false
+  - type: input
+    id: url
+    attributes:
+      label: Plugin Repository URL
+      value: "Repo URL: "
+    validations:
+      required: true
