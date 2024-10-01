@@ -222,9 +222,9 @@ def getPluginJson(plugin, shortUrls):
         data["installinstructions"] = {}
     if "subdir" in plugin:
         data["subdir"] = plugin["subdir"]
-    # Native plugins require this version to not product error logs.
-    if view_only and data["minimumBinaryNinjaVersion"] < 6124:
-        data["minimumBinaryNinjaVersion"] = 6124
+    # Native plugins require this version to not produce error logs.
+    if view_only and data["minimumBinaryNinjaVersion"] < 6135:
+        data["minimumBinaryNinjaVersion"] = 6135
     return data
 
 
