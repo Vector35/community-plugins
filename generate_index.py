@@ -7,7 +7,7 @@ import base64
 import requests
 from dateutil import parser
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 token = None
@@ -42,7 +42,6 @@ def getPluginJson(plugin, shortUrls):
     projectUrl = f"https://api.github.com/repos/{userAndProject}"
     releasesUrl = f"{projectUrl}/releases/tags"
     tagsUrl = f"{projectUrl}/tags"
-    print(f"TAGS URL: {tagsUrl}")
 
     releaseData = None
     if 'view_only' in plugin and plugin['view_only']:
@@ -190,7 +189,7 @@ def getPluginJson(plugin, shortUrls):
     data["lastUpdated"] = lastUpdated
     data["projectUrl"] = site + userAndProject
     data["projectData"] = projectData
-    data["projectData"]["updated_at"] = datetime.datetime.fromtimestamp(lastUpdated, datetime.timezone.utc).isoformat()
+    data["projectData"]["updated_at"] = datetime.fromtimestamp(lastUpdated, timezone.utc).isoformat()
     data["authorUrl"] = site + userName
     if view_only:
         # Hack until new system is finished
@@ -312,8 +311,9 @@ def main():
             info = open("INFO", encoding="utf-8").read() + u"\n"
         with open("README.md", "w", encoding="utf-8") as readme:
             readme.write(u"# Binary Ninja Plugins\n\n")
-            readme.write(u"| PluginName | Author | Description | Last Updated | Type | License |\n")
-            readme.write(u"|------------|--------|-------------|--------------|------|---------|\n")
+            readme.write(u"| PluginName | Author | Description | Last Updated | Type | API | License |\n")
+            readme.write(u"|------------|--------|-------------|--------------|------|-----|---------|\n")
+            api = plugin["api"][0] if "api" in plugin.keys() and isinstance(plugin["api"], list) and len(plugin["api"]) > 0 else "None"
 
             for plugin in dict(sorted(allPlugins.items(), key=lambda x: x[1]['name'].casefold())).values():
                 if "type" not in plugin:
@@ -321,6 +321,7 @@ def main():
                 readme.write(f"|[{plugin['name']}]({plugin['projectUrl']})"
                     f"|[{plugin['author']}]({plugin['authorUrl']})"
                     f"|{plugin['description']}"
+                    f"|{api}"  # API type
                     f"|{datetime.fromtimestamp(plugin['lastUpdated']).date()}"
                     f"|{', '.join(sorted(plugin['type']))}"
                     f"|{plugin['license']['name']}|\n")
