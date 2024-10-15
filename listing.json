@@ -587,10 +587,6 @@
     "auto_update": true
   },
   {
-    "name": "uafio/BinaryNinja-CHIP8-Arch",
-    "auto_update": true
-  },
-  {
     "name": "mauronz/binja-emotet",
     "auto_update": true
   },
