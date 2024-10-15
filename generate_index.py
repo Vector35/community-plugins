@@ -313,9 +313,9 @@ def main():
             readme.write(u"# Binary Ninja Plugins\n\n")
             readme.write(u"| PluginName | Author | Description | Last Updated | Type | API | License |\n")
             readme.write(u"|------------|--------|-------------|--------------|------|-----|---------|\n")
-            api = plugin["api"][0] if "api" in plugin.keys() and isinstance(plugin["api"], list) and len(plugin["api"]) > 0 else "None"
 
             for plugin in dict(sorted(allPlugins.items(), key=lambda x: x[1]['name'].casefold())).values():
+                api = plugin["api"][0] if "api" in plugin.keys() and isinstance(plugin["api"], list) and len(plugin["api"]) > 0 else "None"
                 if "type" not in plugin:
                     plugin['type'] = ["None"]
                 readme.write(f"|[{plugin['name']}]({plugin['projectUrl']})"
