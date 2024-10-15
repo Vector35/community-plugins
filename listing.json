@@ -1,5 +1,9 @@
 [
   {
+    "name": "junron/auto-enum",
+    "subdir": "binjastub"
+  },
+  {
     "name": "Accenture/NEC850_Architecture",
     "view_only": true
   },
