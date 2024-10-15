@@ -1,6 +1,7 @@
 [
   {
     "name": "junron/auto-enum",
+    "auto_update": true,
     "subdir": "binjastub"
   },
   {
