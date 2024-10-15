@@ -1,5 +1,9 @@
 [
   {
+    "name": "junron/auto-enum",
+    "subdir": "binjastub"
+  },
+  {
     "name": "Martyx00/PowerPC-VLE-Extension",
     "view_only": true
   },
