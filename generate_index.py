@@ -190,7 +190,7 @@ def getPluginJson(plugin, shortUrls):
     data["lastUpdated"] = lastUpdated
     data["projectUrl"] = site + userAndProject
     data["projectData"] = projectData
-    data["projectData"]["updated_at"] = datetime.utcfromtimestamp(lastUpdated).isoformat()
+    data["projectData"]["updated_at"] = datetime.datetime.fromtimestamp(lastUpdated, datetime.timezone.utc).isoformat()
     data["authorUrl"] = site + userName
     if view_only:
         # Hack until new system is finished
