@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.check-label.outputs.skipRemainingSteps != 'true'
-        run: pip install -r requirements.txt
+        run: pip install -r requirements.txt --break-system-packages
 
       - name: Run Validator
         if: steps.check-label.outputs.skipRemainingSteps != 'true'
