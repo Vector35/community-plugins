@@ -42,6 +42,7 @@ def getPluginJson(plugin, shortUrls):
     projectUrl = f"https://api.github.com/repos/{userAndProject}"
     releasesUrl = f"{projectUrl}/releases/tags"
     tagsUrl = f"{projectUrl}/tags"
+    print(f"TAGS URL: {tagsUrl}")
 
     releaseData = None
     if 'view_only' in plugin and plugin['view_only']:
