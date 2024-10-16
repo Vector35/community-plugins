@@ -1,5 +1,9 @@
 [
   {
+    "name": "adrianherrera/binaryninja-gtirb",
+    "auto_update": true
+  }
+  {
     "name": "junron/auto-enum",
     "auto_update": true,
     "subdir": "binjastub"
