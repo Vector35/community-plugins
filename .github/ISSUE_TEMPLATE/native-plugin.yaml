@@ -1,7 +1,7 @@
 name: New (NATIVE) Plugin
 description: For C, C++, or Rust plugins.
 title: "[New NATIVE Plugin]: "
-labels: ["new plugin"]
+labels: ["new native plugin"]
 body:
   - type: markdown
     attributes:
