@@ -76,6 +76,7 @@
 |[GoLang binary parser](https://github.com/dipusone/golang_pclntab_parser)|[Jacopo Ferrigno](https://github.com/dipusone)|BinaryNinja plugin to parse GoLang binaries and restore some information, like function names and type information|python3|2023-01-05|ui|MIT|
 |[Golang Symbol Restore](https://github.com/d-we/binja-golang-symbol-restore)|[Daniel Weber](https://github.com/d-we)|Binary Ninja plugin for restoring function names from stripped Golang binaries|python3|2020-10-19|helper|MIT|
 |[Golang Symbol Restore 1.18+](https://github.com/scmerrill/golang_1_18_restore_names)|[Spencer Merrill](https://github.com/scmerrill)|Binary Ninja plugin for restoring function names from stripped Golang binaries|python3|2022-09-08|helper|MIT|
+|[GTIRB](https://github.com/adrianherrera/binaryninja-gtirb)|[Adrian Herrera](https://github.com/adrianherrera)|Support the GrammaTech Intermediate Representation for Binaries (GTIRB) in Binary Ninja|python3|2024-10-07|helper|MIT|
 |[HashDB](https://github.com/cxiao/hashdb_bn)|[Cindy Xiao](https://github.com/cxiao)|Plugin for interacting with the OALabs HashDB service.|python3|2024-10-02|helper, ui|3-Clause BSD|
 |[Hex Integers in Python Console](https://github.com/CouleeApps/hex_integers)|[Glenn Smith](https://github.com/CouleeApps)|Makes your integers print as hex in the python console.|python3|2023-11-01|helper|MIT|
 |[hexfiles](https://github.com/toolCHAINZ/hexfiles)|[toolCHAINZ](https://github.com/toolCHAINZ)|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|python3|2024-04-09|binaryview|MIT|
