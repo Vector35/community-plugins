@@ -1,5 +1,9 @@
 [
   {
+    "name": "psifertex/qsview",
+    "auto_update": true
+  },
+  {
     "name": "adrianherrera/binaryninja-gtirb",
     "auto_update": true
   },
