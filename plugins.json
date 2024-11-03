@@ -21,7 +21,6 @@
         ],
         "version": "1.0.1",
         "author": "Jordan Wiens",
-        "minimumbinaryninjaversion": 3164,
         "longdescription": "# QSettings Viewer (v1.0.1)\nAuthor: **Jordan Wiens**\n\n_QSettings Viewer_\n\n## Description:\n\n\nNone\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 3164\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
         "lastUpdated": 1729633426,
         "projectUrl": "https://github.com/psifertex/qsview",
@@ -100,9 +99,9 @@
             "clone_url": "https://github.com/psifertex/qsview.git",
             "svn_url": "https://github.com/psifertex/qsview",
             "homepage": null,
-            "size": 0,
-            "stargazers_count": 0,
-            "watchers_count": 0,
+            "size": 4,
+            "stargazers_count": 1,
+            "watchers_count": 1,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -129,7 +128,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 0,
-            "watchers": 0,
+            "watchers": 1,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -305,7 +304,7 @@
         "dependencies": "",
         "path": "psifertex_qsview",
         "commit": "f9d401c4faefab7612ada7034884982ef90fb5e8",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -336,7 +335,6 @@
         "dependencies": "gtirb\n",
         "version": "1.0.0",
         "author": "Adrian Herrera",
-        "minimumbinaryninjaversion": 3164,
         "longdescription": "# Binary Ninja GTIRB\nAuthor: **Adrian Herrera**\n\n_Support the GrammaTech Intermediate Representation for Binaries (GTIRB) in Binary Ninja_\n\n## Description:\n\nThe [GrammaTech Intermediate Representation for Binaries](https://grammatech.github.io/prj/gtirb/) (GTIRB) is a format for binary analysis and rewriting.\nThis plugin adds support for the GTIRB format to Binary Ninja.\nIt is based on GrammaTech's [GTIRB Ghidra plugin](https://github.com/GrammaTech/gtirb-ghidra-plugin).\nCurrently, it supports exporting a Binary Ninja database to GTIRB.\nImporting GTIRB is not (yet) supported.\nSimilarly, the plugin only support exporting a single module; exporting multiple (linked) modules could be supported via Binary Ninja's [external links](https://docs.binary.ninja/guide/projects.html#external-links) feature, but this is not (yet) supported.\n\n## Installation Instructions\n\nThis plugin is available in the Binary Ninja Plugin Manager.\nOtherwise:\n1. `git clone` this repository into your Binary Ninja plugins folder (see [here](https://docs.binary.ninja/guide/plugins.html) for more details).\n1. Install the requirements with `pip install -r requirements.txt`.\n\n## Usage\n\nOpen the GTIRB \u2192 Export dialog.\nSelect the location of the exported GTIRB IR file.\nSelect the [auxiliary tables](https://grammatech.github.io/gtirb/md__aux_data.html) you want to export.\nThe more auxiliary tables, the longer the export will take.\n![GTIRB export dialog](img/usage.png)\n\n## License\n\nThis plugin is released under a MIT license.\n",
         "lastUpdated": 1728277373,
         "projectUrl": "https://github.com/adrianherrera/binaryninja-gtirb",
@@ -416,8 +414,8 @@
             "svn_url": "https://github.com/adrianherrera/binaryninja-gtirb",
             "homepage": "",
             "size": 225,
-            "stargazers_count": 1,
-            "watchers_count": 1,
+            "stargazers_count": 2,
+            "watchers_count": 2,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -452,7 +450,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 0,
-            "watchers": 1,
+            "watchers": 2,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -471,7 +469,7 @@
         "view_only": false,
         "path": "adrianherrera_binaryninjagtirb",
         "commit": "c0f2c339b29af42182051ea488a0712f86fe6b74",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -485,7 +483,6 @@
             "text": "Copyright (c) 2024> Lam Jun Rong\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "longdescription": "# Auto Enum\n\n![binja_demo](https://files.junron.dev/binja_demo.gif)\n\n## Overview\n\nDecompiled C code often contains \"magic\" constants that represent flags or options.\n```c\nint64_t buf = mmap(0, 0x1000, 7, 0x22, 0xffffffff, 0);\n```\n\nAuto Enum detects and demystifies these constants, converting them to human-readable symbols.\n\n```c\nint64_t buf = mmap(\n    0,\n    0x1000,\n    PROT_WRITE | PROT_EXEC | PROT_READ,\n    MAP_PRIVATE | MAP_ANON | MAP_FILE,\n    0xffffffff, 0\n);\n```\n\nCheck out the [README](https://github.com/junron/auto-enum) on GitHub for more info!",
-        "minimumbinaryninjaversion": 4526,
         "name": "Auto Enum",
         "platforms": [
             "Darwin",
@@ -568,15 +565,15 @@
             "deployments_url": "https://api.github.com/repos/junron/auto-enum/deployments",
             "created_at": "2024-05-05T13:43:44Z",
             "updated_at": "2024-10-15T22:52:12+00:00",
-            "pushed_at": "2024-10-19T23:47:46Z",
+            "pushed_at": "2024-10-31T03:50:12Z",
             "git_url": "git://github.com/junron/auto-enum.git",
             "ssh_url": "git@github.com:junron/auto-enum.git",
             "clone_url": "https://github.com/junron/auto-enum.git",
             "svn_url": "https://github.com/junron/auto-enum",
             "homepage": "",
-            "size": 323,
-            "stargazers_count": 336,
-            "watchers_count": 336,
+            "size": 325,
+            "stargazers_count": 338,
+            "watchers_count": 338,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -603,7 +600,7 @@
             "visibility": "public",
             "forks": 19,
             "open_issues": 0,
-            "watchers": 336,
+            "watchers": 338,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -623,7 +620,7 @@
         "dependencies": "",
         "path": "junron_autoenum",
         "commit": "65ea2de05919fd684b6c7f58ed5c74f299510cfc",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4526,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {},
         "subdir": "binjastub"
@@ -656,7 +653,6 @@
         "dependencies": "",
         "version": "1.0",
         "author": "Accenture (Martin Petran)",
-        "minimumbinaryninjaversion": 4333,
         "lastUpdated": 1728655192,
         "projectUrl": "https://github.com/Accenture/NEC850_Architecture",
         "projectData": {
@@ -835,7 +831,6 @@
         "dependencies": "",
         "version": "1.0",
         "author": "Martin Petran",
-        "minimumbinaryninjaversion": 6135,
         "lastUpdated": 1727878529,
         "projectUrl": "https://github.com/Martyx00/PowerPC-VLE-Extension",
         "projectData": {
@@ -990,7 +985,6 @@
             "Linux": "Place/Clone the plugin dir/repository into the users plugin folder: ~/.binaryninja/plugins/"
         },
         "version": "1.0.0",
-        "minimumbinaryninjaversion": 5902,
         "longdescription": "# BinaryNinja-PSVitaLoader\nPS Vita ELF/PRX2 loader plugin for Binary Ninja\n\n## Table of Contents\n1. [Description](#description)\n2. [Plugin Usage](#plugin-usage)\n3. [Notes/Issues](#notesissues)\n4. [TODO](#todo)\n5. [Credits](#credits)\n6. [Use-case examples](#use-case-examples)\n7. [Legal](#legal)\n\n### Description:\nA Binary Ninja Plugin for PRX2 PS Vita eboot.bin ELFs. \n\nDynamic linking of modules on the PS Vita [is performed](https://wiki.henkaku.xyz/vita/NID#Usage) by NID(**N**umeric **Id**entifier) of a function or variable instead of names. The primary purpose of this plugin is to resolve all import/export function/variable names, create symbols for them, and load them back into the default ELF BinaryView at their respective position. This plugin will also add PS Vita(PRX2) specific datatypes with locations in the binary resolved(if applicable). Additionally, this plugin attempts to do some cleanup resulting from the decompilation of the mixed ARMv7/thumb2 instruction sets, removing some misaligned/junk instructions in places where there should have been in-line data. \n\n\n### Plugin Usage:\nLoading the plugin will prompt for a NID database yaml file\n![Selecting NID DB](/images/nid-db-select.png)\n\nThe included NID database was obtained from the vitasdk [vita-headers](https://github.com/vitasdk/vita-headers) and combined with the following:\n```bash\n\u2514\u2500$ yq ea '. as $item ireduce ({}; . * $item )' vita-headers/db/360/*.yml > merged-vita-nid-db.yml\n```\n\nAfterwards, the plugin will prompt for a header file, this is not necessary, however **highly recommended**. With the header file we are able to resolve every single imported functions argument count, argument name, argument type, and function type/return. If this is not used, imported functions default to void and `variable_arguments` is set on the `binaryninja.types.FunctionType` object.\n\n![Selecting NID DB](/images/header-select.png)\n\nThe header file included is a compilation of all header files from [vitasdk/vita-headers](https://github.com/vitasdk/vita-headers/), all credit for the headers and NID DB goes to the vitasdk team. This header file was generated using the vitasdk toolchain([LICENSE](https://github.com/vitasdk/vita-headers/blob/master/LICENSE.md) added after) like so:\n```\n\u2514\u2500$ /usr/local/vitasdk/bin/arm-vita-eabi-gcc -P -E $VITASDK/arm-vita-eabi/include/vitasdk.h -D\"__attribute__(x)=\" -D\"__extension__(x)=\" -Drestrict= -D__restrict__= > vita_headers.hpp\n```\n\nThe plugin will first run linear sweep analysis until no new functions are created. Symbols with their respective function names are then resolved almost instantly and injected/added into the default ELF BinaryView. \n\n\nAt this point, any sce* function call should be resolved and a few datatypes will be added. If the header file was supplied, all datatypes will be imported along with the sce* functions proper return type, argument names, and argument types. \n![Plugin Sample](/images/plugin-sample.png)\n\n\n### Notes/Issues:\n- Tested to be working on Binary Ninja `4.1.5902-Stable` and `4.2.6075-dev`\n- Binary Ninja appears to trip in ARMv7/thumb2 mixed instruction sets binaries. An issue was encountered where if the binary is detected as ARMv7(All were while testing) and the first instruction is a Thumb2 instruction, it will mangle the entire dis-assembled binary. To fix this, right click initial function/instruction->Make Function at This Address->thumb2->linux-thumb2. Next run Linear Sweep again, this will fix the binary and later instruction set switches(typically `blx`) are sometimes accounted for properly.\n\nA painful but much better solution to thumb2 start: After ensuring the very first function(@base_addr) is set to thumb2 manually, I have had great luck doing the following in the BN console:\n```python\n>>> thumb2 = binaryninja.Architecture['thumb2']\n... \n>>> for func in bv.functions:\n... \tif func.arch != thumb2:\n... \t\tbv.remove_function(func)\n```\nAfter all non-thumb2 functions are removed, either (re)load the Vita Loader plugin(recommended) or run a few linear sweeps, this will correctly identify instruction set switches and give you a clean binary view(for the most part). If anyone knows how to resolve this globally, please do share - I have tried forcing the platform but because the binary is technically `armv7` the platform switches back to `linux-armv7`.\n\n\n### TODO:\n- Split functions and utility across multiple imports to maintain readability.\n- Move examples to wiki\n- Extend support to `scelibstub_psp`, `scelibent_psp` and other PRX1 primitives to support the OG PSP.\n- Extend to full custom BinaryView plugin with support for relocations\n- ~~Potentially extending un-implenented instructions commonly used within Vita/PRX2 elfs(Such as: vcvt, vdiv, vmov, vmrs and other fp related instructions)~~ - The binaryninja team is [already hard at work on these](https://github.com/Vector35/binaryninja-api/commits/dev/arch/armv7).\n\n\n### Credits:\n\n- The HENkaku [Vita Development Wiki](https://wiki.henkaku.xyz/vita/Main_Page) and specifically the [PRX page](https://wiki.henkaku.xyz/vita/PRX) for the detailed breakdown of the `SceModuleInfo` structure and its location within the ELF. Also for the breakdown of the `scelibent_prx2arm` and `scelibstub_prx2arm` function export/import structures.\n\n- VitaSDK for the [NID db](https://github.com/vitasdk/vita-headers/tree/master/db) and all [header files](https://github.com/vitasdk/vita-headers/tree/master/include)(Also the wonderful vita [toolchain](https://github.com/vitasdk/vdpm) and module [documentation](https://docs.vitasdk.org/modules.html))\n\n- The [VitaLoader Redux](https://github.com/CreepNT/VitaLoaderRedux) project, a Vita loader plugin for Ghidra with way more than just symbol mapping support - although not a Ghidra or Java fan, I studied portions of the project and its amazingly clarifying inline comments when stuck. \n\n\n### Use-case examples:\nThere are many great use-cases to learning more about reverse engineering binaries, a good example is to leverage this to patch binaries to unlock the FPS or allow them to run at full PS Vita resolution. \n\nThanks to the talented contributors of [VitaGrafix](https://github.com/Electry/VitaGrafix), we can patch binaries directly on the Vita at loadtime. The VitaGrafix [wiki](https://github.com/Electry/VitaGrafix/wiki/The-VG-Language%E2%84%A2) serves as a great educational resource to get started on this.\n\nEXAMPLE:\n\nPatching FPS limits:\nSearching for cross references on vBlank(vSync) related calls is usually a good start. In a lot of cases, the frame limit is introduced by setting a vblank interval greater than `1`. Typically this would be done with a value moved into `r0` just before `sceDisplayWaitVblankStartMulti` is called. This value(`vcount`) will typically be `1`, `2`, or `3`. This likely indicates the wait for the next vblank start, which will occur after the last scanline and before the next VSync interval. A `vcount` of `2` will wait for `2` vBlank intervals before a VSync, this effectively limits the framerate to half of the displays refresh rate(30fps). A `vcount` of `3` would be refresh-rate/3, effectively limiting to 20fps.\n\nLooking at the popular [nzportable](https://github.com/nzp-team/nzportable) homebrew game running at 60fps natively.\n\n![nzp fps](/images/example2-fps.png)\n\nThe variable here wasn't resolved, however looking at the data at that address, we see its just a `1`, this indicates the game is capped to the screens refresh rate(60Hz), as 1 vBlank interval will occur for every vSync interval. \n\n![nzp fps var](/images/example2-fps-data.png)\n\nNOTE: This isn't always straightforward as many binaries will rely on VSync and modifying anything directly related will usually cause them to run at double speed. Further research is needed on a binary-to-binary basis. \n\n\nPatching resolution:\nThis is much simpler and typically you'd want to load up the binary on a PS Vita with a tool that can poll the frame buffer to determine resolution. Knowing the resolution, you can simply search for that value within Binary Ninja. Looking at the nzp homebrew again, knowing it runs at full Vita resolution of `960x544`, we can search for `0x3c0`(960), this results in only one find and thankfully its a bit more obvious, as `0x3c0`(960) is set just before `0x220` (544)\n\n![nzp res](/images/nzp-find-res.png)\n\n\n\nAnother potential method to patch resolution is to cross reference the `sceDisplaySetFrameBuf` symbol and figure out where the framebuffer is updated/set, this takes in a pointer to the `SceDisplayFrameBuf` struct which contains the framebuffer width and height. These values are sometimes set just before the function call. According to the [vitasdk documentation](https://docs.vitasdk.org/group__SceDisplayKernel.html#structSceDisplayFrameBuf) the following resolutions can be set: `480x272`, `640x368`, `720x408`, `960x544`. \n\nTo show an example of this and practice our reverse engineering, we use the vitasdk toolchain to compile a homebrew app with a resolution of 640(`0x280`) x 368(`0x170`).\n\n\nSearching for `0x280`, there is only one with `0x170` next to it, making it the obvious choice:\n```\n8103d040      int32_t var_44 = 0x280;\n8103d044      int32_t var_40 = 0x170;\n8103d048      sceDisplaySetFrameBuf(&var_54, SCE_DISPLAY_SETBUF_NEXTFRAME);\n```\n\nLooking at the disassembly we see that `0x280` is moved into r1 at addr `0x8103d036` and `0x170` is moved into `r2` at addr `0x8103d03c` before they are both stored on the stack.\n```\n8103d036  5ff42071   movs    r1, #0x280\n8103d03a  0192       str     r2, [sp, #4] {var_48}  {0x0}\n8103d03c  5ff4b872   movs    r2, #0x170\n8103d040  0291       str     r1, [sp, #8] {var_44}  {0x280}\n8103d042  00a8       add     r0, sp, #0 {var_54}\n8103d044  0392       str     r2, [sp, #0xc] {var_40}  {0x170}\n8103d046  0121       movs    r1, #1\n8103d048  e4f14eeb   blx     #sceDisplaySetFrameBuf\n```\n\nWe could use this information to patch the binary by changing the values in the `mov` instructions, or we can patch this directly on the Vita with VitaGrafix. Instead of patching with a set value, VitaGrafix allows us to use a dynamic variable that can be configured before starting the binary, allowing it to patch the binary at load-time. This patch would look like:\n\n```\n[CUSTHOMBRW, eboot.bin]\n@FB\n0:0x3d036 t2_mov(1, 1, fb_w)\n0:0x3d03c t2_mov(1, 2, fb_h)\n```\n\n\n### Legal\n\n\u201cPlayStation\u201d and \"PlayStation Vita\" are registered trademarks of Sony Computer Entertainment Inc. This tool is **NOT** affiliated with, endorsed by, related to, or derived from confidential materials belonging to Sony Computer Entertainment Inc.\n\nThis tool was created for educational, security research purposes. Anything mentioned in this repository, any examples shown, and the plugin itself will **NOT** and can **NOT** break any encryption or circumvent protections in a binary.\n",
         "lastUpdated": 1726745762,
         "projectUrl": "https://github.com/computerman00/BinaryNinja-PSVitaLoader",
@@ -1063,13 +1057,13 @@
             "deployments_url": "https://api.github.com/repos/computerman00/BinaryNinja-PSVitaLoader/deployments",
             "created_at": "2024-09-16T00:15:18Z",
             "updated_at": "2024-09-19T11:36:02+00:00",
-            "pushed_at": "2024-10-09T08:07:16Z",
+            "pushed_at": "2024-10-23T23:22:30Z",
             "git_url": "git://github.com/computerman00/BinaryNinja-PSVitaLoader.git",
             "ssh_url": "git@github.com:computerman00/BinaryNinja-PSVitaLoader.git",
             "clone_url": "https://github.com/computerman00/BinaryNinja-PSVitaLoader.git",
             "svn_url": "https://github.com/computerman00/BinaryNinja-PSVitaLoader",
             "homepage": null,
-            "size": 1454,
+            "size": 1464,
             "stargazers_count": 5,
             "watchers_count": 5,
             "language": "Python",
@@ -1118,7 +1112,7 @@
         "dependencies": "pyyaml\n",
         "path": "computerman00_BinaryNinjaPSVitaLoader",
         "commit": "ebe866b10dcb33e7b77895c1aa17b3c35c76e98f",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 5902,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -1147,7 +1141,6 @@
         },
         "version": "1.00",
         "author": "unknowntrojan",
-        "minimumbinaryninjaversion": 6124,
         "longdescription": "# binja_coolsigmaker\n\nWe all know signature scanning can be extremely useful. Sadly, the two public offerings for Binja are either very slow, or crash extremely often.\n\nThis is why I wrote this plugin. It's a signature scanning and creating plugin for x86 (more archs are planned!), written in Rust. It's extremely fast, supports multiple signature styles, and works like a charm.\n\nIt supports 3 styles of signatures. Or 4, if you want to be specific.\n\nTo create a signature, select the instruction you want the signature to point to, then go to `Plugins->CSM - Create Signature`.\n\nThe signature is checked for uniqueness within all executable segments of the binary. `.data` is not considered, so make sure your signature scanning implementation also ignores non-code sections.\n\nTo find a signature, copy the signature to your clipboard in the format you selected in the configuration, and go to `Plugins->CSM - Find Signature`. All occurrences will be in your log.\n\nThese are the settings:\n\n![settings](settings.png)\n\nThis is how it looks to create a signature, then scan for it:\n\n![pattern creation and scanning](sig.png)\n\n## How to install\n\n**Currently, binaryninjacore-sys does not support LLVM 18. Use LLVM 16 or 17. https://github.com/Vector35/binaryninja-api/issues/5390**\n\n1. Download the platform-appropriate binary from release section\n2. Place the binary in your Binary Ninja installation's plugin folder\n\nOnce GitHub Actions are set up and a loader plugin has been written, you will be able to install the plugin via the official plugin manager.\n\n## Compiling yourself\n\nThis project requires the nightly channel of Rust.\n\nCheck the Cargo.toml file and adjust the `binaryninja` dependency so it points to whatever Binja update channel you want to compile for. __!MAKE SURE!__ Cargo caught your change of branch. It sometimes doesn't realize you changed it. Delete `Cargo.lock` to make Cargo realize you did. Otherwise, it'll keep using whatever version was selected when you built or rust-analyzer ran.\n",
         "lastUpdated": 1729525647,
         "projectUrl": "https://github.com/unknowntrojan/binja_coolsigmaker",
@@ -1236,11 +1229,11 @@
             "has_wiki": false,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 5,
+            "forks_count": 6,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 0,
+            "open_issues_count": 1,
             "license": {
                 "key": "agpl-3.0",
                 "name": "GNU Affero General Public License v3.0",
@@ -1260,8 +1253,8 @@
                 "signature"
             ],
             "visibility": "public",
-            "forks": 5,
-            "open_issues": 0,
+            "forks": 6,
+            "open_issues": 1,
             "watchers": 52,
             "default_branch": "master",
             "permissions": {
@@ -1272,7 +1265,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 5,
+            "network_count": 6,
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/unknowntrojan",
@@ -1300,7 +1293,7 @@
         },
         "version": "0.0.1",
         "author": "redthing1",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "longdescription": "\n# Game ROM Loader\n\nBinary Ninja loader for some game ROMs.\n\n## features\n\n+ [x] load GBA (GameBoy Advance) ROMs (`armv4`)\n+ [x] load NDS (Nintendo DS) ROMs (`armv4`/`armv5`)\n+ [ ] planned: PSP (PlayStation Portable) EBOOT (`mips`)\n+ [ ] planned: Wii (Nintendo Wii) binary (`powerpc`)\n\n## Credits\n+ [sideway's GBA Loader](https://github.com/SiD3W4y/binja-toolkit)\n+ [wheremyfoodat's NDS Loader](https://gist.github.com/wheremyfoodat/79208c9e14a7242e6189b07d0a226ecf)\n",
         "lastUpdated": 1725477764,
         "projectUrl": "https://github.com/redthing1/binja_gameroms_plugin",
@@ -1428,6 +1421,7 @@
         "dependencies": "",
         "path": "redthing1_binja_gameroms_plugin",
         "commit": "5ecea0c4d09e01b3cfe31470c6aab986328a5cbf",
+        "pluginmetadataversion": 2,
         "maximumBinaryNinjaVersion": 999999,
         "platforms": [],
         "installinstructions": {}
@@ -1463,7 +1457,6 @@
         },
         "version": "1.0.0",
         "author": "LRQA Nettitude",
-        "minimumbinaryninjaversion": 5529,
         "lastUpdated": 1726733019,
         "projectUrl": "https://github.com/nettitude/binja-fix-stomped-imports",
         "projectData": {
@@ -1607,7 +1600,7 @@
                 "site_admin": false
             },
             "network_count": 0,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/nettitude",
         "packageUrl": "https://api.github.com/repos/nettitude/binja-fix-stomped-imports/zipball/refs/tags/v1.1",
@@ -1616,7 +1609,7 @@
         "dependencies": "",
         "path": "nettitude_binjafixstompedimports",
         "commit": "e2e9bd96195ca1ef03270e795382931e66397586",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 5529,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -1632,7 +1625,7 @@
         },
         "version": "0.1.0",
         "author": "redthing1",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "longdescription": "\n# binja_unisymbol\n\nbinary ninja plugin + ghidra + ida scripts for easily exchanging symbols\n\n## features\n\n+ **Ghidra -> Binja** symbol import\n+ **IDA -> Binja** symbol import\n+ **Binja -> Ghidra** symbol export\n+ simple unified symbol format, supporting:\n    + functions\n    + instruction labels\n    + data labels\n\n## usage in binja\n\ninstall this into your binja plugin directory. then, use `UniSymbol > Import Symbols` and `UniSymbol > Export Symbols` to import/export symbols.\n\nthere are also several settings to set priorities for symbols for different sources. all transferred symbols have a default priority of 1, but you can for example set imported IDA symbols to have a priority of 2, which will overwrite existing symbols.\n\n## usage in ghidra\n\nin [ghidra/](./ghidra), there are two scripts to both import and export UniSymbol CSV data.\n\n## usage in ida\n\nin [ida/](./ida), there is a script to export ida's symbols as UniSymbol CSV, which can then be imported into another tool.\n",
         "lastUpdated": 1725697420,
         "projectUrl": "https://github.com/redthing1/binja_unisymbol",
@@ -1760,6 +1753,7 @@
         "dependencies": "",
         "path": "redthing1_binja_unisymbol",
         "commit": "f0c186f43fbfbec211de82dba3c3208e6612f5a4",
+        "pluginmetadataversion": 2,
         "maximumBinaryNinjaVersion": 999999,
         "platforms": [],
         "installinstructions": {}
@@ -1792,7 +1786,6 @@
         "dependencies": "openai\npysqlite3\nmarkdown\nhttpx\nchromadb\nsentence-transformers",
         "version": "0.1.5",
         "author": "Jason Tang",
-        "minimumbinaryninjaversion": 4000,
         "longdescription": "# BinAssist\nAuthor: **Jason Tang**\n\n_A plugin that provides LLM helpers to explain code and assist in RE._\n\n## Support Continued Improvements\n\n[![\"Buy Me A Beer\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/jtang613)\n\n## Description:\n\nThis is a LLM plugin aimed at enabling the use of local LLM's (ollama, text-generation-webui, lm-studio, etc) for assisting with binary exploration and reverse engineering. It supports any OpenAI v1-compatible API. Recommended models are LLaMA-based models such as llama3.1:8b, but others should work as well.\n\nCurrent features include:\n* Explain the current function - Works at all IL levels.\n* Explain the current instruction - Works at all IL levels.\n* General query - Query the LLM directly from the UI.\n* Propose actions - Provide a list of proposed actions to apply.\n* Function calling - Allow agent to call functions to navigate the binary, rename functions and variables.\n* RLHF dataset generation - To enable model fine tuning.\n* RAG augmentation - Supports adding contextual documents to refine query effectiveness.\n* Settings to modify API host, key, model name and max tokens.\n\nFuture Roadmap:\n* Agentic assistant - Use Autogen or similar framework for self-guided binary RE.\n* Model fine tuning - Leverage the RLHF dataset to fine tune the model.\n\n## Quickstart\n\n* If necessary, `pip install -r requirements.txt` from the plugin directory.\n* Open Settings -> BinAssist.\n* Ensure the RLHF and RAG database paths are appropriate for your environment.\n* Point the API host to your prefered API provider and set the API key. \n* Load a binary.\n* Open BinAssist with the 'BA' sidebar icon and start exploring.\n\n## Screenshot\n![Screenshot](https://raw.githubusercontent.com/jtang613/BinAssist/refs/heads/master/res/screenshot1.png)\n![Screenshots](/res/screenshots.gif)\n\n## Homepage\nhttps://github.com/jtang613/BinAssist\n\n\n## Installation Instructions\n\n### Linux\n\nAn OpenAI compatible API is required. For local LLM support, use Ollama, LMStudio, Open-WebUI, Text-Generation-WebUI, etc.\n\n`pip install -r requirements.txt`\n\n### Windows\n\nUntested but should work. Submit an Issue or Pull Request for support.\n\n### Darwin\n\nUntested but should work. Submit an Issue or Pull Request for support.\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4000\n\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n * pip - openai, pysqlite3, markdown, httpx, chromadb, sentence-transformers\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
         "lastUpdated": 1727642115,
         "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -1927,7 +1920,7 @@
         "view_only": false,
         "path": "jtang613_BinAssist",
         "commit": "3ddf48456695625b13cdb1386c349d0296fc77db",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4000,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -1958,7 +1951,6 @@
             "Linux": ""
         },
         "version": "0.0.3",
-        "minimumbinaryninjaversion": 3233,
         "lastUpdated": 1721404531,
         "projectUrl": "https://github.com/v-rzh/mclf-binja-loader",
         "projectData": {
@@ -2085,7 +2077,7 @@
         "dependencies": "",
         "path": "vrzh_mclfbinjaloader",
         "commit": "a9632bd11e0a6c4f82d07f63dfea29727f35bb0f",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3233,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -2099,7 +2091,6 @@
             "text": "Copyright 2024 0x434b <admin@0x434b.dev> Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
         },
         "longdescription": "# BinaryNinja Shellcoder Plugin\n\n## Overview\n\nShellcoder is a lightweight plugin for Binary Ninja that enhances shellcode development and analysis.\nIt provides a versatile interface for assembling, disassembling, and formatting shellcode, supporting multiple architectures and output formats akin to the online ShellStorm Assembler/Disassembler.\n\n## Features\n\n- **Multi-architecture Support**: Compatible with all architectures supported by Binary Ninja.\n- **Flexible Input Formats**:\n  - Assembly instructions\n  - Inline hex format (e.g., \"\\x90\\x90\")\n  - Space-separated hex format (e.g., 90 90)\n- **Multiple Output Formats**:\n  - Inline hex\n  - Space-separated hex\n  - Python byte string\n  - C-style array\n  - Disassembled mnemonics (for disassembling)\n- **Customizable Mnemonic Display**:\n  - Optional address display\n  - Optional bytecode display\n  - Adjustable base address for relative operations\n- **Comment usage**:\n  - You can annotate your assembly/shellcode with comments (`#`, `//`, or `;`)\n- **Bad Character Identification**: Quickly identify and highlight problematic bytes in your shellcode.\n- **No External Dependencies**: Utilizes only Binary Ninja's built-in functionalities, ensuring a lightweight and easily deployable solution.\n\n## Installation\n\n1. Clone this repository or download the source code.\n2. Copy the plugin file to your Binary Ninja plugins folder:\n   - Windows: `%APPDATA%\\Binary Ninja\\plugins\\`\n   - Linux: `~/.binaryninja/plugins/`\n   - macOS: `~/Library/Application Support/Binary Ninja/plugins/`\n3. Restart Binary Ninja or reload plugins.\n\n## Usage\n\n1. Open Binary Ninja and navigate to the \"Plugins\" menu.\n2. Select \"Shellcoder\" to open the plugin interface.\n3. Enter your assembly code or hex-formatted shellcode in the input area.\n4. Choose your desired output format and options.\n5. Click \"Assemble\" to process your input.\n6. View the results in the output area.\n\n_Note_: Alternatively you can use `CTRL+p` to open the command palette and search for the plugin.\n\n## Showcase\n\n![interface](img/interface.png)\n\n## Contributing\n\nContributions to the plugin are more than welcome! Here's how you can contribute:\n\n1. Fork the repository.\n2. Create a new branch for your feature or bug fix.\n3. Commit your changes with clear, descriptive commit messages.\n4. Push your branch and submit a pull request.\n\nPlease ensure your code adheres to the existing style and includes appropriate tests and documentation whenever necessary.\n\n## License\n\nThis project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.\n\n## Acknowledgments\n\n- The Binary Ninja team for their excellent reverse engineering platform.\n- The ShellStorm online assembler/disassembler for giving me the idea.\n\n## Contact\n\nFor bug reports, feature requests, or general inquiries, please open an issue on the GitHub repository.\n\n---\n\nHappy shellcoding!\n",
-        "minimumbinaryninjaversion": 4526,
         "name": "Shellcoder",
         "platforms": [
             "Darwin",
@@ -2244,7 +2235,7 @@
         "dependencies": "",
         "path": "0xricksanchez_Shellcoder",
         "commit": "d821bbb78d1106f1f14e5c6055e42f32ce33305f",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4526,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -2280,7 +2271,6 @@
         "dependencies": "ollama\nnetworkx>=3.2.1\n",
         "version": "1.0.7",
         "author": "Austin Haggard",
-        "minimumbinaryninjaversion": 4,
         "lastUpdated": 1728484893,
         "projectUrl": "https://github.com/ahaggard2013/binaryninja-ollama",
         "projectData": {
@@ -2406,7 +2396,7 @@
         "view_only": false,
         "path": "ahaggard2013_binaryninjaollama",
         "commit": "03ec2e23e046861605f93c31e87215ffc01f4aff",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -2437,7 +2427,6 @@
         "dependencies": "miasm\nthemida-unmutate==0.2.0",
         "version": "0.3.0",
         "author": "Erwan Grelet",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1722202857,
         "projectUrl": "https://github.com/ergrelet/themida-unmutate-bn",
         "projectData": {
@@ -2516,8 +2505,8 @@
             "svn_url": "https://github.com/ergrelet/themida-unmutate-bn",
             "homepage": "",
             "size": 28,
-            "stargazers_count": 20,
-            "watchers_count": 20,
+            "stargazers_count": 21,
+            "watchers_count": 21,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2553,7 +2542,7 @@
             "visibility": "public",
             "forks": 2,
             "open_issues": 0,
-            "watchers": 20,
+            "watchers": 21,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -2572,7 +2561,7 @@
         "view_only": false,
         "path": "ergrelet_themidaunmutatebn",
         "commit": "c9c4da980d978037ecdb4a64f75ee1222d0517ce",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -2603,7 +2592,6 @@
             "Linux": ""
         },
         "version": "1.3",
-        "minimumbinaryninjaversion": 4958,
         "lastUpdated": 1720549788,
         "projectUrl": "https://github.com/leandrofroes/bn_ifl",
         "projectData": {
@@ -2682,8 +2670,8 @@
             "svn_url": "https://github.com/leandrofroes/bn_ifl",
             "homepage": null,
             "size": 150,
-            "stargazers_count": 21,
-            "watchers_count": 21,
+            "stargazers_count": 22,
+            "watchers_count": 22,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2704,7 +2692,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 0,
-            "watchers": 21,
+            "watchers": 22,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -2724,7 +2712,7 @@
         "dependencies": "",
         "path": "leandrofroes_bn_ifl",
         "commit": "c1b2c0f2905225b4e891bffcad4477e289a3ef92",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4958,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -2755,7 +2743,6 @@
         "dependencies": "",
         "version": "0.81",
         "author": "Jordan Whitehead",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1719243764,
         "projectUrl": "https://github.com/jordan9001/ctypes_export",
         "projectData": {
@@ -2881,7 +2868,7 @@
         "view_only": false,
         "path": "jordan9001_ctypes_export",
         "commit": "ea104948c6673c3abaffa031d2d39520b6741231",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -2907,7 +2894,6 @@
         ],
         "installinstructions": {},
         "version": "1.0.5",
-        "minimumbinaryninjaversion": 2800,
         "lastUpdated": 1719239477,
         "projectUrl": "https://github.com/amtal/droog",
         "projectData": {
@@ -3037,7 +3023,7 @@
         "dependencies": "pymupdf>=1.19.0\n\n",
         "path": "amtal_droog",
         "commit": "f9a90310002b81c2310d81c81518c379187e3f94",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2800,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -3068,7 +3054,6 @@
             "Linux": "Clone this repository into `~/.binaryninja/plugins/`"
         },
         "version": "0.1.0",
-        "minimumbinaryninjaversion": 3053,
         "lastUpdated": 1712819538,
         "projectUrl": "https://github.com/matteyeux/binja-win-docs",
         "projectData": {
@@ -3195,7 +3180,7 @@
         "dependencies": "requests\nbs4\n",
         "path": "matteyeux_binjawindocs",
         "commit": "0ace0072b0595dd355e27667caf9750ad395a61c",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3053,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -3226,7 +3211,6 @@
         },
         "version": "1.0.0",
         "author": "riskydissonance",
-        "minimumbinaryninjaversion": 5529,
         "lastUpdated": 1718900317,
         "projectUrl": "https://github.com/riskydissonance/binja-doc-lookup",
         "projectData": {
@@ -3353,7 +3337,7 @@
         "dependencies": "requests>=2.32.3\nlxml>=5.2.2\n",
         "path": "riskydissonance_binjadoclookup",
         "commit": "3883b41514ba9966427c57c0847fe5e12ef5d583",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 5529,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -3382,7 +3366,6 @@
         "dependencies": "capstone==5.0.1\nkeystone_engine==0.9.2\npandas==2.2.2\nPySide6==6.7.0\nPySide6==6.7.1\nPySide6_Addons==6.7.0\nPySide6_Essentials==6.7.0\nunicorn==2.0.1.post1\n",
         "version": "1.0",
         "author": "elbee",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1717363769,
         "projectUrl": "https://github.com/elbee-cyber/RopView",
         "projectData": {
@@ -3508,7 +3491,7 @@
         "view_only": false,
         "path": "elbeecyber_RopView",
         "commit": "a8f92bff676834e09aa9fae5fd811500e5eb273a",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -3524,7 +3507,6 @@
         },
         "description": "Adds support for Android Dex files",
         "version": "3.1",
-        "minimumbinaryninjaversion": 3112,
         "platforms": [
             "Linux",
             "Darwin",
@@ -3693,7 +3675,7 @@
         "dependencies": "",
         "path": "ivisionresearch_banjo",
         "commit": "b4c1c03f8f624820c645a962d06da12daca331dd",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3112,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -3723,7 +3705,6 @@
             "name": "MIT",
             "text": "Copyright (c) 2024 Interrupt Labs\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
-        "minimumbinaryninjaversion": 3500,
         "lastUpdated": 1712724645,
         "projectUrl": "https://github.com/interruptlabs/semgrep_bn",
         "projectData": {
@@ -3872,7 +3853,7 @@
         "dependencies": "emoji\ntree-sitter\nsemgrep",
         "path": "interruptlabs_semgrep_bn",
         "commit": "6d59606e751016cb94977ae3dfd4019ae022f57c",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3500,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -3903,7 +3884,6 @@
         "dependencies": "requests\ntiktoken\nsupabase\ngotrue\n",
         "version": "0.1",
         "author": "3Flatline LLC",
-        "minimumbinaryninjaversion": 3120,
         "lastUpdated": 1712022661,
         "projectUrl": "https://github.com/3Flatline/DixieBinjaPlugin",
         "projectData": {
@@ -4051,7 +4031,7 @@
         "view_only": false,
         "path": "3Flatline_DixieBinjaPlugin",
         "commit": "d7682f40cfa39c372af2e29a59b49d635e6283bb",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3120,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -4081,7 +4061,6 @@
             "Linux": ""
         },
         "version": "1.1",
-        "minimumbinaryninjaversion": 2487,
         "lastUpdated": 1718942220,
         "projectUrl": "https://github.com/mrphrazer/reverser_ai",
         "projectData": {
@@ -4160,8 +4139,8 @@
             "svn_url": "https://github.com/mrphrazer/reverser_ai",
             "homepage": "",
             "size": 828,
-            "stargazers_count": 816,
-            "watchers_count": 816,
+            "stargazers_count": 823,
+            "watchers_count": 823,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -4188,7 +4167,7 @@
             "visibility": "public",
             "forks": 50,
             "open_issues": 3,
-            "watchers": 816,
+            "watchers": 823,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -4208,7 +4187,7 @@
         "dependencies": "huggingface_hub>=0.21.4\nllama-cpp-python>=0.2.56\nnetworkx>=3.2.1\ntoml>=0.10.2\ntyper>=0.11\n",
         "path": "mrphrazer_reverser_ai",
         "commit": "d7b6700ac3b2b715cad048f656ed9f4b1e24a03f",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2487,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -4239,7 +4218,6 @@
         "dependencies": "",
         "version": "1.0.0",
         "author": "Brandon Miller",
-        "minimumbinaryninjaversion": 4333,
         "lastUpdated": 1709153707,
         "projectUrl": "https://github.com/zznop/efi-inspector",
         "projectData": {
@@ -4365,7 +4343,7 @@
         "view_only": false,
         "path": "zznop_efiinspector",
         "commit": "27dc10e0043570142a1b7d392c3419f21372286c",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4333,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -4396,7 +4374,6 @@
         "dependencies": "",
         "version": "1.0.0",
         "author": "Brandon Miller",
-        "minimumbinaryninjaversion": 4333,
         "lastUpdated": 1709153687,
         "projectUrl": "https://github.com/zznop/te-loader",
         "projectData": {
@@ -4522,7 +4499,7 @@
         "view_only": false,
         "path": "zznop_teloader",
         "commit": "109103448b592c8dd6bd2a5f46a5030828057e87",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4333,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -4546,9 +4523,9 @@
             "Windows",
             "Linux"
         ],
-        "version": "2.0.1",
-        "minimumBinaryNinjaVersion": 0,
-        "lastUpdated": 1726392488,
+        "version": "2.0.4",
+        "minimumBinaryNinjaVersion": 4526,
+        "lastUpdated": 1729714000,
         "projectUrl": "https://github.com/x64dbg/x64dbgbinja",
         "projectData": {
             "id": 70852146,
@@ -4618,16 +4595,16 @@
             "releases_url": "https://api.github.com/repos/x64dbg/x64dbgbinja/releases{/id}",
             "deployments_url": "https://api.github.com/repos/x64dbg/x64dbgbinja/deployments",
             "created_at": "2016-10-13T22:09:21Z",
-            "updated_at": "2024-09-15T09:28:08+00:00",
-            "pushed_at": "2024-10-07T18:38:06Z",
+            "updated_at": "2024-10-23T20:06:40+00:00",
+            "pushed_at": "2024-10-23T19:59:54Z",
             "git_url": "git://github.com/x64dbg/x64dbgbinja.git",
             "ssh_url": "git@github.com:x64dbg/x64dbgbinja.git",
             "clone_url": "https://github.com/x64dbg/x64dbgbinja.git",
             "svn_url": "https://github.com/x64dbg/x64dbgbinja",
             "homepage": null,
-            "size": 27,
-            "stargazers_count": 71,
-            "watchers_count": 71,
+            "size": 32,
+            "stargazers_count": 72,
+            "watchers_count": 72,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -4639,7 +4616,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -4653,8 +4630,8 @@
             "topics": [],
             "visibility": "public",
             "forks": 20,
-            "open_issues": 1,
-            "watchers": 71,
+            "open_issues": 0,
+            "watchers": 72,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -4690,12 +4667,12 @@
             "subscribers_count": 9
         },
         "authorUrl": "https://github.com/x64dbg",
-        "packageUrl": "https://api.github.com/repos/x64dbg/x64dbgbinja/zipball/refs/tags/v2.0.2",
-        "packageShortUrl": "https://v35.us/4f4jora",
+        "packageUrl": "https://api.github.com/repos/x64dbg/x64dbgbinja/zipball/refs/tags/v2.0.4",
+        "packageShortUrl": "https://v35.us/bg8y3wz",
         "view_only": false,
         "dependencies": "",
         "path": "x64dbg_x64dbgbinja",
-        "commit": "d5dd821c0e246aaf3174a5d664fc498426b2e989",
+        "commit": "7c0cf7fd5442428072399b13098286ba254cead2",
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -4727,7 +4704,6 @@
             "Linux": ""
         },
         "version": "0.1",
-        "minimumbinaryninjaversion": 2784,
         "lastUpdated": 1704987146,
         "projectUrl": "https://github.com/CTM1/BinjaDelphiMapper",
         "projectData": {
@@ -4854,7 +4830,7 @@
         "dependencies": "",
         "path": "CTM1_BinjaDelphiMapper",
         "commit": "e0c87b4309c26998cd1337c5dc7a032f9f9a3cc0",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2784,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -4879,7 +4855,6 @@
         ],
         "version": "1.0.0",
         "author": "psifertex",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1704827649,
         "projectUrl": "https://github.com/psifertex/discordpresence",
         "projectData": {
@@ -5034,7 +5009,7 @@
         "dependencies": "pypresence",
         "path": "psifertex_discordpresence",
         "commit": "4009be1202b220166a9838252011e62439c0f898",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -5061,7 +5036,6 @@
         ],
         "dependencies": "frida\nJinja2\n",
         "version": "1.2.3",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1712760197,
         "projectUrl": "https://github.com/dzervas/frinja",
         "projectData": {
@@ -5422,7 +5396,7 @@
         "view_only": false,
         "path": "dzervas_frinja",
         "commit": "d1df94ffe87d78482931b163df6c0c033731bb2d",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -5455,7 +5429,6 @@
         "dependencies": "",
         "version": "1.0.2",
         "author": "moval0x1",
-        "minimumbinaryninjaversion": 4526,
         "lastUpdated": 1708468409,
         "projectUrl": "https://github.com/moval0x1/CommentsAndSymbols",
         "projectData": {
@@ -5534,8 +5507,8 @@
             "svn_url": "https://github.com/moval0x1/CommentsAndSymbols",
             "homepage": null,
             "size": 1861,
-            "stargazers_count": 1,
-            "watchers_count": 1,
+            "stargazers_count": 2,
+            "watchers_count": 2,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -5562,7 +5535,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 0,
-            "watchers": 1,
+            "watchers": 2,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -5581,7 +5554,7 @@
         "view_only": false,
         "path": "moval0x1_CommentsAndSymbols",
         "commit": "89c30e701d8b52c847a96956e97eff4a42aaaf4e",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4526,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -5612,7 +5585,6 @@
         "dependencies": "",
         "version": "1.0.2",
         "author": "moval0x1",
-        "minimumbinaryninjaversion": 4526,
         "lastUpdated": 1708468430,
         "projectUrl": "https://github.com/moval0x1/BinjaExportTox64dbg",
         "projectData": {
@@ -5691,8 +5663,8 @@
             "svn_url": "https://github.com/moval0x1/BinjaExportTox64dbg",
             "homepage": null,
             "size": 288,
-            "stargazers_count": 5,
-            "watchers_count": 5,
+            "stargazers_count": 6,
+            "watchers_count": 6,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -5704,7 +5676,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 0,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -5718,8 +5690,8 @@
             "topics": [],
             "visibility": "public",
             "forks": 0,
-            "open_issues": 1,
-            "watchers": 5,
+            "open_issues": 0,
+            "watchers": 6,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -5738,7 +5710,7 @@
         "view_only": false,
         "path": "moval0x1_BinjaExportTox64dbg",
         "commit": "f833ec7069df3aab1d39fea248b0c2c2672f896f",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4526,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -5768,7 +5740,6 @@
         },
         "version": "1.0.0",
         "author": "Linus S. (aka PistonMiner)",
-        "minimumbinaryninjaversion": 2846,
         "lastUpdated": 1702576093,
         "projectUrl": "https://github.com/PistonMiner/binaryninja-go-callconv",
         "projectData": {
@@ -5847,8 +5818,8 @@
             "svn_url": "https://github.com/PistonMiner/binaryninja-go-callconv",
             "homepage": null,
             "size": 97,
-            "stargazers_count": 1,
-            "watchers_count": 1,
+            "stargazers_count": 2,
+            "watchers_count": 2,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -5875,7 +5846,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 1,
-            "watchers": 1,
+            "watchers": 2,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -5895,7 +5866,7 @@
         "dependencies": "",
         "path": "PistonMiner_binaryninjagocallconv",
         "commit": "a7cb661b111ed7f89361126a3b1d95e3f1cd02c2",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2846,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -5925,7 +5896,6 @@
             "Linux": ""
         },
         "version": "1.0",
-        "minimumbinaryninjaversion": 4526,
         "lastUpdated": 1699893372,
         "projectUrl": "https://github.com/xclusivor/binaryninja-xbe",
         "projectData": {
@@ -6052,7 +6022,7 @@
         "dependencies": "",
         "path": "xclusivor_binaryninjaxbe",
         "commit": "35fdcbb50aa53bd3b31de48b311a54ca9bf1e86a",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4526,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -6083,7 +6053,6 @@
         "dependencies": "",
         "version": "1.0.3",
         "author": "Cindy Xiao",
-        "minimumbinaryninjaversion": 3814,
         "lastUpdated": 1703470664,
         "projectUrl": "https://github.com/cxiao/rust_string_slicer",
         "projectData": {
@@ -6216,7 +6185,7 @@
         "view_only": false,
         "path": "cxiao_rust_string_slicer",
         "commit": "0d611a38a19a46d924a176dcc481230dd3129afc",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3814,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -6248,7 +6217,6 @@
         },
         "version": "1.0",
         "author": "Saagar Jha",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1694767168,
         "projectUrl": "https://github.com/saagarjha/binja-swift-demangler",
         "projectData": {
@@ -6327,8 +6295,8 @@
             "svn_url": "https://github.com/saagarjha/binja-swift-demangler",
             "homepage": null,
             "size": 5,
-            "stargazers_count": 9,
-            "watchers_count": 9,
+            "stargazers_count": 10,
+            "watchers_count": 10,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -6355,7 +6323,7 @@
             "visibility": "public",
             "forks": 2,
             "open_issues": 1,
-            "watchers": 9,
+            "watchers": 10,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -6492,7 +6460,7 @@
         "dependencies": "",
         "path": "saagarjha_binjaswiftdemangler",
         "commit": "4dd65a56e3d7afb90934948809b98a8d184e4a98",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -6523,7 +6491,6 @@
         "dependencies": "",
         "version": "1.0.3",
         "author": "Xusheng",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1721287720,
         "projectUrl": "https://github.com/xusheng6/binja-GoReSym",
         "projectData": {
@@ -6649,7 +6616,7 @@
         "view_only": false,
         "path": "xusheng6_binjaGoReSym",
         "commit": "bc7aaa8dd8e0904c8eca14d35b5613bba9228b0a",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -6680,7 +6647,6 @@
         "dependencies": "",
         "version": "1.0.0",
         "author": "Xusheng",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1686463325,
         "projectUrl": "https://github.com/xusheng6/add-xfg-xref",
         "projectData": {
@@ -6806,7 +6772,7 @@
         "view_only": false,
         "path": "xusheng6_addxfgxref",
         "commit": "fb8a6d0dbffa1dbe2a065453f25be680582f4f5e",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -6837,7 +6803,6 @@
         "dependencies": "pyparsing>=3.0.0\n",
         "version": "1.0.0",
         "author": "Cindy Xiao",
-        "minimumbinaryninjaversion": 3814,
         "lastUpdated": 1682576567,
         "projectUrl": "https://github.com/cxiao/rust_type_layout_helper_bn",
         "projectData": {
@@ -6969,7 +6934,7 @@
         "view_only": false,
         "path": "cxiao_rust_type_layout_helper_bn",
         "commit": "009b623df5d3e0bff995d9020b1884f6715be7d6",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3814,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -6995,7 +6960,6 @@
         },
         "version": "0.3.1",
         "author": "Jon Palmisciano",
-        "minimumbinaryninjaversion": 1200,
         "longdescription": "# Binary Ninja Notepad\n\n> A notepad, for Binary Ninja!\n\n![Preview Image](preview.png)\n\n> Screenshot taken with [Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja).\n\nThis plugin is still in the early stages, but is functional enough for an\ninitial release. For a list of known bugs and planned features, see the issues\npage on GitHub.\n\n**Bug reports and feature requests are welcome!** Please file an issue on\nGitHub if you run into any difficulties or would like to see a feature added.\n\n## License\n\nCopyright 2021 Jon Palmisciano. Licensed under the MIT License. See LICENSE.txt\nfor additional details.\n",
         "lastUpdated": 1618844480,
         "projectUrl": "https://github.com/jonpalmisc/bn-notepad",
@@ -7126,7 +7090,7 @@
         "dependencies": "",
         "path": "jonpalmisc_bnnotepad",
         "commit": "86d3160dfdf6969edd3ace1c634d74fe165cbea9",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -7157,7 +7121,6 @@
             "Linux": "Clone this repository into `~/.binaryninja/plugins/`"
         },
         "version": "1.0.4",
-        "minimumbinaryninjaversion": 2170,
         "lastUpdated": 1709499228,
         "projectUrl": "https://github.com/Njord0/BNPyc",
         "projectData": {
@@ -7284,7 +7247,7 @@
         "dependencies": "xdis\npygments",
         "path": "Njord0_BNPyc",
         "commit": "2bad86ee84dd371cff84919809f94982b8fad688",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2170,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -7316,7 +7279,6 @@
         "dependencies": "requests\nbs4",
         "version": "1.0.9",
         "author": "rikodot",
-        "minimumbinaryninjaversion": 0,
         "lastUpdated": 1723528236,
         "projectUrl": "https://github.com/rikodot/binja_native_sigscan_loader",
         "projectData": {
@@ -7486,7 +7448,6 @@
         },
         "version": "4.6.0",
         "author": "BinSync Team",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1728008908,
         "projectUrl": "https://github.com/binsync/binsync",
         "projectData": {
@@ -7565,8 +7526,8 @@
             "svn_url": "https://github.com/binsync/binsync",
             "homepage": "https://binsync.net",
             "size": 8133,
-            "stargazers_count": 580,
-            "watchers_count": 580,
+            "stargazers_count": 581,
+            "watchers_count": 581,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -7601,7 +7562,7 @@
             "visibility": "public",
             "forks": 41,
             "open_issues": 47,
-            "watchers": 580,
+            "watchers": 581,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -7643,7 +7604,7 @@
         "dependencies": "binsync>=4.6.0",
         "path": "binsync_binsync",
         "commit": "c989ac073ca03f6ed446cc084b947c9c98a0ba68",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999,
         "subdir": "binsync/stub_files"
     },
@@ -7675,7 +7636,6 @@
         "dependencies": "SQLAlchemy>=2.0.0\n",
         "version": "1.0",
         "author": "lockbox",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1677633266,
         "projectUrl": "https://github.com/lockbox/pd-ninja",
         "projectData": {
@@ -7801,7 +7761,7 @@
         "view_only": false,
         "path": "lockbox_pdninja",
         "commit": "0c17a323520a5e4698f6cfbb2595671cf836c7de",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -7831,7 +7791,6 @@
             "Linux": ""
         },
         "version": "1.0",
-        "minimumbinaryninjaversion": 3814,
         "lastUpdated": 1674976599,
         "projectUrl": "https://github.com/dayzerosec/AMD-SP-Loader",
         "projectData": {
@@ -7980,7 +7939,7 @@
         "dependencies": "",
         "path": "dayzerosec_AMDSPLoader",
         "commit": "0d9e7d40fbdb234c15840c2dfa9ef0feabf65276",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3814,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -8011,7 +7970,6 @@
         "dependencies": "",
         "version": "3.3.0",
         "author": "Zion Basque (@mahaloz)",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1725774537,
         "projectUrl": "https://github.com/mahaloz/decomp2dbg",
         "projectData": {
@@ -8090,8 +8048,8 @@
             "svn_url": "https://github.com/mahaloz/decomp2dbg",
             "homepage": "",
             "size": 4122,
-            "stargazers_count": 615,
-            "watchers_count": 615,
+            "stargazers_count": 617,
+            "watchers_count": 617,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -8118,7 +8076,7 @@
             "visibility": "public",
             "forks": 39,
             "open_issues": 12,
-            "watchers": 615,
+            "watchers": 617,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -8137,7 +8095,7 @@
         "view_only": false,
         "path": "mahaloz_decomp2dbg",
         "commit": "ab879516b676af8e96c851a586cd6ab8b0a0fb6f",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999,
         "subdir": "decompilers/d2d_binja"
     },
@@ -8170,7 +8128,6 @@
         "dependencies": "httpx>=0.23.0",
         "version": "1.2.1",
         "author": "Cindy Xiao",
-        "minimumbinaryninjaversion": 2846,
         "lastUpdated": 1727851784,
         "projectUrl": "https://github.com/cxiao/hashdb_bn",
         "projectData": {
@@ -8242,13 +8199,13 @@
             "deployments_url": "https://api.github.com/repos/cxiao/hashdb_bn/deployments",
             "created_at": "2022-12-24T08:33:33Z",
             "updated_at": "2024-10-02T06:49:44+00:00",
-            "pushed_at": "2024-10-10T00:52:40Z",
+            "pushed_at": "2024-11-01T16:01:31Z",
             "git_url": "git://github.com/cxiao/hashdb_bn.git",
             "ssh_url": "git@github.com:cxiao/hashdb_bn.git",
             "clone_url": "https://github.com/cxiao/hashdb_bn.git",
             "svn_url": "https://github.com/cxiao/hashdb_bn",
             "homepage": "",
-            "size": 1019,
+            "size": 1020,
             "stargazers_count": 17,
             "watchers_count": 17,
             "language": "Python",
@@ -8258,11 +8215,11 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 4,
+            "forks_count": 3,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 7,
+            "open_issues_count": 6,
             "license": {
                 "key": "bsd-3-clause",
                 "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -8280,8 +8237,8 @@
                 "reverse-engineering"
             ],
             "visibility": "public",
-            "forks": 4,
-            "open_issues": 7,
+            "forks": 3,
+            "open_issues": 6,
             "watchers": 17,
             "default_branch": "master",
             "permissions": {
@@ -8377,7 +8334,7 @@
                 "has_wiki": true,
                 "has_pages": false,
                 "has_discussions": false,
-                "forks_count": 6,
+                "forks_count": 5,
                 "mirror_url": null,
                 "archived": false,
                 "disabled": false,
@@ -8394,7 +8351,7 @@
                 "web_commit_signoff_required": false,
                 "topics": [],
                 "visibility": "public",
-                "forks": 6,
+                "forks": 5,
                 "open_issues": 0,
                 "watchers": 3,
                 "default_branch": "master"
@@ -8484,7 +8441,7 @@
                 "has_wiki": true,
                 "has_pages": false,
                 "has_discussions": false,
-                "forks_count": 6,
+                "forks_count": 5,
                 "mirror_url": null,
                 "archived": false,
                 "disabled": false,
@@ -8501,12 +8458,12 @@
                 "web_commit_signoff_required": false,
                 "topics": [],
                 "visibility": "public",
-                "forks": 6,
+                "forks": 5,
                 "open_issues": 0,
                 "watchers": 3,
                 "default_branch": "master"
             },
-            "network_count": 6,
+            "network_count": 5,
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/cxiao",
@@ -8515,7 +8472,7 @@
         "view_only": false,
         "path": "cxiao_hashdb_bn",
         "commit": "cc5ef77c78b929aeee13ae0fcb02d0db2218fe62",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2846,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -8547,7 +8504,6 @@
         "dependencies": "",
         "version": "1.0",
         "author": "elbee",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1674077993,
         "projectUrl": "https://github.com/elbee-cyber/analyze_char_arrays",
         "projectData": {
@@ -8673,7 +8629,7 @@
         "view_only": false,
         "path": "elbeecyber_analyze_char_arrays",
         "commit": "219a524ca2283ceab4593a8b7843dacc604110e8",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -8703,7 +8659,6 @@
             "Linux": "no special instructions, package manager is recommended"
         },
         "version": "1.3",
-        "minimumbinaryninjaversion": 3946,
         "lastUpdated": 1672943803,
         "projectUrl": "https://github.com/dipusone/golang_pclntab_parser",
         "projectData": {
@@ -8947,7 +8902,7 @@
         "dependencies": "",
         "path": "dipusone_golang_pclntab_parser",
         "commit": "1197699b4160de9aa3b4447f92f2fbf905cf22e8",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3946,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -8976,7 +8931,6 @@
         "dependencies": "ipykernel >= 5.1.4\nqtconsole >= 4.3\nqasync >= 0.23.0\njupyter-client >= 6, != 7.*\nnbformat >= 5.7.0",
         "version": "0.2.7",
         "author": "skr0x1c0",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1670871248,
         "projectUrl": "https://github.com/skr0x1c0/ipybinja",
         "projectData": {
@@ -9109,7 +9063,7 @@
         "view_only": false,
         "path": "skr0x1c0_ipybinja",
         "commit": "a0f3b05c1a36e1d5d90f4536e6e43e941eec35cb",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -9140,7 +9094,6 @@
             "Linux": ""
         },
         "version": "1.1",
-        "minimumbinaryninjaversion": 3814,
         "lastUpdated": 1674935821,
         "projectUrl": "https://github.com/AsherDLL/PCDump-bn",
         "projectData": {
@@ -9274,7 +9227,7 @@
         "dependencies": "",
         "path": "AsherDLL_PCDumpbn",
         "commit": "67aec1f1ba01687e773ef5fe6f26a7dd7b7351c7",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3814,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -9303,7 +9256,6 @@
         },
         "dependencies": "openai",
         "version": "3.0.1",
-        "minimumbinaryninjaversion": 3200,
         "lastUpdated": 1713317541,
         "projectUrl": "https://github.com/WhatTheFuzz/binaryninja-openai",
         "projectData": {
@@ -9437,7 +9389,7 @@
         "view_only": false,
         "path": "WhatTheFuzz_binaryninjaopenai",
         "commit": "136a0e160bcdf57ab99df1f1a462cc1686821835",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -9468,7 +9420,6 @@
         "dependencies": "",
         "version": "1.1",
         "author": "Nick Shipp",
-        "minimumbinaryninjaversion": 3814,
         "lastUpdated": 1678247723,
         "projectUrl": "https://github.com/nshp/binaryninja-printf",
         "projectData": {
@@ -9594,7 +9545,7 @@
         "view_only": false,
         "path": "nshp_binaryninjaprintf",
         "commit": "162c27aa6354b01053ac7a1add21dace0411015a",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3814,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -9625,7 +9576,6 @@
         },
         "dependencies": "pyevmasm\ninterval3\nevm-cfg-builder>=0.2.0",
         "version": "0.1.0",
-        "minimumbinaryninjaversion": 3814,
         "lastUpdated": 1667497034,
         "projectUrl": "https://github.com/crytic/ethersplay",
         "projectData": {
@@ -9713,7 +9663,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 116,
+            "forks_count": 118,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -9735,7 +9685,7 @@
                 "evm"
             ],
             "visibility": "public",
-            "forks": 116,
+            "forks": 118,
             "open_issues": 9,
             "watchers": 838,
             "default_branch": "master",
@@ -9769,7 +9719,7 @@
                 "user_view_type": "public",
                 "site_admin": false
             },
-            "network_count": 116,
+            "network_count": 118,
             "subscribers_count": 40
         },
         "authorUrl": "https://github.com/crytic",
@@ -9778,7 +9728,7 @@
         "view_only": false,
         "path": "crytic_ethersplay",
         "commit": "fcc0d269f366a94665d5493e2e956ff11b483011",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3814,
         "maximumBinaryNinjaVersion": 999999,
         "subdir": "ethersplay"
     },
@@ -9811,7 +9761,6 @@
         "dependencies": "networkx\nwebsockets\nrequests",
         "version": "0.1.2",
         "author": "Mark Griffin (@seeinglogic)",
-        "minimumbinaryninjaversion": 3469,
         "lastUpdated": 1684945719,
         "projectUrl": "https://github.com/seeinglogic/ariadne",
         "projectData": {
@@ -9937,7 +9886,7 @@
         "view_only": false,
         "path": "seeinglogic_ariadne",
         "commit": "dad7a16cfc11e9b2d6abab51edcc5d66b00f2b75",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3469,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -9968,7 +9917,6 @@
         "dependencies": "",
         "version": "1.0",
         "author": "Spencer Merrill",
-        "minimumbinaryninjaversion": 3469,
         "lastUpdated": 1662661916,
         "projectUrl": "https://github.com/scmerrill/golang_1_18_restore_names",
         "projectData": {
@@ -10211,7 +10159,7 @@
         "view_only": false,
         "path": "scmerrill_golang_1_18_restore_names",
         "commit": "51acc8afc8f089c252919844aa446eece970c48c",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3469,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -10226,7 +10174,6 @@
             "text": "MIT License Copyright (c) 2022 Patrick Biernat Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "longdescription": "# ripr\nripr is a tool that helps you rip out functionality from binary code and use it from Python. It accomplishes this by pairing the [Unicorn-Engine](http://www.unicorn-engine.org/) with [Binary Ninja](https://binary.ninja). Currently, `x86`, `x64`, and `arm` are supported and work to a reasonable degree.\n\n# Introduction\nReimplementing functionality is a common, often time-consuming, and sometimes arduous process that comes up frequently during reverse engineering. A few examples:\n\n* A CTF challenge has a custom encoding/decoding scheme you need to use in your solution script\n* A piece of malware uses a custom hashing or encryption function you need to implement\n* You need to make sure your reimplementation behaves _exactly_ as it would on the original architecture\n\nripr attempts to automatically generate a python class that is functionally identical to a selected piece of code by statically gathering sufficient information and wrapping it all into a \"harness\" for the unicorn emulator. \n\nFor some concrete examples, check out the `sample` folder!\n\n# Installation\nThe manual installation process looks like this:\n\n1. Clone this repo to your local machine\n2. Find the location of your plugins directory from Binary Ninja by clicking on `Tools --> Open Plugin Folder...`\n3. Place this repo in that directory, or create a symlink pointing to it.\n\n\n# Usage\n\n## Packaging a Function\nFrom within Binary Ninja, right click anywhere inside of a function and then select: \n\n```Plugins --> ripr --> Package Function```\n<p align=\"center\">\n<img src=\"https://imgur.com/CjElWAM.png\">\n</p>\n\nSee the [Options while Packaging](#options-while-packaging) section for details about prompts that may appear during this process.\n\n## Packaging Specific Basic Blocks\nYou can also choose to only package specific basic blocks rather than the entire function.\n\nSelect any instruction inside the basic block of interest, and from the right click menu, choose `[ripr] Package Basic Block`.\nRepeat this for any other basic blocks you want to gather.\n\nFinally, select `Generate Selected BBs` from the context menu to have ripr generate output for them.\n\n## Contextual Highlighting\n\nripr will contextualize code you've selected for packaging within the GUI.\n\n* Basic Blocks that have been included or identified have their background color darkened\n* Instructions that have caused a data dependency to be identified are highlighted Yellow\n* Call instructions to imported functions are highlighted Red\n* Call instructions to functions inside the target binary are highlighted Blue\n* Instructions that access unintialized variables are highlighed Orange (Basic Block Mode).\n\nThis is meant to give the user visual cues about what ripr has seen and automatically identified, making it easier to see \"right off the bat\" whether manual modification of the package is necessary.\n\n## Options while Packaging\nThere are a few different prompts which may appear while packaging a function. \n\n#### Code contains calls to Imported Functions. How should this be handled?\n\nChoosing \"Hook\" will allow you to write-in your own functionality that runs in lieu of imported functions. Selecting \"Nop out Calls\" will replace the call instruction with a series of NOPs.\n\n#### Target code may depend on outside code. Attempt to map automatically?\n\nYour selected code contains calls to other functions within the binary. Answering yes will automatically map those functions.\n\n#### Use Section Marking Mode for data dependencies?\n\nAnswering yes will map all sections of the binary that are touched by the target code. Answering No will use Page-Marking mode, where every page used by the target code is mapped into emulator memory.\n\n## Using a ripr \"package\"\nOnce a selection of code has been packaged, you will have a python class which encapsulates its functionality. The basic process of using it looks like this:\n\n1. Instantiate the class\n2. Call the run() method\n\nAssuming `my_ripped_code` is the class name:\n\n```python\nx = my_ripped_code()\ny = x.run()\n```\n\nAll Unicorn functionality is exposed via the `mu` attribute and should work as expected. \n\n## Implementing \"Imported Calls\"\nIf you choose to hook calls to `imported functions` during the packaging stage, your generated class will contain stub-functions that are called when the imported call would originally have been called.\n\nFor example, if your code contained calls to `puts` and `malloc`, the following would be generated in your class:\n```python\ndef hook_puts(self):\n    pass\ndef hook_malloc(self):\n    pass\n```\nAny code you write within these functions will be called in lieu of the actual imported call. If you wanted a reasonable approximation of `puts` (and were emulating x64 code), you could do:\n\n```python\ndef hook_puts(self):\n    addr = self.mu.reg_read(UC_X86_REG_RDI)\n    mem = self.mu.mem_read(addr, 0x200)\n    print \"%s\" % (mem.split(\"\\x00\")[0])\n```\n\nYou have full access to all of Unicorn's methods via the `mu` attribute so it is possible to update the emulator context in any way necessary in order to mimic the behavior of a call or perform any actions you'd like instead of the call.\n\n## Function Arguments\nripr has some support for automatically generating \"argument aware\" output. When information about a function's parameters is available to Binary Ninja, ripr will generate its `run`\nfunctions in the form:\n\n```python\ndef run(self, arg_1, arg_2, ...)\n```\n\nWhen dealing with non-pointer types, your arguments will be written into the expected location in the emulated environment. \n\nFor \"single depth\" pointers, (e.g `char *, int *`), ripr will map memory, copy your argument to it, and place the address of that mapped memory into the appropriate location.\n\nFor pointers with a depth greater than 1, ripr falls back on default behaviour.\n\nIf you need to manually set up arguments, you can directly manipulate unicorn's state via the `mu` attribute.\nFor example, assuming you are emulating a 32-bit x86 function, you could do the following:\n\n```python\ndef run(self, arg1, arg2):\n    self.mu.reg_write(UC_X86_REG_ESP, 0x7fffff00)\n    self.mu.mem_write(0x7fffff00, '\\x01\\x00\\x00\\x00')\n\n    self.mu.mem_write(0x7fffff04, arg1)\n    self.mu.mem_write(0x7fffff08, arg2)\n    \n\n    self._start_unicorn(0x80484bb)\n    return self.mu.reg_read(UC_X86_REG_EAX)\n```\n\n# Code Structure\n\n* `packager.py` -- High Level Functionality. Code here drives the process of gathering necessary data\n* `codegen.py`  -- Contains code for actually generating the python output from the gathered data\n* `analysis_engine.py` -- Wraps static analysis engine functionality into a common interface\n* `dependency.py` -- Contains code for finding code and data that the target code needs in order to function corrrectly\n* `conScan.py` -- Contains \"convenience\" analyses that help ripr output easier-to-use code\n* `gui.py` --  A collection of hacks that resembles a user interface\n    * Reuses lots of code from the [Binjadock](https://github.com/NOPDev/BinjaDock) project to display results\n\n# Testing\nThe current tests will package up some functions across the 3 supported architectures found \nin the `sample` folder. \n\nTo run the tests:\n\n```\ncd <ripr_directory>\npython -m unittest discover -t ../\n```\n",
-        "minimumbinaryninjaversion": 3469,
         "platforms": [
             "Windows",
             "Linux"
@@ -10318,8 +10265,8 @@
             "svn_url": "https://github.com/pbiernat/ripr",
             "homepage": "",
             "size": 2924,
-            "stargazers_count": 396,
-            "watchers_count": 396,
+            "stargazers_count": 397,
+            "watchers_count": 397,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -10346,7 +10293,7 @@
             "visibility": "public",
             "forks": 29,
             "open_issues": 7,
-            "watchers": 396,
+            "watchers": 397,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -10366,7 +10313,7 @@
         "dependencies": "",
         "path": "pbiernat_ripr",
         "commit": "502bc8b9f2d1dc6e13939a52a7e33e9289ca58da",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3469,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -10398,7 +10345,6 @@
         "dependencies": "",
         "version": "2.2",
         "author": "SmoothHacker",
-        "minimumbinaryninjaversion": 3469,
         "longdescription": "# TypeLib Exporter\n\nThis plugin compiles exported functions and its corresponding types into a Binary Ninja type library. It can also load\nand apply\na type library from disk. 2 buttons in the plugin dropdown menu are created, `Export As Type Library`\nand `Apply Type Library`.\nFor type library exporting, a pop-up window will show detailing what options you would like to specify. Options include\nalternative names(libcurl.so.5.0.0, libcurl.so.5, libcurl.so), a dependency name, and the path where you want the\nlibrary exported to.\nFor type library importing, a pop-up window will ask for the path to a `.bntl` file which will be imported and applied\nto the\ncurrent binary view and any successive binary view in the current session.\n\nA potential workflow for this plugin would be to compile an open source library with debug information, load it into\nBinary Ninja,\nrun the debug info parser, and export it to a type library.\n\n## Future Plans\n- [ ] Headless support\n",
         "lastUpdated": 1665871462,
         "projectUrl": "https://github.com/SmoothHacker/TypeLib-Exporter",
@@ -10530,7 +10476,7 @@
         "view_only": false,
         "path": "SmoothHacker_TypeLibExporter",
         "commit": "392f338fd9b52be54011dc1d6074a939966c1be6",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3469,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -10560,7 +10506,6 @@
             "Linux": ""
         },
         "version": "2.0.6",
-        "minimumbinaryninjaversion": 1500,
         "lastUpdated": 1700616759,
         "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
         "projectData": {
@@ -10639,8 +10584,8 @@
             "svn_url": "https://github.com/ex0dus-0x/fuzzable",
             "homepage": "",
             "size": 1511,
-            "stargazers_count": 508,
-            "watchers_count": 508,
+            "stargazers_count": 510,
+            "watchers_count": 510,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -10674,7 +10619,7 @@
             "visibility": "public",
             "forks": 53,
             "open_issues": 19,
-            "watchers": 508,
+            "watchers": 510,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -10694,7 +10639,7 @@
         "dependencies": "ailment==9.2.26; python_version >= \"3.8\"\nangr==9.2.26; python_version >= \"3.8\"\narchinfo==9.2.26; python_version >= \"3.8\"\nbitstring==4.0.1; python_version >= \"3.8\"\ncachetools==5.2.0; python_version >= \"3.8\" and python_version < \"4.0\"\ncapstone==5.0.0; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\ncffi==1.15.1; implementation_name == \"cpython\" and python_version >= \"3.8\"\nclaripy==9.2.26; python_version >= \"3.8\"\ncle==9.2.26; python_version >= \"3.8\"\nclick==8.1.3; python_version >= \"3.7\"\ncolorama==0.4.6; python_version >= \"3.8\" and python_full_version < \"3.0.0\" and platform_system == \"Windows\" or python_version >= \"3.8\" and python_full_version >= \"3.7.0\" and platform_system == \"Windows\"\ncommonmark==0.9.1; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\ncontourpy==1.0.6; python_version >= \"3.8\"\ncppheaderparser==2.7.4; python_version >= \"3.8\"\ncssselect==1.2.0; python_version >= \"3.7\"\ncustom-inherit==2.4.0\ncycler==0.11.0; python_version >= \"3.8\"\ndecorator==5.1.1; python_version >= \"3.8\"\ndeprecated==1.2.13; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\"\ndpkt==1.9.8; python_version >= \"3.8\"\nfonttools==4.38.0; python_version >= \"3.8\"\nfuture==0.18.2; python_full_version >= \"3.6.0\" and python_version >= \"3.8\"\ngitdb==4.0.10; python_version >= \"3.8\"\ngitpython==3.1.29; python_version >= \"3.7\"\nitanium-demangler==1.1; python_version >= \"3.8\"\njinja2==3.1.2; python_version >= \"3.7\"\nkiwisolver==1.4.4; python_version >= \"3.8\"\nlief==0.12.3; python_version >= \"3.6\"\nlxml==4.9.1; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.5.0\"\nmarkupsafe==2.1.1; python_version >= \"3.7\"\nmatplotlib==3.6.2; python_version >= \"3.8\"\nmpmath==1.2.1; python_version >= \"3.8\"\nmulpyplexer==0.09; python_version >= \"3.8\"\nnampa==0.1.1; python_version >= \"3.8\"\nnetworkx==2.8.8; python_version >= \"3.8\"\nnumpy==1.23.5\npackaging==21.3; python_version >= \"3.8\"\npandas==1.5.2; python_version >= \"3.8\"\npefile==2022.5.30; python_full_version >= \"3.6.0\" and python_version >= \"3.8\"\npillow==9.3.0; python_version >= \"3.8\"\nplumbum==1.8.0; python_version >= \"3.8\"\nply==3.11; python_version >= \"3.8\"\nprogressbar2==4.2.0; python_full_version >= \"3.7.0\" and python_version >= \"3.8\"\nprotobuf==4.21.9; python_version >= \"3.8\"\npsutil==5.9.4; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\npulp==2.7.0\npycparser==2.21; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\npyelftools==0.29; python_version >= \"3.8\"\npygments==2.13.0; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\npyparsing==3.0.9; python_full_version >= \"3.6.8\" and python_version >= \"3.8\"\npyquery==1.4.3\npysmt==0.9.6.dev21; python_version >= \"3.8\"\npython-dateutil==2.8.2; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.3.0\" and python_version >= \"3.8\"\npython-utils==3.4.5; python_full_version >= \"3.7.0\" and python_version >= \"3.8\"\npytz==2022.6; python_version >= \"3.8\"\npyvex==9.2.26; python_version >= \"3.8\"\npywin32==305; platform_system == \"Windows\" and platform_python_implementation != \"PyPy\" and python_version >= \"3.8\"\nrich==12.6.0; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\nrpyc==5.2.3; python_version >= \"3.8\"\nscikit-criteria==0.7\nscipy==1.9.3; python_version >= \"3.8\"\nseaborn==0.12.1; python_version >= \"3.7\"\nsetuptools-scm==7.0.5; python_version >= \"3.8\"\nshellingham==1.5.0; python_version >= \"3.6\"\nsix==1.16.0; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.3.0\" and python_version >= \"3.8\"\nsmmap==5.0.0; python_version >= \"3.8\"\nsortedcontainers==2.4.0; python_version >= \"3.8\"\nsympy==1.11.1; python_version >= \"3.8\"\ntomli==2.0.1; python_version >= \"3.8\"\ntree-sitter==0.20.1; python_version >= \"3.3\"\ntyper==0.6.1; python_version >= \"3.6\"\ntyping-extensions==4.4.0; python_version >= \"3.8\"\nunicorn==2.0.1; python_version >= \"3.8\"\nwrapt==1.14.1; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.5.0\"\nz3-solver==4.10.2.0; python_version >= \"3.8\"\n",
         "path": "ex0dus0x_fuzzable",
         "commit": "a587d1ccd27a365c561c7c0428f78adfb80738a9",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1500,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -10725,7 +10670,6 @@
         "dependencies": "yara-python>=4.3.0\npefile>=2019.4.18\nPillow>=8.0.1\n",
         "version": "2.3",
         "author": "Hyun Yi",
-        "minimumbinaryninjaversion": 3469,
         "longdescription": "# Hyara\n\n![Version](https://img.shields.io/badge/version-2.3-blue.svg?cacheSeconds=2592000)\n\n![](https://github.com/hyuunnn/Hyara/blob/master/images/Hyara.gif?raw=true)\n\n> Hyara is plugin that provides convenience when writing yararule.\n> \n> The plugin is currently undergoing a major revision!\n\n- [Demo video](https://youtu.be/zgL4BkQJZ-w)\n\n- [IDA Plugin Contest 2018](https://hex-rays.com/contests_details/contest2018/#Hyara)\n\n## Instructions\n\n### Start Screen and Options\n\n- When you run Hyara, it docks itself to the right and docks the output window to the left.\n- After specifying the address, press the `Make` button to show the specified hexadecimal or strings as a result.\n- The results are saved in the table below when you click `Save`.\n- If you double-click the table, you can clear the rule.\n- You can modify the values to wildcards by right clicking after dragging.\n\n![](https://github.com/hyuunnn/Hyara/blob/master/images/wildcard_0.png?raw=true)\n\n- `Export Yara Rule`\n  - Exports the previously created yara rules.\n\n![](https://github.com/hyuunnn/Hyara/blob/master/images/Hyara_1.png?raw=true)\n\n\n- `Right Click`\n  - You can select either start address or end address. (IDA Pro, Cutter)\n\n![](https://github.com/hyuunnn/Hyara/blob/master/images/Hyara_7.png?raw=true)\n  \n- `Comment Option`\n  - Annotates the instructions next to the condition rule(s).\n- `Rich Header` and `imphash`\n  - Adds rich header and imphash matching to the rule.\n- `String option`\n  - This option extracts strings within the range specified.\n\n![](https://github.com/hyuunnn/Hyara/blob/master/images/Hyara_3.png?raw=true)\n![](https://github.com/hyuunnn/Hyara/blob/master/images/cutter_1.png?raw=true)\n\n## Installation\n\n### IDA Pro & BinaryNinja\n\n- IDA Pro\n  ```bash\n  pip install -r requirements.txt\n  ```\n  - copy ``Hyara_IDA.py and hyara_lib folder`` to $ida_dir/plugins\n  - Activate via Edit -> Plugins -> Hyara (or CTRL+SHIFT+Y)\n\n- BinaryNinja\n  - Just use the plugin manager!\n  - Activate via View -> Other Docks -> Show Hyara\n\n### Cutter\n\n- Windows\n\nCheck the python version installed in the cutter and install it.\n\n![](https://github.com/hyuunnn/Hyara/blob/master/images/cutter_0.png?raw=true)\n\n```bash\nC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python3X\\\\python.exe -m pip install -I -t $cutter_dir/python3X/site-packages -r requirements.txt\n```\n\ncopy ``__init__.py, Hyara_Cutter.py and hyara_lib folder`` to $cutter_dir/plugins/python/Hyara\n\n- Linux\n\n![](https://github.com/hyuunnn/Hyara/blob/master/images/cutter_install__1.png?raw=true)\n\n```bash\ncp -r /tmp/.mount_Cutter5o3a5G/usr /root\n```\n\nCheck the python version installed in the cutter and install it.\n\n![](https://github.com/hyuunnn/Hyara/blob/master/images/cutter_01.png?raw=true)\n\n```bash\npip3.X install -I -t /root/usr/lib/python3.X/site-packages -r /root/Hyara/requirements.txt\n./Cutter-v2.0.3-x64.Linux.AppImage --pythonhome /root/usr\n```\n\ncopy ``__init__.py, Hyara_Cutter.py and hyara_lib folder`` to /root/.local/share/rizin/cutter/plugins/python/Hyara\n\nActivate via Windows -> Plugins -> Hyara\n\n![](https://github.com/hyuunnn/Hyara/blob/master/images/cutter__0.png?raw=true)\n\n### Ghidra (WIP)\n\nInstall <a href=\"https://github.com/mandiant/Ghidrathon\">Ghidrathon</a> (<a href=\"https://youtu.be/Aatbqf6lcjU\">Installation Guide</a>) to use Hyara Plugin.\n\n```bash\npip install PySide2 or pip install PySide6\n```\n\n- Windows\n\ncopy ``Hyara_Ghidra.py and hyara_lib folder`` to ``C:\\\\Users\\\\User\\\\.ghidra\\\\.ghidra.X.X.X\\\\Extensions\\\\Ghidrathon-X.X.X\\\\data\\\\python\\\\``\n\n```python\n# Window -> Ghidrathon\nimport Hyara_Ghidra\nHyara_Ghidra.run()\n```\n\n![](https://github.com/hyuunnn/Hyara/blob/master/images/ghidra_0.png?raw=true)\n\n\n## Features\n\n- GUI-based\n- Supports IDA, BinaryNinja, Cutter and Ghidra.\n- YaraChecker\n  - Tests the yararule on the fly.\n  - ![](https://github.com/hyuunnn/Hyara/blob/master/images/Hyara_4.png?raw=true)\n- YaraDetector\n  - Shows which part is detected in the sample loaded to disassembler, and when \"Address\" is clicked, it moves to the corresponding address on the disassembler view.\n  - ![](https://github.com/hyuunnn/Hyara/blob/master/images/Hyara_5.png?raw=true)\n- YaraIcon\n  - Creates yara rules for icon resources embedded in the PE.\n  - ![](https://github.com/hyuunnn/Hyara/blob/master/images/Hyara_6.png?raw=true)\n\n## Author\n\n\ud83d\udc64 **hyuunnn**\n\n* Github: [@hyuunnn](https://github.com/hyuunnn)\n\n### Special Thanks\n\n* Twitter: <a href=\"https://twitter.com/kjkwak12\">kjkwak12</a>\n* Github: <a href=\"https://github.com/gaasedelen\">gaasedelen</a> - <a href=\"https://github.com/hyuunnn/Hyara/blob/master/hyara_lib/integration/bn_hyara/binaryninja_api.py#L9\">Link</a>\n* Github: <a href=\"https://github.com/ITAYC0HEN\">ITAYC0HEN</a> - <a href=\"https://github.com/hyuunnn/Hyara/pull/14\">Link</a>\n* Github: <a href=\"https://github.com/psifertex\">psifertex</a> - <a href=\"https://github.com/hyuunnn/Hyara/pull/18\">Link</a>\n",
         "lastUpdated": 1699846859,
         "projectUrl": "https://github.com/hyuunnn/Hyara",
@@ -10868,7 +10812,7 @@
         "view_only": false,
         "path": "hyuunnn_Hyara",
         "commit": "3bd5d257036a0ef12cb873a653683be9af2ff235",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3469,
         "maximumBinaryNinjaVersion": 999999,
         "subdir": "hyara_lib/integration/bn_hyara"
     },
@@ -10890,7 +10834,6 @@
         "dependencies": "",
         "author": "Tomonori Izumida <tizmd@iij.ad.jp>",
         "version": "0.1.2",
-        "minimumbinaryninjaversion": 1200,
         "platforms": [
             "Darwin",
             "Windows",
@@ -11026,7 +10969,7 @@
         "view_only": false,
         "path": "tizmd_binjav850",
         "commit": "967757d108b07de5aa8d2d3d664c5ae9d650b968",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -11055,7 +10998,6 @@
         "dependencies": "networkx~=2.8.2\nPySnooper~=1.1.1",
         "version": "1.6.1",
         "author": "CyShell",
-        "minimumbinaryninjaversion": 3233,
         "lastUpdated": 1686049233,
         "projectUrl": "https://github.com/CySHell/ClassyPP",
         "projectData": {
@@ -11134,8 +11076,8 @@
             "svn_url": "https://github.com/CySHell/ClassyPP",
             "homepage": null,
             "size": 1902,
-            "stargazers_count": 25,
-            "watchers_count": 25,
+            "stargazers_count": 26,
+            "watchers_count": 26,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -11162,7 +11104,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 3,
-            "watchers": 25,
+            "watchers": 26,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -11181,7 +11123,7 @@
         "view_only": false,
         "path": "CySHell_ClassyPP",
         "commit": "070a46b3284bd0c9abeacebae1d6230c832c1b5b",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3233,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -11207,7 +11149,6 @@
             "Linux": "##Installing\nCopy the libarch_blackfin.so binary to the binaryninja plugin directory.\n## Building From Source (Adapted from Vector35/arch-armv7)\nBuilding the architecture plugin requires `cmake` 3.9 or above. You will also need the\n[Binary Ninja API source](https://github.com/Vector35/binaryninja-api).\n\nFirst, set the `BN_API_PATH` environment variable to the path containing the\nBinary Ninja API source tree.\n\nRun `cmake`. This can be done either from a separate build directory or from the source\ndirectory. If your app is installed in a non-default location, set BN_INSTALL_DIR in your\ncmake invocation, like `cmake -DBN_INSTALL_DIR=/Applications/BinaryNinjaDEV.app/'.`\nOnce that is complete, run `make` in the build directory to compile the plugin.\n\nThe plugin can be found in the root of the build directory as `libarch_blackfin.so`,\n`libarch_blackfin.dylib` or `arch_blackfin.dll` depending on your platform.\n\nYou can copy the plugin into the user plugins directory (you can locate this by using the \n'Open Plugin Folder' option in the Binary Ninja UI).\n\n## Build Example\n\n### acquire repositories\n```\nmkdir ~/repos/vector35\ncd ~/repos/vector35\ngit clone git@github.com:Vector35/binaryninja-api.git\ngit clone git@github.com:git@github.com:Ethan-ks/arch-blackfin.git\n```\n### environment variables\n\n`export BN_API_PATH=~/repos/vector35/binaryninja-api`\n\n### cmake, make\n```\ncd arch-blackfin\nmkdir build\ncd build\ncmake ..\nmake\n```\n## Build Troubleshooting\n\n### example\n\n    CMake Error at CMakeLists.txt:8 (message):\n      Provide path to Binary Ninja API source in BN_API_PATH\n    resolution:\n    ensure BN_API_PATH is in your environment\n\n### example\n\n    CMake Error at /Users/andrewl/repos/vector35/binaryninja-api/CMakeLists.txt:53 (message):\n      Binary Ninja Core Not Found\n    resolution:\n    ensure BN_INSTALL_DIR is supplied at command line invocation of cmake\n    ensure some bad directory is not cached in CMakeCache.txt\n\n### example\n\n    cmake seems to ignore your setting of BN_INSTALL_DIR and other cmake variables\n    resolution:\n    rm CMakeCache.txt\n\n### example\n\n    undefined symbols at link time, like:\n    Undefined symbols for architecture x86_64:\n      '_BNClearUserVariableValue', referenced from:\n      BinaryNinja::Function::ClearUserVariableValue(BinaryNinja::Variable const&, unsigned long long) in libbinaryninjaapi.a(function.cpp.o)\n    resolution:\n    ensure that your api repo is on the same channel and at the same commit as the libbinaryninjacore you're linking against\n    eg: binaryninja is on dev update channel and is up-to-date and binaryninja-api repo is on branch dev with latest pulled"
         },
         "version": "0.1.1",
-        "minimumbinaryninjaversion": 3,
         "lastUpdated": 1653716781,
         "projectUrl": "https://github.com/0bs3n/arch-blackfin",
         "projectData": {
@@ -11334,7 +11275,7 @@
         "dependencies": "",
         "path": "0bs3n_archblackfin",
         "commit": "5cd19a58b7790ab18dc5100ef8033254945329af",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -11364,7 +11305,6 @@
             "Linux": "Clone this repository into `~/.binaryninja/plugins/`"
         },
         "version": "1.0.0",
-        "minimumbinaryninjaversion": 2487,
         "lastUpdated": 1653671403,
         "projectUrl": "https://github.com/matteyeux/comments-viewer",
         "projectData": {
@@ -11491,7 +11431,7 @@
         "dependencies": "",
         "path": "matteyeux_commentsviewer",
         "commit": "6bc9fb7477ebd3619b35b01a05c79c814c05118b",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2487,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -11516,7 +11456,6 @@
         ],
         "version": "0.1",
         "author": "Terry Chia",
-        "minimumbinaryninjaversion": 2000,
         "lastUpdated": 1611994918,
         "projectUrl": "https://github.com/Ayrx/binja-typemanager",
         "projectData": {
@@ -11646,7 +11585,7 @@
         "dependencies": "",
         "path": "Ayrx_binjatypemanager",
         "commit": "0d0f89447da64d399a0f05f4c974697713da97b9",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2000,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -11682,7 +11621,6 @@
         "dependencies": "capstone\n",
         "version": "1.0.0",
         "author": "cynder (kat)",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1646117987,
         "projectUrl": "https://github.com/0cyn/bn-dyldsharedcache",
         "projectData": {
@@ -11800,7 +11738,7 @@
             },
             "temp_clone_token": "",
             "network_count": 6,
-            "subscribers_count": 3
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/0cyn",
         "packageUrl": "https://api.github.com/repos/0cyn/bn-dyldsharedcache/zipball/refs/tags/1.0.0",
@@ -11808,7 +11746,7 @@
         "view_only": false,
         "path": "0cyn_bndyldsharedcache",
         "commit": "ac313e5a6c6d85fe0d5c6b20e1cbfc72bcb5d710",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -11837,7 +11775,6 @@
             "Linux": "No special instructions, package manager is recommended"
         },
         "version": "0.1.2",
-        "minimumbinaryninjaversion": 2440,
         "longdescription": "# Delphi VMT Analyzer (v0.1.2)\n\nAuthor: **ImNotAVirus**\n\n_Find Delphi VMTs and generate their structures_\n\n## Description:\n\nThis plugin is intended to facilitate the revese engineering of binaries written in Delphi.\n\nFor that, it:\n\n- Finds the Virtual Method Table (VMT) of Delphi classes\n- Creates a structure for each VMT (class name, instance size, virtual methods, etc...)\n- Creates a tag for each VMT in order to locate them more easily\n\n**Warning**: This plugin currently only supports 32bits PE (Portable Executable). For more details on upcoming features, you can refer to [TODO.md](./TODO.md).\n\n![example](./assets/example.png)\n\n## Installation Instructions\n\n### Darwin\n\nNo special instructions, package manager is recommended\n\n### Windows\n\nNo special instructions, package manager is recommended\n\n### Linux\n\nNo special instructions, package manager is recommended\n\n## Examples\n\nThis repo contains different examples to show how the plugin works in scripting mode.  \nYou can view them [here](./examples).\n\n**Warning**: although DelphiNinja does not require dependencies, some examples may require dependencies.  \nFor more information, please refer to this [page](./examples/README.md).\n\n## Minimum Version\n\nThis plugin has been tested with the following minimum version of Binary Ninja:\n\n* release: N/A\n* dev: 2440\n\n## License\n\nThis plugin is released under a MIT license.\n\n## Metadata Version\n\n2\n",
         "lastUpdated": 1645469959,
         "projectUrl": "https://github.com/ImNotAVirus/delphi_ninja",
@@ -11970,7 +11907,7 @@
         "dependencies": "",
         "path": "ImNotAVirus_delphi_ninja",
         "commit": "345f3355977d00dc507124b1e9a1a206f186dab3",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2440,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -12002,7 +11939,6 @@
         "dependencies": "",
         "version": "0.2.3",
         "author": "EliseZeroTwo",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1645253869,
         "projectUrl": "https://github.com/EliseZeroTwo/SEH-Helper",
         "projectData": {
@@ -12128,7 +12064,7 @@
         "view_only": false,
         "path": "EliseZeroTwo_SEHHelper",
         "commit": "b2c62f6b4ed822e36e834d7689950e2e2cfe8e74",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -12159,7 +12095,6 @@
         "dependencies": "",
         "version": "0.1",
         "author": "b0bb",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1645134987,
         "projectUrl": "https://github.com/0xb0bb/0CD",
         "projectData": {
@@ -12285,7 +12220,7 @@
         "view_only": false,
         "path": "0xb0bb_0CD",
         "commit": "cb6957da71ac3cf05cb9a254ddba6db7f34aa54a",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -12316,7 +12251,6 @@
         },
         "dependencies": "git+https://github.com/fkie-cad/dewolf-logic.git#egg=delogic\ngit+https://github.com/fkie-cad/dewolf-idioms.git\nblack\nisort\nnetworkx != 2.8.4\npydot\npygments\npytest !=5.3.4\npytest-xdist\nz3-solver == 4.8.10\n",
         "author": "fkie-cad",
-        "minimumbinaryninjaversion": 4271,
         "version": "2024-10-01",
         "lastUpdated": 1727745925,
         "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -12389,13 +12323,13 @@
             "deployments_url": "https://api.github.com/repos/fkie-cad/dewolf/deployments",
             "created_at": "2021-12-01T08:29:24Z",
             "updated_at": "2024-10-01T01:25:25+00:00",
-            "pushed_at": "2024-10-22T09:56:48Z",
+            "pushed_at": "2024-10-30T12:26:41Z",
             "git_url": "git://github.com/fkie-cad/dewolf.git",
             "ssh_url": "git@github.com:fkie-cad/dewolf.git",
             "clone_url": "https://github.com/fkie-cad/dewolf.git",
             "svn_url": "https://github.com/fkie-cad/dewolf",
             "homepage": "",
-            "size": 4496,
+            "size": 4497,
             "stargazers_count": 176,
             "watchers_count": 176,
             "language": "Python",
@@ -12409,7 +12343,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 57,
+            "open_issues_count": 59,
             "license": {
                 "key": "lgpl-2.1",
                 "name": "GNU Lesser General Public License v2.1",
@@ -12431,7 +12365,7 @@
             ],
             "visibility": "public",
             "forks": 9,
-            "open_issues": 57,
+            "open_issues": 59,
             "watchers": 176,
             "default_branch": "main",
             "permissions": {
@@ -12473,7 +12407,7 @@
         "view_only": false,
         "path": "fkiecad_dewolf",
         "commit": "abe69e4440676f70ec189ecd58abc6ca38e32b4d",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4271,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -12505,7 +12439,6 @@
         "dependencies": "",
         "version": "1.0.0",
         "author": "Fabian Freyer",
-        "minimumbinaryninjaversion": 3233,
         "lastUpdated": 1644114999,
         "projectUrl": "https://github.com/fabianfreyer/binja-il-hierarchy",
         "projectData": {
@@ -12631,7 +12564,7 @@
         "view_only": false,
         "path": "fabianfreyer_binjailhierarchy",
         "commit": "55583f9571bde964e25fa6a3f5746ecba734e3e3",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3233,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -12663,7 +12596,6 @@
             "Linux": ""
         },
         "version": "2.1",
-        "minimumbinaryninjaversion": 2966,
         "lastUpdated": 1725471478,
         "projectUrl": "https://github.com/elbiazo/calltree",
         "projectData": {
@@ -12751,7 +12683,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 5,
+            "forks_count": 4,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -12768,7 +12700,7 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 5,
+            "forks": 4,
             "open_issues": 2,
             "watchers": 13,
             "default_branch": "main",
@@ -12780,7 +12712,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 5,
+            "network_count": 4,
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/elbiazo",
@@ -12790,7 +12722,7 @@
         "dependencies": "",
         "path": "elbiazo_calltree",
         "commit": "8dd1f517fb9797f0625b7f31c02cba4ae8367426",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2966,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -12821,7 +12753,6 @@
         "dependencies": "",
         "version": "0.1.0",
         "author": "Alexandre Gazet",
-        "minimumbinaryninjaversion": 2,
         "lastUpdated": 1642809517,
         "projectUrl": "https://github.com/bootleg/ret-sync",
         "projectData": {
@@ -12900,8 +12831,8 @@
             "svn_url": "https://github.com/bootleg/ret-sync",
             "homepage": "",
             "size": 2792,
-            "stargazers_count": 2019,
-            "watchers_count": 2019,
+            "stargazers_count": 2023,
+            "watchers_count": 2023,
             "language": "C",
             "has_issues": true,
             "has_projects": true,
@@ -12909,7 +12840,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 256,
+            "forks_count": 257,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -12935,9 +12866,9 @@
                 "software-analysis"
             ],
             "visibility": "public",
-            "forks": 256,
+            "forks": 257,
             "open_issues": 33,
-            "watchers": 2019,
+            "watchers": 2023,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -12947,7 +12878,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 256,
+            "network_count": 257,
             "subscribers_count": 51
         },
         "authorUrl": "https://github.com/bootleg",
@@ -12956,7 +12887,7 @@
         "view_only": false,
         "path": "bootleg_retsync",
         "commit": "59413993b868c4e43e40b00785d25b2dc1a0ab01",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2,
         "maximumBinaryNinjaVersion": 999999,
         "subdir": "ext_bn/retsync"
     },
@@ -12982,7 +12913,6 @@
         ],
         "version": "0.2",
         "author": "Brandon Miller",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1642134808,
         "projectUrl": "https://github.com/zznop/bn-kconfig-recover",
         "projectData": {
@@ -13109,7 +13039,7 @@
         "dependencies": "",
         "path": "zznop_bnkconfigrecover",
         "commit": "3e30cc6b3e5e273674a3ce6bca6c3bc60ac22f11",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -13135,7 +13065,6 @@
         ],
         "version": "1.0.0",
         "author": "Gamozo Labs, LLC",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1637016799,
         "projectUrl": "https://github.com/gamozolabs/coff_nm",
         "projectData": {
@@ -13256,7 +13185,7 @@
         "dependencies": "",
         "path": "gamozolabs_coff_nm",
         "commit": "b7bcdbbb03ec22de79670b71558f5d7f7a1f2361",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {},
         "subdir": "binaryninja/dbg_load"
@@ -13290,7 +13219,6 @@
         },
         "version": "0.2.1-alpha",
         "author": "Eric Hennenfent",
-        "minimumbinaryninjaversion": 3053,
         "lastUpdated": 1633829742,
         "projectUrl": "https://github.com/ehennenfent/binja_explain_instruction",
         "projectData": {
@@ -13420,7 +13348,7 @@
         "view_only": false,
         "path": "ehennenfent_binja_explain_instruction",
         "commit": "8fbd8ab592f0dbcd532c30889e33c9da56d777a5",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3053,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -13452,7 +13380,6 @@
         "dependencies": "",
         "version": "1.0.0",
         "author": "EliseZeroTwo",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1677262467,
         "projectUrl": "https://github.com/EliseZeroTwo/iBoot-Binja-Loader",
         "projectData": {
@@ -13578,7 +13505,7 @@
         "view_only": false,
         "path": "EliseZeroTwo_iBootBinjaLoader",
         "commit": "ecf6d78aebd92c2dc199a42d22edb35516dd166d",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -13609,7 +13536,6 @@
             "Windows": ""
         },
         "version": "0.5.1",
-        "minimumbinaryninjaversion": 2846,
         "lastUpdated": 1629171762,
         "projectUrl": "https://github.com/zackorndorff/binja-xtensa",
         "projectData": {
@@ -13742,7 +13668,7 @@
         "dependencies": "",
         "path": "zackorndorff_binjaxtensa",
         "commit": "b2a9ef3c84ab21047e88e7fe41d9fc8fd6e4c5d4",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2846,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -13756,7 +13682,6 @@
             "text": "Copyright (c) 2024> Markus Gaasedelen\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "longdescription": "# Lighthouse - A Coverage Explorer for Reverse Engineers\n\n<p align=\"center\">\n<img alt=\"Lighthouse Plugin\" src=\"https://raw.githubusercontent.com/gaasedelen/lighthouse/master/screenshots/overview.gif\"/>\n</p>\n\n## Overview\n\nLighthouse is a powerful code coverage explorer for [IDA Pro](https://www.hex-rays.com/products/ida/) and [Binary Ninja](https://binary.ninja/), providing software researchers with uniquely interactive controls to study execution maps for native applications without requiring symbols or source.\n\nFor additional usage information, please check out the full [README](https://github.com/gaasedelen/lighthouse) on GitHub.\n",
-        "minimumbinaryninjaversion": 4526,
         "name": "Lighthouse",
         "platforms": [
             "Darwin",
@@ -13846,8 +13771,8 @@
             "svn_url": "https://github.com/gaasedelen/lighthouse",
             "homepage": "",
             "size": 11246,
-            "stargazers_count": 2240,
-            "watchers_count": 2240,
+            "stargazers_count": 2250,
+            "watchers_count": 2250,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -13859,7 +13784,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 21,
+            "open_issues_count": 22,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -13881,8 +13806,8 @@
             ],
             "visibility": "public",
             "forks": 307,
-            "open_issues": 21,
-            "watchers": 2240,
+            "open_issues": 22,
+            "watchers": 2250,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -13902,7 +13827,7 @@
         "dependencies": "",
         "path": "gaasedelen_lighthouse",
         "commit": "562595be9bd99e8a5dfef6017d608467f5706630",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4526,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {},
         "subdir": "binjastub"
@@ -13935,7 +13860,6 @@
         "dependencies": "",
         "version": "1.10",
         "author": "Glenn Smith",
-        "minimumbinaryninjaversion": 2846,
         "lastUpdated": 1698799171,
         "projectUrl": "https://github.com/CouleeApps/hex_integers",
         "projectData": {
@@ -14061,7 +13985,7 @@
         "view_only": false,
         "path": "CouleeApps_hex_integers",
         "commit": "4191900686568469546126469179206662254674",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2846,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -14091,7 +14015,6 @@
         },
         "version": "0.1.0",
         "author": "actae0n",
-        "minimumbinaryninjaversion": 2805,
         "lastUpdated": 1626914641,
         "projectUrl": "https://github.com/xpcmdshell/SysctlHunter",
         "projectData": {
@@ -14218,7 +14141,7 @@
         "dependencies": "",
         "path": "xpcmdshell_SysctlHunter",
         "commit": "15984340cc7b08361c5a98b65f7ee2eccd6999a8",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2805,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -14248,7 +14171,6 @@
         },
         "version": "1.0.0",
         "author": "Linus S. (aka PistonMiner)",
-        "minimumbinaryninjaversion": 2846,
         "lastUpdated": 1625773938,
         "projectUrl": "https://github.com/PistonMiner/binaryninja-gc-load-map",
         "projectData": {
@@ -14375,7 +14297,7 @@
         "dependencies": "",
         "path": "PistonMiner_binaryninjagcloadmap",
         "commit": "90f0d6cb987c8d29c35047ca20b9c7c7460e6544",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2846,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -14405,7 +14327,6 @@
         },
         "version": "1.0.0",
         "author": "Linus S. (aka PistonMiner)",
-        "minimumbinaryninjaversion": 2846,
         "lastUpdated": 1625773954,
         "projectUrl": "https://github.com/PistonMiner/binaryninja-gc-dol",
         "projectData": {
@@ -14532,7 +14453,7 @@
         "dependencies": "",
         "path": "PistonMiner_binaryninjagcdol",
         "commit": "7ed4b5946b7cc6831d078db6d9a99fa9c172f91c",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2846,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -14563,7 +14484,6 @@
         "dependencies": "",
         "version": "1.0.1",
         "author": "amtal",
-        "minimumbinaryninjaversion": 2800,
         "lastUpdated": 1653804366,
         "projectUrl": "https://github.com/amtal/microblaze",
         "projectData": {
@@ -14693,7 +14613,7 @@
         "view_only": false,
         "path": "amtal_microblaze",
         "commit": "2622aacc6a9fe3e9e11fc9ff91df00597ee2d96f",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2800,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -14723,7 +14643,6 @@
             "Linux": ""
         },
         "version": "0.3",
-        "minimumbinaryninjaversion": 2660,
         "lastUpdated": 1682696285,
         "projectUrl": "https://github.com/zznop/bn-uefi-helper",
         "projectData": {
@@ -14844,7 +14763,7 @@
         "dependencies": "",
         "path": "zznop_bnuefihelper",
         "commit": "9251232bc2b0e6d466932f97c21ad655241e85c9",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2660,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -14868,7 +14787,6 @@
         "dependencies": "toolz==0.10.0\nclick==7.1.2\n",
         "version": "0.1",
         "author": "Yu-Jye Tung",
-        "minimumbinaryninjaversion": 0,
         "longdescription": "# <p align='center'> Opaque Predicates Detective </p>\n\n![OP Detective](op_detective.png)\n\n## Introduction: \nPrevious approaches to generically identify opaque predicates work by identifying if a conditional branch contains an invariant expression. Our approach generically identify opaque predicates from a different perspective: __the damage caused by the obfuscation__. The damage is localized at the basic block level (or at the function level) regardless of how an opaque predicate's invariant expression is constructed. This approach allows us to also detect an opaque predicate whose invariant expression is constructed across multiple processes! \n\nIDA also detects opaque predicates from the damage but its approach cannot identify the exact superfluous branch, [which allows for the creation of stealthier opaque predicates](https://yellowbyte.github.io/blog/2018/the_return_of_disassembly_desynchronization/).\n\nThere are two main types of damage resulting from opaque predicates: code bloat or disassembly desynchronization. __Current implementation focuses on detecting opaque predicates when the damage is disassembly desynchronization__. Disassembly desynchronization is a umbrella term for obfuscation techniques that disrupt static disassembly by the creative placement of junk bytes (random data bytes) into the instruction stream such that a disassembler will parse those junk bytes as code instructions. In the case of an opaque predicate, junk bytes are inserted into the target basic block of the opaque predicate's superfluous branch. To identify opaque predicates' superfluous branches, we analyze each conditional branch's outgoing basic blocks for __illogical behaviors__ (which can manifest from code instructions that are actually junk bytes). Note that identifying the superfluous branch will allow us to trace back to the offending opaque predicate.\n\nFuture work will look into detecting opaque predicates when the damage is code bloat.\n\n## Identifying Illogical Behaviors\nWe have a set of rules that checks if a basic block contains the damage performed by opaque predicates. Essentially, the damage translates to illogical code behaviors since current approach is limited to detecting opaque predicates when the damage is [disassembly desynchronization](https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/contents/anti-analysis/Anti-Disassembly.md#-disassembly-desynchronization-). \n\nThe names we used for the rules in the [paper](https://archive.bar/pdfs/bar2020-preprint4.pdf) compared to the code are not the same. This means that annoyance might arise if one tries to match a rule described in paper to its actual implementation. \n\nBelow is a Python Dictionary depicting the relationship between the names in code (dictionary key) vs in paper (dictionary value): \n\n```python\nRULES_RELATIONSHIP = {\n    # 'names in code'                   'names in paper'\n    'weird_cutoff':                     'abrupt_basic_block_end',\n    'prob_of_unimpl':                   'unimplemented_BNILs_percentage',\n    'priviledged_instructions':         'privileged_instruction_usage',\n    'def_no_use_dep':                   'defined_but_unused',\n    'memaccess_self':                   'memory_pointer_constraints',\n    'conditional_unused':               'defined_but_unused',\n    'stack_pointer_oddity':             'memory_pointer_constraints',\n    'crazy_mem_offset':                 'unreasonable_memory_offset',\n    'type_discrepency_ptr_in_mult_div': 'memory_pointer_constraints',\n    'memaccess_nonexist':               'nonexistence_memory_address',\n    'memaccess_src_dest_discrepancy':   'memory_pointer_constraints',\n    'call_dest_nonexist':               'nonexistence_memory_address',\n    'jmp_dest_nonexist':                'nonexistence_memory_address',\n}\n```\n\nAs seen in the dictionary, it is not a one-to-one relationship. The rule names in code is more fine-grained than the rule names in paper. For example, the 'nonexistence\\_memory\\_address' rule (in paper) corresponds to 'memaccess\\_nonexist', 'call\\_dest\\_nonexist', and 'jmp\\_dest\\_nonexist' rules (in code). \n\n## Detective in Action:\nCurrent implementation is a [BinaryNinja](https://binary.ninja) plugin.\n\nHow to run plugin: \n![Plugin Run](whole.png)\n\nOutput:\n![Plugin Output](current_output.png)\n\nNote that the printed virtual addresses (highlighed in green) are the target addresses of the superfluous branches. (The addresses can easily be changed to the addresses of the opaque conditional statements if desired.)\n\n## Reference \\[[link to paper](https://www.ndss-symposium.org/wp-content/uploads/2020/04/bar2020-23004-paper.pdf)\\]\n\n    @inproceedings{tungheuristic,\n      title={A Heuristic Approach to Detect Opaque Predicates that Disrupt Static Disassembly},\n      author={Tung, Yu-Jye and Harris, Ian G}\n      booktitle={Proceedings of the NDSS Workshop on Binary Analysis Research},\n      year={2020}\n    }\n\n__NOTE__: Google Scholar has the incorrect BibTex but unfortunately I cannot update it directly on Google Scholar\n\n",
         "lastUpdated": 1618026013,
         "projectUrl": "https://github.com/yellowbyte/opaque-predicates-detective",
@@ -15029,7 +14947,6 @@
             "Linux": "No special instructions.",
             "Windows": "No special instructions."
         },
-        "minimumbinaryninjaversion": 1200,
         "longdescription": "# Screenshot Ninja\n\nScreenshot Ninja makes it easy to capture screenshots inside Binary Ninja.\n\n## Features\n\nScreenshot Ninja currently allows you to capture screenshots:\n\n- of the active linear/graph view;\n- of the entire Binary Ninja window; and\n- at custom scaling factors, such as 2x or 3x the native resolution.\n\n## Install\n\nYou can get Screenshot Ninja by:\n\n- installing it through Binary Ninja's plugin manager;\n- cloning this repository into your user plugins folder; or\n- downloading and extracting a release into your user plugins folder.\n\nIf you plan to use the scripting functionality, the latter two options are\nrecommended, as the plugin manager adjusts module names.\n\n## Usage\n\nScreenshot Ninja can be used from the context menu or command palette, as well\nas from the console as a Python module.\n\n### From the user interface\n\nUse the context menu or command palette to find Screenshot Ninja's commands. The\n\"save view image\" command family will save an image of the active linear/graph\nview, while the \"save window image\" command family will save an image of the\nentire Binary Ninja window.\n\n### As a Python module\n\nYou can import Screenshot Ninja in the Python console like this:\n\n``` python\nimport screenshot_ninja\n```\n\nYou can then use the `renderActiveView` and `renderActiveWindow` functions as\nyou wish. Both functions return a `QPixmap`, which you are responsible for\nsaving yourself. Additionally, both functions will throw a `ValueError` if\nsomething goes wrong, so be sure to catch it.\n\n## License\n\nCopyright &copy; 2021-2023 Jon Palmisciano. Licensed under the MIT License. For\nadditional information, see [LICENSE.txt](LICENSE.txt).\n",
         "lastUpdated": 1708981964,
         "projectUrl": "https://github.com/jonpalmisc/screenshot_ninja",
@@ -15161,7 +15078,7 @@
         "dependencies": "",
         "path": "jonpalmisc_screenshot_ninja",
         "commit": "0372819c54253c1b28671dd182286e18d6531390",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -15189,7 +15106,6 @@
         },
         "version": "0.3.0",
         "author": "Terry Chia (Ayrx)",
-        "minimumbinaryninjaversion": 3000,
         "lastUpdated": 1648363219,
         "projectUrl": "https://github.com/Ayrx/binja-JNIAnalyzer",
         "projectData": {
@@ -15268,8 +15184,8 @@
             "svn_url": "https://github.com/Ayrx/binja-JNIAnalyzer",
             "homepage": "",
             "size": 48,
-            "stargazers_count": 27,
-            "watchers_count": 27,
+            "stargazers_count": 28,
+            "watchers_count": 28,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -15277,7 +15193,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 5,
+            "forks_count": 6,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -15299,9 +15215,9 @@
                 "reverse-engineering"
             ],
             "visibility": "public",
-            "forks": 5,
+            "forks": 6,
             "open_issues": 0,
-            "watchers": 27,
+            "watchers": 28,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -15311,7 +15227,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 5,
+            "network_count": 6,
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/Ayrx",
@@ -15321,7 +15237,7 @@
         "dependencies": "git+https://github.com/androguard/androguard@8d091cbb309c0c50bf239f805cc1e0931b8dcddc\n",
         "path": "Ayrx_binjaJNIAnalyzer",
         "commit": "61240dff6425f00939b10f9a4a30d0e9e9c6eb32",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3000,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -15351,7 +15267,6 @@
             "Linux": ""
         },
         "version": "2.1",
-        "minimumbinaryninjaversion": 2487,
         "lastUpdated": 1714432258,
         "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
         "projectData": {
@@ -15430,8 +15345,8 @@
             "svn_url": "https://github.com/mrphrazer/obfuscation_detection",
             "homepage": "",
             "size": 16582,
-            "stargazers_count": 570,
-            "watchers_count": 570,
+            "stargazers_count": 571,
+            "watchers_count": 571,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -15458,7 +15373,7 @@
             "visibility": "public",
             "forks": 63,
             "open_issues": 0,
-            "watchers": 570,
+            "watchers": 571,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -15478,7 +15393,7 @@
         "dependencies": "",
         "path": "mrphrazer_obfuscation_detection",
         "commit": "d68595d781bb808c4dde2c8bd51b3d94d4bdc406",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2487,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -15507,7 +15422,6 @@
             "Linux": ""
         },
         "version": "1.1",
-        "minimumbinaryninjaversion": 3233,
         "longdescription": "# Callgraph\nAuthor: **Josh Watson / Jordan Wiens**\n\n_Callgraph generator for called or calling funcs_\n\n## Description:\n\nSimple call graph visualizer based on work Josh Watson did on stream in his F-ing Around with Binary Ninja, Episode 2.\n\nOriginal code: https://github.com/joshwatson/f-ing-around-with-binaryninja/blob/master/ep2-callgraph/callgraph.py\n\nStream: https://www.twitch.tv/videos/358093527\n\n![](https://github.com/psifertex/callgraph/blob/main/images/callgraph.png?raw=true)\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 1500\n\n## License\n\nThis plugin is released under a [MIT license](./LICENSE).\n",
         "lastUpdated": 1650475400,
         "projectUrl": "https://github.com/psifertex/callgraph",
@@ -15663,7 +15577,7 @@
         "dependencies": "",
         "path": "psifertex_callgraph",
         "commit": "674ab1b19646656240c6c740558d00f8430a911a",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3233,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -15696,7 +15610,6 @@
             "sub"
         ],
         "version": "1.1.3",
-        "minimumbinaryninjaversion": 1555,
         "lastUpdated": 1615525176,
         "projectUrl": "https://github.com/psifertex/tagteam",
         "projectData": {
@@ -15851,7 +15764,7 @@
         "dependencies": "",
         "path": "psifertex_tagteam",
         "commit": "59fcf85b426b0735a0fe31b70fac95dd7229bb71",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1555,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -15885,7 +15798,6 @@
         "dependencies": "",
         "version": "1.1.0",
         "author": "Lukas Seidel",
-        "minimumbinaryninjaversion": 3164,
         "lastUpdated": 1670422965,
         "projectUrl": "https://github.com/fgsect/JMPscare-binja",
         "projectData": {
@@ -16033,7 +15945,7 @@
         "view_only": false,
         "path": "fgsect_JMPscarebinja",
         "commit": "fab2f5557483023510776846dd387962b55fc1d8",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -16064,7 +15976,6 @@
         },
         "version": "1.2",
         "author": "Sam Russell (@samrussell)",
-        "minimumbinaryninjaversion": 4526,
         "lastUpdated": 1711609954,
         "projectUrl": "https://github.com/samrussell/binja-gameboy",
         "projectData": {
@@ -16405,7 +16316,7 @@
         "dependencies": "",
         "path": "samrussell_binjagameboy",
         "commit": "f20a442fe7014f666ebf61ce8fa28743a7888a1d",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4526,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -16561,6 +16472,7 @@
         "view_only": false,
         "path": "inspier_BinjaRustDemangler",
         "commit": "d8e92c49a9615d2bc401cea922c82da408c802c5",
+        "pluginmetadataversion": 2,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -16592,7 +16504,6 @@
         "dependencies": "protobuf >=3, <5",
         "version": "1.0.3",
         "author": "Linus S. (aka PistonMiner)",
-        "minimumbinaryninjaversion": 2487,
         "lastUpdated": 1658871076,
         "projectUrl": "https://github.com/PistonMiner/binaryninja-bindiff-viewer",
         "projectData": {
@@ -16718,7 +16629,7 @@
         "view_only": false,
         "path": "PistonMiner_binaryninjabindiffviewer",
         "commit": "b57d0ae4d42ed8654cb87e11c765f8339eb4aa67",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2487,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -16748,7 +16659,6 @@
             "Linux": "no special instructions, package manager is recommended"
         },
         "version": "1.0.1",
-        "minimumbinaryninjaversion": 1528,
         "lastUpdated": 1606933842,
         "projectUrl": "https://github.com/kryptoslogic/binja_degobfuscate",
         "projectData": {
@@ -16910,7 +16820,7 @@
         "dependencies": "",
         "path": "kryptoslogic_binja_degobfuscate",
         "commit": "f76b806378f5d623760b8b031bbc30b0f9f8579b",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1528,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -16941,7 +16851,6 @@
         "dependencies": "",
         "version": "1.4.0",
         "author": "Travis Goodspeed",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1631382597,
         "projectUrl": "https://github.com/travisgoodspeed/symgrate2-binja-plugin",
         "projectData": {
@@ -17067,7 +16976,7 @@
         "view_only": false,
         "path": "travisgoodspeed_symgrate2binjaplugin",
         "commit": "cf67fbb794897068ad5428756876cf15d77f0ab5",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -17098,7 +17007,6 @@
         "dependencies": "",
         "version": "3.7",
         "author": "Martin Petran",
-        "minimumbinaryninjaversion": 2263,
         "lastUpdated": 1725710824,
         "projectUrl": "https://github.com/Martyx00/VulnFanatic",
         "projectData": {
@@ -17186,7 +17094,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 37,
+            "forks_count": 36,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -17208,7 +17116,7 @@
                 "vulnerability-scanners"
             ],
             "visibility": "public",
-            "forks": 37,
+            "forks": 36,
             "open_issues": 2,
             "watchers": 280,
             "default_branch": "master",
@@ -17220,7 +17128,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 37,
+            "network_count": 36,
             "subscribers_count": 12
         },
         "authorUrl": "https://github.com/Martyx00",
@@ -17229,7 +17137,7 @@
         "view_only": false,
         "path": "Martyx00_VulnFanatic",
         "commit": "944cd6d8138bcebfa1f1fa8665f6bbb95914b8fd",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2263,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -17260,7 +17168,6 @@
         "dependencies": "",
         "version": "1.10",
         "author": "Martin Petran",
-        "minimumbinaryninjaversion": 3233,
         "lastUpdated": 1654662367,
         "projectUrl": "https://github.com/Martyx00/ghinja",
         "projectData": {
@@ -17386,7 +17293,7 @@
         "view_only": false,
         "path": "Martyx00_ghinja",
         "commit": "fe3fab3d7e51fe53cd6a75279465c08413043bc3",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3233,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -17417,7 +17324,6 @@
         "dependencies": "",
         "version": "1.0.6",
         "author": "matteyeux",
-        "minimumbinaryninjaversion": 2170,
         "lastUpdated": 1689570375,
         "projectUrl": "https://github.com/matteyeux/seprom-loader",
         "projectData": {
@@ -17496,8 +17402,8 @@
             "svn_url": "https://github.com/matteyeux/seprom-loader",
             "homepage": "",
             "size": 506,
-            "stargazers_count": 48,
-            "watchers_count": 48,
+            "stargazers_count": 49,
+            "watchers_count": 49,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -17524,7 +17430,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 1,
-            "watchers": 48,
+            "watchers": 49,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -17543,7 +17449,7 @@
         "view_only": false,
         "path": "matteyeux_sepromloader",
         "commit": "904599d88a8f181943b126e3bcdbbce46d1f023c",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2170,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -17569,7 +17475,6 @@
         ],
         "version": "0.2",
         "author": "@_murks",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1604506779,
         "projectUrl": "https://github.com/murx-/devi_binja",
         "projectData": {
@@ -17690,7 +17595,7 @@
         "dependencies": "",
         "path": "murx_devi_binja",
         "commit": "4770a0cceb67edd4d841ffebb5b399988f8f2fd9",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -17722,7 +17627,6 @@
         "dependencies": "",
         "version": "1.2",
         "author": "Daniel Weber",
-        "minimumbinaryninjaversion": 2170,
         "lastUpdated": 1603103834,
         "projectUrl": "https://github.com/d-we/binja-golang-symbol-restore",
         "projectData": {
@@ -17801,8 +17705,8 @@
             "svn_url": "https://github.com/d-we/binja-golang-symbol-restore",
             "homepage": null,
             "size": 18,
-            "stargazers_count": 12,
-            "watchers_count": 12,
+            "stargazers_count": 13,
+            "watchers_count": 13,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -17829,7 +17733,7 @@
             "visibility": "public",
             "forks": 5,
             "open_issues": 1,
-            "watchers": 12,
+            "watchers": 13,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -17848,7 +17752,7 @@
         "view_only": false,
         "path": "dwe_binjagolangsymbolrestore",
         "commit": "251cc45cab66512fd404eaf69ec6e018684aa5d4",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2170,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -17869,7 +17773,6 @@
             "text": "Copyright (c) 2017 Michael Rodler (contact@f0rki.at)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "longdescription": "go reversing helpers for binaryninja.\n\nBasically this is some stuff ported from the IDA pro script\n[golang_load_assist](https://github.com/strazzere/golang_loader_assist)\n\n Probably incomplete!\n\n### go reversing blog posts\n\n * http://rednaga.io/2016/09/21/reversing_go_binaries_like_a_pro/",
-        "minimumbinaryninjaversion": 1528,
         "name": "GO Loader Assist",
         "platforms": [
             "Darwin",
@@ -18010,7 +17913,7 @@
         "view_only": false,
         "path": "f0rki_bngoloader",
         "commit": "f3945aa7759f09e9dd8ccd38de87186c17d47e08",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1528,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -18043,7 +17946,6 @@
         "dependencies": "filebytes\n",
         "version": "1.1",
         "author": "Grant Orndorff",
-        "minimumbinaryninjaversion": 1407,
         "lastUpdated": 1617003309,
         "projectUrl": "https://github.com/jeffli678/bnhook",
         "projectData": {
@@ -18383,7 +18285,7 @@
         "view_only": false,
         "path": "jeffli678_bnhook",
         "commit": "dba97f1428f8f9287e343049de7a828958bba231",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1407,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -18415,7 +18317,6 @@
         "dependencies": "future\n",
         "version": "1.0",
         "author": "Paolo Montesel (https://github.com/thebabush)",
-        "minimumbinaryninjaversion": 0,
         "lastUpdated": 1590594861,
         "projectUrl": "https://github.com/thebabush/nampa",
         "projectData": {
@@ -18503,7 +18404,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 15,
+            "forks_count": 16,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -18527,7 +18428,7 @@
                 "signature-matcher"
             ],
             "visibility": "public",
-            "forks": 15,
+            "forks": 16,
             "open_issues": 3,
             "watchers": 88,
             "default_branch": "master",
@@ -18539,7 +18440,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 15,
+            "network_count": 16,
             "subscribers_count": 9
         },
         "authorUrl": "https://github.com/thebabush",
@@ -18580,7 +18481,6 @@
         "dependencies": "",
         "version": "1.0",
         "author": "trib0r3",
-        "minimumbinaryninjaversion": 2,
         "lastUpdated": 1590501525,
         "projectUrl": "https://github.com/trib0r3/binja-yara",
         "projectData": {
@@ -18709,7 +18609,7 @@
         "view_only": false,
         "path": "trib0r3_binjayara",
         "commit": "acb8c0279af364c9404426e0cdbda2590e574116",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -18737,7 +18637,6 @@
         "dependencies": "",
         "version": "1.0",
         "author": "Shiz",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1590369706,
         "projectUrl": "https://github.com/shizmob/binja-depanalyzer",
         "projectData": {
@@ -18863,7 +18762,7 @@
         "view_only": false,
         "path": "shizmob_binjadepanalyzer",
         "commit": "99b2a2e51870ddcb91eade4cefa83b655317a499",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -18890,7 +18789,6 @@
         "dependencies": "",
         "version": "0.2",
         "author": "hugsy",
-        "minimumbinaryninjaversion": 1300,
         "lastUpdated": 1589817566,
         "projectUrl": "https://github.com/hugsy/gef-binja",
         "projectData": {
@@ -19016,7 +18914,7 @@
         "view_only": false,
         "path": "hugsy_gefbinja",
         "commit": "0885ec31de151eba7e3b899fe1ef237ce4e68491",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1300,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -19048,7 +18946,6 @@
         "dependencies": "",
         "version": "0.6",
         "author": "Josh Watson",
-        "minimumbinaryninjaversion": 3233,
         "lastUpdated": 1643842613,
         "projectUrl": "https://github.com/joshwatson/binaryninja-msp430",
         "projectData": {
@@ -19182,7 +19079,7 @@
         "view_only": false,
         "path": "joshwatson_binaryninjamsp430",
         "commit": "9bc5a79b1c6232260c2abc3bb4334e5ca3478baf",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3233,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -19216,7 +19113,6 @@
         "dependencies": "",
         "version": "2.1",
         "author": "apekros and Alex3434",
-        "minimumbinaryninjaversion": 0,
         "lastUpdated": 1675034718,
         "projectUrl": "https://github.com/apekros/binja_sigmaker",
         "projectData": {
@@ -19374,7 +19270,6 @@
             "Linux": ""
         },
         "version": "1.0",
-        "minimumbinaryninjaversion": 1689,
         "lastUpdated": 1562441017,
         "projectUrl": "https://github.com/Vasco-jofra/jump-table-branch-editor",
         "projectData": {
@@ -19504,7 +19399,7 @@
         "dependencies": "",
         "path": "Vascojofra_jumptablebrancheditor",
         "commit": "7c287e047a3655e381e087b246c31bc5b4956f98",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1689,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -19529,7 +19424,6 @@
         ],
         "version": "1.3",
         "author": "zznop",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1707958297,
         "projectUrl": "https://github.com/zznop/bnida",
         "projectData": {
@@ -19656,7 +19550,7 @@
         "dependencies": "",
         "path": "zznop_bnida",
         "commit": "2bd92f171fef717fb607772268239da6e026016e",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -19682,7 +19576,6 @@
         "dependencies": "",
         "version": "1.1",
         "author": "zznop",
-        "minimumbinaryninjaversion": 0,
         "lastUpdated": 1563907305,
         "projectUrl": "https://github.com/zznop/bn-genesis",
         "projectData": {
@@ -19834,7 +19727,6 @@
         ],
         "version": "1.2",
         "author": "Brandon Miller",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1643512677,
         "projectUrl": "https://github.com/zznop/bn-kallsyms",
         "projectData": {
@@ -19955,7 +19847,7 @@
         "dependencies": "",
         "path": "zznop_bnkallsyms",
         "commit": "b7470acac8a5130243bdc4630b5eec09337730bd",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -19981,7 +19873,6 @@
         ],
         "version": "1.1",
         "author": "zznop",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1595432685,
         "projectUrl": "https://github.com/zznop/bn-recursion",
         "projectData": {
@@ -20102,7 +19993,7 @@
         "dependencies": "",
         "path": "zznop_bnrecursion",
         "commit": "00d8930bbb721c3a59c939e44b221a39ff761f06",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -20130,7 +20021,7 @@
         ],
         "version": "1.1",
         "author": "B.Kerler with code from John Levy and @carstein",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "lastUpdated": 1562648191,
         "projectUrl": "https://github.com/bkerler/annotate",
         "projectData": {
@@ -20292,7 +20183,6 @@
         },
         "version": "0.2",
         "author": "verylazyguy",
-        "minimumbinaryninjaversion": 0,
         "lastUpdated": 1562776057,
         "projectUrl": "https://github.com/verylazyguy/binaryninja-vmndh",
         "projectData": {
@@ -20450,7 +20340,6 @@
             "Linux": ""
         },
         "version": "1.0",
-        "minimumbinaryninjaversion": 1689,
         "lastUpdated": 1562929904,
         "projectUrl": "https://github.com/0x1F9F1/binja-msvc",
         "projectData": {
@@ -20581,7 +20470,7 @@
         "dependencies": "",
         "path": "0x1F9F1_binjamsvc",
         "commit": "eb3399883492fafc2e5acb332b98d34223285797",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1689,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -20612,7 +20501,6 @@
             "Linux": ""
         },
         "version": "1.4.2",
-        "minimumbinaryninjaversion": 2096,
         "lastUpdated": 1689779176,
         "projectUrl": "https://github.com/withzombies/bnil-graph",
         "projectData": {
@@ -20691,8 +20579,8 @@
             "svn_url": "https://github.com/withzombies/bnil-graph",
             "homepage": null,
             "size": 1189,
-            "stargazers_count": 83,
-            "watchers_count": 83,
+            "stargazers_count": 84,
+            "watchers_count": 84,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -20727,7 +20615,7 @@
             "visibility": "public",
             "forks": 10,
             "open_issues": 0,
-            "watchers": 83,
+            "watchers": 84,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -20747,7 +20635,7 @@
         "dependencies": "",
         "path": "withzombies_bnilgraph",
         "commit": "534f4102caabb590c4e1fa6713630172c97bcf32",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2096,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -20775,7 +20663,6 @@
             "Linux": "Install the binutils package or otherwise install `addr2line` in your path, then install this plugin per normal procedures."
         },
         "version": "0.1",
-        "minimumbinaryninjaversion": 1689,
         "lastUpdated": 1563159566,
         "projectUrl": "https://github.com/mechanicalnull/sourcery_pane",
         "projectData": {
@@ -20902,7 +20789,7 @@
         "dependencies": "",
         "path": "mechanicalnull_sourcery_pane",
         "commit": "dd133ebf553d6e05383acfd53f3ef5a1e5ae3a72",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1689,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -20933,7 +20820,6 @@
         "dependencies": "",
         "version": "1.3.1",
         "author": "Chame1eon",
-        "minimumbinaryninjaversion": 576,
         "lastUpdated": 1591033894,
         "projectUrl": "https://github.com/chame1eon/binaryninja-frida",
         "projectData": {
@@ -21059,7 +20945,7 @@
         "view_only": false,
         "path": "chame1eon_binaryninjafrida",
         "commit": "6292320d1854abaa9a1f2a59234c49faebf86416",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 576,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -21089,7 +20975,6 @@
             "Linux": ""
         },
         "version": "1.0",
-        "minimumbinaryninjaversion": 1689,
         "lastUpdated": 1563202677,
         "projectUrl": "https://github.com/Vasco-jofra/format-string-finder-binja",
         "projectData": {
@@ -21220,7 +21105,7 @@
         "dependencies": "",
         "path": "Vascojofra_formatstringfinderbinja",
         "commit": "d1854604fc5d1fb4f6fdb9d3078d33020ae21c74",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1689,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -21250,7 +21135,6 @@
         "dependencies": "",
         "version": "1.0.0",
         "author": "shareef12",
-        "minimumbinaryninjaversion": 1689,
         "lastUpdated": 1565226626,
         "projectUrl": "https://github.com/shareef12/driveranalyzer",
         "projectData": {
@@ -21376,7 +21260,7 @@
         "view_only": false,
         "path": "shareef12_driveranalyzer",
         "commit": "36dcd34e0fc7f634171050a4806f055bbe1cc47d",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1689,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -21402,7 +21286,6 @@
             "Linux": ""
         },
         "version": "1.0",
-        "minimumbinaryninjaversion": 776,
         "lastUpdated": 1563231878,
         "projectUrl": "https://github.com/carstein/Syscaller",
         "projectData": {
@@ -21523,7 +21406,7 @@
         "dependencies": "",
         "path": "carstein_Syscaller",
         "commit": "7e102546a58a08cb81755ec2d6be338ce2ce7765",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 776,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -21552,7 +21435,6 @@
             "Darwin": "Download or clone the github repo and place it in your plugins folder: https://github.com/404d/peutils"
         },
         "dependencies": "",
-        "minimumbinaryninjaversion": 2576,
         "version": "1.3",
         "author": "404'd",
         "lastUpdated": 1607802699,
@@ -21684,7 +21566,7 @@
         "view_only": false,
         "path": "404d_peutils",
         "commit": "cd359c99808b717aa5ece535671e20c02f94f2e4",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2576,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -21715,7 +21597,6 @@
         "dependencies": "",
         "version": "0.3",
         "author": "404'd",
-        "minimumbinaryninjaversion": 2096,
         "lastUpdated": 1607801316,
         "projectUrl": "https://github.com/404d/autoutils",
         "projectData": {
@@ -21838,7 +21719,7 @@
         "view_only": false,
         "path": "404d_autoutils",
         "commit": "861559b9cfe98bdea6caec233280d587649d23f5",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2096,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -21868,7 +21749,6 @@
             "Linux": "No installation necessary, but you may want to download [DynamoRIO](https://github.com/DynamoRIO/dynamorio/wiki/Downloads) or other tools to collect block coverage information.\n\nSee the [Github page](https://github.com/ForAllSecure/bncov) for usage instructions and a [tutorial](https://github.com/ForAllSecure/bncov/tree/master/tutorial)."
         },
         "version": "1.4.2",
-        "minimumbinaryninjaversion": 1470,
         "lastUpdated": 1676487002,
         "projectUrl": "https://github.com/ForAllSecure/bncov",
         "projectData": {
@@ -22017,7 +21897,7 @@
         "dependencies": "msgpack\n",
         "path": "ForAllSecure_bncov",
         "commit": "0a3cebcf888659aefeee37eb3225b6174be9de0d",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1470,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -22034,7 +21914,6 @@
         "longdescription": "This plugin provides a GUI for adjusting the ABI in a fine-grained way. Calling convention and clobbered registers can be adjusted.",
         "version": "1.1",
         "author": "whitequark",
-        "minimumbinaryninjaversion": 555,
         "platforms": [
             "Darwin",
             "Linux",
@@ -22170,7 +22049,7 @@
         "dependencies": "",
         "path": "whitequark_binja_function_abi",
         "commit": "6373f1bb08e9f01500c3c82ea56c91d1c4a6a7c1",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 555,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -22188,7 +22067,6 @@
         "longdescription": "This plugin provides a custom demangler, an analysis that decodes mangled names and updates function signatures, and an analysis that decodes RTTI and vtables and discovers new procedures based on virtual function pointers.",
         "version": "1.0",
         "author": "whitequark",
-        "minimumbinaryninjaversion": 555,
         "platforms": [
             "Darwin",
             "Linux",
@@ -22276,8 +22154,8 @@
             "svn_url": "https://github.com/whitequark/binja_itanium_cxx_abi",
             "homepage": null,
             "size": 1049,
-            "stargazers_count": 63,
-            "watchers_count": 63,
+            "stargazers_count": 64,
+            "watchers_count": 64,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -22304,7 +22182,7 @@
             "visibility": "public",
             "forks": 9,
             "open_issues": 1,
-            "watchers": 63,
+            "watchers": 64,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -22324,7 +22202,7 @@
         "dependencies": "",
         "path": "whitequark_binja_itanium_cxx_abi",
         "commit": "8a9a582243df4785d04bb69ea3a89dd6e1aee91f",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 555,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -22341,7 +22219,6 @@
         "description": "A plugin providing the 16-bit Intel architecture.",
         "version": "0.1",
         "author": "whitequark",
-        "minimumbinaryninjaversion": 555,
         "platforms": [
             "Darwin",
             "Linux",
@@ -22478,7 +22355,7 @@
         "dependencies": "",
         "path": "whitequark_binjai8086",
         "commit": "72b6210ef4587eae5a85df6ba543fc0ef2b4da6f",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 555,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -22495,7 +22372,6 @@
         "longdescription": "The Renesas M16C plugin provides the corresponding architecture for Binary Ninja.\n\nThis plugin decodes all M16C instructions and provides control flow analysis. It also detects with a high degree of confidence, and relocates raw binary M16C ROM dumps.\n\nThis plugin does not currently provide lifting or SFR definitions.",
         "version": "0.1",
         "author": "whitequark",
-        "minimumbinaryninjaversion": 1921,
         "platforms": [
             "Darwin",
             "Linux",
@@ -22636,7 +22512,7 @@
         "dependencies": "",
         "path": "whitequark_binjam16c",
         "commit": "debf368e5df90a96d6c8b0bc128626a9d6834bb4",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1921,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -22662,7 +22538,6 @@
             "Linux"
         ],
         "version": "1.0",
-        "minimumbinaryninjaversion": 1904,
         "lastUpdated": 1606311678,
         "projectUrl": "https://github.com/c3r34lk1ll3r/Instruction_Slicer",
         "projectData": {
@@ -22793,7 +22668,7 @@
         "dependencies": "",
         "path": "c3r34lk1ll3r_Instruction_Slicer",
         "commit": "e960a2a5bdf598c691cfb99baa48788ebef6078d",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1904,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -22825,7 +22700,6 @@
         },
         "version": "1.0.1",
         "author": "Hugo Porcher (@icecr4ck)",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1605619920,
         "projectUrl": "https://github.com/icecr4ck/bnGB",
         "projectData": {
@@ -22957,7 +22831,7 @@
         "dependencies": "",
         "path": "icecr4ck_bnGB",
         "commit": "f098d7906dc72088cb555afded2c8c87cfd13b65",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -22987,7 +22861,6 @@
             "Linux": ""
         },
         "version": "v0.5",
-        "minimumbinaryninjaversion": 3469,
         "lastUpdated": 1654890437,
         "projectUrl": "https://github.com/galenbwill/binaryninja-m68k",
         "projectData": {
@@ -23328,7 +23201,7 @@
         "dependencies": "",
         "path": "galenbwill_binaryninjam68k",
         "commit": "3338725ef57f57b9d9745afd386a76b8cfef9b28",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3469,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -23363,7 +23236,6 @@
         "dependencies": "",
         "version": "1.4",
         "author": "Jan Beck",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1591624575,
         "projectUrl": "https://github.com/janbbeck/CleanTricks",
         "projectData": {
@@ -23489,7 +23361,7 @@
         "view_only": false,
         "path": "janbbeck_CleanTricks",
         "commit": "bf0b8efbc6e27b16e72f26640fef9cc4fd4e3c44",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -23521,7 +23393,6 @@
         },
         "dependencies": "",
         "version": "0.2",
-        "minimumbinaryninjaversion": 0,
         "lastUpdated": 1610977007,
         "projectUrl": "https://github.com/uni-due-syssec/bn-riscv",
         "projectData": {
@@ -23600,8 +23471,8 @@
             "svn_url": "https://github.com/uni-due-syssec/bn-riscv",
             "homepage": "",
             "size": 302,
-            "stargazers_count": 13,
-            "watchers_count": 13,
+            "stargazers_count": 14,
+            "watchers_count": 14,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -23631,7 +23502,7 @@
             "visibility": "public",
             "forks": 6,
             "open_issues": 3,
-            "watchers": 13,
+            "watchers": 14,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -23702,7 +23573,6 @@
         },
         "version": "1.2",
         "author": "SpecterDev",
-        "minimumbinaryninjaversion": 2015,
         "lastUpdated": 1665625261,
         "projectUrl": "https://github.com/Cryptogenic/idc_importer",
         "projectData": {
@@ -23829,7 +23699,7 @@
         "dependencies": "",
         "path": "Cryptogenic_idc_importer",
         "commit": "7224a1f0c86253e52f660f11ccc188bfbffb98d9",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2015,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -23860,7 +23730,6 @@
         },
         "version": "1.1",
         "author": "atxsinn3r",
-        "minimumbinaryninjaversion": 2096,
         "lastUpdated": 1591511295,
         "projectUrl": "https://github.com/atxsinn3r/BinjaHLILDump",
         "projectData": {
@@ -23987,7 +23856,7 @@
         "dependencies": "",
         "path": "atxsinn3r_BinjaHLILDump",
         "commit": "cb21cf15408e23e0fab977cbbd00437266dd0431",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2096,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -24019,7 +23888,6 @@
         "dependencies": "",
         "version": "1.0",
         "author": "lunixbochs",
-        "minimumbinaryninjaversion": 1528,
         "lastUpdated": 1589418636,
         "projectUrl": "https://github.com/lunixbochs/revsync",
         "projectData": {
@@ -24145,7 +24013,7 @@
         "view_only": false,
         "path": "lunixbochs_revsync",
         "commit": "0d4087c73dc146d0142f81a243e56305febd50ea",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1528,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -24176,7 +24044,6 @@
             "Linux": ""
         },
         "version": "1.0.0",
-        "minimumbinaryninjaversion": 1921,
         "lastUpdated": 1583087498,
         "projectUrl": "https://github.com/toolCHAINZ/DUMB",
         "projectData": {
@@ -24303,7 +24170,7 @@
         "dependencies": "",
         "path": "toolCHAINZ_DUMB",
         "commit": "4aa106b0002f11b00349b3fffa3565c19de86d5a",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1921,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -24333,7 +24200,6 @@
             "Linux": "`pip install -r requirements.txt`"
         },
         "version": "1.3.0",
-        "minimumbinaryninjaversion": 2170,
         "lastUpdated": 1712700818,
         "projectUrl": "https://github.com/toolCHAINZ/hexfiles",
         "projectData": {
@@ -24465,7 +24331,7 @@
         "dependencies": "argparse-addons==0.12.0 ; python_version >= \"3.10\" and python_version < \"4.0\"\nbincopy==17.14.5 ; python_version >= \"3.10\" and python_version < \"4.0\"\nhumanfriendly==10.0 ; python_version >= \"3.10\" and python_version < \"4.0\"\npyelftools==0.31 ; python_version >= \"3.10\" and python_version < \"4.0\"\npyreadline3==3.4.1 ; sys_platform == \"win32\" and python_version >= \"3.10\" and python_version < \"4.0\"\n",
         "path": "toolCHAINZ_hexfiles",
         "commit": "b3a1f48e8f740bd8644c56109938a95b9ab08804",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2170,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -24485,7 +24351,7 @@
         },
         "version": "0.5.0",
         "author": "Meador Inge",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2170,
         "lastUpdated": 1593544951,
         "projectUrl": "https://github.com/ivision-research/binjawa",
         "projectData": {
@@ -24637,6 +24503,7 @@
         "dependencies": "wasamole==0.5.0\n",
         "path": "ivisionresearch_binjawa",
         "commit": "9f17b2f77901be78468a57008af5cb055d62a89b",
+        "pluginmetadataversion": 2,
         "maximumBinaryNinjaVersion": 999999,
         "platforms": [],
         "installinstructions": {}
@@ -24671,7 +24538,6 @@
         "dependencies": "",
         "version": "1.1",
         "author": "Layle",
-        "minimumbinaryninjaversion": 1528,
         "lastUpdated": 1593911011,
         "projectUrl": "https://github.com/vtil-project/VTIL-BinaryNinja",
         "projectData": {
@@ -24813,7 +24679,7 @@
         "view_only": false,
         "path": "vtilproject_VTILBinaryNinja",
         "commit": "dc3b55ac068a6c62e50de792c74cacc634bc75c6",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1528,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -24845,7 +24711,6 @@
         "dependencies": "lz4>=3.1.0 ",
         "version": "1.0.0",
         "author": "EliseZeroTwo",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1595425782,
         "projectUrl": "https://github.com/EliseZeroTwo/Switch-Binja-Loader",
         "projectData": {
@@ -24971,7 +24836,7 @@
         "view_only": false,
         "path": "EliseZeroTwo_SwitchBinjaLoader",
         "commit": "9a170fc502bc8bf2748dba94f133524e32113778",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -25002,7 +24867,6 @@
         },
         "dependencies": "z3-solver\n",
         "version": "0.5.0",
-        "minimumbinaryninjaversion": 3500,
         "lastUpdated": 1708789429,
         "projectUrl": "https://github.com/borzacchiello/seninja",
         "projectData": {
@@ -25081,8 +24945,8 @@
             "svn_url": "https://github.com/borzacchiello/seninja",
             "homepage": "",
             "size": 2579,
-            "stargazers_count": 247,
-            "watchers_count": 247,
+            "stargazers_count": 248,
+            "watchers_count": 248,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -25090,7 +24954,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 21,
+            "forks_count": 22,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -25112,9 +24976,9 @@
                 "symbolic-execution"
             ],
             "visibility": "public",
-            "forks": 21,
+            "forks": 22,
             "open_issues": 5,
-            "watchers": 247,
+            "watchers": 248,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -25124,7 +24988,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 21,
+            "network_count": 22,
             "subscribers_count": 11
         },
         "authorUrl": "https://github.com/borzacchiello",
@@ -25133,7 +24997,7 @@
         "view_only": false,
         "path": "borzacchiello_seninja",
         "commit": "eecbb8bffc1baf4e55e5fd0b3395618f30ee7697",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 3500,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -25166,7 +25030,6 @@
         "dependencies": "",
         "version": "1.2",
         "author": "Ben Pottier",
-        "minimumbinaryninjaversion": 4526,
         "lastUpdated": 1695375186,
         "projectUrl": "https://github.com/Rami114/cryptoscan",
         "projectData": {
@@ -25303,7 +25166,7 @@
         "view_only": false,
         "path": "Rami114_cryptoscan",
         "commit": "403f9762c368ef19d25252d16fe3eb5696228aa3",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 4526,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -25334,7 +25197,6 @@
         ],
         "version": "0.1",
         "author": "Francesco Muroni",
-        "minimumbinaryninjaversion": 1200,
         "lastUpdated": 1600725169,
         "projectUrl": "https://github.com/mauronz/binja-emotet",
         "projectData": {
@@ -25460,7 +25322,7 @@
         "view_only": false,
         "path": "mauronz_binjaemotet",
         "commit": "580b5eb73bc9665b15126ee7648dff815df01b48",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 1200,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -25490,7 +25352,6 @@
             "Linux": "Copy to `~/.binaryninja/plugins/` or use Plugin Manager"
         },
         "version": "1.0.1",
-        "minimumbinaryninjaversion": 2170,
         "lastUpdated": 1601588122,
         "projectUrl": "https://github.com/BlackwingHQ/iBoot64Binja",
         "projectData": {
@@ -25643,7 +25504,7 @@
         "dependencies": "",
         "path": "BlackwingHQ_iBoot64Binja",
         "commit": "741b12065f090f53c2fabf17167eafb99b15fc70",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2170,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -25668,7 +25529,6 @@
             "Linux"
         ],
         "version": "1.0.2",
-        "minimumbinaryninjaversion": 2263,
         "lastUpdated": 1615283793,
         "projectUrl": "https://github.com/sum-catnip/logrn",
         "projectData": {
@@ -25800,7 +25660,7 @@
         "dependencies": "",
         "path": "sumcatnip_logrn",
         "commit": "dc0fccfb6fe29a19c2219f668b895a3d23444609",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2263,
         "maximumBinaryNinjaVersion": 999999,
         "installinstructions": {}
     },
@@ -25833,7 +25693,6 @@
         "dependencies": "",
         "version": "1.0",
         "author": "lwerdna",
-        "minimumbinaryninjaversion": 2660,
         "lastUpdated": 1617425565,
         "projectUrl": "https://github.com/lwerdna/call_shellcode",
         "projectData": {
@@ -25959,7 +25818,7 @@
         "view_only": false,
         "path": "lwerdna_call_shellcode",
         "commit": "9757afeaf0b57a38fbbd96116e33fee917fd309a",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2660,
         "maximumBinaryNinjaVersion": 999999
     },
     {
@@ -25991,7 +25850,6 @@
         },
         "dependencies": "capstone\nkeystone-engine\n",
         "version": "1.7",
-        "minimumbinaryninjaversion": 2660,
         "lastUpdated": 1706199641,
         "projectUrl": "https://github.com/lwerdna/keypatch_binja",
         "projectData": {
@@ -26117,7 +25975,7 @@
         "view_only": false,
         "path": "lwerdna_keypatch_binja",
         "commit": "0eed014a0464874e75a316e2b02c78eb2f1e8ea8",
-        "minimumBinaryNinjaVersion": 0,
+        "minimumBinaryNinjaVersion": 2660,
         "maximumBinaryNinjaVersion": 999999
     }
 ]

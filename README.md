@@ -149,7 +149,7 @@
 |[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|Assistant plugin for vulnerability research.|python3|2024-09-07|helper|Apache-2.0|
 |[WASM Plugin](https://github.com/ivision-research/binjawa)|[Meador Inge](https://github.com/ivision-research)|This is a plugin for disassembling and lifting WASM images..|python3|2020-06-30|architecture, binaryview|MIT|
 |[Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|[shareef12](https://github.com/shareef12)|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|python2|2019-08-08|helper|MIT|
-|[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|Official x64dbg plugin for Binary Ninja.|python3|2024-09-15|sync|MIT|
+|[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|Official x64dbg plugin for Binary Ninja.|python3|2024-10-23|sync|MIT|
 |[XNU Sysctl Hunter](https://github.com/xpcmdshell/SysctlHunter)|[actae0n](https://github.com/xpcmdshell)|XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli use.|python3|2021-07-22|helper|MIT|
 |[Xtensa Architecture and ESP8266 Loader](https://github.com/zackorndorff/binja-xtensa)|[Zack Orndorff](https://github.com/zackorndorff)|Xtensa Architecture and ESP8266 Image Loader|python3|2021-08-17|architecture, binaryview|MIT|
 |[YARA Scan](https://github.com/trib0r3/binja-yara)|[trib0r3](https://github.com/trib0r3)|YARA signatures|python3|2020-05-26|binaryview, core|MIT|
