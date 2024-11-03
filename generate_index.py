@@ -212,8 +212,22 @@ def getPluginJson(plugin, shortUrls):
 
     if "api" in data.keys() and isinstance(data["api"], str):
         data["api"] = [data["api"]]
-    if ("minimumbinaryninjaversion" not in data or not isinstance(data["minimumbinaryninjaversion"], int)) or ("minimumBinaryNinjaVersion" not in data or not isinstance(data["minimumBinaryNinjaVersion"], int)):
+
+    if "minimumbinaryninjaversion" in data:
+        if not isinstance(data["minimumbinaryninjaversion"], int):
+            data["minimumBinaryNinjaVersion"] = 0
+        else:
+            data["minimumBinaryNinjaVersion"] = data["minimumbinaryninjaversion"]
+        del data["minimumbinaryninjaversion"]
+    elif "minimumBinaryNinjaVersion" in data:
+        if not isinstance(data["minimumBinaryNinjaVersion"], int):
+            data["minimumBinaryNinjaVersion"] = 0
+    else:
         data["minimumBinaryNinjaVersion"] = 0
+
+    if "pluginmetadataversion" not in data:
+        data["pluginmetadataversion"] = 2  # For any plugin to use v3+ schema features, they need to set this
+
     if ("maximumBinaryNinjaVersion" not in data or not isinstance(data["maximumBinaryNinjaVersion"], int)):
         data["maximumBinaryNinjaVersion"] = 999999
     if "platforms" not in data:
