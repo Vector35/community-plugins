@@ -69,7 +69,7 @@
 |[GameCube DOL](https://github.com/PistonMiner/binaryninja-gc-dol)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|GameCube DOL file BinaryView|python3|2021-07-08|binaryview|MIT|
 |[GameCube symbol map loader](https://github.com/PistonMiner/binaryninja-gc-load-map)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|GameCube symbol map loader|python3|2021-07-08|helper|MIT|
 |[GEF-Binja](https://github.com/hugsy/gef-binja)|[hugsy](https://github.com/hugsy)|Interface Binary Ninja with GDB-GEF easily.|python3|2020-05-18|helper, ui|MIT|
-|[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|SEGA Megadrive/Genesis ROM Hacking Toolkit|python2|2019-07-23|patch|MIT|
+|[genesis](https://github.com/zznop/bn-genesis)|[zznop](https://github.com/zznop)|SEGA Megadrive/Genesis ROM Hacking Toolkit|python3|2024-11-04|helper, ui|MIT|
 |[Ghinja](https://github.com/Martyx00/ghinja)|[Martin Petran](https://github.com/Martyx00)|Plugin to embed Ghidra Decompiler into Binary Ninja|python3|2022-06-08|ui|Apache-2.0|
 |[Go Calling Convention](https://github.com/PistonMiner/binaryninja-go-callconv)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|Adds the "gocall" calling convention|python3|2023-12-14|helper|MIT|
 |[GO Loader Assist](https://github.com/f0rki/bn-goloader)|[Michael Rodler](https://github.com/f0rki)|Short script that parses go symbol table and renames/creates functions.|python2|2021-02-02|ui|MIT|
