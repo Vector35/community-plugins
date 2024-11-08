@@ -1,5 +1,9 @@
 [
   {
+    "name": "d0mnik/binja_snapshot_manager",
+    "auto_update": true
+  },
+  {
     "name": "psifertex/qsview",
     "auto_update": true
   },
