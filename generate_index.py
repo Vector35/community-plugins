@@ -335,9 +335,9 @@ def main():
                 readme.write(f"|[{plugin['name']}]({plugin['projectUrl']})"
                     f"|[{plugin['author']}]({plugin['authorUrl']})"
                     f"|{plugin['description']}"
-                    f"|{api}"  # API type
                     f"|{datetime.fromtimestamp(plugin['lastUpdated']).date()}"
                     f"|{', '.join(sorted(plugin['type']))}"
+                    f"|{api}"  # API type
                     f"|{plugin['license']['name']}|\n")
             readme.write(info)
 
