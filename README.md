@@ -7,6 +7,7 @@
 |[Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|[Xusheng](https://github.com/xusheng6)|Add xref from caller to callee based on XFG hashes|python3|2023-06-11|helper|MIT|
 |[AMD-SP/PSP Loader](https://github.com/dayzerosec/AMD-SP-Loader)|[dayzerosec](https://github.com/dayzerosec)|Loader for AMD-SP or PSP firmware binaries.|python3|2023-01-29|binaryview|MIT|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|A plugin that annotates function arguments.|python2|2019-07-09|binaryview|MIT|
+|[Apple Blocks](https://github.com/droe/binja-blocks)|[Daniel Roethlisberger](https://github.com/droe)|Annotation of Apple libclosure blocks.|python3|2024-11-25|helper|MIT|
 |[Ariadne](https://github.com/seeinglogic/ariadne)|[Mark Griffin (@seeinglogic)](https://github.com/seeinglogic)|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|python3|2023-05-24|helper, ui|MIT|
 |[Auto Enum](https://github.com/junron/auto-enum)|[Lam Jun Rong](https://github.com/junron)|Automatically set enums for standard functions|python3|2024-10-15|helper|MIT|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|Various auto analysis utilities|python3|2020-12-12|helper|MIT|
@@ -38,7 +39,7 @@
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|python3|2020-06-08|architecture, binaryview, core, helper, ui|MIT|
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|Binary Ninja comments viewer|python3|2022-05-27|ui|MIT|
 |[CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|[moval0x1](https://github.com/moval0x1)|Show comments and symbols renamed during the analysis process.|python3|2024-02-20|binaryview, ui|MIT|
-|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|rust|2024-10-21|helper|AGPLv3|
+|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|rust|2024-11-24|helper|AGPLv3|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|A plugin to detect several common crypto constructs and magic vars.|python2|2023-09-22|binaryview, ui|MIT|
 |[ctypes Export](https://github.com/jordan9001/ctypes_export)|[Jordan Whitehead](https://github.com/jordan9001)|Export types definitions as ctypes structures|python3|2024-06-24|helper|MIT|
 |[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|Load old COFF .dbg files as well as CAB-ed .db_ files!|python3|2021-11-15|helper|MIT|
