@@ -1,5 +1,9 @@
 [
   {
+    "name": "valters-tomsons/bninja-ps3",
+    "auto_update": true
+  },
+  {
     "name": "droe/binja-blocks",
     "auto_update": true
   },
