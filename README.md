@@ -7,7 +7,7 @@
 |[Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|[Xusheng](https://github.com/xusheng6)|Add xref from caller to callee based on XFG hashes|2023-06-11|helper|python3|MIT|
 |[AMD-SP/PSP Loader](https://github.com/dayzerosec/AMD-SP-Loader)|[dayzerosec](https://github.com/dayzerosec)|Loader for AMD-SP or PSP firmware binaries.|2023-01-29|binaryview|python3|MIT|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|A plugin that annotates function arguments.|2019-07-09|binaryview|python2|MIT|
-|[Apple Blocks](https://github.com/droe/binja-blocks)|[Daniel Roethlisberger](https://github.com/droe)|Annotation of Apple libclosure blocks.|2024-11-26|helper|python3|MIT|
+|[Apple Blocks](https://github.com/droe/binja-blocks)|[Daniel Roethlisberger](https://github.com/droe)|Annotation of Apple libclosure blocks.|2024-11-29|helper|python3|MIT|
 |[Ariadne](https://github.com/seeinglogic/ariadne)|[Mark Griffin (@seeinglogic)](https://github.com/seeinglogic)|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|2023-05-24|helper, ui|python3|MIT|
 |[Auto Enum](https://github.com/junron/auto-enum)|[Lam Jun Rong](https://github.com/junron)|Automatically set enums for standard functions|2024-10-15|helper|python3|MIT|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|Various auto analysis utilities|2020-12-12|helper|python3|MIT|
@@ -19,7 +19,7 @@
 |[Binja IPython console](https://github.com/skr0x1c0/ipybinja)|[skr0x1c0](https://github.com/skr0x1c0)|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|python3|MIT|
 |[Binja Snapshot Manager](https://github.com/d0mnik/binja_snapshot_manager)|[d0minik](https://github.com/d0mnik)|Binary Ninja plugin to take and manage database snapshots|2024-10-30|helper|python3|AGPL-3.0|
 |[binja-doc-lookup](https://github.com/riskydissonance/binja-doc-lookup)|[riskydissonance](https://github.com/riskydissonance)|Lookup documentation for the selected token|2024-06-20|helper, ui|python3|MIT|
-|[binja-ps3](https://github.com/valters-tomsons/bninja-ps3)|[Valters Tomsons](https://github.com/valters-tomsons)|Playstation 3 ELF loader|2024-11-26|binaryview|python3|MIT|
+|[binja-ps3](https://github.com/valters-tomsons/bninja-ps3)|[faith](https://github.com/valters-tomsons)|Playstation 3 ELF loader|2024-11-28|binaryview|python3|MIT|
 |[binja-win-docs](https://github.com/matteyeux/binja-win-docs)|[matteyeux](https://github.com/matteyeux)|Binary Ninja plugin to display the documentation of a Windows function in a sidebar widget.|2024-04-11|helper, ui|python3|Apache-2.0|
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|Generate and find signatures.|2023-01-29|architecture, binaryview, core, ui|python3|MIT|
 |[BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|[moval0x1](https://github.com/moval0x1)|Export notations from Binja to x64dbg|2024-02-20|binaryview|python3|MIT|
@@ -40,7 +40,7 @@
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|2020-06-08|architecture, binaryview, core, helper, ui|python3|MIT|
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|Binary Ninja comments viewer|2022-05-27|ui|python3|MIT|
 |[CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|[moval0x1](https://github.com/moval0x1)|Show comments and symbols renamed during the analysis process.|2024-02-20|binaryview, ui|python3|MIT|
-|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2024-11-24|helper|rust|AGPLv3|
+|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2024-11-29|helper|rust|AGPLv3|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|A plugin to detect several common crypto constructs and magic vars.|2023-09-22|binaryview, ui|python2|MIT|
 |[ctypes Export](https://github.com/jordan9001/ctypes_export)|[Jordan Whitehead](https://github.com/jordan9001)|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT|
 |[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|Load old COFF .dbg files as well as CAB-ed .db_ files!|2021-11-15|helper|python3|MIT|
@@ -136,7 +136,7 @@
 |[semgrep-bn](https://github.com/interruptlabs/semgrep_bn)|[Samman Palihapitiya](https://github.com/interruptlabs)|Search code with Semgrep|2024-04-10|helper|python3|MIT|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|Symbolic execution plugin for BinaryNinja|2024-02-24|helper|python3|2-Clause BSD|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|python3|MIT|
-|[Shellcoder](https://github.com/0xricksanchez/Shellcoder)|[434b](https://github.com/0xricksanchez)|Interactive shellcode disassembler/assembler|2024-07-31|helper|python3|Apache 2.0|
+|[Shellcoder](https://github.com/0xricksanchez/Shellcoder)|[434b](https://github.com/0xricksanchez)|Interactive shellcode disassembler/assembler|2024-11-28|helper|python3|Apache 2.0|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|Synchronized source code pane for debug binaries|2019-07-15|helper, ui|python2|MIT|
 |[Swift Demangler](https://github.com/saagarjha/binja-swift-demangler)|[Saagar Jha](https://github.com/saagarjha)|Demangles Swift functions.|2023-09-15|architecture, binaryview, core, helper, ui|python3|MIT|
 |[Switch Loader](https://github.com/EliseZeroTwo/Switch-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|Loader for common Nintendo Switch binaries|2020-07-22|binaryview, helper|python3|ISC|
