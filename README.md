@@ -7,7 +7,7 @@
 |[Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|[Xusheng](https://github.com/xusheng6)|Add xref from caller to callee based on XFG hashes|2023-06-11|helper|python3|MIT|
 |[AMD-SP/PSP Loader](https://github.com/dayzerosec/AMD-SP-Loader)|[dayzerosec](https://github.com/dayzerosec)|Loader for AMD-SP or PSP firmware binaries.|2023-01-29|binaryview|python3|MIT|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|A plugin that annotates function arguments.|2019-07-09|binaryview|python2|MIT|
-|[Apple Blocks](https://github.com/droe/binja-blocks)|[Daniel Roethlisberger](https://github.com/droe)|Annotation of Apple libclosure blocks.|2024-11-29|helper|python3|MIT|
+|[Apple Blocks](https://github.com/droe/binja-blocks)|[Daniel Roethlisberger](https://github.com/droe)|Annotation of Apple libclosure blocks.|2024-12-01|helper|python3|MIT|
 |[Ariadne](https://github.com/seeinglogic/ariadne)|[Mark Griffin (@seeinglogic)](https://github.com/seeinglogic)|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|2023-05-24|helper, ui|python3|MIT|
 |[Auto Enum](https://github.com/junron/auto-enum)|[Lam Jun Rong](https://github.com/junron)|Automatically set enums for standard functions|2024-10-15|helper|python3|MIT|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|Various auto analysis utilities|2020-12-12|helper|python3|MIT|
