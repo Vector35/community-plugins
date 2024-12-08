@@ -1,5 +1,9 @@
 [
   {
+    "name": "xorhex/binjaextras",
+    "auto_uodate": true
+  },
+  {
     "name": "valters-tomsons/bninja-ps3",
     "auto_update": true
   },
