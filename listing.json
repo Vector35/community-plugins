@@ -1,5 +1,9 @@
 [
   {
+    "name": "redballoonsecurity/permap",
+    "auto_update": true
+  },
+  {
     "name": "xorhex/binjaextras",
     "auto_update": true
   },
