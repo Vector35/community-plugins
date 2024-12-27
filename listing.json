@@ -1,5 +1,9 @@
 [
   {
+    "name": "CouleeApps/bn_inspectors",
+    "auto_update": true
+  },
+  {
     "name": "redballoonsecurity/permap",
     "auto_update": true
   },
