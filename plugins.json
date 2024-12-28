@@ -185,7 +185,7 @@
             "Linux": ""
         },
         "version": "4.2",
-        "lastUpdated": 1735343304,
+        "lastUpdated": 1735361699,
         "projectUrl": "https://github.com/CouleeApps/bn_inspectors",
         "projectData": {
             "id": 784917133,
@@ -255,8 +255,8 @@
             "releases_url": "https://api.github.com/repos/CouleeApps/bn_inspectors/releases{/id}",
             "deployments_url": "https://api.github.com/repos/CouleeApps/bn_inspectors/deployments",
             "created_at": "2024-04-10T20:23:31Z",
-            "updated_at": "2024-12-27T23:48:24+00:00",
-            "pushed_at": "2024-12-27T23:48:24Z",
+            "updated_at": "2024-12-28T04:54:59+00:00",
+            "pushed_at": "2024-12-28T04:54:59Z",
             "git_url": "git://github.com/CouleeApps/bn_inspectors.git",
             "ssh_url": "git@github.com:CouleeApps/bn_inspectors.git",
             "clone_url": "https://github.com/CouleeApps/bn_inspectors.git",
@@ -305,12 +305,12 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/CouleeApps",
-        "packageUrl": "https://api.github.com/repos/CouleeApps/bn_inspectors/zipball/refs/tags/0.1",
-        "packageShortUrl": "https://v35.us/91gsj1x",
+        "packageUrl": "https://api.github.com/repos/CouleeApps/bn_inspectors/zipball/refs/tags/0.1.1",
+        "packageShortUrl": "https://v35.us/g4hep4t",
         "view_only": false,
         "dependencies": "",
         "path": "CouleeApps_bn_inspectors",
-        "commit": "3065947341362074879445399134309214962691",
+        "commit": "718fffca2df93bd301e225e00c3dbbe9191009de",
         "minimumBinaryNinjaVersion": 6455,
         "maximumBinaryNinjaVersion": 999999
     },

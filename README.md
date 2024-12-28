@@ -26,7 +26,7 @@
 |[binjaextras](https://github.com/xorhex/binjaextras)|[xorhex](https://github.com/xorhex)|Various features to make windows malware analysis easier.|2024-12-08|helper|python3|MIT|
 |[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2024-11-05|sync|python3|BSD 2-clause|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0|
-|[BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|[Glenn Smith](https://github.com/CouleeApps)|Sidebar inspectors for debugging Binary Ninja itself|2024-12-27|helper, ui|python3|MIT|
+|[BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|[Glenn Smith](https://github.com/CouleeApps)|Sidebar inspectors for debugging Binary Ninja itself|2024-12-28|helper, ui|python3|MIT|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|python3|MIT|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|RISC-V architecture plugin.|2021-01-18|architecture|python2|Apache-2.0|
 |[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|Helper plugin for analyzing UEFI firmware|2023-04-28|helper|python3|MIT|
