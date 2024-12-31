@@ -27,7 +27,9 @@ def getfile(url):
     return requests.get(url, headers={'Authorization': f'token {token}'})
 
 
-def getPluginJson(plugin, shortUrls):
+def getPluginJson(plugin, shortUrls, debug=False):
+    if debug:
+        print(f"Processing plugin: {plugin['name']}")
     if "site" in plugin:
         pluginsJson = getfile(plugin["site"]).json()
         for plugin in pluginsJson:
@@ -133,11 +135,13 @@ def getPluginJson(plugin, shortUrls):
         else:
             pluginjson = f"{projectUrl}/contents/plugin.json?ref={plugin['tag']}"
     try:
+        if debug:
+            print(f"Getting plugin.json from {pluginjson}")
         content = getfile(pluginjson).json()['content']
         try:
             data = json.loads(base64.b64decode(content))
         except:
-            print(f"\n\nInvalid json when parsing {pluginjson}.\n")
+            print(f"\n\nInvalid json when parsing {pluginjson}\n")
             raise
         if ('longdescription' in data and len(data['longdescription']) < 100) or ('longdescription' not in data):
             try:
@@ -239,6 +243,8 @@ def getPluginJson(plugin, shortUrls):
     # Native plugins require this version to not produce error logs.
     if view_only and data["minimumBinaryNinjaVersion"] < 6135:
         data["minimumBinaryNinjaVersion"] = 6135
+    if debug:
+        print(f"Finished processing plugin: {plugin['name']}")
     return data
 
 
@@ -249,6 +255,8 @@ def main():
     parser.add_argument("-r", "--readmeskip", action="store_true", default=False,
         help="Skip generating a README.md")
     parser.add_argument("-l", "--listing", action="store", default="listing.json")
+    parser.add_argument("-d", "--debug", action="store_true", default=False,
+        help="Debugging output")
     parser.add_argument("token")
     args = parser.parse_args(sys.argv[1:])
     global token
@@ -270,7 +278,7 @@ def main():
     listing = json.load(open(args.listing, "r", encoding="utf-8"))
     for i, plugin in enumerate(listing):
         printProgressBar(i, len(listing), prefix="Collecting Plugin JSON files:")
-        jsonData = getPluginJson(plugin, shortUrls)
+        jsonData = getPluginJson(plugin, shortUrls, debug=args.debug)
         if jsonData is not None:
             allPlugins[plugin["name"]] = jsonData
     printProgressBar(len(listing), len(listing), prefix="Collecting Plugin JSON files:")
