@@ -7,7 +7,7 @@
 |[Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|[Xusheng](https://github.com/xusheng6)|Add xref from caller to callee based on XFG hashes|2023-06-11|helper|python3|MIT|
 |[AMD-SP/PSP Loader](https://github.com/dayzerosec/AMD-SP-Loader)|[dayzerosec](https://github.com/dayzerosec)|Loader for AMD-SP or PSP firmware binaries.|2023-01-29|binaryview|python3|MIT|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|A plugin that annotates function arguments.|2019-07-09|binaryview|python2|MIT|
-|[Apple Blocks](https://github.com/droe/binja-blocks)|[Daniel Roethlisberger](https://github.com/droe)|Annotation of Apple libclosure blocks.|2024-12-26|helper|python3|MIT|
+|[Apple Blocks](https://github.com/droe/binja-blocks)|[Daniel Roethlisberger](https://github.com/droe)|Annotation of Apple libclosure blocks.|2024-12-31|helper|python3|MIT|
 |[Ariadne](https://github.com/seeinglogic/ariadne)|[Mark Griffin (@seeinglogic)](https://github.com/seeinglogic)|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|2023-05-24|helper, ui|python3|MIT|
 |[Auto Enum](https://github.com/junron/auto-enum)|[Lam Jun Rong](https://github.com/junron)|Automatically set enums for standard functions|2024-10-15|helper|python3|MIT|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|Various auto analysis utilities|2020-12-12|helper|python3|MIT|
@@ -148,7 +148,6 @@
 |[Tag Team](https://github.com/psifertex/tagteam)|[psifertex](https://github.com/psifertex)|Tags functions using emoji for a number of interesting characteristics|2021-03-12|helper|python3|Apache-2.0|
 |[TE Loader](https://github.com/zznop/te-loader)|[Brandon Miller](https://github.com/zznop)|Binary Ninja plugin for loading EFI Terse Executable files|2024-02-28|architecture|python3|MIT|
 |[themida-unmutate-bn](https://github.com/ergrelet/themida-unmutate-bn)|[Erwan Grelet](https://github.com/ergrelet)|Static deobfuscator for Themida, WinLicense and Code Virtualizer 3.x's mutation-based obfuscation.|2024-07-28|helper|python3|GPL-3.0-or-later|
-|[Type Oxidizer](https://github.com/austinzwile/TypeOxidizer)|[austinzwile / azw](https://github.com/austinzwile)|TypeOxidizer converts the C-Style types in your HLIL / decompilation to their Rust equivalents for easier reading / interpretation and shorter decompilation.|2024-12-28|binaryview, helper, ui|python3|MIT|
 |[TypeLib Exporter](https://github.com/SmoothHacker/TypeLib-Exporter)|[SmoothHacker](https://github.com/SmoothHacker)|This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.|2022-10-15|binaryview, helper, ui|python3|MIT|
 |[UniSymbol](https://github.com/redthing1/binja_unisymbol)|[redthing1](https://github.com/redthing1)|Import/Export symbols from/to IDA, Ghidra, and Binary Ninja|2024-09-07|binaryview, ui|None|MIT|
 |[VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|[verylazyguy](https://github.com/verylazyguy)|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|python2|MIT|
