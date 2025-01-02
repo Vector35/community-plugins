@@ -26,7 +26,7 @@
 |[binjaextras](https://github.com/xorhex/binjaextras)|[xorhex](https://github.com/xorhex)|Various features to make windows malware analysis easier.|2024-12-08|helper|python3|MIT|
 |[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2024-11-05|sync|python3|BSD 2-clause|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0|
-|[BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|[Glenn Smith](https://github.com/CouleeApps)|Sidebar inspectors for debugging Binary Ninja itself|2024-12-28|helper, ui|python3|MIT|
+|[BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|[Glenn Smith](https://github.com/CouleeApps)|Sidebar inspectors for debugging Binary Ninja itself|2025-01-02|helper, ui|python3|MIT|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|python3|MIT|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|RISC-V architecture plugin.|2021-01-18|architecture|python2|Apache-2.0|
 |[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|Helper plugin for analyzing UEFI firmware|2023-04-28|helper|python3|MIT|
@@ -52,7 +52,7 @@
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|Find Delphi VMTs and generate their structures|2022-02-21|helper|python3|MIT|
 |[Dependency analyzer](https://github.com/shizmob/binja-depanalyzer)|[Shiz](https://github.com/shizmob)|Analyze dependencies and resolve obfuscated imports|2020-05-25|helper|python2|MIT|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|helper, ui|python3|MIT|
-|[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2024-10-01|helper, ui|python3|LGPL-2.1|
+|[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2025-01-01|helper, ui|python3|LGPL-2.1|
 |[Discord Integration](https://github.com/psifertex/discordpresence)|[psifertex](https://github.com/psifertex)|Enables Discord Rich Presence Integration for Binary Ninja|2024-01-09|helper|python3|MIT|
 |[Dixie](https://github.com/3Flatline/DixieBinjaPlugin)|[3Flatline LLC](https://github.com/3Flatline)|Uses Dixie code scanner to find vulnerabilities using the Binary Ninja C representation|2024-04-02|ui|python3|MIT|
 |[droog](https://github.com/amtal/droog)|[amtal](https://github.com/amtal)|PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's "Processor Manual..." right-click menu.|2024-06-24|helper|python3|AGPL-3.0|
