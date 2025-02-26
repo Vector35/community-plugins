@@ -1,5 +1,9 @@
 [
   {
+    "name": "austinzwile/TypeOxidizer",
+    "auto_update": true
+  },
+  {
     "name": "otter-sec/bn-ebpf-solana",
     "auto_update": true
   },
