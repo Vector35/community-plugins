@@ -52,7 +52,7 @@
 |[Delphi Mapper](https://github.com/CTM1/BinjaDelphiMapper)|[Claudio Teixeira](https://github.com/CTM1)|A plugin that renames Delphi functions according to a .map file produced by IDR.|2024-01-11|binaryview|python2|MIT|
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|Find Delphi VMTs and generate their structures|2022-02-21|helper|python3|MIT|
 |[Dependency analyzer](https://github.com/shizmob/binja-depanalyzer)|[Shiz](https://github.com/shizmob)|Analyze dependencies and resolve obfuscated imports|2020-05-25|helper|python2|MIT|
-|[Dev Tools for Tantō](https://github.com/ElykDeer/tanto-devtools)|[Elykdeer](https://github.com/ElykDeer)|Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tantō.|2025-03-11|helper, ui|python3|MIT|
+|[Dev Tools for Tantō](https://github.com/ElykDeer/tanto-devtools)|[Elykdeer](https://github.com/ElykDeer)|Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tantō.|2025-03-13|helper, ui|python3|MIT|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|helper, ui|python3|MIT|
 |[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2025-01-01|helper, ui|python3|LGPL-2.1|
 |[Discord Integration](https://github.com/psifertex/discordpresence)|[psifertex](https://github.com/psifertex)|Enables Discord Rich Presence Integration for Binary Ninja|2024-01-09|helper|python3|MIT|
