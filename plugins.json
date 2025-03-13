@@ -1,6 +1,159 @@
 [
     {
         "pluginmetadataversion": 2,
+        "name": "Dev Tools for Tant\u014d",
+        "type": [
+            "ui",
+            "helper"
+        ],
+        "api": [
+            "python3"
+        ],
+        "description": "Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tant\u014d.",
+        "longdescription": "# Dev Tools for Tant\u014d\nAuthor: **ElykDeer**\n\n## Description:\nInstruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires [Tant\u014d](https://github.com/Vector35/tanto).\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4.0.5336\n\n## License\n\nThis plugin has been released under the [MIT license](./license.txt).\n\n## Metadata Version\n\n2\n",
+        "license": {
+            "name": "MIT",
+            "text": "Copyright (c) 2024-2025 Elykdeer\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+        },
+        "platforms": [
+            "Darwin",
+            "Linux",
+            "Windows"
+        ],
+        "dependencies": "",
+        "version": "1.0.0",
+        "author": "Elykdeer",
+        "lastUpdated": 1741661849,
+        "projectUrl": "https://github.com/ElykDeer/tanto-devtools",
+        "projectData": {
+            "id": 946279002,
+            "node_id": "R_kgDOOGcSWg",
+            "name": "tanto-devtools",
+            "full_name": "ElykDeer/tanto-devtools",
+            "private": false,
+            "owner": {
+                "login": "ElykDeer",
+                "id": 7171118,
+                "node_id": "MDQ6VXNlcjcxNzExMTg=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/7171118?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ElykDeer",
+                "html_url": "https://github.com/ElykDeer",
+                "followers_url": "https://api.github.com/users/ElykDeer/followers",
+                "following_url": "https://api.github.com/users/ElykDeer/following{/other_user}",
+                "gists_url": "https://api.github.com/users/ElykDeer/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/ElykDeer/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/ElykDeer/subscriptions",
+                "organizations_url": "https://api.github.com/users/ElykDeer/orgs",
+                "repos_url": "https://api.github.com/users/ElykDeer/repos",
+                "events_url": "https://api.github.com/users/ElykDeer/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/ElykDeer/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/ElykDeer/tanto-devtools",
+            "description": "Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs",
+            "fork": false,
+            "url": "https://api.github.com/repos/ElykDeer/tanto-devtools",
+            "forks_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/forks",
+            "keys_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/teams",
+            "hooks_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/hooks",
+            "issue_events_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/events",
+            "assignees_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/tags",
+            "blobs_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/languages",
+            "stargazers_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/stargazers",
+            "contributors_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/contributors",
+            "subscribers_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/subscribers",
+            "subscription_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/subscription",
+            "commits_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/merges",
+            "archive_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/downloads",
+            "issues_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/ElykDeer/tanto-devtools/deployments",
+            "created_at": "2025-03-10T22:29:05Z",
+            "updated_at": "2025-03-11T02:57:29+00:00",
+            "pushed_at": "2025-03-11T02:57:29Z",
+            "git_url": "git://github.com/ElykDeer/tanto-devtools.git",
+            "ssh_url": "git@github.com:ElykDeer/tanto-devtools.git",
+            "clone_url": "https://github.com/ElykDeer/tanto-devtools.git",
+            "svn_url": "https://github.com/ElykDeer/tanto-devtools",
+            "homepage": "https://github.com/Vector35/tanto",
+            "size": 3,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "Python",
+            "has_issues": true,
+            "has_projects": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "has_discussions": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "archived": false,
+            "disabled": false,
+            "open_issues_count": 0,
+            "license": {
+                "key": "mit",
+                "name": "MIT License",
+                "spdx_id": "MIT",
+                "url": "https://api.github.com/licenses/mit",
+                "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "allow_forking": true,
+            "is_template": false,
+            "web_commit_signoff_required": false,
+            "topics": [],
+            "visibility": "public",
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "main",
+            "permissions": {
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
+                "pull": true
+            },
+            "temp_clone_token": "",
+            "network_count": 0,
+            "subscribers_count": 1
+        },
+        "authorUrl": "https://github.com/ElykDeer",
+        "packageUrl": "https://api.github.com/repos/ElykDeer/tanto-devtools/zipball/refs/tags/1.0.0",
+        "packageShortUrl": "https://v35.us/dyf44nu",
+        "view_only": false,
+        "path": "ElykDeer_tantodevtools",
+        "commit": "41a219b7fbde34dfa03c7b98bee6cac89751dfc2",
+        "minimumBinaryNinjaVersion": 5336,
+        "maximumBinaryNinjaVersion": 999999,
+        "installinstructions": {}
+    },
+    {
+        "pluginmetadataversion": 2,
         "name": "Type Oxidizer",
         "type": [
             "ui",
@@ -168,7 +321,7 @@
             "python3"
         ],
         "description": "An architecture/binaryview plugin for Solana EBPF.",
-        "longdescription": "See our [introductory blog post](https://osec.io/blog/tutorials/2022-08-27-reverse-engineering-solana/). **Instruction lifting!** ![](/assets/lift.png) **Solana SDK Structures!** ![](/assets/struct.png) ## Features - **Instruction Lifting**: All EBPF instructions are lifted to LLIL - **Accurate Memory Maps**: We implement Solana-specific memory maps (0x{1/2/3/4}00000000 addresses for data/stack/heap/input) - **Solana ELF Relocations**: Solana-specific ELF relocations - **Syscall Function Signatures**: Full signatures for all of the Solana syscalls - **(partial) Solana SDK Types**: Type definitions for all Solana SDK objects. (fully complete for C, in-progress for Rust)",
+        "longdescription": "# bn-ebpf-solana\n\nA pure-python Binary Ninja plugin for Solana EBPF.\n\n## Installation\n\nAvailable in Binja's plugin manager inside of `Plugins > Manage Plugins`\n\n## Manual installation (advanced)\n\nThis is only needed if you wish to tinker with the plugin to modify it.\n\nClone this [repo](https://github.com/otter-sec/bn-ebpf-solana) in your Binja `plugins` folder, located in the [user folder](https://docs.binary.ninja/guide/index.html#user-folder).\n\nNow install the requirements :\n- either by running `Install python3 module` in Binja's `command palette` (Ctrl + P) and install `lief`\n- or by going to the [user folder](https://docs.binary.ninja/guide/index.html#user-folder) and installing `lief` within the `venv` enviroment using:\n\n```\npip install lief\n```\n\nCurrently tested on `lief@0.16.2-d4900dab`\n\nSee our [introductory blog post](https://osec.io/blog/tutorials/2022-08-27-reverse-engineering-solana/).\n\n**Instruction lifting!**\n![](/assets/lift.png)\n\n**Solana SDK Structures!**\n![](/assets/struct.png)\n\n\n\nCopy this directory into your Binary Ninja plugins folder and restart.\n\n## Features\n\n- **Instruction Lifting**: All EBPF instructions are lifted to LLIL\n- **Accurate Memory Maps**: We implement Solana-specific memory maps (0x{1/2/3/4}00000000 addresses for data/stack/heap/input)\n- **Solana ELF Relocations**: Solana-specific ELF relocations\n- **Syscall Function Signatures**: Full signatures for all of the Solana syscalls\n- **(partial) Solana SDK Types**: Type definitions for all Solana SDK objects. (fully complete for C, in-progress for Rust)\n\n_TODO:_\n\n- **Solana SDK Signature Matching**: Automatically match common Solana SDK functions.\n\n## Debugging\n\n```\n[ScriptingProvider] ModuleNotFoundError: No module named 'lief'\n```\n\nIs `lief` installed?\n\nRun the following in the Binja python console\n\n```python\nimport lief\nlief.__version__\n```\n\nIf you get an error, refer to the **Installation** section\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2022 OtterSec LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -186,7 +339,7 @@
         },
         "version": "1.0.2",
         "author": "OtterSec LLC",
-        "lastUpdated": 1738113796,
+        "lastUpdated": 1741228251,
         "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
         "projectData": {
             "id": 507802890,
@@ -256,16 +409,16 @@
             "releases_url": "https://api.github.com/repos/otter-sec/bn-ebpf-solana/releases{/id}",
             "deployments_url": "https://api.github.com/repos/otter-sec/bn-ebpf-solana/deployments",
             "created_at": "2022-06-27T07:17:16Z",
-            "updated_at": "2025-01-29T01:23:16+00:00",
-            "pushed_at": "2025-02-15T13:59:23Z",
+            "updated_at": "2025-03-06T02:30:51+00:00",
+            "pushed_at": "2025-03-06T02:30:51Z",
             "git_url": "git://github.com/otter-sec/bn-ebpf-solana.git",
             "ssh_url": "git@github.com:otter-sec/bn-ebpf-solana.git",
             "clone_url": "https://github.com/otter-sec/bn-ebpf-solana.git",
             "svn_url": "https://github.com/otter-sec/bn-ebpf-solana",
             "homepage": null,
             "size": 637,
-            "stargazers_count": 159,
-            "watchers_count": 159,
+            "stargazers_count": 161,
+            "watchers_count": 161,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -273,7 +426,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 18,
+            "forks_count": 17,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -290,9 +443,9 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 18,
+            "forks": 17,
             "open_issues": 0,
-            "watchers": 159,
+            "watchers": 161,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -324,15 +477,15 @@
                 "user_view_type": "public",
                 "site_admin": false
             },
-            "network_count": 18,
+            "network_count": 17,
             "subscribers_count": 10
         },
         "authorUrl": "https://github.com/otter-sec",
-        "packageUrl": "https://api.github.com/repos/otter-sec/bn-ebpf-solana/zipball/refs/tags/1.0.2",
-        "packageShortUrl": "https://v35.us/ijvegzk",
+        "packageUrl": "https://api.github.com/repos/otter-sec/bn-ebpf-solana/zipball/refs/tags/1.0.3",
+        "packageShortUrl": "https://v35.us/bxdi0ez",
         "view_only": false,
         "path": "ottersec_bnebpfsolana",
-        "commit": "8edbae94bcb91d7cb9646204a410d0b342119bea",
+        "commit": "030d52fd3cd93b9ca16f883b9e091ab21683ef47",
         "minimumBinaryNinjaVersion": 3164,
         "maximumBinaryNinjaVersion": 999999
     },
@@ -598,8 +751,8 @@
             "svn_url": "https://github.com/CouleeApps/bn_inspectors",
             "homepage": null,
             "size": 2096,
-            "stargazers_count": 5,
-            "watchers_count": 5,
+            "stargazers_count": 6,
+            "watchers_count": 6,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -626,7 +779,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 0,
-            "watchers": 5,
+            "watchers": 6,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -1505,7 +1658,7 @@
                 "releases_url": "https://api.github.com/repos/Vector35/sample_plugin/releases{/id}",
                 "deployments_url": "https://api.github.com/repos/Vector35/sample_plugin/deployments",
                 "created_at": "2017-04-11T15:35:58Z",
-                "updated_at": "2025-01-22T08:57:37Z",
+                "updated_at": "2025-03-07T06:29:41Z",
                 "pushed_at": "2023-06-11T09:42:49Z",
                 "git_url": "git://github.com/Vector35/sample_plugin.git",
                 "ssh_url": "git@github.com:Vector35/sample_plugin.git",
@@ -1513,8 +1666,8 @@
                 "svn_url": "https://github.com/Vector35/sample_plugin",
                 "homepage": "",
                 "size": 33,
-                "stargazers_count": 20,
-                "watchers_count": 20,
+                "stargazers_count": 21,
+                "watchers_count": 21,
                 "language": "Python",
                 "has_issues": true,
                 "has_projects": false,
@@ -1543,7 +1696,7 @@
                 "visibility": "public",
                 "forks": 10,
                 "open_issues": 0,
-                "watchers": 20,
+                "watchers": 21,
                 "default_branch": "master",
                 "permissions": {
                     "admin": true,
@@ -1860,8 +2013,8 @@
             "svn_url": "https://github.com/junron/auto-enum",
             "homepage": "",
             "size": 326,
-            "stargazers_count": 382,
-            "watchers_count": 382,
+            "stargazers_count": 387,
+            "watchers_count": 387,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1888,7 +2041,7 @@
             "visibility": "public",
             "forks": 19,
             "open_issues": 0,
-            "watchers": 382,
+            "watchers": 387,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -2119,7 +2272,7 @@
         "dependencies": "",
         "version": "1.0",
         "author": "Martin Petran",
-        "lastUpdated": 1727878529,
+        "lastUpdated": 1741039313,
         "projectUrl": "https://github.com/Martyx00/PowerPC-VLE-Extension",
         "projectData": {
             "id": 790713065,
@@ -2189,7 +2342,7 @@
             "releases_url": "https://api.github.com/repos/Martyx00/PowerPC-VLE-Extension/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Martyx00/PowerPC-VLE-Extension/deployments",
             "created_at": "2024-04-23T11:48:40Z",
-            "updated_at": "2024-10-02T14:15:29+00:00",
+            "updated_at": "2025-03-03T22:01:53+00:00",
             "pushed_at": "2024-10-01T05:18:59Z",
             "git_url": "git://github.com/Martyx00/PowerPC-VLE-Extension.git",
             "ssh_url": "git@github.com:Martyx00/PowerPC-VLE-Extension.git",
@@ -2430,7 +2583,7 @@
         "version": "1.00",
         "author": "unknowntrojan",
         "longdescription": "# binja_coolsigmaker (stable channel)\n\n(**The dev branch now contains the version of the plugin for the binja development update channel.**)\n\n(**master/main will target stable.**)\n\nWe all know signature scanning can be extremely useful. Sadly, the two public offerings for Binja are either very slow, or crash extremely often.\n\nThis is why I wrote this plugin. It's a signature scanning and creating plugin for x86 (more archs are planned!), written in Rust. It's extremely fast, supports multiple signature styles, and works like a charm.\n\n[Blog Post](https://binary.ninja/2024/10/01/plugin-spotlight-coolsigmaker.html)\n\nIt supports 3 styles of signatures. Or 4, if you want to be specific.\n\nTo create a signature, select the instruction you want the signature to point to, then go to `Plugins->CSM - Create Signature`.\n\nThe signature is checked for uniqueness within all executable segments of the binary. `.data` is not considered, so make sure your signature scanning implementation also ignores non-code sections.\n\nTo find a signature, copy the signature to your clipboard in the format you selected in the configuration, and go to `Plugins->CSM - Find Signature`. All occurrences will be in your log.\n\nThese are the settings:\n\n![settings](settings.png)\n\nThis is how it looks to create a signature, then scan for it:\n\n![pattern creation and scanning](sig.png)\n\n## How to install\n\n1. Download the platform-appropriate binary from release section\n2. Place the binary in your Binary Ninja installation's plugin folder\n\nOnce GitHub Actions are set up and a loader plugin has been written, you will be able to install the plugin via the official plugin manager.\n\n## Compiling yourself\n\nThis project requires the nightly channel of Rust.\n\nCheck the blog post above for a step-by-step.\n\nCheckout the branch of the repository matching the channel of binja you are building for.\n\nYou are now one `cargo b` away from greatness.\n",
-        "lastUpdated": 1739724419,
+        "lastUpdated": 1740808382,
         "projectUrl": "https://github.com/unknowntrojan/binja_coolsigmaker",
         "projectData": {
             "id": 642059547,
@@ -2500,7 +2653,7 @@
             "releases_url": "https://api.github.com/repos/unknowntrojan/binja_coolsigmaker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/unknowntrojan/binja_coolsigmaker/deployments",
             "created_at": "2023-05-17T18:21:57Z",
-            "updated_at": "2025-02-16T16:46:59+00:00",
+            "updated_at": "2025-03-01T05:53:02+00:00",
             "pushed_at": "2025-02-14T01:46:28Z",
             "git_url": "git://github.com/unknowntrojan/binja_coolsigmaker.git",
             "ssh_url": "git@github.com:unknowntrojan/binja_coolsigmaker.git",
@@ -2508,8 +2661,8 @@
             "svn_url": "https://github.com/unknowntrojan/binja_coolsigmaker",
             "homepage": "",
             "size": 86,
-            "stargazers_count": 67,
-            "watchers_count": 67,
+            "stargazers_count": 68,
+            "watchers_count": 68,
             "language": "Rust",
             "has_issues": true,
             "has_projects": false,
@@ -2543,7 +2696,7 @@
             "visibility": "public",
             "forks": 8,
             "open_issues": 0,
-            "watchers": 67,
+            "watchers": 68,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -2993,8 +3146,8 @@
             "svn_url": "https://github.com/redthing1/binja_unisymbol",
             "homepage": null,
             "size": 73,
-            "stargazers_count": 2,
-            "watchers_count": 2,
+            "stargazers_count": 3,
+            "watchers_count": 3,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -3021,7 +3174,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 0,
-            "watchers": 2,
+            "watchers": 3,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -3468,8 +3621,8 @@
             "svn_url": "https://github.com/0xricksanchez/Shellcoder",
             "homepage": "https://github.com/0xricksanchez/Shellcoder",
             "size": 251,
-            "stargazers_count": 13,
-            "watchers_count": 13,
+            "stargazers_count": 14,
+            "watchers_count": 14,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -3503,7 +3656,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 0,
-            "watchers": 13,
+            "watchers": 14,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -3646,7 +3799,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 9,
+            "forks_count": 10,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -3663,7 +3816,7 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 9,
+            "forks": 10,
             "open_issues": 3,
             "watchers": 70,
             "default_branch": "main",
@@ -3675,7 +3828,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 9,
+            "network_count": 10,
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/ahaggard2013",
@@ -3958,8 +4111,8 @@
             "svn_url": "https://github.com/leandrofroes/bn_ifl",
             "homepage": null,
             "size": 150,
-            "stargazers_count": 22,
-            "watchers_count": 22,
+            "stargazers_count": 23,
+            "watchers_count": 23,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -3980,7 +4133,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 0,
-            "watchers": 22,
+            "watchers": 23,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -4725,15 +4878,15 @@
             "deployments_url": "https://api.github.com/repos/elbee-cyber/RopView/deployments",
             "created_at": "2024-05-04T20:43:45Z",
             "updated_at": "2025-02-22T14:24:54+00:00",
-            "pushed_at": "2025-02-25T20:56:35Z",
+            "pushed_at": "2025-03-02T01:13:36Z",
             "git_url": "git://github.com/elbee-cyber/RopView.git",
             "ssh_url": "git@github.com:elbee-cyber/RopView.git",
             "clone_url": "https://github.com/elbee-cyber/RopView.git",
             "svn_url": "https://github.com/elbee-cyber/RopView",
             "homepage": "",
-            "size": 101897,
-            "stargazers_count": 56,
-            "watchers_count": 56,
+            "size": 101901,
+            "stargazers_count": 57,
+            "watchers_count": 57,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -4760,7 +4913,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 4,
-            "watchers": 56,
+            "watchers": 57,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -4954,7 +5107,7 @@
                 "site_admin": false
             },
             "network_count": 8,
-            "subscribers_count": 8
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/ivision-research",
         "packageUrl": "https://api.github.com/repos/ivision-research/banjo/zipball/refs/tags/3.1",
@@ -5427,8 +5580,8 @@
             "svn_url": "https://github.com/mrphrazer/reverser_ai",
             "homepage": "",
             "size": 828,
-            "stargazers_count": 883,
-            "watchers_count": 883,
+            "stargazers_count": 897,
+            "watchers_count": 897,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -5436,7 +5589,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 56,
+            "forks_count": 57,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -5453,9 +5606,9 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 56,
+            "forks": 57,
             "open_issues": 3,
-            "watchers": 883,
+            "watchers": 897,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -5465,7 +5618,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 56,
+            "network_count": 57,
             "subscribers_count": 16
         },
         "authorUrl": "https://github.com/mrphrazer",
@@ -5952,7 +6105,7 @@
                 "site_admin": false
             },
             "network_count": 21,
-            "subscribers_count": 11
+            "subscribers_count": 10
         },
         "authorUrl": "https://github.com/x64dbg",
         "packageUrl": "https://api.github.com/repos/x64dbg/x64dbgbinja/zipball/refs/tags/v2.0.5",
@@ -7689,7 +7842,7 @@
                 "releases_url": "https://api.github.com/repos/Vector35/sample_plugin/releases{/id}",
                 "deployments_url": "https://api.github.com/repos/Vector35/sample_plugin/deployments",
                 "created_at": "2017-04-11T15:35:58Z",
-                "updated_at": "2025-01-22T08:57:37Z",
+                "updated_at": "2025-03-07T06:29:41Z",
                 "pushed_at": "2023-06-11T09:42:49Z",
                 "git_url": "git://github.com/Vector35/sample_plugin.git",
                 "ssh_url": "git@github.com:Vector35/sample_plugin.git",
@@ -7697,8 +7850,8 @@
                 "svn_url": "https://github.com/Vector35/sample_plugin",
                 "homepage": "",
                 "size": 33,
-                "stargazers_count": 20,
-                "watchers_count": 20,
+                "stargazers_count": 21,
+                "watchers_count": 21,
                 "language": "Python",
                 "has_issues": true,
                 "has_projects": false,
@@ -7727,7 +7880,7 @@
                 "visibility": "public",
                 "forks": 10,
                 "open_issues": 0,
-                "watchers": 20,
+                "watchers": 21,
                 "default_branch": "master",
                 "permissions": {
                     "admin": true,
@@ -7739,7 +7892,7 @@
                 "temp_clone_token": ""
             },
             "network_count": 2,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/saagarjha",
         "packageUrl": "https://api.github.com/repos/saagarjha/binja-swift-demangler/zipball/refs/tags/v1.0",
@@ -8327,8 +8480,8 @@
             "svn_url": "https://github.com/jonpalmisc/bn-notepad",
             "homepage": "",
             "size": 618,
-            "stargazers_count": 7,
-            "watchers_count": 7,
+            "stargazers_count": 8,
+            "watchers_count": 8,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -8358,7 +8511,7 @@
             "visibility": "public",
             "forks": 2,
             "open_issues": 7,
-            "watchers": 7,
+            "watchers": 8,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -8369,7 +8522,7 @@
             },
             "temp_clone_token": "",
             "network_count": 2,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/jonpalmisc",
         "packageUrl": "https://api.github.com/repos/jonpalmisc/bn-notepad/zipball/refs/tags/v0.4.1",
@@ -8487,8 +8640,8 @@
             "svn_url": "https://github.com/Njord0/BNPyc",
             "homepage": "",
             "size": 181,
-            "stargazers_count": 30,
-            "watchers_count": 30,
+            "stargazers_count": 29,
+            "watchers_count": 29,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -8515,7 +8668,7 @@
             "visibility": "public",
             "forks": 2,
             "open_issues": 0,
-            "watchers": 30,
+            "watchers": 29,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -8807,15 +8960,15 @@
             "deployments_url": "https://api.github.com/repos/binsync/binsync/deployments",
             "created_at": "2019-07-09T15:53:32Z",
             "updated_at": "2025-02-12T06:05:16+00:00",
-            "pushed_at": "2025-02-14T05:37:32Z",
+            "pushed_at": "2025-03-13T01:17:28Z",
             "git_url": "git://github.com/binsync/binsync.git",
             "ssh_url": "git@github.com:binsync/binsync.git",
             "clone_url": "https://github.com/binsync/binsync.git",
             "svn_url": "https://github.com/binsync/binsync",
             "homepage": "https://binsync.net",
-            "size": 11656,
-            "stargazers_count": 617,
-            "watchers_count": 617,
+            "size": 11663,
+            "stargazers_count": 619,
+            "watchers_count": 619,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -8827,7 +8980,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 48,
+            "open_issues_count": 50,
             "license": {
                 "key": "bsd-2-clause",
                 "name": "BSD 2-Clause \"Simplified\" License",
@@ -8849,8 +9002,8 @@
             ],
             "visibility": "public",
             "forks": 41,
-            "open_issues": 48,
-            "watchers": 617,
+            "open_issues": 50,
+            "watchers": 619,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -8883,7 +9036,7 @@
                 "site_admin": false
             },
             "network_count": 41,
-            "subscribers_count": 18
+            "subscribers_count": 17
         },
         "authorUrl": "https://github.com/binsync",
         "packageUrl": "https://api.github.com/repos/binsync/binsync/zipball/refs/tags/v5.3.0",
@@ -9157,8 +9310,8 @@
             "svn_url": "https://github.com/dayzerosec/AMD-SP-Loader",
             "homepage": null,
             "size": 14,
-            "stargazers_count": 32,
-            "watchers_count": 32,
+            "stargazers_count": 34,
+            "watchers_count": 34,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -9166,7 +9319,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 2,
+            "forks_count": 3,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -9183,9 +9336,9 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 2,
+            "forks": 3,
             "open_issues": 0,
-            "watchers": 32,
+            "watchers": 34,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -9217,7 +9370,7 @@
                 "user_view_type": "public",
                 "site_admin": false
             },
-            "network_count": 2,
+            "network_count": 3,
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/dayzerosec",
@@ -9336,8 +9489,8 @@
             "svn_url": "https://github.com/mahaloz/decomp2dbg",
             "homepage": "",
             "size": 4122,
-            "stargazers_count": 640,
-            "watchers_count": 640,
+            "stargazers_count": 645,
+            "watchers_count": 645,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -9349,7 +9502,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 12,
+            "open_issues_count": 13,
             "license": {
                 "key": "bsd-2-clause",
                 "name": "BSD 2-Clause \"Simplified\" License",
@@ -9363,8 +9516,8 @@
             "topics": [],
             "visibility": "public",
             "forks": 40,
-            "open_issues": 12,
-            "watchers": 640,
+            "open_issues": 13,
+            "watchers": 645,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -9375,7 +9528,7 @@
             },
             "temp_clone_token": "",
             "network_count": 40,
-            "subscribers_count": 12
+            "subscribers_count": 11
         },
         "authorUrl": "https://github.com/mahaloz",
         "packageUrl": "https://api.github.com/repos/mahaloz/decomp2dbg/zipball/refs/tags/v3.9.6",
@@ -9494,8 +9647,8 @@
             "svn_url": "https://github.com/cxiao/hashdb_bn",
             "homepage": "",
             "size": 1020,
-            "stargazers_count": 17,
-            "watchers_count": 17,
+            "stargazers_count": 18,
+            "watchers_count": 18,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -9527,7 +9680,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 6,
-            "watchers": 17,
+            "watchers": 18,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -10131,7 +10284,7 @@
                 "releases_url": "https://api.github.com/repos/Vector35/sample_plugin/releases{/id}",
                 "deployments_url": "https://api.github.com/repos/Vector35/sample_plugin/deployments",
                 "created_at": "2017-04-11T15:35:58Z",
-                "updated_at": "2025-01-22T08:57:37Z",
+                "updated_at": "2025-03-07T06:29:41Z",
                 "pushed_at": "2023-06-11T09:42:49Z",
                 "git_url": "git://github.com/Vector35/sample_plugin.git",
                 "ssh_url": "git@github.com:Vector35/sample_plugin.git",
@@ -10139,8 +10292,8 @@
                 "svn_url": "https://github.com/Vector35/sample_plugin",
                 "homepage": "",
                 "size": 33,
-                "stargazers_count": 20,
-                "watchers_count": 20,
+                "stargazers_count": 21,
+                "watchers_count": 21,
                 "language": "Python",
                 "has_issues": true,
                 "has_projects": false,
@@ -10169,7 +10322,7 @@
                 "visibility": "public",
                 "forks": 10,
                 "open_issues": 0,
-                "watchers": 20,
+                "watchers": 21,
                 "default_branch": "master",
                 "permissions": {
                     "admin": true,
@@ -10622,8 +10775,8 @@
             "svn_url": "https://github.com/WhatTheFuzz/binaryninja-openai",
             "homepage": "",
             "size": 363,
-            "stargazers_count": 71,
-            "watchers_count": 71,
+            "stargazers_count": 70,
+            "watchers_count": 70,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -10658,7 +10811,7 @@
             "visibility": "public",
             "forks": 6,
             "open_issues": 4,
-            "watchers": 71,
+            "watchers": 70,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -10942,8 +11095,8 @@
             "svn_url": "https://github.com/crytic/ethersplay",
             "homepage": null,
             "size": 2078,
-            "stargazers_count": 850,
-            "watchers_count": 850,
+            "stargazers_count": 851,
+            "watchers_count": 851,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -10975,7 +11128,7 @@
             "visibility": "public",
             "forks": 120,
             "open_issues": 9,
-            "watchers": 850,
+            "watchers": 851,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -11008,7 +11161,7 @@
                 "site_admin": false
             },
             "network_count": 120,
-            "subscribers_count": 40
+            "subscribers_count": 39
         },
         "authorUrl": "https://github.com/crytic",
         "packageUrl": "https://api.github.com/repos/crytic/ethersplay/zipball/refs/tags/v0.1.0",
@@ -11127,8 +11280,8 @@
             "svn_url": "https://github.com/seeinglogic/ariadne",
             "homepage": "",
             "size": 3113,
-            "stargazers_count": 85,
-            "watchers_count": 85,
+            "stargazers_count": 88,
+            "watchers_count": 88,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -11155,7 +11308,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 0,
-            "watchers": 85,
+            "watchers": 88,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -11389,7 +11542,7 @@
                 "releases_url": "https://api.github.com/repos/Vector35/sample_plugin/releases{/id}",
                 "deployments_url": "https://api.github.com/repos/Vector35/sample_plugin/deployments",
                 "created_at": "2017-04-11T15:35:58Z",
-                "updated_at": "2025-01-22T08:57:37Z",
+                "updated_at": "2025-03-07T06:29:41Z",
                 "pushed_at": "2023-06-11T09:42:49Z",
                 "git_url": "git://github.com/Vector35/sample_plugin.git",
                 "ssh_url": "git@github.com:Vector35/sample_plugin.git",
@@ -11397,8 +11550,8 @@
                 "svn_url": "https://github.com/Vector35/sample_plugin",
                 "homepage": "",
                 "size": 33,
-                "stargazers_count": 20,
-                "watchers_count": 20,
+                "stargazers_count": 21,
+                "watchers_count": 21,
                 "language": "Python",
                 "has_issues": true,
                 "has_projects": false,
@@ -11427,7 +11580,7 @@
                 "visibility": "public",
                 "forks": 10,
                 "open_issues": 0,
-                "watchers": 20,
+                "watchers": 21,
                 "default_branch": "master",
                 "permissions": {
                     "admin": true,
@@ -11592,7 +11745,7 @@
             },
             "temp_clone_token": "",
             "network_count": 31,
-            "subscribers_count": 21
+            "subscribers_count": 20
         },
         "authorUrl": "https://github.com/pbiernat",
         "packageUrl": "https://api.github.com/repos/pbiernat/ripr/zipball/refs/tags/1.1.1",
@@ -11918,7 +12071,7 @@
             },
             "temp_clone_token": "",
             "network_count": 53,
-            "subscribers_count": 13
+            "subscribers_count": 12
         },
         "authorUrl": "https://github.com/ex0dus-0x",
         "packageUrl": "https://api.github.com/repos/ex0dus-0x/fuzzable/zipball/refs/tags/v2.0.7",
@@ -12037,8 +12190,8 @@
             "svn_url": "https://github.com/hyuunnn/Hyara",
             "homepage": "",
             "size": 8639,
-            "stargazers_count": 227,
-            "watchers_count": 227,
+            "stargazers_count": 229,
+            "watchers_count": 229,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -12081,7 +12234,7 @@
             "visibility": "public",
             "forks": 43,
             "open_issues": 9,
-            "watchers": 227,
+            "watchers": 229,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -12710,7 +12863,7 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/matteyeux",
         "packageUrl": "https://api.github.com/repos/matteyeux/comments-viewer/zipball/refs/tags/1.0.0",
@@ -12864,7 +13017,7 @@
             },
             "temp_clone_token": "",
             "network_count": 1,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/Ayrx",
         "packageUrl": "https://api.github.com/repos/Ayrx/binja-typemanager/zipball/refs/tags/0.1",
@@ -13186,7 +13339,7 @@
             },
             "temp_clone_token": "",
             "network_count": 4,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/ImNotAVirus",
         "packageUrl": "https://api.github.com/repos/ImNotAVirus/delphi_ninja/zipball/refs/tags/0.1.2",
@@ -13618,8 +13771,8 @@
             "svn_url": "https://github.com/fkie-cad/dewolf",
             "homepage": "",
             "size": 4449,
-            "stargazers_count": 189,
-            "watchers_count": 189,
+            "stargazers_count": 191,
+            "watchers_count": 191,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -13654,7 +13807,7 @@
             "visibility": "public",
             "forks": 9,
             "open_issues": 52,
-            "watchers": 189,
+            "watchers": 191,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -13962,8 +14115,8 @@
             "svn_url": "https://github.com/elbiazo/calltree",
             "homepage": "",
             "size": 424,
-            "stargazers_count": 42,
-            "watchers_count": 42,
+            "stargazers_count": 43,
+            "watchers_count": 43,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -13990,7 +14143,7 @@
             "visibility": "public",
             "forks": 6,
             "open_issues": 2,
-            "watchers": 42,
+            "watchers": 43,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -14119,8 +14272,8 @@
             "svn_url": "https://github.com/bootleg/ret-sync",
             "homepage": "",
             "size": 2792,
-            "stargazers_count": 2095,
-            "watchers_count": 2095,
+            "stargazers_count": 2106,
+            "watchers_count": 2106,
             "language": "C",
             "has_issues": true,
             "has_projects": true,
@@ -14128,7 +14281,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 266,
+            "forks_count": 269,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -14154,9 +14307,9 @@
                 "software-analysis"
             ],
             "visibility": "public",
-            "forks": 266,
+            "forks": 269,
             "open_issues": 34,
-            "watchers": 2095,
+            "watchers": 2106,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -14166,7 +14319,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 266,
+            "network_count": 269,
             "subscribers_count": 53
         },
         "authorUrl": "https://github.com/bootleg",
@@ -14464,7 +14617,7 @@
             },
             "temp_clone_token": "",
             "network_count": 2,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/gamozolabs",
         "packageUrl": "https://api.github.com/repos/gamozolabs/coff_nm/zipball/refs/tags/1.1",
@@ -14628,7 +14781,7 @@
             },
             "temp_clone_token": "",
             "network_count": 4,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/ehennenfent",
         "packageUrl": "https://api.github.com/repos/ehennenfent/binja_explain_instruction/zipball/refs/tags/0.2.1-alpha",
@@ -14911,7 +15064,7 @@
             "has_wiki": false,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 6,
+            "forks_count": 8,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -14934,7 +15087,7 @@
                 "xtensa"
             ],
             "visibility": "public",
-            "forks": 6,
+            "forks": 8,
             "open_issues": 2,
             "watchers": 14,
             "default_branch": "master",
@@ -14946,7 +15099,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 6,
+            "network_count": 8,
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/zackorndorff",
@@ -15059,8 +15212,8 @@
             "svn_url": "https://github.com/gaasedelen/lighthouse",
             "homepage": "",
             "size": 11246,
-            "stargazers_count": 2321,
-            "watchers_count": 2321,
+            "stargazers_count": 2329,
+            "watchers_count": 2329,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -15068,11 +15221,11 @@
             "has_wiki": false,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 311,
+            "forks_count": 313,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 24,
+            "open_issues_count": 25,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -15093,9 +15246,9 @@
                 "reverse-engineering"
             ],
             "visibility": "public",
-            "forks": 311,
-            "open_issues": 24,
-            "watchers": 2321,
+            "forks": 313,
+            "open_issues": 25,
+            "watchers": 2329,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -15105,7 +15258,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 311,
+            "network_count": 313,
             "subscribers_count": 62
         },
         "authorUrl": "https://github.com/gaasedelen",
@@ -15265,7 +15418,7 @@
             },
             "temp_clone_token": "",
             "network_count": 3,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/CouleeApps",
         "packageUrl": "https://api.github.com/repos/CouleeApps/hex_integers/zipball/refs/tags/1.10",
@@ -15576,7 +15729,7 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/PistonMiner",
         "packageUrl": "https://api.github.com/repos/PistonMiner/binaryninja-gc-load-map/zipball/refs/tags/v1.0.0",
@@ -15732,7 +15885,7 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/PistonMiner",
         "packageUrl": "https://api.github.com/repos/PistonMiner/binaryninja-gc-dol/zipball/refs/tags/v1.0.0",
@@ -15893,7 +16046,7 @@
             },
             "temp_clone_token": "",
             "network_count": 3,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/amtal",
         "packageUrl": "https://api.github.com/repos/amtal/microblaze/zipball/refs/tags/1.0.1",
@@ -16042,7 +16195,7 @@
             },
             "temp_clone_token": "",
             "network_count": 12,
-            "subscribers_count": 8
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/zznop",
         "packageUrl": "https://api.github.com/repos/zznop/bn-uefi-helper/zipball/refs/tags/0.4",
@@ -16357,7 +16510,7 @@
             },
             "temp_clone_token": "",
             "network_count": 2,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/jonpalmisc",
         "packageUrl": "https://api.github.com/repos/jonpalmisc/screenshot_ninja/zipball/refs/tags/v2.1.1",
@@ -16516,7 +16669,7 @@
             },
             "temp_clone_token": "",
             "network_count": 6,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Ayrx",
         "packageUrl": "https://api.github.com/repos/Ayrx/binja-JNIAnalyzer/zipball/refs/tags/0.3.0",
@@ -16539,7 +16692,7 @@
             "python3"
         ],
         "description": "Automatically detect obfuscated code and other interesting code constructs",
-        "longdescription": "# Obfuscation Detection (v2.1)\nAuthor: **Tim Blazytko**\n\n_Automatically detect obfuscated code and other interesting code constructs_\n\n## Description:\n\n_Obfuscation Detection_ is a Binary Ninja plugin to detect obfuscated code and interesting code constructs (e.g., state machines) in binaries. Given a binary, the plugin eases analysis by identifying code locations which might be worth a closer look during reverse engineering.\n\nBased on various heuristics, the plugin pinpoints functions that contain complex or uncommon code constructs. Such code constructs may implement\n\n* obfuscated code\n* state machines and protocols\n* C&C server communication\n* string decryption routines\n* cryptographic algorithms\n\nThe following blog posts provide more information about the underlying heuristics and demonstrate their use cases:\n\n* [Automated Detection of Control-flow Flattening](https://synthesis.to/2021/03/03/flattening_detection.html)\n* [Automated Detection of Obfuscated Code](https://synthesis.to/2021/08/10/obfuscation_detection.html)\n* [Statistical Analysis to Detect Uncommon Code](https://synthesis.to//2023/01/26/uncommon_instruction_sequences.html)\n* [Identification of API Functions in Binaries](https://synthesis.to/2023/08/02/api_functions.html)\n\nSome example use cases can be found in [examples](./examples). Furthermore, the REcon talk [\"Unveiling Secrets in Binaries using Code Detection Strategies\"](https://cfp.recon.cx/2023/talk/QD8UNJ/) demonstrates some use cases. The slides can be found [here](./presentation/recon23_code_detection.pdf); the recording can be found [here](https://www.youtube.com/watch?v=y95MNr2Xu-g).\n\n\n## Core Features\n\n* identifies interesting code constructs in large binaries\n* highlights disaligned instructions in Binary Ninja's graph view\n* efficient and architecture-agnostic implementation\n* runs as a background task\n* can be used in UI and headless mode\n\n\n## Installation\n\nThe tool can be installed using Binary Ninja's plugin manager.\n\nFor the headless version, follow these steps:\n\n```\ngit clone https://github.com/mrphrazer/obfuscation_detection.git\ncd obfuscation_detection\n\n# install obfuscation_detection\npip install .\n```\n\n\n## Usage\n\nThe plugin can be used in the user interface and in headless mode.\n\n\n### User Interface\n\nChoose the index tab `Plugins -> Obfuscation Detection` to run one or more detection heuristics in Binary Ninja's user interface:\n\n<p align=\"left\">\n<img alt=\"Plugin Menu\" src=\"imgs/plugin_menu.png\" width=\"500\"/>\n</p>\n\nThe results are displayed in the Log window:\n\n<p align=\"center\">\n<img alt=\"Binary Ninja Log\" src=\"imgs/plugin_results.png\"/>\n</p>\n\nBy clicking on the identified function addresses, Binary Ninja navigates to the selected function.\n\n\n### Headless\n\nTo use the plugin in headless mode, run [`scripts/detect_obfuscation.py`](scripts/detect_obfuscation.py):\n\n```\n$ python3 scripts/detect_obfuscation.py <binary>\n```\n\n\n## Detection Heuristics\n\nThe plugin implements various detection heuristics to detect different code constructs. In the following, we briefly describe the individual heuristics and explain their usage. \n\n### Large Basic Blocks\n\nThe large basic block heuristic identifies the top 10% of functions with the largest average number of instructions per basic block. It allows to detect\n\n* unrolled code\n* cryptographic implementations\n* initialization routines\n* arithmetic obfuscation / Mixed Boolean-Arithmetic\n\n### Complex Functions\n\nTo complex functions heuristic identifies the top 10% of functions with the most complex control-flow graphs (based on cyclomatic complexity). It allows to identify\n\n* complex dispatching routines and protocols\n* state machines\n* functions obfuscated with opaque predicates\n\n\n### Flattened Functions\n\nThe flattened function heuristic uses some graph-theoretic properties to identify functions implementing state machines. Usually, such state machines can be represented as switch statements that are dispatched in a loop. The heuristic allows to identify\n\n* network protocol dispatching\n* file parsing logic\n* C&C server communication / command dispatching\n* control-flow flattening\n\n\n### Uncommon Instruction Sequences\n\nThe uncommon instruction sequences heuristic performs a statistical analysis to identify the top 10% of functions whose code patterns deviate from a pre-computed ground truth. This way, the heuristic allows to identify\n\n* cryptographic implementations\n* intense usage of floating point arithmetic\n* arithmetic obfuscation / Mixed Boolean-Arithmetic\n* generic obfuscation patterns\n\n\n### Instruction Overlapping\n\nThe instruction overlapping heuristic identifies functions with disaligned instructions (instruction bytes are shared by two different instructions). The heuristic identifies\n\n* broken disassembly (e.g., data which is marked as code)\n* opaque predicates which jump into other instructions \n\nIf the heuristic is used in Binary Ninja's user interface, overlapping instructions are also highlighted in the graph view.\n\n\n### Most Called Functions\n\nThe heuristic for most called functions identifies the top 10% of functions with the largest number of calls from different functions. This way, the heuristic can identify\n\n* string decryption routines\n* library functions in statically linked binaries\n\n\n### High Loop Frequency\n\nThe heuristic identifies functions with a high number of loops. These kind of functions might implement\n\n* a complex parsing logic for structured data formats\n* intensive algorithmic computations\n\nThe heuristic also helps pinpointing potential performance bottlenecks.\n\n\n### Irreducible Loops\n\nThe heuristic identifies functions with rare and complex loop structures that typically suggest\n\n* aggressive compiler optimizations\n* hand-written assembly\n* usage of goto statements\n* obfuscated code\n\n\n### XOR Decryption Loops\n\nThe heuristic identifies functions which perform an XOR operation with a constant inside of a loop. This way, the heuristic can identify\n\n* string decryption routines\n* code decryption stubs\n* cryptographic implementations\n\n\n### Complex Arithmetic Expressions \n\nThe heuristic identifies functions in which the expressions have more than one arithmetic operation and one boolean operation simultaneously. This way, the heuristic can identify\n\n* mixed-boolean arithmetic obfuscation\n* initialization routine\n* cryptographic implementations\n\n\n## Utils\n\nContrary to the detection heuristics which target a wider scope of code, the plugin also implements various helpers which aim to identify functions with a narrower scope. In the following, we describe these helpers and explain their characteristics.\n\n\n### Entry Functions\n\nThis helper identifies functions without known callers. These functions might be \n\n* entry points in the binary\n* indirect jumps targets where the call hierarchy could not be recovered by the disassembler\n\n\n### Leaf Functions\n\nThis helper identifies functions that do not call other functions. These kinds of functions may, for example, be functions that\n\n* are outlined by the compiler to implement functionalities utilized across various code locations\n* are trampolines to other functions\n* are part of code obfuscation schemes (e.g., outlined computations for control-flow obfuscation)\n  \n\n### Section Entropy\n\nThis helper evaluates the entropy of each section. Entropy is a statistical measure of randomness with values ranging between 0 and 8. Sections with an entropy close to 8 indicate a high degree of randomness and can hint at:\n\n* packed or compressed code\n* encrypted data or code\n* random data\n\n\n### RC4\n\nThis helper detects potential RC4 algorithm implementations by employing heuristic markers typically associated with RC4's Key Scheduling Algorithm (KSA) and Pseudo-Random Generation Algorithm (PRGA). RC4 is widely used in malware for purposes such as:\n\n* decrypting strings and other data payloads\n* obfuscating command and control (C&C) communications\n\n\n## Contact\n\nFor more information, contact [@mr_phrazer](https://twitter.com/mr_phrazer).\n\n",
+        "longdescription": "# Obfuscation Detection (v2.2)\nAuthor: **Tim Blazytko**\n\n_Automatically detect obfuscated code and other interesting code constructs_\n\n## Description:\n\n_Obfuscation Detection_ is a Binary Ninja plugin to detect obfuscated code and interesting code constructs (e.g., state machines) in binaries. Given a binary, the plugin eases analysis by identifying code locations which might be worth a closer look during reverse engineering.\n\nBased on various heuristics, the plugin pinpoints functions that contain complex or uncommon code constructs. Such code constructs may implement\n\n* obfuscated code\n* state machines and protocols\n* C&C server communication\n* string decryption routines\n* cryptographic algorithms\n\nThe following blog posts provide more information about the underlying heuristics and demonstrate their use cases:\n\n* [Automated Detection of Control-flow Flattening](https://synthesis.to/2021/03/03/flattening_detection.html)\n* [Automated Detection of Obfuscated Code](https://synthesis.to/2021/08/10/obfuscation_detection.html)\n* [Statistical Analysis to Detect Uncommon Code](https://synthesis.to//2023/01/26/uncommon_instruction_sequences.html)\n* [Identification of API Functions in Binaries](https://synthesis.to/2023/08/02/api_functions.html)\n\nSome example use cases can be found in [examples](./examples). Furthermore, the REcon talk [\"Unveiling Secrets in Binaries using Code Detection Strategies\"](https://cfp.recon.cx/2023/talk/QD8UNJ/) demonstrates some use cases. The slides can be found [here](./presentation/recon23_code_detection.pdf); the recording can be found [here](https://www.youtube.com/watch?v=y95MNr2Xu-g).\n\n\n## Core Features\n\n* identifies interesting code constructs in large binaries\n* highlights disaligned instructions in Binary Ninja's graph view\n* efficient and architecture-agnostic implementation\n* runs as a background task\n* can be used in UI and headless mode\n\n\n## Installation\n\nThe tool can be installed using Binary Ninja's plugin manager.\n\nFor the headless version, follow these steps:\n\n```\ngit clone https://github.com/mrphrazer/obfuscation_detection.git\ncd obfuscation_detection\n\n# install obfuscation_detection\npip install .\n```\n\n\n## Usage\n\nThe plugin can be used in the user interface and in headless mode.\n\n\n### User Interface\n\nChoose the index tab `Plugins -> Obfuscation Detection` to run one or more detection heuristics in Binary Ninja's user interface:\n\n<p align=\"left\">\n<img alt=\"Plugin Menu\" src=\"imgs/plugin_menu.png\" width=\"500\"/>\n</p>\n\nThe results are displayed in the Log window:\n\n<p align=\"center\">\n<img alt=\"Binary Ninja Log\" src=\"imgs/plugin_results.png\"/>\n</p>\n\nBy clicking on the identified function addresses, Binary Ninja navigates to the selected function.\n\n\n### Headless\n\nTo use the plugin in headless mode, run [`scripts/detect_obfuscation.py`](scripts/detect_obfuscation.py):\n\n```\n$ python3 scripts/detect_obfuscation.py <binary>\n```\n\n\n## Detection Heuristics\n\nThe plugin implements various detection heuristics to detect different code constructs. In the following, we briefly describe the individual heuristics and explain their usage. \n\n### Large Basic Blocks\n\nThe large basic block heuristic identifies the top 10% of functions with the largest average number of instructions per basic block. It allows to detect\n\n* unrolled code\n* cryptographic implementations\n* initialization routines\n* arithmetic obfuscation / Mixed Boolean-Arithmetic\n\n### Complex Functions\n\nTo complex functions heuristic identifies the top 10% of functions with the most complex control-flow graphs (based on cyclomatic complexity). It allows to identify\n\n* complex dispatching routines and protocols\n* state machines\n* functions obfuscated with opaque predicates\n\n\n### Flattened Functions\n\nThe flattened function heuristic uses some graph-theoretic properties to identify functions implementing state machines. Usually, such state machines can be represented as switch statements that are dispatched in a loop. The heuristic allows to identify\n\n* network protocol dispatching\n* file parsing logic\n* C&C server communication / command dispatching\n* control-flow flattening\n\n\n### Uncommon Instruction Sequences\n\nThe uncommon instruction sequences heuristic performs a statistical analysis to identify the top 10% of functions whose code patterns deviate from a pre-computed ground truth. This way, the heuristic allows to identify\n\n* cryptographic implementations\n* intense usage of floating point arithmetic\n* arithmetic obfuscation / Mixed Boolean-Arithmetic\n* generic obfuscation patterns\n\n\n### Instruction Overlapping\n\nThe instruction overlapping heuristic identifies functions with disaligned instructions (instruction bytes are shared by two different instructions). The heuristic identifies\n\n* broken disassembly (e.g., data which is marked as code)\n* opaque predicates which jump into other instructions \n\nIf the heuristic is used in Binary Ninja's user interface, overlapping instructions are also highlighted in the graph view.\n\n\n### Most Called Functions\n\nThe heuristic for most called functions identifies the top 10% of functions with the largest number of calls from different functions. This way, the heuristic can identify\n\n* string decryption routines\n* library functions in statically linked binaries\n\n\n### High Loop Frequency\n\nThe heuristic identifies functions with a high number of loops. These kind of functions might implement\n\n* a complex parsing logic for structured data formats\n* intensive algorithmic computations\n\nThe heuristic also helps pinpointing potential performance bottlenecks.\n\n\n### Irreducible Loops\n\nThe heuristic identifies functions with rare and complex loop structures that typically suggest\n\n* aggressive compiler optimizations\n* hand-written assembly\n* usage of goto statements\n* obfuscated code\n\n\n### XOR Decryption Loops\n\nThe heuristic identifies functions which perform an XOR operation with a constant inside of a loop. This way, the heuristic can identify\n\n* string decryption routines\n* code decryption stubs\n* cryptographic implementations\n\n\n### Complex Arithmetic Expressions \n\nThe heuristic identifies functions in which the expressions have more than one arithmetic operation and one boolean operation simultaneously. This way, the heuristic can identify\n\n* mixed-boolean arithmetic obfuscation\n* initialization routine\n* cryptographic implementations\n\n\n## Utils\n\nContrary to the detection heuristics which target a wider scope of code, the plugin also implements various helpers which aim to identify functions with a narrower scope. In the following, we describe these helpers and explain their characteristics.\n\n\n### Entry Functions\n\nThis helper identifies functions without known callers. These functions might be \n\n* entry points in the binary\n* indirect jumps targets where the call hierarchy could not be recovered by the disassembler\n\n\n### Leaf Functions\n\nThis helper identifies functions that do not call other functions. These kinds of functions may, for example, be functions that\n\n* are outlined by the compiler to implement functionalities utilized across various code locations\n* are trampolines to other functions\n* are part of code obfuscation schemes (e.g., outlined computations for control-flow obfuscation)\n\n\n### Recursive Functions\n\nThis helper identifies recursive functions---functions that directly or indirectly call themselves. Recursive functions may indicate:\n\n* algorithmic implementations such as tree or graph traversal\n* obfuscated code designed to complicate static analysis\n* implementations of mathematical algorithms or complex parsing routines\n* potential stack overflow vulnerabilities due to deep recursion\n\n\n### Section Entropy\n\nThis helper evaluates the entropy of each section. Entropy is a statistical measure of randomness with values ranging between 0 and 8. Sections with an entropy close to 8 indicate a high degree of randomness and can hint at:\n\n* packed or compressed code\n* encrypted data or code\n* random data\n\n\n### RC4\n\nThis helper detects potential RC4 algorithm implementations by employing heuristic markers typically associated with RC4's Key Scheduling Algorithm (KSA) and Pseudo-Random Generation Algorithm (PRGA). RC4 is widely used in malware for purposes such as:\n\n* decrypting strings and other data payloads\n* obfuscating command and control (C&C) communications\n\n\n## Contact\n\nFor more information, contact [@mr_phrazer](https://twitter.com/mr_phrazer).\n\n",
         "license": {
             "name": "GPL-2.0",
             "text": "Copyright 2023 Tim Blazytko\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, see <http://www.gnu.org/licenses/>."
@@ -16554,8 +16707,8 @@
             "Windows": "",
             "Linux": ""
         },
-        "version": "2.1",
-        "lastUpdated": 1714432258,
+        "version": "2.2",
+        "lastUpdated": 1741823831,
         "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
         "projectData": {
             "id": 344218653,
@@ -16625,16 +16778,16 @@
             "releases_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mrphrazer/obfuscation_detection/deployments",
             "created_at": "2021-03-03T18:04:19Z",
-            "updated_at": "2024-04-29T23:10:58+00:00",
-            "pushed_at": "2024-04-29T23:10:58Z",
+            "updated_at": "2025-03-12T23:57:11+00:00",
+            "pushed_at": "2025-03-13T00:14:54Z",
             "git_url": "git://github.com/mrphrazer/obfuscation_detection.git",
             "ssh_url": "git@github.com:mrphrazer/obfuscation_detection.git",
             "clone_url": "https://github.com/mrphrazer/obfuscation_detection.git",
             "svn_url": "https://github.com/mrphrazer/obfuscation_detection",
             "homepage": "",
-            "size": 16582,
-            "stargazers_count": 584,
-            "watchers_count": 584,
+            "size": 16418,
+            "stargazers_count": 587,
+            "watchers_count": 587,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -16661,7 +16814,7 @@
             "visibility": "public",
             "forks": 65,
             "open_issues": 0,
-            "watchers": 584,
+            "watchers": 587,
             "default_branch": "main",
             "permissions": {
                 "admin": false,
@@ -16672,15 +16825,15 @@
             },
             "temp_clone_token": "",
             "network_count": 65,
-            "subscribers_count": 20
+            "subscribers_count": 19
         },
         "authorUrl": "https://github.com/mrphrazer",
-        "packageUrl": "https://api.github.com/repos/mrphrazer/obfuscation_detection/zipball/refs/tags/v2.1",
-        "packageShortUrl": "https://v35.us/qa9b7mf",
+        "packageUrl": "https://api.github.com/repos/mrphrazer/obfuscation_detection/zipball/refs/tags/v2.2",
+        "packageShortUrl": "https://v35.us/rk92m08",
         "view_only": false,
         "dependencies": "",
         "path": "mrphrazer_obfuscation_detection",
-        "commit": "d68595d781bb808c4dde2c8bd51b3d94d4bdc406",
+        "commit": "82866c43355557b8dab87f9c939caf4cfc1bc931",
         "minimumBinaryNinjaVersion": 2487,
         "maximumBinaryNinjaVersion": 999999
     },
@@ -16856,7 +17009,7 @@
                 }
             },
             "network_count": 1,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/psifertex",
         "packageUrl": "https://api.github.com/repos/psifertex/callgraph/zipball/refs/tags/1.1",
@@ -17043,7 +17196,7 @@
                 }
             },
             "network_count": 1,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/psifertex",
         "packageUrl": "https://api.github.com/repos/psifertex/tagteam/zipball/refs/tags/1.1.3",
@@ -17225,7 +17378,7 @@
                 "site_admin": false
             },
             "network_count": 2,
-            "subscribers_count": 8
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/fgsect",
         "packageUrl": "https://api.github.com/repos/fgsect/JMPscare-binja/zipball/refs/tags/1.1",
@@ -17909,7 +18062,7 @@
             },
             "temp_clone_token": "",
             "network_count": 6,
-            "subscribers_count": 5
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/PistonMiner",
         "packageUrl": "https://api.github.com/repos/PistonMiner/binaryninja-bindiff-viewer/zipball/refs/tags/1.0.3",
@@ -18099,7 +18252,7 @@
                 "site_admin": false
             },
             "network_count": 7,
-            "subscribers_count": 6
+            "subscribers_count": 5
         },
         "authorUrl": "https://github.com/kryptoslogic",
         "packageUrl": "https://api.github.com/repos/kryptoslogic/binja_degobfuscate/zipball/refs/tags/1.0.1",
@@ -18373,8 +18526,8 @@
             "svn_url": "https://github.com/Martyx00/VulnFanatic",
             "homepage": "",
             "size": 415,
-            "stargazers_count": 288,
-            "watchers_count": 288,
+            "stargazers_count": 289,
+            "watchers_count": 289,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -18406,7 +18559,7 @@
             "visibility": "public",
             "forks": 35,
             "open_issues": 2,
-            "watchers": 288,
+            "watchers": 289,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -18690,8 +18843,8 @@
             "svn_url": "https://github.com/matteyeux/seprom-loader",
             "homepage": "",
             "size": 506,
-            "stargazers_count": 50,
-            "watchers_count": 50,
+            "stargazers_count": 51,
+            "watchers_count": 51,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -18718,7 +18871,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 1,
-            "watchers": 50,
+            "watchers": 51,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -18729,7 +18882,7 @@
             },
             "temp_clone_token": "",
             "network_count": 4,
-            "subscribers_count": 5
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/matteyeux",
         "packageUrl": "https://api.github.com/repos/matteyeux/seprom-loader/zipball/refs/tags/1.1.0",
@@ -19032,7 +19185,7 @@
             },
             "temp_clone_token": "",
             "network_count": 5,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/d-we",
         "packageUrl": "https://api.github.com/repos/d-we/binja-golang-symbol-restore/zipball/refs/tags/1.2",
@@ -19193,7 +19346,7 @@
             },
             "temp_clone_token": "",
             "network_count": 11,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/f0rki",
         "packageUrl": "https://api.github.com/repos/f0rki/bn-goloader/zipball/refs/tags/1.1",
@@ -19729,7 +19882,7 @@
             },
             "temp_clone_token": "",
             "network_count": 16,
-            "subscribers_count": 9
+            "subscribers_count": 8
         },
         "authorUrl": "https://github.com/thebabush",
         "packageUrl": "https://api.github.com/repos/thebabush/nampa/zipball/refs/tags/1.0",
@@ -20042,7 +20195,7 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/shizmob",
         "packageUrl": "https://api.github.com/repos/shizmob/binja-depanalyzer/zipball/refs/tags/1.0",
@@ -20194,7 +20347,7 @@
             },
             "temp_clone_token": "",
             "network_count": 7,
-            "subscribers_count": 5
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/hugsy",
         "packageUrl": "https://api.github.com/repos/hugsy/gef-binja/zipball/refs/tags/v0.2",
@@ -20359,7 +20512,7 @@
             },
             "temp_clone_token": "",
             "network_count": 6,
-            "subscribers_count": 5
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/joshwatson",
         "packageUrl": "https://api.github.com/repos/joshwatson/binaryninja-msp430/zipball/refs/tags/0.6",
@@ -20479,8 +20632,8 @@
             "svn_url": "https://github.com/apekros/binja_sigmaker",
             "homepage": null,
             "size": 16,
-            "stargazers_count": 25,
-            "watchers_count": 25,
+            "stargazers_count": 26,
+            "watchers_count": 26,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -20507,7 +20660,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 1,
-            "watchers": 25,
+            "watchers": 26,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -20678,7 +20831,7 @@
             },
             "temp_clone_token": "",
             "network_count": 2,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/Vasco-jofra",
         "packageUrl": "https://api.github.com/repos/Vasco-jofra/jump-table-branch-editor/zipball/refs/tags/v1.0",
@@ -20829,7 +20982,7 @@
             },
             "temp_clone_token": "",
             "network_count": 16,
-            "subscribers_count": 9
+            "subscribers_count": 8
         },
         "authorUrl": "https://github.com/zznop",
         "packageUrl": "https://api.github.com/repos/zznop/bnida/zipball/refs/tags/1.3",
@@ -20981,7 +21134,7 @@
             },
             "temp_clone_token": "",
             "network_count": 2,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/zznop",
         "packageUrl": "https://api.github.com/repos/zznop/bn-genesis/zipball/refs/tags/1.2",
@@ -21126,7 +21279,7 @@
             },
             "temp_clone_token": "",
             "network_count": 3,
-            "subscribers_count": 5
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/zznop",
         "packageUrl": "https://api.github.com/repos/zznop/bn-kallsyms/zipball/refs/tags/1.2",
@@ -21272,7 +21425,7 @@
             },
             "temp_clone_token": "",
             "network_count": 2,
-            "subscribers_count": 5
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/zznop",
         "packageUrl": "https://api.github.com/repos/zznop/bn-recursion/zipball/refs/tags/1.1",
@@ -21432,7 +21585,7 @@
             },
             "temp_clone_token": "",
             "network_count": 6,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/bkerler",
         "packageUrl": "https://api.github.com/repos/bkerler/annotate/zipball/refs/tags/v1.2",
@@ -21749,7 +21902,7 @@
             },
             "temp_clone_token": "",
             "network_count": 3,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/0x1F9F1",
         "packageUrl": "https://api.github.com/repos/0x1F9F1/binja-msvc/zipball/refs/tags/1.0",
@@ -21914,7 +22067,7 @@
             },
             "temp_clone_token": "",
             "network_count": 10,
-            "subscribers_count": 8
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/withzombies",
         "packageUrl": "https://api.github.com/repos/withzombies/bnil-graph/zipball/refs/tags/v1.4.3",
@@ -22186,8 +22339,8 @@
             "svn_url": "https://github.com/chame1eon/binaryninja-frida",
             "homepage": null,
             "size": 45,
-            "stargazers_count": 58,
-            "watchers_count": 58,
+            "stargazers_count": 59,
+            "watchers_count": 59,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -22195,7 +22348,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 10,
+            "forks_count": 9,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -22212,9 +22365,9 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 10,
+            "forks": 9,
             "open_issues": 0,
-            "watchers": 58,
+            "watchers": 59,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -22224,7 +22377,7 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "network_count": 10,
+            "network_count": 9,
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/chame1eon",
@@ -22384,7 +22537,7 @@
             },
             "temp_clone_token": "",
             "network_count": 1,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/Vasco-jofra",
         "packageUrl": "https://api.github.com/repos/Vasco-jofra/format-string-finder-binja/zipball/refs/tags/v1.0",
@@ -22846,7 +22999,7 @@
             },
             "temp_clone_token": "",
             "network_count": 3,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/404d",
         "packageUrl": "https://api.github.com/repos/404d/peutils/zipball/refs/tags/v1.3",
@@ -22999,7 +23152,7 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/404d",
         "packageUrl": "https://api.github.com/repos/404d/autoutils/zipball/refs/tags/v0.3",
@@ -23176,7 +23329,7 @@
                 "site_admin": false
             },
             "network_count": 14,
-            "subscribers_count": 8
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/ForAllSecure",
         "packageUrl": "https://api.github.com/repos/ForAllSecure/bncov/zipball/refs/tags/v1.4.2",
@@ -23328,7 +23481,7 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja_function_abi/zipball/refs/tags/v1.1",
@@ -23481,7 +23634,7 @@
             },
             "temp_clone_token": "",
             "network_count": 9,
-            "subscribers_count": 8
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja_itanium_cxx_abi/zipball/refs/tags/v1.2",
@@ -23595,8 +23748,8 @@
             "svn_url": "https://github.com/whitequark/binja-i8086",
             "homepage": null,
             "size": 100,
-            "stargazers_count": 14,
-            "watchers_count": 14,
+            "stargazers_count": 15,
+            "watchers_count": 15,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -23623,7 +23776,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 0,
-            "watchers": 14,
+            "watchers": 15,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -23634,7 +23787,7 @@
             },
             "temp_clone_token": "",
             "network_count": 1,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja-i8086/zipball/refs/tags/v0.1",
@@ -23791,7 +23944,7 @@
             },
             "temp_clone_token": "",
             "network_count": 6,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/whitequark",
         "packageUrl": "https://api.github.com/repos/whitequark/binja-m16c/zipball/refs/tags/v1.0",
@@ -23904,8 +24057,8 @@
             "svn_url": "https://github.com/c3r34lk1ll3r/Instruction_Slicer",
             "homepage": null,
             "size": 4,
-            "stargazers_count": 15,
-            "watchers_count": 15,
+            "stargazers_count": 18,
+            "watchers_count": 18,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -23936,7 +24089,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 3,
-            "watchers": 15,
+            "watchers": 18,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -23947,7 +24100,7 @@
             },
             "temp_clone_token": "",
             "network_count": 0,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/c3r34lk1ll3r",
         "packageUrl": "https://api.github.com/repos/c3r34lk1ll3r/Instruction_Slicer/zipball/refs/tags/v1.1",
@@ -24110,7 +24263,7 @@
             },
             "temp_clone_token": "",
             "network_count": 2,
-            "subscribers_count": 3
+            "subscribers_count": 2
         },
         "authorUrl": "https://github.com/icecr4ck",
         "packageUrl": "https://api.github.com/repos/icecr4ck/bnGB/zipball/refs/tags/1.0.1",
@@ -24641,7 +24794,7 @@
             },
             "temp_clone_token": "",
             "network_count": 2,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/janbbeck",
         "packageUrl": "https://api.github.com/repos/janbbeck/CleanTricks/zipball/refs/tags/1.4",
@@ -24823,7 +24976,7 @@
                 "site_admin": false
             },
             "network_count": 6,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/uni-due-syssec",
         "packageUrl": "https://api.github.com/repos/uni-due-syssec/bn-riscv/zipball/refs/tags/v0.2",
@@ -24978,7 +25131,7 @@
             },
             "temp_clone_token": "",
             "network_count": 6,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Cryptogenic",
         "packageUrl": "https://api.github.com/repos/Cryptogenic/idc_importer/zipball/refs/tags/v1.2",
@@ -25135,7 +25288,7 @@
             },
             "temp_clone_token": "",
             "network_count": 4,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/atxsinn3r",
         "packageUrl": "https://api.github.com/repos/atxsinn3r/BinjaHLILDump/zipball/refs/tags/1.1",
@@ -25293,7 +25446,7 @@
             },
             "temp_clone_token": "",
             "network_count": 25,
-            "subscribers_count": 14
+            "subscribers_count": 13
         },
         "authorUrl": "https://github.com/lunixbochs",
         "packageUrl": "https://api.github.com/repos/lunixbochs/revsync/zipball/refs/tags/1.0",
@@ -25782,7 +25935,7 @@
                 "site_admin": false
             },
             "network_count": 2,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/ivision-research",
         "packageUrl": "https://api.github.com/repos/ivision-research/binjawa/zipball/refs/tags/0.5.0",
@@ -25959,7 +26112,7 @@
                 "site_admin": false
             },
             "network_count": 8,
-            "subscribers_count": 9
+            "subscribers_count": 8
         },
         "authorUrl": "https://github.com/vtil-project",
         "packageUrl": "https://api.github.com/repos/vtil-project/VTIL-BinaryNinja/zipball/refs/tags/1.1",
@@ -26077,8 +26230,8 @@
             "svn_url": "https://github.com/EliseZeroTwo/Switch-Binja-Loader",
             "homepage": null,
             "size": 695,
-            "stargazers_count": 19,
-            "watchers_count": 19,
+            "stargazers_count": 18,
+            "watchers_count": 18,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -26105,7 +26258,7 @@
             "visibility": "public",
             "forks": 2,
             "open_issues": 1,
-            "watchers": 19,
+            "watchers": 18,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -26233,8 +26386,8 @@
             "svn_url": "https://github.com/borzacchiello/seninja",
             "homepage": "",
             "size": 2579,
-            "stargazers_count": 311,
-            "watchers_count": 311,
+            "stargazers_count": 313,
+            "watchers_count": 313,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -26266,7 +26419,7 @@
             "visibility": "public",
             "forks": 24,
             "open_issues": 5,
-            "watchers": 311,
+            "watchers": 313,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -26277,7 +26430,7 @@
             },
             "temp_clone_token": "",
             "network_count": 24,
-            "subscribers_count": 11
+            "subscribers_count": 10
         },
         "authorUrl": "https://github.com/borzacchiello",
         "packageUrl": "https://api.github.com/repos/borzacchiello/seninja/zipball/refs/tags/0.5.0",
@@ -26396,8 +26549,8 @@
             "svn_url": "https://github.com/Rami114/cryptoscan",
             "homepage": null,
             "size": 85,
-            "stargazers_count": 63,
-            "watchers_count": 63,
+            "stargazers_count": 64,
+            "watchers_count": 64,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -26424,7 +26577,7 @@
             "visibility": "public",
             "forks": 7,
             "open_issues": 2,
-            "watchers": 63,
+            "watchers": 64,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -26446,7 +26599,7 @@
             "merge_commit_message": "PR_TITLE",
             "merge_commit_title": "MERGE_MESSAGE",
             "network_count": 7,
-            "subscribers_count": 4
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Rami114",
         "packageUrl": "https://api.github.com/repos/Rami114/cryptoscan/zipball/refs/tags/1.2",
@@ -26718,8 +26871,8 @@
             "svn_url": "https://github.com/BlackwingHQ/iBoot64Binja",
             "homepage": "",
             "size": 93,
-            "stargazers_count": 51,
-            "watchers_count": 51,
+            "stargazers_count": 53,
+            "watchers_count": 53,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -26750,7 +26903,7 @@
             "visibility": "public",
             "forks": 8,
             "open_issues": 2,
-            "watchers": 51,
+            "watchers": 53,
             "default_branch": "master",
             "permissions": {
                 "admin": false,
@@ -26783,7 +26936,7 @@
                 "site_admin": false
             },
             "network_count": 8,
-            "subscribers_count": 9
+            "subscribers_count": 8
         },
         "authorUrl": "https://github.com/BlackwingHQ",
         "packageUrl": "https://api.github.com/repos/BlackwingHQ/iBoot64Binja/zipball/refs/tags/1.0.1",
@@ -26939,7 +27092,7 @@
             },
             "temp_clone_token": "",
             "network_count": 3,
-            "subscribers_count": 2
+            "subscribers_count": 1
         },
         "authorUrl": "https://github.com/sum-catnip",
         "packageUrl": "https://api.github.com/repos/sum-catnip/logrn/zipball/refs/tags/1.0.2",

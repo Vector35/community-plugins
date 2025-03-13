@@ -28,7 +28,7 @@
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0|
 |[BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|[Glenn Smith](https://github.com/CouleeApps)|Sidebar inspectors for debugging Binary Ninja itself|2025-01-02|helper, ui|python3|MIT|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|python3|MIT|
-|[bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|[OtterSec LLC](https://github.com/otter-sec)|An architecture/binaryview plugin for Solana EBPF.|2025-01-29|architecture, binaryview|python3|MIT|
+|[bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|[OtterSec LLC](https://github.com/otter-sec)|An architecture/binaryview plugin for Solana EBPF.|2025-03-06|architecture, binaryview|python3|MIT|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|RISC-V architecture plugin.|2021-01-18|architecture|python2|Apache-2.0|
 |[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|Helper plugin for analyzing UEFI firmware|2023-04-28|helper|python3|MIT|
 |[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|Scriptable code coverage analysis and visualization plugin|2023-02-15|helper|python3|MIT|
@@ -43,7 +43,7 @@
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|2020-06-08|architecture, binaryview, core, helper, ui|python3|MIT|
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|Binary Ninja comments viewer|2022-05-27|ui|python3|MIT|
 |[CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|[moval0x1](https://github.com/moval0x1)|Show comments and symbols renamed during the analysis process.|2024-02-20|binaryview, ui|python3|MIT|
-|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-02-16|helper|rust|AGPLv3|
+|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-03-01|helper|rust|AGPLv3|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|A plugin to detect several common crypto constructs and magic vars.|2023-09-22|binaryview, ui|python2|MIT|
 |[ctypes Export](https://github.com/jordan9001/ctypes_export)|[Jordan Whitehead](https://github.com/jordan9001)|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT|
 |[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|Load old COFF .dbg files as well as CAB-ed .db_ files!|2021-11-15|helper|python3|MIT|
@@ -52,6 +52,7 @@
 |[Delphi Mapper](https://github.com/CTM1/BinjaDelphiMapper)|[Claudio Teixeira](https://github.com/CTM1)|A plugin that renames Delphi functions according to a .map file produced by IDR.|2024-01-11|binaryview|python2|MIT|
 |[Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|[ImNotAVirus](https://github.com/ImNotAVirus)|Find Delphi VMTs and generate their structures|2022-02-21|helper|python3|MIT|
 |[Dependency analyzer](https://github.com/shizmob/binja-depanalyzer)|[Shiz](https://github.com/shizmob)|Analyze dependencies and resolve obfuscated imports|2020-05-25|helper|python2|MIT|
+|[Dev Tools for Tantō](https://github.com/ElykDeer/tanto-devtools)|[Elykdeer](https://github.com/ElykDeer)|Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tantō.|2025-03-11|helper, ui|python3|MIT|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|helper, ui|python3|MIT|
 |[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2025-01-01|helper, ui|python3|LGPL-2.1|
 |[Discord Integration](https://github.com/psifertex/discordpresence)|[psifertex](https://github.com/psifertex)|Enables Discord Rich Presence Integration for Binary Ninja|2024-01-09|helper|python3|MIT|
@@ -112,14 +113,14 @@
 |[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|Find and create signatures|2024-08-13|helper|python2|MIT|
 |[NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|[Accenture (Martin Petran)](https://github.com/Accenture)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-01-22|architecture|C++|Apache-2.0|
 |[Notepad](https://github.com/jonpalmisc/bn-notepad)|[Jon Palmisciano](https://github.com/jonpalmisc)|A notepad for taking notes inside Binary Ninja.|2021-04-19|None|python3|MIT|
-|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|Automatically detect obfuscated code and other interesting code constructs|2024-04-29|helper|python3|GPL-2.0|
+|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|Automatically detect obfuscated code and other interesting code constructs|2025-03-12|helper|python3|GPL-2.0|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|detect opaque predicates|2021-04-10|helper|python2|MIT|
 |[OpenAI GPT3](https://github.com/WhatTheFuzz/binaryninja-openai)|[Sean Deaton (@WhatTheFuzz)](https://github.com/WhatTheFuzz)|Queries OpenAI's GPT3 to determine what a given function does.|2024-04-17|helper|python3|MIT|
 |[Original Xbox Executable Loader](https://github.com/xclusivor/binaryninja-xbe)|[xclusivor](https://github.com/xclusivor)|Loader for Original Xbox Executables|2023-11-13|binaryview|python3|MIT|
 |[pd-ninja](https://github.com/lockbox/pd-ninja)|[lockbox](https://github.com/lockbox)|Playdate Console RE utilities|2023-03-01|helper|python3|MIT|
 |[permap](https://github.com/redballoonsecurity/permap)|[jepson2k, dannyp303](https://github.com/redballoonsecurity)|Supports loading .per files into Binary Ninja.|2024-12-18|helper|python3|Apache-2.0|
 |[peutils](https://github.com/404d/peutils)|[404'd](https://github.com/404d)|Binary Ninja plugin providing various niche utilities for working with PE binaries|2020-12-12|helper|python3|MIT|
-|[PowerPC VLE Extension](https://github.com/Martyx00/PowerPC-VLE-Extension)|[Martin Petran](https://github.com/Martyx00)|PowerPC VLE support via architecture extension.|2024-10-02|architecture|cpp|Apache-2.0|
+|[PowerPC VLE Extension](https://github.com/Martyx00/PowerPC-VLE-Extension)|[Martin Petran](https://github.com/Martyx00)|PowerPC VLE support via architecture extension.|2025-03-03|architecture|cpp|Apache-2.0|
 |[Pseudo C Dump](https://github.com/AsherDLL/PCDump-bn)|[Asher Davila L.](https://github.com/AsherDLL)|Binary Ninja plugin to dump the Pseudo C generated by Binja into a folder.|2023-01-28|helper|python3|Apache-2.0|
 |[PSVitaLoader](https://github.com/computerman00/BinaryNinja-PSVitaLoader)|[computerman00](https://github.com/computerman00)|PS Vita ELF/PRX2 loader plugin|2024-09-19|helper|python3|MIT|
 |[Python bytecode](https://github.com/Njord0/BNPyc)|[Njörd](https://github.com/Njord0)|Python bytecode (.pyc) support for Binary Ninja|2024-03-03|architecture, binaryview|python3|MIT|
