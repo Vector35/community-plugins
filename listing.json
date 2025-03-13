@@ -1,5 +1,9 @@
 [
   {
+    "name": "ElykDeer/tanto-devtools",
+    "auto_update": true
+  },
+  {
     "name": "austinzwile/TypeOxidizer",
     "auto_update": true
   },
