@@ -113,7 +113,7 @@
 |[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|Find and create signatures|2024-08-13|helper|python2|MIT|
 |[NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|[Accenture (Martin Petran)](https://github.com/Accenture)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-01-22|architecture|C++|Apache-2.0|
 |[Notepad](https://github.com/jonpalmisc/bn-notepad)|[Jon Palmisciano](https://github.com/jonpalmisc)|A notepad for taking notes inside Binary Ninja.|2021-04-19|None|python3|MIT|
-|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|Automatically detect obfuscated code and other interesting code constructs|2025-03-12|helper|python3|GPL-2.0|
+|[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|Automatically detect obfuscated code and other interesting code constructs|2025-03-14|helper|python3|GPL-2.0|
 |[Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|[Yu-Jye Tung](https://github.com/yellowbyte)|detect opaque predicates|2021-04-10|helper|python2|MIT|
 |[OpenAI GPT3](https://github.com/WhatTheFuzz/binaryninja-openai)|[Sean Deaton (@WhatTheFuzz)](https://github.com/WhatTheFuzz)|Queries OpenAI's GPT3 to determine what a given function does.|2024-04-17|helper|python3|MIT|
 |[Original Xbox Executable Loader](https://github.com/xclusivor/binaryninja-xbe)|[xclusivor](https://github.com/xclusivor)|Loader for Original Xbox Executables|2023-11-13|binaryview|python3|MIT|
