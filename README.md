@@ -13,7 +13,7 @@
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|Various auto analysis utilities|2020-12-12|helper|python3|MIT|
 |[Banjo](https://github.com/ivision-research/banjo)|[Austin Ralls](https://github.com/ivision-research)|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT|
 |[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|View BinDiff results and port symbols|2022-07-26|helper, ui|python3|MIT|
-|[Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|[fosdick.io](https://github.com/fosdickio)|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-03-28|architecture, binaryview, core, helper|python3|GPL-3.0|
+|[Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|[fosdick.io](https://github.com/fosdickio)|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-04-01|architecture, binaryview, core, helper|python3|GPL-3.0|
 |[Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|[Austin Haggard](https://github.com/ahaggard2013)|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT|
 |[Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|[Terry Chia](https://github.com/Ayrx)|Manage custom type libraries.|2021-01-30|helper|python3|MIT|
 |[Binary Ninja Wrapped](https://github.com/psifertex/bnwrap)|[Jordan Wiens](https://github.com/psifertex)||2025-04-01|ui|python3|MIT|
