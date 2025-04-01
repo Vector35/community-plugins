@@ -1,5 +1,9 @@
 [
   {
+    "name": "fosdickio/binary_ninja_mcp",
+    "auto_update": true
+  },
+  {
     "name": "ElykDeer/tanto-devtools",
     "auto_update": true
   },
