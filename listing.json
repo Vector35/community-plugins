@@ -1,5 +1,9 @@
 [
   {
+    "name": "psifertex/bnwrap",
+    "auto_update": true
+  },
+  {
     "name": "fosdickio/binary_ninja_mcp",
     "auto_update": true
   },
