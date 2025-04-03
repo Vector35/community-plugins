@@ -197,6 +197,7 @@
             "python3"
         ],
         "description": "A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.",
+        "longdescription": "# Binary Ninja MCP\n\nThis repository contains a Binary Ninja plugin, MCP server, and bridge that enables seamless integration of Binary Ninja's capabilities with your favorite LLM client.\n\n![Binary Analysis Report Generation](images/mcp-demo-report.png)\n\n## Features\n\n- Seamless, real-time integration between Binary Ninja and MCP clients\n- Enhanced reverse engineering workflow with AI assistance\n- Primary support for Claude Desktop as the MCP client, but extensible for other integrations\n\n## Components\n\nThis repository contains two separate components:\n\n1. A Binary Ninja plugin that provides an MCP server that exposes Binary Ninja's capabilities through HTTP endpoints.  This can be used with any client that implements the MCP protocol.\n2. A separate MCP bridge component that connects your favorite MCP client to the Binary Ninja MCP server.  While Claude Desktop is the primary integration path, the MCP server can be used with other clients.\n\n##Installation / Usage\n\nFor more information on installation and usage, please see https://github.com/fosdickio/binary_ninja_mcp.",
         "license": {
             "name": "GPL-3.0",
             "text": "Copyright 2025 fosdick.io\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."
@@ -211,9 +212,8 @@
             "Windows": "See https://github.com/fosdickio/binary_ninja_mcp",
             "Linux": "See https://github.com/fosdickio/binary_ninja_mcp"
         },
-        "version": "0.2.2",
-        "longdescription": "# Binary Ninja MCP <img src=\"images/binja.png\" height=\"24\" style=\"margin-left: 5px; vertical-align: middle;\">\n\nThis repository contains a Binary Ninja plugin, MCP server, and bridge that enables seamless integration of Binary Ninja's capabilities with your favorite LLM client.\n\n## Features\n\n- Seamless, real-time integration between Binary Ninja and MCP clients\n- Enhanced reverse engineering workflow with AI assistance\n- Primary support for Claude Desktop as the MCP client, but extensible for other integrations\n\n## Examples\n\n### Generating a Binary Analysis Report\n\n![Binary Analysis Report Generation](images/mcp-demo-report.png)\n\n### Renaming Functions\n\n![Rename Function Demo](images/mcp-demo-rename.gif)\n\n## Components\n\nThis repository contains two separate components:\n\n1. A Binary Ninja plugin that provides an MCP server that exposes Binary Ninja's capabilities through HTTP endpoints.  This can be used with any client that implements the MCP protocol.\n2. A separate MCP bridge component that connects your favorite MCP client to the Binary Ninja MCP server.  While Claude Desktop is the primary integration path, the MCP server can be used with other clients.\n\n## Supported Integrations\n\nThe following table details which integrations with Binary Ninja are currently supported.\n\n| Function | Description |\n|----------|-------------|\n| `get_binary_status` | Get the current status of the loaded binary. |\n| `list_classes` | List all namespace/class names in the program. |\n| `list_data_items` | List defined data labels and their values. |\n| `list_exports` | List exported functions/symbols. |\n| `list_imports` | List imported symbols in the program. |\n| `list_methods` | List all function names in the program. |\n| `list_namespaces` | List all non-global namespaces in the program. |\n| `list_segments` | List all memory segments in the program. |\n| `rename_data` | Rename a data label at the specified address. |\n| `rename_function` | Rename a function by its current name to a new user-defined name. |\n| `search_functions_by_name` | Search for functions whose name contains the given substring. |\n| `decompile_function` | Decompile a specific function by name and return the decompiled C code. |\n\n## Prerequisites\n\n- [Binary Ninja](https://binary.ninja/)\n- Python 3.12+\n- [Claude Desktop](https://claude.ai/download) (or your preferred integration)\n\n## Installation\n\n### Binary Ninja Plugin\n\nYou may install the plugin through Binary Ninja's Plugin Manager (`Plugins > Manage Plugins`).\n\n![Plugin Manager Listing](images/plugin-manager-listing.png)\n\nTo manually configure the plugin, this repository can be copied into the Binary Ninja plugins folder.\n\n### Claude Desktop Bridge (Optional)\n\nThis is only needed if you want to use Claude Desktop as your MCP client.  Make sure that you have your virtual environment configured first:\n\n```bash\ngit clone git@github.com:fosdickio/binary_ninja_mcp.git\ncd binary_ninja_mcp\n\npython3 -m venv .venv\nsource .venv/bin/activate   # On macOS/Linux\n\npip install -r bridge/requirements.txt\n```\n\n#### Automated Configuration (Mac)\n\nOn a Mac, you can automate the setup by running:\n\n```bash\n./scripts/setup_claude_desktop.py\n```\n\n#### Manual Configuration\n\nOn other operating systems or to manually configure the Claude Desktop integration:\n\n1. Navigate to `Settings > Developer > Edit Config`\n2. Add the following configuration:\n\n```json\n{\n  \"mcpServers\": {\n    \"binary_ninja_mcp\": {\n      \"command\": \"/ABSOLUTE/PATH/TO/binary_ninja_mcp/.venv/bin/python\",\n      \"args\": [\n        \"/ABSOLUTE/PATH/TO/binary_ninja_mcp/bridge/binja_mcp_bridge.py\"\n      ]\n    }\n  }\n}\n```\n\nNote: Replace `/ABSOLUTE/PATH/TO` with the actual absolute path to your project directory. The virtual environment's Python interpreter must be used to access the installed dependencies.\n\n## Usage\n\n### Claude Desktop\n\n1. Open Binary Ninja and install the `Binary Ninja MCP` plugin\n2. Restart Binary Ninja and then open a binary\n3. Start the MCP server (`Plugins > MCP Server > Start MCP Server`)\n4. Launch Claude Desktop\n\nThe integration will be automatically available after you open Claude Desktop.\n\n![Claude Integration](images/claude-desktop-integration.png)\n\nYou may now start prompting Claude about the currently open binary.  Example prompts:\n\n- \"Generate a binary analysis report for the current binary.\"\n- \"Rename function X to Y in the current binary.\"\n- \"List all functions in the current binary.\"\n- \"What is the status of the loaded binary?\"\n\n### Other MCP Client Integrations\n\nThe bridge can be used with other MCP clients by implementing the appropriate integration layer.\n\n## Development\n\nThe project structure is organized as follows:\n\n```\nbinary_ninja_mcp/\n\u251c\u2500\u2500 bridge/                      # MCP client integration\n\u251c\u2500\u2500 plugin/                      # Binary Ninja plugin\n\u251c\u2500\u2500 scripts/\n\u2502   \u2514\u2500\u2500 setup_claude_desktop.py  # Setup script for Claude Desktop\n```\n## Contributing\n\nContributions are welcome. Please feel free to submit a pull request.\n\n",
-        "lastUpdated": 1743707207,
+        "version": "0.2.3",
+        "lastUpdated": 1743709427,
         "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
         "projectData": {
             "id": 956799403,
@@ -283,8 +283,8 @@
             "releases_url": "https://api.github.com/repos/fosdickio/binary_ninja_mcp/releases{/id}",
             "deployments_url": "https://api.github.com/repos/fosdickio/binary_ninja_mcp/deployments",
             "created_at": "2025-03-28T22:07:55Z",
-            "updated_at": "2025-04-03T19:06:47+00:00",
-            "pushed_at": "2025-04-03T19:06:47Z",
+            "updated_at": "2025-04-03T19:43:47+00:00",
+            "pushed_at": "2025-04-03T19:43:47Z",
             "git_url": "git://github.com/fosdickio/binary_ninja_mcp.git",
             "ssh_url": "git@github.com:fosdickio/binary_ninja_mcp.git",
             "clone_url": "https://github.com/fosdickio/binary_ninja_mcp.git",
@@ -333,12 +333,12 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/fosdickio",
-        "packageUrl": "https://api.github.com/repos/fosdickio/binary_ninja_mcp/zipball/refs/tags/v0.2.2",
-        "packageShortUrl": "https://v35.us/hkefr6x",
+        "packageUrl": "https://api.github.com/repos/fosdickio/binary_ninja_mcp/zipball/refs/tags/v0.2.3",
+        "packageShortUrl": "https://v35.us/n0a9w0v",
         "view_only": false,
         "dependencies": "",
         "path": "fosdickio_binary_ninja_mcp",
-        "commit": "b773174377a3e2168e86026ddc2292d710c15ced",
+        "commit": "da940462634d5e584d97d994e19148a234fcff89",
         "minimumBinaryNinjaVersion": 4000,
         "maximumBinaryNinjaVersion": 999999
     },
@@ -14663,7 +14663,7 @@
             },
             "temp_clone_token": "",
             "network_count": 272,
-            "subscribers_count": 53
+            "subscribers_count": 54
         },
         "authorUrl": "https://github.com/bootleg",
         "packageUrl": "https://api.github.com/repos/bootleg/ret-sync/zipball/refs/tags/ext_bn_community_release_v0.1.0",
