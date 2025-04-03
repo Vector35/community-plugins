@@ -197,7 +197,7 @@
             "python3"
         ],
         "description": "A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.",
-        "longdescription": "# Binary Ninja MCP\n\nThis repository contains a Binary Ninja plugin, MCP server, and bridge that enables seamless integration of Binary Ninja's capabilities with your favorite LLM client.\n\n![Binary Analysis Report Generation](images/mcp-demo-report.png)\n\n## Features\n\n- Seamless, real-time integration between Binary Ninja and MCP clients\n- Enhanced reverse engineering workflow with AI assistance\n- Primary support for Claude Desktop as the MCP client, but extensible for other integrations\n\n## Components\n\nThis repository contains two separate components:\n\n1. A Binary Ninja plugin that provides an MCP server that exposes Binary Ninja's capabilities through HTTP endpoints.  This can be used with any client that implements the MCP protocol.\n2. A separate MCP bridge component that connects your favorite MCP client to the Binary Ninja MCP server.  While Claude Desktop is the primary integration path, the MCP server can be used with other clients.\n\n##Installation / Usage\n\nFor more information on installation and usage, please see https://github.com/fosdickio/binary_ninja_mcp.",
+        "longdescription": "# Binary Ninja MCP\n\nThis repository contains a Binary Ninja plugin, MCP server, and bridge that enables seamless integration of Binary Ninja's capabilities with your favorite LLM client.\n\n![Binary Analysis Report Generation](images/mcp-demo-report.png)\n\n## Features\n\n- Seamless, real-time integration between Binary Ninja and MCP clients\n- Enhanced reverse engineering workflow with AI assistance\n- Primary support for Claude Desktop as the MCP client, but extensible for other integrations\n\n## Components\n\nThis repository contains two separate components:\n\n1. A Binary Ninja plugin that provides an MCP server that exposes Binary Ninja's capabilities through HTTP endpoints.  This can be used with any client that implements the MCP protocol.\n2. A separate MCP bridge component that connects your favorite MCP client to the Binary Ninja MCP server.  While Claude Desktop is the primary integration path, the MCP server can be used with other clients.\n\n## Installation / Usage\n\nFor information on installation and usage, please see https://github.com/fosdickio/binary_ninja_mcp.",
         "license": {
             "name": "GPL-3.0",
             "text": "Copyright 2025 fosdick.io\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."
@@ -212,8 +212,8 @@
             "Windows": "See https://github.com/fosdickio/binary_ninja_mcp",
             "Linux": "See https://github.com/fosdickio/binary_ninja_mcp"
         },
-        "version": "0.2.3",
-        "lastUpdated": 1743709427,
+        "version": "0.2.4",
+        "lastUpdated": 1743710400,
         "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
         "projectData": {
             "id": 956799403,
@@ -283,8 +283,8 @@
             "releases_url": "https://api.github.com/repos/fosdickio/binary_ninja_mcp/releases{/id}",
             "deployments_url": "https://api.github.com/repos/fosdickio/binary_ninja_mcp/deployments",
             "created_at": "2025-03-28T22:07:55Z",
-            "updated_at": "2025-04-03T19:43:47+00:00",
-            "pushed_at": "2025-04-03T19:43:47Z",
+            "updated_at": "2025-04-03T20:00:00+00:00",
+            "pushed_at": "2025-04-03T20:00:00Z",
             "git_url": "git://github.com/fosdickio/binary_ninja_mcp.git",
             "ssh_url": "git@github.com:fosdickio/binary_ninja_mcp.git",
             "clone_url": "https://github.com/fosdickio/binary_ninja_mcp.git",
@@ -333,12 +333,12 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/fosdickio",
-        "packageUrl": "https://api.github.com/repos/fosdickio/binary_ninja_mcp/zipball/refs/tags/v0.2.3",
-        "packageShortUrl": "https://v35.us/n0a9w0v",
+        "packageUrl": "https://api.github.com/repos/fosdickio/binary_ninja_mcp/zipball/refs/tags/v0.2.4",
+        "packageShortUrl": "https://v35.us/7e5a98x",
         "view_only": false,
         "dependencies": "",
         "path": "fosdickio_binary_ninja_mcp",
-        "commit": "da940462634d5e584d97d994e19148a234fcff89",
+        "commit": "54459a03c45c9f8ce13f3018435eeec95be05125",
         "minimumBinaryNinjaVersion": 4000,
         "maximumBinaryNinjaVersion": 999999
     },
