@@ -45,7 +45,7 @@
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|2020-06-08|architecture, binaryview, core, helper, ui|python3|MIT|
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|Binary Ninja comments viewer|2022-05-27|ui|python3|MIT|
 |[CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|[moval0x1](https://github.com/moval0x1)|Show comments and symbols renamed during the analysis process.|2024-02-20|binaryview, ui|python3|MIT|
-|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-03-21|helper|rust|AGPLv3|
+|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-04-06|helper|rust|AGPLv3|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|A plugin to detect several common crypto constructs and magic vars.|2023-09-22|binaryview, ui|python2|MIT|
 |[ctypes Export](https://github.com/jordan9001/ctypes_export)|[Jordan Whitehead](https://github.com/jordan9001)|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT|
 |[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|Load old COFF .dbg files as well as CAB-ed .db_ files!|2021-11-15|helper|python3|MIT|
@@ -107,6 +107,7 @@
 |[keypatch](https://github.com/lwerdna/keypatch_binja)|[lwerdna](https://github.com/lwerdna)|Remake of keypatch plugin for Binary Ninja|2024-01-25|helper, ui|python3|Unlicense|
 |[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT|
+|[MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|[Known Rabbit](https://github.com/MCPPhalanx)|MCP Server for Binary Ninja.|2025-04-06|helper, ui|python3|Apache-2.0|
 |[MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|[vrzh](https://github.com/v-rzh)|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT|
