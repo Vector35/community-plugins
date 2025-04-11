@@ -7,13 +7,14 @@
 |[Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|[Xusheng](https://github.com/xusheng6)|Add xref from caller to callee based on XFG hashes|2023-06-11|helper|python3|MIT|
 |[AMD-SP/PSP Loader](https://github.com/dayzerosec/AMD-SP-Loader)|[dayzerosec](https://github.com/dayzerosec)|Loader for AMD-SP or PSP firmware binaries.|2023-01-29|binaryview|python3|MIT|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|A plugin that annotates function arguments.|2019-07-09|binaryview|python2|MIT|
+|[Another MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|[Known Rabbit](https://github.com/MCPPhalanx)|The MCP server plugin, enables LLM integration by Model Context Protocol (MCP) through SSE or STDIO transport.|2025-04-08|helper, ui|python3|Apache-2.0|
 |[Apple Blocks](https://github.com/droe/binja-blocks)|[Daniel Roethlisberger](https://github.com/droe)|Annotation of Apple libclosure blocks.|2024-12-31|helper|python3|MIT|
 |[Ariadne](https://github.com/seeinglogic/ariadne)|[Mark Griffin (@seeinglogic)](https://github.com/seeinglogic)|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|2025-02-15|helper, ui|python3|MIT|
 |[Auto Enum](https://github.com/junron/auto-enum)|[Lam Jun Rong](https://github.com/junron)|Automatically set enums for standard functions|2025-01-16|helper|python3|MIT|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|Various auto analysis utilities|2020-12-12|helper|python3|MIT|
 |[Banjo](https://github.com/ivision-research/banjo)|[Austin Ralls](https://github.com/ivision-research)|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT|
 |[BD Viewer](https://github.com/PistonMiner/binaryninja-bindiff-viewer)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|View BinDiff results and port symbols|2022-07-26|helper, ui|python3|MIT|
-|[Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|[fosdick.io](https://github.com/fosdickio)|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-04-03|architecture, binaryview, core, helper|python3|GPL-3.0|
+|[Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|[fosdick.io](https://github.com/fosdickio)|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-04-11|architecture, binaryview, core, helper|python3|GPL-3.0|
 |[Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|[Austin Haggard](https://github.com/ahaggard2013)|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT|
 |[Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|[Terry Chia](https://github.com/Ayrx)|Manage custom type libraries.|2021-01-30|helper|python3|MIT|
 |[Binary Ninja Wrapped](https://github.com/psifertex/bnwrap)|[Jordan Wiens](https://github.com/psifertex)|Shows statistics about your Binary Ninja usage. Also includes a 'Time Wasted Debugging' timer widget for the status bar (disabled by default, enable in settings).|2025-04-03|ui|python3|MIT|
@@ -26,7 +27,7 @@
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|Generate and find signatures.|2023-01-29|architecture, binaryview, core, ui|python3|MIT|
 |[BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|[moval0x1](https://github.com/moval0x1)|Export notations from Binja to x64dbg|2024-02-20|binaryview|python3|MIT|
 |[binjaextras](https://github.com/xorhex/binjaextras)|[xorhex](https://github.com/xorhex)|Various features to make windows malware analysis easier.|2025-01-17|helper|python3|MIT|
-|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-02-12|sync|python3|BSD 2-clause|
+|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-04-11|sync|python3|BSD 2-clause|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0|
 |[BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|[Glenn Smith](https://github.com/CouleeApps)|Sidebar inspectors for debugging Binary Ninja itself|2025-01-02|helper, ui|python3|MIT|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|python3|MIT|
@@ -107,7 +108,6 @@
 |[keypatch](https://github.com/lwerdna/keypatch_binja)|[lwerdna](https://github.com/lwerdna)|Remake of keypatch plugin for Binary Ninja|2024-01-25|helper, ui|python3|Unlicense|
 |[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT|
-|[MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|[Known Rabbit](https://github.com/MCPPhalanx)|MCP Server for Binary Ninja.|2025-04-06|helper, ui|python3|Apache-2.0|
 |[MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|[vrzh](https://github.com/v-rzh)|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT|
@@ -161,7 +161,7 @@
 |[VulnFanatic](https://github.com/Martyx00/VulnFanatic)|[Martin Petran](https://github.com/Martyx00)|Assistant plugin for vulnerability research.|2024-09-07|helper|python3|Apache-2.0|
 |[WASM Plugin](https://github.com/ivision-research/binjawa)|[Meador Inge](https://github.com/ivision-research)|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|python3|MIT|
 |[Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|[shareef12](https://github.com/shareef12)|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|2019-08-08|helper|python2|MIT|
-|[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|Official x64dbg plugin for Binary Ninja.|2025-01-24|sync|python3|MIT|
+|[x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|[x64dbg](https://github.com/x64dbg)|Official x64dbg plugin for Binary Ninja.|2025-04-10|sync|python3|MIT|
 |[XNU Sysctl Hunter](https://github.com/xpcmdshell/SysctlHunter)|[actae0n](https://github.com/xpcmdshell)|XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli use.|2021-07-22|helper|python3|MIT|
 |[Xtensa Architecture and ESP8266 Loader](https://github.com/zackorndorff/binja-xtensa)|[Zack Orndorff](https://github.com/zackorndorff)|Xtensa Architecture and ESP8266 Image Loader|2021-08-17|architecture, binaryview|python3|MIT|
 |[YARA Scan](https://github.com/trib0r3/binja-yara)|[trib0r3](https://github.com/trib0r3)|YARA signatures|2020-05-26|binaryview, core|python3|MIT|
