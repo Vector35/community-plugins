@@ -27,7 +27,7 @@
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|Generate and find signatures.|2023-01-29|architecture, binaryview, core, ui|python3|MIT|
 |[BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|[moval0x1](https://github.com/moval0x1)|Export notations from Binja to x64dbg|2024-02-20|binaryview|python3|MIT|
 |[binjaextras](https://github.com/xorhex/binjaextras)|[xorhex](https://github.com/xorhex)|Various features to make windows malware analysis easier.|2025-01-17|helper|python3|MIT|
-|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-04-11|sync|python3|BSD 2-clause|
+|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-04-12|sync|python3|BSD 2-clause|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0|
 |[BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|[Glenn Smith](https://github.com/CouleeApps)|Sidebar inspectors for debugging Binary Ninja itself|2025-01-02|helper, ui|python3|MIT|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|python3|MIT|
@@ -47,6 +47,7 @@
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|Binary Ninja comments viewer|2022-05-27|ui|python3|MIT|
 |[CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|[moval0x1](https://github.com/moval0x1)|Show comments and symbols renamed during the analysis process.|2024-02-20|binaryview, ui|python3|MIT|
 |[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-04-06|helper|rust|AGPLv3|
+|[Copy As YARA](https://github.com/ald3ns/copy-as-yara)|[alden (@birchb0y)](https://github.com/ald3ns)|Let's you copy sections of disassembly formatted for YARA.|2025-04-14|helper|python3|MIT|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|A plugin to detect several common crypto constructs and magic vars.|2023-09-22|binaryview, ui|python2|MIT|
 |[ctypes Export](https://github.com/jordan9001/ctypes_export)|[Jordan Whitehead](https://github.com/jordan9001)|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT|
 |[DBG Loader](https://github.com/gamozolabs/coff_nm)|[Gamozo Labs, LLC](https://github.com/gamozolabs)|Load old COFF .dbg files as well as CAB-ed .db_ files!|2021-11-15|helper|python3|MIT|
