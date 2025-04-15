@@ -1,5 +1,9 @@
 [
   {
+    "name": "ald3ns/copy-as-yara",
+    "auto_update": true
+  },
+  {
     "name": "MCPPhalanx/binaryninja-mcp",
     "auto_update": true
   },
