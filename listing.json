@@ -1,5 +1,9 @@
 [
   {
+    "name": "interruptlabs/header_query_bn",
+    "auto_update": true
+  },
+  {
     "name": "ald3ns/copy-as-yara",
     "auto_update": true
   },
