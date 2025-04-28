@@ -76,7 +76,7 @@
 |[Function ABI](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|A plugin that adds a GUI for changing function ABI.|2019-11-22|ui|python2|BSD-0-clause|
 |[Fuzzable](https://github.com/ex0dus-0x/fuzzable)|[ex0dus-0x](https://github.com/ex0dus-0x)|Framework for Automating Fuzzable Target Discovery with Static Analysis|2023-11-22|ui|python3|MIT|
 |[Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|[Hugo Porcher (@icecr4ck)](https://github.com/icecr4ck)|A loader and diassembler for Game Boy ROMs.|2020-11-17|architecture, binaryview|python3|MIT|
-|[Game ROM Loader](https://github.com/redthing1/binja_gameroms_plugin)|[redthing1](https://github.com/redthing1)|Game ROM Loader for Binary Ninja|2024-09-04|architecture, binaryview, core, ui|None|MIT|
+|[Game ROM Loader](https://github.com/redthing1/binja_gameroms_plugin)|[redthing1](https://github.com/redthing1)|Game ROM Loader for Binary Ninja|2025-04-26|architecture, binaryview, core, ui|python3|MIT|
 |[GameCube DOL](https://github.com/PistonMiner/binaryninja-gc-dol)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|GameCube DOL file BinaryView|2021-07-08|binaryview|python3|MIT|
 |[GameCube symbol map loader](https://github.com/PistonMiner/binaryninja-gc-load-map)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|GameCube symbol map loader|2021-07-08|helper|python3|MIT|
 |[GEF-Binja](https://github.com/hugsy/gef-binja)|[hugsy](https://github.com/hugsy)|Interface Binary Ninja with GDB-GEF easily.|2020-05-18|helper, ui|python3|MIT|
@@ -111,6 +111,7 @@
 |[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT|
 |[MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|[vrzh](https://github.com/v-rzh)|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT|
+|[Mole](https://github.com/cyber-defence-campus/mole)|[Damian Pfammatter and Sergio Paganoni](https://github.com/cyber-defence-campus)|Uncover interesting paths using static backward slicing|2025-04-25|helper, ui|python3|Apache-2.0|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|Parses MSVC structures to improve analysis|2019-07-12|helper|python2|MIT|
