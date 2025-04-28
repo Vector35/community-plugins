@@ -1,5 +1,9 @@
 [
   {
+    "name": "cyber-defence-campus/mole",
+    "auto_update": true
+  },
+  {
     "name": "interruptlabs/header_query_bn",
     "auto_update": true
   },
