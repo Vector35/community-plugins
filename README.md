@@ -7,8 +7,8 @@
 |[Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|[Xusheng](https://github.com/xusheng6)|Add xref from caller to callee based on XFG hashes|2023-06-11|helper|python3|MIT|
 |[AMD-SP/PSP Loader](https://github.com/dayzerosec/AMD-SP-Loader)|[dayzerosec](https://github.com/dayzerosec)|Loader for AMD-SP or PSP firmware binaries.|2023-01-29|binaryview|python3|MIT|
 |[Annotate Functions](https://github.com/bkerler/annotate)|[B.Kerler with code from John Levy and @carstein](https://github.com/bkerler)|A plugin that annotates function arguments.|2019-07-09|binaryview|python2|MIT|
-|[Another MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|[Known Rabbit](https://github.com/MCPPhalanx)|The MCP server plugin, enables LLM integration by Model Context Protocol (MCP) through SSE or STDIO transport.|2025-04-08|helper, ui|python3|Apache-2.0|
-|[Apple Blocks](https://github.com/droe/binja-blocks)|[Daniel Roethlisberger](https://github.com/droe)|Annotation of Apple libclosure blocks.|2024-12-31|helper|python3|MIT|
+|[Another MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|[Known Rabbit](https://github.com/MCPPhalanx)|The MCP server plugin, enables LLM integration by Model Context Protocol (MCP) through SSE or STDIO transport.|2025-05-11|helper, ui|python3|Apache-2.0|
+|[Apple Blocks](https://github.com/droe/binja-blocks)|[Daniel Roethlisberger](https://github.com/droe)|Annotation of Apple libclosure blocks.|2025-05-04|helper|python3|MIT|
 |[Ariadne](https://github.com/seeinglogic/ariadne)|[Mark Griffin (@seeinglogic)](https://github.com/seeinglogic)|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|2025-02-15|helper, ui|python3|MIT|
 |[Auto Enum](https://github.com/junron/auto-enum)|[Lam Jun Rong](https://github.com/junron)|Automatically set enums for standard functions|2025-01-16|helper|python3|MIT|
 |[Auto Utils](https://github.com/404d/autoutils)|[404'd](https://github.com/404d)|Various auto analysis utilities|2020-12-12|helper|python3|MIT|
@@ -47,6 +47,7 @@
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|Binary Ninja comments viewer|2022-05-27|ui|python3|MIT|
 |[CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|[moval0x1](https://github.com/moval0x1)|Show comments and symbols renamed during the analysis process.|2024-02-20|binaryview, ui|python3|MIT|
 |[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-04-06|helper|rust|AGPLv3|
+|[CoolTypeOxidizer](https://github.com/unknowntrojan/binja_cooltypeoxidizer)|[unknowntrojan](https://github.com/unknowntrojan)|Provides a render layer that visually replaces C-style numeric types in HLIL with their Rust equivalents at zero runtime cost. (int64_t => i64)|2025-05-12|binaryview, helper, ui|python3|AGPLv3|
 |[Copy As YARA](https://github.com/ald3ns/copy-as-yara)|[alden (@birchb0y)](https://github.com/ald3ns)|Let's you copy sections of disassembly formatted for YARA.|2025-04-14|helper|python3|MIT|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|A plugin to detect several common crypto constructs and magic vars.|2023-09-22|binaryview, ui|python2|MIT|
 |[ctypes Export](https://github.com/jordan9001/ctypes_export)|[Jordan Whitehead](https://github.com/jordan9001)|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT|
@@ -76,7 +77,7 @@
 |[Function ABI](https://github.com/whitequark/binja_function_abi)|[whitequark](https://github.com/whitequark)|A plugin that adds a GUI for changing function ABI.|2019-11-22|ui|python2|BSD-0-clause|
 |[Fuzzable](https://github.com/ex0dus-0x/fuzzable)|[ex0dus-0x](https://github.com/ex0dus-0x)|Framework for Automating Fuzzable Target Discovery with Static Analysis|2023-11-22|ui|python3|MIT|
 |[Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|[Hugo Porcher (@icecr4ck)](https://github.com/icecr4ck)|A loader and diassembler for Game Boy ROMs.|2020-11-17|architecture, binaryview|python3|MIT|
-|[Game ROM Loader](https://github.com/redthing1/binja_gameroms_plugin)|[redthing1](https://github.com/redthing1)|Game ROM Loader for Binary Ninja|2025-04-26|architecture, binaryview, core, ui|python3|MIT|
+|[Game ROM Loader](https://github.com/redthing1/binja_gameroms_plugin)|[redthing1](https://github.com/redthing1)|Game ROM Loader for Binary Ninja|2025-05-10|architecture, binaryview, core, ui|python3|MIT|
 |[GameCube DOL](https://github.com/PistonMiner/binaryninja-gc-dol)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|GameCube DOL file BinaryView|2021-07-08|binaryview|python3|MIT|
 |[GameCube symbol map loader](https://github.com/PistonMiner/binaryninja-gc-load-map)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|GameCube symbol map loader|2021-07-08|helper|python3|MIT|
 |[GEF-Binja](https://github.com/hugsy/gef-binja)|[hugsy](https://github.com/hugsy)|Interface Binary Ninja with GDB-GEF easily.|2020-05-18|helper, ui|python3|MIT|
@@ -111,7 +112,7 @@
 |[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT|
 |[MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|[vrzh](https://github.com/v-rzh)|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT|
-|[Mole](https://github.com/cyber-defence-campus/mole)|[Damian Pfammatter and Sergio Paganoni](https://github.com/cyber-defence-campus)|Uncover interesting paths using static backward slicing|2025-04-25|helper, ui|python3|Apache-2.0|
+|[Mole](https://github.com/cyber-defence-campus/mole)|[Damian Pfammatter and Sergio Paganoni](https://github.com/cyber-defence-campus)|Uncover interesting paths using static backward slicing|2025-04-30|helper, ui|python3|Apache-2.0|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|Parses MSVC structures to improve analysis|2019-07-12|helper|python2|MIT|
@@ -149,7 +150,7 @@
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|python3|MIT|
 |[Shellcoder](https://github.com/0xricksanchez/Shellcoder)|[434b](https://github.com/0xricksanchez)|Interactive shellcode disassembler/assembler|2024-11-28|helper|python3|Apache 2.0|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|Synchronized source code pane for debug binaries|2019-07-15|helper, ui|python2|MIT|
-|[Swift Demangler](https://github.com/saagarjha/binja-swift-demangler)|[Saagar Jha](https://github.com/saagarjha)|Demangles Swift functions.|2023-09-15|architecture, binaryview, core, helper, ui|python3|MIT|
+|[Swift Demangler](https://github.com/saagarjha/binja-swift-demangler)|[Saagar Jha](https://github.com/saagarjha)|Demangles Swift functions.|2025-05-03|architecture, binaryview, core, helper, ui|python3|MIT|
 |[Switch Loader](https://github.com/EliseZeroTwo/Switch-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|Loader for common Nintendo Switch binaries|2020-07-22|binaryview, helper|python3|ISC|
 |[Symgrate2 Plugin](https://github.com/travisgoodspeed/symgrate2-binja-plugin)|[Travis Goodspeed](https://github.com/travisgoodspeed)|This is a client plugin for recovering symbols using the Symgrate2 server.|2021-09-11|helper|python3|MIT|
 |[Syscaller](https://github.com/carstein/Syscaller)|[Michal Melewski](https://github.com/carstein)|Decorate encountered syscalls with details like name and arguments|2019-07-15|helper|python3|MIT|
