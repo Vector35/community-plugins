@@ -1,5 +1,9 @@
 [
   {
+    "name": "unknowntrojan/binja_cooltypeoxidizer",
+    "auto_update": true
+  },
+  {
     "name": "cyber-defence-campus/mole",
     "auto_update": true
   },
