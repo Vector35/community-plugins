@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/vector35-community-plugins-badge.png)](https://mseep.ai/app/vector35-community-plugins)
+
 # Binary Ninja Plugins
 
 | PluginName | Author | Description | Last Updated | Type | API | License |
