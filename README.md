@@ -31,7 +31,7 @@
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0|
 |[BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|[Glenn Smith](https://github.com/CouleeApps)|Sidebar inspectors for debugging Binary Ninja itself|2025-01-02|helper, ui|python3|MIT|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|python3|MIT|
-|[bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|[OtterSec LLC](https://github.com/otter-sec)|An architecture/binaryview plugin for Solana EBPF.|2025-03-06|architecture, binaryview|python3|MIT|
+|[bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|[OtterSec LLC](https://github.com/otter-sec)|An architecture/binaryview plugin for Solana EBPF.|2025-05-18|architecture, binaryview|python3|MIT|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|RISC-V architecture plugin.|2021-01-18|architecture|python2|Apache-2.0|
 |[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|Helper plugin for analyzing UEFI firmware|2023-04-28|helper|python3|MIT|
 |[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|Scriptable code coverage analysis and visualization plugin|2023-02-15|helper|python3|MIT|
@@ -111,6 +111,7 @@
 |[keypatch](https://github.com/lwerdna/keypatch_binja)|[lwerdna](https://github.com/lwerdna)|Remake of keypatch plugin for Binary Ninja|2024-01-25|helper, ui|python3|Unlicense|
 |[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT|
+|[Minidump Loader](https://github.com/redthing1/binja_minidump)|[redthing1](https://github.com/redthing1)|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT|
 |[MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|[vrzh](https://github.com/v-rzh)|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT|
 |[Mole](https://github.com/cyber-defence-campus/mole)|[Damian Pfammatter and Sergio Paganoni](https://github.com/cyber-defence-campus)|Uncover interesting paths using static backward slicing|2025-04-30|helper, ui|python3|Apache-2.0|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT|
