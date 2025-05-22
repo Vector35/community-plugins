@@ -1,5 +1,9 @@
 [
   {
+    "name": "redthing1/binja_moonanalyzer",
+    "auto_update": true
+  },
+  {
     "name": "redthing1/binja_minidump",
     "auto_update": true
   },
