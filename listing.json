@@ -1,5 +1,9 @@
 [
   {
+    "name": "redthing1/binja_minidump",
+    "auto_update": true
+  },
+  {
     "name": "unknowntrojan/binja_cooltypeoxidizer",
     "auto_update": true
   },
