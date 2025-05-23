@@ -33,6 +33,7 @@
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|python3|MIT|
 |[bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|[OtterSec LLC](https://github.com/otter-sec)|An architecture/binaryview plugin for Solana EBPF.|2025-05-18|architecture, binaryview|python3|MIT|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|RISC-V architecture plugin.|2021-01-18|architecture|python2|Apache-2.0|
+|[bn-riscy-business](https://github.com/eybisi/bn-riscy-business)|[Ahmet Bilal Can](https://github.com/eybisi)|RISC-V architecture plugin to load encrypted Riscy-Business binaries.|2025-05-21|architecture|python2|Apache-2.0|
 |[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|Helper plugin for analyzing UEFI firmware|2023-04-28|helper|python3|MIT|
 |[bncov](https://github.com/ForAllSecure/bncov)|[Mark Griffin](https://github.com/ForAllSecure)|Scriptable code coverage analysis and visualization plugin|2023-02-15|helper|python3|MIT|
 |[BNHook](https://github.com/jeffli678/bnhook)|[Grant Orndorff](https://github.com/jeffli678)|Insert custom hooks|2021-03-29|core, ui|python2|MIT|
@@ -48,6 +49,7 @@
 |[CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|[moval0x1](https://github.com/moval0x1)|Show comments and symbols renamed during the analysis process.|2024-02-20|binaryview, ui|python3|MIT|
 |[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-04-06|helper|rust|AGPLv3|
 |[CoolTypeOxidizer](https://github.com/unknowntrojan/binja_cooltypeoxidizer)|[unknowntrojan](https://github.com/unknowntrojan)|Provides a render layer that visually replaces C-style numeric types in HLIL with their Rust equivalents at zero runtime cost. (int64_t => i64)|2025-05-12|binaryview, helper, ui|python3|AGPLv3|
+|[Copy as Deeplink](https://github.com/pathtofile/binja_plugin_copy_deeplink)|[pathtofile](https://github.com/pathtofile)|Creates a deeplink to the current address and adds it to the clipboard|2025-05-18|helper|python3|MIT|
 |[Copy As YARA](https://github.com/ald3ns/copy-as-yara)|[alden (@birchb0y)](https://github.com/ald3ns)|Let's you copy sections of disassembly formatted for YARA.|2025-04-14|helper|python3|MIT|
 |[cryptoscan](https://github.com/Rami114/cryptoscan)|[Ben Pottier](https://github.com/Rami114)|A plugin to detect several common crypto constructs and magic vars.|2023-09-22|binaryview, ui|python2|MIT|
 |[ctypes Export](https://github.com/jordan9001/ctypes_export)|[Jordan Whitehead](https://github.com/jordan9001)|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT|
@@ -60,7 +62,7 @@
 |[Dev Tools for Tantō](https://github.com/ElykDeer/tanto-devtools)|[Elykdeer](https://github.com/ElykDeer)|Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tantō.|2025-03-13|helper, ui|python3|MIT|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|helper, ui|python3|MIT|
 |[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2025-04-01|helper, ui|python3|LGPL-2.1|
-|[Discord Integration](https://github.com/psifertex/discordpresence)|[psifertex](https://github.com/psifertex)|Enables Discord Rich Presence Integration for Binary Ninja|2024-01-09|helper|python3|MIT|
+|[Discord Integration](https://github.com/psifertex/discordpresence)|[psifertex](https://github.com/psifertex)|Enables Discord Rich Presence Integration for Binary Ninja|2025-05-23|helper|python3|MIT|
 |[Dixie](https://github.com/3Flatline/DixieBinjaPlugin)|[3Flatline LLC](https://github.com/3Flatline)|Uses Dixie code scanner to find vulnerabilities using the Binary Ninja C representation|2024-04-02|ui|python3|MIT|
 |[droog](https://github.com/amtal/droog)|[amtal](https://github.com/amtal)|PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's "Processor Manual..." right-click menu.|2024-06-24|helper|python3|AGPL-3.0|
 |[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|DUMB: An Example Architecture for Binary Ninja|2020-03-01|architecture, binaryview|python3|MIT|
