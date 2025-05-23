@@ -1,5 +1,9 @@
 [
   {
+    "name": "eybisi/bn-riscy-business",
+    "auto_update": true
+  },
+  {
     "name": "pathtofile/binja_plugin_copy_deeplink",
     "auto_update": true
   },
