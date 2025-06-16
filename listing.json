@@ -1,5 +1,9 @@
 [
   {
+    "name": "ScriptWare-Software/native-predicate-solver_loader",
+    "auto_update": true
+  },
+  {
     "name": "mrphrazer/obfuscation_analysis",
     "auto_update": true
   },
