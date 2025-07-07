@@ -1,5 +1,9 @@
 [
   {
+    "name": "1337-42/SimpleYaraBN",
+    "auto_update": true
+  },
+  {
     "name": "ScriptWare-Software/native-predicate-solver_loader",
     "auto_update": true
   },
