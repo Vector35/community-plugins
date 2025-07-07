@@ -31,7 +31,7 @@
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0|
 |[BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|[Glenn Smith](https://github.com/CouleeApps)|Sidebar inspectors for debugging Binary Ninja itself|2025-01-02|helper, ui|python3|MIT|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|python3|MIT|
-|[bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|[OtterSec LLC](https://github.com/otter-sec)|An architecture/binaryview plugin for Solana EBPF.|2025-05-18|architecture, binaryview|python3|MIT|
+|[bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|[OtterSec LLC](https://github.com/otter-sec)|An architecture/binaryview plugin for Solana EBPF.|2025-07-01|architecture, binaryview|python3|MIT|
 |[bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|[Katharina Utz](https://github.com/uni-due-syssec)|RISC-V architecture plugin.|2021-01-18|architecture|python2|Apache-2.0|
 |[bn-riscy-business](https://github.com/eybisi/bn-riscy-business)|[Ahmet Bilal Can](https://github.com/eybisi)|RISC-V architecture plugin to load encrypted Riscy-Business binaries.|2025-05-21|architecture|python2|Apache-2.0|
 |[bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|[Brandon Miller (zznop)](https://github.com/zznop)|Helper plugin for analyzing UEFI firmware|2023-04-28|helper|python3|MIT|
@@ -47,7 +47,7 @@
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|2020-06-08|architecture, binaryview, core, helper, ui|python3|MIT|
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|Binary Ninja comments viewer|2022-05-27|ui|python3|MIT|
 |[CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|[moval0x1](https://github.com/moval0x1)|Show comments and symbols renamed during the analysis process.|2024-02-20|binaryview, ui|python3|MIT|
-|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-06-11|helper|rust|AGPLv3|
+|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-07-02|helper|rust|AGPLv3|
 |[CoolTypeOxidizer](https://github.com/unknowntrojan/binja_cooltypeoxidizer)|[unknowntrojan](https://github.com/unknowntrojan)|Provides a render layer that visually replaces C-style numeric types in HLIL with their Rust equivalents at zero runtime cost. (int64_t => i64)|2025-05-12|binaryview, helper, ui|python3|AGPLv3|
 |[Copy as Deeplink](https://github.com/pathtofile/binja_plugin_copy_deeplink)|[pathtofile](https://github.com/pathtofile)|Creates a deeplink to the current address and adds it to the clipboard|2025-05-18|helper|python3|MIT|
 |[Copy As YARA](https://github.com/ald3ns/copy-as-yara)|[alden (@birchb0y)](https://github.com/ald3ns)|Let's you copy sections of disassembly formatted for YARA.|2025-04-14|helper|python3|MIT|
@@ -61,7 +61,7 @@
 |[Dependency analyzer](https://github.com/shizmob/binja-depanalyzer)|[Shiz](https://github.com/shizmob)|Analyze dependencies and resolve obfuscated imports|2020-05-25|helper|python2|MIT|
 |[Dev Tools for Tantō](https://github.com/ElykDeer/tanto-devtools)|[Elykdeer](https://github.com/ElykDeer)|Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tantō.|2025-03-13|helper, ui|python3|MIT|
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|helper, ui|python3|MIT|
-|[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2025-04-01|helper, ui|python3|LGPL-2.1|
+|[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2025-07-01|helper, ui|python3|LGPL-2.1|
 |[Discord Integration](https://github.com/psifertex/discordpresence)|[psifertex](https://github.com/psifertex)|Enables Discord Rich Presence Integration for Binary Ninja|2025-05-23|helper|python3|MIT|
 |[Dixie](https://github.com/3Flatline/DixieBinjaPlugin)|[3Flatline LLC](https://github.com/3Flatline)|Uses Dixie code scanner to find vulnerabilities using the Binary Ninja C representation|2024-04-02|ui|python3|MIT|
 |[droog](https://github.com/amtal/droog)|[amtal](https://github.com/amtal)|PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's "Processor Manual..." right-click menu.|2024-06-24|helper|python3|AGPL-3.0|
@@ -115,15 +115,15 @@
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT|
 |[Minidump Loader](https://github.com/redthing1/binja_minidump)|[redthing1](https://github.com/redthing1)|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT|
 |[MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|[vrzh](https://github.com/v-rzh)|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT|
-|[Mole](https://github.com/cyber-defence-campus/mole)|[Damian Pfammatter and Sergio Paganoni](https://github.com/cyber-defence-campus)|Uncover interesting paths using static backward slicing|2025-04-30|helper, ui|python3|Apache-2.0|
+|[Mole](https://github.com/cyber-defence-campus/mole)|[Damian Pfammatter and Sergio Paganoni](https://github.com/cyber-defence-campus)|Uncover interesting paths using static backward slicing|2025-06-27|helper, ui|python3|Apache-2.0|
 |[Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|[redthing1](https://github.com/redthing1)|Analyze things on the Moon|2025-05-21|binaryview, core, ui|python3|MIT|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT|
 |[MSVC](https://github.com/0x1F9F1/binja-msvc)|[Brick](https://github.com/0x1F9F1)|Parses MSVC structures to improve analysis|2019-07-12|helper|python2|MIT|
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|FLIRT for (binary) ninjas|2020-05-27|binaryview, core|python3|LGPL v3|
-|[Native Predicate Solver](https://github.com/ScriptWare-Software/native-predicate-solver_loader)|[ScriptWare Software](https://github.com/ScriptWare-Software)|Remove opaque predicates from binaries|2025-06-11|helper|python3|MIT|
+|[Native Predicate Solver](https://github.com/ScriptWare-Software/native-predicate-solver_loader)|[ScriptWare Software](https://github.com/ScriptWare-Software)|Remove opaque predicates from binaries|2025-06-29|helper|python3|MIT|
 |[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|Find and create signatures|2024-08-13|helper|python2|MIT|
-|[NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|[Accenture (Martin Petran)](https://github.com/Accenture)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-03-31|architecture|C++|Apache-2.0|
+|[NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|[Accenture (Martin Petran)](https://github.com/Accenture)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-06-21|architecture|C++|Apache-2.0|
 |[Notepad](https://github.com/jonpalmisc/bn-notepad)|[Jon Palmisciano](https://github.com/jonpalmisc)|A notepad for taking notes inside Binary Ninja.|2021-04-19|None|python3|MIT|
 |[Obfuscation Analysis](https://github.com/mrphrazer/obfuscation_analysis)|[Tim Blazytko, Nicolò Altamura](https://github.com/mrphrazer)|Analyze and simplify obfuscated code|2025-06-14|helper|python3|GPL-2.0|
 |[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|Automatically detect obfuscated code and other interesting code constructs|2025-03-14|helper|python3|GPL-2.0|
@@ -155,6 +155,7 @@
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|Symbolic execution plugin for BinaryNinja|2024-02-24|helper|python3|2-Clause BSD|
 |[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|python3|MIT|
 |[Shellcoder](https://github.com/0xricksanchez/Shellcoder)|[434b](https://github.com/0xricksanchez)|Interactive shellcode disassembler/assembler|2024-11-28|helper|python3|Apache 2.0|
+|[Simple YARA Generator](https://github.com/1337-42/SimpleYaraBN)|[Remco Sprooten](https://github.com/1337-42)|Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/ARM64, and MIPS architectures. Streamlines malware analysis and signature creation workflows.|2025-07-01|ui|python3|MIT|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|Synchronized source code pane for debug binaries|2019-07-15|helper, ui|python2|MIT|
 |[Swift Demangler](https://github.com/saagarjha/binja-swift-demangler)|[Saagar Jha](https://github.com/saagarjha)|Demangles Swift functions.|2025-06-01|helper|python3|MIT|
 |[Switch Loader](https://github.com/EliseZeroTwo/Switch-Binja-Loader)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|Loader for common Nintendo Switch binaries|2020-07-22|binaryview, helper|python3|ISC|
