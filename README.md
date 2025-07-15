@@ -63,7 +63,6 @@
 |[devi](https://github.com/murx-/devi_binja)|[@_murks](https://github.com/murx-)|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|helper, ui|python3|MIT|
 |[dewolf Decompiler](https://github.com/fkie-cad/dewolf)|[fkie-cad](https://github.com/fkie-cad)|Research Decompiler to generate a C-like function representation|2025-07-01|helper, ui|python3|LGPL-2.1|
 |[Discord Integration](https://github.com/psifertex/discordpresence)|[psifertex](https://github.com/psifertex)|Enables Discord Rich Presence Integration for Binary Ninja|2025-05-23|helper|python3|MIT|
-|[Dixie](https://github.com/3Flatline/DixieBinjaPlugin)|[3Flatline LLC](https://github.com/3Flatline)|Uses Dixie code scanner to find vulnerabilities using the Binary Ninja C representation|2024-04-02|ui|python3|MIT|
 |[droog](https://github.com/amtal/droog)|[amtal](https://github.com/amtal)|PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's "Processor Manual..." right-click menu.|2024-06-24|helper|python3|AGPL-3.0|
 |[DUMB](https://github.com/toolCHAINZ/DUMB)|[toolCHAINZ](https://github.com/toolCHAINZ)|DUMB: An Example Architecture for Binary Ninja|2020-03-01|architecture, binaryview|python3|MIT|
 |[Dyld Shared Cache Processor](https://github.com/0cyn/bn-dyldsharedcache)|[cynder (kat)](https://github.com/0cyn)|Processing for Apple's dyld_shared_cache format.|2022-03-01|architecture, binaryview, core, helper, ui|python3|MIT|
@@ -115,7 +114,7 @@
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT|
 |[Minidump Loader](https://github.com/redthing1/binja_minidump)|[redthing1](https://github.com/redthing1)|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT|
 |[MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|[vrzh](https://github.com/v-rzh)|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT|
-|[Mole](https://github.com/cyber-defence-campus/mole)|[Damian Pfammatter and Sergio Paganoni](https://github.com/cyber-defence-campus)|Uncover interesting paths using static backward slicing|2025-06-27|helper, ui|python3|Apache-2.0|
+|[Mole](https://github.com/cyber-defence-campus/mole)|[Damian Pfammatter and Sergio Paganoni](https://github.com/cyber-defence-campus)|Uncover interesting paths using static backward slicing|2025-07-10|helper, ui|python3|Apache-2.0|
 |[Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|[redthing1](https://github.com/redthing1)|Analyze things on the Moon|2025-05-21|binaryview, core, ui|python3|MIT|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT|
