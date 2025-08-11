@@ -27,7 +27,7 @@
 |[binja_sigmaker](https://github.com/apekros/binja_sigmaker)|[apekros and Alex3434](https://github.com/apekros)|Generate and find signatures.|2023-01-29|architecture, binaryview, core, ui|python3|MIT|
 |[BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|[moval0x1](https://github.com/moval0x1)|Export notations from Binja to x64dbg|2024-02-20|binaryview|python3|MIT|
 |[binjaextras](https://github.com/xorhex/binjaextras)|[xorhex](https://github.com/xorhex)|Various features to make windows malware analysis easier.|2025-01-17|helper|python3|MIT|
-|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-05-31|sync|python3|BSD 2-clause|
+|[BinSync](https://github.com/binsync/binsync)|[BinSync Team](https://github.com/binsync)|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-08-08|sync|python3|BSD 2-clause|
 |[Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|[sen](https://github.com/0bs3n)|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0|
 |[BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|[Glenn Smith](https://github.com/CouleeApps)|Sidebar inspectors for debugging Binary Ninja itself|2025-01-02|helper, ui|python3|MIT|
 |[BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|[Brandon Miller](https://github.com/zznop)|Recover Linux kernel build configurations|2022-01-14|helper|python3|MIT|
@@ -47,7 +47,7 @@
 |[Clean Tricks](https://github.com/janbbeck/CleanTricks)|[Jan Beck](https://github.com/janbbeck)|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|2020-06-08|architecture, binaryview, core, helper, ui|python3|MIT|
 |[Comments Viewer](https://github.com/matteyeux/comments-viewer)|[matteyeux](https://github.com/matteyeux)|Binary Ninja comments viewer|2022-05-27|ui|python3|MIT|
 |[CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|[moval0x1](https://github.com/moval0x1)|Show comments and symbols renamed during the analysis process.|2024-02-20|binaryview, ui|python3|MIT|
-|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-07-02|helper|rust|AGPLv3|
+|[CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|[unknowntrojan](https://github.com/unknowntrojan)|SigMaker style plugin|2025-07-25|helper|rust|AGPLv3|
 |[CoolTypeOxidizer](https://github.com/unknowntrojan/binja_cooltypeoxidizer)|[unknowntrojan](https://github.com/unknowntrojan)|Provides a render layer that visually replaces C-style numeric types in HLIL with their Rust equivalents at zero runtime cost. (int64_t => i64)|2025-05-12|binaryview, helper, ui|python3|AGPLv3|
 |[Copy as Deeplink](https://github.com/pathtofile/binja_plugin_copy_deeplink)|[pathtofile](https://github.com/pathtofile)|Creates a deeplink to the current address and adds it to the clipboard|2025-05-18|helper|python3|MIT|
 |[Copy As YARA](https://github.com/ald3ns/copy-as-yara)|[alden (@birchb0y)](https://github.com/ald3ns)|Let's you copy sections of disassembly formatted for YARA.|2025-04-14|helper|python3|MIT|
@@ -86,7 +86,7 @@
 |[Ghinja](https://github.com/Martyx00/ghinja)|[Martin Petran](https://github.com/Martyx00)|Plugin to embed Ghidra Decompiler into Binary Ninja|2022-06-08|ui|python3|Apache-2.0|
 |[Go Calling Convention](https://github.com/PistonMiner/binaryninja-go-callconv)|[Linus S. (aka PistonMiner)](https://github.com/PistonMiner)|Adds the "gocall" calling convention|2023-12-14|helper|python3|MIT|
 |[GO Loader Assist](https://github.com/f0rki/bn-goloader)|[Michael Rodler](https://github.com/f0rki)|Short script that parses go symbol table and renames/creates functions.|2021-02-02|ui|python2|MIT|
-|[GoLang binary parser](https://github.com/dipusone/golang_pclntab_parser)|[Jacopo Ferrigno](https://github.com/dipusone)|BinaryNinja plugin to parse GoLang binaries and restore some information, like function names and type information|2023-01-05|ui|python3|MIT|
+|[GoLang binary parser](https://github.com/dipusone/golang_pclntab_parser)|[Jacopo Ferrigno](https://github.com/dipusone)|BinaryNinja plugin to parse GoLang binaries and restore information, like function names, type information and reconstruct native types|2025-07-29|ui|python3|MIT|
 |[Golang Symbol Restore](https://github.com/d-we/binja-golang-symbol-restore)|[Daniel Weber](https://github.com/d-we)|Binary Ninja plugin for restoring function names from stripped Golang binaries|2020-10-19|helper|python3|MIT|
 |[Golang Symbol Restore 1.18+](https://github.com/scmerrill/golang_1_18_restore_names)|[Spencer Merrill](https://github.com/scmerrill)|Binary Ninja plugin for restoring function names from stripped Golang binaries|2022-09-08|helper|python3|MIT|
 |[GTIRB](https://github.com/adrianherrera/binaryninja-gtirb)|[Adrian Herrera](https://github.com/adrianherrera)|Support the GrammaTech Intermediate Representation for Binaries (GTIRB) in Binary Ninja|2024-10-07|helper|python3|MIT|
@@ -113,8 +113,9 @@
 |[Lighthouse](https://github.com/gaasedelen/lighthouse)|[Markus Gaasedelen](https://github.com/gaasedelen)|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT|
 |[logrn](https://github.com/sum-catnip/logrn)|[catnip](https://github.com/sum-catnip)|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT|
 |[Minidump Loader](https://github.com/redthing1/binja_minidump)|[redthing1](https://github.com/redthing1)|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT|
+|[Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|[Benson Liu](https://github.com/bliutech)|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2025-08-08|helper|python3|MIT|
 |[MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|[vrzh](https://github.com/v-rzh)|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT|
-|[Mole](https://github.com/cyber-defence-campus/mole)|[Damian Pfammatter and Sergio Paganoni](https://github.com/cyber-defence-campus)|Uncover interesting paths using static backward slicing|2025-07-10|helper, ui|python3|Apache-2.0|
+|[Mole](https://github.com/cyber-defence-campus/mole)|[Damian Pfammatter and Sergio Paganoni](https://github.com/cyber-defence-campus)|Uncover interesting paths using static backward slicing|2025-07-25|helper, ui|python3|Apache-2.0|
 |[Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|[redthing1](https://github.com/redthing1)|Analyze things on the Moon|2025-05-21|binaryview, core, ui|python3|MIT|
 |[Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|[Galen Williamson](https://github.com/galenbwill)|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT|
 |[msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|[Josh Watson](https://github.com/joshwatson)|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT|
@@ -122,7 +123,7 @@
 |[Nampa](https://github.com/thebabush/nampa)|[Paolo Montesel (https://github.com/thebabush)](https://github.com/thebabush)|FLIRT for (binary) ninjas|2020-05-27|binaryview, core|python3|LGPL v3|
 |[Native Predicate Solver](https://github.com/ScriptWare-Software/native-predicate-solver_loader)|[ScriptWare Software](https://github.com/ScriptWare-Software)|Remove opaque predicates from binaries|2025-06-29|helper|python3|MIT|
 |[Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|[rikodot](https://github.com/rikodot)|Find and create signatures|2024-08-13|helper|python2|MIT|
-|[NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|[Accenture (Martin Petran)](https://github.com/Accenture)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-06-21|architecture|C++|Apache-2.0|
+|[NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|[Accenture (Martin Petran)](https://github.com/Accenture)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-07-18|architecture|C++|Apache-2.0|
 |[Notepad](https://github.com/jonpalmisc/bn-notepad)|[Jon Palmisciano](https://github.com/jonpalmisc)|A notepad for taking notes inside Binary Ninja.|2021-04-19|None|python3|MIT|
 |[Obfuscation Analysis](https://github.com/mrphrazer/obfuscation_analysis)|[Tim Blazytko, Nicolò Altamura](https://github.com/mrphrazer)|Analyze and simplify obfuscated code|2025-06-14|helper|python3|GPL-2.0|
 |[Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|[Tim Blazytko](https://github.com/mrphrazer)|Automatically detect obfuscated code and other interesting code constructs|2025-03-14|helper|python3|GPL-2.0|
@@ -152,7 +153,7 @@
 |[SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|[EliseZeroTwo](https://github.com/EliseZeroTwo)|Helper for exploring structured exception handlers in PEs|2022-02-19|helper, ui|python3|MIT|
 |[semgrep-bn](https://github.com/interruptlabs/semgrep_bn)|[Samman Palihapitiya](https://github.com/interruptlabs)|Search code with Semgrep|2025-02-04|helper|python3|MIT|
 |[SENinja](https://github.com/borzacchiello/seninja)|[Luca Borzacchiello](https://github.com/borzacchiello)|Symbolic execution plugin for BinaryNinja|2024-02-24|helper|python3|2-Clause BSD|
-|[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|python3|MIT|
+|[SEPROM Loader](https://github.com/matteyeux/seprom-loader)|[matteyeux](https://github.com/matteyeux)|Binary View for loading 32 bits and 64 bits Apple SEPROM|2025-07-20|binaryview|python3|MIT|
 |[Shellcoder](https://github.com/0xricksanchez/Shellcoder)|[434b](https://github.com/0xricksanchez)|Interactive shellcode disassembler/assembler|2024-11-28|helper|python3|Apache 2.0|
 |[Simple YARA Generator](https://github.com/1337-42/SimpleYaraBN)|[Remco Sprooten](https://github.com/1337-42)|Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/ARM64, and MIPS architectures. Streamlines malware analysis and signature creation workflows.|2025-07-01|ui|python3|MIT|
 |[Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|[mechanicalnull](https://github.com/mechanicalnull)|Synchronized source code pane for debug binaries|2019-07-15|helper, ui|python2|MIT|
