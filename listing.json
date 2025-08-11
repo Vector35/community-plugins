@@ -1,5 +1,9 @@
 [
   {
+    "name": "bliutech/mbased",
+    "auto_update": true
+  },
+  {
     "name": "1337-42/SimpleYaraBN",
     "auto_update": true
   },
