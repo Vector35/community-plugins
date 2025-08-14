@@ -1,8 +1,5 @@
 name: Update Plugin Repository
 on:
-  push:
-    paths:
-      - 'listing.json'
   workflow_dispatch:
     inputs:
       message:
