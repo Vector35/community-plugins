@@ -1796,19 +1796,19 @@
       "python3"
     ],
     "author": "BinSync Team",
-    "dependencies": "binsync>=5.7.4",
+    "dependencies": "binsync>=5.7.5",
     "description": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
     "installinstructions": {},
-    "lastUpdated": 1755812471,
+    "lastUpdated": 1755886097,
     "license": {
       "name": "BSD 2-clause",
       "text": ""
     },
-    "longdescription": "## BinSync\r\n\r\n<p align=\"center\">\r\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\r\n</p>\r\n\r\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\r\nengineering collaboration regardless of decompiler. BinSync is built by [mahaloz](https://github.com/mahaloz), \r\nthe [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\r\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. \r\n\r\n## Binary Ninja\r\nPlease read our [Quickstart Docs](https://binsync.net/docs/home) to learn how to use BinSync effectively. \r\nYou can go straight to install verification since you've installed it already. \r\n\r\n![Demo](https://i.imgur.com/GVnysnb.png)\n\n### Changelog\n## What's Changed\r\n* Force Checkout to User Branch by @Flipout50 in https://github.com/binsync/binsync/pull/445\r\n\r\n\r\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.7.3...v5.7.4",
+    "longdescription": "\n## BinSync\n\n<p align=\"center\">\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\n</p>\n\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\nengineering collaboration regardless of decompiler. BinSync is built by [mahaloz](https://github.com/mahaloz), \nthe [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. \n\n## Binary Ninja\nPlease read our [Quickstart Docs](https://binsync.net/docs/home) to learn how to use BinSync effectively. \nYou can go straight to install verification since you've installed it already. \n\n![Demo](https://i.imgur.com/GVnysnb.png)\n\n\n\n### Changelog\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.7.4...v5.7.5",
     "minimumbinaryninjaversion": 1200,
     "name": "BinSync",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/85a2f7ca-43bf-4b26-81c7-2273b129aedd/platforms/2575/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/85a2f7ca-43bf-4b26-81c7-2273b129aedd/platforms/2575/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/82911da6-4b8b-477e-983c-377cb2fb9e5a/platforms/2581/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/82911da6-4b8b-477e-983c-377cb2fb9e5a/platforms/2581/download?notrack=1",
     "path": "binsync_binsync",
     "platforms": [
       "Darwin",
@@ -1817,15 +1817,15 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 656,
-      "updated_at": "2025-08-21 21:41:11+00:00"
+      "stargazers_count": 657,
+      "updated_at": "2025-08-22 18:08:17+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
     "subdir": "binsync/stub_files",
     "type": [
       "sync"
     ],
-    "version": "5.7.4"
+    "version": "5.7.5"
   },
   {
     "api": [
@@ -2218,7 +2218,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 854,
+      "stargazers_count": 855,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2254,7 +2254,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 94,
+      "stargazers_count": 95,
       "updated_at": "2025-02-15 00:29:08+00:00"
     },
     "projectUrl": "https://github.com/seeinglogic/ariadne",
@@ -2915,7 +2915,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2197,
+      "stargazers_count": 2198,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3134,7 +3134,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2400,
+      "stargazers_count": 2399,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3824,7 +3824,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 296,
+      "stargazers_count": 297,
       "updated_at": "2024-09-07 12:07:04+00:00"
     },
     "projectUrl": "https://github.com/Martyx00/VulnFanatic",
@@ -6329,7 +6329,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 162,
+      "stargazers_count": 163,
       "updated_at": "2025-06-14 18:15:41+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
