@@ -136,7 +136,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 202,
+      "stargazers_count": 203,
       "updated_at": "2025-07-01 15:21:37+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -282,7 +282,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 7,
+      "stargazers_count": 9,
       "updated_at": "2024-11-28 17:11:48+00:00"
     },
     "projectUrl": "https://github.com/valters-tomsons/bninja-ps3",
@@ -608,7 +608,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 12,
+      "stargazers_count": 13,
       "updated_at": "2024-09-19 11:36:02+00:00"
     },
     "projectUrl": "https://github.com/computerman00/BinaryNinja-PSVitaLoader",
@@ -1127,7 +1127,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 973,
+      "stargazers_count": 974,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1525,7 +1525,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 20,
+      "stargazers_count": 21,
       "updated_at": "2023-12-25 02:17:44+00:00"
     },
     "projectUrl": "https://github.com/cxiao/rust_string_slicer",
@@ -1796,19 +1796,19 @@
       "python3"
     ],
     "author": "BinSync Team",
-    "dependencies": "binsync>=4.6.0",
+    "dependencies": "binsync>=5.7.4",
     "description": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
     "installinstructions": {},
-    "lastUpdated": 1754639014,
+    "lastUpdated": 1755812471,
     "license": {
       "name": "BSD 2-clause",
       "text": ""
     },
-    "longdescription": "\n## BinSync\n\n<p align=\"center\">\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\n</p>\n\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\nengineering collaboration regardless of decompiler. BinSync is built by [mahaloz](https://github.com/mahaloz), \nthe [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. \n\n## Binary Ninja\nPlease read our [Quickstart Docs](https://binsync.net/docs/home) to learn how to use BinSync effectively. \nYou can go straight to install verification since you've installed it already. \n\n![Demo](https://i.imgur.com/GVnysnb.png)\n\n\n\n### Changelog\n## What's Changed\n* Use an alternate method to get the current bv by @saagarjha in https://github.com/binsync/binsync/pull/439\n* Features: preview merges by @julietteraubolt by @mahaloz in https://github.com/binsync/binsync/pull/441\n\n\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.5.1...v5.6.0",
+    "longdescription": "## BinSync\r\n\r\n<p align=\"center\">\r\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\r\n</p>\r\n\r\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\r\nengineering collaboration regardless of decompiler. BinSync is built by [mahaloz](https://github.com/mahaloz), \r\nthe [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\r\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. \r\n\r\n## Binary Ninja\r\nPlease read our [Quickstart Docs](https://binsync.net/docs/home) to learn how to use BinSync effectively. \r\nYou can go straight to install verification since you've installed it already. \r\n\r\n![Demo](https://i.imgur.com/GVnysnb.png)\n\n### Changelog\n## What's Changed\r\n* Force Checkout to User Branch by @Flipout50 in https://github.com/binsync/binsync/pull/445\r\n\r\n\r\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.7.3...v5.7.4",
     "minimumbinaryninjaversion": 1200,
     "name": "BinSync",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/117be235-5a25-4a7e-928b-0b8d73b675dc/platforms/2551/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/117be235-5a25-4a7e-928b-0b8d73b675dc/platforms/2551/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/85a2f7ca-43bf-4b26-81c7-2273b129aedd/platforms/2575/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/85a2f7ca-43bf-4b26-81c7-2273b129aedd/platforms/2575/download?notrack=1",
     "path": "binsync_binsync",
     "platforms": [
       "Darwin",
@@ -1818,14 +1818,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 656,
-      "updated_at": "2025-08-08 07:43:34+00:00"
+      "updated_at": "2025-08-21 21:41:11+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
     "subdir": "binsync/stub_files",
     "type": [
       "sync"
     ],
-    "version": "5.6.0"
+    "version": "5.7.4"
   },
   {
     "api": [
@@ -1925,7 +1925,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 695,
+      "stargazers_count": 692,
       "updated_at": "2024-09-08 05:48:57+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2146,7 +2146,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 74,
+      "stargazers_count": 75,
       "updated_at": "2024-04-17 01:32:21+00:00"
     },
     "projectUrl": "https://github.com/WhatTheFuzz/binaryninja-openai",
@@ -2254,7 +2254,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 93,
+      "stargazers_count": 94,
       "updated_at": "2025-02-15 00:29:08+00:00"
     },
     "projectUrl": "https://github.com/seeinglogic/ariadne",
@@ -2654,7 +2654,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 85,
+      "stargazers_count": 86,
       "updated_at": "2022-03-01 06:59:47+00:00"
     },
     "projectUrl": "https://github.com/0cyn/bn-dyldsharedcache",
@@ -2915,7 +2915,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2194,
+      "stargazers_count": 2197,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3134,7 +3134,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2395,
+      "stargazers_count": 2400,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3521,8 +3521,8 @@
     "longdescription": "# Obfuscation Detection (v2.3)\nAuthor: **Tim Blazytko**\n\n_Automatically detect obfuscated code and other interesting code constructs_\n\n## Description:\n\n_Obfuscation Detection_ is a Binary Ninja plugin to detect obfuscated code and interesting code constructs (e.g., state machines) in binaries. Given a binary, the plugin eases analysis by identifying code locations which might be worth a closer look during reverse engineering.\n\nBased on various heuristics, the plugin pinpoints functions that contain complex or uncommon code constructs. Such code constructs may implement\n\n* obfuscated code\n* state machines and protocols\n* C&C server communication\n* string decryption routines\n* cryptographic algorithms\n\nThe following blog posts provide more information about the underlying heuristics and demonstrate their use cases:\n\n* [Automated Detection of Control-flow Flattening](https://synthesis.to/2021/03/03/flattening_detection.html)\n* [Automated Detection of Obfuscated Code](https://synthesis.to/2021/08/10/obfuscation_detection.html)\n* [Statistical Analysis to Detect Uncommon Code](https://synthesis.to//2023/01/26/uncommon_instruction_sequences.html)\n* [Identification of API Functions in Binaries](https://synthesis.to/2023/08/02/api_functions.html)\n\nSome example use cases can be found in [examples](./examples). Furthermore, the REcon talk [\"Unveiling Secrets in Binaries using Code Detection Strategies\"](https://cfp.recon.cx/2023/talk/QD8UNJ/) demonstrates some use cases. The slides can be found [here](./presentation/recon23_code_detection.pdf); the recording can be found [here](https://www.youtube.com/watch?v=y95MNr2Xu-g).\n\n\n## Core Features\n\n* identifies interesting code constructs in large binaries\n* highlights disaligned instructions in Binary Ninja's graph view\n* efficient and architecture-agnostic implementation\n* runs as a background task\n* can be used in UI and headless mode\n\n\n## Installation\n\nThe tool can be installed using Binary Ninja's plugin manager.\n\nFor the headless version, follow these steps:\n\n```\ngit clone https://github.com/mrphrazer/obfuscation_detection.git\ncd obfuscation_detection\n\n# install obfuscation_detection\npip install .\n```\n\n\n## Usage\n\nThe plugin can be used in the user interface and in headless mode.\n\n\n### User Interface\n\nChoose the index tab `Plugins -> Obfuscation Detection` to run one or more detection heuristics in Binary Ninja's user interface:\n\n<p align=\"left\">\n<img alt=\"Plugin Menu\" src=\"imgs/plugin_menu.png\" width=\"500\"/>\n</p>\n\nThe results are displayed in the Log window:\n\n<p align=\"center\">\n<img alt=\"Binary Ninja Log\" src=\"imgs/plugin_results.png\"/>\n</p>\n\nBy clicking on the identified function addresses, Binary Ninja navigates to the selected function.\n\n\n### Headless\n\nTo use the plugin in headless mode, run [`scripts/detect_obfuscation.py`](scripts/detect_obfuscation.py):\n\n```\n$ python3 scripts/detect_obfuscation.py <binary>\n```\n\n\n## Detection Heuristics\n\nThe plugin implements various detection heuristics to detect different code constructs. In the following, we briefly describe the individual heuristics and explain their usage. \n\n### Large Basic Blocks\n\nThe large basic block heuristic identifies the top 10% of functions with the largest average number of instructions per basic block. It allows to detect\n\n* unrolled code\n* cryptographic implementations\n* initialization routines\n* arithmetic obfuscation / Mixed Boolean-Arithmetic\n\n### Complex Functions\n\nTo complex functions heuristic identifies the top 10% of functions with the most complex control-flow graphs (based on cyclomatic complexity). It allows to identify\n\n* complex dispatching routines and protocols\n* state machines\n* functions obfuscated with opaque predicates\n\n\n### Flattened Functions\n\nThe flattened function heuristic uses some graph-theoretic properties to identify functions implementing state machines. Usually, such state machines can be represented as switch statements that are dispatched in a loop. The heuristic allows to identify\n\n* network protocol dispatching\n* file parsing logic\n* C&C server communication / command dispatching\n* control-flow flattening\n\n\n### Uncommon Instruction Sequences\n\nThe uncommon instruction sequences heuristic performs a statistical analysis to identify the top 10% of functions whose code patterns deviate from a pre-computed ground truth. This way, the heuristic allows to identify\n\n* cryptographic implementations\n* intense usage of floating point arithmetic\n* arithmetic obfuscation / Mixed Boolean-Arithmetic\n* generic obfuscation patterns\n\n\n### Instruction Overlapping\n\nThe instruction overlapping heuristic identifies functions with disaligned instructions (instruction bytes are shared by two different instructions). The heuristic identifies\n\n* broken disassembly (e.g., data which is marked as code)\n* opaque predicates which jump into other instructions \n\nIf the heuristic is used in Binary Ninja's user interface, overlapping instructions are also highlighted in the graph view.\n\n\n### Most Called Functions\n\nThe heuristic for most called functions identifies the top 10% of functions with the largest number of calls from different functions. This way, the heuristic can identify\n\n* string decryption routines\n* library functions in statically linked binaries\n\n\n### High Loop Frequency\n\nThe heuristic identifies functions with a high number of loops. These kind of functions might implement\n\n* a complex parsing logic for structured data formats\n* intensive algorithmic computations\n\nThe heuristic also helps pinpointing potential performance bottlenecks.\n\n\n### Irreducible Loops\n\nThe heuristic identifies functions with rare and complex loop structures that typically suggest\n\n* aggressive compiler optimizations\n* hand-written assembly\n* usage of goto statements\n* obfuscated code\n\n\n### XOR Decryption Loops\n\nThe heuristic identifies functions which perform an XOR operation with a constant inside of a loop. This way, the heuristic can identify\n\n* string decryption routines\n* code decryption stubs\n* cryptographic implementations\n\n\n### Complex Arithmetic Expressions \n\nThe heuristic identifies functions in which the expressions have more than one arithmetic operation and one boolean operation simultaneously. This way, the heuristic can identify\n\n* mixed-boolean arithmetic obfuscation\n* initialization routine\n* cryptographic implementations\n\n\n### Duplicate Subgraphs\n\nThe heuristic uses an iterative context-hashing approach to detect repeated multi-block structures within each function\u2019s control-flow graph. By comparing each block\u2019s opcode signature along with the signatures of its successors, the heuristic identifies subgraphs that are duplicated or near-duplicated in a single function. This helps pinpoint:\n\n* obfuscation stubs like small state machines or dispatcher blocks cloned multiple times\n* unrolled or inlined loops introduced by compiler optimizations\n* multi-way branching logic like range dividers and decision trees\n* repeated cryptographic or checksumming stubs\n\n\n## Utils\n\nContrary to the detection heuristics which target a wider scope of code, the plugin also implements various helpers which aim to identify functions with a narrower scope. In the following, we describe these helpers and explain their characteristics.\n\n\n### Entry Functions\n\nThis helper identifies functions without known callers. These functions might be \n\n* entry points in the binary\n* indirect jumps targets where the call hierarchy could not be recovered by the disassembler\n\n\n### Leaf Functions\n\nThis helper identifies functions that do not call other functions. These kinds of functions may, for example, be functions that\n\n* are outlined by the compiler to implement functionalities utilized across various code locations\n* are trampolines to other functions\n* are part of code obfuscation schemes (e.g., outlined computations for control-flow obfuscation)\n\n\n### Recursive Functions\n\nThis helper identifies recursive functions---functions that directly or indirectly call themselves. Recursive functions may indicate:\n\n* algorithmic implementations such as tree or graph traversal\n* obfuscated code designed to complicate static analysis\n* implementations of mathematical algorithms or complex parsing routines\n* potential stack overflow vulnerabilities due to deep recursion\n\n\n### Section Entropy\n\nThis helper evaluates the entropy of each section. Entropy is a statistical measure of randomness with values ranging between 0 and 8. Sections with an entropy close to 8 indicate a high degree of randomness and can hint at:\n\n* packed or compressed code\n* encrypted data or code\n* random data\n\n\n### RC4\n\nThis helper detects potential RC4 algorithm implementations by employing heuristic markers typically associated with RC4's Key Scheduling Algorithm (KSA) and Pseudo-Random Generation Algorithm (PRGA). RC4 is widely used in malware for purposes such as:\n\n* decrypting strings and other data payloads\n* obfuscating command and control (C&C) communications\n\n\n## Contact\n\nFor more information, contact [@mr_phrazer](https://twitter.com/mr_phrazer).\n\n",
     "minimumbinaryninjaversion": 2487,
     "name": "Obfuscation Detection",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d3bab42a-2f29-4611-a0e0-029ac60922ba/versions/c65afb2a-e1e0-4d73-9453-5a8f465b3f72/platforms/1777/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d3bab42a-2f29-4611-a0e0-029ac60922ba/versions/c65afb2a-e1e0-4d73-9453-5a8f465b3f72/platforms/1777/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d3bab42a-2f29-4611-a0e0-029ac60922ba/versions/c65afb2a-e1e0-4d73-9453-5a8f465b3f72/platforms/1782/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d3bab42a-2f29-4611-a0e0-029ac60922ba/versions/c65afb2a-e1e0-4d73-9453-5a8f465b3f72/platforms/1782/download?notrack=1",
     "path": "mrphrazer_obfuscation_detection",
     "platforms": [
       "Darwin",
@@ -3531,7 +3531,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 630,
+      "stargazers_count": 629,
       "updated_at": "2025-03-14 02:16:09+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -3996,8 +3996,8 @@
     "longdescription": "go reversing helpers for binaryninja.\n\nBasically this is some stuff ported from the IDA pro script\n[golang_load_assist](https://github.com/strazzere/golang_loader_assist)\n\n Probably incomplete!\n\n### go reversing blog posts\n\n * http://rednaga.io/2016/09/21/reversing_go_binaries_like_a_pro/",
     "minimumbinaryninjaversion": 1528,
     "name": "GO Loader Assist",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/20366cd9-169c-4867-8d93-8399ad1d1a3f/versions/be90992e-5c5c-4d09-a7c0-ffeee1a9c0a6/platforms/1861/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/20366cd9-169c-4867-8d93-8399ad1d1a3f/versions/be90992e-5c5c-4d09-a7c0-ffeee1a9c0a6/platforms/1861/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/20366cd9-169c-4867-8d93-8399ad1d1a3f/versions/be90992e-5c5c-4d09-a7c0-ffeee1a9c0a6/platforms/1862/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/20366cd9-169c-4867-8d93-8399ad1d1a3f/versions/be90992e-5c5c-4d09-a7c0-ffeee1a9c0a6/platforms/1862/download?notrack=1",
     "path": "f0rki_bngoloader",
     "platforms": [
       "Darwin",
@@ -4926,7 +4926,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 132,
+      "stargazers_count": 133,
       "updated_at": "2023-02-15 18:50:02+00:00"
     },
     "projectUrl": "https://github.com/ForAllSecure/bncov",
@@ -5581,8 +5581,8 @@
     "longdescription": "BinaryNinja CryptoScan\n======================\nPlugin for [Binary Ninja](https://binary.ninja/) platform\n\n## General\nThis Binja plugin is effectively trying to replicate [findcrypt](https://github.com/you0708/ida/tree/master/idapython_tools/findcrypt) functionality. It supports a larger range of constants.\n\n## Features\n### Overview\nThe plugin registers a single call that is accessible from the 'Tools' menu or by right-clicking in the main binary view window. \n\nScan configurations are reloaded on _every_ call to the scan function. This means you can CRUD json config files and rescan immediately. \n\nThe plugin supports the following types of scans:\n\n - Scanning for constants in data \n - Scanning for constants in the IL \n\n Will additionally add a tag at each identified location with the family name as the data.\n\n### Supported cryptography\n\nThe following constants are defined in scan configurations:\n\n - AES: sboxes, td0-4, te0-4\n - ARIA: sbox2, sbox4 (1 and 3 are equal to Rijndael)\n - BLAKE: 224, 256, 384 and 512 inits \n - Blowfish: p_array and sbox\n - CRC32: lzma tables 0-7, m_tab_le and m_tab_be, ms_table0-6\n - DES: p32i, pc1_left, pc1_right, pc2, sbox1-8\n - DFC: sbox\n - Elliptic Curves: p-192, p-224, p-256, p-384, p-521, Curve25519\n - IKE: modp group shared component\n - KASUMI: key expansion mod, sbox_s7, sbox_s9\n - MD5: initstate and md5_t\n - NewDES: sbox\n - RC5/RC6: combined constant\n - Salsa20: sigma and tau\n - SHA1: h\n - SHA224: h\n - SHA256: both k and h \n - SHA512: h\n - SM3: init\n - SM4: sbox, ck and fk\n - TEA: delta\n - Mersenne Twister: 19937 edition\n - Zlib: distance_starts, distance_extrabits, length_starts, length_extrabits\n\n### Reporting\nIf any matches are identified a Markdown (for GUI) or text (for CLI) report will be shown, listing which scans were matched, what family they belong to as well as the address in the binary.\nThe aim of the report was to allow easy copy-pasting of the address for use with the 'Go to address...' function. \n\nWhilst data matches only contain the address at which the constant is defined, IL matches will also indicate the function they were discovered in.\n\n### Configuration\nIndividual scan configurations are kept in the scans subfolder. The following fields are required in the JSON:\n\n - name: short name for the scan\n - description: long name or description, only for author's quality of life \n - threshold: for multi-byte constants, minimum amount of n-sized chunks that must be found (e.g. when loading chunked in registers) \n - type: static or signature (signatures are currently not implemented though)\n - flags: array of single byte strings, usually 4 bytes but no upper bound is set. You can now add null bytes. \n - on_match: object with subfields\n   - type: symbol is the only supported value right now, adds a symbol at the detected address\n   - name: name to give to the symbol\n\n## TODO\n- [x] Add more constants \n- [x] Make CryptoScan run in the background\n- [x] Deal with null bytes in the flags better\n- [ ] Flesh out how signature detection will work\n- [ ] Refactor data scanning to improve speed on very large binaries \n",
     "minimumbinaryninjaversion": 4526,
     "name": "cryptoscan",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/634d52f0-4eae-4b0f-b7c6-5810ec1b97cf/versions/e95359b1-6254-476a-b7a9-c5b786debe5a/platforms/2120/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/634d52f0-4eae-4b0f-b7c6-5810ec1b97cf/versions/e95359b1-6254-476a-b7a9-c5b786debe5a/platforms/2120/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/634d52f0-4eae-4b0f-b7c6-5810ec1b97cf/versions/e95359b1-6254-476a-b7a9-c5b786debe5a/platforms/2121/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/634d52f0-4eae-4b0f-b7c6-5810ec1b97cf/versions/e95359b1-6254-476a-b7a9-c5b786debe5a/platforms/2121/download?notrack=1",
     "path": "Rami114_cryptoscan",
     "platforms": [
       "Darwin",
@@ -6029,7 +6029,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 34,
+      "stargazers_count": 35,
       "updated_at": "2025-07-25 14:11:25+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
@@ -6066,7 +6066,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 77,
+      "stargazers_count": 82,
       "updated_at": "2025-05-16 18:53:14+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
