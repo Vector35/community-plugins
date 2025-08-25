@@ -5,7 +5,7 @@
 | [Add GoReSym Info](https://github.com/xusheng6/binja-GoReSym)|Xusheng|Add information recovered by tool GoReSym into the binary view|2024-07-18|helper|python3|MIT |
 | [Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|Xusheng|Add xref from caller to callee based on XFG hashes|2023-06-11|helper|python3|MIT |
 | [Annotate Functions](https://github.com/bkerler/annotate)|B.Kerler with code from John Levy and @carstein|A plugin that annotates function arguments.|2019-07-09|binaryview|python2, python3|MIT |
-| [Apple Blocks](https://github.com/droe/binja-blocks)|Daniel Roethlisberger|Annotation of Apple libclosure blocks.|2025-05-04|helper|python3|MIT |
+| [Apple Blocks](https://github.com/droe/binja-blocks)|Daniel Roethlisberger|Annotation of Apple libclosure blocks.|2025-08-24|helper|python3|MIT |
 | [Ariadne](https://github.com/seeinglogic/ariadne)|Mark Griffin (@seeinglogic)|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|2025-02-15|helper, ui|python3|MIT |
 | [Auto Enum](https://github.com/junron/auto-enum)|Lam Jun Rong|Automatically set enums for standard functions|2025-01-16|helper|python3|MIT |
 | [Auto Utils](https://github.com/404d/autoutils)|404'd|Various auto analysis utilities|2020-12-12|helper|python3|MIT |
@@ -16,7 +16,7 @@
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
 | [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2024-12-19|helper, ui|python3|MIT |
-| [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-08-22|sync|python3|BSD 2-clause |
+| [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-08-23|sync|python3|BSD 2-clause |
 | [Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|fosdick.io|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-05-16|architecture, binaryview, core, helper|python3|GPL-3.0 |
 | [Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|Austin Haggard|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
