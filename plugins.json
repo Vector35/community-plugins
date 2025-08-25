@@ -300,16 +300,16 @@
     "dependencies": "",
     "description": "Annotation of Apple libclosure blocks.",
     "installinstructions": {},
-    "lastUpdated": 1746383817,
+    "lastUpdated": 1756037846,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024 Daniel Roethlisberger\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "\n\n### Changelog\n- Fix parsing for undocumented ObjC type qualifier 'A', for atomic\r\n- Remove deprecated plugin command \"Remove plugin comment here\"\r\n\r\n**Full Changelog**: https://github.com/droe/binja-blocks/compare/0.4.2...0.4.3",
+    "longdescription": "# Apple Blocks Plugin\nAuthor: Daniel Roethlisberger\n\nAnnotation of Apple [libclosure](https://github.com/apple-oss-distributions/libclosure) [blocks](https://clang.llvm.org/docs/BlockLanguageSpec.html).\n\n## Description\n\nType annotation of stack and global blocks, block descriptors, variables closed\nover and related function signatures in [Binary Ninja](https://binary.ninja/).\nBlocks are an implementation of closures often found in C, C++, ObjC and ObjC++\ncode for Apple platforms.  Blocks are distinct from C++ lambdas.\n\n![Screenshot comparing before and after annotation](https://github.com/droe/binja-blocks/blob/0.4.0/.github/img/showcase.png?raw=true)\n\nCommands:\n\n-   Annotate all blocks\n-   Annotate all global blocks\n-   Annotate all stack blocks\n-   Annotate global block here\n-   Annotate stack block here\n-   Annotate stack byref here\n\nFeatures:\n\n-   Find and annotate global and stack blocks\n-   Annotate block imported variables based on inline or out-of-line\n    generic helper info or extended layout\n-   Annotate block invoke function type based on encoded block ObjC type\n    signature\n-   Annotate block descriptors, copy/dispose functions, generic helper info\n    and out-of-line extended layout bytecode\n-   Annotate stack byrefs (`__block` variables) based on non-extended\n    layout or inline or out-of-line extended layout, including keep and\n    destroy functions\n-   Define per-block and per-byref named structs to allow for manual fixups\n-   Define structs for fully manual annotation: `Block_literal`,\n    `Block_descriptor_1`, `Block_descriptor_2`, `Block_descriptor_3`,\n    `Block_byref_1`, `Block_byref_2`, `Block_byref_3`\n\nKnown limitations:\n\n-   Automatic discovery of blocks and byrefs on the stack is unreliable by\n    nature and depends on Binary Ninja's ability to lift into clean HLIL\n-   The current implementation is very slow due to relying on re-analysis,\n    operating on HLIL, and using a strictly serial algorithm\n-   No support for 32-bit architectures\n-   No support for \"small descriptors\", \"old GC layout\", older block layout before\n    the introduction of block descriptors\n-   Byrefs passed as function arguments are not automatically discovered\n\n## References\n\nBlocks language docs:\n\n-   [Blocks Programming Topics](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Blocks/), Apple Documentation Archive\n-   [LLVM Block Language Spec](https://clang.llvm.org/docs/BlockLanguageSpec.html)\n\nBlocks implementation details:\n\n-   [libclosure](https://github.com/apple-oss-distributions/libclosure), source code and two spec documents\n-   [LLVM Block ABI](https://clang.llvm.org/docs/Block-ABI-Apple.html)\n\nObjective-C Type Encodings:\n\n-   [Type Encodings](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html), Objective-C Runtime Programming Guide, Apple Documentation Archive\n-   [LLVM code emitting type encodings](https://github.com/llvm-mirror/clang/blob/master/lib/AST/ASTContext.cpp)\n\n## License\n\nThis plugin is released under an [MIT license](./license).\n\n\n### Changelog\nDocumentation-only release intended to fix display of the plugin in Binary Ninja's plugin manager.\r\n\r\n**Full Changelog**: https://github.com/droe/binja-blocks/compare/0.4.3...0.4.4",
     "minimumbinaryninjaversion": 6455,
     "name": "Apple Blocks",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d7190647-a4b9-4dd7-8a3c-df35640991c8/versions/ab599e75-ce9c-4ce6-bc96-307e5b96ac55/platforms/2324/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d7190647-a4b9-4dd7-8a3c-df35640991c8/versions/ab599e75-ce9c-4ce6-bc96-307e5b96ac55/platforms/2324/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d7190647-a4b9-4dd7-8a3c-df35640991c8/versions/4e7690f8-a68b-4e68-85b5-ee9f5d21a0e8/platforms/2599/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d7190647-a4b9-4dd7-8a3c-df35640991c8/versions/4e7690f8-a68b-4e68-85b5-ee9f5d21a0e8/platforms/2599/download?notrack=1",
     "path": "droe_binjablocks",
     "platforms": [
       "Darwin",
@@ -319,14 +319,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 33,
-      "updated_at": "2025-05-04 18:36:57+00:00"
+      "updated_at": "2025-08-24 12:17:26+00:00"
     },
     "projectUrl": "https://github.com/droe/binja-blocks",
     "subdir": "",
     "type": [
       "helper"
     ],
-    "version": "0.4.3"
+    "version": "0.4.4"
   },
   {
     "api": [
@@ -500,7 +500,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 450,
+      "stargazers_count": 451,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -720,7 +720,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 26,
+      "stargazers_count": 27,
       "updated_at": "2024-12-19 16:15:35+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -1127,7 +1127,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 974,
+      "stargazers_count": 976,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1796,19 +1796,19 @@
       "python3"
     ],
     "author": "BinSync Team",
-    "dependencies": "binsync>=5.7.5",
+    "dependencies": "binsync>=5.7.8",
     "description": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
     "installinstructions": {},
-    "lastUpdated": 1755886097,
+    "lastUpdated": 1755911148,
     "license": {
       "name": "BSD 2-clause",
       "text": ""
     },
-    "longdescription": "\n## BinSync\n\n<p align=\"center\">\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\n</p>\n\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\nengineering collaboration regardless of decompiler. BinSync is built by [mahaloz](https://github.com/mahaloz), \nthe [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. \n\n## Binary Ninja\nPlease read our [Quickstart Docs](https://binsync.net/docs/home) to learn how to use BinSync effectively. \nYou can go straight to install verification since you've installed it already. \n\n![Demo](https://i.imgur.com/GVnysnb.png)\n\n\n\n### Changelog\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.7.4...v5.7.5",
+    "longdescription": "## BinSync\r\n\r\n<p align=\"center\">\r\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\r\n</p>\r\n\r\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\r\nengineering collaboration regardless of decompiler. BinSync is built by [mahaloz](https://github.com/mahaloz), \r\nthe [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\r\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. \r\n\r\n## Binary Ninja\r\nPlease read our [Quickstart Docs](https://binsync.net/docs/home) to learn how to use BinSync effectively. \r\nYou can go straight to install verification since you've installed it already. \r\n\r\n![Demo](https://i.imgur.com/GVnysnb.png)\n\n### Changelog\n## What's Changed\r\n* Fix logging strings by @mahaloz in https://github.com/binsync/binsync/pull/448\r\n* Reduce false positive commits by tracking clicks in IDA by @mahaloz in https://github.com/binsync/binsync/pull/449\r\n\r\n\r\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.7.7...v5.7.8",
     "minimumbinaryninjaversion": 1200,
     "name": "BinSync",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/82911da6-4b8b-477e-983c-377cb2fb9e5a/platforms/2581/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/82911da6-4b8b-477e-983c-377cb2fb9e5a/platforms/2581/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/b432845b-2341-4dc6-a913-d3aa0316ec41/platforms/2593/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/b432845b-2341-4dc6-a913-d3aa0316ec41/platforms/2593/download?notrack=1",
     "path": "binsync_binsync",
     "platforms": [
       "Darwin",
@@ -1818,14 +1818,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 657,
-      "updated_at": "2025-08-22 18:08:17+00:00"
+      "updated_at": "2025-08-23 01:05:48+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
     "subdir": "binsync/stub_files",
     "type": [
       "sync"
     ],
-    "version": "5.7.5"
+    "version": "5.7.8"
   },
   {
     "api": [
@@ -1889,7 +1889,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 36,
+      "stargazers_count": 37,
       "updated_at": "2023-01-29 07:16:39+00:00"
     },
     "projectUrl": "https://github.com/dayzerosec/AMD-SP-Loader",
@@ -1925,7 +1925,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 692,
+      "stargazers_count": 693,
       "updated_at": "2024-09-08 05:48:57+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2218,7 +2218,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 855,
+      "stargazers_count": 854,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2915,7 +2915,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2198,
+      "stargazers_count": 2199,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -5554,7 +5554,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 331,
+      "stargazers_count": 333,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -6180,7 +6180,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2,
+      "stargazers_count": 3,
       "updated_at": "2025-05-21 23:22:11+00:00"
     },
     "projectUrl": "https://github.com/redthing1/binja_moonanalyzer",
