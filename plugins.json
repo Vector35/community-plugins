@@ -699,19 +699,19 @@
       "python3"
     ],
     "author": "Jason Tang",
-    "dependencies": "openai\npysqlite3\nmarkdown\nhttpx\nchromadb\nsentence-transformers",
+    "dependencies": "openai\nanthropic\npysqlite3\nmarkdown\nhttpx\nwhoosh\nmcp",
     "description": "A plugin that provides LLM helpers to explain code and assist in RE.",
     "installinstructions": {},
-    "lastUpdated": 1734624935,
+    "lastUpdated": 1756505446,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024 Jason Tang\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# BinAssist\nAuthor: **Jason Tang**\n\n_A plugin that provides LLM helpers to explain code and assist in RE._\n\n## Support Continued Improvements\n\n[![\"Buy Me A Beer\"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/jtang613)\n\n## Description:\n\nThis is a LLM plugin aimed at enabling the use of local LLM's (ollama, text-generation-webui, lm-studio, etc) for assisting with binary exploration and reverse engineering. It supports any OpenAI v1-compatible API. Recommended models are LLaMA-based models such as llama3.1:8b, but others should work as well.\n\nCurrent features include:\n* Explain the current function - Works at all IL levels.\n* Explain the current instruction - Works at all IL levels.\n* General query - Query the LLM directly from the UI.\n* Propose actions - Provide a list of proposed actions to apply.\n* Function calling - Allow agent to call functions to navigate the binary, rename functions and variables.\n* RLHF dataset generation - To enable model fine tuning.\n* RAG augmentation - Supports adding contextual documents to refine query effectiveness.\n* Settings to modify API host, key, model name and max tokens.\n\nFuture Roadmap:\n* Agentic assistant - Use Autogen or similar framework for self-guided binary RE.\n* Model fine tuning - Leverage the RLHF dataset to fine tune the model.\n\n## Quickstart\n\n* If necessary, `pip install -r requirements.txt` from the plugin directory.\n* Open Settings -> BinAssist.\n* Ensure the RLHF and RAG database paths are appropriate for your environment.\n* Point the API host to your prefered API provider and set the API key. \n* Load a binary.\n* Open BinAssist with the 'BA' sidebar icon and start exploring.\n\n## Screenshot\n![Screenshot](https://raw.githubusercontent.com/jtang613/BinAssist/refs/heads/master/res/screenshot1.png)\n![Screenshots](/res/screenshots.gif)\n\n## Homepage\nhttps://github.com/jtang613/BinAssist\n\n\n## Installation Instructions\n\n### Linux\n\nAn OpenAI compatible API is required. For local LLM support, use Ollama, LMStudio, Open-WebUI, Text-Generation-WebUI, etc.\n\n`pip install -r requirements.txt`\n\n### Windows\n\nUntested but should work. Submit an Issue or Pull Request for support.\n\n### Darwin\n\nUntested but should work. Submit an Issue or Pull Request for support.\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4000\n\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n * pip - openai, pysqlite3, markdown, httpx, chromadb, sentence-transformers\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
+    "longdescription": "# BinAssist (v0.2.3)\nAuthor: **Jason Tang**\n\n_A plugin that provides LLM helpers to explain code and assist in RE._\n\n## Description:\n\n\n\n\n## Installation Instructions\n\n### Linux\n\npip install -r requirements.txt\n\n### Windows\n\npip install -r requirements.txt\n\n### Darwin\n\npip install -r requirements.txt\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4000\n\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n * pip - openai, anthropic, pysqlite3, markdown, httpx, whoosh, mcp\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
     "minimumbinaryninjaversion": 4000,
     "name": "BinAssist",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/6120a8f9-645e-4f04-b9c7-ac434a394b53/platforms/1303/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/6120a8f9-645e-4f04-b9c7-ac434a394b53/platforms/1303/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/2f651221-f2aa-4d3d-b5b0-69b3b902d77b/platforms/2623/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/2f651221-f2aa-4d3d-b5b0-69b3b902d77b/platforms/2623/download?notrack=1",
     "path": "jtang613_BinAssist",
     "platforms": [
       "Darwin",
@@ -721,7 +721,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 28,
-      "updated_at": "2024-12-19 16:15:35+00:00"
+      "updated_at": "2025-08-29 22:10:46+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
     "subdir": "",
@@ -729,7 +729,7 @@
       "helper",
       "ui"
     ],
-    "version": "0.1.5"
+    "version": "0.2.3"
   },
   {
     "api": [
