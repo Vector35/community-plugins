@@ -16,7 +16,7 @@
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
 | [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2024-12-19|helper, ui|python3|MIT |
-| [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-08-23|sync|python3|BSD 2-clause |
+| [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-08-27|sync|python3|BSD 2-clause |
 | [Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|fosdick.io|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-05-16|architecture, binaryview, core, helper|python3|GPL-3.0 |
 | [Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|Austin Haggard|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
@@ -34,7 +34,7 @@
 | [Comments Viewer](https://github.com/matteyeux/comments-viewer)|matteyeux|Binary Ninja comments viewer|2022-05-27|ui|python3|MIT |
 | [CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|moval0x1|Show comments and symbols renamed during the analysis process.|2024-02-20|binaryview, ui|python3|MIT |
 | [CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|unknowntrojan|SigMaker style plugin|2025-03-01|helper|rust|AGPLv3 |
-| [CoolTypeOxidizer](https://github.com/unknowntrojan/binja_cooltypeoxidizer)|unknowntrojan|Provides a render layer that visually replaces C-style numeric types in HLIL with their Rust equivalents at zero runtime cost. (int64_t => i64)|2025-05-12|ui, binaryview, helper|python3|AGPLv3 |
+| [CoolTypeOxidizer](https://github.com/unknowntrojan/binja_cooltypeoxidizer)|unknowntrojan|Provides a render layer that visually replaces C-style numeric types in HLIL with their Rust equivalents at zero runtime cost. (int64_t => i64)|2025-08-29|ui, binaryview, helper|python3|AGPLv3 |
 | [Copy As YARA](https://github.com/ald3ns/copy-as-yara)|alden (@birchb0y)|Let's you copy sections of disassembly formatted for YARA.|2025-04-14|helper|python3|MIT |
 | [Copy as Deeplink](https://github.com/pathtofile/binja_plugin_copy_deeplink)|pathtofile|Creates a deeplink to the current address and adds it to the clipboard|2025-05-18|helper|python3|MIT |
 | [DBG Loader](https://github.com/gamozolabs/coff_nm)|Gamozo Labs, LLC|Load old COFF .dbg files as well as CAB-ed .db_ files!|2021-11-15|helper|python3|MIT |
