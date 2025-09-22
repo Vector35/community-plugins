@@ -132,7 +132,7 @@
 | [WASM Plugin](https://github.com/ivision-research/binjawa)|Meador Inge|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|python3|MIT |
 | [Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|shareef12|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|2019-08-08|helper|python2, python3|MIT |
 | [XNU Sysctl Hunter](https://github.com/xpcmdshell/SysctlHunter)|actae0n|XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli...|2021-07-22|helper|python3|MIT |
-| [Xtensa Architecture and ESP8266 Loader](https://github.com/zackorndorff/binja-xtensa)|Zack Orndorff|Xtensa Architecture and ESP8266 Image Loader|2021-08-17|architecture, binaryview|python3|MIT |
+| [Xtensa Architecture Support and ESP8266 Loader](https://github.com/nicabi/binja-xtensa2)|Nicolae Binica|Xtensa Architecture Support and ESP8266 Image Loader|2025-08-30|architecture, binaryview|python3|MIT |
 | [YARA Scan](https://github.com/trib0r3/binja-yara)|trib0r3|YARA signatures|2020-05-26|binaryview, core|python3|MIT |
 | [binja-doc-lookup](https://github.com/riskydissonance/binja-doc-lookup)|riskydissonance|Lookup documentation for the selected token|2024-06-20|helper, ui|python3|MIT |
 | [binja-ps3](https://github.com/valters-tomsons/bninja-ps3)|faith|Playstation 3 ELF loader|2024-11-28|binaryview|python3|MIT |
