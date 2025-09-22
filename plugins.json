@@ -7,6 +7,7 @@
     "dependencies": "",
     "description": "Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tant\u014d.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1741888803,
     "license": {
       "name": "MIT",
@@ -44,6 +45,7 @@
     "dependencies": "",
     "description": "TypeOxidizer converts the C-Style types in your HLIL / decompilation to their Rust equivalents for easier reading / interpretation and shorter decompilation.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1740433505,
     "license": {
       "name": "MIT",
@@ -52,8 +54,8 @@
     "longdescription": "# TypeOxidizer (v1.2.1)\nAuthor: **azw / austinzwile**\n\n_TypeOxidizer converts the C-Style types in your HLIL / decompilation to their Rust equivalents for easier reading / interpretation and shorter decompilation._\n\n## Description:\n\nTypeOxidizer is a Binary Ninja plugin that seamlessly transforms the C-Style types in your HLIL / decompilation to their Rust equivalents through automatic typedef declaration and retyping, making for a cleaner and more precise decompilation. With built-in support for standard integer and floating-point types as well as strings, TypeOxidizer enhances your analysis by \"oxidizing\" legacy type definitions into Rust's clean and precise syntax.\n\n## Demo\n\nHere's a nice before:\n\n<img width=\"1281\" alt=\"image\" src=\"https://github.com/user-attachments/assets/25249368-7de6-4f25-99a9-de3e36a8a121\" />\n\nand after:\n\n<img width=\"944\" alt=\"image\" src=\"https://github.com/user-attachments/assets/789aefae-94e6-4a74-9013-34976d4711f5\" />\n\n## Usage\n\nThe following registered commands are available via the Plugins dropdown menu as well as the command pallette with `CMD+P`:\n\n - Convert from C to Rust Types\n - Revert to C Types from Rust\n\n## Features\n\nThe conversion from and to following types are currently handled:\n\n| C Type      | Rust Type |\n|-------------|-----------|\n| `uint8_t`   | `u8`      |\n| `uint16_t`  | `u16`     |\n| `uint32_t`  | `u32`     |\n| `uint64_t`  | `u64`     |\n| `uint128_t` | `u128`    |\n| `int8_t`    | `i8`      |\n| `int16_t`   | `i16`     |\n| `int32_t`   | `i32`     |\n| `int64_t`   | `i64`     |\n| `int128_t`  | `i128`    |\n| `float`     | `f32`     |\n| `double`    | `f64`     |\n| `size_t`    | `usize`   |\n| `ssize_t`   | `isize`   |\n| `char*`     | `str`     |\n\n## Installation Instructions\n\n### Darwin\n\nInstall via the Plugin Manager or by cloning the repo at https://github.com/austinzwile/TypeOxidizer and dropping the folder into your plugins directory.\n\n### Linux\n\nInstall via the Plugin Manager or by cloning the repo at https://github.com/austinzwile/TypeOxidizer and dropping the folder into your plugins directory.\n\n### Windows\n\nInstall via the Plugin Manager or by cloning the repo at https://github.com/austinzwile/TypeOxidizer and dropping the folder into your plugins directory.\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 3164\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n## Todo\n\n- [ ] Add proper conversion of types when typecasting. The decompilation currently doesn't allow for the retyping of anything on the right side of an equals sign so I will have to figure that out.\n- [ ] Implement a drop-down/content menu to allow for selective conversion between C and Rust.\n- [ ] Handle structs and typedefs. The types within already defined type definitions don't get handled right.\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n## License\n\nThis plugin is released under a MIT license.\n\n## Metadata Version\n\n2\n",
     "minimumbinaryninjaversion": 3164,
     "name": "Type Oxidizer",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/f07f73ac-243e-46a4-91c2-07521586b53d/versions/fb097928-6c35-4304-935d-672bbe151bc3/platforms/1207/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/f07f73ac-243e-46a4-91c2-07521586b53d/versions/fb097928-6c35-4304-935d-672bbe151bc3/platforms/1207/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/f07f73ac-243e-46a4-91c2-07521586b53d/versions/fb097928-6c35-4304-935d-672bbe151bc3/platforms/1208/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/f07f73ac-243e-46a4-91c2-07521586b53d/versions/fb097928-6c35-4304-935d-672bbe151bc3/platforms/1208/download?notrack=1",
     "path": "austinzwile_TypeOxidizer",
     "platforms": [
       "Darwin",
@@ -82,6 +84,7 @@
     "dependencies": "miasm\nthemida-unmutate==0.2.0",
     "description": "Static deobfuscator for Themida, WinLicense and Code Virtualizer 3.x's mutation-based obfuscation.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1722202857,
     "license": {
       "name": "GPL-3.0-or-later",
@@ -118,6 +121,7 @@
     "dependencies": "lief\nanthropic\nfastmcp\ntenacity\nrust_demangler  \npygments  \nanchorpy  \nsolana  \nsolders\nbase58\n",
     "description": "An architecture/binaryview plugin for Solana EBPF.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1751383297,
     "license": {
       "name": "MIT",
@@ -136,7 +140,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 208,
+      "stargazers_count": 209,
       "updated_at": "2025-07-01 15:21:37+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -155,6 +159,7 @@
     "dependencies": "",
     "description": "Various features to make windows malware analysis easier.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1737133601,
     "license": {
       "name": "MIT",
@@ -191,6 +196,7 @@
     "dependencies": "",
     "description": "Sidebar inspectors for debugging Binary Ninja itself",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1735857837,
     "license": {
       "name": "MIT",
@@ -228,6 +234,7 @@
     "dependencies": "",
     "description": "Supports loading .per files into Binary Ninja.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1734543538,
     "license": {
       "name": "Apache-2.0",
@@ -264,6 +271,7 @@
     "dependencies": "",
     "description": "Playstation 3 ELF loader",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1732813908,
     "license": {
       "name": "MIT",
@@ -300,6 +308,7 @@
     "dependencies": "",
     "description": "Annotation of Apple libclosure blocks.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1756037846,
     "license": {
       "name": "MIT",
@@ -336,6 +345,7 @@
     "dependencies": "",
     "description": "A small plugin that provides an user-friendly way to navigate between functions and their references.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1720549788,
     "license": {
       "name": "CC BY 3.0",
@@ -373,6 +383,7 @@
     "dependencies": "",
     "description": "Binary Ninja plugin to take and manage database snapshots",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1730262149,
     "license": {
       "name": "AGPL-3.0",
@@ -409,6 +420,7 @@
     "dependencies": "",
     "description": "QSettings Viewer",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1729633426,
     "license": {
       "name": "MIT",
@@ -446,6 +458,7 @@
     "dependencies": "gtirb\n",
     "description": "Support the GrammaTech Intermediate Representation for Binaries (GTIRB) in Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1728277373,
     "license": {
       "name": "MIT",
@@ -482,6 +495,7 @@
     "dependencies": "",
     "description": "Automatically set enums for standard functions",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1737066203,
     "license": {
       "name": "MIT",
@@ -500,7 +514,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 455,
+      "stargazers_count": 457,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -518,6 +532,7 @@
     "dependencies": "",
     "description": "Architecture plugin for Renesas RH850/V850 family of processors.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1737546835,
     "license": {
       "name": "Apache-2.0",
@@ -554,6 +569,7 @@
     "dependencies": "",
     "description": "PowerPC VLE support via architecture extension.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1741039313,
     "license": {
       "name": "Apache-2.0",
@@ -590,6 +606,7 @@
     "dependencies": "pyyaml\n",
     "description": "PS Vita ELF/PRX2 loader plugin",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1726745762,
     "license": {
       "name": "MIT",
@@ -626,6 +643,7 @@
     "dependencies": "",
     "description": "SigMaker style plugin",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1740808382,
     "license": {
       "name": "AGPLv3",
@@ -644,7 +662,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 71,
+      "stargazers_count": 72,
       "updated_at": "2025-03-01 05:53:02+00:00"
     },
     "projectUrl": "https://github.com/unknowntrojan/binja_coolsigmaker",
@@ -662,6 +680,7 @@
     "dependencies": "",
     "description": "Recover the imports from a stomped PE header by pasting in an IAT dump from dynamic analysis.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1726733019,
     "license": {
       "name": "MIT",
@@ -680,7 +699,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 7,
+      "stargazers_count": 8,
       "updated_at": "2024-09-19 08:03:39+00:00"
     },
     "projectUrl": "https://github.com/nettitude/binja-fix-stomped-imports",
@@ -702,6 +721,7 @@
     "dependencies": "openai\nanthropic\npysqlite3\nmarkdown\nhttpx\nwhoosh\nmcp",
     "description": "A plugin that provides LLM helpers to explain code and assist in RE.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1756648271,
     "license": {
       "name": "MIT",
@@ -720,7 +740,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 30,
+      "stargazers_count": 32,
       "updated_at": "2025-08-31 13:51:11+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -739,6 +759,7 @@
     "dependencies": "",
     "description": "Loader for MobiCore trustlets and secure drivers.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1721404531,
     "license": {
       "name": "MIT",
@@ -776,6 +797,7 @@
     "dependencies": "",
     "description": "Interactive shellcode disassembler/assembler",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1732775887,
     "license": {
       "name": "Apache 2.0",
@@ -812,6 +834,7 @@
     "dependencies": "ollama\nnetworkx>=3.2.1\n",
     "description": "Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1728484893,
     "license": {
       "name": "MIT",
@@ -852,6 +875,7 @@
     "dependencies": "",
     "description": "Export types definitions as ctypes structures",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1719243764,
     "license": {
       "name": "MIT",
@@ -888,6 +912,7 @@
     "dependencies": "pymupdf>=1.19.0\n\n",
     "description": "PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's \"Processor Manual...\" right-click menu.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1719239477,
     "license": {
       "name": "AGPL-3.0",
@@ -924,6 +949,7 @@
     "dependencies": "requests\nbs4\n",
     "description": "Binary Ninja plugin to display the documentation of a Windows function in a sidebar widget.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1712819538,
     "license": {
       "name": "Apache-2.0",
@@ -961,6 +987,7 @@
     "dependencies": "requests>=2.32.3\nlxml>=5.2.2\n",
     "description": "Lookup documentation for the selected token",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1718900317,
     "license": {
       "name": "MIT",
@@ -998,6 +1025,7 @@
     "dependencies": "capstone==5.0.1\npandas==2.2.2\nunicorn==2.0.1.post1\nlief==0.16.2\n",
     "description": "RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1740516647,
     "license": {
       "name": "MIT",
@@ -1036,6 +1064,7 @@
     "dependencies": "",
     "description": "Adds support for Android Dex files",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1714157052,
     "license": {
       "name": "MIT",
@@ -1073,6 +1102,7 @@
     "dependencies": "emoji\ntree-sitter==0.23.2\ntree-sitter-c==0.23.4\nsemgrep\n",
     "description": "Search code with Semgrep",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1738636459,
     "license": {
       "name": "MIT",
@@ -1109,6 +1139,7 @@
     "dependencies": "huggingface_hub>=0.21.4\nllama-cpp-python>=0.2.56\nnetworkx>=3.2.1\ntoml>=0.10.2\ntyper>=0.11\n",
     "description": "Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1718942220,
     "license": {
       "name": "GPL-2.0",
@@ -1127,7 +1158,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 981,
+      "stargazers_count": 983,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1145,6 +1176,7 @@
     "dependencies": "",
     "description": "Binary Ninja plugin for inspecting UEFI firmware images",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1709153707,
     "license": {
       "name": "MIT",
@@ -1181,6 +1213,7 @@
     "dependencies": "",
     "description": "Binary Ninja plugin for loading EFI Terse Executable files",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1709153687,
     "license": {
       "name": "MIT",
@@ -1217,6 +1250,7 @@
     "dependencies": "",
     "description": "Official x64dbg plugin for Binary Ninja.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1744305769,
     "license": {
       "name": "MIT",
@@ -1254,6 +1288,7 @@
     "dependencies": "",
     "description": "A plugin that renames Delphi functions according to a .map file produced by IDR.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1704987146,
     "license": {
       "name": "MIT",
@@ -1290,6 +1325,7 @@
     "dependencies": "pypresence",
     "description": "Enables Discord Rich Presence Integration for Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1748019645,
     "license": {
       "name": "MIT",
@@ -1326,6 +1362,7 @@
     "dependencies": "frida\nJinja2\n",
     "description": "Frida plugin for Binary Ninja - continuation of BinRida by @c3r34lk1ll3r",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1712760197,
     "license": {
       "name": "MIT",
@@ -1362,6 +1399,7 @@
     "dependencies": "",
     "description": "Show comments and symbols renamed during the analysis process.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1708468409,
     "license": {
       "name": "MIT",
@@ -1399,6 +1437,7 @@
     "dependencies": "",
     "description": "Export notations from Binja to x64dbg",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1708468430,
     "license": {
       "name": "MIT",
@@ -1435,6 +1474,7 @@
     "dependencies": "",
     "description": "Adds the \"gocall\" calling convention",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1702576093,
     "license": {
       "name": "MIT",
@@ -1471,6 +1511,7 @@
     "dependencies": "",
     "description": "Loader for Original Xbox Executables",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1699893372,
     "license": {
       "name": "MIT",
@@ -1507,6 +1548,7 @@
     "dependencies": "",
     "description": "Rust binary string recovery plugin",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1703470664,
     "license": {
       "name": "MIT",
@@ -1543,6 +1585,7 @@
     "dependencies": "",
     "description": "Demangles Swift functions.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1748819047,
     "license": {
       "name": "MIT",
@@ -1583,6 +1626,7 @@
     "dependencies": "",
     "description": "Add information recovered by tool GoReSym into the binary view",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1721287720,
     "license": {
       "name": "MIT",
@@ -1619,6 +1663,7 @@
     "dependencies": "",
     "description": "Add xref from caller to callee based on XFG hashes",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1686463325,
     "license": {
       "name": "MIT",
@@ -1655,6 +1700,7 @@
     "dependencies": "pyparsing>=3.0.0\n",
     "description": "An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1682576567,
     "license": {
       "name": "MIT",
@@ -1691,6 +1737,7 @@
     "dependencies": "",
     "description": "A notepad for taking notes inside Binary Ninja.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1618844480,
     "license": {
       "name": "MIT",
@@ -1725,6 +1772,7 @@
     "dependencies": "xdis\npygments",
     "description": "Python bytecode (.pyc) support for Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1709499228,
     "license": {
       "name": "MIT",
@@ -1763,6 +1811,7 @@
     "dependencies": "requests\nbs4",
     "description": "Find and create signatures",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1723528236,
     "license": {
       "name": "MIT",
@@ -1799,6 +1848,7 @@
     "dependencies": "binsync>=5.7.10",
     "description": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1756582753,
     "license": {
       "name": "BSD 2-clause",
@@ -1835,6 +1885,7 @@
     "dependencies": "SQLAlchemy>=2.0.0\n",
     "description": "Playdate Console RE utilities",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1677633266,
     "license": {
       "name": "MIT",
@@ -1871,6 +1922,7 @@
     "dependencies": "",
     "description": "Loader for AMD-SP or PSP firmware binaries.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1674976599,
     "license": {
       "name": "MIT",
@@ -1889,7 +1941,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 37,
+      "stargazers_count": 38,
       "updated_at": "2023-01-29 07:16:39+00:00"
     },
     "projectUrl": "https://github.com/dayzerosec/AMD-SP-Loader",
@@ -1907,6 +1959,7 @@
     "dependencies": "",
     "description": "Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1725774537,
     "license": {
       "name": "BSD 2-clause",
@@ -1925,7 +1978,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 697,
+      "stargazers_count": 699,
       "updated_at": "2024-09-08 05:48:57+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -1943,6 +1996,7 @@
     "dependencies": "httpx>=0.23.0",
     "description": "Plugin for interacting with the OALabs HashDB service.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1727851784,
     "license": {
       "name": "3-Clause BSD",
@@ -1980,6 +2034,7 @@
     "dependencies": "",
     "description": "Displays char arrays by analyzing their use in functions",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1674077993,
     "license": {
       "name": "MIT",
@@ -2017,6 +2072,7 @@
     "dependencies": "",
     "description": "BinaryNinja plugin to parse GoLang binaries and restore some information, like function names and type information",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1753778954,
     "license": {
       "name": "MIT",
@@ -2035,7 +2091,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 6,
+      "stargazers_count": 7,
       "updated_at": "2025-07-29 08:49:14+00:00"
     },
     "projectUrl": "https://github.com/dipusone/golang_pclntab_parser",
@@ -2053,6 +2109,7 @@
     "dependencies": "ipykernel >= 5.1.4\nqtconsole >= 4.3\nqasync >= 0.23.0\njupyter-client >= 6, != 7.*\nnbformat >= 5.7.0",
     "description": "IPython console widget for Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1670871248,
     "license": {
       "name": "MIT",
@@ -2092,6 +2149,7 @@
     "dependencies": "",
     "description": "Binary Ninja plugin to dump the Pseudo C generated by Binja into a folder.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1674935821,
     "license": {
       "name": "Apache-2.0",
@@ -2110,7 +2168,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 39,
+      "stargazers_count": 40,
       "updated_at": "2023-01-28 19:57:01+00:00"
     },
     "projectUrl": "https://github.com/AsherDLL/PCDump-bn",
@@ -2128,6 +2186,7 @@
     "dependencies": "openai",
     "description": "Queries OpenAI's GPT3 to determine what a given function does.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1713317541,
     "license": {
       "name": "MIT",
@@ -2164,6 +2223,7 @@
     "dependencies": "",
     "description": "Script to automatically annotate variadic printf functions",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1678247723,
     "license": {
       "name": "MIT",
@@ -2200,6 +2260,7 @@
     "dependencies": "pyevmasm\ninterval3\nevm-cfg-builder>=0.2.0",
     "description": "A disassembler and lifter for the Ethereum architecture.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1667497034,
     "license": {
       "name": "AGPL-3.0-only",
@@ -2218,7 +2279,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 853,
+      "stargazers_count": 854,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2236,6 +2297,7 @@
     "dependencies": "networkx\nwebsockets\nrequests",
     "description": "Browser-based interactive graph for viewing callgraph, static analysis, and coverage information",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1739579348,
     "license": {
       "name": "MIT",
@@ -2273,6 +2335,7 @@
     "dependencies": "",
     "description": "Binary Ninja plugin for restoring function names from stripped Golang binaries",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1662661916,
     "license": {
       "name": "MIT",
@@ -2309,6 +2372,7 @@
     "dependencies": "",
     "description": "Package binary code as a Python class backed by Unicorn-Engine",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1657292416,
     "license": {
       "name": "MIT",
@@ -2345,6 +2409,7 @@
     "dependencies": "",
     "description": "This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1665871462,
     "license": {
       "name": "MIT",
@@ -2383,6 +2448,7 @@
     "dependencies": "ailment==9.2.26; python_version >= \"3.8\"\nangr==9.2.26; python_version >= \"3.8\"\narchinfo==9.2.26; python_version >= \"3.8\"\nbitstring==4.0.1; python_version >= \"3.8\"\ncachetools==5.2.0; python_version >= \"3.8\" and python_version < \"4.0\"\ncapstone==5.0.0; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\ncffi==1.15.1; implementation_name == \"cpython\" and python_version >= \"3.8\"\nclaripy==9.2.26; python_version >= \"3.8\"\ncle==9.2.26; python_version >= \"3.8\"\nclick==8.1.3; python_version >= \"3.7\"\ncolorama==0.4.6; python_version >= \"3.8\" and python_full_version < \"3.0.0\" and platform_system == \"Windows\" or python_version >= \"3.8\" and python_full_version >= \"3.7.0\" and platform_system == \"Windows\"\ncommonmark==0.9.1; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\ncontourpy==1.0.6; python_version >= \"3.8\"\ncppheaderparser==2.7.4; python_version >= \"3.8\"\ncssselect==1.2.0; python_version >= \"3.7\"\ncustom-inherit==2.4.0\ncycler==0.11.0; python_version >= \"3.8\"\ndecorator==5.1.1; python_version >= \"3.8\"\ndeprecated==1.2.13; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\"\ndpkt==1.9.8; python_version >= \"3.8\"\nfonttools==4.38.0; python_version >= \"3.8\"\nfuture==0.18.2; python_full_version >= \"3.6.0\" and python_version >= \"3.8\"\ngitdb==4.0.10; python_version >= \"3.8\"\ngitpython==3.1.29; python_version >= \"3.7\"\nitanium-demangler==1.1; python_version >= \"3.8\"\njinja2==3.1.2; python_version >= \"3.7\"\nkiwisolver==1.4.4; python_version >= \"3.8\"\nlief==0.12.3; python_version >= \"3.6\"\nlxml==4.9.1; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.5.0\"\nmarkupsafe==2.1.1; python_version >= \"3.7\"\nmatplotlib==3.6.2; python_version >= \"3.8\"\nmpmath==1.2.1; python_version >= \"3.8\"\nmulpyplexer==0.09; python_version >= \"3.8\"\nnampa==0.1.1; python_version >= \"3.8\"\nnetworkx==2.8.8; python_version >= \"3.8\"\nnumpy==1.23.5\npackaging==21.3; python_version >= \"3.8\"\npandas==1.5.2; python_version >= \"3.8\"\npefile==2022.5.30; python_full_version >= \"3.6.0\" and python_version >= \"3.8\"\npillow==9.3.0; python_version >= \"3.8\"\nplumbum==1.8.0; python_version >= \"3.8\"\nply==3.11; python_version >= \"3.8\"\nprogressbar2==4.2.0; python_full_version >= \"3.7.0\" and python_version >= \"3.8\"\nprotobuf==4.21.9; python_version >= \"3.8\"\npsutil==5.9.4; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\npulp==2.7.0\npycparser==2.21; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.4.0\" and python_version >= \"3.8\"\npyelftools==0.29; python_version >= \"3.8\"\npygments==2.13.0; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\npyparsing==3.0.9; python_full_version >= \"3.6.8\" and python_version >= \"3.8\"\npyquery==1.4.3\npysmt==0.9.6.dev21; python_version >= \"3.8\"\npython-dateutil==2.8.2; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.3.0\" and python_version >= \"3.8\"\npython-utils==3.4.5; python_full_version >= \"3.7.0\" and python_version >= \"3.8\"\npytz==2022.6; python_version >= \"3.8\"\npyvex==9.2.26; python_version >= \"3.8\"\npywin32==305; platform_system == \"Windows\" and platform_python_implementation != \"PyPy\" and python_version >= \"3.8\"\nrich==12.6.0; python_full_version >= \"3.6.3\" and python_full_version < \"4.0.0\" and python_version >= \"3.6\"\nrpyc==5.2.3; python_version >= \"3.8\"\nscikit-criteria==0.7\nscipy==1.9.3; python_version >= \"3.8\"\nseaborn==0.12.1; python_version >= \"3.7\"\nsetuptools-scm==7.0.5; python_version >= \"3.8\"\nshellingham==1.5.0; python_version >= \"3.6\"\nsix==1.16.0; python_version >= \"3.8\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.3.0\" and python_version >= \"3.8\"\nsmmap==5.0.0; python_version >= \"3.8\"\nsortedcontainers==2.4.0; python_version >= \"3.8\"\nsympy==1.11.1; python_version >= \"3.8\"\ntomli==2.0.1; python_version >= \"3.8\"\ntree-sitter==0.20.1; python_version >= \"3.3\"\ntyper==0.6.1; python_version >= \"3.6\"\ntyping-extensions==4.4.0; python_version >= \"3.8\"\nunicorn==2.0.1; python_version >= \"3.8\"\nwrapt==1.14.1; python_version >= \"2.7\" and python_full_version < \"3.0.0\" or python_full_version >= \"3.5.0\"\nz3-solver==4.10.2.0; python_version >= \"3.8\"\n",
     "description": "Framework for Automating Fuzzable Target Discovery with Static Analysis",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1700616759,
     "license": {
       "name": "MIT",
@@ -2401,7 +2467,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 534,
+      "stargazers_count": 535,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -2420,6 +2486,7 @@
     "dependencies": "yara-python>=4.3.0\npefile>=2019.4.18\nPillow>=8.0.1\n",
     "description": "YARA rule making tool for Binary Ninja, Cutter, and IDA",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1699846859,
     "license": {
       "name": "MIT",
@@ -2438,7 +2505,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 238,
+      "stargazers_count": 239,
       "updated_at": "2023-11-13 03:40:59+00:00"
     },
     "projectUrl": "https://github.com/hyuunnn/Hyara",
@@ -2456,6 +2523,7 @@
     "dependencies": "",
     "description": "An architecture plugin for Renesas V850 series",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1667789390,
     "license": {
       "name": "MIT",
@@ -2492,6 +2560,7 @@
     "dependencies": "networkx~=2.8.2\nPySnooper~=1.1.1",
     "description": "Parse and extract class information from MSVC x86 32\\64 bit C++ binaries.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1686049233,
     "license": {
       "name": "MIT",
@@ -2510,7 +2579,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 36,
+      "stargazers_count": 37,
       "updated_at": "2023-06-06 11:00:33+00:00"
     },
     "projectUrl": "https://github.com/CySHell/ClassyPP",
@@ -2528,6 +2597,7 @@
     "dependencies": "",
     "description": "A Binary Ninja architecture plugin for the AD Blackfin architecture",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1653716781,
     "license": {
       "name": "GPL-3.0",
@@ -2564,6 +2634,7 @@
     "dependencies": "",
     "description": "Binary Ninja comments viewer",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1653671403,
     "license": {
       "name": "MIT",
@@ -2600,6 +2671,7 @@
     "dependencies": "",
     "description": "Manage custom type libraries.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1611994918,
     "license": {
       "name": "MIT",
@@ -2636,6 +2708,7 @@
     "dependencies": "capstone\n",
     "description": "Processing for Apple's dyld_shared_cache format.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1646117987,
     "license": {
       "name": "MIT",
@@ -2654,7 +2727,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 86,
+      "stargazers_count": 87,
       "updated_at": "2022-03-01 06:59:47+00:00"
     },
     "projectUrl": "https://github.com/0cyn/bn-dyldsharedcache",
@@ -2676,6 +2749,7 @@
     "dependencies": "",
     "description": "Find Delphi VMTs and generate their structures",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1645469959,
     "license": {
       "name": "MIT",
@@ -2712,6 +2786,7 @@
     "dependencies": "",
     "description": "Helper for exploring structured exception handlers in PEs",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1645253869,
     "license": {
       "name": "MIT",
@@ -2749,6 +2824,7 @@
     "dependencies": "",
     "description": "Quality of life utilities for obsessive compulsive CTF enthusiasts.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1645134987,
     "license": {
       "name": "MIT",
@@ -2785,6 +2861,7 @@
     "dependencies": "git+https://github.com/fkie-cad/dewolf-logic.git#egg=delogic\ngit+https://github.com/fkie-cad/dewolf-idioms.git\nblack\nisort\nnetworkx != 2.8.4\npydot\npygments\npytest !=5.3.4\npytest-xdist\nz3-solver == 4.8.10\n",
     "description": "Research Decompiler to generate a C-like function representation",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1751334779,
     "license": {
       "name": "LGPL-2.1",
@@ -2803,7 +2880,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 198,
+      "stargazers_count": 201,
       "updated_at": "2025-07-01 01:52:59+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -2822,6 +2899,7 @@
     "dependencies": "",
     "description": "Show current IL instruction hierarchy in sidebar",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1644114999,
     "license": {
       "name": "MIT",
@@ -2859,6 +2937,7 @@
     "dependencies": "",
     "description": "Generates calltree. Alternative view for callgraph",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1725471478,
     "license": {
       "name": "MIT",
@@ -2897,6 +2976,7 @@
     "dependencies": "",
     "description": "Helper plugin to synchronize Binary Ninja with a debugging session",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1642809517,
     "license": {
       "name": "MIT",
@@ -2915,7 +2995,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2208,
+      "stargazers_count": 2211,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -2933,6 +3013,7 @@
     "dependencies": "",
     "description": "Recover Linux kernel build configurations",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1642134808,
     "license": {
       "name": "MIT",
@@ -2969,6 +3050,7 @@
     "dependencies": "",
     "description": "Load old COFF .dbg files as well as CAB-ed .db_ files!",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1637016799,
     "license": {
       "name": "MIT",
@@ -3005,6 +3087,7 @@
     "dependencies": "",
     "description": "Displays a window that explains in simple English what an assembly instruction does",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1633829742,
     "license": {
       "name": "Apache 2",
@@ -3042,6 +3125,7 @@
     "dependencies": "",
     "description": "iBoot/SecureROM Loader",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1677262467,
     "license": {
       "name": "ISC",
@@ -3060,7 +3144,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 32,
+      "stargazers_count": 33,
       "updated_at": "2023-02-24 18:14:27+00:00"
     },
     "projectUrl": "https://github.com/EliseZeroTwo/iBoot-Binja-Loader",
@@ -3075,47 +3159,11 @@
     "api": [
       "python3"
     ],
-    "author": "Zack Orndorff",
-    "dependencies": "",
-    "description": "Xtensa Architecture and ESP8266 Image Loader",
-    "installinstructions": {},
-    "lastUpdated": 1629171762,
-    "license": {
-      "name": "MIT",
-      "text": "Copyright 2020-2021 Zack Orndorff\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-    },
-    "longdescription": "# binja-xtensa: Architecture Plugin and ESP8266 Loader\n\nTensilica Xtensa Architecture Plugin and ESP8266 Firmware Loader for Binary\nNinja.\n\n![screenshot of Binary Ninja showing setup and loop of a decompiled ESP8266\nArduino project](https://raw.githubusercontent.com/zackorndorff/binja-xtensa/0.5/screenshots/hero.png)\n\n## Features\n\n* Disassembly of nearly all Xtensa instructions\n* Lifting for most Xtensa instructions you'll see in ESP8266 Firmware\n* Support for Xtensa ELF files so they will be automatically recognized\n* Loader for ESP8266 raw firmware dumps. This support is a little finicky to\n  use, as there's multiple partitions in the firmware dumps. By default it uses\n  the last one with a detected header; you can adjust this via Open With\n  Options\n    * At the moment it doesn't completely map the sections properly, but it's a\n      start :)\n\n## What it doesn't do\n\n* It was written mostly as an exercise for the author. It's useful enough to\n  share, but no promises it's useful for your project :)\n* Lift register windowing instructions (it disassembles most of them)\n    * You need this for ESP32 support. It shouldn't be too bad to add, as long\n      as you can figure out how to lift the windowed registers\n* Anything with the optional vector unit\n* Disassemble and lift most of the boolean instructions\n* Lift most floating point instructions\n* Deal with special registers (I figure you might as well look at the asm\n  for that anyway)\n* Anything quickly. This is Python, and not particularly well optimized Python\n  at that. If you're using this seriously, I recommend rewriting in C++\n* Find `main` in a raw binary for you\n\n## Installation\n\nInstall via the Binary Ninja plugin manager. Alternatively, clone this\nrepository into your Binary Ninja plugins directory. See the [official Binary\nNinja documentation](https://docs.binary.ninja/guide/plugins.html) for more\ndetails.\n\n## Using the ESP8266 Firmware Loader\n\nThe default of picking the last usable partition works decent, but if you want\nmore control, use Open With Options and change `Loader > Which Firmware` to the\noption corresponding to the address you want to load.\n\nI attempt to load in symbols from the SDK's linker script so some of the\nROM-implemented functions are less mysterious. See\n[parse_rom_ld.py](binja_xtensa/parse_rom_ld.py) for the parsing code,\n[known_symbols.py](binja_xtensa/known_symbols.py) for the database it'll apply,\nand function `setup_esp8266_map` in\n[binaryview.py](binja_xtensa/binaryview.py#L17) for the code that applies it.\nThis should probably be a load time option... but it's not at the moment :/\n\n![screenshot of Binary Ninja's Open With Options showing the Loader Which\nFirmware option](https://raw.githubusercontent.com/zackorndorff/binja-xtensa/0.5/screenshots/open-with-options.png)\n\n## Future Work\n\n* Support register windowing instructions to support ESP32 firmware\n* Improve the raw firmware loader\n* Rewrite to be faster\n\n## Why did you write this?\n\n1. I was goofing around with ESP8266 and Arduino and was annoyed I didn't have\n   an easy way to disassemble the built binaries\n2. I hadn't written a full architecture plugin and I thought it'd be a good\n   exercise\n3. I got bored over COVID-19 lockdown in 2020 and needed something to do\n\n## Testing\n\nThere are some simple tests in\n[test_instruction.py](binja_xtensa/test_instruction.py), which are mostly just\ntaking uniq'd output from objdump on some binaries I had laying around and\nmaking sure the output matches. They can be run with `python -m pytest` from the\nroot of the project.\n\n## License\n\nThis project copyright Zack Orndorff (@zackorndorff) and is available under the\nMIT license. See [LICENSE](LICENSE).\n",
-    "minimumbinaryninjaversion": 2846,
-    "name": "Xtensa Architecture and ESP8266 Loader",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/a4a22aed-0ee2-4871-b798-1e53528911f7/versions/e02e13cc-1547-41a6-aa4f-ab52da7530ef/platforms/1711/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/a4a22aed-0ee2-4871-b798-1e53528911f7/versions/e02e13cc-1547-41a6-aa4f-ab52da7530ef/platforms/1711/download?notrack=1",
-    "path": "zackorndorff_binjaxtensa",
-    "platforms": [
-      "Darwin",
-      "Linux",
-      "Windows"
-    ],
-    "pluginmetadataversion": 2,
-    "projectData": {
-      "stargazers_count": 15,
-      "updated_at": "2021-08-17 03:42:42+00:00"
-    },
-    "projectUrl": "https://github.com/zackorndorff/binja-xtensa",
-    "subdir": "",
-    "type": [
-      "architecture",
-      "binaryview"
-    ],
-    "version": "0.5.1"
-  },
-  {
-    "api": [
-      "python3"
-    ],
     "author": "Markus Gaasedelen",
     "dependencies": "",
     "description": "A Coverage Explorer for Reverse Engineers",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1707156737,
     "license": {
       "name": "MIT",
@@ -3134,7 +3182,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2406,
+      "stargazers_count": 2409,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3152,6 +3200,7 @@
     "dependencies": "",
     "description": "Makes your integers print as hex in the python console.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1698799171,
     "license": {
       "name": "MIT",
@@ -3188,6 +3237,7 @@
     "dependencies": "",
     "description": "XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli...",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1626914641,
     "license": {
       "name": "MIT",
@@ -3224,6 +3274,7 @@
     "dependencies": "",
     "description": "GameCube symbol map loader",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1625773938,
     "license": {
       "name": "MIT",
@@ -3260,6 +3311,7 @@
     "dependencies": "",
     "description": "GameCube DOL file BinaryView",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1625773954,
     "license": {
       "name": "MIT",
@@ -3296,6 +3348,7 @@
     "dependencies": "",
     "description": "Configurable soft core for Xilinx FPGAs.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1653804366,
     "license": {
       "name": "MIT",
@@ -3332,6 +3385,7 @@
     "dependencies": "",
     "description": "Tags functions using emoji for a number of interesting characteristics",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1615525176,
     "license": {
       "name": "Apache-2.0",
@@ -3368,6 +3422,7 @@
     "dependencies": "",
     "description": "Helper plugin for analyzing UEFI firmware",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1682696285,
     "license": {
       "name": "MIT",
@@ -3405,6 +3460,7 @@
     "dependencies": "toolz==0.10.0\nclick==7.1.2\n",
     "description": "detect opaque predicates",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1618026013,
     "license": {
       "name": "MIT",
@@ -3441,6 +3497,7 @@
     "dependencies": "",
     "description": "Easily capture Binary Ninja screenshots in ultra-high resolution",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1708981964,
     "license": {
       "name": "MIT",
@@ -3477,6 +3534,7 @@
     "dependencies": "git+https://github.com/androguard/androguard@8d091cbb309c0c50bf239f805cc1e0931b8dcddc\n",
     "description": "Analysis scripts for Binary Ninja to work with Android NDK libraries.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1648363219,
     "license": {
       "name": "MIT",
@@ -3513,6 +3571,7 @@
     "dependencies": "",
     "description": "Automatically detect obfuscated code and other interesting code constructs",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1741918569,
     "license": {
       "name": "GPL-2.0",
@@ -3531,7 +3590,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 632,
+      "stargazers_count": 635,
       "updated_at": "2025-03-14 02:16:09+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -3549,6 +3608,7 @@
     "dependencies": "",
     "description": "Callgraph generator for called or calling funcs",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1650475400,
     "license": {
       "name": "MIT",
@@ -3585,6 +3645,7 @@
     "dependencies": "",
     "description": "Fuzzing Introspection for use with the JMPscare Toolkit.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1670422965,
     "license": {
       "name": "MIT",
@@ -3624,6 +3685,7 @@
     "dependencies": "",
     "description": "A loader and diassembler for Game Boy ROMs.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1711609954,
     "license": {
       "name": "MIT",
@@ -3661,6 +3723,7 @@
     "dependencies": "rust_demangler==1.0\n",
     "description": "Demangles Rust symbols.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1688946105,
     "license": {
       "name": "MIT",
@@ -3697,6 +3760,7 @@
     "dependencies": "protobuf >=3, <5",
     "description": "View BinDiff results and port symbols",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1658871076,
     "license": {
       "name": "MIT",
@@ -3734,6 +3798,7 @@
     "dependencies": "",
     "description": "De-obfuscates strings inside of obfuscated Go binaries",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1606933842,
     "license": {
       "name": "MIT",
@@ -3770,6 +3835,7 @@
     "dependencies": "",
     "description": "This is a client plugin for recovering symbols using the Symgrate2 server.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1631382597,
     "license": {
       "name": "MIT",
@@ -3806,6 +3872,7 @@
     "dependencies": "",
     "description": "Assistant plugin for vulnerability research.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1725710824,
     "license": {
       "name": "Apache-2.0",
@@ -3824,7 +3891,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 295,
+      "stargazers_count": 296,
       "updated_at": "2024-09-07 12:07:04+00:00"
     },
     "projectUrl": "https://github.com/Martyx00/VulnFanatic",
@@ -3842,6 +3909,7 @@
     "dependencies": "",
     "description": "Plugin to embed Ghidra Decompiler into Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1654662367,
     "license": {
       "name": "Apache-2.0",
@@ -3878,6 +3946,7 @@
     "dependencies": "",
     "description": "Binary View for loading 32 bits and 64 bits Apple SEPROM",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1689570375,
     "license": {
       "name": "MIT",
@@ -3896,7 +3965,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 54,
+      "stargazers_count": 56,
       "updated_at": "2023-07-17 05:06:15+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/seprom-loader",
@@ -3914,6 +3983,7 @@
     "dependencies": "",
     "description": "devi - DEvirtualize VIrtual calls in C++ binaries",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1604506779,
     "license": {
       "name": "MIT",
@@ -3951,6 +4021,7 @@
     "dependencies": "",
     "description": "Binary Ninja plugin for restoring function names from stripped Golang binaries",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1603103834,
     "license": {
       "name": "MIT",
@@ -3988,6 +4059,7 @@
     "dependencies": "",
     "description": "Short script that parses go symbol table and renames/creates functions.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1612269807,
     "license": {
       "name": "MIT",
@@ -4006,7 +4078,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 29,
+      "stargazers_count": 30,
       "updated_at": "2021-02-02 12:43:27+00:00"
     },
     "projectUrl": "https://github.com/f0rki/bn-goloader",
@@ -4025,6 +4097,7 @@
     "dependencies": "",
     "description": "A plugin that adds a GUI for changing function ABI.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1574389072,
     "license": {
       "name": "BSD-0-clause",
@@ -4062,6 +4135,7 @@
     "dependencies": "filebytes\n",
     "description": "Insert custom hooks",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1617003309,
     "license": {
       "name": "MIT",
@@ -4099,6 +4173,7 @@
     "dependencies": "future\n",
     "description": "FLIRT for (binary) ninjas",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1590594861,
     "license": {
       "name": "LGPL v3",
@@ -4136,6 +4211,7 @@
     "dependencies": "",
     "description": "YARA signatures",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1590501525,
     "license": {
       "name": "MIT",
@@ -4174,6 +4250,7 @@
     "dependencies": "",
     "description": "Analyze dependencies and resolve obfuscated imports",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1590369706,
     "license": {
       "name": "MIT",
@@ -4210,6 +4287,7 @@
     "dependencies": "",
     "description": "Interface Binary Ninja with GDB-GEF easily.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1589817566,
     "license": {
       "name": "MIT",
@@ -4247,6 +4325,7 @@
     "dependencies": "",
     "description": "MSP430 Architecture Plugin for Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1643842613,
     "license": {
       "name": "MIT",
@@ -4283,6 +4362,7 @@
     "dependencies": "",
     "description": "Generate and find signatures.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1675034718,
     "license": {
       "name": "MIT",
@@ -4323,6 +4403,7 @@
     "dependencies": "",
     "description": "A plugin that eases fixing jump table branches",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1562441017,
     "license": {
       "name": "MIT",
@@ -4360,6 +4441,7 @@
     "dependencies": "",
     "description": "Transfer analysis data between Binary Ninja and IDA",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1707958297,
     "license": {
       "name": "MIT",
@@ -4378,7 +4460,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 134,
+      "stargazers_count": 135,
       "updated_at": "2024-02-15 00:51:37+00:00"
     },
     "projectUrl": "https://github.com/zznop/bnida",
@@ -4396,6 +4478,7 @@
     "dependencies": "",
     "description": "SEGA Megadrive/Genesis ROM Hacking Toolkit",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1730730484,
     "license": {
       "name": "MIT",
@@ -4433,6 +4516,7 @@
     "dependencies": "",
     "description": "Parses output from /proc/kallsyms and applies symbols to the corresponding kernel BN database",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1643512677,
     "license": {
       "name": "MIT",
@@ -4469,6 +4553,7 @@
     "dependencies": "",
     "description": "Locate and annotate direct and indirect recursion",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1595432685,
     "license": {
       "name": "MIT",
@@ -4506,6 +4591,7 @@
     "dependencies": "",
     "description": "A plugin that annotates function arguments.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1562648191,
     "license": {
       "name": "MIT",
@@ -4543,6 +4629,7 @@
     "dependencies": "",
     "description": "A disassembler and lifter for the VMNDH-2k12 architecture.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1562776057,
     "license": {
       "name": "MIT",
@@ -4580,6 +4667,7 @@
     "dependencies": "",
     "description": "Parses MSVC structures to improve analysis",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1562929904,
     "license": {
       "name": "MIT",
@@ -4617,6 +4705,7 @@
     "dependencies": "",
     "description": "A plugin to graph BNIL instruction trees",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1689779176,
     "license": {
       "name": "Apache-2.0",
@@ -4654,6 +4743,7 @@
     "dependencies": "",
     "description": "Synchronized source code pane for debug binaries",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1563159566,
     "license": {
       "name": "MIT",
@@ -4691,6 +4781,7 @@
     "dependencies": "",
     "description": "A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1591033894,
     "license": {
       "name": "MIT",
@@ -4709,7 +4800,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 61,
+      "stargazers_count": 62,
       "updated_at": "2020-06-01 17:51:34+00:00"
     },
     "projectUrl": "https://github.com/chame1eon/binaryninja-frida",
@@ -4727,6 +4818,7 @@
     "dependencies": "",
     "description": "Finds format string vulnerabilities",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1563202677,
     "license": {
       "name": "MIT",
@@ -4764,6 +4856,7 @@
     "dependencies": "",
     "description": "Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1565226626,
     "license": {
       "name": "MIT",
@@ -4800,6 +4893,7 @@
     "dependencies": "",
     "description": "Decorate encountered syscalls with details like name and arguments",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1563231878,
     "license": {
       "name": "MIT",
@@ -4836,6 +4930,7 @@
     "dependencies": "",
     "description": "Binary Ninja plugin providing various niche utilities for working with PE binaries",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1607802699,
     "license": {
       "name": "MIT",
@@ -4872,6 +4967,7 @@
     "dependencies": "",
     "description": "Various auto analysis utilities",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1607801316,
     "license": {
       "name": "MIT",
@@ -4908,6 +5004,7 @@
     "dependencies": "msgpack\n",
     "description": "Scriptable code coverage analysis and visualization plugin",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1676487002,
     "license": {
       "name": "MIT",
@@ -4945,6 +5042,7 @@
     "dependencies": "",
     "description": "A plugin providing an analysis for Itanium C++ ABI.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1677683692,
     "license": {
       "name": "BSD-0-clause",
@@ -4982,6 +5080,7 @@
     "dependencies": "",
     "description": "A plugin providing the 16-bit Intel architecture.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1567626763,
     "license": {
       "name": "BSD-0-clause",
@@ -5018,6 +5117,7 @@
     "dependencies": "",
     "description": "A plugin providing the Renesas M16C architecture.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1579432976,
     "license": {
       "name": "BSD-0-clause",
@@ -5055,6 +5155,7 @@
     "dependencies": "",
     "description": "Forward and backward instruction slicer",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1606311678,
     "license": {
       "name": "MIT",
@@ -5091,6 +5192,7 @@
     "dependencies": "",
     "description": "A loader and diassembler for Game Boy ROMs.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1605619920,
     "license": {
       "name": "MIT",
@@ -5128,6 +5230,7 @@
     "dependencies": "",
     "description": "A disassembler and lifter for the Motorola 68k architecture.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1654890437,
     "license": {
       "name": "MIT",
@@ -5164,6 +5267,7 @@
     "dependencies": "",
     "description": "This plugin removes some simple known obfuscation techniques to cut down on the tedium.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1591624575,
     "license": {
       "name": "MIT",
@@ -5205,6 +5309,7 @@
     "dependencies": "",
     "description": "RISC-V architecture plugin.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1610977007,
     "license": {
       "name": "Apache-2.0",
@@ -5241,6 +5346,7 @@
     "dependencies": "",
     "description": "Allows users to import idc database dumps from IDA into Binary Ninja.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1665625261,
     "license": {
       "name": "MIT",
@@ -5278,6 +5384,7 @@
     "dependencies": "",
     "description": "Dumps HLIL code to a directory",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1591511295,
     "license": {
       "name": "BSD-3-Clause",
@@ -5315,6 +5422,7 @@
     "dependencies": "",
     "description": "Realtime IDA Pro and Binary Ninja sync plugin",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1589418636,
     "license": {
       "name": "MIT",
@@ -5351,6 +5459,7 @@
     "dependencies": "",
     "description": "DUMB: An Example Architecture for Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1583087498,
     "license": {
       "name": "MIT",
@@ -5388,6 +5497,7 @@
     "dependencies": "argparse-addons==0.12.0 ; python_version >= \"3.10\" and python_version < \"4.0\"\nbincopy==17.14.5 ; python_version >= \"3.10\" and python_version < \"4.0\"\nhumanfriendly==10.0 ; python_version >= \"3.10\" and python_version < \"4.0\"\npyelftools==0.31 ; python_version >= \"3.10\" and python_version < \"4.0\"\npyreadline3==3.4.1 ; sys_platform == \"win32\" and python_version >= \"3.10\" and python_version < \"4.0\"\n",
     "description": "A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1712700818,
     "license": {
       "name": "MIT",
@@ -5424,6 +5534,7 @@
     "dependencies": "wasamole==0.5.0\n",
     "description": "This is a plugin for disassembling and lifting WASM images..",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1593544951,
     "license": {
       "name": "MIT",
@@ -5462,6 +5573,7 @@
     "dependencies": "",
     "description": "Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1593911011,
     "license": {
       "name": "BSD-3-Clause",
@@ -5499,6 +5611,7 @@
     "dependencies": "lz4>=3.1.0 ",
     "description": "Loader for common Nintendo Switch binaries",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1595425782,
     "license": {
       "name": "ISC",
@@ -5536,6 +5649,7 @@
     "dependencies": "z3-solver\n",
     "description": "Symbolic execution plugin for BinaryNinja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1708789429,
     "license": {
       "name": "2-Clause BSD",
@@ -5554,7 +5668,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 334,
+      "stargazers_count": 335,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -5573,6 +5687,7 @@
     "dependencies": "",
     "description": "A plugin to detect several common crypto constructs and magic vars.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1695375186,
     "license": {
       "name": "MIT",
@@ -5610,6 +5725,7 @@
     "dependencies": "",
     "description": "Deobufscate API calls and strings in unpacked Emotet samples.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1600725169,
     "license": {
       "name": "MIT",
@@ -5646,6 +5762,7 @@
     "dependencies": "",
     "description": "Binary View for loading iBoot, SecureROM, etc. firmware",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1601588122,
     "license": {
       "name": "MIT",
@@ -5682,6 +5799,7 @@
     "dependencies": "",
     "description": "binary ninja plugin for abusing logging functions",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1615283793,
     "license": {
       "name": "MIT",
@@ -5719,6 +5837,7 @@
     "dependencies": "",
     "description": "Add \"call shellcode\" menu option which executes highlighted bytes.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1617425565,
     "license": {
       "name": "Unlicense",
@@ -5755,6 +5874,7 @@
     "dependencies": "",
     "description": "Let's you copy sections of disassembly formatted for YARA.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1744657085,
     "license": {
       "name": "MIT",
@@ -5791,6 +5911,7 @@
     "dependencies": "capstone\nkeystone-engine\n",
     "description": "Remake of keypatch plugin for Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1706199641,
     "license": {
       "name": "Unlicense",
@@ -5828,6 +5949,7 @@
     "dependencies": "matplotlib\n",
     "description": "Shows statistics about your Binary Ninja usage. Also includes a 'Time Wasted Debugging' timer widget for the status bar (disabled by default, enable in settings).",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1743688498,
     "license": {
       "name": "MIT",
@@ -5864,6 +5986,7 @@
     "dependencies": "binaryninja-mcp==0.3.1\n",
     "description": "MCP Server for Binary Ninja.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1746948737,
     "license": {
       "name": "Apache-2.0",
@@ -5872,8 +5995,8 @@
     "longdescription": "\n\n### Changelog\n## What's Changed\r\n* infra: use requirements.txt for installation. fixes #15 by @cybergrind in https://github.com/MCPPhalanx/binaryninja-mcp/pull/16\r\n\r\n## New Contributors\r\n* @cybergrind made their first contribution in https://github.com/MCPPhalanx/binaryninja-mcp/pull/16\r\n\r\n**Full Changelog**: https://github.com/MCPPhalanx/binaryninja-mcp/compare/v0.3.0...v0.3.1",
     "minimumbinaryninjaversion": 3164,
     "name": "MCP Server",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6d2e1dd7-0aaf-4702-b78f-c2c0e60b1634/versions/31e474cb-cea0-44d8-a602-a48537401874/platforms/2349/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6d2e1dd7-0aaf-4702-b78f-c2c0e60b1634/versions/31e474cb-cea0-44d8-a602-a48537401874/platforms/2349/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6d2e1dd7-0aaf-4702-b78f-c2c0e60b1634/versions/31e474cb-cea0-44d8-a602-a48537401874/platforms/2350/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6d2e1dd7-0aaf-4702-b78f-c2c0e60b1634/versions/31e474cb-cea0-44d8-a602-a48537401874/platforms/2350/download?notrack=1",
     "path": "MCPPhalanx_binaryninjamcp",
     "platforms": [
       "Darwin",
@@ -5901,6 +6024,7 @@
     "dependencies": "requests\nbs4",
     "description": "Remove opaque predicates from binaries",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1751235844,
     "license": {
       "name": "MIT",
@@ -5937,6 +6061,7 @@
     "dependencies": "",
     "description": "Provides a render layer that visually replaces C-style numeric types in HLIL with their Rust equivalents at zero runtime cost. (int64_t => i64)",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1756484968,
     "license": {
       "name": "AGPLv3",
@@ -5975,6 +6100,7 @@
     "dependencies": "tree-sitter==0.23.2\ntree-sitter-c==0.23.4",
     "description": "Import C header file types and function parameters from unprocessed or partial header files",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1744860248,
     "license": {
       "name": "MIT",
@@ -6011,6 +6137,7 @@
     "dependencies": "PyYAML==6.0.2\nijson==3.3.0\nlark==1.2.2\nnetworkx[default]==3.4.2\nopenai >= 1.78.1 , <2.0.0\npydantic>=2.0.0\ntermcolor==2.4.0\n",
     "description": "Uncover interesting paths using static backward slicing",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1757666790,
     "license": {
       "name": "Apache-2.0",
@@ -6029,7 +6156,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 38,
+      "stargazers_count": 39,
       "updated_at": "2025-09-12 08:46:30+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
@@ -6048,6 +6175,7 @@
     "dependencies": "",
     "description": "A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1757791222,
     "license": {
       "name": "GPL-3.0",
@@ -6066,7 +6194,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 87,
+      "stargazers_count": 93,
       "updated_at": "2025-09-13 19:20:22+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
@@ -6087,6 +6215,7 @@
     "dependencies": "",
     "description": "Game ROM Loader for Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1746916655,
     "license": {
       "name": "MIT",
@@ -6126,6 +6255,7 @@
     "dependencies": "capstone>=5.0.0\n",
     "description": "Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/A...",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1751379754,
     "license": {
       "name": "MIT",
@@ -6144,7 +6274,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "updated_at": "2025-07-01 14:22:34+00:00"
     },
     "projectUrl": "https://github.com/1337-42/SimpleYaraBN",
@@ -6162,6 +6292,7 @@
     "dependencies": "",
     "description": "Analyze things on the Moon",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1747869731,
     "license": {
       "name": "MIT",
@@ -6200,6 +6331,7 @@
     "dependencies": "",
     "description": "Minidump Loader for Binary Ninja",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1746814092,
     "license": {
       "name": "MIT",
@@ -6232,6 +6364,44 @@
   },
   {
     "api": [
+      "python3"
+    ],
+    "author": "Nicolae Binica",
+    "dependencies": "",
+    "description": "Xtensa Architecture Support and ESP8266 Image Loader",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1756581413,
+    "license": {
+      "name": "MIT",
+      "text": "Copyright 2025 Nicolae Binica\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \\\"Software\\\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\""
+    },
+    "longdescription": "# binja-xtensa: Architecture Plugin Support and ESP8266 Loader\n\nTensilica Xtensa Architecture Plugin Support and ESP8266 Firmware Loader for Binary Ninja.\n\n![screenshot of Binary Ninja showing setup and loop of a decompiled ESP8266\nArduino project](https://raw.githubusercontent.com/zackorndorff/binja-xtensa/0.5/screenshots/hero.png)\n\nThis is a fork of the original project created by @zackorndorff : https://github.com/zackorndorff/binja-xtensa\nThis work was done as a Master Semester project at EPFL, Lausanne, together \nwith the Cyber-Defence Campus, supervised by Daniel Hulliger.\n\nGoal of this project is to create a usable plugin with full functionality \nfor XTensa Architecture, implementing features left out by the original author.\n\nFor a quick overview of the Xtensa ISA, I recommend [Espressif's overview](https://dl.espressif.com/github_assets/espressif/xtensa-isa-doc/releases/download/latest/Xtensa.pdf).\n\n## Features\n\n* Disassembly of almost all Xtensa instructions, except for the MAC16 option instructions \n* Lifting for most Xtensa instructions, except for the MAC16 option instructions \n  and a few instructions noted in [Lifted_instr_list](Lists/Lifted_instr_list).\n* Support for Xtensa ELF files so they will be automatically recognized\n* Loader for ESP8266 raw firmware dumps. This support is a little finicky to\n  use, as there's multiple partitions in the firmware dumps. By default it uses\n  the last one with a detected header; you can adjust this via Open With\n  Options\n    * At the moment it doesn't completely map the sections properly, but it's a\n      start :)\n\n## What it doesn't do\n\n* Anything with the optional vector unit (MAC16)\n* Anything quickly. This is Python, and not particularly well optimized Python\n  at that. If you're using this seriously, I recommend rewriting in C++\n* Find `main` in a raw binary for you\n\n## Installation\n\nInstall via the Binary Ninja plugin manager. Alternatively, clone this\nrepository into your Binary Ninja plugins directory. See the [official Binary\nNinja documentation](https://docs.binary.ninja/guide/plugins.html) for more\ndetails.\n\n# Plugin structure:\n * __init__.py: registers architecture, sets up reg names & control-flow instructions\n * binaryview.py: defines the ESP8266 Firmware for the loader\n * instruction.py: defines instruction formats, decoding rules\n * disassemble.py: uses format information to tokenize and print disassembled instructions\n * lifter.py: actual lifting logic to LLIL\n\n## Using the ESP8266 Firmware Loader\n\nThe default of picking the last usable partition works decent, but if you want\nmore control, use Open With Options and change `Loader > Which Firmware` to the\noption corresponding to the address you want to load.\n\nI attempt to load in symbols from the SDK's linker script so some of the\nROM-implemented functions are less mysterious. See\n[parse_rom_ld.py](binja_xtensa/parse_rom_ld.py) for the parsing code,\n[known_symbols.py](binja_xtensa/known_symbols.py) for the database it'll apply,\nand function `setup_esp8266_map` in\n[binaryview.py](binja_xtensa/binaryview.py#L17) for the code that applies it.\nThis should probably be a load time option... but it's not at the moment :/\n\n![screenshot of Binary Ninja's Open With Options showing the Loader Which\nFirmware option](https://raw.githubusercontent.com/zackorndorff/binja-xtensa/0.5/screenshots/open-with-options.png)\n\n\n## Evaluation\n\nTo check the amount of disassembled opcodes or unlifted instructions, you can use \nthe [evaluation.py](binja_xtensa/evaluation/evaluation.py) script. This loads all\nbinaries in a target folder, including contents of archive .a files, and runs the\nBinary Ninja analysis. The results are then stored in a target path provided to the\nscript. This helped with checking the progress during the implementation and understand\nwhich instructions should take priority when lifting. For visualizing the results,\nyou can use the plotter in [plotter.ipynb](binja_xtensa/evaluation/plotter.ipynb).\n\n## Testing\n\nThere are some simple tests in\n[test_instruction.py](binja_xtensa/test_instruction.py), which are mostly just\ntaking uniq'd output from objdump on some binaries I had laying around and\nmaking sure the output matches. They can be run with `python -m pytest` from the\nroot of the project.\n\n## Future Work\n\n* Improve lifters once additional Binary Ninja features are added:\n    * Loop Option: function-level lifting necessary to lift loops that span multiple basic blocks. \n    * Windowed Registers: Transparent copies would help higher level analysis\n* Cleanly implement LITBASE offset, using loading options\n    * More information: Daniel Wegemer's [presentation](https://media.defcon.org/DEF%20CON%2031/DEF%20CON%2031%20presentations/Daniel%20Wegemer%20-%20Unlocking%20hidden%20powers%20in%20Xtensa%20based%20Qualcomm%20Wifi%20chips.pdf) at DEFCON31\n* Add MAC16 option lifters\n* Proper Flag usage when lifting instructions\n* Improve the raw firmware loader\n* Improve section classifications (e.g. currently .literal is seen as code instead of data)\n* Rewrite to be faster\n\n## License\n\nThis project copyright Nicolae Binica (@nicabi) and Zack Orndorff (@zackorndorff) and is available under the\nMIT license. See [LICENSE](LICENSE).\n\n\n### Changelog\nCompleted version of the original plugin written by Zack Orndorff",
+    "minimumbinaryninjaversion": 8001,
+    "name": "Xtensa Architecture Support and ESP8266 Loader",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/a497c1b0-f852-4c2a-9fc8-d3b023e7c1bd/versions/970fd1e2-b8af-4476-8091-e059e36bf09d/platforms/2677/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/a497c1b0-f852-4c2a-9fc8-d3b023e7c1bd/versions/970fd1e2-b8af-4476-8091-e059e36bf09d/platforms/2677/download?notrack=1",
+    "path": "nicabi_binja_xtensa2",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2025-08-30 19:16:53+00:00"
+    },
+    "projectUrl": "https://github.com/nicabi/binja-xtensa2",
+    "subdir": "",
+    "type": [
+      "architecture",
+      "binaryview"
+    ],
+    "version": "1.0"
+  },
+  {
+    "api": [
       "python2",
       "python3"
     ],
@@ -6239,6 +6409,7 @@
     "dependencies": "",
     "description": "RISC-V architecture plugin to load encrypted Riscy-Business binaries.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1747845501,
     "license": {
       "name": "Apache-2.0",
@@ -6275,6 +6446,7 @@
     "dependencies": "",
     "description": "Creates a deeplink to the current address and adds it to the clipboard",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1747572584,
     "license": {
       "name": "MIT",
@@ -6311,6 +6483,7 @@
     "dependencies": "msynth @ git+https://github.com/mrphrazer/msynth@d719a58\nmiasm @ git+https://github.com/cea-sec/miasm@90dc167\nz3-solver\nwheel\n\n",
     "description": "Analyze and simplify obfuscated code",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1749924941,
     "license": {
       "name": "GPL-2.0",
@@ -6329,7 +6502,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 163,
+      "stargazers_count": 165,
       "updated_at": "2025-06-14 18:15:41+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
