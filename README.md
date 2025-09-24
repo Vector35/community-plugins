@@ -17,7 +17,7 @@
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
 | [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2025-08-31|helper, ui|python3|MIT |
 | [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-08-30|sync|python3|BSD 2-clause |
-| [Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|fosdick.io|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-09-13|architecture, binaryview, core, helper|python3|GPL-3.0 |
+| [Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|fosdick.io|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-09-23|architecture, binaryview, core, helper|python3|GPL-3.0 |
 | [Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|Austin Haggard|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
 | [Binary Ninja Wrapped](https://github.com/psifertex/bnwrap)|Jordan Wiens|Shows statistics about your Binary Ninja usage. Also includes a 'Time Wasted Debugging' timer widget for the status bar (disabled by default, enable in settings).|2025-04-03|ui|python3|MIT |
