@@ -124,6 +124,7 @@
 | [Syscaller](https://github.com/carstein/Syscaller)|Michal Melewski|Decorate encountered syscalls with details like name and arguments|2019-07-15|helper|python3|MIT |
 | [TE Loader](https://github.com/zznop/te-loader)|Brandon Miller|Binary Ninja plugin for loading EFI Terse Executable files|2024-02-28|architecture|python3|MIT |
 | [Tag Team](https://github.com/psifertex/tagteam)|psifertex|Tags functions using emoji for a number of interesting characteristics|2021-03-12|helper|python3|Apache-2.0 |
+| [Translation Plugin](https://github.com/psifertex/translation-plugin)|psifertex|Translate strings and symbols|2025-09-26|helper|python3|MIT |
 | [Type Oxidizer](https://github.com/austinzwile/TypeOxidizer)|austinzwile / azw|TypeOxidizer converts the C-Style types in your HLIL / decompilation to their Rust equivalents for easier reading / interpretation and shorter decompilation.|2025-02-24|binaryview, helper, ui|python3|MIT |
 | [TypeLib Exporter](https://github.com/SmoothHacker/TypeLib-Exporter)|SmoothHacker|This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.|2022-10-15|binaryview, helper, ui|python3|MIT |
 | [VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|verylazyguy|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|python2, python3|MIT |
