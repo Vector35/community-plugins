@@ -1867,7 +1867,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 661,
+      "stargazers_count": 664,
       "updated_at": "2025-08-30 19:39:13+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2467,7 +2467,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 535,
+      "stargazers_count": 537,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -2995,7 +2995,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2212,
+      "stargazers_count": 2213,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -4837,7 +4837,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 24,
+      "stargazers_count": 25,
       "updated_at": "2019-07-15 14:57:57+00:00"
     },
     "projectUrl": "https://github.com/Vasco-jofra/format-string-finder-binja",
@@ -4875,7 +4875,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 17,
+      "stargazers_count": 18,
       "updated_at": "2019-08-08 01:10:26+00:00"
     },
     "projectUrl": "https://github.com/shareef12/driveranalyzer",
@@ -5592,7 +5592,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 92,
+      "stargazers_count": 93,
       "updated_at": "2020-07-05 01:03:31+00:00"
     },
     "projectUrl": "https://github.com/vtil-project/VTIL-BinaryNinja",
@@ -5893,7 +5893,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 46,
+      "stargazers_count": 47,
       "updated_at": "2025-04-14 18:58:05+00:00"
     },
     "projectUrl": "https://github.com/ald3ns/copy-as-yara",
@@ -6052,6 +6052,43 @@
       "helper"
     ],
     "version": "1.0.1"
+  },
+  {
+    "api": [
+      "python3"
+    ],
+    "author": "psifertex",
+    "dependencies": "argostranslate>=1.9.0",
+    "description": "Translate strings and symbols",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1758900940,
+    "license": {
+      "name": "MIT",
+      "text": "MIT License\r\n\r\nCopyright (c) 2025 Vector 35 Inc.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
+    },
+    "longdescription": "# Translation Plugin for Binary Ninja\r\n\r\nA plugin that translates foreign language text in binaries to any supported language using offline translation.\r\n\r\n## IMPORTANT: Enable Correct Unicode Support Required\r\n\r\n**This plugin requires Binary Ninja's Unicode support to be enabled to display non-ASCII characters in the appropriate codepages!**\r\n\r\n**[Enable Unicode Support in Binary Ninja](https://docs.binary.ninja/dev/concepts.html?h=unicode#unicode-support)**\r\n\r\n## Features\r\n\r\n### Modes\r\n\r\n1. **Real-time Translation (Render Layer)**\r\n   - Replaces foreign text with translations directly in the disassembly view\r\n   - Works in both Linear and Graph views\r\n   - Non-destructive - original text preserved in database\r\n   - Toggle on/off via View \u2192 Layer menu\r\n\r\nWarning, this method can be slow!\r\n\r\n2. **Manual Changes**\r\n   - `Plugins` / `Translate` / `Translate All Symbols`\r\n   - `Plugins` / `Translate` / `Translate Current Symbol`\r\n\r\nNote that these changes will be made as user changes so saving them in an analysis database will persist.\r\n\r\n3. **String Translation Comments**\r\n   - Adds translation comments at string usage locations\r\n   - Comments appear at both string definitions and references\r\n   - Preserves existing comments\r\n\r\n\r\n## Installation\r\n\r\n### Step 1: Install the Plugin\r\n\r\n#### Option A: Plugin Manager (Recommended)\r\nInstall from Binary Ninja's Plugin Manager - dependencies will be installed automatically.\r\n\r\n#### Option B: Manual Installation\r\n1. Clone or download this repository\r\n2. Copy the `translate-layer` folder to your Binary Ninja plugins directory:\r\n   - **macOS**: `~/Library/Application Support/Binary Ninja/plugins/`\r\n   - **Linux**: `~/.binaryninja/plugins/`\r\n   - **Windows**: `%APPDATA%\\Binary Ninja\\plugins\\`\r\n3. Restart Binary Ninja (it will automatically install the required Python packages)\r\n\r\n### Step 2: Install Translation Models\r\n\r\nThe plugin uses [Argos Translate's](https://github.com/argosopentech/argos-translate) offline models. Install models for the language pairs you need:\r\n\r\n```bash\r\n# Update the package index\r\nargospm update\r\n\r\n# List available packages\r\nargospm search\r\n\r\n# Install language pairs (format: translate-[source]_[dest])\r\n# Examples:\r\nargospm install translate-ru_en    # Russian to English\r\nargospm install translate-ja_en    # Japanese to English\r\nargospm install translate-zh_en    # Chinese to English\r\nargospm install translate-en_es    # English to Spanish\r\nargospm install translate-fr_de    # French to German\r\n```\r\n\r\n## Configuration\r\n\r\nAccess settings via **Edit** \u2192 **Preferences** \u2192 **Settings** \u2192 **Translation**\r\n\r\nAvailable settings:\r\n\r\n- **Destination Language**: Target language for translations (based on installed models)\r\n- **Translated Symbol Prefix**: Prefix for renamed symbols (default: \"\ud83c\udf0e\")\r\n\r\n## Supported Languages\r\n\r\nThe plugin can translate between any languages supported by Argos Translate models.\r\n\r\nCheck available models with `argospm search`.\r\n\r\n## Troubleshooting\r\n\r\n### No destination languages available\r\n- Install translation models: `argospm install translate-[source]_[dest]`\r\n- Restart Binary Ninja after installing models\r\n\r\n### Manual dependency installation\r\nIf Binary Ninja doesn't automatically install dependencies:\r\n```bash\r\npip install argostranslate\r\n```\r\n\r\n### Translations not appearing\r\n- Check that a destination language is selected in settings\r\n- Verify translation models are installed: `argospm list`\r\n- Check the Binary Ninja log for error messages (enable debug logs for more information)\r\n\r\n### Performance\r\n- First translation after loading may be slow as models load\r\n- Subsequent translations use the cache for instant results\n\n### Changelog\ninitial translation plugin commit",
+    "minimumbinaryninjaversion": 7648,
+    "name": "Translation Plugin",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ce756d85-1cbf-4ba5-a611-5e5839308261/versions/b2691114-4dec-40d5-9fb9-0c46772f4f3e/platforms/2689/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ce756d85-1cbf-4ba5-a611-5e5839308261/versions/b2691114-4dec-40d5-9fb9-0c46772f4f3e/platforms/2689/download?notrack=1",
+    "path": "translation_plugin",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2025-09-26 15:35:40+00:00"
+    },
+    "projectUrl": "https://github.com/psifertex/translation-plugin",
+    "subdir": "",
+    "type": [
+      "helper"
+    ],
+    "version": "1.0.0"
   },
   {
     "api": [
