@@ -150,7 +150,7 @@
 | [ctypes Export](https://github.com/jordan9001/ctypes_export)|Jordan Whitehead|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT |
 | [decomp2dbg](https://github.com/mahaloz/decomp2dbg)|Zion Basque (@mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2024-09-08|core|python3|BSD 2-clause |
 | [devi](https://github.com/murx-/devi_binja)|@_murks|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|helper, ui|python3|MIT |
-| [dewolf Decompiler](https://github.com/fkie-cad/dewolf)|fkie-cad|Research Decompiler to generate a C-like function representation|2025-07-01|helper, ui|python3|LGPL-2.1 |
+| [dewolf Decompiler](https://github.com/fkie-cad/dewolf)|fkie-cad|Research Decompiler to generate a C-like function representation|2025-10-01|helper, ui|python3|LGPL-2.1 |
 | [droog](https://github.com/amtal/droog)|amtal|PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's "Processor Manual..." right-click menu.|2024-06-24|helper|python3|AGPL-3.0 |
 | [ethersplay Ethereum Architecture Plugin](https://github.com/crytic/ethersplay)|Trail of Bits|A disassembler and lifter for the Ethereum architecture.|2022-11-03|architecture|python3|AGPL-3.0-only |
 | [genesis](https://github.com/zznop/bn-genesis)|zznop|SEGA Megadrive/Genesis ROM Hacking Toolkit|2024-11-04|helper, ui|python3|MIT |
