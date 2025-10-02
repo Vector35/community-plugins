@@ -1867,7 +1867,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 664,
+      "stargazers_count": 665,
       "updated_at": "2025-08-30 19:39:13+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -1978,7 +1978,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 699,
+      "stargazers_count": 700,
       "updated_at": "2024-09-08 05:48:57+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2862,7 +2862,7 @@
     "description": "Research Decompiler to generate a C-like function representation",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1751334779,
+    "lastUpdated": 1759282869,
     "license": {
       "name": "LGPL-2.1",
       "text": "This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
@@ -2870,8 +2870,8 @@
     "longdescription": "# dewolf\n\ndewolf is a research decompiler we developed during a research cooperation from 2019 to 2021 between Germany (Fraunhofer FKIE) and Singapore (DSO National Laboratories).\n\nThe restructuring of dewolf is based on the former DREAM/DREAM++ approach [Yakdan et al. NDSS 2015, IEEE (SP) 2016].\n\nThe decompiler dewolf is implemented as a plugin for Binary Ninja and uses their Medium-Level intermediate language as the starting point.\nAlthough we consider dewolf to be pretty stable, it is still a research prototype and not extensively optimized for production use.\nConsequently, you will likely observe a few bugs or even decompilation failures when applying dewolf on real-world binaries.\n\n**If you encounter any bugs, please report them to us so that we can further improve dewolf. :)**\n\n## Usage\n\nAfter enabling the dewolf decompilation dock widget via **View > Other Docks > Show Dewolf**, the decompiled code for the currently active symbol will be displayed.\nIn the dewolf dock, it is possible to navigate through functions by double-clicking them.\n\n![Widget Menu](https://user-images.githubusercontent.com/12004321/145460440-be4b7dfd-bf7e-497f-a7af-1911bf3efc50.png)\n\nThe automatic decompilation of selected functions can be toggled with the *follow* button.\nDecompiled code is cached and can be generated again with the *decompile* button, e.g. after patching instructions in the binary view.\n\n![Widget](https://user-images.githubusercontent.com/12004321/145460476-f869e5cc-d585-4f53-8920-6ecfa4b346d5.png)\n\n## Configuration\ndewolf has multiple configuration options of which some are configurable via the GUI.\n\nYou can configure dewolf from the Binary Ninja GUI by navigating to **Edit > Preferences > Settings** or by pressing <kbd>Ctrl</kbd> + <kbd>,</kbd>.\nSearch for **dewolf** in the search bar and all dewolf related settings will be displayed.\n\n## Support\n\nIf you have any suggestions, or bug reports, please create an issue in the [Issue Tracker](https://github.com/fkie-cad/dewolf/issues).\n\nIn case you have any questions or other problems, feel free to send an email to:\n\n[dewolf@fkie.fraunhofer.de](mailto:dewolf@fkie.fraunhofer.de).\n\n### Changelog\nAutomatic release",
     "minimumbinaryninjaversion": 4271,
     "name": "dewolf Decompiler",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/da85bf67-1df0-4d72-91a3-907df06e6294/platforms/2479/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/da85bf67-1df0-4d72-91a3-907df06e6294/platforms/2479/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/9c0ff5ef-1660-4d2b-ba1f-8dd761900690/platforms/2701/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/9c0ff5ef-1660-4d2b-ba1f-8dd761900690/platforms/2701/download?notrack=1",
     "path": "fkiecad_dewolf",
     "platforms": [
       "Darwin",
@@ -2881,7 +2881,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 202,
-      "updated_at": "2025-07-01 01:52:59+00:00"
+      "updated_at": "2025-10-01 01:41:09+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
     "subdir": "",
@@ -2889,7 +2889,7 @@
       "helper",
       "ui"
     ],
-    "version": "2025-07-01"
+    "version": "2025-10-01"
   },
   {
     "api": [
@@ -3182,7 +3182,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2413,
+      "stargazers_count": 2415,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -5061,7 +5061,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 67,
+      "stargazers_count": 70,
       "updated_at": "2023-03-01 15:14:52+00:00"
     },
     "projectUrl": "https://github.com/whitequark/binja_itanium_cxx_abi",
@@ -6080,7 +6080,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 2,
       "updated_at": "2025-09-26 15:35:40+00:00"
     },
     "projectUrl": "https://github.com/psifertex/translation-plugin",
@@ -6231,7 +6231,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 93,
+      "stargazers_count": 94,
       "updated_at": "2025-09-23 19:54:00+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
