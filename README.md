@@ -170,6 +170,7 @@
 | [ret-sync](https://github.com/bootleg/ret-sync)|Alexandre Gazet|Helper plugin to synchronize Binary Ninja with a debugging session|2022-01-21|helper|python3|MIT |
 | [revsync](https://github.com/lunixbochs/revsync)|lunixbochs|Realtime IDA Pro and Binary Ninja sync plugin|2020-05-14|ui|python2, python3|MIT |
 | [ripr](https://github.com/pbiernat/ripr)|Patrick Biernat|Package binary code as a Python class backed by Unicorn-Engine|2022-07-08|helper|python3|MIT |
+| [scylla-ninja](https://github.com/ScriptWare-Software/scylla-ninja)|Script-Ware Software|Automated ScyllaHide injection and setup/configuration for Binary Ninja's debugger|2025-10-08|ui, helper|python3|MIT |
 | [semgrep-bn](https://github.com/interruptlabs/semgrep_bn)|Samman Palihapitiya|Search code with Semgrep|2025-02-04|helper|python3|MIT |
 | [themida-unmutate-bn](https://github.com/ergrelet/themida-unmutate-bn)|Erwan Grelet|Static deobfuscator for Themida, WinLicense and Code Virtualizer 3.x's mutation-based obfuscation.|2024-07-28|helper|python3|GPL-3.0-or-later |
 | [x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|x64dbg|Official x64dbg plugin for Binary Ninja.|2025-04-10|sync|python3|MIT |
