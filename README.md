@@ -15,8 +15,8 @@
 | [BNHook](https://github.com/jeffli678/bnhook)|Grant Orndorff|Insert custom hooks|2021-03-29|core, ui|python2, python3|MIT |
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
-| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2025-08-31|helper, ui|python3|MIT |
-| [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-08-30|sync|python3|BSD 2-clause |
+| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2025-10-12|helper, ui|python3|MIT |
+| [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-10-13|sync|python3|BSD 2-clause |
 | [Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|fosdick.io|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-09-23|architecture, binaryview, core, helper|python3|GPL-3.0 |
 | [Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|Austin Haggard|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
@@ -86,7 +86,7 @@
 | [MSVC](https://github.com/0x1F9F1/binja-msvc)|Brick|Parses MSVC structures to improve analysis|2019-07-12|helper|python2, python3|MIT |
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|ui, binaryview, core|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
-| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2025-10-03|ui, helper|python3|Apache-2.0 |
+| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2025-10-16|ui, helper|python3|Apache-2.0 |
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2025-05-21|ui, binaryview, core|python3|MIT |
 | [Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|Galen Williamson|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT |
 | [NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|Accenture (Martin Petran)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-01-22|architecture|C++|Apache-2.0 |
@@ -94,7 +94,7 @@
 | [Native Predicate Solver](https://github.com/ScriptWare-Software/native-predicate-solver_loader)|ScriptWare Software|Remove opaque predicates from binaries|2025-06-29|helper|python3|MIT |
 | [Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|rikodot|Find and create signatures|2024-08-13|helper|python2, python3|MIT |
 | [Notepad](https://github.com/jonpalmisc/bn-notepad)|Jon Palmisciano|A notepad for taking notes inside Binary Ninja.|2021-04-19||python3|MIT |
-| [Obfuscation Analysis](https://github.com/mrphrazer/obfuscation_analysis)|Tim Blazytko, Nicolò Altamura|Analyze and simplify obfuscated code|2025-06-14|helper|python3|GPL-2.0 |
+| [Obfuscation Analysis](https://github.com/mrphrazer/obfuscation_analysis)|Tim Blazytko, Nicolò Altamura|Analyze and simplify obfuscated code|2025-10-11|helper|python3|GPL-2.0 |
 | [Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|Tim Blazytko|Automatically detect obfuscated code and other interesting code constructs|2025-03-14|helper|python3|GPL-2.0 |
 | [Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|Yu-Jye Tung|detect opaque predicates|2021-04-10|helper|python2, python3|MIT |
 | [OpenAI GPT3](https://github.com/WhatTheFuzz/binaryninja-openai)|Sean Deaton (@WhatTheFuzz)|Queries OpenAI's GPT3 to determine what a given function does.|2024-04-17|helper|python3|MIT |
