@@ -22,6 +22,7 @@
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
 | [Binary Ninja Wrapped](https://github.com/psifertex/bnwrap)|Jordan Wiens|Shows statistics about your Binary Ninja usage. Also includes a 'Time Wasted Debugging' timer widget for the status bar (disabled by default, enable in settings).|2025-04-03|ui|python3|MIT |
 | [Binja IPython console](https://github.com/skr0x1c0/ipybinja)|skr0x1c0|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|python3|MIT |
+| [Binja Missing Link](https://github.com/FFRI/binja-missinglink)|Koh M. Nakagawa|Binary Ninja plugin that fills missing indirect branch information|2025-10-20|core, helper|python3|Apache version 2.0 |
 | [Binja Snapshot Manager](https://github.com/d0mnik/binja_snapshot_manager)|d0minik|Binary Ninja plugin to take and manage database snapshots|2024-10-30|helper|python3|AGPL-3.0 |
 | [BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|moval0x1|Export notations from Binja to x64dbg|2024-02-20|binaryview|python3|MIT |
 | [Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|sen|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0 |
@@ -118,6 +119,7 @@
 | [Shellcoder](https://github.com/0xricksanchez/Shellcoder)|434b|Interactive shellcode disassembler/assembler|2024-11-28|helper|python3|Apache 2.0 |
 | [Simple YARA Generator](https://github.com/1337-42/SimpleYaraBN)|Remco Sprooten|Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/A...|2025-07-01|ui|python3|MIT |
 | [Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|mechanicalnull|Synchronized source code pane for debug binaries|2019-07-15|helper, ui|python2, python3|MIT |
+| [Swift Analyzer](https://github.com/FFRI/binja-swift-analyzer)|Koh M. Nakagawa|Binary Ninja plugin for analyzing Swift binaries|2025-10-20|core, helper|python3|Apache License, Version 2.0 |
 | [Swift Demangler](https://github.com/saagarjha/binja-swift-demangler)|Saagar Jha|Demangles Swift functions.|2025-06-01|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Switch Loader](https://github.com/EliseZeroTwo/Switch-Binja-Loader)|EliseZeroTwo|Loader for common Nintendo Switch binaries|2020-07-22|binaryview, helper|python3|ISC |
 | [Symgrate2 Plugin](https://github.com/travisgoodspeed/symgrate2-binja-plugin)|Travis Goodspeed|This is a client plugin for recovering symbols using the Symgrate2 server.|2021-09-11|helper|python3|MIT |
@@ -133,6 +135,7 @@
 | [WASM Plugin](https://github.com/ivision-research/binjawa)|Meador Inge|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|python3|MIT |
 | [Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|shareef12|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|2019-08-08|helper|python2, python3|MIT |
 | [XNU Sysctl Hunter](https://github.com/xpcmdshell/SysctlHunter)|actae0n|XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli...|2021-07-22|helper|python3|MIT |
+| [XProtect Remediator Analyzer](https://github.com/FFRI/binja-xpr-analyzer)|Koh M. Nakagawa|XProtect Remediator Analyzer is a plugin analyzing XProtect Remediator binaries.|2025-10-20|core, helper|python3|Apache version 2.0 |
 | [Xtensa Architecture Support and ESP8266 Loader](https://github.com/nicabi/binja-xtensa2)|Nicolae Binica|Xtensa Architecture Support and ESP8266 Image Loader|2025-08-30|architecture, binaryview|python3|MIT |
 | [YARA Scan](https://github.com/trib0r3/binja-yara)|trib0r3|YARA signatures|2020-05-26|binaryview, core|python3|MIT |
 | [binja-doc-lookup](https://github.com/riskydissonance/binja-doc-lookup)|riskydissonance|Lookup documentation for the selected token|2024-06-20|helper, ui|python3|MIT |
