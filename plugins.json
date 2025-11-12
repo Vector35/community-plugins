@@ -740,7 +740,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 31,
+      "stargazers_count": 32,
       "updated_at": "2025-10-12 15:47:45+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -1867,7 +1867,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 666,
+      "stargazers_count": 667,
       "updated_at": "2025-10-31 16:42:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -1960,16 +1960,16 @@
     "description": "Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1725774537,
+    "lastUpdated": 1762899468,
     "license": {
       "name": "BSD 2-clause",
       "text": ""
     },
-    "longdescription": "decomp2dbg will host the decompilation and symbols present in your Binary Ninja View over an XMLRPC server which can bee hooked from within your debugger. As you change you decompilation, so will the debuggers view.",
+    "longdescription": "decomp2dbg will host the decompilation and symbols present in your Binary Ninja View over an XMLRPC server which can bee hooked from within your debugger. As you change you decompilation, so will the debuggers view.\n\n### Changelog\n## What's Changed\r\n* Allow decompiler servers to return the binary's path by @k4lizen in https://github.com/mahaloz/decomp2dbg/pull/119\r\n* Update server template to match actual types by @k4lizen in https://github.com/mahaloz/decomp2dbg/pull/120\r\n* fix gradle build by @mahaloz in https://github.com/mahaloz/decomp2dbg/pull/121\r\n\r\n## New Contributors\r\n* @k4lizen made their first contribution in https://github.com/mahaloz/decomp2dbg/pull/119\r\n\r\n**Full Changelog**: https://github.com/mahaloz/decomp2dbg/compare/v3.10.2...v3.11.0",
     "minimumbinaryninjaversion": 1200,
     "name": "decomp2dbg",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/812ccaff-b618-4d98-acdf-0bf00708c2c5/versions/643b0f0c-09eb-44e0-84f7-9fedee3cfeea/platforms/1521/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/812ccaff-b618-4d98-acdf-0bf00708c2c5/versions/643b0f0c-09eb-44e0-84f7-9fedee3cfeea/platforms/1521/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/812ccaff-b618-4d98-acdf-0bf00708c2c5/versions/ef188b5c-41f0-4171-8ace-7e6d9a192449/platforms/2809/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/812ccaff-b618-4d98-acdf-0bf00708c2c5/versions/ef188b5c-41f0-4171-8ace-7e6d9a192449/platforms/2809/download?notrack=1",
     "path": "mahaloz_decomp2dbg",
     "platforms": [
       "Darwin",
@@ -1978,15 +1978,15 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 714,
-      "updated_at": "2024-09-08 05:48:57+00:00"
+      "stargazers_count": 716,
+      "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
     "subdir": "decompilers/d2d_binja",
     "type": [
       "core"
     ],
-    "version": "3.3.0"
+    "version": "3.11.0"
   },
   {
     "api": [
@@ -2995,7 +2995,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2230,
+      "stargazers_count": 2232,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3182,7 +3182,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2445,
+      "stargazers_count": 2446,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3506,8 +3506,8 @@
     "longdescription": "# Screenshot Ninja\n\nScreenshot Ninja makes it easy to capture screenshots inside Binary Ninja.\n\n## Features\n\nScreenshot Ninja currently allows you to capture screenshots:\n\n- of the active linear/graph view;\n- of the entire Binary Ninja window; and\n- at custom scaling factors, such as 2x or 3x the native resolution.\n\n## Install\n\nYou can get Screenshot Ninja by:\n\n- installing it through Binary Ninja's plugin manager;\n- cloning this repository into your user plugins folder; or\n- downloading and extracting a release into your user plugins folder.\n\nIf you plan to use the scripting functionality, the latter two options are\nrecommended, as the plugin manager adjusts module names.\n\n## Usage\n\nScreenshot Ninja can be used from the context menu or command palette, as well\nas from the console as a Python module.\n\n### From the user interface\n\nUse the context menu or command palette to find Screenshot Ninja's commands. The\n\"save view image\" command family will save an image of the active linear/graph\nview, while the \"save window image\" command family will save an image of the\nentire Binary Ninja window.\n\n### As a Python module\n\nYou can import Screenshot Ninja in the Python console like this:\n\n``` python\nimport screenshot_ninja\n```\n\nYou can then use the `renderActiveView` and `renderActiveWindow` functions as\nyou wish. Both functions return a `QPixmap`, which you are responsible for\nsaving yourself. Additionally, both functions will throw a `ValueError` if\nsomething goes wrong, so be sure to catch it.\n\n## License\n\nCopyright &copy; 2021-2023 Jon Palmisciano. Licensed under the MIT License. For\nadditional information, see [LICENSE.txt](LICENSE.txt).\n",
     "minimumbinaryninjaversion": 1200,
     "name": "Screenshot Ninja",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/626ee029-960c-4e03-8feb-9aadcd3b75a2/versions/19caab34-021b-4c6c-9d67-be5d28cfaa06/platforms/1765/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/626ee029-960c-4e03-8feb-9aadcd3b75a2/versions/19caab34-021b-4c6c-9d67-be5d28cfaa06/platforms/1765/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/626ee029-960c-4e03-8feb-9aadcd3b75a2/versions/19caab34-021b-4c6c-9d67-be5d28cfaa06/platforms/1767/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/626ee029-960c-4e03-8feb-9aadcd3b75a2/versions/19caab34-021b-4c6c-9d67-be5d28cfaa06/platforms/1767/download?notrack=1",
     "path": "jonpalmisc_screenshot_ninja",
     "platforms": [
       "Darwin",
@@ -4259,8 +4259,8 @@
     "longdescription": "Dependency Analyzer is a Binary Ninja plugin for analyzing module dependencies in a more in-depth fashion and recovering important information such as import names from metadata files.\n\nSupported formats:\n\n* [Microsoft Module Definition (.def)](https://docs.microsoft.com/en-us/cpp/build/reference/module-definition-dot-def-files?view=vs-2019) files\n* IDA's IDT files\n* Anything loadable by Binary Ninja (including databases with renamed functions)\n\nCurrent analyses:\n\n* Resolve imported symbol names\n  - Import-by-ordinal\n  - Import-by-address (e.g. embedded systems)\n  - From renamed functions in a Binary Ninja database (e.g. manually analyzed obfuscated symbol names)\n\nIt will try to find files in `depanalyzer.path` with the same basename of any of the dependencies, and analyze them if they match anything loadable by the plugin.\n\nSymbol matching can done in three ways:\n\n* By name\n* By address (non-relocatable binaries only)\n* By ordinal (PE binaries only)\n\nThe current method is settable through `depanalyzer.matching_method`, globally and per-context.\nBy default, and upon encountering a method that is inapplicable to the current binary, it will try to determine the best method automatically.\n",
     "minimumbinaryninjaversion": 1200,
     "name": "Dependency analyzer",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/f67bdaa4-5e59-4de9-8b43-9d8df06270ba/versions/3d256cfb-47e7-45eb-bc38-445ba2ed4298/platforms/1885/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/f67bdaa4-5e59-4de9-8b43-9d8df06270ba/versions/3d256cfb-47e7-45eb-bc38-445ba2ed4298/platforms/1885/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/f67bdaa4-5e59-4de9-8b43-9d8df06270ba/versions/3d256cfb-47e7-45eb-bc38-445ba2ed4298/platforms/1889/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/f67bdaa4-5e59-4de9-8b43-9d8df06270ba/versions/3d256cfb-47e7-45eb-bc38-445ba2ed4298/platforms/1889/download?notrack=1",
     "path": "shizmob_binjadepanalyzer",
     "platforms": [
       "Darwin",
@@ -4306,7 +4306,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 58,
+      "stargazers_count": 59,
       "updated_at": "2020-05-18 15:59:26+00:00"
     },
     "projectUrl": "https://github.com/hugsy/gef-binja",
@@ -5958,8 +5958,8 @@
     "longdescription": "# Binary Ninja Wrapped (v1.01)\n\nA fun \"Spotify Wrapped\" style visualization tool for your Binary Ninja usage.\n\n![Binary Ninja Wrapped Screenshot](./wrapped.png)\n\n## Overview\n\nBinary Ninja Wrapped provides a stylish visualization of your reverse engineering habits in Binary Ninja. Inspired by Spotify's annual \"Wrapped\" feature, it analyzes your recently opened files and generates personalized stats and charts about:\n\n- File format distribution (PE, ELF, Mach-O, etc.)\n- CPU architecture preferences\n- Binary size statistics\n- Static vs. dynamic linking patterns\n\nEach chart comes with personalized, sometimes humorous commentary on your binary analysis habits.\n\n## Frequently Asked Questions\n\n**Q: Is this a joke?**\n\n**A:** Well, yes. I mean, it's intended to be a non-serious, funny plugin.\n\n**Q: So it doesn't actually work?**\n\n**A:** Oh no, it's very much a real plugin that will really do what it says and involves several thousand lines of vibe coding.\n\n**Q: But why was it released on April 1 if it's a prank?**\n\n**A:** You got the part where it was supposed to be non-serious and funny, right?\n\n## Features\n\n- **Interactive UI**: Browse different stats through an intuitive tabbed interface\n- **Dynamic Visualizations**: Colorful charts and graphs display your binary analysis patterns\n- **Personalized Quotes**: Each section features unique, context-aware commentary\n- **Exportable Results**: Save a beautiful collage of all your charts in a grid layout\n\n## Installation\n\n1. Install via the Plugin Manager! \n1. Alternatively, clone this repository into your Binary Ninja plugins directory:\n   ```\n   cd ~/.binaryninja/plugins/                       # Linux\n   cd ~/Library/Application\\ Support/Binary\\ Ninja/ # macOS\n   cd %APPDATA%\\Binary Ninja\\plugins                # Windows\n   git clone https://github.com/vector35/bnwrap.git\n   ```\n\n1. Restart Binary Ninja.\n\n## Usage\n\n1. Open Binary Ninja\n2. Go to the **Plugins** menu\n3. Select **Binja Wrapped**\n4. Browse through the tabs to explore different aspects of your binary analysis habits\n5. Use the **Export Combined Image** button to save a shareable collage\n\n## Example\n\n![example image](./example.png)\n\n## Requirements\n\n- Binary Ninja (recent version)\n- PySide6 (included with Binary Ninja)\n\n## Contributing\n\nContributions are welcome! Feel free to submit pull requests or open issues for bugs or feature requests.\n\n## License\n\nThis project is released under the MIT License. See the LICENSE file for details.\n",
     "minimumbinaryninjaversion": 6666,
     "name": "Binary Ninja Wrapped",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ea873fa9-b9e2-4efc-965b-d0dfbcad4b53/versions/ab0f52a6-66e3-4b06-bcec-eeafbf7c3907/platforms/2208/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ea873fa9-b9e2-4efc-965b-d0dfbcad4b53/versions/ab0f52a6-66e3-4b06-bcec-eeafbf7c3907/platforms/2208/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ea873fa9-b9e2-4efc-965b-d0dfbcad4b53/versions/ab0f52a6-66e3-4b06-bcec-eeafbf7c3907/platforms/2207/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ea873fa9-b9e2-4efc-965b-d0dfbcad4b53/versions/ab0f52a6-66e3-4b06-bcec-eeafbf7c3907/platforms/2207/download?notrack=1",
     "path": "psifertex_bnwrap",
     "platforms": [
       "Darwin",
