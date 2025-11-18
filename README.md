@@ -78,6 +78,7 @@
 | [Improved Gameboy Architecture](https://github.com/samrussell/binja-gameboy)|Sam Russell (@samrussell)|A loader and diassembler for Game Boy ROMs.|2024-03-28|architecture, binaryview|python3|MIT |
 | [Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|Andrea Ferraris|Forward and backward instruction slicer|2020-11-25|helper|python2, python3|MIT |
 | [Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|whitequark|A plugin providing the 16-bit Intel architecture.|2019-09-04|arch|python2, python3|BSD-0-clause |
+| [IoC Ninja](https://github.com/CX330Blake/ioc_ninja)|CX330|IoC Ninja is a Binary Ninja plugin that can improve the QoL of malware analysts.|2025-11-18|ui, binaryview, core, helper|python3|MIT |
 | [Itanium C++ ABI](https://github.com/whitequark/binja_itanium_cxx_abi)|whitequark|A plugin providing an analysis for Itanium C++ ABI.|2023-03-01|analysis|python2, python3|BSD-0-clause |
 | [JMPscare](https://github.com/fgsect/JMPscare-binja)|Lukas Seidel|Fuzzing Introspection for use with the JMPscare Toolkit.|2022-12-07|binaryview, core, helper, ui|python3|MIT |
 | [JNIAnalyzer](https://github.com/Ayrx/binja-JNIAnalyzer)|Terry Chia (Ayrx)|Analysis scripts for Binary Ninja to work with Android NDK libraries.|2022-03-27|helper|python3|MIT |
@@ -115,7 +116,7 @@
 | [SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|EliseZeroTwo|Helper for exploring structured exception handlers in PEs|2022-02-19|helper, ui|python3|MIT |
 | [SENinja](https://github.com/borzacchiello/seninja)|Luca Borzacchiello|Symbolic execution plugin for BinaryNinja|2024-02-24|helper|python3|2-Clause BSD |
 | [SEPROM Loader](https://github.com/matteyeux/seprom-loader)|matteyeux|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|python3|MIT |
-| [Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|jonpalmisc|Easily capture Binary Ninja screenshots in ultra-high resolution|2024-02-26|helper|python3|MIT |
+| [Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|jonpalmisc|Easily capture Binary Ninja screenshots in ultra-high resolution|2025-11-13|helper|python3|MIT |
 | [Shellcoder](https://github.com/0xricksanchez/Shellcoder)|434b|Interactive shellcode disassembler/assembler|2024-11-28|helper|python3|Apache 2.0 |
 | [Simple YARA Generator](https://github.com/1337-42/SimpleYaraBN)|Remco Sprooten|Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/A...|2025-07-01|ui|python3|MIT |
 | [Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|mechanicalnull|Synchronized source code pane for debug binaries|2019-07-15|helper, ui|python2, python3|MIT |
