@@ -117,6 +117,7 @@
 | [SENinja](https://github.com/borzacchiello/seninja)|Luca Borzacchiello|Symbolic execution plugin for BinaryNinja|2024-02-24|helper|python3|2-Clause BSD |
 | [SEPROM Loader](https://github.com/matteyeux/seprom-loader)|matteyeux|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|python3|MIT |
 | [Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|jonpalmisc|Easily capture Binary Ninja screenshots in ultra-high resolution|2025-11-13|helper|python3|MIT |
+| [Shellcode-IDE](https://github.com/CX330Blake/Shellcode-IDE)|CX330Blake|Shellcode IDE makes developing and analyzing shellcode much more convenient.|2025-11-19|ui, binaryview, helper|python3|MIT |
 | [Shellcoder](https://github.com/0xricksanchez/Shellcoder)|434b|Interactive shellcode disassembler/assembler|2024-11-28|helper|python3|Apache 2.0 |
 | [Simple YARA Generator](https://github.com/1337-42/SimpleYaraBN)|Remco Sprooten|Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/A...|2025-07-01|ui|python3|MIT |
 | [Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|mechanicalnull|Synchronized source code pane for debug binaries|2019-07-15|helper, ui|python2, python3|MIT |
