@@ -143,7 +143,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 221,
+      "stargazers_count": 222,
       "updated_at": "2025-07-01 15:21:37+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 994,
+      "stargazers_count": 995,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1878,7 +1878,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 667,
+      "stargazers_count": 668,
       "updated_at": "2025-10-31 16:42:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -1992,7 +1992,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 718,
+      "stargazers_count": 723,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2146,7 +2146,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 14,
+      "stargazers_count": 15,
       "updated_at": "2022-12-12 18:54:08+00:00"
     },
     "projectUrl": "https://github.com/skr0x1c0/ipybinja",
@@ -2187,7 +2187,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 42,
+      "stargazers_count": 43,
       "updated_at": "2023-01-28 19:57:01+00:00"
     },
     "projectUrl": "https://github.com/AsherDLL/PCDump-bn",
@@ -2494,7 +2494,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 540,
+      "stargazers_count": 541,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -2533,7 +2533,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 240,
+      "stargazers_count": 241,
       "updated_at": "2023-11-13 03:40:59+00:00"
     },
     "projectUrl": "https://github.com/hyuunnn/Hyara",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2237,
+      "stargazers_count": 2239,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2450,
+      "stargazers_count": 2452,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -6049,7 +6049,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 20,
+      "stargazers_count": 21,
       "updated_at": "2024-01-25 16:20:41+00:00"
     },
     "projectUrl": "https://github.com/lwerdna/keypatch_binja",
@@ -6329,6 +6329,46 @@
       "helper"
     ],
     "version": "0.1",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
+    "author": "CX330Blake",
+    "dependencies": "pygments>=2.12\nkeystone-engine>=0.9.2\n",
+    "description": "Shellcode IDE makes developing and analyzing shellcode much more convenient.",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1763595221,
+    "license": {
+      "name": "MIT",
+      "text": "MIT License\r\n\r\nCopyright (c) 2025 CX330\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
+    },
+    "longdescription": "## Demo\n\nhttps://github.com/user-attachments/assets/8a0cbc62-4f29-417f-a1d1-6d3005a1be41\n\n## What the project does\n\nShellcode-IDE is a powerful Binary Ninja plugin designed for reverse engineers, CTF players, exploit developers, and security researchers. It provides a comprehensive environment for developing and analyzing shellcode with a user-friendly GUI that combines Binary Ninja's assembler/disassembler capabilities for rapid iteration and safe validation of shellcode.\n\n### Key Features\n\n- **Two-way conversion**: Raw bytes/hex \u2194 assembly text\n- **Multi-architecture support**: Assemble for any Binary Ninja architecture/platform\n- **Multiple export formats**: Inline `\\x..`, raw hex, C stub, Python stub, Zig stub, Rust stub, Go stub\n- **Live metadata**: Byte length, instruction count, null count, endianness, architecture\n- **Configurable bad-pattern detection**: e.g., `00`, `0a`, `ff`, sequences, regex\n- **Peephole optimizations**: With preview/confirm (e.g., `push 0` \u2192 `xor reg, reg; push reg`)\n- **Validation rules**: No variables/labels, no absolute addresses/relocations, no nulls (unless allowed)\n- **Binary Ninja integration**: Menu + toolbar + dockable/floating Qt window with shortcuts\n\n## Why the project is useful\n\nShellcode-IDE streamlines the shellcode development workflow by providing:\n\n- **Rapid iteration**: Quickly test and validate shellcode snippets without external tools\n- **Architecture flexibility**: Work across different architectures with a single interface\n- **Safety checks**: Built-in validation prevents common shellcode issues like null bytes\n- **Optimization**: Improve your shellcode with intelligent peephole optimizations\n- **Multi-format export**: Generate code snippets for various programming languages\n- **Integration**: Seamlessly integrates into Binary Ninja's ecosystem\n\n## Quick Start\n\n#### To disassemble bytes/hex to assembly\n\n1. Open Shellcode IDE from `Tools \u2192 Shellcode IDE` or toolbar icon\n2. Select target `Architecture`/`Platform` (defaults to active view when available)\n3. Paste hex/bytes into the \"Hex/Bytes\" tab (supports whitespace, `0x` prefixes, and `\\x..` forms)\n4. Click \"Disassemble\". View assembly in the output panel and stats in the status bar\n5. Export via the \"Formats\" tab (copy or save to file)\n\n#### To assemble assembly to shellcode\n\n1. Switch to the \"Assembly\" tab and enter one instruction per line\n2. Click \"Assemble\". Errors (if any) show inline with line/column info\n3. Review live stats, run \"Optimize\" (optional), \"Validate\", and export in your preferred format\n\n### Usage Examples\n\n**Basic Assembly:**\n\n```\nmov rax, 0x3b\nmov rdi, 0x68732f6e69622f\npush rdi\nmov rsi, rsp\nxor rdx, rdx\nsyscall\n```\n\n**Hex Input:**\n\n```\n90 90 48 c7 c0 3b 00 00 00 48 c7 c7 2f 62 69 6e 2f 73 68 57 48 89 e6 48 31 d2 0f 05\n```\n\nor\n\n```\n\\x90\\x90\\x48\\xc7\\xc0\\x3b\\x00\\x00\\x00\\x48\\xc7\\xc7\\x2f\\x62\\x69\\x6e\\x2f\\x73\\x68\\x57\\x48\\x89\\xe6\\x48\\x31\\xd2\\x0f\\x05\n```\n\n## Where users can get help\n\n- **Documentation**: Refer to the detailed information in this README\n- **Issues**: Report bugs or request features at [GitHub Issues](https://github.com/CX330Blake/Shellcode-IDE/issues)\n- **Binary Ninja Community**: Join the Binary Ninja community forums for plugin-related questions\n- **Source Code**: Browse the source code in this repository for implementation details\n\n## Who maintains and contributes\n\n### Maintainer\n\n- **CX330Blake** - Original author and current maintainer\n\n### Contributing\n\nContributions are welcome! Please open issues for bugs/ideas and submit focused PRs.\n\n#### Development Setup\n\n1. Clone the repository into your Binary Ninja plugins directory\n2. Install dependencies: `pip install -r requirements.txt`\n3. Restart Binary Ninja or use \"Reload Plugins\"\n\n#### For Developers\n\n- **Tech stack**: Python 3.8+, Binary Ninja Python API, PySide2\n- Keep changes minimal and scoped to the task\n- Match the existing code style and structure\n- Include tests for new logic where practical\n\n",
+    "minimumbinaryninjaversion": 3164,
+    "name": "Shellcode-IDE",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/8878de59-f798-42ef-923d-a0e6d7960f3e/versions/34617ed8-f681-446b-9abb-72ff0aff2f06/platforms/2839/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/8878de59-f798-42ef-923d-a0e6d7960f3e/versions/34617ed8-f681-446b-9abb-72ff0aff2f06/platforms/2839/download?notrack=1",
+    "path": "CX330Blake_Shellcode_IDE",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2025-11-19 23:33:41+00:00"
+    },
+    "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
+    "subdir": "",
+    "type": [
+      "ui",
+      "binaryview",
+      "helper"
+    ],
+    "version": "0.1.16",
     "view_only": false
   },
   {
@@ -6888,16 +6928,16 @@
     "description": "IoC Ninja is a Binary Ninja plugin that can improve the QoL of malware analysts.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1763479232,
+    "lastUpdated": 1763501740,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2025 CX330\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# IoC Ninja\r\n\r\nIoC Ninja is a Binary Ninja plugin that scans a BinaryView's user-visible strings and extracts Indicators of Compromise (IoCs) \u2014 IP addresses, domains, URLs, email addresses, API keys, hashes, PEM blocks, Base64 blocks, file paths, registry keys and other useful artifacts. Findings are presented in an interactive Qt UI with selectable detectors, incremental results, live-domain filtering, and CSV export.\r\n\r\n**Why this is useful**\r\n\r\n- Quickly surface potential IoCs embedded in binaries without writing custom extraction scripts.\r\n- A large, curated set of regular expressions and heuristics for many IoC classes (see `ioc_logic.py`).\r\n- Optional DNS-based live-domain filtering to reduce false positives.\r\n- Background scanning with incremental UI updates and exportable CSV output for triage.\r\n\r\n## Features\r\n\r\n- Pattern-based detection for IPv4/IPv6, domains, URLs, emails, UUIDs, MACs, MD5/SHA hashes, JWTs, API keys, PEM blocks, Base64 blocks, file paths, registry keys and more.\r\n- Heuristic checks: high-entropy tokens, base64 decode validation and file-hash extraction.\r\n- GUI: choose detectors, run scans in background, view incremental and aggregated results, export to CSV.\r\n- Live DNS filtering: optionally show only resolvable domains.\r\n\r\n## Requirements\r\n\r\n- Binary Ninja (minimum version referenced in `plugin.json`: 3164)\r\n- Python 3 (Binary Ninja's bundled Python is recommended)\r\n- The plugin uses the Binary Ninja API and PySide6; these are typically supplied by the Binary Ninja application.\r\n\r\n## Installation\r\n\r\n1. Clone the repository and put `ioc_ninja` inside your Binary Ninja `plugins` directory.\r\n\r\n    - MacOS: `~/Library/Application Support/Binary Ninja/plugins/`\r\n    - Linux: `~/.binaryninja/plugins/`\r\n    - Windows: `%APPDATA%\\\\Binary Ninja\\\\plugins/`\r\n\r\n2. Restart Binary Ninja to load the plugin.\r\n\r\n## Usage\r\n\r\n1. Open a binary in Binary Ninja.\r\n2. Open the plugin UI: `Plugins -> IoC Ninja` (or use the command palette).\r\n3. Select IoC types to scan (or use the All/None shortcuts) and click `Scan`.\r\n4. Watch progress and partial results in the UI. Use the search box to filter by Type, Value, or Address.\r\n5. Export results using the `Export` button (CSV) for further triage.\r\n\r\n## Developer & Testing\r\n\r\n- Core logic: `ioc_ninja/core/ioc_logic.py`\r\n- UI: `ioc_ninja/ui/ioc_ui.py`\r\n- Compatibility shim for legacy imports: `ioc_ninja/logic/ioc_logic.py`\r\n- Tests: `tests/test_ioc_regex.py` (mocks Binary Ninja internals so tests can run outside the host application).\r\n\r\nRun unit tests locally (Python 3 required):\r\n\r\n```bash\r\npython3 -m pytest tests/test_ioc_regex.py\r\n# or (tests include a small runner):\r\npython3 tests/test_ioc_regex.py\r\n```\r\n\r\nWhen adding or changing detectors, please add/update tests in `tests/test_ioc_regex.py` to cover edge cases.\r\n\r\n## Getting Help\r\n\r\n- Open an issue in this repository for bugs or feature requests. Include: Binary Ninja version, small repro if possible, and steps to reproduce.\r\n- For quick questions, code pointers, or to propose changes, open a discussion or PR.\r\n\r\n## Contributing & Maintainers\r\n\r\n- This project is maintained in this repository. See `LICENSE` for license details (MIT).\r\n- Contributions are welcome via pull requests \u2014 for larger changes, open an issue first to discuss the approach.\r\n\r\n## License\r\n\r\nThis project is licensed under the MIT License \u2014 see `LICENSE` for details.",
+    "longdescription": "## Features\n\n- Pattern-based detection for IPv4/IPv6, domains, URLs, emails, UUIDs, MACs, MD5/SHA hashes, JWTs, API keys, PEM blocks, Base64 blocks, file paths, registry keys and more.\n- Heuristic checks: high-entropy tokens, base64 decode validation and file-hash extraction.\n- GUI: choose detectors, run scans in background, view incremental and aggregated results, export to CSV.\n- Live DNS filtering: optionally show only resolvable domains.\n\n## Requirements\n\n- Binary Ninja (minimum version referenced in `plugin.json`: 3164)\n- Python 3 (Binary Ninja's bundled Python is recommended)\n- The plugin uses the Binary Ninja API and PySide6; these are typically supplied by the Binary Ninja application.\n\n## Installation\n\n1. Clone the repository and put `ioc_ninja` inside your Binary Ninja `plugins` directory.\n\n    - MacOS: `~/Library/Application Support/Binary Ninja/plugins/`\n    - Linux: `~/.binaryninja/plugins/`\n    - Windows: `%APPDATA%\\\\Binary Ninja\\\\plugins/`\n\n2. Restart Binary Ninja to load the plugin.\n\n## Usage\n\n1. Open a binary in Binary Ninja.\n2. Open the plugin UI: `Plugins -> IoC Ninja` (or use the command palette).\n3. Select IoC types to scan (or use the All/None shortcuts) and click `Scan`.\n4. Watch progress and partial results in the UI. Use the search box to filter by Type, Value, or Address.\n5. Export results using the `Export` button (CSV) for further triage.\n\n## Developer & Testing\n\n- Core logic: `ioc_ninja/core/ioc_logic.py`\n- UI: `ioc_ninja/ui/ioc_ui.py`\n- Compatibility shim for legacy imports: `ioc_ninja/logic/ioc_logic.py`\n- Tests: `tests/test_ioc_regex.py` (mocks Binary Ninja internals so tests can run outside the host application).\n\nRun unit tests locally (Python 3 required):\n\n```bash\npython3 -m pytest tests/test_ioc_regex.py\n# or (tests include a small runner):\npython3 tests/test_ioc_regex.py\n```\n\nWhen adding or changing detectors, please add/update tests in `tests/test_ioc_regex.py` to cover edge cases.\n\n## Getting Help\n\n- Open an issue in this repository for bugs or feature requests. Include: Binary Ninja version, small repro if possible, and steps to reproduce.\n- For quick questions, code pointers, or to propose changes, open a discussion or PR.\n\n## Contributing & Maintainers\n\n- This project is maintained in this repository. See `LICENSE` for license details (MIT).\n- Contributions are welcome via pull requests \u2014 for larger changes, open an issue first to discuss the approach.\n\n## License\n\nThis project is licensed under the MIT License \u2014 see `LICENSE` for details.\n",
     "minimumbinaryninjaversion": 3164,
     "name": "IoC Ninja",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/fd0a4c41-2c74-459f-8af5-4e6c693a5d3f/versions/a7ad3755-9d91-436c-a0e6-31aca9dc3a00/platforms/2821/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/fd0a4c41-2c74-459f-8af5-4e6c693a5d3f/versions/a7ad3755-9d91-436c-a0e6-31aca9dc3a00/platforms/2821/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/fd0a4c41-2c74-459f-8af5-4e6c693a5d3f/versions/d3ab1ff8-adec-4fec-91f2-06dc606735a4/platforms/2833/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/fd0a4c41-2c74-459f-8af5-4e6c693a5d3f/versions/d3ab1ff8-adec-4fec-91f2-06dc606735a4/platforms/2833/download?notrack=1",
     "path": "CX330Blake_ioc_ninja",
     "platforms": [
       "Darwin",
@@ -6906,8 +6946,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
-      "updated_at": "2025-11-18 15:20:32+00:00"
+      "stargazers_count": 11,
+      "updated_at": "2025-11-18 21:35:40+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/ioc_ninja",
     "subdir": "",
@@ -6917,7 +6957,7 @@
       "core",
       "helper"
     ],
-    "version": "0.1.0",
+    "version": "0.1.3",
     "view_only": false
   }
 ]
