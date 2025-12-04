@@ -6651,6 +6651,44 @@
     "api": [
       "python3"
     ],
+    "author": "jonpalmisc",
+    "dependencies": "",
+    "description": "Segment-accurate iBoot/SecureROM loader",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1764871402,
+    "license": {
+      "name": "BSD 3-Clause",
+      "text": "Copyright (c) 2025 Jon Palmisciano. All rights reserved.\r\n\r\nRedistribution and use in source and binary forms, with or without\r\nmodification, are permitted provided that the following conditions are met:\r\n\r\n  1. Redistributions of source code must retain the above copyright notice,\r\n     this list of conditions and the following disclaimer.\r\n\r\n  2. Redistributions in binary form must reproduce the above copyright\r\n     notice, this list of conditions and the following disclaimer in the\r\n     documentation and/or other materials provided with the distribution.\r\n\r\n  3. Neither the name of the copyright holder nor the names of its\r\n     contributors may be used to endorse or promote products derived from\r\n     this software without specific prior written permission.\r\n\r\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\r\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\r\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\r\nARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE\r\nLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\r\nCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF\r\nSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\r\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\r\nCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\r\nARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\r\nPOSSIBILITY OF SUCH DAMAGE."
+    },
+    "longdescription": "\n\n### Changelog\n- Basically release 1.2.2 but with valid JSON",
+    "minimumbinaryninjaversion": 3164,
+    "name": "Ibis",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/934c36e7-dccd-4bec-8724-a852ece9b027/versions/4e6146d9-3d5d-48a7-a2a8-7cb21a1d78e3/platforms/2857/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/934c36e7-dccd-4bec-8724-a852ece9b027/versions/4e6146d9-3d5d-48a7-a2a8-7cb21a1d78e3/platforms/2857/download?notrack=1",
+    "path": "jonpalmisc_Ibis",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2025-12-04 18:03:22+00:00"
+    },
+    "projectUrl": "https://github.com/jonpalmisc/ibis",
+    "subdir": "plugin/binja",
+    "type": [
+      "binaryview"
+    ],
+    "version": "1.1.1",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
     "author": "Koh M. Nakagawa",
     "dependencies": "",
     "description": "Binary Ninja plugin for analyzing Swift binaries",
