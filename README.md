@@ -76,6 +76,7 @@
 | [Hyara](https://github.com/hyuunnn/Hyara)|Hyun Yi|YARA rule making tool for Binary Ninja, Cutter, and IDA|2023-11-13|ui|python2, python3|MIT |
 | [IDC Importer](https://github.com/Cryptogenic/idc_importer)|SpecterDev|Allows users to import idc database dumps from IDA into Binary Ninja.|2022-10-13|helper|python3|MIT |
 | [IFL](https://github.com/leandrofroes/bn_ifl)|Leandro Froes|A small plugin that provides an user-friendly way to navigate between functions and their references.|2024-07-09|helper, ui|python3|CC BY 3.0 |
+| [Ibis](https://github.com/jonpalmisc/ibis)|jonpalmisc|Segment-accurate iBoot/SecureROM loader|2025-12-04|binaryview|python3|BSD 3-Clause |
 | [Improved Gameboy Architecture](https://github.com/samrussell/binja-gameboy)|Sam Russell (@samrussell)|A loader and diassembler for Game Boy ROMs.|2024-03-28|architecture, binaryview|python3|MIT |
 | [Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|Andrea Ferraris|Forward and backward instruction slicer|2020-11-25|helper|python2, python3|MIT |
 | [Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|whitequark|A plugin providing the 16-bit Intel architecture.|2019-09-04|arch|python2, python3|BSD-0-clause |
