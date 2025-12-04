@@ -29,3 +29,11 @@ body:
       options:
         - label: I have made a real release
           required: true
+  - type: checkboxes
+    id: validation
+    attributes:
+      label: Creation and Validation of `plugin.json`
+      description: I've created a `plugin.json` file and validated it with the [`generate_plugininfo.py`](https://github.com/Vector35/community-plugins/blob/master/generate_plugininfo.py) script (you can run `./generate_plugininfo.py -v PATH/TO/plugin.json`).
+      options:
+        - label: I have created a valid `plugin.json` file
+          required: true
