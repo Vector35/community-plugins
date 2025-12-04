@@ -6656,16 +6656,16 @@
     "description": "Segment-accurate iBoot/SecureROM loader",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1764871402,
+    "lastUpdated": 1764873323,
     "license": {
       "name": "BSD 3-Clause",
       "text": "Copyright (c) 2025 Jon Palmisciano. All rights reserved.\r\n\r\nRedistribution and use in source and binary forms, with or without\r\nmodification, are permitted provided that the following conditions are met:\r\n\r\n  1. Redistributions of source code must retain the above copyright notice,\r\n     this list of conditions and the following disclaimer.\r\n\r\n  2. Redistributions in binary form must reproduce the above copyright\r\n     notice, this list of conditions and the following disclaimer in the\r\n     documentation and/or other materials provided with the distribution.\r\n\r\n  3. Neither the name of the copyright holder nor the names of its\r\n     contributors may be used to endorse or promote products derived from\r\n     this software without specific prior written permission.\r\n\r\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\r\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\r\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\r\nARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE\r\nLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\r\nCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF\r\nSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\r\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\r\nCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\r\nARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\r\nPOSSIBILITY OF SUCH DAMAGE."
     },
-    "longdescription": "\n\n### Changelog\n- Basically release 1.2.2 but with valid JSON",
+    "longdescription": "# Ibis\n\nIbis is a Python library with accompanying disassembler plugins for analyzing\n64-bit iBoot-like firmware, e.g. SecureROM, iBoot, AVPBooter, etc.\n\nThe primary goal of Ibis is to provide **accurate memory layout information**\nfor a wide range of iBoot family binaries. Similar public projects map the\nentire binary as a big RWX blob, which negatively affects disassembler analysis.\n\n> [!WARNING]\n> Ibis should be treated as pre-release software. It has been tested against a\n> wide array of binaries, but may have subtle errors. Please file an issue if\n> you spot something wrong!\n\n## Features & Roadmap\n\nWhile Ibis' primary goal is to map segments correctly, some of the current and\nplanned features are detailed as follows:\n\n- [x] Automatic detection and mapping of `TEXT`, `CONST`, `DATA`, and `BSS`\n  segments with correct boundaries and permissions.\n- [x] Function prologue detection (helps prevent run-on functions when\n  disassemblers fail to identify `noreturn` functions).\n- [ ] Automatic known function identification via string reference heuristics.\n  (https://github.com/jonpalmisc/ibis/issues/2)\n- [ ] Automatic detection & marking of outlined functions.\n  (https://github.com/jonpalmisc/ibis/issues/4)\n- [ ] \ud83d\udd25\ud83c\udf38\u2049\ufe0f\n\nSee the [issues tab](https://github.com/jonpalmisc/ibis/issues) for a full list\nof planned features or known issues.\n\n## Installing\n\nThe Ibis plugins for Binary Ninja and IDA Pro are included in this repo and can\nbe installed with the included Makefile:\n\n```sh\n$ make install-binja\n$ make install-ida\n```\n\n> [!IMPORTANT]\n> The plugins expect that they have been installed via symlinks! This is done to\n> avoid having to install Ibis' Python package globally or configure your\n> disassembler to use a virtual environment. If you wish to install the plugins\n> manually, replicate what is done in the Makefile.\n\n## Troubleshooting\n\nIf a binary fails to load or the detected segments don't look quite right,\nplease file an issue! Ibis aims to provide widespread and accurate support for\niBoot-like binaries, so any analysis failures are considered a bug.\n\n## Contributing\n\nAny contributions that improve Ibis' analysis or support range are welcome! :)\n\n### Testing\n\nThe included integration tests reference a \"corpus\" and \"gauntlet\", which are\ncollections of binaries I've used whilst developing this plugin. For a variety\nof reasons (repo size, copyright issues, etc.) these are not included in the\nrepo. If you wish to contribute and run these tests, contact me and I can send\nyou the exact set I am using.\n\nIf you wish to assemble your own collection, `util/download.py` can be used to\ndownload iBoot images in bulk, and [securerom.fun](https://securerom.fun/) has a\npublic collection of SecureROM dumps.\n\n## License\n\nCopyright \u00a9 2025 Jon Palmisciano. All rights reserved.\n\nLicensed under the BSD 3-Clause license; the full terms of the license can be\nfound in [LICENSE.txt](LICENSE.txt).\n\n\n### Changelog\n- Fix README in Binary Ninja plugin manager, bump version",
     "minimumbinaryninjaversion": 3164,
     "name": "Ibis",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/934c36e7-dccd-4bec-8724-a852ece9b027/versions/4e6146d9-3d5d-48a7-a2a8-7cb21a1d78e3/platforms/2857/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/934c36e7-dccd-4bec-8724-a852ece9b027/versions/4e6146d9-3d5d-48a7-a2a8-7cb21a1d78e3/platforms/2857/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/934c36e7-dccd-4bec-8724-a852ece9b027/versions/8d816e94-6676-4896-b502-036acb4eac02/platforms/2863/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/934c36e7-dccd-4bec-8724-a852ece9b027/versions/8d816e94-6676-4896-b502-036acb4eac02/platforms/2863/download?notrack=1",
     "path": "jonpalmisc_Ibis",
     "platforms": [
       "Darwin",
@@ -6675,14 +6675,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 0,
-      "updated_at": "2025-12-04 18:03:22+00:00"
+      "updated_at": "2025-12-04 18:35:23+00:00"
     },
     "projectUrl": "https://github.com/jonpalmisc/ibis",
     "subdir": "plugin/binja",
     "type": [
       "binaryview"
     ],
-    "version": "1.1.1",
+    "version": "1.2.4",
     "view_only": false
   },
   {
