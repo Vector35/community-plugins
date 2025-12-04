@@ -17,6 +17,7 @@
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
 | [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2025-10-12|helper, ui|python3|MIT |
 | [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-10-31|sync|python3|BSD 2-clause |
+| [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2025-11-24|helper|python3, rust|MIT |
 | [Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|fosdick.io|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-09-23|architecture, binaryview, core, helper|python3|GPL-3.0 |
 | [Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|Austin Haggard|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
@@ -83,6 +84,7 @@
 | [JMPscare](https://github.com/fgsect/JMPscare-binja)|Lukas Seidel|Fuzzing Introspection for use with the JMPscare Toolkit.|2022-12-07|binaryview, core, helper, ui|python3|MIT |
 | [JNIAnalyzer](https://github.com/Ayrx/binja-JNIAnalyzer)|Terry Chia (Ayrx)|Analysis scripts for Binary Ninja to work with Android NDK libraries.|2022-03-27|helper|python3|MIT |
 | [Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|jofra|A plugin that eases fixing jump table branches|2019-07-06|core, ui|python2, python3|MIT |
+| [Leak Audit](https://github.com/Vector35/Leak-Audit)|Vector 35 Inc|A debugging tool for Binary Ninja plugin developers to detect and diagnose memory leaks related to BinaryView objects.|2025-11-11|helper|python3|Apache-2.0 |
 | [Lighthouse](https://github.com/gaasedelen/lighthouse)|Markus Gaasedelen|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT |
 | [MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|Known Rabbit|MCP Server for Binary Ninja.|2025-05-11|ui, helper|python3|Apache-2.0 |
 | [MSVC](https://github.com/0x1F9F1/binja-msvc)|Brick|Parses MSVC structures to improve analysis|2019-07-12|helper|python2, python3|MIT |
