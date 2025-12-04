@@ -143,7 +143,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 224,
+      "stargazers_count": 223,
       "updated_at": "2025-07-01 15:21:37+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -220,7 +220,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 9,
+      "stargazers_count": 10,
       "updated_at": "2025-01-02 22:43:57+00:00"
     },
     "projectUrl": "https://github.com/CouleeApps/bn_inspectors",
@@ -1264,7 +1264,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 81,
+      "stargazers_count": 82,
       "updated_at": "2025-04-10 17:22:49+00:00"
     },
     "projectUrl": "https://github.com/x64dbg/x64dbgbinja",
@@ -1878,7 +1878,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 668,
+      "stargazers_count": 667,
       "updated_at": "2025-10-31 16:42:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -1992,7 +1992,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 733,
+      "stargazers_count": 732,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2301,7 +2301,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 858,
+      "stargazers_count": 857,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2339,7 +2339,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 102,
+      "stargazers_count": 103,
       "updated_at": "2025-02-15 00:29:08+00:00"
     },
     "projectUrl": "https://github.com/seeinglogic/ariadne",
@@ -2494,7 +2494,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 544,
+      "stargazers_count": 545,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -2841,7 +2841,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 82,
+      "stargazers_count": 81,
       "updated_at": "2022-02-19 06:57:49+00:00"
     },
     "projectUrl": "https://github.com/EliseZeroTwo/SEH-Helper",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2255,
+      "stargazers_count": 2254,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3533,7 +3533,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 31,
+      "stargazers_count": 30,
       "updated_at": "2021-04-10 03:40:13+00:00"
     },
     "projectUrl": "https://github.com/yellowbyte/opaque-predicates-detective",
@@ -3647,7 +3647,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 645,
+      "stargazers_count": 644,
       "updated_at": "2025-03-14 02:16:09+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -5780,7 +5780,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 343,
+      "stargazers_count": 342,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -5858,7 +5858,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 18,
+      "stargazers_count": 17,
       "updated_at": "2020-09-21 21:52:49+00:00"
     },
     "projectUrl": "https://github.com/mauronz/binja-emotet",
@@ -6358,7 +6358,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 104,
+      "stargazers_count": 105,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6369,6 +6369,45 @@
       "helper"
     ],
     "version": "0.1.16",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3",
+      "rust"
+    ],
+    "author": "xorhex",
+    "dependencies": "",
+    "description": "BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1763967799,
+    "license": {
+      "name": "MIT",
+      "text": "MIT License\r\n\r\nCopyright (c) 2025 xorhex\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
+    },
+    "longdescription": "BinYars intergrates YARA-X with Binary Ninja. BinYars comes in two parts, the rust library which is used for the YARA-X scanning and a Python sidewidget which acts as a front end to the Rust component.  The Python sidewidget provides both an interactive scanning interface along with a rule editor. For the commerical and higher Binary Ninja editions, the Rust component also will re-organize the binaries in the project view based off of metadata set in the YARA-X rules.\n\n### Changelog\nInitial Release\r\n\r\nTargets the Stable Binary Ninja Version: 5.2\r\n\r\nDue  to included rust binaries, this release only supports:\r\n- Windows AMD64\r\n- Linux x64\r\n- Mac ARM64\r\n\r\nTo build the Rust component manually, see: https://github.com/xorhex/BinYars",
+    "minimumbinaryninjaversion": 8614,
+    "name": "BinYars",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/58ac0d89-f0bc-4827-9fe6-482abe8626d1/platforms/2851/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/58ac0d89-f0bc-4827-9fe6-482abe8626d1/platforms/2851/download?notrack=1",
+    "path": "xorhex_BinYars_SideWidget",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2025-11-24 07:03:19+00:00"
+    },
+    "projectUrl": "https://github.com/xorhex/BinYars-SideWidget",
+    "subdir": "",
+    "type": [
+      "helper"
+    ],
+    "version": "v1.0.8614",
     "view_only": false
   },
   {
@@ -6437,7 +6476,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 124,
+      "stargazers_count": 126,
       "updated_at": "2025-09-23 19:54:00+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
@@ -6645,6 +6684,44 @@
       "helper"
     ],
     "version": "1.0",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
+    "author": "Vector 35 Inc",
+    "dependencies": "objgraph\n\n",
+    "description": "A debugging tool for Binary Ninja plugin developers to detect and diagnose memory leaks related to BinaryView objects.",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1762895873,
+    "license": {
+      "name": "Apache-2.0",
+      "text": "Copyright 2025 Vector 35 Inc.\r\n\r\nLicensed under the Apache License, Version 2.0 (the \"License\");\r\nyou may not use this file except in compliance with the License.\r\nYou may obtain a copy of the License at\r\n\r\nhttp://www.apache.org/licenses/LICENSE-2.0\r\n\r\nUnless required by applicable law or agreed to in writing, software\r\ndistributed under the License is distributed on an \"AS IS\" BASIS,\r\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\nSee the License for the specific language governing permissions and\r\nlimitations under the License."
+    },
+    "longdescription": "# Binary Ninja Leak Audit Plugin\r\nThis is a 99% vibe coded plugin created by Peter and ChatGPT 5.\r\n\r\n_A Binary Ninja plugin to audit and visualize leaked BinaryView references in memory._\r\n\r\n## Description:\r\n\r\nA debugging tool for Binary Ninja plugin developers to detect and diagnose memory leaks related to BinaryView objects. The plugin helps identify Python references that prevent BinaryView instances from being garbage collected, which can lead to memory leaks.\r\n\r\n### Features:\r\n\r\n- **List Live BinaryViews**: Display all BinaryView objects currently in memory with reference counts\r\n- **Inspect References**: Drill down into the reference chain for any BinaryView to identify what's holding it in memory\r\n- **Visual Graphs**: Generate reference graphs using objgraph to visualize the complete backref chain\r\n- **Noise Filtering**: Automatically filters out console, interpreter, and traceback references to focus on real leaks\r\n\r\nThe plugin adds a \"Leak Audit\" menu under Tools with three commands:\r\n- **List Live BinaryViews**: Shows all BinaryView instances with refcount and interesting referrer counts\r\n- **Inspect BV by Index...**: Displays a filtered reference tree for a specific BinaryView\r\n- **Backrefs Graphs for All (objgraph)**: Generates visual reference graphs for all BinaryViews and displays them in an HTML report\r\n\r\n### Results\r\n\r\n![image](bv_backrefs.png)\r\n\r\n### Use Cases:\r\n\r\n- Debugging plugin memory leaks\r\n- Understanding why BinaryViews aren't being released after closing files\r\n- Identifying circular references or cached objects holding BinaryView references\r\n- Educational tool for understanding Python garbage collection in Binary Ninja\r\n\r\n\r\n## Required Dependencies\r\n\r\nThe following dependencies are required for this plugin:\r\n\r\n**Core functionality**: No external dependencies\r\n\r\n**Graph visualization (optional)**: \r\n- `objgraph` - Install via: `pip install objgraph`\r\n- `graphviz` - Install via system package manager (e.g., `brew install graphviz`, `apt install graphviz`, or download from [graphviz.org](https://graphviz.org/download/))\r\n\r\nThe graph visualization feature will be disabled if these dependencies are not available, but all other functionality will work normally.\r\n\r\n## Usage\r\n\r\n1. Open Binary Ninja and load any binary. Do things that cause the leak to occur.\r\n2. Go to **Command Palette \u2192 Leak Audit**\r\n3. Choose one of the available commands:\r\n   - Start with **List Live BinaryViews** to see what's in memory\r\n   - Use **Inspect BV by Index...** to investigate a specific BinaryView's references\r\n   - Use **Backrefs Graphs for All** to generate visual diagrams (requires objgraph)\r\n\r\n### Configuration\r\n\r\nEdit the constants at the top of `leak_audit.py` to customize behavior:\r\n\r\n```python\r\nDEFAULT_MAX_DEPTH = 3           # How deep to traverse reference chains\r\nDEFAULT_PER_NODE_LIMIT = 20     # Max referrers to show per object\r\nSHOW_REFCOUNTS = True           # Display sys.getrefcount() values\r\n```\r\n\r\n## Tips\r\n\r\n- The plugin filters out console and interpreter references to reduce noise\r\n- Run garbage collection is automatic, but you can force it via the Python console: `import gc; gc.collect()`\r\n\r\n## License\r\n\r\nThis plugin is released under an MIT license.\r\n\r\n## Metadata Version\r\n\r\n2\n\n### Changelog\n**Full Changelog**: https://github.com/Vector35/Leak-Audit/commits/1.0.0",
+    "minimumbinaryninjaversion": 3164,
+    "name": "Leak Audit",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/fd44e89a-89ac-4e07-b11d-2068af1f0870/versions/4432e65a-b721-45dc-9e6b-14a18c92ebc5/platforms/2803/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/fd44e89a-89ac-4e07-b11d-2068af1f0870/versions/4432e65a-b721-45dc-9e6b-14a18c92ebc5/platforms/2803/download?notrack=1",
+    "path": "Vector35_LeakAudit",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2025-11-11 21:17:53+00:00"
+    },
+    "projectUrl": "https://github.com/Vector35/Leak-Audit",
+    "subdir": "",
+    "type": [
+      "helper"
+    ],
+    "version": "1.0.0",
     "view_only": false
   },
   {
@@ -6908,7 +6985,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 228,
+      "stargazers_count": 229,
       "updated_at": "2025-10-11 13:21:50+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
