@@ -21,7 +21,7 @@
 | [Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|fosdick.io|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-09-23|architecture, binaryview, core, helper|python3|GPL-3.0 |
 | [Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|Austin Haggard|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
-| [Binary Ninja Wrapped](https://github.com/psifertex/bnwrap)|Jordan Wiens|Shows statistics about your Binary Ninja usage. Also includes a 'Time Wasted Debugging' timer widget for the status bar (disabled by default, enable in settings).|2025-04-03|ui|python3|MIT |
+| [Binary Ninja Wrapped](https://github.com/psifertex/bnwrap)|Jordan Wiens|Shows statistics about your Binary Ninja usage. Also includes a 'Time Wasted Debugging' timer widget for the status bar (disabled by default, enable in settings).|2025-12-05|ui|python3|MIT |
 | [Binja IPython console](https://github.com/skr0x1c0/ipybinja)|skr0x1c0|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|python3|MIT |
 | [Binja Missing Link](https://github.com/FFRI/binja-missinglink)|Koh M. Nakagawa|Binary Ninja plugin that fills missing indirect branch information|2025-10-20|core, helper|python3|Apache version 2.0 |
 | [Binja Snapshot Manager](https://github.com/d0mnik/binja_snapshot_manager)|d0minik|Binary Ninja plugin to take and manage database snapshots|2024-10-30|helper|python3|AGPL-3.0 |
