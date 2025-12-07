@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 998,
+      "stargazers_count": 999,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -2301,7 +2301,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 857,
+      "stargazers_count": 858,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2457,
+      "stargazers_count": 2461,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -6070,16 +6070,16 @@
     "description": "Shows statistics about your Binary Ninja usage. Also includes a 'Time Wasted Debugging' timer widget for the status bar (disabled by default, enable in settings).",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1764911038,
+    "lastUpdated": 1765086455,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2025 Jordan Wiens\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# Binary Ninja Wrapped (v1.2)\n\nA fun \"Spotify Wrapped\" style visualization tool for your Binary Ninja usage.\n\n![Binary Ninja Wrapped Screenshot](./wrapped.png)\n\n## Overview\n\nBinary Ninja Wrapped provides a stylish visualization of your reverse engineering habits in Binary Ninja. Inspired by Spotify's annual \"Wrapped\" feature, it analyzes your recently opened files and generates personalized stats and charts about:\n\n- File format distribution (PE, ELF, Mach-O, etc.)\n- CPU architecture preferences\n- Binary size statistics\n- Static vs. dynamic linking patterns\n\nEach chart comes with personalized, sometimes humorous commentary on your binary analysis habits.\n\n## Frequently Asked Questions\n\n**Q: Is this a joke?**\n\n**A:** Well, yes. I mean, it's intended to be a non-serious, funny plugin.\n\n**Q: So it doesn't actually work?**\n\n**A:** Oh no, it's very much a real plugin that will really do what it says and involves several thousand lines of vibe coding.\n\n**Q: But why was it released on April 1 if it's a prank?**\n\n**A:** You got the part where it was supposed to be non-serious and funny, right?\n\n## Features\n\n- **Interactive UI**: Browse different stats through an intuitive tabbed interface\n- **Dynamic Visualizations**: Colorful charts and graphs display your binary analysis patterns\n- **Personalized Quotes**: Each section features unique, context-aware commentary\n- **Exportable Results**: Save a beautiful collage of all your charts in a grid layout\n\n## Installation\n\n1. Install via the Plugin Manager! \n1. Alternatively, clone this repository into your Binary Ninja plugins directory:\n   ```\n   cd ~/.binaryninja/plugins/                       # Linux\n   cd ~/Library/Application\\ Support/Binary\\ Ninja/ # macOS\n   cd %APPDATA%\\Binary Ninja\\plugins                # Windows\n   git clone https://github.com/vector35/bnwrap.git\n   ```\n\n1. Restart Binary Ninja.\n\n## Usage\n\n1. Open Binary Ninja\n2. Go to the **Plugins** menu\n3. Select **Binja Wrapped**\n4. Browse through the tabs to explore different aspects of your binary analysis habits\n5. Use the **Export Combined Image** button to save a shareable collage\n\n## Example\n\n![example image](./example.png)\n\n## Requirements\n\n- Binary Ninja (recent version)\n- PySide6 (included with Binary Ninja)\n\n## Contributing\n\nContributions are welcome! Feel free to submit pull requests or open issues for bugs or feature requests.\n\n## License\n\nThis project is released under the MIT License. See the LICENSE file for details.\n\n\n### Changelog\nspruced up for 2025",
+    "longdescription": "# Binary Ninja Wrapped (v1.3.1)\r\n\r\nA fun \"Spotify Wrapped\" style visualization tool for your Binary Ninja usage.\r\n\r\n![Binary Ninja Wrapped Screenshot](./wrapped.png)\r\n\r\n## Overview\r\n\r\nBinary Ninja Wrapped provides a stylish visualization of your reverse engineering habits in Binary Ninja. Inspired by Spotify's annual \"Wrapped\" feature, it analyzes your recently opened files and generates personalized stats and charts about:\r\n\r\n- File format distribution (PE, ELF, Mach-O, etc.)\r\n- CPU architecture preferences\r\n- Binary size statistics\r\n- Static vs. dynamic linking patterns\r\n\r\nEach chart comes with personalized, sometimes humorous commentary on your binary analysis habits.\r\n\r\n## Frequently Asked Questions\r\n\r\n**Q: Is this a joke?**\r\n\r\n**A:** Well, yes. I mean, it's intended to be a non-serious, funny plugin.\r\n\r\n**Q: So it doesn't actually work?**\r\n\r\n**A:** Oh no, it's very much a real plugin that will really do what it says and involves several thousand lines of vibe coding.\r\n\r\n**Q: But why was it released on April 1 if it's a prank?**\r\n\r\n**A:** You got the part where it was supposed to be non-serious and funny, right?\r\n\r\n## Features\r\n\r\n- **Interactive UI**: Browse different stats through an intuitive tabbed interface\r\n- **Dynamic Visualizations**: Colorful charts and graphs display your binary analysis patterns\r\n- **Personalized Quotes**: Each section features unique, context-aware commentary\r\n- **Exportable Results**: Save a beautiful collage of all your charts in a grid layout\r\n\r\n## Installation\r\n\r\n1. Install via the Plugin Manager! \r\n1. Alternatively, clone this repository into your Binary Ninja plugins directory:\r\n   ```\r\n   cd ~/.binaryninja/plugins/                       # Linux\r\n   cd ~/Library/Application\\ Support/Binary\\ Ninja/ # macOS\r\n   cd %APPDATA%\\Binary Ninja\\plugins                # Windows\r\n   git clone https://github.com/vector35/bnwrap.git\r\n   ```\r\n\r\n1. Restart Binary Ninja.\r\n\r\n## Usage\r\n\r\n1. Open Binary Ninja\r\n2. Go to the **Plugins** menu\r\n3. Select **Binja Wrapped**\r\n4. Browse through the tabs to explore different aspects of your binary analysis habits\r\n5. Use the **Export Combined Image** button to save a shareable collage\r\n\r\n## Example\r\n\r\n![example image](./example.png)\r\n\r\n## Requirements\r\n\r\n- Binary Ninja (recent version)\r\n- PySide6 (included with Binary Ninja)\r\n\r\n## Development\r\n\r\n### Running Tests\r\n\r\nThe plugin includes a comprehensive test suite to ensure cross-platform compatibility and functionality.\r\n\r\n**Install test dependencies:**\r\n```bash\r\npip install -r tests/requirements.txt\r\n```\r\n\r\n**Run all tests:**\r\n```bash\r\nBNWRAP_TESTING=1 python -m pytest tests/ -v\r\n```\r\n\r\n**Run specific test file:**\r\n```bash\r\nBNWRAP_TESTING=1 python -m pytest tests/test_utils.py -v\r\n```\r\n\r\nThe `BNWRAP_TESTING` environment variable prevents Binary Ninja UI initialization, allowing tests to run without the full Binary Ninja installation.\r\n\r\n## Contributing\r\n\r\nContributions are welcome! Feel free to submit pull requests or open issues for bugs or feature requests.\r\n\r\n## License\r\n\r\nThis project is released under the MIT License. See the LICENSE file for details.\n\n### Changelog\nsmall stats graph tweak",
     "minimumbinaryninjaversion": 6666,
     "name": "Binary Ninja Wrapped",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ea873fa9-b9e2-4efc-965b-d0dfbcad4b53/versions/078ffd5b-deca-4103-9502-afdb7f3793c5/platforms/2869/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ea873fa9-b9e2-4efc-965b-d0dfbcad4b53/versions/078ffd5b-deca-4103-9502-afdb7f3793c5/platforms/2869/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ea873fa9-b9e2-4efc-965b-d0dfbcad4b53/versions/a988dad2-8e4e-4ea6-840f-69fb427c259e/platforms/2887/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ea873fa9-b9e2-4efc-965b-d0dfbcad4b53/versions/a988dad2-8e4e-4ea6-840f-69fb427c259e/platforms/2887/download?notrack=1",
     "path": "psifertex_bnwrap",
     "platforms": [
       "Darwin",
@@ -6088,15 +6088,15 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
-      "updated_at": "2025-12-05 05:03:58+00:00"
+      "stargazers_count": 5,
+      "updated_at": "2025-12-07 05:47:35+00:00"
     },
     "projectUrl": "https://github.com/psifertex/bnwrap",
     "subdir": "",
     "type": [
       "ui"
     ],
-    "version": "1.2",
+    "version": "1.3.1",
     "view_only": false
   },
   {
@@ -6126,7 +6126,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 28,
+      "stargazers_count": 29,
       "updated_at": "2025-05-11 07:32:17+00:00"
     },
     "projectUrl": "https://github.com/MCPPhalanx/binaryninja-mcp",
@@ -6241,7 +6241,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 5,
+      "stargazers_count": 4,
       "updated_at": "2025-08-29 16:29:28+00:00"
     },
     "projectUrl": "https://github.com/unknowntrojan/binja_cooltypeoxidizer",
@@ -6476,7 +6476,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 126,
+      "stargazers_count": 128,
       "updated_at": "2025-09-23 19:54:00+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
@@ -6674,7 +6674,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 24,
       "updated_at": "2025-12-04 18:35:23+00:00"
     },
     "projectUrl": "https://github.com/jonpalmisc/ibis",
