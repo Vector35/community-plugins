@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 475,
+      "stargazers_count": 476,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -661,20 +661,20 @@
       "python3"
     ],
     "author": "Jason Tang",
-    "dependencies": "openai\nanthropic\npysqlite3\nmarkdown\nhttpx\nwhoosh\nmcp",
+    "dependencies": "openai\nanthropic\npysqlite3\nmarkdown\nhttpx\nmcp\n",
     "description": "A plugin that provides LLM helpers to explain code and assist in RE.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1760284065,
+    "lastUpdated": 1765202189,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024 Jason Tang\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# BinAssist\nAuthor: **Jason Tang**\n\n_A comprehensive LLM-powered Binary Ninja plugin for intelligent binary analysis and reverse engineering._\n\n## Description\n\nBinAssist is an advanced LLM plugin designed to enhance binary analysis and reverse engineering workflows through intelligent automation. It leverages local and remote LLM capabilities to provide context-aware assistance throughout the binary analysis process. It supports fully agentic reverse engineering through its MCP client and MCP servers like [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)\n\nThe plugin supports any OpenAI v1-compatible or Anthropic API, making it compatible with popular LLM providers including Ollama, LM Studio, Open-WebUI, OpenAI, and others. Recommended models include Claude Sonnet, GPT-OSS, DeepSeek and LLaMA-based coder models for optimal performance.\n\n## Core Features\n\n### Explain Tab\n- **Function Analysis**: Comprehensive analysis of functions at all IL levels (LLIL, MLIL, HLIL)\n- **Instruction Analysis**: Detailed explanations of individual instructions and their purpose\n- **Context-Aware**: Stores responses at a function level, allowing you to easily keep track\n- **Edit Responses**: Tweak the response as needed and save it for later\n\n### Query Tab \n- **Interactive LLM Chat**: Direct conversation interface with the LLM\n- **Agentic Assistant**: Multi-step autonomous analysis using agent frameworks via MCP\n- **Binary Context**: Automatically includes relevant binary information in queries\n- **Flexible Prompting**: Support for custom queries and analysis requests\n- **Streaming Responses**: Real-time response generation with cancellation support\n\n### Actions Tab\n- **Intelligent Suggestions**: LLM-powered recommendations for improving binary analysis\n- **Four Action Types**:\n  - **Rename Function**: Suggest semantically meaningful function names\n  - **Rename Variable**: Propose descriptive variable names based on usage\n  - **Retype Variable**: Recommend appropriate data types for variables\n  - **Auto Create Struct**: Generate structure definitions from data patterns\n- **Confidence Scoring**: Each suggestion includes confidence metrics (0.0-1.0)\n- **Selective Application**: Choose which suggestions to apply via interactive UI\n- **Status Tracking**: Real-time feedback on action application success/failure\n- **Tool-Based Architecture**: Uses native LLM tool calling for precise suggestions\n\n### Advanced Capabilities\n- **Function Calling**: LLM can directly interact with Binary Ninja API to navigate and modify analysis\n- **MCP Integration**: Model Context Protocol support for extensible tool integration  \n- **RLHF Dataset Generation**: Collect interaction data to enable model fine-tuning\n- **RAG Augmentation**: Enhance queries with relevant documentation and context\n- **Async Processing**: Non-blocking UI with background LLM processing\n- **Streaming Support**: Real-time response generation with proper cancellation\n\n### Configuration & Settings\n- **Flexible API Configuration**: Support for multiple LLM providers and endpoints\n- **Model Selection**: Choose from available models for different analysis tasks\n- **Token Limits**: Configurable maximum tokens for cost and performance optimization\n- **Database Management**: Built-in RLHF and RAG database configuration\n- **Thread Safety**: Proper async handling for Binary Ninja's threading requirements\n\n## Future Roadmap\n\n### Planned Features\n- **Model Fine-tuning**: Leverage collected RLHF data for specialized model training\n- **Advanced RAG**: Enhanced document retrieval and code understanding with Graph-RAG\n- **Collaborative Features**: Share analysis insights and suggestions across teams\n\n### Research Areas\n- **Domain-Specific Models**: Fine-tuned models for specific binary types\n- **Code Generation**: Automated exploit development and patching suggestions\n- **Vulnerability Detection**: AI-powered security analysis and reporting\n- **Performance Optimization**: Enhanced suggestion accuracy and speed\n\n## Quick Start Guide\n\n### 1. Installation\n```bash\n# Install dependencies from the plugin directory\npip install -r requirements.txt\n```\n\n### 2. Configuration\n1. Open **Settings \u2192 BinAssist** in Binary Ninja\n2. Configure your LLM provider:\n   - **API Host**: Point to your preferred API endpoint (e.g., `http://localhost:11434` for Ollama)\n   - **API Key**: Set authentication key if required\n   - **Model**: Choose your preferred model (e.g., `gpt-oss:20b`)\n3. Set database paths for RLHF and RAG features\n4. Adjust token limits based on your needs\n\n### 3. Usage\n1. Load a binary in Binary Ninja\n2. Click the **\ud83e\udd16 robot icon** in the sidebar to open BinAssist\n3. Navigate between tabs based on your analysis needs:\n   - **Explain**: Analyze functions and instructions\n   - **Query**: Interactive chat with the LLM  \n   - **Actions**: Get intelligent improvement suggestions\n\n### 4. Workflow Examples\n\n**Function Analysis:**\n1. Navigate to a function in Binary Ninja\n2. Switch to the **Explain** tab\n3. Click **\"Explain Function\"** for comprehensive analysis\n\n**Getting Suggestions:**  \n1. Go to the **Actions** tab\n2. Select desired action types (Rename Function, etc.)\n3. Click **\"Analyse\"** to get LLM-powered suggestions\n4. Review confidence scores and apply selected actions\n\n**Interactive Queries:**\n1. Use the **Query** tab for free-form questions\n2. Ask about specific functions, algorithms, or analysis techniques\n3. The LLM has full context of your current binary\n\n## Screenshot\n![Screenshot](https://raw.githubusercontent.com/jtang613/BinAssist/refs/heads/master/res/screenshot1.png)\n![Screenshots](/res/screenshots.gif)\n\n## Homepage\nhttps://github.com/jtang613/BinAssist\n\n\n## Technical Architecture\n\n### Design Patterns\n- **Model-View-Controller (MVC)**: Clean separation of concerns across all tabs\n- **Service-Oriented Architecture**: Modular services for different analysis tasks  \n- **Observer Pattern**: Qt signal-slot communication for responsive UI\n- **Async/Await**: Non-blocking operations with proper thread management\n\n### Key Components\n\n**Controllers:**\n- `ExplainController`: Manages function and instruction analysis\n- `QueryController`: Handles interactive LLM conversations\n- `ActionsController`: Coordinates intelligent suggestion generation\n\n**Services:**\n- `BinaryContextService`: Extracts and formats binary information\n- `ActionsService`: Validates and applies code improvements\n- `RLHFService`: Manages training data collection\n- `RAGService`: Handles document retrieval and context enhancement\n\n**Threading:**\n- `ExplainLLMThread`: Background processing for explanations\n- `QueryLLMThread`: Async chat processing with streaming\n- `ActionsLLMThread`: LLM tool calling for suggestion generation\n\n**Tools & Integration:**\n- **MCP Tools**: Native LLM tool calling for precise actions\n- **Binary Ninja API**: Direct integration with analysis engine\n- **OpenAI Compatibility**: Works with any OpenAI v1-compatible endpoint\n\n## Installation & Compatibility\n\n### System Requirements\n- **Binary Ninja**: Version 4000 or higher\n- **Python**: 3.8+ with Binary Ninja's Python environment\n- **Memory**: 4GB+ recommended for local LLM usage\n- **Storage**: ~100MB for plugin + model-dependent storage\n\n### Platform Support\n\n**Linux** (Primary Development Platform)\n- Fully tested and supported\n- Recommended for production use\n\n**Windows** \n- Should work but less tested\n- Submit issues for Windows-specific problems\n\n**macOS**\n- Should work but less tested  \n- Submit issues for macOS-specific problems\n\n### LLM Provider Setup\n\n**Local LLMs (Recommended):**\n```bash\n# Ollama setup\ncurl -fsSL https://ollama.ai/install.sh | sh\nollama pull llama3.1:8b\nollama serve  # Runs on http://localhost:11434\n```\n\n**Other Compatible Providers:**\n- **LM Studio**: Desktop GUI for local models\n- **Ollama**: Advanced local LLM interface CLI\n- **Open-WebUI**: Advanced local LLM interface GUI\n- **OpenAI API**: Cloud-based (requires API key)\n- **Anthropic API**: Cloud-based (requires API key)\n- **OpenRouter**: Access to multiple models via API\n\n### Installation Steps\n\n1. **Install Dependencies**:\n   ```bash\n   cd /path/to/BinAssist2\n   pip install -r requirements.txt\n   ```\n\n2. **Configure Binary Ninja**:\n   - Install as a plugin in Binary Ninja's plugin directory\n   - Or run directly from development directory\n\n3. **Set up LLM Provider**:\n   - Configure your preferred provider (see LLM Provider Setup above)\n   - Update BinAssist settings with correct API endpoints\n\n## Dependencies\n\n**Required Python Packages:**\n```\nanthropic              # LLM API communication\nopenai                 # LLM API communication\npysqlite3              # Database operations\nmarkdown               # Documentation formatting  \nwhoosh                 # RAG document store\nmcp                    # MCP client\n```\n\n## Contributing\n\nWe welcome contributions! Please see our contributing guidelines:\n\n- **Bug Reports**: Submit detailed issues with reproduction steps\n- **Feature Requests**: Propose new functionality with clear use cases  \n- **Code Contributions**: Follow existing patterns\n\n## Support & Community\n\n- **GitHub Issues**: Primary support channel for bugs and features\n\n## License\n\nThis plugin is released under the **MIT License** - see LICENSE file for details.\n\n**Minimum Binary Ninja Version**: 4000\n\n**Metadata Version**: 2\n",
-    "minimumbinaryninjaversion": 4000,
+    "longdescription": "# BinAssist\nAuthor: **Jason Tang**\n\n_A comprehensive LLM-powered Binary Ninja plugin for intelligent binary analysis and reverse engineering._\n\n## Description\n\nBinAssist is an advanced LLM plugin designed to enhance binary analysis and reverse engineering workflows through intelligent automation. It leverages local and remote LLM capabilities to provide context-aware assistance throughout the binary analysis process. It supports fully agentic reverse engineering through its MCP client and MCP servers like [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)\n\nThe plugin supports any OpenAI v1-compatible or Anthropic API, making it compatible with popular LLM providers including Ollama, LM Studio, Open-WebUI, OpenAI, Anthropic, and others.\n\n**Recommended models:**\n- **With Reasoning Support**: Claude Sonnet 4+, OpenAI o1/o3/gpt-5, GPT-OSS (supports extended thinking for complex analysis)\n- **General Purpose**: DeepSeek, LLaMA-based coder models, Claude Sonnet 3.5, GPT-4\n\n## Core Features\n\n### Explain Tab\n- **Function Analysis**: Comprehensive analysis of functions at all IL levels (LLIL, MLIL, HLIL)\n- **Instruction Analysis**: Detailed explanations of individual instructions and their purpose\n- **Context-Aware**: Stores responses at a function level, allowing you to easily keep track\n- **Edit Responses**: Tweak the response as needed and save it for later\n\n### Query Tab\n- **Interactive LLM Chat**: Direct conversation interface with the LLM\n- **ReAct Agent**: Autonomous multi-step reasoning and analysis using the ReAct (Reasoning + Acting) framework\n  - Iterative problem-solving with reflection and self-correction\n  - Automatic tool selection and execution via MCP\n  - Step-by-step reasoning traces for transparency\n  - Up to 15 iterations with intelligent termination\n- **Extended Thinking**: Support for reasoning effort control on compatible models\n  - Configurable thinking depth (None, Low, Medium, High)\n  - Compatible with Claude Sonnet 4+, OpenAI o1/o3/gpt-5, and gpt-oss\n  - Increases analysis quality for complex reverse engineering tasks\n- **Binary Context**: Automatically includes relevant binary information in queries\n- **Flexible Prompting**: Support for custom queries and analysis requests\n- **Streaming Responses**: Real-time response generation with cancellation support\n\n### Actions Tab\n- **Intelligent Suggestions**: LLM-powered recommendations for improving binary analysis\n- **Four Action Types**:\n  - **Rename Function**: Suggest semantically meaningful function names\n  - **Rename Variable**: Propose descriptive variable names based on usage\n  - **Retype Variable**: Recommend appropriate data types for variables\n  - **Auto Create Struct**: Generate structure definitions from data patterns\n- **Confidence Scoring**: Each suggestion includes confidence metrics (0.0-1.0)\n- **Selective Application**: Choose which suggestions to apply via interactive UI\n- **Status Tracking**: Real-time feedback on action application success/failure\n- **Tool-Based Architecture**: Uses native LLM tool calling for precise suggestions\n\n### Advanced Capabilities\n- **ReAct Autonomous Agent**: Full implementation of the ReAct framework for multi-step analysis\n- **Extended Thinking/Reasoning Effort**: Provider-agnostic reasoning control for deeper analysis\n  - Anthropic: Extended thinking with configurable token budgets (2K-25K tokens)\n  - OpenAI: Reasoning effort levels for o1/o3/gpt-5 models\n  - Ollama: Native thinking parameter support for compatible models (gpt-oss)\n- **Function Calling**: LLM can directly interact with Binary Ninja API to navigate and modify analysis\n- **MCP Integration**: Model Context Protocol support for extensible tool integration\n- **RLHF Dataset Generation**: Collect interaction data to enable model fine-tuning\n- **RAG Augmentation**: Enhance queries with relevant documentation and context\n- **Async Processing**: Non-blocking UI with background LLM processing\n- **Streaming Support**: Real-time response generation with proper cancellation\n\n### Configuration & Settings\n- **Flexible API Configuration**: Support for multiple LLM providers and endpoints\n- **Model Selection**: Choose from available models for different analysis tasks\n- **Reasoning Effort Control**: Session-specific thinking depth configuration\n  - Adjustable per-query or globally in Settings tab\n  - Four levels: None (standard), Low (~2K tokens), Medium (~10K), High (~25K)\n  - Cost and latency warnings for higher levels\n- **Token Limits**: Configurable maximum tokens for cost and performance optimization\n- **Database Management**: Built-in RLHF and RAG database configuration\n- **Thread Safety**: Proper async handling for Binary Ninja's threading requirements\n\n## Future Roadmap\n\n### Planned Features\n- **Model Fine-tuning**: Leverage collected RLHF data for specialized model training\n- **Advanced RAG**: Enhanced document retrieval and code understanding with Graph-RAG\n- **Collaborative Features**: Share analysis insights and suggestions across teams\n\n### Research Areas\n- **Domain-Specific Models**: Fine-tuned models for specific binary types\n- **Code Generation**: Automated exploit development and patching suggestions\n- **Vulnerability Detection**: AI-powered security analysis and reporting\n- **Performance Optimization**: Enhanced suggestion accuracy and speed\n\n## Quick Start Guide\n\n### 1. Installation\n```bash\n# Install dependencies from the plugin directory\npip install -r requirements.txt\n```\n\n### 2. Configuration\n1. Open **Settings \u2192 BinAssist** in Binary Ninja\n2. Configure your LLM provider:\n   - **API Host**: Point to your preferred API endpoint (e.g., `http://localhost:11434` for Ollama)\n   - **API Key**: Set authentication key if required\n   - **Model**: Choose your preferred model (e.g., `gpt-oss:20b`, `claude-sonnet-4-5`, `o1-preview`)\n3. Set database paths for RLHF and RAG features\n4. Adjust token limits based on your needs\n5. Configure **Reasoning Effort** in the Settings tab for models that support extended thinking\n\n### 3. Usage\n1. Load a binary in Binary Ninja\n2. Click the **\ud83e\udd16 robot icon** in the sidebar to open BinAssist\n3. Navigate between tabs based on your analysis needs:\n   - **Explain**: Analyze functions and instructions\n   - **Query**: Interactive chat with the LLM  \n   - **Actions**: Get intelligent improvement suggestions\n\n### 4. Workflow Examples\n\n**Function Analysis:**\n1. Navigate to a function in Binary Ninja\n2. Switch to the **Explain** tab\n3. Click **\"Explain Function\"** for comprehensive analysis\n\n**Getting Suggestions:**  \n1. Go to the **Actions** tab\n2. Select desired action types (Rename Function, etc.)\n3. Click **\"Analyse\"** to get LLM-powered suggestions\n4. Review confidence scores and apply selected actions\n\n**Interactive Queries:**\n1. Use the **Query** tab for free-form questions\n2. Ask about specific functions, algorithms, or analysis techniques\n3. The LLM has full context of your current binary\n\n**Agentic Analysis (ReAct):**\n1. Enable **Agentic** mode in the Query tab\n2. Enable **MCP** to provide tools for autonomous exploration\n3. Ask complex questions like \"What does this binary do?\" or \"Find security vulnerabilities\"\n4. Watch as the agent autonomously:\n   - Decompiles and analyzes functions\n   - Follows cross-references\n   - Builds understanding through iterative reasoning\n   - Provides comprehensive analysis with step-by-step traces\n\n## Screenshot\n![Screenshot](https://raw.githubusercontent.com/jtang613/BinAssist/refs/heads/master/res/screenshot1.png)\n![Screenshots](/res/screenshots.gif)\n\n## Homepage\nhttps://github.com/jtang613/BinAssist\n\n\n## Technical Architecture\n\n### Design Patterns\n- **Model-View-Controller (MVC)**: Clean separation of concerns across all tabs\n- **Service-Oriented Architecture**: Modular services for different analysis tasks  \n- **Observer Pattern**: Qt signal-slot communication for responsive UI\n- **Async/Await**: Non-blocking operations with proper thread management\n\n### Key Components\n\n**Controllers:**\n- `ExplainController`: Manages function and instruction analysis\n- `QueryController`: Handles interactive LLM conversations\n- `ActionsController`: Coordinates intelligent suggestion generation\n\n**Services:**\n- `BinaryContextService`: Extracts and formats binary information\n- `ActionsService`: Validates and applies code improvements\n- `RLHFService`: Manages training data collection\n- `RAGService`: Handles document retrieval and context enhancement\n\n**Threading:**\n- `ExplainLLMThread`: Background processing for explanations\n- `QueryLLMThread`: Async chat processing with streaming\n- `ActionsLLMThread`: LLM tool calling for suggestion generation\n- `ReActOrchestratorThread`: Autonomous multi-step agent execution\n\n**Tools & Integration:**\n- **MCP Tools**: Native LLM tool calling for precise actions\n- **Binary Ninja API**: Direct integration with analysis engine\n- **OpenAI Compatibility**: Works with any OpenAI v1-compatible endpoint\n\n## Installation & Compatibility\n\n### System Requirements\n- **Binary Ninja**: Version 4000 or higher\n- **Python**: 3.8+ with Binary Ninja's Python environment\n- **Memory**: 4GB+ recommended for local LLM usage\n- **Storage**: ~100MB for plugin + model-dependent storage\n\n### Platform Support\n\n**Linux** (Primary Development Platform)\n- Fully tested and supported\n- Recommended for production use\n\n**Windows** \n- Should work but less tested\n- Submit issues for Windows-specific problems\n\n**macOS**\n- Should work but less tested  \n- Submit issues for macOS-specific problems\n\n### LLM Provider Setup\n\n**Local LLMs (Recommended):**\n```bash\n# Ollama setup\ncurl -fsSL https://ollama.ai/install.sh | sh\n\n# Pull a general-purpose model\nollama pull llama3.1:8b\n\n# Or pull a reasoning model (recommended for complex analysis)\nollama pull gpt-oss:20b\n\nollama serve  # Runs on http://localhost:11434\n```\n\n**Other Compatible Providers:**\n- **LM Studio**: Desktop GUI for local models\n- **Ollama**: Advanced local LLM interface CLI\n- **Open-WebUI**: Advanced local LLM interface GUI\n- **OpenAI API**: Cloud-based (requires API key)\n- **Anthropic API**: Cloud-based (requires API key)\n- **OpenRouter**: Access to multiple models via API\n\n### Installation Steps\n\n1. **Install Dependencies**:\n   ```bash\n   cd /path/to/BinAssist2\n   pip install -r requirements.txt\n   ```\n\n2. **Configure Binary Ninja**:\n   - Install as a plugin in Binary Ninja's plugin directory\n   - Or run directly from development directory\n\n3. **Set up LLM Provider**:\n   - Configure your preferred provider (see LLM Provider Setup above)\n   - Update BinAssist settings with correct API endpoints\n\n## Dependencies\n\n**Required Python Packages:**\n```\nanthropic              # LLM API communication\nopenai                 # LLM API communication\npysqlite3              # Database operations\nmarkdown               # Documentation formatting  \nwhoosh                 # RAG document store\nmcp                    # MCP client\n```\n\n## Contributing\n\nWe welcome contributions! Please see our contributing guidelines:\n\n- **Bug Reports**: Submit detailed issues with reproduction steps\n- **Feature Requests**: Propose new functionality with clear use cases  \n- **Code Contributions**: Follow existing patterns\n\n## Support & Community\n\n- **GitHub Issues**: Primary support channel for bugs and features\n\n## License\n\nThis plugin is released under the **MIT License** - see LICENSE file for details.\n\n**Minimum Binary Ninja Version**: 5000\n\n**Metadata Version**: 2\n",
+    "minimumbinaryninjaversion": 5000,
     "name": "BinAssist",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/8c0541b5-a8c5-400b-8e1c-3ead7368c9b5/platforms/2731/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/8c0541b5-a8c5-400b-8e1c-3ead7368c9b5/platforms/2731/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/ef676f1e-0ba5-48c9-a814-797ab4b4d1a4/platforms/2899/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/ef676f1e-0ba5-48c9-a814-797ab4b4d1a4/platforms/2899/download?notrack=1",
     "path": "jtang613_BinAssist",
     "platforms": [
       "Darwin",
@@ -684,7 +684,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 33,
-      "updated_at": "2025-10-12 15:47:45+00:00"
+      "updated_at": "2025-12-08 13:56:29+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
     "subdir": "",
@@ -692,7 +692,7 @@
       "helper",
       "ui"
     ],
-    "version": "0.2.5",
+    "version": "1.0.2",
     "view_only": false
   },
   {
@@ -955,7 +955,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 12,
+      "stargazers_count": 13,
       "updated_at": "2024-04-11 07:12:18+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/binja-win-docs",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 999,
+      "stargazers_count": 1000,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1264,7 +1264,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 82,
+      "stargazers_count": 83,
       "updated_at": "2025-04-10 17:22:49+00:00"
     },
     "projectUrl": "https://github.com/x64dbg/x64dbgbinja",
@@ -1341,7 +1341,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "updated_at": "2025-05-23 17:00:45+00:00"
     },
     "projectUrl": "https://github.com/psifertex/discordpresence",
@@ -1570,7 +1570,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 23,
+      "stargazers_count": 22,
       "updated_at": "2023-12-25 02:17:44+00:00"
     },
     "projectUrl": "https://github.com/cxiao/rust_string_slicer",
@@ -1878,7 +1878,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 667,
+      "stargazers_count": 666,
       "updated_at": "2025-10-31 16:42:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -1992,7 +1992,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 732,
+      "stargazers_count": 756,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2609,7 +2609,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 38,
+      "stargazers_count": 39,
       "updated_at": "2023-06-06 11:00:33+00:00"
     },
     "projectUrl": "https://github.com/CySHell/ClassyPP",
@@ -3494,7 +3494,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 89,
+      "stargazers_count": 90,
       "updated_at": "2023-04-28 15:38:05+00:00"
     },
     "projectUrl": "https://github.com/zznop/bn-uefi-helper",
@@ -5780,7 +5780,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 342,
+      "stargazers_count": 343,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -6088,7 +6088,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "updated_at": "2025-12-07 05:47:35+00:00"
     },
     "projectUrl": "https://github.com/psifertex/bnwrap",
@@ -6358,7 +6358,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 105,
+      "stargazers_count": 106,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6381,16 +6381,16 @@
     "description": "BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1763967799,
+    "lastUpdated": 1764917396,
     "license": {
       "name": "MIT",
       "text": "MIT License\r\n\r\nCopyright (c) 2025 xorhex\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
     },
-    "longdescription": "BinYars intergrates YARA-X with Binary Ninja. BinYars comes in two parts, the rust library which is used for the YARA-X scanning and a Python sidewidget which acts as a front end to the Rust component.  The Python sidewidget provides both an interactive scanning interface along with a rule editor. For the commerical and higher Binary Ninja editions, the Rust component also will re-organize the binaries in the project view based off of metadata set in the YARA-X rules.\n\n### Changelog\nInitial Release\r\n\r\nTargets the Stable Binary Ninja Version: 5.2\r\n\r\nDue  to included rust binaries, this release only supports:\r\n- Windows AMD64\r\n- Linux x64\r\n- Mac ARM64\r\n\r\nTo build the Rust component manually, see: https://github.com/xorhex/BinYars",
+    "longdescription": "BinYars intergrates YARA-X with Binary Ninja. BinYars comes in two parts, the rust library which is used for the YARA-X scanning and a Python sidewidget which acts as a front end to the Rust component.  The Python sidewidget provides both an interactive scanning interface along with a rule editor. For the commerical and higher Binary Ninja editions, the Rust component also will re-organize the binaries in the project view based off of metadata set in the YARA-X rules.\n\n### Changelog\nUpdates:\r\n- Fixed the installer (for copying the rust component to the expected directory and alerting the user to restart Binary Ninja)\r\n- Console log messages that don't start with `BN|` will now print to the console\r\n- When running a rule against a binary, it will alert the user to first create the bndb file prior to running (this does not affect running the rules against the binaries at the project level)\r\n\r\nTargets the Stable Binary Ninja Version: 5.2\r\n\r\nDue to included rust binaries, this release only supports:\r\n\r\n    Windows AMD64\r\n    Linux x64\r\n    Mac ARM64\r\n\r\nTo build the Rust component manually, see: https://github.com/xorhex/BinYars",
     "minimumbinaryninjaversion": 8614,
     "name": "BinYars",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/58ac0d89-f0bc-4827-9fe6-482abe8626d1/platforms/2851/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/58ac0d89-f0bc-4827-9fe6-482abe8626d1/platforms/2851/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/d5522627-ad58-4839-b935-64fcc1cf1f0a/platforms/2875/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/d5522627-ad58-4839-b935-64fcc1cf1f0a/platforms/2875/download?notrack=1",
     "path": "xorhex_BinYars_SideWidget",
     "platforms": [
       "Darwin",
@@ -6400,14 +6400,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 0,
-      "updated_at": "2025-11-24 07:03:19+00:00"
+      "updated_at": "2025-12-05 06:49:56+00:00"
     },
     "projectUrl": "https://github.com/xorhex/BinYars-SideWidget",
     "subdir": "",
     "type": [
       "helper"
     ],
-    "version": "v1.0.8614",
+    "version": "v1.1.8614",
     "view_only": false
   },
   {
@@ -6476,7 +6476,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 128,
+      "stargazers_count": 129,
       "updated_at": "2025-09-23 19:54:00+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
@@ -6656,16 +6656,16 @@
     "description": "Segment-accurate iBoot/SecureROM loader",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1764873323,
+    "lastUpdated": 1765038011,
     "license": {
       "name": "BSD 3-Clause",
       "text": "Copyright (c) 2025 Jon Palmisciano. All rights reserved.\r\n\r\nRedistribution and use in source and binary forms, with or without\r\nmodification, are permitted provided that the following conditions are met:\r\n\r\n  1. Redistributions of source code must retain the above copyright notice,\r\n     this list of conditions and the following disclaimer.\r\n\r\n  2. Redistributions in binary form must reproduce the above copyright\r\n     notice, this list of conditions and the following disclaimer in the\r\n     documentation and/or other materials provided with the distribution.\r\n\r\n  3. Neither the name of the copyright holder nor the names of its\r\n     contributors may be used to endorse or promote products derived from\r\n     this software without specific prior written permission.\r\n\r\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\r\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\r\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\r\nARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE\r\nLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\r\nCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF\r\nSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\r\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\r\nCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\r\nARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\r\nPOSSIBILITY OF SUCH DAMAGE."
     },
-    "longdescription": "# Ibis\n\nIbis is a Python library with accompanying disassembler plugins for analyzing\n64-bit iBoot-like firmware, e.g. SecureROM, iBoot, AVPBooter, etc.\n\nThe primary goal of Ibis is to provide **accurate memory layout information**\nfor a wide range of iBoot family binaries. Similar public projects map the\nentire binary as a big RWX blob, which negatively affects disassembler analysis.\n\n> [!WARNING]\n> Ibis should be treated as pre-release software. It has been tested against a\n> wide array of binaries, but may have subtle errors. Please file an issue if\n> you spot something wrong!\n\n## Features & Roadmap\n\nWhile Ibis' primary goal is to map segments correctly, some of the current and\nplanned features are detailed as follows:\n\n- [x] Automatic detection and mapping of `TEXT`, `CONST`, `DATA`, and `BSS`\n  segments with correct boundaries and permissions.\n- [x] Function prologue detection (helps prevent run-on functions when\n  disassemblers fail to identify `noreturn` functions).\n- [ ] Automatic known function identification via string reference heuristics.\n  (https://github.com/jonpalmisc/ibis/issues/2)\n- [ ] Automatic detection & marking of outlined functions.\n  (https://github.com/jonpalmisc/ibis/issues/4)\n- [ ] \ud83d\udd25\ud83c\udf38\u2049\ufe0f\n\nSee the [issues tab](https://github.com/jonpalmisc/ibis/issues) for a full list\nof planned features or known issues.\n\n## Installing\n\nThe Ibis plugins for Binary Ninja and IDA Pro are included in this repo and can\nbe installed with the included Makefile:\n\n```sh\n$ make install-binja\n$ make install-ida\n```\n\n> [!IMPORTANT]\n> The plugins expect that they have been installed via symlinks! This is done to\n> avoid having to install Ibis' Python package globally or configure your\n> disassembler to use a virtual environment. If you wish to install the plugins\n> manually, replicate what is done in the Makefile.\n\n## Troubleshooting\n\nIf a binary fails to load or the detected segments don't look quite right,\nplease file an issue! Ibis aims to provide widespread and accurate support for\niBoot-like binaries, so any analysis failures are considered a bug.\n\n## Contributing\n\nAny contributions that improve Ibis' analysis or support range are welcome! :)\n\n### Testing\n\nThe included integration tests reference a \"corpus\" and \"gauntlet\", which are\ncollections of binaries I've used whilst developing this plugin. For a variety\nof reasons (repo size, copyright issues, etc.) these are not included in the\nrepo. If you wish to contribute and run these tests, contact me and I can send\nyou the exact set I am using.\n\nIf you wish to assemble your own collection, `util/download.py` can be used to\ndownload iBoot images in bulk, and [securerom.fun](https://securerom.fun/) has a\npublic collection of SecureROM dumps.\n\n## License\n\nCopyright \u00a9 2025 Jon Palmisciano. All rights reserved.\n\nLicensed under the BSD 3-Clause license; the full terms of the license can be\nfound in [LICENSE.txt](LICENSE.txt).\n\n\n### Changelog\n- Fix README in Binary Ninja plugin manager, bump version",
+    "longdescription": "# Ibis\n\nIbis is a Python library with accompanying disassembler plugins for analyzing\n64-bit iBoot-like firmware, e.g. SecureROM, iBoot, AVPBooter, etc.\n\nThe primary goal of Ibis is to provide **accurate memory layout information**\nfor a wide range of iBoot family binaries. Similar public projects map the\nentire binary as a big RWX blob, which negatively affects disassembler analysis.\n\n> [!WARNING]\n> Ibis should be treated as pre-release software. It has been tested against a\n> wide array of binaries, but may have subtle errors. Please file an issue if\n> you spot something wrong!\n\n## Features & Roadmap\n\nWhile Ibis' primary goal is to map segments correctly, some of the current and\nplanned features are detailed as follows:\n\n- [x] Automatic detection and mapping of `TEXT`, `CONST`, `DATA`, and `BSS`\n  segments with correct boundaries and permissions.\n- [x] Function prologue detection (helps prevent run-on functions when\n  disassemblers fail to identify `noreturn` functions).\n- [ ] Automatic known function identification via string reference heuristics.\n  (https://github.com/jonpalmisc/ibis/issues/2)\n- [ ] Automatic detection & marking of outlined functions.\n  (https://github.com/jonpalmisc/ibis/issues/4)\n- [ ] \ud83d\udd25\ud83c\udf38\u2049\ufe0f\n\nSee the [issues tab](https://github.com/jonpalmisc/ibis/issues) for a full list\nof planned features or known issues.\n\n## Installing\n\nThe Ibis plugins for Binary Ninja and IDA Pro are included in this repo and can\nbe installed with the included Makefile:\n\n```sh\n$ make install-binja\n$ make install-ida\n```\n\n> [!IMPORTANT]\n> The plugins expect that they have been installed via symlinks! This is done to\n> avoid having to install Ibis' Python package globally or configure your\n> disassembler to use a virtual environment. If you wish to install the plugins\n> manually, replicate what is done in the Makefile.\n\n## Troubleshooting\n\nIf a binary fails to load or the detected segments don't look quite right,\nplease file an issue! Ibis aims to provide widespread and accurate support for\niBoot-like binaries, so any analysis failures are considered a bug.\n\n## Contributing\n\nAny contributions that improve Ibis' analysis or support range are welcome! :)\n\n### Testing\n\nThe included integration tests reference a \"corpus\" and \"gauntlet\", which are\ncollections of binaries I've used whilst developing this plugin. For a variety\nof reasons (repo size, copyright issues, etc.) these are not included in the\nrepo. If you wish to contribute and run these tests, contact me and I can send\nyou the exact set I am using.\n\nIf you wish to assemble your own collection, `util/download.py` can be used to\ndownload iBoot images in bulk, and [securerom.fun](https://securerom.fun/) has a\npublic collection of SecureROM dumps.\n\n## License\n\nCopyright \u00a9 2025 Jon Palmisciano. All rights reserved.\n\nLicensed under the BSD 3-Clause license; the full terms of the license can be\nfound in [LICENSE.txt](LICENSE.txt).\n\n\n### Changelog\n- Fix file offset reporting in IDA (#7, #14; thanks @hnri)\r\n- Auto-determine device page size to correctly-align segments (#15)\r\n- Fix various edge cases triggered by old iBoots",
     "minimumbinaryninjaversion": 3164,
     "name": "Ibis",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/934c36e7-dccd-4bec-8724-a852ece9b027/versions/8d816e94-6676-4896-b502-036acb4eac02/platforms/2863/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/934c36e7-dccd-4bec-8724-a852ece9b027/versions/8d816e94-6676-4896-b502-036acb4eac02/platforms/2863/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/934c36e7-dccd-4bec-8724-a852ece9b027/versions/3445697e-e8cd-44a6-b9df-8f523575c9c2/platforms/2881/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/934c36e7-dccd-4bec-8724-a852ece9b027/versions/3445697e-e8cd-44a6-b9df-8f523575c9c2/platforms/2881/download?notrack=1",
     "path": "jonpalmisc_Ibis",
     "platforms": [
       "Darwin",
@@ -6674,15 +6674,15 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 24,
-      "updated_at": "2025-12-04 18:35:23+00:00"
+      "stargazers_count": 26,
+      "updated_at": "2025-12-06 16:20:11+00:00"
     },
     "projectUrl": "https://github.com/jonpalmisc/ibis",
     "subdir": "plugin/binja",
     "type": [
       "binaryview"
     ],
-    "version": "1.2.4",
+    "version": "1.3.0",
     "view_only": false
   },
   {
