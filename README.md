@@ -15,9 +15,9 @@
 | [BNHook](https://github.com/jeffli678/bnhook)|Grant Orndorff|Insert custom hooks|2021-03-29|core, ui|python2, python3|MIT |
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
-| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2025-10-12|helper, ui|python3|MIT |
+| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2025-12-08|helper, ui|python3|MIT |
 | [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-10-31|sync|python3|BSD 2-clause |
-| [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2025-11-24|helper|python3, rust|MIT |
+| [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2025-12-05|helper|python3, rust|MIT |
 | [Binary Ninja MCP](https://github.com/fosdickio/binary_ninja_mcp)|fosdick.io|A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.|2025-09-23|architecture, binaryview, core, helper|python3|GPL-3.0 |
 | [Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|Austin Haggard|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
@@ -76,7 +76,7 @@
 | [Hyara](https://github.com/hyuunnn/Hyara)|Hyun Yi|YARA rule making tool for Binary Ninja, Cutter, and IDA|2023-11-13|ui|python2, python3|MIT |
 | [IDC Importer](https://github.com/Cryptogenic/idc_importer)|SpecterDev|Allows users to import idc database dumps from IDA into Binary Ninja.|2022-10-13|helper|python3|MIT |
 | [IFL](https://github.com/leandrofroes/bn_ifl)|Leandro Froes|A small plugin that provides an user-friendly way to navigate between functions and their references.|2024-07-09|helper, ui|python3|CC BY 3.0 |
-| [Ibis](https://github.com/jonpalmisc/ibis)|jonpalmisc|Segment-accurate iBoot/SecureROM loader|2025-12-04|binaryview|python3|BSD 3-Clause |
+| [Ibis](https://github.com/jonpalmisc/ibis)|jonpalmisc|Segment-accurate iBoot/SecureROM loader|2025-12-06|binaryview|python3|BSD 3-Clause |
 | [Improved Gameboy Architecture](https://github.com/samrussell/binja-gameboy)|Sam Russell (@samrussell)|A loader and diassembler for Game Boy ROMs.|2024-03-28|architecture, binaryview|python3|MIT |
 | [Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|Andrea Ferraris|Forward and backward instruction slicer|2020-11-25|helper|python2, python3|MIT |
 | [Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|whitequark|A plugin providing the 16-bit Intel architecture.|2019-09-04|arch|python2, python3|BSD-0-clause |
