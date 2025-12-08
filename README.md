@@ -45,7 +45,7 @@
 | [Delphi Mapper](https://github.com/CTM1/BinjaDelphiMapper)|Claudio Teixeira|A plugin that renames Delphi functions according to a .map file produced by IDR.|2024-01-11|binaryview|python2, python3|MIT |
 | [Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|ImNotAVirus|Find Delphi VMTs and generate their structures|2022-02-21|helper|python3|MIT |
 | [Dependency analyzer](https://github.com/shizmob/binja-depanalyzer)|Shiz|Analyze dependencies and resolve obfuscated imports|2020-05-25|helper|python2, python3|MIT |
-| [Dev Tools for Tantō](https://github.com/ElykDeer/tanto-devtools)|Elykdeer|Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tantō.|2025-03-13|helper, ui|python3|MIT |
+| [Dev Tools for Tantō](https://github.com/ElykDeer/tanto-devtools)|Elykdeer|Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tantō.|2025-12-08|helper, ui|python3|MIT |
 | [Discord Integration](https://github.com/psifertex/discordpresence)|psifertex|Enables Discord Rich Presence Integration for Binary Ninja|2025-05-23|helper|python3|MIT |
 | [Dyld Shared Cache Processor](https://github.com/0cyn/bn-dyldsharedcache)|cynder (kat)|Processing for Apple's dyld_shared_cache format.|2022-03-01|architecture, binaryview, core, helper, ui|python3|MIT |
 | [EFI Inspector](https://github.com/zznop/efi-inspector)|Brandon Miller|Binary Ninja plugin for inspecting UEFI firmware images|2024-02-28|helper|python3|MIT |
