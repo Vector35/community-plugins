@@ -15,7 +15,7 @@
 | [BNHook](https://github.com/jeffli678/bnhook)|Grant Orndorff|Insert custom hooks|2021-03-29|ui, core|python2, python3|MIT |
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
-| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2025-12-16|ui, helper|python3|MIT |
+| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2025-12-20|ui, helper|python3|MIT |
 | [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2025-12-11|binaryview, helper, ui|python3|MIT |
 | [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2025-10-31|sync|python3|BSD 2-clause |
 | [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2025-12-05|helper|python3, rust|MIT |
@@ -34,7 +34,7 @@
 | [Char Arrays](https://github.com/elbee-cyber/analyze_char_arrays)|elbee|Displays char arrays by analyzing their use in functions|2023-01-18|binaryview, helper|python3|MIT |
 | [ClassyPP](https://github.com/CySHell/ClassyPP)|CyShell|Parse and extract class information from MSVC x86 32\64 bit C++ binaries.|2023-06-06|binaryview|python3|MIT |
 | [Clean Tricks](https://github.com/janbbeck/CleanTricks)|Jan Beck|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|2020-06-08|architecture, binaryview, core, helper, ui|python3|MIT |
-| [Code Mode MCP Server](https://github.com/akrutsinger/binja-codemode-mcp)|Austyn Krutsinger|MCP server for LLM-assisted reverse engineering via code execution|2025-12-09|helper|python3|MIT |
+| [Code Mode MCP Server](https://github.com/akrutsinger/binja-codemode-mcp)|Austyn Krutsinger|MCP server for LLM-assisted reverse engineering via code execution|2025-12-19|helper|python3|MIT |
 | [Comments Viewer](https://github.com/matteyeux/comments-viewer)|matteyeux|Binary Ninja comments viewer|2022-05-27|ui|python3|MIT |
 | [CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|moval0x1|Show comments and symbols renamed during the analysis process.|2024-02-20|ui, binaryview|python3|MIT |
 | [CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|unknowntrojan|SigMaker style plugin|2025-03-01|helper|rust|AGPLv3 |
@@ -93,7 +93,7 @@
 | [MSVC](https://github.com/0x1F9F1/binja-msvc)|Brick|Parses MSVC structures to improve analysis|2019-07-12|helper|python2, python3|MIT |
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
-| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2025-12-03|ui, helper|python3|Apache-2.0 |
+| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2025-12-19|ui, helper|python3|Apache-2.0 |
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2025-05-21|binaryview, core, ui|python3|MIT |
 | [Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|Galen Williamson|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT |
 | [NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|Accenture (Martin Petran)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-01-22|architecture|C++|Apache-2.0 |
@@ -146,6 +146,7 @@
 | [XProtect Remediator Analyzer](https://github.com/FFRI/binja-xpr-analyzer)|Koh M. Nakagawa|XProtect Remediator Analyzer is a plugin analyzing XProtect Remediator binaries.|2025-10-20|core, helper|python3|Apache version 2.0 |
 | [Xtensa Architecture Support and ESP8266 Loader](https://github.com/nicabi/binja-xtensa2)|Nicolae Binica|Xtensa Architecture Support and ESP8266 Image Loader|2025-08-30|architecture, binaryview|python3|MIT |
 | [YARA Scan](https://github.com/trib0r3/binja-yara)|trib0r3|YARA signatures|2020-05-26|binaryview, core|python3|MIT |
+| [ar (.a) archive container transform](https://github.com/ArcaneNibble/binja-ar)|ArcaneNibble|Plugin for ar (.a) archives of object files|2025-12-21|binaryview|python3|BSD-0-clause |
 | [binja-doc-lookup](https://github.com/riskydissonance/binja-doc-lookup)|riskydissonance|Lookup documentation for the selected token|2024-06-20|ui, helper|python3|MIT |
 | [binja-ps3](https://github.com/valters-tomsons/bninja-ps3)|faith|Playstation 3 ELF loader|2024-11-28|binaryview|python3|MIT |
 | [binja-win-docs](https://github.com/matteyeux/binja-win-docs)|matteyeux|Binary Ninja plugin to display the documentation of a Windows function in a sidebar widget.|2024-04-11|ui, helper|python3|Apache-2.0 |
