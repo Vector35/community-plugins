@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 479,
+      "stargazers_count": 483,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -683,7 +683,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 39,
+      "stargazers_count": 42,
       "updated_at": "2025-12-20 18:50:01+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1012,
+      "stargazers_count": 1015,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1246,16 +1246,16 @@
     "description": "Official x64dbg plugin for Binary Ninja.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1744305769,
+    "lastUpdated": 1767407915,
     "license": {
       "name": "MIT",
       "text": "MIT License\n\nCopyright (c) 2025 x64dbg\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
     },
-    "longdescription": "# x64dbgbinja\n\nOfficial x64dbg plugin for [Binary Ninja](https://binary.ninja).\n\n## Installation\n\nFrom the Plugins Menu, select \"Manage Plugins\". Search for \"x64dbgbinja\" and click the \"Install\" button.\n\n## Menu options\n\n### Import database\n\nImport comments/labels from an uncompressed x64dbg JSON database in Binary Ninja.\n\nSymbols for imported functions and or library functions can be overwritten via the \"Overwrite X\" entries in Settings.\n\n### Export database\n\nExport comments/labels to a JSON database that can be loaded by x64dbg.\n\nTo export labels only: uncheck \"Export Comments\" under \"x64dbg Database Export\" in Settings.\n\n\n### Changelog\n- Added more descriptive log output with plugin name. Reported in https://github.com/x64dbg/x64dbgbinja/issues/13\r\n- Handle no database condition gracefully using `is_valid` callback function. Reported in https://github.com/x64dbg/x64dbgbinja/issues/12\r\n\r\n**Full Changelog**: https://github.com/x64dbg/x64dbgbinja/compare/v2.0.6...v2.0.7",
+    "longdescription": "# x64dbgbinja\r\n\r\nOfficial x64dbg plugin for [Binary Ninja](https://binary.ninja).\r\n\r\n## Installation\r\n\r\nFrom the Plugins Menu, select \"Manage Plugins\". Search for \"x64dbgbinja\" and click the \"Install\" button.\r\n\r\n## Menu options\r\n\r\n### Import database\r\n\r\nImport comments/labels from an uncompressed x64dbg JSON database in Binary Ninja.\r\n\r\nSymbols for imported functions and or library functions can be overwritten via the \"Overwrite X\" entries in Settings.\r\n\r\n### Export database\r\n\r\nExport comments/labels to a JSON database that can be loaded by x64dbg.\r\n\r\nTo export labels only: uncheck \"Export Comments\" under \"x64dbg Database Export\" in Settings.\n\n### Changelog\n**Full Changelog**: https://github.com/x64dbg/x64dbgbinja/compare/v2.0.8...v2.0.9",
     "minimumbinaryninjaversion": 6455,
     "name": "x64dbgbinja",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/b5aa0d52-916e-4e85-8f87-6a2742367f77/versions/f53d1b96-9c77-4b43-a6f2-887f13d03f9b/platforms/2245/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/b5aa0d52-916e-4e85-8f87-6a2742367f77/versions/f53d1b96-9c77-4b43-a6f2-887f13d03f9b/platforms/2245/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/b5aa0d52-916e-4e85-8f87-6a2742367f77/versions/d3ef8fd4-af30-49c5-a445-9390c87eabfd/platforms/3031/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/b5aa0d52-916e-4e85-8f87-6a2742367f77/versions/d3ef8fd4-af30-49c5-a445-9390c87eabfd/platforms/3031/download?notrack=1",
     "path": "x64dbg_x64dbgbinja",
     "platforms": [
       "Darwin",
@@ -1265,14 +1265,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 84,
-      "updated_at": "2025-04-10 17:22:49+00:00"
+      "updated_at": "2026-01-03 02:38:35+00:00"
     },
     "projectUrl": "https://github.com/x64dbg/x64dbgbinja",
     "subdir": "",
     "type": [
       "sync"
     ],
-    "version": "2.0.7",
+    "version": "2.0.9",
     "view_only": false
   },
   {
@@ -1992,7 +1992,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 765,
+      "stargazers_count": 766,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2069,7 +2069,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 13,
+      "stargazers_count": 14,
       "updated_at": "2023-01-18 21:39:53+00:00"
     },
     "projectUrl": "https://github.com/elbee-cyber/analyze_char_arrays",
@@ -2301,7 +2301,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 859,
+      "stargazers_count": 860,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2900,7 +2900,7 @@
     "description": "Research Decompiler to generate a C-like function representation",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1759282869,
+    "lastUpdated": 1767232606,
     "license": {
       "name": "LGPL-2.1",
       "text": "This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
@@ -2908,8 +2908,8 @@
     "longdescription": "# dewolf\n\ndewolf is a research decompiler we developed during a research cooperation from 2019 to 2021 between Germany (Fraunhofer FKIE) and Singapore (DSO National Laboratories).\n\nThe restructuring of dewolf is based on the former DREAM/DREAM++ approach [Yakdan et al. NDSS 2015, IEEE (SP) 2016].\n\nThe decompiler dewolf is implemented as a plugin for Binary Ninja and uses their Medium-Level intermediate language as the starting point.\nAlthough we consider dewolf to be pretty stable, it is still a research prototype and not extensively optimized for production use.\nConsequently, you will likely observe a few bugs or even decompilation failures when applying dewolf on real-world binaries.\n\n**If you encounter any bugs, please report them to us so that we can further improve dewolf. :)**\n\n## Usage\n\nAfter enabling the dewolf decompilation dock widget via **View > Other Docks > Show Dewolf**, the decompiled code for the currently active symbol will be displayed.\nIn the dewolf dock, it is possible to navigate through functions by double-clicking them.\n\n![Widget Menu](https://user-images.githubusercontent.com/12004321/145460440-be4b7dfd-bf7e-497f-a7af-1911bf3efc50.png)\n\nThe automatic decompilation of selected functions can be toggled with the *follow* button.\nDecompiled code is cached and can be generated again with the *decompile* button, e.g. after patching instructions in the binary view.\n\n![Widget](https://user-images.githubusercontent.com/12004321/145460476-f869e5cc-d585-4f53-8920-6ecfa4b346d5.png)\n\n## Configuration\ndewolf has multiple configuration options of which some are configurable via the GUI.\n\nYou can configure dewolf from the Binary Ninja GUI by navigating to **Edit > Preferences > Settings** or by pressing <kbd>Ctrl</kbd> + <kbd>,</kbd>.\nSearch for **dewolf** in the search bar and all dewolf related settings will be displayed.\n\n## Support\n\nIf you have any suggestions, or bug reports, please create an issue in the [Issue Tracker](https://github.com/fkie-cad/dewolf/issues).\n\nIn case you have any questions or other problems, feel free to send an email to:\n\n[dewolf@fkie.fraunhofer.de](mailto:dewolf@fkie.fraunhofer.de).\n\n### Changelog\nAutomatic release",
     "minimumbinaryninjaversion": 4271,
     "name": "dewolf Decompiler",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/9c0ff5ef-1660-4d2b-ba1f-8dd761900690/platforms/2702/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/9c0ff5ef-1660-4d2b-ba1f-8dd761900690/platforms/2702/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/f505642f-2482-45fa-aee0-5fa16ea327fc/platforms/3025/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/f505642f-2482-45fa-aee0-5fa16ea327fc/platforms/3025/download?notrack=1",
     "path": "fkiecad_dewolf",
     "platforms": [
       "Darwin",
@@ -2919,7 +2919,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 214,
-      "updated_at": "2025-10-01 01:41:09+00:00"
+      "updated_at": "2026-01-01 01:56:46+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
     "subdir": "",
@@ -2927,7 +2927,7 @@
       "ui",
       "helper"
     ],
-    "version": "2025-10-01",
+    "version": "2026-01-01",
     "view_only": false
   },
   {
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2269,
+      "stargazers_count": 2271,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2476,
+      "stargazers_count": 2477,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -4540,7 +4540,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 136,
+      "stargazers_count": 137,
       "updated_at": "2024-02-15 00:51:37+00:00"
     },
     "projectUrl": "https://github.com/zznop/bnida",
@@ -5780,7 +5780,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 345,
+      "stargazers_count": 344,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -6049,7 +6049,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 47,
+      "stargazers_count": 48,
       "updated_at": "2025-04-14 18:58:05+00:00"
     },
     "projectUrl": "https://github.com/ald3ns/copy-as-yara",
@@ -6396,7 +6396,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 107,
+      "stargazers_count": 109,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6514,7 +6514,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 153,
+      "stargazers_count": 158,
       "updated_at": "2025-12-16 18:52:50+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
@@ -6789,7 +6789,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "updated_at": "2025-12-19 06:10:27+00:00"
     },
     "projectUrl": "https://github.com/akrutsinger/binja-codemode-mcp",
@@ -7139,7 +7139,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 232,
+      "stargazers_count": 233,
       "updated_at": "2025-10-11 13:21:50+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
