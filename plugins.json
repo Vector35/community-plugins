@@ -105,7 +105,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 36,
+      "stargazers_count": 37,
       "updated_at": "2024-07-28 21:40:57+00:00"
     },
     "projectUrl": "https://github.com/ergrelet/themida-unmutate-bn",
@@ -143,7 +143,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 239,
+      "stargazers_count": 240,
       "updated_at": "2025-07-01 15:21:37+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -259,7 +259,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "updated_at": "2024-12-18 17:38:58+00:00"
     },
     "projectUrl": "https://github.com/redballoonsecurity/permap",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1015,
+      "stargazers_count": 1016,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1264,7 +1264,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 84,
+      "stargazers_count": 85,
       "updated_at": "2026-01-03 02:38:35+00:00"
     },
     "projectUrl": "https://github.com/x64dbg/x64dbgbinja",
@@ -1992,7 +1992,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 766,
+      "stargazers_count": 767,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2803,7 +2803,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 26,
+      "stargazers_count": 25,
       "updated_at": "2022-02-21 18:59:19+00:00"
     },
     "projectUrl": "https://github.com/ImNotAVirus/delphi_ninja",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2271,
+      "stargazers_count": 2270,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2477,
+      "stargazers_count": 2480,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3647,7 +3647,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 649,
+      "stargazers_count": 646,
       "updated_at": "2025-03-14 02:16:09+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -4694,7 +4694,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 21,
+      "stargazers_count": 22,
       "updated_at": "2019-07-09 04:56:31+00:00"
     },
     "projectUrl": "https://github.com/bkerler/annotate",
@@ -6087,7 +6087,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 21,
+      "stargazers_count": 20,
       "updated_at": "2024-01-25 16:20:41+00:00"
     },
     "projectUrl": "https://github.com/lwerdna/keypatch_binja",
@@ -6319,7 +6319,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "updated_at": "2025-10-08 01:24:17+00:00"
     },
     "projectUrl": "https://github.com/ScriptWare-Software/scylla-ninja",
@@ -6396,7 +6396,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 109,
+      "stargazers_count": 108,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6514,7 +6514,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 158,
+      "stargazers_count": 159,
       "updated_at": "2025-12-16 18:52:50+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
@@ -6771,16 +6771,16 @@
     "description": "MCP server for LLM-assisted reverse engineering via code execution",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1766124627,
+    "lastUpdated": 1767941849,
     "license": {
       "name": "MIT",
       "text": "MIT license\r\n\r\nCopyright (c) 2025\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining\r\na copy of this software and associated documentation files (the\r\n\u201cSoftware\u201d), to deal in the Software without restriction, including\r\nwithout limitation the rights to use, copy, modify, merge, publish,\r\ndistribute, sublicense, and/or sell copies of the Software, and to\r\npermit persons to whom the Software is furnished to do so, subject\r\nto the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be\r\nincluded in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \u201cAS IS\u201d, WITHOUT WARRANTY OF\r\nANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED\r\nTO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\r\nPARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT\r\nSHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR\r\nANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN\r\nACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE\r\nOR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# Binary Ninja Code Mode MCP\n\nA Model Context Protocol (MCP) server for [Binary Ninja](https://binary.ninja/) that enables LLM-assisted reverse engineering through code execution.\n\n## Overview\n\nThis plugin implements [Anthropic's Code Execution pattern](https://www.anthropic.com/engineering/code-execution-with-mcp). Instead of accessing the typical MCP \"tools\", the LLM writes Python code that executes directly against Binary Ninja's API. This approach ([described by Cloudflare as \"Code Mode\"](https://blog.cloudflare.com/code-mode/)) is more token-efficient and enables more complex multi-step analyses in a single execution.\n\n## Key Features\n\n- Write Python that runs directly against Binary Ninja's API\n- Query and mutate the binary database\n- Checkpoint/rollback, persistent workspace files, and reusable analysis patterns\n- Basic security with API key authentication and some code validation\n\n## Installation\n\n### Method 1: Plugin Manager (Recommended)\n\n1. In Binary Ninja, open the Plugin Manager (`Plugins > Manage Plugins`)\n2. Search for `Code Mode MCP` or `binja_codemode_mcp`\n3. Click `Install`\n4. Restart Binary Ninja\n\nAfter installation, the plugin will be located in the community [plugins](https://docs.binary.ninja/guide/plugins.html) folder:\n\n```bash\n# Linux\n~/.binaryninja/plugins/repositories/community/plugins/akrutsinger_binja_codemode_mcp/\n\n# macOS\n~/Library/Application Support/Binary Ninja/plugins/repositories/community/plugins/akrutsinger_binja_codemode_mcp/\n\n# Windows\n%APPDATA%\\Binary Ninja\\plugins\\repositories\\community\\plugins\\akrutsinger_binja_codemode_mcp\\\n```\n\n### Method 2: Manual Installation\n\nClone or download this repository and copy to your Binary Ninja [plugins](https://docs.binary.ninja/guide/plugins.html) folder:\n\n```bash\n# Linux\ncp -r plugin/ ~/.binaryninja/plugins/binja_codemode_mcp/\n\n# macOS\ncp -r plugin/ ~/Library/Application\\ Support/Binary\\ Ninja/plugins/binja_codemode_mcp/\n\n# Windows\ncopy plugin\\ %APPDATA%\\Binary Ninja\\plugins\\binja_codemode_mcp\\\n```\n\n## MCP Client Configuration\n\nConfigure your MCP client to communicate with the plugin. The path to `mcp_bridge.py` depends on your installation method.\n\n### For Plugin Manager Installation \n\n[**Zed**](https://zed.dev/) (`Agent Panel > ... > Add Custom Server...`):\n```json\n{\n  /// The name of your MCP server\n  \"binja-codemode-mcp\": {\n    /// The command which runs the MCP server\n    \"command\": \"python3\",\n    /// The arguments to pass to the MCP server\n    \"args\": [\"~/.binaryninja/plugins/repositories/community/plugins/akrutsinger_binja_codemode_mcp/bridge/mcp_bridge.py\"],\n    /// The environment variables to set\n    \"env\": {\n      \"BINJA_MCP_URL\": \"http://127.0.0.1:42069\",\n      \"BINJA_MCP_KEY\": \"binja-codemode-local\"\n    }\n  }\n}\n```\n\n[**Claude Desktop**](https://www.claude.com/download) (`Settings > Developer > Edit Config`):\n```json\n{\n  \"mcpServers\": {\n    \"binja-codemode-mcp\": {\n      \"command\": \"python3\",\n      \"args\": [\"~/Library/Application Support/Binary Ninja/plugins/repositories/community/plugins/akrutsinger_binja_codemode_mcp/bridge/mcp_bridge.py\"],\n      \"env\": {\n        \"BINJA_MCP_URL\": \"http://127.0.0.1:42069\",\n        \"BINJA_MCP_KEY\": \"binja-codemode-local\"\n      }\n    }\n  }\n}\n```\n\n**Note:** Use absolute paths. Replace `~` with your home directory path if needed, and adjust for your OS.\n\n### For Manual Installation\n\nUse these paths instead:\n- Linux: `~/.binaryninja/plugins/binja_codemode_mcp/bridge/mcp_bridge.py`\n- macOS: `~/Library/Application Support/Binary Ninja/plugins/binja_codemode_mcp/bridge/mcp_bridge.py`\n- Windows: `%APPDATA%\\Binary Ninja\\plugins\\binja_codemode_mcp\\bridge\\mcp_bridge.py`\n\n### Custom API Key (Optional)\n\nTo use a custom API key instead of the default API key, create `~/.binaryninja/codemode_mcp/config.json`:\n```json\n{\n  \"api_key\": \"your-custom-key\"\n}\n```\n\nThen update your MCP client config to use the same key in `BINJA_MCP_KEY`.\n\n### Logging Configuration (Optional)\n\nSet `BINJA_MCP_LOG_LEVEL` environment variable to control logging output (stderr):\n```bash\n# Options: DEBUG, INFO (default), WARNING, ERROR, CRITICAL\nexport BINJA_MCP_LOG_LEVEL=DEBUG\n```\n\nOr add to your MCP client config:\n```json\n\"env\": {\n  \"BINJA_MCP_URL\": \"http://127.0.0.1:42069\",\n  \"BINJA_MCP_KEY\": \"binja-codemode-local\",\n  \"BINJA_MCP_LOG_LEVEL\": \"DEBUG\"\n}\n```\n\n## Usage\n\n1. Open Binary Ninja and load a binary\n2. Start the server: `Plugins > MCP Code Mode > Start Server`\n3. In your MCP client (Claude, Zed, etc.), start prompting!\n\n### Example Prompts\n```\n\"List all functions that reference memcpy and check if they validate buffer sizes\"\n\n\"Decompile main() and identify potential security issues\"\n\n\"Create a checkpoint, then rename all sub_* functions based on their behavior\"\n\n\"Find and categhorize all string references by type (URL, file path, error message, etc.)\"\n\n\"Analyze the binary's attack surface by examining input validation in network-facing functions\"\n```\n\n## API Overview\n\nThe Python code written by the LLM has access to the `binja` object with these methods:\n\n### Query\n**Binary Info**\n- `binja.get_binary_status()` - Binary metadata\n- `binja.list_functions()` - All functions\n- `binja.analyze_function_batch()` - Batched function alaysis\n- `binja.list_imports()` - Imported symbols\n- `binja.list_exports()` - Exported symbols\n- `binja.list_segments()` - Memory segments\n- `binja.list_classes()` - Classes\n- `binja.list_namespaces()` - Namespaces\n- `binja.list_data_items()` - Data items\n\n**Code Analysis**\n- `binja.decompile()` - Get pseudocode\n- `binja.get_assembly()` - Get disassembly\n- `binja.get_basic_blocks()` - Basic function info\n\n**Cross References**\n- `binja.get_xrefs_to()` - Find callers\n- `binja.get_function_calls()` - Find callees\n- `binja.get_data_xrefs_to()` - Data references to address\n- `binja.get_data_xrefs_from()` - Data references from address\n\n**Data Reading**\n- `binja.read_bytes()` - Read raw bytes\n- `binja.read_string()` - Read string\n- `binja.get_string_at()` - Get string info\n- `binja.get_data_var_at()` - Get data variable info\n- `binja.list_strings()` - List all strings\n\n**Search & Lookup**\n- `binja.find_bytes()` - Search for byte pattern\n- `binja.function_at()` - Get function by address or name\n- `binja.get_comment()` - Get comment\n- `binja.get_function_comment()` - Get function comment\n- `binja.get_type()` - Get User-defined struct/type info\n\n### Mutations\n\n**Renaming**\n- `binja.rename_function(func, name)` - Rename function\n- `binja.rename_data()` - Rename data\n- `binja.rename_variable(func, old, new)` - Rename variable\n\n**Typing**\n- `binja.retype_variable()` - Retype variable\n- `binja.define_type()` - Define struct/type\n- `binja.set_function_signature()` - Set prototype\n\n**Comments**\n- `binja.set_comment()` - Add comment\n- `binja.set_function_comment()` - Add function comment\n- `binja.delete_comment()` - Delete comment\n- `binja.delete_function_comment()` - Delete function comment\n\n### Workspace\n\n**File Persistence**\n- `binja.write_file()` - Save to workspace\n- `binja.read_file()` - Read from workspace\n- `binja.list_files()` - List workspace files\n- `binja.delete_file()` - Delete workspace \n\n### Skills\n\n**Reusable Code**\n- `binja.save_skill(name, code, desc)` - Save reusable code\n- `binja.load_skill(name)` - Load a skill\n- `binja.list_skills()` - List saved skills\n- `binja.delete_skill()` - Delete a skill\n\n### Helpers\n- `binja.find_functions_calling_unsafe()` - Find functions calling potentially unsafe functions\n- `binja.get_function_complexity()` - Get cyclomatic complexity\n\n## Security\n\nA basic level of security in attempt to prevent some misuse:\n\n- Localhost-only binding (127.0.0.1)\n- API key authentication required\n- Simple code validation blocks potentially dangerous operations\n- 30-second execution timeout\n\n**Note:** This plugin does execute arbitrary Python code. Only use with trusted MCP clients and LLMs.\n\n## License\n\nMIT License - see [LICENSE](LICENSE) for details.\n\n\n### Changelog\n### Added\r\n\r\n- This changelog\r\n\r\n### Changed\r\n\r\n- Cleaned up the README and included community plugin installation information\r\n\r\n### Fixed\r\n\r\n- Fix `mcp_bridge.py` variables to initialize before use",
+    "longdescription": "# Binary Ninja Code Mode MCP\n\nA Model Context Protocol (MCP) server for [Binary Ninja](https://binary.ninja/) that enables LLM-assisted reverse engineering through code execution.\n\n## Overview\n\nThis plugin implements [Anthropic's Code Execution pattern](https://www.anthropic.com/engineering/code-execution-with-mcp). Instead of accessing the typical MCP \"tools\", the LLM writes Python code that executes directly against Binary Ninja's API. This approach ([described by Cloudflare as \"Code Mode\"](https://blog.cloudflare.com/code-mode/)) is more token-efficient and enables more complex multi-step analyses in a single execution.\n\n## Key Features\n\n- Write Python that runs directly against Binary Ninja's API\n- Query and mutate the binary database\n- Checkpoint/rollback, persistent workspace files, and reusable analysis patterns\n- Basic security with API key authentication and some code validation\n\n## Installation\n\n### Method 1: Plugin Manager (Recommended)\n\n1. In Binary Ninja, open the Plugin Manager (`Plugins > Manage Plugins`)\n2. Search for `Code Mode MCP` or `binja_codemode_mcp`\n3. Click `Install`\n4. Restart Binary Ninja\n\nAfter installation, the plugin will be located in the community [plugins](https://docs.binary.ninja/guide/plugins.html) folder:\n\n```bash\n# Linux\n~/.binaryninja/plugins/repositories/community/plugins/akrutsinger_binja_codemode_mcp/\n\n# macOS\n~/Library/Application Support/Binary Ninja/plugins/repositories/community/plugins/akrutsinger_binja_codemode_mcp/\n\n# Windows\n%APPDATA%\\Binary Ninja\\plugins\\repositories\\community\\plugins\\akrutsinger_binja_codemode_mcp\\\n```\n\n### Method 2: Manual Installation\n\nClone or download this repository and copy to your Binary Ninja [plugins](https://docs.binary.ninja/guide/plugins.html) folder:\n\n```bash\n# Linux\ncp -r plugin/ ~/.binaryninja/plugins/binja_codemode_mcp/\n\n# macOS\ncp -r plugin/ ~/Library/Application\\ Support/Binary\\ Ninja/plugins/binja_codemode_mcp/\n\n# Windows\ncopy plugin\\ %APPDATA%\\Binary Ninja\\plugins\\binja_codemode_mcp\\\n```\n\n## MCP Client Configuration\n\nConfigure your MCP client to communicate with the plugin. The path to `mcp_bridge.py` depends on your installation method.\n\n### For Plugin Manager Installation \n\n[**Zed**](https://zed.dev/) (`Agent Panel > ... > Add Custom Server...`):\n```json\n{\n  /// The name of your MCP server\n  \"binja-codemode-mcp\": {\n    /// The command which runs the MCP server\n    \"command\": \"python3\",\n    /// The arguments to pass to the MCP server\n    \"args\": [\"~/.binaryninja/plugins/repositories/community/plugins/akrutsinger_binja_codemode_mcp/bridge/mcp_bridge.py\"],\n    /// The environment variables to set\n    \"env\": {\n      \"BINJA_MCP_URL\": \"http://127.0.0.1:42069\",\n      \"BINJA_MCP_KEY\": \"binja-codemode-local\"\n    }\n  }\n}\n```\n\n[**Claude Desktop**](https://www.claude.com/download) (`Settings > Developer > Edit Config`):\n```json\n{\n  \"mcpServers\": {\n    \"binja-codemode-mcp\": {\n      \"command\": \"python3\",\n      \"args\": [\"~/Library/Application Support/Binary Ninja/plugins/repositories/community/plugins/akrutsinger_binja_codemode_mcp/bridge/mcp_bridge.py\"],\n      \"env\": {\n        \"BINJA_MCP_URL\": \"http://127.0.0.1:42069\",\n        \"BINJA_MCP_KEY\": \"binja-codemode-local\"\n      }\n    }\n  }\n}\n```\n\n**Note:** Use absolute paths. Replace `~` with your home directory path if needed, and adjust for your OS.\n\n### For Manual Installation\n\nUse these paths instead:\n- Linux: `~/.binaryninja/plugins/binja_codemode_mcp/bridge/mcp_bridge.py`\n- macOS: `~/Library/Application Support/Binary Ninja/plugins/binja_codemode_mcp/bridge/mcp_bridge.py`\n- Windows: `%APPDATA%\\Binary Ninja\\plugins\\binja_codemode_mcp\\bridge\\mcp_bridge.py`\n\n### Custom API Key (Optional)\n\nTo use a custom API key instead of the default API key, create `~/.binaryninja/codemode_mcp/config.json`:\n```json\n{\n  \"api_key\": \"your-custom-key\"\n}\n```\n\nThen update your MCP client config to use the same key in `BINJA_MCP_KEY`.\n\n### Logging Configuration (Optional)\n\nSet `BINJA_MCP_LOG_LEVEL` environment variable to control logging output (stderr):\n```bash\n# Options: DEBUG, INFO (default), WARNING, ERROR, CRITICAL\nexport BINJA_MCP_LOG_LEVEL=DEBUG\n```\n\nOr add to your MCP client config:\n```json\n\"env\": {\n  \"BINJA_MCP_URL\": \"http://127.0.0.1:42069\",\n  \"BINJA_MCP_KEY\": \"binja-codemode-local\",\n  \"BINJA_MCP_LOG_LEVEL\": \"DEBUG\"\n}\n```\n\n## Usage\n\n1. Open Binary Ninja and load a binary\n2. Start the server: `Plugins > MCP Code Mode > Start Server`\n3. In your MCP client (Claude, Zed, etc.), start prompting!\n\n### Example Prompts\n```\n\"List all functions that reference memcpy and check if they validate buffer sizes\"\n\n\"Decompile main() and identify potential security issues\"\n\n\"Create a checkpoint, then rename all sub_* functions based on their behavior\"\n\n\"Find and categhorize all string references by type (URL, file path, error message, etc.)\"\n\n\"Analyze the binary's attack surface by examining input validation in network-facing functions\"\n```\n\n## API Overview\n\nThe Python code written by the LLM has access to the `binja` object with these methods:\n\n### Query\n**Binary Info**\n- `binja.get_binary_status()` - Binary metadata\n- `binja.list_functions()` - All functions\n- `binja.analyze_function_batch()` - Batched function alaysis\n- `binja.list_imports()` - Imported symbols\n- `binja.list_exports()` - Exported symbols\n- `binja.list_segments()` - Memory segments\n- `binja.list_classes()` - Classes\n- `binja.list_namespaces()` - Namespaces\n- `binja.list_data_items()` - Data items\n\n**Code Analysis**\n- `binja.decompile()` - Get pseudocode\n- `binja.get_assembly()` - Get disassembly\n- `binja.get_basic_blocks()` - Basic function info\n\n**Cross References**\n- `binja.get_xrefs_to()` - Find callers\n- `binja.get_function_calls()` - Find callees\n- `binja.get_data_xrefs_to()` - Data references to address\n- `binja.get_data_xrefs_from()` - Data references from address\n\n**Data Reading**\n- `binja.read_bytes()` - Read raw bytes\n- `binja.read_string()` - Read string\n- `binja.get_string_at()` - Get string info\n- `binja.get_data_var_at()` - Get data variable info\n- `binja.list_strings()` - List all strings\n\n**Search & Lookup**\n- `binja.find_bytes()` - Search for byte pattern\n- `binja.function_at()` - Get function by address or name\n- `binja.get_comment()` - Get comment\n- `binja.get_function_comment()` - Get function comment\n- `binja.get_type()` - Get User-defined struct/type info\n\n### Mutations\n\n**Renaming**\n- `binja.rename_function(func, name)` - Rename function\n- `binja.rename_data()` - Rename data\n- `binja.rename_variable(func, old, new)` - Rename variable\n\n**Typing**\n- `binja.retype_variable()` - Retype variable\n- `binja.define_type()` - Define struct/type\n- `binja.set_function_signature()` - Set prototype\n\n**Comments**\n- `binja.set_comment()` - Add comment\n- `binja.set_function_comment()` - Add function comment\n- `binja.delete_comment()` - Delete comment\n- `binja.delete_function_comment()` - Delete function comment\n\n### Workspace\n\n**File Persistence**\n- `binja.write_file()` - Save to workspace\n- `binja.read_file()` - Read from workspace\n- `binja.list_files()` - List workspace files\n- `binja.delete_file()` - Delete workspace \n\n### Skills\n\n**Reusable Code**\n- `binja.save_skill(name, code, desc)` - Save reusable code\n- `binja.load_skill(name)` - Load a skill\n- `binja.list_skills()` - List saved skills\n- `binja.delete_skill()` - Delete a skill\n\n### Helpers\n- `binja.find_functions_calling_unsafe()` - Find functions calling potentially unsafe functions\n- `binja.get_function_complexity()` - Get cyclomatic complexity\n\n## Security\n\nA basic level of security in attempt to prevent some misuse:\n\n- Localhost-only binding (127.0.0.1)\n- API key authentication required\n- Simple code validation blocks potentially dangerous operations\n- 30-second execution timeout\n\n**Note:** This plugin does execute arbitrary Python code. Only use with trusted MCP clients and LLMs.\n\n## License\n\nMIT License - see [LICENSE](LICENSE) for details.\n\n\n### Changelog\n### Added\r\n\r\n- Status indicator for MCP server running state\r\n\r\n### Fixed\r\n\r\n- Plugin not running properly in headless mode",
     "minimumbinaryninjaversion": 4000,
     "name": "Code Mode MCP Server",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/fcbe3323-d2c1-45e3-9e4d-a618ff5a6d08/versions/52a1d457-9fcf-4c88-aa97-60abfd7de187/platforms/2984/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/fcbe3323-d2c1-45e3-9e4d-a618ff5a6d08/versions/52a1d457-9fcf-4c88-aa97-60abfd7de187/platforms/2984/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/fcbe3323-d2c1-45e3-9e4d-a618ff5a6d08/versions/5ff2e454-a31c-4a32-8cac-140079298e54/platforms/3055/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/fcbe3323-d2c1-45e3-9e4d-a618ff5a6d08/versions/5ff2e454-a31c-4a32-8cac-140079298e54/platforms/3055/download?notrack=1",
     "path": "akrutsinger_binja_codemode_mcp",
     "platforms": [
       "Darwin",
@@ -6789,15 +6789,15 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2,
-      "updated_at": "2025-12-19 06:10:27+00:00"
+      "stargazers_count": 3,
+      "updated_at": "2026-01-09 06:57:29+00:00"
     },
     "projectUrl": "https://github.com/akrutsinger/binja-codemode-mcp",
     "subdir": "",
     "type": [
       "helper"
     ],
-    "version": "0.1.2",
+    "version": "0.1.3",
     "view_only": false
   },
   {
@@ -7101,7 +7101,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "updated_at": "2025-01-22 11:53:55+00:00"
     },
     "projectUrl": "https://github.com/Accenture/NEC850_Architecture",
@@ -7139,7 +7139,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 233,
+      "stargazers_count": 231,
       "updated_at": "2025-10-11 13:21:50+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
