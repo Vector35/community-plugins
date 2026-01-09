@@ -34,7 +34,7 @@
 | [Char Arrays](https://github.com/elbee-cyber/analyze_char_arrays)|elbee|Displays char arrays by analyzing their use in functions|2023-01-18|binaryview, helper|python3|MIT |
 | [ClassyPP](https://github.com/CySHell/ClassyPP)|CyShell|Parse and extract class information from MSVC x86 32\64 bit C++ binaries.|2023-06-06|binaryview|python3|MIT |
 | [Clean Tricks](https://github.com/janbbeck/CleanTricks)|Jan Beck|This plugin removes some simple known obfuscation techniques to cut down on the tedium.|2020-06-08|architecture, binaryview, core, helper, ui|python3|MIT |
-| [Code Mode MCP Server](https://github.com/akrutsinger/binja-codemode-mcp)|Austyn Krutsinger|MCP server for LLM-assisted reverse engineering via code execution|2025-12-19|helper|python3|MIT |
+| [Code Mode MCP Server](https://github.com/akrutsinger/binja-codemode-mcp)|Austyn Krutsinger|MCP server for LLM-assisted reverse engineering via code execution|2026-01-09|helper|python3|MIT |
 | [Comments Viewer](https://github.com/matteyeux/comments-viewer)|matteyeux|Binary Ninja comments viewer|2022-05-27|ui|python3|MIT |
 | [CommentsAndSymbols](https://github.com/moval0x1/CommentsAndSymbols)|moval0x1|Show comments and symbols renamed during the analysis process.|2024-02-20|ui, binaryview|python3|MIT |
 | [CoolSigMaker](https://github.com/unknowntrojan/binja_coolsigmaker)|unknowntrojan|SigMaker style plugin|2025-03-01|helper|rust|AGPLv3 |
