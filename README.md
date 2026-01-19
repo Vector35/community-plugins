@@ -15,7 +15,7 @@
 | [BNHook](https://github.com/jeffli678/bnhook)|Grant Orndorff|Insert custom hooks|2021-03-29|ui, core|python2, python3|MIT |
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
-| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-01-04|ui, helper|python3|MIT |
+| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-01-16|ui, helper|python3|MIT |
 | [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2025-12-11|binaryview, helper, ui|python3|MIT |
 | [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2026-01-05|sync|python3|BSD 2-clause |
 | [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2025-12-31|helper|python3, rust|MIT |
@@ -116,7 +116,7 @@
 | [ReverserAI](https://github.com/mrphrazer/reverser_ai)|Tim Blazytko|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2024-06-21|helper|python3|GPL-2.0 |
 | [RopView](https://github.com/elbee-cyber/RopView)|elbee|RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.|2025-02-25|binaryview, helper, ui|python3|MIT |
 | [Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|inspier|Demangles Rust symbols.|2023-07-09|helper|python3|MIT |
-| [Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|Cindy Xiao|Rust binary string recovery plugin|2023-12-25|helper|python3|MIT |
+| [Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|Cindy Xiao|Rust binary string recovery plugin|2026-01-11|helper|python3|MIT |
 | [Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|Cindy Xiao|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|2023-04-27|helper|python3|MIT |
 | [SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|EliseZeroTwo|Helper for exploring structured exception handlers in PEs|2022-02-19|ui, helper|python3|MIT |
 | [SENinja](https://github.com/borzacchiello/seninja)|Luca Borzacchiello|Symbolic execution plugin for BinaryNinja|2024-02-24|helper|python3|2-Clause BSD |
