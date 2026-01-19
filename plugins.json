@@ -105,7 +105,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 37,
+      "stargazers_count": 38,
       "updated_at": "2024-07-28 21:40:57+00:00"
     },
     "projectUrl": "https://github.com/ergrelet/themida-unmutate-bn",
@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 483,
+      "stargazers_count": 484,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -665,16 +665,16 @@
     "description": "A plugin that provides LLM helpers to explain code and assist in RE.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1767491367,
+    "lastUpdated": 1768523831,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024 Jason Tang\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# BinAssist\r\nAuthor: **Jason Tang**\r\n\r\n_A comprehensive LLM-powered Binary Ninja plugin for intelligent binary analysis and reverse engineering._\r\n\r\n## Description\r\n\r\nBinAssist is an advanced LLM plugin designed to enhance binary analysis and reverse engineering workflows through intelligent automation. It leverages local and remote LLM capabilities to provide context-aware assistance throughout the binary analysis process. It supports fully agentic reverse engineering through its MCP client and MCP servers like [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)\r\n\r\nThe plugin supports any OpenAI v1-compatible or Anthropic API, making it compatible with popular LLM providers including Ollama, LM Studio, Open-WebUI, OpenAI, Anthropic, AWS Bedrock (via LiteLLM), and others.\r\n\r\n**Recommended models:**\r\n- **With Reasoning Support**: Claude Sonnet 4+, OpenAI o1/o3/gpt-5, GPT-OSS (supports extended thinking for complex analysis)\r\n- **General Purpose**: DeepSeek, LLaMA-based coder models, Claude Sonnet 3.5, GPT-4\r\n\r\n## Core Features\r\n\r\n### Explain Tab\r\n- **Function Analysis**: Comprehensive analysis of functions at all IL levels (LLIL, MLIL, HLIL)\r\n- **Instruction Analysis**: Detailed explanations of individual instructions and their purpose\r\n- **Context-Aware**: Stores responses at a function level, allowing you to easily keep track\r\n- **Edit Responses**: Tweak the response as needed and save it for later\r\n\r\n### Query Tab\r\n- **Interactive LLM Chat**: Direct conversation interface with the LLM\r\n- **ReAct Agent**: Autonomous multi-step reasoning and analysis using the ReAct (Reasoning + Acting) framework\r\n  - Iterative problem-solving with reflection and self-correction\r\n  - Automatic tool selection and execution via MCP\r\n  - Step-by-step reasoning traces for transparency\r\n  - Up to 15 iterations with intelligent termination\r\n- **Extended Thinking**: Support for reasoning effort control on compatible models\r\n  - Configurable thinking depth (None, Low, Medium, High)\r\n  - Compatible with Claude Sonnet 4+, OpenAI o1/o3/gpt-5, and gpt-oss\r\n  - Increases analysis quality for complex reverse engineering tasks\r\n- **Binary Context**: Automatically includes relevant binary information in queries\r\n- **Flexible Prompting**: Support for custom queries and analysis requests\r\n- **Streaming Responses**: Real-time response generation with cancellation support\r\n\r\n### Actions Tab\r\n- **Intelligent Suggestions**: LLM-powered recommendations for improving binary analysis\r\n- **Four Action Types**:\r\n  - **Rename Function**: Suggest semantically meaningful function names\r\n  - **Rename Variable**: Propose descriptive variable names based on usage\r\n  - **Retype Variable**: Recommend appropriate data types for variables\r\n  - **Auto Create Struct**: Generate structure definitions from data patterns\r\n- **Confidence Scoring**: Each suggestion includes confidence metrics (0.0-1.0)\r\n- **Selective Application**: Choose which suggestions to apply via interactive UI\r\n- **Status Tracking**: Real-time feedback on action application success/failure\r\n- **Tool-Based Architecture**: Uses native LLM tool calling for precise suggestions\r\n\r\n### Semantic Graph Tab\r\n- **GraphRAG Architecture**: Graph-based Retrieval-Augmented Generation for binary analysis\r\n- **ReIndex Binary**: Build a semantic graph of all functions with call relationships\r\n- **Semantic Analysis**: LLM-powered function summarization and categorization\r\n  - Automatic purpose inference from function names and behavior\r\n  - Security flag detection (network, file I/O, crypto, etc.)\r\n  - Activity profiling and risk assessment\r\n- **Security Analysis**: Taint analysis for vulnerability detection\r\n  - Source-to-sink path finding (e.g., `recv` \u2192 `strcpy`)\r\n  - Automatic detection of dangerous API usage patterns\r\n  - TAINT_FLOWS_TO and VULNERABLE_VIA edge creation\r\n- **Community Detection**: Function clustering using Label Propagation algorithm\r\n  - Groups related functions based on call relationships\r\n  - Automatic module/purpose inference (Network I/O, Crypto, File Operations, etc.)\r\n  - Runs automatically after ReIndex completes\r\n- **Visual Graph View**: Interactive visualization of function relationships\r\n- **Full-Text Search**: FTS5-powered search across function names and summaries\r\n- **Query Tools**: MCP-exposed tools for LLM to query the semantic graph\r\n\r\n### Advanced Capabilities\r\n- **ReAct Autonomous Agent**: Full implementation of the ReAct framework for multi-step analysis\r\n- **Extended Thinking/Reasoning Effort**: Provider-agnostic reasoning control for deeper analysis\r\n  - Anthropic: Extended thinking with configurable token budgets (2K-25K tokens)\r\n  - OpenAI: Reasoning effort levels for o1/o3/gpt-5 models\r\n  - Ollama: Native thinking parameter support for compatible models (gpt-oss)\r\n- **Function Calling**: LLM can directly interact with Binary Ninja API to navigate and modify analysis\r\n- **MCP Integration**: Model Context Protocol support for extensible tool integration\r\n- **RLHF Dataset Generation**: Collect interaction data to enable model fine-tuning\r\n- **RAG Augmentation**: Enhance queries with relevant documentation and context\r\n- **Async Processing**: Non-blocking UI with background LLM processing\r\n- **Streaming Support**: Real-time response generation with proper cancellation\r\n\r\n### Configuration & Settings\r\n- **Flexible API Configuration**: Support for multiple LLM providers and endpoints\r\n- **Model Selection**: Choose from available models for different analysis tasks\r\n- **Reasoning Effort Control**: Session-specific thinking depth configuration\r\n  - Adjustable per-query or globally in Settings tab\r\n  - Four levels: None (standard), Low (~2K tokens), Medium (~10K), High (~25K)\r\n  - Cost and latency warnings for higher levels\r\n- **Token Limits**: Configurable maximum tokens for cost and performance optimization\r\n- **Database Management**: Built-in RLHF and RAG database configuration\r\n- **Thread Safety**: Proper async handling for Binary Ninja's threading requirements\r\n\r\n## Future Roadmap\r\n\r\n### Planned Features\r\n- **Model Fine-tuning**: Leverage collected RLHF data for specialized model training\r\n- **Collaborative Features**: Share analysis insights and suggestions across teams\r\n- **Hierarchical Communities**: Multi-level community detection for large binaries\r\n\r\n### Research Areas\r\n- **Domain-Specific Models**: Fine-tuned models for specific binary types\r\n- **Code Generation**: Automated exploit development and patching suggestions\r\n- **Enhanced Vulnerability Detection**: Expanded taint analysis with data flow tracking\r\n- **Performance Optimization**: Enhanced suggestion accuracy and speed\r\n\r\n## Quick Start Guide\r\n\r\n### 1. Installation\r\n```bash\r\n# Install dependencies from the plugin directory\r\npip install -r requirements.txt\r\n```\r\n\r\n### 2. Configuration\r\n1. Open **Settings \u2192 BinAssist** in Binary Ninja\r\n2. Configure your LLM provider:\r\n   - **API Host**: Point to your preferred API endpoint (e.g., `http://localhost:11434` for Ollama)\r\n   - **API Key**: Set authentication key if required\r\n   - **Model**: Choose your preferred model (e.g., `gpt-oss:20b`, `claude-sonnet-4-5`, `o1-preview`)\r\n3. Set database paths for RLHF and RAG features\r\n4. Adjust token limits based on your needs\r\n5. Configure **Reasoning Effort** in the Settings tab for models that support extended thinking\r\n\r\n### 3. Usage\r\n1. Load a binary in Binary Ninja\r\n2. Click the **\ud83e\udd16 robot icon** in the sidebar to open BinAssist\r\n3. Navigate between tabs based on your analysis needs:\r\n   - **Explain**: Analyze functions and instructions\r\n   - **Query**: Interactive chat with the LLM\r\n   - **Actions**: Get intelligent improvement suggestions\r\n   - **Semantic Graph**: Build and explore the binary's semantic graph\r\n   - **RAG**: Manage external documentation for context\r\n\r\n### 4. Workflow Examples\r\n\r\n**Function Analysis:**\r\n1. Navigate to a function in Binary Ninja\r\n2. Switch to the **Explain** tab\r\n3. Click **\"Explain Function\"** for comprehensive analysis\r\n\r\n**Getting Suggestions:**  \r\n1. Go to the **Actions** tab\r\n2. Select desired action types (Rename Function, etc.)\r\n3. Click **\"Analyse\"** to get LLM-powered suggestions\r\n4. Review confidence scores and apply selected actions\r\n\r\n**Interactive Queries:**\r\n1. Use the **Query** tab for free-form questions\r\n2. Ask about specific functions, algorithms, or analysis techniques\r\n3. The LLM has full context of your current binary\r\n\r\n**Agentic Analysis (ReAct):**\r\n1. Enable **Agentic** mode in the Query tab\r\n2. Enable **MCP** to provide tools for autonomous exploration\r\n3. Ask complex questions like \"What does this binary do?\" or \"Find security vulnerabilities\"\r\n4. Watch as the agent autonomously:\r\n   - Decompiles and analyzes functions\r\n   - Follows cross-references\r\n   - Builds understanding through iterative reasoning\r\n   - Provides comprehensive analysis with step-by-step traces\r\n\r\n**Semantic Graph Analysis:**\r\n1. Go to the **Semantic Graph** tab\r\n2. Click **\"ReIndex Binary\"** to build the function graph\r\n   - Community detection runs automatically after indexing\r\n3. Use **\"Semantic Analysis\"** for LLM-powered function summaries\r\n4. Run **\"Security Analysis\"** to find vulnerable source\u2192sink paths\r\n5. Explore the **Visual Graph** to see function relationships\r\n6. Use **Search** to find functions by name or summary content\r\n\r\n## Screenshot\r\n![Screenshot](https://raw.githubusercontent.com/jtang613/BinAssist/refs/heads/master/res/screenshot1.png)\r\n![Screenshots](/res/screenshots.gif)\r\n\r\n## Homepage\r\nhttps://github.com/jtang613/BinAssist\r\n\r\n\r\n## Technical Architecture\r\n\r\n### Design Patterns\r\n- **Model-View-Controller (MVC)**: Clean separation of concerns across all tabs\r\n- **Service-Oriented Architecture**: Modular services for different analysis tasks  \r\n- **Observer Pattern**: Qt signal-slot communication for responsive UI\r\n- **Async/Await**: Non-blocking operations with proper thread management\r\n\r\n### Key Components\r\n\r\n**Controllers:**\r\n- `ExplainController`: Manages function and instruction analysis\r\n- `QueryController`: Handles interactive LLM conversations\r\n- `ActionsController`: Coordinates intelligent suggestion generation\r\n- `SemanticGraphController`: Orchestrates GraphRAG indexing and analysis\r\n\r\n**Services:**\r\n- `BinaryContextService`: Extracts and formats binary information\r\n- `ActionsService`: Validates and applies code improvements\r\n- `RLHFService`: Manages training data collection\r\n- `RAGService`: Handles document retrieval and context enhancement\r\n- `GraphRAGService`: Manages semantic graph indexing and queries\r\n- `GraphStore`: SQLite-backed graph node and edge storage\r\n- `CommunityDetector`: Label Propagation algorithm for function clustering\r\n- `TaintAnalyzer`: Source-to-sink vulnerability path detection\r\n\r\n**Threading:**\r\n- `ExplainLLMThread`: Background processing for explanations\r\n- `QueryLLMThread`: Async chat processing with streaming\r\n- `ActionsLLMThread`: LLM tool calling for suggestion generation\r\n- `ReActOrchestratorThread`: Autonomous multi-step agent execution\r\n\r\n**Tools & Integration:**\r\n- **MCP Tools**: Native LLM tool calling for precise actions\r\n- **Binary Ninja API**: Direct integration with analysis engine\r\n- **OpenAI Compatibility**: Works with any OpenAI v1-compatible endpoint\r\n\r\n## Installation & Compatibility\r\n\r\n### System Requirements\r\n- **Binary Ninja**: Version 4000 or higher\r\n- **Python**: 3.8+ with Binary Ninja's Python environment\r\n- **Memory**: 4GB+ recommended for local LLM usage\r\n- **Storage**: ~100MB for plugin + model-dependent storage\r\n\r\n### Platform Support\r\n\r\n**Linux** (Primary Development Platform)\r\n- Fully tested and supported\r\n- Recommended for production use\r\n\r\n**Windows** \r\n- Should work but less tested\r\n- Submit issues for Windows-specific problems\r\n\r\n**macOS**\r\n- Should work but less tested  \r\n- Submit issues for macOS-specific problems\r\n\r\n### LLM Provider Setup\r\n\r\n**Local LLMs (Recommended):**\r\n```bash\r\n# Ollama setup\r\ncurl -fsSL https://ollama.ai/install.sh | sh\r\n\r\n# Pull a general-purpose model\r\nollama pull llama3.1:8b\r\n\r\n# Or pull a reasoning model (recommended for complex analysis)\r\nollama pull gpt-oss:20b\r\n\r\nollama serve  # Runs on http://localhost:11434\r\n```\r\n\r\n**Other Compatible Providers:**\r\n- **LM Studio**: Desktop GUI for local models\r\n- **Ollama**: Advanced local LLM interface CLI\r\n- **Open-WebUI**: Advanced local LLM interface GUI\r\n- **OpenAI API**: Cloud-based (requires API key)\r\n- **Anthropic API**: Cloud-based (requires API key)\r\n- **LiteLLM Proxy**: Access AWS Bedrock, Azure, and 100+ providers\r\n- **OpenRouter**: Access to multiple models via API\r\n\r\n### Installation Steps\r\n\r\n1. **Install Dependencies**:\r\n   ```bash\r\n   cd /path/to/BinAssist2\r\n   pip install -r requirements.txt\r\n   ```\r\n\r\n2. **Configure Binary Ninja**:\r\n   - Install as a plugin in Binary Ninja's plugin directory\r\n   - Or run directly from development directory\r\n\r\n3. **Set up LLM Provider**:\r\n   - Configure your preferred provider (see LLM Provider Setup above)\r\n   - Update BinAssist settings with correct API endpoints\r\n\r\n## Dependencies\r\n\r\n**Required Python Packages:**\r\n```\r\nopenai                 # OpenAI and LiteLLM provider API\r\nanthropic              # Anthropic Claude API\r\npysqlite3              # Database operations\r\nmarkdown               # Documentation formatting\r\nhttpx                  # HTTP client for API calls\r\nanyio>=4.6             # Async I/O support\r\nmcp                    # Model Context Protocol client\r\nwhoosh                 # Full-text search for RAG documents\r\n```\r\n\r\n## Contributing\r\n\r\nWe welcome contributions! Please see our contributing guidelines:\r\n\r\n- **Bug Reports**: Submit detailed issues with reproduction steps\r\n- **Feature Requests**: Propose new functionality with clear use cases  \r\n- **Code Contributions**: Follow existing patterns\r\n\r\n## Support & Community\r\n\r\n- **GitHub Issues**: Primary support channel for bugs and features\r\n\r\n## License\r\n\r\nThis plugin is released under the **MIT License** - see LICENSE file for details.\r\n\r\n**Minimum Binary Ninja Version**: 5000\r\n\r\n**Metadata Version**: 2",
+    "longdescription": "# BinAssist\nAuthor: **Jason Tang**\n\n_A comprehensive LLM-powered Binary Ninja plugin for intelligent binary analysis and reverse engineering._\n\n## Description\n\nBinAssist is an advanced LLM plugin designed to enhance binary analysis and reverse engineering workflows through intelligent automation. It leverages local and remote LLM capabilities to provide context-aware assistance throughout the binary analysis process. It supports fully agentic reverse engineering through its MCP client and MCP servers like [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)\n\nThe plugin supports any OpenAI v1-compatible or Anthropic API, making it compatible with popular LLM providers including Ollama, LM Studio, Open-WebUI, OpenAI, Anthropic, AWS Bedrock (via LiteLLM), and others.\n\n**Recommended models:**\n- **With Reasoning Support**: Claude Sonnet 4+, OpenAI o1/o3/gpt-5, GPT-OSS (supports extended thinking for complex analysis)\n- **General Purpose**: DeepSeek, LLaMA-based coder models, Claude Sonnet 3.5, GPT-4\n\n## Core Features\n\n### Explain Tab\n- **Function Analysis**: Comprehensive analysis of functions at all IL levels (LLIL, MLIL, HLIL)\n- **Instruction Analysis**: Detailed explanations of individual instructions and their purpose\n- **Context-Aware**: Stores responses at a function level, allowing you to easily keep track\n- **Edit Responses**: Tweak the response as needed and save it for later\n\n### Query Tab\n- **Interactive LLM Chat**: Direct conversation interface with the LLM\n- **ReAct Agent**: Autonomous multi-step reasoning and analysis using the ReAct (Reasoning + Acting) framework\n  - Iterative problem-solving with reflection and self-correction\n  - Automatic tool selection and execution via MCP\n  - Step-by-step reasoning traces for transparency\n  - Up to 15 iterations with intelligent termination\n- **Extended Thinking**: Support for reasoning effort control on compatible models\n  - Configurable thinking depth (None, Low, Medium, High)\n  - Compatible with Claude Sonnet 4+, OpenAI o1/o3/gpt-5, and gpt-oss\n  - Increases analysis quality for complex reverse engineering tasks\n- **Binary Context**: Automatically includes relevant binary information in queries\n- **Flexible Prompting**: Support for custom queries and analysis requests\n- **Streaming Responses**: Real-time response generation with cancellation support\n\n### Actions Tab\n- **Intelligent Suggestions**: LLM-powered recommendations for improving binary analysis\n- **Four Action Types**:\n  - **Rename Function**: Suggest semantically meaningful function names\n  - **Rename Variable**: Propose descriptive variable names based on usage\n  - **Retype Variable**: Recommend appropriate data types for variables\n  - **Auto Create Struct**: Generate structure definitions from data patterns\n- **Confidence Scoring**: Each suggestion includes confidence metrics (0.0-1.0)\n- **Selective Application**: Choose which suggestions to apply via interactive UI\n- **Status Tracking**: Real-time feedback on action application success/failure\n- **Tool-Based Architecture**: Uses native LLM tool calling for precise suggestions\n\n### Semantic Graph Tab\n- **GraphRAG Architecture**: Graph-based Retrieval-Augmented Generation for binary analysis\n- **ReIndex Binary**: Build a semantic graph of all functions with call relationships\n- **Semantic Analysis**: LLM-powered function summarization and categorization\n  - Automatic purpose inference from function names and behavior\n  - Security flag detection (network, file I/O, crypto, etc.)\n  - Activity profiling and risk assessment\n- **Security Analysis**: Taint analysis for vulnerability detection\n  - Source-to-sink path finding (e.g., `recv` \u2192 `strcpy`)\n  - Automatic detection of dangerous API usage patterns\n  - TAINT_FLOWS_TO and VULNERABLE_VIA edge creation\n- **Community Detection**: Function clustering using Label Propagation algorithm\n  - Groups related functions based on call relationships\n  - Automatic module/purpose inference (Network I/O, Crypto, File Operations, etc.)\n  - Runs automatically after ReIndex completes\n- **Visual Graph View**: Interactive visualization of function relationships\n- **Full-Text Search**: FTS5-powered search across function names and summaries\n- **Query Tools**: MCP-exposed tools for LLM to query the semantic graph\n\n### Advanced Capabilities\n- **ReAct Autonomous Agent**: Full implementation of the ReAct framework for multi-step analysis\n- **Extended Thinking/Reasoning Effort**: Provider-agnostic reasoning control for deeper analysis\n  - Anthropic: Extended thinking with configurable token budgets (2K-25K tokens)\n  - OpenAI: Reasoning effort levels for o1/o3/gpt-5 models\n  - Ollama: Native thinking parameter support for compatible models (gpt-oss)\n- **Function Calling**: LLM can directly interact with Binary Ninja API to navigate and modify analysis\n- **MCP Integration**: Model Context Protocol support for extensible tool integration\n- **RLHF Dataset Generation**: Collect interaction data to enable model fine-tuning\n- **RAG Augmentation**: Enhance queries with relevant documentation and context\n- **Async Processing**: Non-blocking UI with background LLM processing\n- **Streaming Support**: Real-time response generation with proper cancellation\n\n### Configuration & Settings\n- **Flexible API Configuration**: Support for multiple LLM providers and endpoints\n- **Model Selection**: Choose from available models for different analysis tasks\n- **Reasoning Effort Control**: Session-specific thinking depth configuration\n  - Adjustable per-query or globally in Settings tab\n  - Four levels: None (standard), Low (~2K tokens), Medium (~10K), High (~25K)\n  - Cost and latency warnings for higher levels\n- **Token Limits**: Configurable maximum tokens for cost and performance optimization\n- **Database Management**: Built-in RLHF and RAG database configuration\n- **Thread Safety**: Proper async handling for Binary Ninja's threading requirements\n\n## Future Roadmap\n\n### Planned Features\n- **Model Fine-tuning**: Leverage collected RLHF data for specialized model training\n- **Collaborative Features**: Share analysis insights and suggestions across teams\n- **Hierarchical Communities**: Multi-level community detection for large binaries\n\n### Research Areas\n- **Domain-Specific Models**: Fine-tuned models for specific binary types\n- **Code Generation**: Automated exploit development and patching suggestions\n- **Enhanced Vulnerability Detection**: Expanded taint analysis with data flow tracking\n- **Performance Optimization**: Enhanced suggestion accuracy and speed\n\n## Quick Start Guide\n\n### 1. Installation\n```bash\n# Install dependencies from the plugin directory\npip install -r requirements.txt\n```\n\n### 2. Configuration\n1. Open **Settings \u2192 BinAssist** in Binary Ninja\n2. Configure your LLM provider:\n   - **API Host**: Point to your preferred API endpoint (e.g., `http://localhost:11434` for Ollama)\n   - **API Key**: Set authentication key if required\n   - **Model**: Choose your preferred model (e.g., `gpt-oss:20b`, `claude-sonnet-4-5`, `o1-preview`)\n3. Set database paths for RLHF and RAG features\n4. Adjust token limits based on your needs\n5. Configure **Reasoning Effort** in the Settings tab for models that support extended thinking\n\n### 3. Usage\n1. Load a binary in Binary Ninja\n2. Click the **\ud83e\udd16 robot icon** in the sidebar to open BinAssist\n3. Navigate between tabs based on your analysis needs:\n   - **Explain**: Analyze functions and instructions\n   - **Query**: Interactive chat with the LLM\n   - **Actions**: Get intelligent improvement suggestions\n   - **Semantic Graph**: Build and explore the binary's semantic graph\n   - **RAG**: Manage external documentation for context\n\n### 4. Workflow Examples\n\n**Function Analysis:**\n1. Navigate to a function in Binary Ninja\n2. Switch to the **Explain** tab\n3. Click **\"Explain Function\"** for comprehensive analysis\n\n**Getting Suggestions:**  \n1. Go to the **Actions** tab\n2. Select desired action types (Rename Function, etc.)\n3. Click **\"Analyse\"** to get LLM-powered suggestions\n4. Review confidence scores and apply selected actions\n\n**Interactive Queries:**\n1. Use the **Query** tab for free-form questions\n2. Ask about specific functions, algorithms, or analysis techniques\n3. The LLM has full context of your current binary\n\n**Agentic Analysis (ReAct):**\n1. Enable **Agentic** mode in the Query tab\n2. Enable **MCP** to provide tools for autonomous exploration\n3. Ask complex questions like \"What does this binary do?\" or \"Find security vulnerabilities\"\n4. Watch as the agent autonomously:\n   - Decompiles and analyzes functions\n   - Follows cross-references\n   - Builds understanding through iterative reasoning\n   - Provides comprehensive analysis with step-by-step traces\n\n**Semantic Graph Analysis:**\n1. Go to the **Semantic Graph** tab\n2. Click **\"ReIndex Binary\"** to build the function graph\n   - Community detection runs automatically after indexing\n3. Use **\"Semantic Analysis\"** for LLM-powered function summaries\n4. Run **\"Security Analysis\"** to find vulnerable source\u2192sink paths\n5. Explore the **Visual Graph** to see function relationships\n6. Use **Search** to find functions by name or summary content\n\n## Screenshot\n![Screenshot](https://raw.githubusercontent.com/jtang613/BinAssist/refs/heads/master/res/screenshot1.png)\n![Screenshots](/res/screenshots.gif)\n\n## Homepage\nhttps://github.com/jtang613/BinAssist\n\n\n## Technical Architecture\n\n### Design Patterns\n- **Model-View-Controller (MVC)**: Clean separation of concerns across all tabs\n- **Service-Oriented Architecture**: Modular services for different analysis tasks  \n- **Observer Pattern**: Qt signal-slot communication for responsive UI\n- **Async/Await**: Non-blocking operations with proper thread management\n\n### Key Components\n\n**Controllers:**\n- `ExplainController`: Manages function and instruction analysis\n- `QueryController`: Handles interactive LLM conversations\n- `ActionsController`: Coordinates intelligent suggestion generation\n- `SemanticGraphController`: Orchestrates GraphRAG indexing and analysis\n\n**Services:**\n- `BinaryContextService`: Extracts and formats binary information\n- `ActionsService`: Validates and applies code improvements\n- `RLHFService`: Manages training data collection\n- `RAGService`: Handles document retrieval and context enhancement\n- `GraphRAGService`: Manages semantic graph indexing and queries\n- `GraphStore`: SQLite-backed graph node and edge storage\n- `CommunityDetector`: Label Propagation algorithm for function clustering\n- `TaintAnalyzer`: Source-to-sink vulnerability path detection\n\n**Threading:**\n- `ExplainLLMThread`: Background processing for explanations\n- `QueryLLMThread`: Async chat processing with streaming\n- `ActionsLLMThread`: LLM tool calling for suggestion generation\n- `ReActOrchestratorThread`: Autonomous multi-step agent execution\n\n**Tools & Integration:**\n- **MCP Tools**: Native LLM tool calling for precise actions\n- **Binary Ninja API**: Direct integration with analysis engine\n- **OpenAI Compatibility**: Works with any OpenAI v1-compatible endpoint\n\n## Installation & Compatibility\n\n### System Requirements\n- **Binary Ninja**: Version 4000 or higher\n- **Python**: 3.8+ with Binary Ninja's Python environment\n- **Memory**: 4GB+ recommended for local LLM usage\n- **Storage**: ~100MB for plugin + model-dependent storage\n\n### Platform Support\n\n**Linux** (Primary Development Platform)\n- Fully tested and supported\n- Recommended for production use\n\n**Windows** \n- Should work but less tested\n- Submit issues for Windows-specific problems\n\n**macOS**\n- Should work but less tested  \n- Submit issues for macOS-specific problems\n\n### LLM Provider Setup\n\n**Local LLMs (Recommended):**\n```bash\n# Ollama setup\ncurl -fsSL https://ollama.ai/install.sh | sh\n\n# Pull a general-purpose model\nollama pull llama3.1:8b\n\n# Or pull a reasoning model (recommended for complex analysis)\nollama pull gpt-oss:20b\n\nollama serve  # Runs on http://localhost:11434\n```\n\n**Other Compatible Providers:**\n- **LM Studio**: Desktop GUI for local models\n- **Ollama**: Advanced local LLM interface CLI\n- **Open-WebUI**: Advanced local LLM interface GUI\n- **OpenAI API**: Cloud-based (requires API key)\n- **Anthropic API**: Cloud-based (requires API key)\n- **LiteLLM Proxy**: Access AWS Bedrock, Azure, and 100+ providers\n- **OpenRouter**: Access to multiple models via API\n\n### Installation Steps\n\n1. **Install Dependencies**:\n   ```bash\n   cd /path/to/BinAssist2\n   pip install -r requirements.txt\n   ```\n\n2. **Configure Binary Ninja**:\n   - Install as a plugin in Binary Ninja's plugin directory\n   - Or run directly from development directory\n\n3. **Set up LLM Provider**:\n   - Configure your preferred provider (see LLM Provider Setup above)\n   - Update BinAssist settings with correct API endpoints\n\n## Dependencies\n\n**Required Python Packages:**\n```\nopenai                 # OpenAI and LiteLLM provider API\nanthropic              # Anthropic Claude API\npysqlite3              # Database operations\nmarkdown               # Documentation formatting\nhttpx                  # HTTP client for API calls\nanyio>=4.6             # Async I/O support\nmcp                    # Model Context Protocol client\nwhoosh                 # Full-text search for RAG documents\n```\n\n## Contributing\n\nWe welcome contributions! Please see our contributing guidelines:\n\n- **Bug Reports**: Submit detailed issues with reproduction steps\n- **Feature Requests**: Propose new functionality with clear use cases  \n- **Code Contributions**: Follow existing patterns\n\n## Support & Community\n\n- **GitHub Issues**: Primary support channel for bugs and features\n\n## License\n\nThis plugin is released under the **MIT License** - see LICENSE file for details.\n\n**Minimum Binary Ninja Version**: 5000\n\n**Metadata Version**: 2\n\n\n### Changelog\nAlso adds OpenAI and Anthropic OAuth providers.",
     "minimumbinaryninjaversion": 5000,
     "name": "BinAssist",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/c7d26580-00ae-4c01-8595-f35ff756cf52/platforms/3043/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/c7d26580-00ae-4c01-8595-f35ff756cf52/platforms/3043/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/869b224f-73c7-444b-a523-604384b0e5b1/platforms/3079/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/869b224f-73c7-444b-a523-604384b0e5b1/platforms/3079/download?notrack=1",
     "path": "jtang613_BinAssist",
     "platforms": [
       "Darwin",
@@ -683,8 +683,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 42,
-      "updated_at": "2026-01-04 01:49:27+00:00"
+      "stargazers_count": 44,
+      "updated_at": "2026-01-16 00:37:11+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
     "subdir": "",
@@ -692,7 +692,7 @@
       "ui",
       "helper"
     ],
-    "version": "1.6.0",
+    "version": "1.8.0",
     "view_only": false
   },
   {
@@ -799,7 +799,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 82,
+      "stargazers_count": 83,
       "updated_at": "2024-10-09 14:41:33+00:00"
     },
     "projectUrl": "https://github.com/ahaggard2013/binaryninja-ollama",
@@ -841,7 +841,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 74,
+      "stargazers_count": 76,
       "updated_at": "2025-03-01 05:53:02+00:00"
     },
     "projectUrl": "https://github.com/unknowntrojan/binja_coolsigmaker",
@@ -1112,7 +1112,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 33,
+      "stargazers_count": 34,
       "updated_at": "2025-02-04 02:34:19+00:00"
     },
     "projectUrl": "https://github.com/interruptlabs/semgrep_bn",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1016,
+      "stargazers_count": 1023,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1379,7 +1379,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 19,
+      "stargazers_count": 20,
       "updated_at": "2024-04-10 14:43:17+00:00"
     },
     "projectUrl": "https://github.com/dzervas/frinja",
@@ -1552,16 +1552,16 @@
     "description": "Rust binary string recovery plugin",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1703470664,
+    "lastUpdated": 1768171583,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2023 Cindy Xiao\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# Rust String Slicer\n\nA Binary Ninja plugin to help find the addresses and lengths of strings in Rust binaries.\n\n![A screenshot of Binary Ninja with several structs of type \"RustStringSlice\" defined, each of which contains the address and length of a string.](images/sliced-string-screenshot-border.png)\n\n## Usage\n\nThis plugin provides two new commands:\n\n- _Plugins_ > _Rust String Slicer_ > _Recover String Slices from Readonly Data_\n- _Plugins_ > _Rust String Slicer_ > _Recover String Slices from Code_ \n\n![A screenshot of two entries in the Binary Ninja menu, both under Plugins > Rust String Slicer: Recover String Slices from Readonly Data, and Recover String Slices from Code](images/plugin-actions-border.png)\n\nYou can view the list of recovered strings and their addresses in the Log window.\n\n![The Binary Ninja log window, showing the following text logged under the \"rust_string_slicer.binja_plugin.actions\" category: Candidate string slice b'\\xc3\\xcc\\xcc\\xcc\\xcc\\xcc\\xcc\\xcc' does not decode to a valid UTF-8 string; excluding from final results: 'utf-8' codec can't decode byte 0xc3 in position 0: invalid continuation byte\nRecovered string at addr 0x18003d174, len 0x28: \"library\\core\\src\\unicode\\unicode_data.rs\"\nDefined new RustStringSlice at 0x18003d2c8\nRecovered string at addr 0x18003d174, len 0x28: \"library\\core\\src\\unicode\\unicode_data.rs\"\nDefined new RustStringSlice at 0x18003d2e0\nRecovered string at addr 0x180037ff4, len 0x2c: \"Ll0W8FiHZKeuZFO65DVloBXrq3wo05J9TDdw10yl78k=\"\nDefined new RustStringSlice at 0x180045010\nRecovered string at addr 0x180038020, len 0x2c: \"GONj/LrybW0VQXVpyZRIvZLFPOqUKx5aBVCmW0o4AoY=\"](images/recovered-strings-log-border.png)\n\nThe plugin will also create a new `RustStringSlice` type, for any strings defined in read-only data sections that are made up of a pointer to string data + the length of that string data. You can view all created strings of this type by examining cross-references to the `RustStringSlice` type.\n\n![The Binary Ninja Types and Cross References window, showing references to the RustStringSlice type, which has fields char* address and int64_t length. Cross references include variables with names like \"str_\"src\\lib.rs\"\", \"str_\"C:\\Users\\Administrator\\.cargo\\registry\"\", and \"str_\"Impossible: must only have 0 to 8 input bytes in last chunk, with no invalid lengths\"](images/cross-references-rust-string-slice-type-border.png)\n\n## How does this work?\n\nThe original motivation for this plugin was to recreate the string slicing functionality in the tech preview of the [official IDA Rust Analysis Plugin from Hex-Rays](https://hex-rays.com/blog/rust-analysis-plugin-tech-preview/). That plugin is able to find the lengths of Rust strings, which are not null terminated, via some heuristics for finding the string length data.\n\nThe heuristics we use are the following:\n\n- Enumerate all addresses in the binary's read-only data section which have cross-references.\n- Treating each of those addresses as the beginning of a potential string literal.\n- Follow those cross references to see if there is some information around the site of that cross reference about string length.\n\nThe _Recover String Slices from Readonly Data_ command uses cross references which point to a data section. For each of these cross references, try to interpret the cross referenced address as a structure like the following, with some heuristics to determine whether the found length_of_string_literal is reasonable:\n\n```\nQWORD address_of_candidate_string_literal\nQWORD length_of_string_literal\n```\n\n![](images/readonly-data-string-slices-border.png)\n\n\nThe _Recover String Slices from Code_ command uses cross references which point to a code section. For each of these cross references, check to see if the subsequent instructions contain a move of an immediate value to a memory location; the immediate value is then taken as the string length. For example, for x64 binaries, look for instructions like this:\n\n```\nlea rax, <address_of_candidate_string_literal>\nmov [rsp+<string_var>.<string_pointer_field>], rax\nmov [rsp+<string_var>.<string_length_field>], 15\n```\n\n![](images/code-string-slices-border.png)\n\n\n## Development\n\n### Setting up a development environment\n\nTo set up a development environment, including setting up a Python virtual environment:\n\n```\npython -m venv .venv && . .venv/bin/activate\npython -m pip install -r requirements.txt\npython -m pip install -r dev-requirements.txt\npython $PATH_TO_BINARY_NINJA_INSTALLATION/scripts/install_api.py\n```\n\nFor formatting, linting, and running unit tests locally, install [Nox](https://nox.thea.codes/en/stable/tutorial.html), then:\n\n```\nnox\n```\n\nYou can also invoke each task separately; see [noxfile.py](noxfile.py) for more details on available tasks:\n\n```\nnox -s format\nnox -s lint\nnox -s test\n```\n\nLinting and unit testing (both against multiple Python versions) are also set up in CI on [GitHub Actions](.github/workflows/ci.yml).\n\n### Testing local versions of the plugin\n\nTo test the plugin locally in your own Binary Ninja installation during development, create a symbolic link between your development folder, and the [Binary Ninja user plugins folder](https://docs.binary.ninja/guide/index.html#user-folder), so that your development folder is loaded by Binary Ninja on startup as a plugin.\n\n- MacOS:\n\n    ```sh\n    ln -s --relative . ~/Library/Application\\ Support/Binary\\ Ninja/plugins/rust_string_slicer\n    ```\n\n- Linux:\n\n    ```sh\n    ln -s --relative . ~/.binaryninja/plugins/rust_string_slicer\n    ```\n\n- Windows (Powershell):\n    ```powershell\n    New-Item -ItemType Junction -Value $(Get-Location) -Path \"$env:APPDATA\\Binary Ninja\\plugins\\rust_string_slicer\n    ```\n\nYou should then change the values of the following Python settings in Binary Ninja to point to inside your development folder's virtual environment:\n\n- `python.binaryOverride`: Set this to the path of the Python interpreter inside your development virtual environment, e.g. `$DEVELOPMENT_FOLDER/rust_string_slicer/.venv/bin/python/`\n- `python.virtualenv`: Set this to the path of the `site-packages` directory inside your development virtual environment, e.g. `$DEVELOPMENT_FOLDER/rust_string_slicer/.venv/lib/python3.11/site-packages`",
+    "longdescription": "# Rust String Slicer\n\nA Binary Ninja plugin to help find the addresses and lengths of strings in Rust binaries.\n\n![A screenshot of Binary Ninja with several structs of type \"&str\" defined, each of which contains the address and length of a string.](images/sliced-string-screenshot-border.png)\n\n## Usage\n\nThis plugin provides two new commands:\n\n- _Plugins_ > _Rust String Slicer_ > _Recover String Slices from Readonly Data_\n- _Plugins_ > _Rust String Slicer_ > _Recover String Slices from Code_ \n\n![A screenshot of two entries in the Binary Ninja menu, both under Plugins > Rust String Slicer: Recover String Slices from Readonly Data, and Recover String Slices from Code](images/plugin-actions-border.png)\n\nYou can view the list of recovered strings and their addresses in the Log window.\n\n![The Binary Ninja log window, showing log messages under the \"rust_string_slicer.binja_plugin.actions\" log category. The messages include both new definitions of the string slice type at certain locations ('Defined new `&str` at 0x1401c6b38\" )and the addresses and lengths of the recovered strings themselves ('Recovered string at addr 0x1401c6a09, len 0xb: 'src\\main.rs')](images/recovered-strings-log-border.png)\n\nThe plugin will also create a new `&str` type, for any strings defined in read-only data sections that are made up of a pointer to string data + the length of that string data. `&str` is a Rust primitive type called a \"string slice\", and is the type used in Rust for string literals ([docs](https://doc.rust-lang.org/std/primitive.str.html)).\n\nYou can view all created strings of this type by examining cross-references to the `&str` type.\n\n![The Binary Ninja Types and Cross References window, showing references to the &str type, which has fields char* _address and int64_t _length. Cross references include variables with names like str_\"C:\\Users\\User\\.cargo\\registry\\src\" and str_\"Impossible: must only have 0 to 8 input bytes in last chunk, with no invalid lengths\"](images/cross-references-rust-string-slice-type-border.png)\n\n## How does this work?\n\nThe original motivation for this plugin was to recreate the string slicing functionality in the tech preview of the [official IDA Rust Analysis Plugin from Hex-Rays](https://hex-rays.com/blog/rust-analysis-plugin-tech-preview/). That plugin is able to find the lengths of Rust strings, which are not null terminated, via some heuristics for finding the string length data.\n\nThe heuristics we use are the following:\n\n- Enumerate all addresses in the binary's read-only data section which have cross-references.\n- Treating each of those addresses as the beginning of a potential string literal.\n- Follow those cross references to see if there is some information around the site of that cross reference about string length.\n\nThe _Recover String Slices from Readonly Data_ command uses cross references which point to a data section. For each of these cross references, try to interpret the cross referenced address as a structure like the following, with some heuristics to determine whether the found length_of_string_literal is reasonable:\n\n```\nQWORD address_of_candidate_string_literal\nQWORD length_of_string_literal\n```\n\n![](images/readonly-data-string-slices-border.png)\n\n\nThe _Recover String Slices from Code_ command uses cross references which point to a code section. For each of these cross references, check to see if the subsequent instructions contain a move of an immediate value to a memory location; the immediate value is then taken as the string length. For example, for x64 binaries, look for instructions like this:\n\n```\nlea rax, <address_of_candidate_string_literal>\nmov [rsp+<string_var>.<string_pointer_field>], rax\nmov [rsp+<string_var>.<string_length_field>], 15\n```\n\n![](images/code-string-slices-border.png)\n\n\n## Development\n\n### Setting up a development environment\n\nTo set up a development environment, including setting up a Python virtual environment:\n\n```\npython -m venv .venv && . .venv/bin/activate\npython -m pip install -r requirements.txt\npython -m pip install -r dev-requirements.txt\npython $PATH_TO_BINARY_NINJA_INSTALLATION/scripts/install_api.py\n```\n\nFor formatting, linting, and running unit tests locally, install [Nox](https://nox.thea.codes/en/stable/tutorial.html), then:\n\n```\nnox\n```\n\nYou can also invoke each task separately; see [noxfile.py](noxfile.py) for more details on available tasks:\n\n```\nnox -s format\nnox -s lint\nnox -s test\n```\n\nLinting and unit testing (both against multiple Python versions) are also set up in CI on [GitHub Actions](.github/workflows/ci.yml).\n\n### Testing local versions of the plugin\n\nTo test the plugin locally in your own Binary Ninja installation during development, create a symbolic link between your development folder, and the [Binary Ninja user plugins folder](https://docs.binary.ninja/guide/index.html#user-folder), so that your development folder is loaded by Binary Ninja on startup as a plugin.\n\n- MacOS:\n\n    ```sh\n    ln -s `pwd` ~/Library/Application\\ Support/Binary\\ Ninja/plugins/rust_string_slicer\n    ```\n\n- Linux:\n\n    ```sh\n    ln -s --relative . ~/.binaryninja/plugins/rust_string_slicer\n    ```\n\n- Windows (Powershell):\n    ```powershell\n    New-Item -ItemType Junction -Value $(Get-Location) -Path \"$env:APPDATA\\Binary Ninja\\plugins\\rust_string_slicer\n    ```\n\nYou should then change the values of the following Python settings in Binary Ninja to point to inside your development folder's virtual environment:\n\n- `python.binaryOverride`: Set this to the path of the Python interpreter inside your development virtual environment, e.g. `$DEVELOPMENT_FOLDER/rust_string_slicer/.venv/bin/python/`\n- `python.virtualenv`: Set this to the path of the `site-packages` directory inside your development virtual environment, e.g. `$DEVELOPMENT_FOLDER/rust_string_slicer/.venv/lib/python3.11/site-packages`\n\n### Changelog\n## [1.1.1](https://github.com/cxiao/rust_string_slicer/compare/v1.1.0...v1.1.1) (2026-01-11)\n\n\n### Bug Fixes\n\n* Fix broken type existence check after rename of RustStringSlice to &str ([28fec02](https://github.com/cxiao/rust_string_slicer/commit/28fec020f1d27aa44ac264950c61cfa8239713bd))",
     "minimumbinaryninjaversion": 3814,
     "name": "Rust String Slicer",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/17a000f0-1dc0-49d2-bf1c-6cf118f786b9/versions/74270228-7a69-480b-b8c3-aae4e8d11325/platforms/1457/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/17a000f0-1dc0-49d2-bf1c-6cf118f786b9/versions/74270228-7a69-480b-b8c3-aae4e8d11325/platforms/1457/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/17a000f0-1dc0-49d2-bf1c-6cf118f786b9/versions/dbd73ba2-e6b7-43a4-ba6b-8065ab7d5296/platforms/3073/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/17a000f0-1dc0-49d2-bf1c-6cf118f786b9/versions/dbd73ba2-e6b7-43a4-ba6b-8065ab7d5296/platforms/3073/download?notrack=1",
     "path": "cxiao_rust_string_slicer",
     "platforms": [
       "Darwin",
@@ -1571,14 +1571,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 22,
-      "updated_at": "2023-12-25 02:17:44+00:00"
+      "updated_at": "2026-01-11 22:46:23+00:00"
     },
     "projectUrl": "https://github.com/cxiao/rust_string_slicer",
     "subdir": "",
     "type": [
       "helper"
     ],
-    "version": "1.0.3",
+    "version": "1.1.1",
     "view_only": false
   },
   {
@@ -1608,7 +1608,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 17,
+      "stargazers_count": 16,
       "updated_at": "2025-06-01 23:04:07+00:00"
     },
     "projectUrl": "https://github.com/saagarjha/binja-swift-demangler",
@@ -1878,7 +1878,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 673,
+      "stargazers_count": 674,
       "updated_at": "2026-01-05 18:42:44+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -1992,7 +1992,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 767,
+      "stargazers_count": 768,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2225,7 +2225,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 76,
+      "stargazers_count": 77,
       "updated_at": "2024-04-17 01:32:21+00:00"
     },
     "projectUrl": "https://github.com/WhatTheFuzz/binaryninja-openai",
@@ -2918,7 +2918,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 214,
+      "stargazers_count": 215,
       "updated_at": "2026-01-01 01:56:46+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2270,
+      "stargazers_count": 2277,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2480,
+      "stargazers_count": 2484,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3494,7 +3494,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 91,
+      "stargazers_count": 89,
       "updated_at": "2023-04-28 15:38:05+00:00"
     },
     "projectUrl": "https://github.com/zznop/bn-uefi-helper",
@@ -3647,7 +3647,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 646,
+      "stargazers_count": 649,
       "updated_at": "2025-03-14 02:16:09+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -4148,7 +4148,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 31,
+      "stargazers_count": 32,
       "updated_at": "2021-02-02 12:43:27+00:00"
     },
     "projectUrl": "https://github.com/f0rki/bn-goloader",
@@ -4540,7 +4540,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 137,
+      "stargazers_count": 139,
       "updated_at": "2024-02-15 00:51:37+00:00"
     },
     "projectUrl": "https://github.com/zznop/bnida",
@@ -5196,7 +5196,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 16,
+      "stargazers_count": 17,
       "updated_at": "2019-09-04 19:52:43+00:00"
     },
     "projectUrl": "https://github.com/whitequark/binja-i8086",
@@ -6087,7 +6087,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 20,
+      "stargazers_count": 22,
       "updated_at": "2024-01-25 16:20:41+00:00"
     },
     "projectUrl": "https://github.com/lwerdna/keypatch_binja",
@@ -6396,7 +6396,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 108,
+      "stargazers_count": 111,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6514,7 +6514,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 159,
+      "stargazers_count": 168,
       "updated_at": "2025-12-16 18:52:50+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
@@ -6712,7 +6712,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 33,
+      "stargazers_count": 44,
       "updated_at": "2025-12-06 16:20:11+00:00"
     },
     "projectUrl": "https://github.com/jonpalmisc/ibis",
@@ -6750,7 +6750,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 24,
+      "stargazers_count": 25,
       "updated_at": "2025-10-20 06:27:29+00:00"
     },
     "projectUrl": "https://github.com/FFRI/binja-swift-analyzer",
@@ -6865,7 +6865,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 12,
+      "stargazers_count": 13,
       "updated_at": "2025-12-11 23:00:01+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
@@ -7139,7 +7139,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 231,
+      "stargazers_count": 235,
       "updated_at": "2025-10-11 13:21:50+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
