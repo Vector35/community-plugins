@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1023,
+      "stargazers_count": 1024,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1878,7 +1878,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 674,
+      "stargazers_count": 679,
       "updated_at": "2026-01-05 18:42:44+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2416,7 +2416,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 408,
+      "stargazers_count": 409,
       "updated_at": "2022-07-08 15:00:16+00:00"
     },
     "projectUrl": "https://github.com/pbiernat/ripr",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2277,
+      "stargazers_count": 2281,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2484,
+      "stargazers_count": 2485,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -5118,7 +5118,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 135,
+      "stargazers_count": 136,
       "updated_at": "2023-02-15 18:50:02+00:00"
     },
     "projectUrl": "https://github.com/ForAllSecure/bncov",
@@ -6419,16 +6419,16 @@
     "description": "BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1767147152,
+    "lastUpdated": 1768852275,
     "license": {
       "name": "MIT",
       "text": "MIT License\r\n\r\nCopyright (c) 2025 xorhex\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
     },
-    "longdescription": "BinYars intergrates YARA-X with Binary Ninja. BinYars comes in two parts, the rust library which is used for the YARA-X scanning and a Python sidewidget which acts as a front end to the Rust component.  The Python sidewidget provides both an interactive scanning interface along with a rule editor. For the commerical and higher Binary Ninja editions, the Rust component also will re-organize the binaries in the project view based off of metadata set in the YARA-X rules.\n\n### Changelog\nUpdates:\r\n\r\n- Fixed a performance issue caused by a large number of string matches being captured for rendering in the UI.  This does not affect rule matching on a file; this affects the number of string matches (per string matched in the rule) rendered in the UI.  By default the first 20 matches per string are shown in the UI - this number can be adjusted via a setting in the UI.\r\n\r\nTargets the Stable Binary Ninja Version: 5.2\r\n\r\nDue to included rust binaries, this release only supports:\r\n\r\n- Windows AMD64\r\n- Linux x64\r\n- Mac ARM64\r\n\r\nTo build the Rust component manually, see: https://github.com/xorhex/BinYars",
+    "longdescription": "BinYars intergrates YARA-X with Binary Ninja. BinYars comes in two parts, the rust library which is used for the YARA-X scanning and a Python sidewidget which acts as a front end to the Rust component.  The Python sidewidget provides both an interactive scanning interface along with a rule editor. For the commerical and higher Binary Ninja editions, the Rust component also will re-organize the binaries in the project view based off of metadata set in the YARA-X rules.\n\n### Changelog\n## Updates:\r\n\r\n  - Updated Yara-X to 1.11.0\r\n\r\n## New Feature:\r\n\r\n  - New metadata field, BNTrigger; which allows for code snippets to be included with the rule.  What makes this special is the fact that console.log messages (following this format `console.hex(\"BN|rule:<rule name>|<ValueName>: \", <value>)`) are prepended to the script as variables, thus allowing the embedded script to make use of the values extracted by the rule.  The code must be base64 encoded in the rule itself.  \r\n\r\nThe format is \"\\<name\\>|\\<base64 encoded snippet\\>\"; for example:\r\n\r\n```\r\nBNTrigger   = \"Extract File|ZnJvbSBiaW5hcnluaW5qYSBpbXBvcnQgVHJhbnNmb3JtOyAKaW1wb3J0IGhhc2hsaWI7IAoKc2hhMjU2ID0gaGFzaGxpYi5zaGEyNTYoYnYuZmlsZS5yYXcucmVhZCgwLCBidi5maWxlLnJhdy5sZW5ndGgpKS5oZXhkaWdlc3QoKQoKY3VycmVudF9wcm9qZWN0LmNyZWF0ZV9maWxlKFRyYW5zZm9ybVsnWE9SJ10uZGVjb2RlKGJ2LnJlYWQoT2Zmc2V0LCBTaXplKSwgeydrZXknOiBieXRlcyhbS2V5XSl9KSwgZm9sZGVyPU5vbmUsIG5hbWU9ZiJleHRyYWN0ZWRfZnJvbV97YnYucHJvamVjdF9maWxlLm5hbWUuc3BsaXQoJy4nKVswXX0uYmluIiwgZGVzY3JpcHRpb249ZiJFeHRyYWN0ZWQgZnJvbToge3NoYTI1Nn0iKQ==\"\r\n```\r\n\r\nMore details can be found here: https://github.com/xorhex/BinYars-SideWidget/blob/main/README.md\r\n\r\n\r\n\r\nBelow is an example of the code snippet, decoded along with the values extracted from the rule.  The `Key`, `Size`, and `Offset` in this example are the variables added to the snippet.  Notice the snippet (which starts at the first import statement) makes use of those variables.\r\n  ![](https://github.com/xorhex/BinYars-SideWidget/blob/222bab4e50253e32dbee731bf9c98f786bceb44f/pictures/BinYars_ActionPopUpModule.png)\r\n\r\nThe plugin does not yet allow for the user to click a button to automatically execute the code; however, until that feature is added, the plugin let's you copy and  paste that code into the console to execute it.  \r\n\r\n## General Info\r\n\r\nTargets the Stable Binary Ninja Version: 5.2\r\n\r\nDue to included rust binaries, this release only supports:\r\n\r\n -  Windows AMD64\r\n -  Linux x64\r\n -  Mac ARM64\r\n\r\nTo build the Rust component manually, see: https://github.com/xorhex/BinYars",
     "minimumbinaryninjaversion": 8722,
     "name": "BinYars",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/3e4ece59-d36f-481f-a2f1-7115b0e17bd8/platforms/3013/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/3e4ece59-d36f-481f-a2f1-7115b0e17bd8/platforms/3013/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/d885f026-dee7-4a59-9086-f6e8a809e8d4/platforms/3085/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/d885f026-dee7-4a59-9086-f6e8a809e8d4/platforms/3085/download?notrack=1",
     "path": "xorhex_BinYars_SideWidget",
     "platforms": [
       "Darwin",
@@ -6438,14 +6438,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 1,
-      "updated_at": "2025-12-31 02:12:32+00:00"
+      "updated_at": "2026-01-19 19:51:15+00:00"
     },
     "projectUrl": "https://github.com/xorhex/BinYars-SideWidget",
     "subdir": "",
     "type": [
       "helper"
     ],
-    "version": "v1.2.8722",
+    "version": "v1.3.8722",
     "view_only": false
   },
   {
@@ -6789,7 +6789,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "updated_at": "2026-01-09 06:57:29+00:00"
     },
     "projectUrl": "https://github.com/akrutsinger/binja-codemode-mcp",
@@ -6865,7 +6865,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 13,
+      "stargazers_count": 14,
       "updated_at": "2025-12-11 23:00:01+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
