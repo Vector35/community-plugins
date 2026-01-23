@@ -93,7 +93,7 @@
 | [MSVC](https://github.com/0x1F9F1/binja-msvc)|Brick|Parses MSVC structures to improve analysis|2019-07-12|helper|python2, python3|MIT |
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
-| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2025-12-19|ui, helper|python3|Apache-2.0 |
+| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-01-23|ui, helper|python3|Apache-2.0 |
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2025-05-21|binaryview, core, ui|python3|MIT |
 | [Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|Galen Williamson|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT |
 | [NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|Accenture (Martin Petran)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-01-22|architecture|C++|Apache-2.0 |
