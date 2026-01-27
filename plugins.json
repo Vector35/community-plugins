@@ -841,7 +841,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 76,
+      "stargazers_count": 77,
       "updated_at": "2025-03-01 05:53:02+00:00"
     },
     "projectUrl": "https://github.com/unknowntrojan/binja_coolsigmaker",
@@ -2187,7 +2187,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 44,
+      "stargazers_count": 45,
       "updated_at": "2023-01-28 19:57:01+00:00"
     },
     "projectUrl": "https://github.com/AsherDLL/PCDump-bn",
@@ -2494,7 +2494,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 546,
+      "stargazers_count": 547,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2284,
+      "stargazers_count": 2285,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -6475,7 +6475,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 71,
+      "stargazers_count": 73,
       "updated_at": "2026-01-23 14:46:34+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
@@ -6514,7 +6514,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 197,
+      "stargazers_count": 199,
       "updated_at": "2025-12-16 18:52:50+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
@@ -6537,16 +6537,16 @@
     "description": "Game ROM Loader for Binary Ninja",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1746916655,
+    "lastUpdated": 1769511023,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024 redthing1\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "\n# Game ROM Loader\n\nBinary Ninja loader for some game ROMs.\n\n## features\n\n+ [x] load GBA (GameBoy Advance) ROMs (`armv4`)\n+ [x] load NDS (Nintendo DS) ROMs (`armv4`/`armv5`)\n+ [x] load: PSP (PlayStation Portable) ELF (`mipsel32`)\n+ [ ] planned: Wii (Nintendo Wii) binary (`powerpc`)\n\n## Credits\n+ [sideway's GBA Loader](https://github.com/SiD3W4y/binja-toolkit)\n+ [wheremyfoodat's NDS Loader](https://gist.github.com/wheremyfoodat/79208c9e14a7242e6189b07d0a226ecf)\n",
+    "longdescription": "\n# Game ROM Loader\n\nBinary Ninja loader for some game ROMs.\n\n## features\n\n+ [x] load GBA (GameBoy Advance) ROMs (`armv4`)\n+ [x] load NDS (Nintendo DS) ROMs (`armv4`/`armv5`)\n+ [x] load: PSP (PlayStation Portable) ELF (`mipsel32`)\n+ [ ] planned: Wii (Nintendo Wii) binary (`powerpc`)\n+ [x] load: PS2 (PlayStation 2) ELF (`r5900l`)\n+ [x] load: 3DS (Nintendo 3DS) binary (`armv5`/`armv6`)\n\n\n### Changelog\n**Full Changelog**: https://github.com/redthing1/binja_gameroms_plugin/compare/0.0.10...v0.2.0",
     "minimumbinaryninjaversion": 3164,
     "name": "Game ROM Loader",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/cdc2a366-c45d-460b-9498-63df4d75bf7f/versions/dfd9c4fd-7776-4520-9acf-ee989dbb20f1/platforms/2344/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/cdc2a366-c45d-460b-9498-63df4d75bf7f/versions/dfd9c4fd-7776-4520-9acf-ee989dbb20f1/platforms/2344/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/cdc2a366-c45d-460b-9498-63df4d75bf7f/versions/36bf2bf4-646b-4dc8-8c04-052df0750789/platforms/3115/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/cdc2a366-c45d-460b-9498-63df4d75bf7f/versions/36bf2bf4-646b-4dc8-8c04-052df0750789/platforms/3115/download?notrack=1",
     "path": "redthing1_binja_gameroms_plugin",
     "platforms": [
       "Darwin",
@@ -6556,7 +6556,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 1,
-      "updated_at": "2025-05-10 22:37:35+00:00"
+      "updated_at": "2026-01-27 10:50:23+00:00"
     },
     "projectUrl": "https://github.com/redthing1/binja_gameroms_plugin",
     "subdir": "",
@@ -6566,7 +6566,7 @@
       "core",
       "ui"
     ],
-    "version": "0.0.10",
+    "version": "0.2.0",
     "view_only": false
   },
   {
@@ -6789,7 +6789,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "updated_at": "2026-01-09 06:57:29+00:00"
     },
     "projectUrl": "https://github.com/akrutsinger/binja-codemode-mcp",
