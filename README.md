@@ -64,7 +64,7 @@
 | [GO Loader Assist](https://github.com/f0rki/bn-goloader)|Michael Rodler|Short script that parses go symbol table and renames/creates functions.|2021-02-02|ui|python2, python3|MIT |
 | [GTIRB](https://github.com/adrianherrera/binaryninja-gtirb)|Adrian Herrera|Support the GrammaTech Intermediate Representation for Binaries (GTIRB) in Binary Ninja|2024-10-07|helper|python3|MIT |
 | [Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|Hugo Porcher (@icecr4ck)|A loader and diassembler for Game Boy ROMs.|2020-11-17|architecture, binaryview|python3|MIT |
-| [Game ROM Loader](https://github.com/redthing1/binja_gameroms_plugin)|redthing1|Game ROM Loader for Binary Ninja|2025-05-10|architecture, binaryview, core, ui|python3|MIT |
+| [Game ROM Loader](https://github.com/redthing1/binja_gameroms_plugin)|redthing1|Game ROM Loader for Binary Ninja|2026-01-27|architecture, binaryview, core, ui|python3|MIT |
 | [GameCube DOL](https://github.com/PistonMiner/binaryninja-gc-dol)|Linus S. (aka PistonMiner)|GameCube DOL file BinaryView|2021-07-08|binaryview|python3|MIT |
 | [GameCube symbol map loader](https://github.com/PistonMiner/binaryninja-gc-load-map)|Linus S. (aka PistonMiner)|GameCube symbol map loader|2021-07-08|helper|python3|MIT |
 | [Ghinja](https://github.com/Martyx00/ghinja)|Martin Petran|Plugin to embed Ghidra Decompiler into Binary Ninja|2022-06-08|ui|python3|Apache-2.0 |
