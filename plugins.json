@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1026,
+      "stargazers_count": 1027,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1570,7 +1570,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 22,
+      "stargazers_count": 23,
       "updated_at": "2026-01-11 22:46:23+00:00"
     },
     "projectUrl": "https://github.com/cxiao/rust_string_slicer",
@@ -1800,7 +1800,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 32,
+      "stargazers_count": 31,
       "updated_at": "2024-03-03 20:53:48+00:00"
     },
     "projectUrl": "https://github.com/Njord0/BNPyc",
@@ -1878,7 +1878,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 680,
+      "stargazers_count": 681,
       "updated_at": "2026-01-05 18:42:44+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -1992,7 +1992,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 768,
+      "stargazers_count": 769,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2108,7 +2108,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 9,
+      "stargazers_count": 10,
       "updated_at": "2025-07-29 08:49:14+00:00"
     },
     "projectUrl": "https://github.com/dipusone/golang_pclntab_parser",
@@ -2187,7 +2187,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 45,
+      "stargazers_count": 46,
       "updated_at": "2023-01-28 19:57:01+00:00"
     },
     "projectUrl": "https://github.com/AsherDLL/PCDump-bn",
@@ -2339,7 +2339,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 103,
+      "stargazers_count": 104,
       "updated_at": "2025-02-15 00:29:08+00:00"
     },
     "projectUrl": "https://github.com/seeinglogic/ariadne",
@@ -2918,7 +2918,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 215,
+      "stargazers_count": 216,
       "updated_at": "2026-01-01 01:56:46+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2285,
+      "stargazers_count": 2290,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2487,
+      "stargazers_count": 2488,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -5388,7 +5388,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 21,
+      "stargazers_count": 22,
       "updated_at": "2020-06-08 13:56:15+00:00"
     },
     "projectUrl": "https://github.com/janbbeck/CleanTricks",
@@ -5780,7 +5780,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 344,
+      "stargazers_count": 345,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -6396,7 +6396,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 111,
+      "stargazers_count": 112,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6475,7 +6475,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 73,
+      "stargazers_count": 74,
       "updated_at": "2026-01-23 14:46:34+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
@@ -6514,7 +6514,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 199,
+      "stargazers_count": 201,
       "updated_at": "2025-12-16 18:52:50+00:00"
     },
     "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
@@ -6555,7 +6555,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "updated_at": "2026-01-27 10:50:23+00:00"
     },
     "projectUrl": "https://github.com/redthing1/binja_gameroms_plugin",
@@ -6887,7 +6887,7 @@
     "description": "Analyze things on the Moon",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1747869731,
+    "lastUpdated": 1769680319,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024-2025 redthing1\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -6895,8 +6895,8 @@
     "longdescription": "# binja_moonanalyzer\r\n\r\nbinja: analyze things on the moon\r\n\r\n## overview\r\n\r\n- the idea of this project is to enable ai-assisted binary analysis in a chat-like fashion.\r\n- unlike many ai-assisted analysis tools, **moonanalyzer** is designed for chat rather than api calls. this tool is for conversational, stateful binary analysis in a way that's closer to the human workflow.\r\n- you, the user, are in the front seat, and can locate interesting code; when you find some, you can use the quick analyze tool to generate a contextualized prompt to send to the moon (your llm chat) for analysis.\r\n- the llm sends back a dsl script that can rename things and add comments based on its analysis of the decompilation.\r\n- it's designed in the way that you can keep adding to a stateful chat in a back-and-forth, gradually analyzing the binary.\r\n\r\n## features\r\n\r\n- smart analyze: send snippets of HLIL and disassembly and get back DSL that can rename and retype things\r\n- smart patch: send snippets of HLIL and disassembly along with an objective and get back a patch\r\n\r\n## guide\r\n\r\n- ensure python dependency `lark` (for parsing) is installed\r\n- go to settings, set scope to project/resource, and set project context under **MoonAnalyzer**\r\n- navigate to a function, and use Plugins > MoonAnalyzer and an analyze command\r\n- paste the prompt into a llm chat interface\r\n- use Plugins > MoonAnalyzer > Execute BN-DSL and run the llm output",
     "minimumbinaryninjaversion": 3164,
     "name": "Moon Analyzer",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/95719044-7e04-44ba-937f-7b4bb7aa5412/versions/d3e720ff-b15e-460b-bff8-5ebf65ea6d82/platforms/2389/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/95719044-7e04-44ba-937f-7b4bb7aa5412/versions/d3e720ff-b15e-460b-bff8-5ebf65ea6d82/platforms/2389/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/95719044-7e04-44ba-937f-7b4bb7aa5412/versions/b0c53088-43c3-4f51-b685-36de052853db/platforms/3121/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/95719044-7e04-44ba-937f-7b4bb7aa5412/versions/b0c53088-43c3-4f51-b685-36de052853db/platforms/3121/download?notrack=1",
     "path": "redthing1_binja_moonanalyzer",
     "platforms": [
       "Darwin",
@@ -6906,7 +6906,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 5,
-      "updated_at": "2025-05-21 23:22:11+00:00"
+      "updated_at": "2026-01-29 09:51:59+00:00"
     },
     "projectUrl": "https://github.com/redthing1/binja_moonanalyzer",
     "subdir": "",
@@ -6915,7 +6915,7 @@
       "core",
       "ui"
     ],
-    "version": "0.3.0",
+    "version": "0.4.0",
     "view_only": false
   },
   {
