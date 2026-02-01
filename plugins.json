@@ -143,7 +143,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 240,
+      "stargazers_count": 241,
       "updated_at": "2025-07-01 15:21:37+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -279,16 +279,16 @@
     "description": "Playstation 3 ELF loader",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1732813908,
+    "lastUpdated": 1769942426,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024 Valters Tomsons\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "![](image.png)\n\n# bninja-ps3\n\nWork-in-process Cell PPU (*Playstation 3*) ELF loader for Binary Ninja 4.x\n\nOnly supports decrypted PS3 executable ELFs `EBOOT.BIN`. Not compatible with libraries `.sprx`, system modules, or other ELF types.\n\nTested with Binary Ninja:\n* `4.1.5902-stable`\n* `4.2.6455-stable`\n\n# Usage\n\n1. Clone this repo to `~/.binaryninja/plugins/`\n1. Open bninja and load a PS3 executable\n1. Select \"Playstation 3 ELF\" binary view\n\n## Syscalls\n\nTo define syscalls:\n\n1. Right-click anywhere \n1. `Plugins`\n1. `ps3-syscall-sweep`\n\nSyscalls will then appear under `System types`. Code references might be incomplete if run before analysis can finish or where decompilation fails.\n\n# Known Issues\n\n* DWARF symbols are not recognized\n* system call definitions don't have arguments\n* bninja does not lift many PPC instructions, breaking decompilation:\n\n```\nclrldi\nlfs\nfcmpu\nstfs\nlfd\nfmuls\nfadds\nfmadds\nfdivs\nmtocrf\nfrsp\nfcfid\ncmpdi\nfmr\nstfd\nvmaddfp\npsq_lx\nstvx\n```\n\n## License\n\nThis plugin is released under an [MIT license](./license).\n\n## Resources\n\n* https://www.psdevwiki.com/ps3/SELF_-_SPRX\n* http://www.openwatcom.com/ftp/devel/docs/elf-64-gen.pdf\n* https://refspecs.linuxfoundation.org/ELF/ppc64/PPC-elf64abi.html\n* https://refspecs.linuxfoundation.org/elf/gabi4+/ch4.eheader.html\n* https://github.com/clienthax/Ps3GhidraScripts\n* https://github.com/RPCS3/rpcs3/\n* https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html\n* https://gist.github.com/xerpi/4aaf83ca59c33190c960881e3a364627#file-nidreader-py\n* https://www.psdevwiki.com/ps3/PRX#PS3",
+    "longdescription": "# binja-ps3 (vv0.0.8)\nAuthor: **faith**\n\n_Playstation 3 ELF loader_\n\n## Description:\n\n\n\n\n## Installation Instructions\n\n### Darwin\n\n\n\n### Windows\n\n\n\n### Linux\n\n\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4000\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n\n\n### Changelog\n* Added script to assert value of `r2` register in functions to their `TOC_BASE`\r\n* Count of TOCs is now printed during analysis\r\n* OPD section now has a name\r\n* Misc python voodoo",
     "minimumbinaryninjaversion": 4000,
     "name": "binja-ps3",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/379d767f-86e9-414c-b725-947b7a009cf2/versions/1fcb89cf-675c-4206-8748-6af75db53ed7/platforms/1239/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/379d767f-86e9-414c-b725-947b7a009cf2/versions/1fcb89cf-675c-4206-8748-6af75db53ed7/platforms/1239/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/379d767f-86e9-414c-b725-947b7a009cf2/versions/621a1c82-1080-45e7-ba85-c1192a44fe19/platforms/3139/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/379d767f-86e9-414c-b725-947b7a009cf2/versions/621a1c82-1080-45e7-ba85-c1192a44fe19/platforms/3139/download?notrack=1",
     "path": "valterstomsons_bninjaps3",
     "platforms": [
       "Darwin",
@@ -298,14 +298,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 10,
-      "updated_at": "2024-11-28 17:11:48+00:00"
+      "updated_at": "2026-02-01 10:40:26+00:00"
     },
     "projectUrl": "https://github.com/valters-tomsons/bninja-ps3",
     "subdir": "",
     "type": [
       "binaryview"
     ],
-    "version": "v0.0.6",
+    "version": "v0.0.8",
     "view_only": false
   },
   {
@@ -1570,7 +1570,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 23,
+      "stargazers_count": 24,
       "updated_at": "2026-01-11 22:46:23+00:00"
     },
     "projectUrl": "https://github.com/cxiao/rust_string_slicer",
@@ -1992,7 +1992,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 769,
+      "stargazers_count": 770,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2290,
+      "stargazers_count": 2293,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2488,
+      "stargazers_count": 2489,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3647,7 +3647,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 649,
+      "stargazers_count": 650,
       "updated_at": "2025-03-14 02:16:09+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
