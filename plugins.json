@@ -143,7 +143,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 241,
+      "stargazers_count": 242,
       "updated_at": "2025-07-01 15:21:37+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 486,
+      "stargazers_count": 488,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -683,7 +683,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 46,
+      "stargazers_count": 48,
       "updated_at": "2026-02-01 15:42:14+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -841,7 +841,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 77,
+      "stargazers_count": 78,
       "updated_at": "2025-03-01 05:53:02+00:00"
     },
     "projectUrl": "https://github.com/unknowntrojan/binja_coolsigmaker",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1027,
+      "stargazers_count": 1032,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1494,7 +1494,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "updated_at": "2023-12-14 17:48:13+00:00"
     },
     "projectUrl": "https://github.com/PistonMiner/binaryninja-go-callconv",
@@ -1878,7 +1878,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 681,
+      "stargazers_count": 682,
       "updated_at": "2026-01-30 17:41:01+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -1992,7 +1992,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 770,
+      "stargazers_count": 771,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2108,7 +2108,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 10,
+      "stargazers_count": 11,
       "updated_at": "2025-07-29 08:49:14+00:00"
     },
     "projectUrl": "https://github.com/dipusone/golang_pclntab_parser",
@@ -2187,7 +2187,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 46,
+      "stargazers_count": 47,
       "updated_at": "2023-01-28 19:57:01+00:00"
     },
     "projectUrl": "https://github.com/AsherDLL/PCDump-bn",
@@ -2609,7 +2609,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 39,
+      "stargazers_count": 40,
       "updated_at": "2023-06-06 11:00:33+00:00"
     },
     "projectUrl": "https://github.com/CySHell/ClassyPP",
@@ -2761,7 +2761,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 88,
+      "stargazers_count": 89,
       "updated_at": "2022-03-01 06:59:47+00:00"
     },
     "projectUrl": "https://github.com/0cyn/bn-dyldsharedcache",
@@ -2918,7 +2918,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 216,
+      "stargazers_count": 218,
       "updated_at": "2026-01-01 01:56:46+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2294,
+      "stargazers_count": 2296,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3074,7 +3074,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 24,
+      "stargazers_count": 25,
       "updated_at": "2022-01-14 04:33:28+00:00"
     },
     "projectUrl": "https://github.com/zznop/bn-kconfig-recover",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2489,
+      "stargazers_count": 2495,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3609,7 +3609,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 36,
+      "stargazers_count": 37,
       "updated_at": "2022-03-27 06:40:19+00:00"
     },
     "projectUrl": "https://github.com/Ayrx/binja-JNIAnalyzer",
@@ -5741,7 +5741,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 19,
+      "stargazers_count": 20,
       "updated_at": "2020-07-22 13:49:42+00:00"
     },
     "projectUrl": "https://github.com/EliseZeroTwo/Switch-Binja-Loader",
@@ -5780,7 +5780,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 345,
+      "stargazers_count": 347,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -6437,7 +6437,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "updated_at": "2026-01-19 19:51:15+00:00"
     },
     "projectUrl": "https://github.com/xorhex/BinYars-SideWidget",
@@ -6475,7 +6475,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 74,
+      "stargazers_count": 75,
       "updated_at": "2026-01-23 14:46:34+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
@@ -6485,47 +6485,6 @@
       "helper"
     ],
     "version": "0.5.2",
-    "view_only": false
-  },
-  {
-    "api": [
-      "python3"
-    ],
-    "author": "fosdick.io",
-    "dependencies": "",
-    "description": "A Binary Ninja plugin that provides a MCP (Model Context Protocol) server with HTTP endpoints for LLM integration.",
-    "installinstructions": {},
-    "is_paid": false,
-    "lastUpdated": 1765911170,
-    "license": {
-      "name": "GPL-3.0",
-      "text": "Copyright 2025 fosdick.io\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>."
-    },
-    "longdescription": "# Binary Ninja MCP\n\nThis repository contains a Binary Ninja plugin, MCP server, and bridge that enables seamless integration of Binary Ninja's capabilities with your favorite LLM client.\n\n![Binary Ninja MCP Logo](images/logo-small.png)\n\n## Features\n\n- Seamless, real-time integration between Binary Ninja and MCP clients\n- Enhanced reverse engineering workflow with AI assistance\n- Support for every MCP client (Cline, Claude desktop, Roo Code, etc.)\n- Open multiple binaries and switch the active target automatically\n\n## Examples\n\n### Solving a CTF Challenge\n\nCheck out [this demo video on YouTube](https://www.youtube.com/watch?v=0ffMHH39L_M) that uses the extension to solve a CTF challenge.\n\n## Components\n\nThis repository contains two separate components:\n\n1. A Binary Ninja plugin that provides an MCP server that exposes Binary Ninja's capabilities through HTTP endpoints. This can be used with any client that implements the MCP protocol.\n2. A separate MCP bridge component that connects your favorite MCP client to the Binary Ninja MCP server.\n\n## Prerequisites\n\n- [Binary Ninja](https://binary.ninja/)\n- Python 3.12+\n- MCP client (those with auto-setup support are listed below)\n\n## Installation\n\n### MCP Client\n\nPlease install the MCP client before you install Binary Ninja MCP so that the MCP clients can be auto-setup. We currently support auto-setup for these MCP clients:\n\n    1. Cline (recommended)\n    2. Roo Code\n    3. Claude Desktop (recommended)\n    4. Cursor\n    5. Windsurf\n    6. Claude Code\n    7. LM Studio\n\n### Extension Installation\n\nAfter the MCP client is installed, you can install the MCP server using the Binary Ninja Plugin Manager or manually. Both methods support auto-setup of MCP clients.\n\nIf your MCP client is not set, you should install it first then try to reinstall the extension.\n\n#### Binary Ninja Plugin Manager\n\nYou may install the extension through Binary Ninja's Plugin Manager (`Plugins > Manage Plugins`).\n\n![Plugin Manager](images/plugin-manager-listing.png)\n\n#### Manual Install\n\nTo manually install the extension, this repository can be copied into the [Binary Ninja plugins folder](https://docs.binary.ninja/guide/plugins.html).\n\n### [Optional] Manual Setup of the MCP Client\n\n*You do NOT need to set this up manually if you use a supported MCP client and follow the installation steps before.*\n\nYou can also manage MCP client entries from the command line:\n\n```bash\npython scripts/mcp_client_installer.py --install    # auto setup supported MCP clients\npython scripts/mcp_client_installer.py --uninstall  # remove entries and delete `.mcp_auto_setup_done`\npython scripts/mcp_client_installer.py --config     # print a generic JSON config snippet\n```\n\nFor other MCP clients, this is an example config:\n\n```json\n{\n    \"mcpServers\": {\n        \"binary_ninja_mcp\": {\n            \"command\": \"/ABSOLUTE/PATH/TO/Binary Ninja/plugins/repositories/community/plugins/fosdickio_binary_ninja_mcp/.venv/bin/python\",\n            \"args\": [\n                \"/ABSOLUTE/PATH/TO/Binary Ninja/plugins/repositories/community/plugins/fosdickio_binary_ninja_mcp/bridge/binja_mcp_bridge.py\"\n            ]\n        }\n    }\n}\n```\n\nNote: Replace `/ABSOLUTE/PATH/TO` with the actual absolute path to your project directory. The virtual environment's Python interpreter must be used to access the installed dependencies.\n\n## Usage\n\n1. Open Binary Ninja and load a binary\n2. Click the button shown at left bottom corner\n3. Start using it through your MCP client\n\nYou may now start prompting LLMs about the currently open binary (or binaries). Example prompts:\n\n### CTF Challenges\n\n```txt\nYou're the best CTF player in the world. Please solve this reversing CTF challenge in the <folder_name> folder using Binary Ninja. Rename ALL the function and the variables during your analyzation process (except for main function) so I can better read the code. Write a python solve script if you need. Also, if you need to create struct or anything, please go ahead. Reverse the code like a human reverser so that I can read the decompiled code that analyzed by you.\n```\n\n### Malware Analysis\n\n```txt\nYour task is to analyze an unknown file which is currently open in Binary Ninja. You can use the existing MCP server called \"binary_ninja_mcp\" to interact with the Binary Ninja instance and retrieve information, using the tools made available by this server. In general use the following strategy:\n\n- Start from the entry point of the code\n- If this function call others, make sure to follow through the calls and analyze these functions as well to understand their context\n- If more details are necessary, disassemble or decompile the function and add comments with your findings\n- Inspect the decompilation and add comments with your findings to important areas of code\n- Add a comment to each function with a brief summary of what it does\n- Rename variables and function parameters to more sensible names\n- Change the variable and argument types if necessary (especially pointer and array types)\n- Change function names to be more descriptive, using vibe_ as prefix.\n- NEVER convert number bases yourself. Use the convert_number MCP tool if needed!\n- When you finish your analysis, report how long the analysis took\n- At the end, create a report with your findings.\n- Based only on these findings, make an assessment on whether the file is malicious or not.\n```\n\n## Supported Capabilities\n\nThe following table lists the available MCP functions for use:\n\n| Function                                                             | Description                                                                                                  |\n| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |\n| `decompile_function`                                                 | Decompile a specific function by name and return HLIL-like code with addresses.                              |\n| `get_il(name_or_address, view, ssa)`                                 | Get IL for a function in `hlil`, `mlil`, or `llil` (SSA supported for MLIL/LLIL).                            |\n| `define_types`                                                       | Add type definitions from a C string type definition.                                                        |\n| `delete_comment`                                                     | Delete the comment at a specific address.                                                                    |\n| `delete_function_comment`                                            | Delete the comment for a function.                                                                           |\n| `declare_c_type(c_declaration)`                                      | Create/update a local type from a single C declaration.                                                      |\n| `format_value(address, text, size)`                                  | Convert a value and annotate it at an address in BN (adds a comment).                                        |\n| `function_at`                                                        | Retrieve the name of the function the address belongs to.                                                    |\n| `get_assembly_function`                                              | Get the assembly representation of a function by name or address.                                            |\n| `get_entry_points()`                                                 | List entry point(s) of the loaded binary.                                                                    |\n| `get_binary_status`                                                  | Get the current status of the loaded binary.                                                                 |\n| `get_comment`                                                        | Get the comment at a specific address.                                                                       |\n| `get_function_comment`                                               | Get the comment for a function.                                                                              |\n| `get_user_defined_type`                                              | Retrieve definition of a user-defined type (struct, enumeration, typedef, union).                            |\n| `get_xrefs_to(address)`                                              | Get all cross references (code and data) to an address.                                                      |\n| `get_data_decl(name_or_address, length)`                             | Return a C-like declaration and a hexdump for a data symbol or address.                                      |\n| `hexdump_address(address, length)`                                   | Text hexdump at address. `length < 0` reads exact defined size if available.                                 |\n| `hexdump_data(name_or_address, length)`                              | Hexdump by data symbol name or address. `length < 0` reads exact defined size if available.                  |\n| `get_xrefs_to_enum(enum_name)`                                       | Get usages related to an enum (matches member constants in code).                                            |\n| `get_xrefs_to_field(struct_name, field_name)`                        | Get all cross references to a named struct field.                                                            |\n| `get_xrefs_to_struct(struct_name)`                                   | Get xrefs/usages related to a struct (members, globals, code refs).                                          |\n| `get_xrefs_to_type(type_name)`                                       | Get xrefs/usages related to a struct/type (globals, refs, HLIL matches).                                     |\n| `get_xrefs_to_union(union_name)`                                     | Get xrefs/usages related to a union (members, globals, code refs).                                           |\n| `get_type_info(type_name)`                                           | Resolve a type and return declaration, kind, and members.                                                    |\n| `make_function_at(address, platform)`                                | Create a function at an address. `platform` optional; use `default` to pick the BinaryView/platform default. |\n| `list_platforms()`                                                   | List all available platform names.                                                                           |\n| `list_binaries()`                                                    | List managed/open binaries with ids and active flag.                                                         |\n| `select_binary(view)`                                                | Select active binary by id or filename.                                                                      |\n| `list_all_strings()`                                                 | List all strings (no pagination; aggregates all pages).                                                      |\n| `list_classes`                                                       | List all namespace/class names in the program.                                                               |\n| `list_data_items`                                                    | List defined data labels and their values.                                                                   |\n| `list_exports`                                                       | List exported functions/symbols.                                                                             |\n| `list_imports`                                                       | List imported symbols in the program.                                                                        |\n| `list_local_types(offset, count)`                                    | List local Types in the current database (name/kind/decl).                                                   |\n| `list_methods`                                                       | List all function names in the program.                                                                      |\n| `list_namespaces`                                                    | List all non-global namespaces in the program.                                                               |\n| `list_segments`                                                      | List all memory segments in the program.                                                                     |\n| `list_strings(offset, count)`                                        | List all strings in the database (paginated).                                                                |\n| `list_strings_filter(offset, count, filter)`                         | List matching strings (paginated, filtered by substring).                                                    |\n| `rename_data`                                                        | Rename a data label at the specified address.                                                                |\n| `rename_function`                                                    | Rename a function by its current name to a new user-defined name.                                            |\n| `rename_single_variable`                                             | Rename a single local variable inside a function.                                                            |\n| `rename_multi_variables`                                             | Batch rename multiple local variables in a function (mapping or pairs).                                      |\n| `set_local_variable_type(function_address, variable_name, new_type)` | Set a local variable's type.                                                                                 |\n| `retype_variable`                                                    | Retype variable inside a given function.                                                                     |\n| `search_functions_by_name`                                           | Search for functions whose name contains the given substring.                                                |\n| `search_types(query, offset, count)`                                 | Search local Types by substring (name/decl).                                                                 |\n| `set_comment`                                                        | Set a comment at a specific address.                                                                         |\n| `set_function_comment`                                               | Set a comment for a function.                                                                                |\n| `set_function_prototype(name_or_address, prototype)`                 | Set a function's prototype by name or address.                                                               |\n| `patch_bytes(address, data, save_to_file)`                           | Patch raw bytes at an address (byte-level, not assembly). Can patch entire instructions by providing their bytecode. Address: hex (e.g., \"0x401000\") or decimal. Data: hex string (e.g., \"90 90\"). `save_to_file` (default True) saves to disk and re-signs on macOS. |\n\nThese are the list of HTTP endpoints that can be called:\n\n- `/allStrings`: All strings in one response.\n- `/formatValue?address=<addr>&text=<value>&size=<n>`: Convert and set a comment at an address.\n- `/getXrefsTo?address=<addr>`: Xrefs to address (code+data).\n- `/getDataDecl?name=<symbol>|address=<addr>&length=<n>`: JSON with declaration-style string and a hexdump for a data symbol or address. Keys: `address`, `name`, `size`, `type`, `decl`, `hexdump`. `length < 0` reads exact defined size if available.\n- `/hexdump?address=<addr>&length=<n>`: Text hexdump aligned at address; `length < 0` reads exact defined size if available.\n- `/hexdumpByName?name=<symbol>&length=<n>`: Text hexdump by symbol name. Recognizes BN auto-labels like `data_<hex>`, `byte_<hex>`, `word_<hex>`, `dword_<hex>`, `qword_<hex>`, `off_<hex>`, `unk_<hex>`, and plain hex addresses.\n- `/makeFunctionAt?address=<addr>&platform=<name|default>`: Create a function at an address (idempotent if already exists). `platform=default` uses the BinaryView/platform default.\n- `/platforms`: List all available platform names.\n- `/binaries` or `/views`: List managed/open binaries with ids and active flag.\n- `/selectBinary?view=<id|filename>`: Select active binary for subsequent operations.\n- `/data?offset=<n>&limit=<m>&length=<n>`: Defined data items with previews. `length` controls bytes read per item (capped at defined size). Default behavior reads exact defined size when available; `length=-1` forces exact-size.\n- `/getXrefsToEnum?name=<enum>`: Enum usages by matching member constants.\n- `/getXrefsToField?struct=<name>&field=<name>`: Xrefs to struct field.\n- `/getXrefsToType?name=<type>`: Xrefs/usages related to a struct/type name.\n- `/getTypeInfo?name=<type>`: Resolve a type and return declaration and details.\n- `/getXrefsToUnion?name=<union>`: Union xrefs/usages (members, globals, refs).\n- `/localTypes?offset=<n>&limit=<m>`: List local types.\n- `/strings?offset=<n>&limit=<m>`: Paginated strings.\n- `/strings/filter?offset=<n>&limit=<m>&filter=<substr>`: Filtered strings.\n- `/searchTypes?query=<substr>&offset=<n>&limit=<m>`: Search local types by substring.\n- `/patch` or `/patchBytes?address=<addr>&data=<hex>&save_to_file=<bool>`: Patch raw bytes at an address (byte-level, not assembly). Can patch entire instructions by providing their bytecode. Address: hex (e.g., \"0x401000\") or decimal. Data: hex string (e.g., \"90 90\"). `save_to_file` (default True) saves to disk and re-signs on macOS.\n- `/renameVariables`: Batch rename locals in a function. Parameters:\n  - Function: one of `functionAddress`, `address`, `function`, `functionName`, or `name`.\n  - Provide renames via one of:\n    - `renames`: JSON array of `{old, new}` objects\n    - `mapping`: JSON object of `old->new`\n    - `pairs`: compact string `old1:new1,old2:new2`\n          Returns per-item results plus totals. Order is respected; later pairs can refer to earlier new names.\n\n## Contributing\n\nContributions are welcome. Please feel free to submit a pull request.\n\n\n### Changelog\n## What's Changed\r\n* Add richer binary selection metadata for multi-file workflows by @farvend in https://github.com/fosdickio/binary_ninja_mcp/pull/33\r\n* Add Patch Function by @YunshiuanOAO in https://github.com/fosdickio/binary_ninja_mcp/pull/51\r\n\r\n## New Contributors\r\n* @farvend made their first contribution in https://github.com/fosdickio/binary_ninja_mcp/pull/33\r\n* @YunshiuanOAO made their first contribution in https://github.com/fosdickio/binary_ninja_mcp/pull/51\r\n\r\n**Full Changelog**: https://github.com/fosdickio/binary_ninja_mcp/compare/v1.0.1...v1.1.0",
-    "minimumbinaryninjaversion": 4000,
-    "name": "Binary Ninja MCP",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/27645210-6117-4885-b96f-ef5fce9d52b9/versions/1b755115-16e5-4316-a46e-4bc9c6d27157/platforms/2972/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/27645210-6117-4885-b96f-ef5fce9d52b9/versions/1b755115-16e5-4316-a46e-4bc9c6d27157/platforms/2972/download?notrack=1",
-    "path": "fosdickio_binary_ninja_mcp",
-    "platforms": [
-      "Darwin",
-      "Linux",
-      "Windows"
-    ],
-    "pluginmetadataversion": 2,
-    "projectData": {
-      "stargazers_count": 202,
-      "updated_at": "2025-12-16 18:52:50+00:00"
-    },
-    "projectUrl": "https://github.com/fosdickio/binary_ninja_mcp",
-    "subdir": "",
-    "type": [
-      "architecture",
-      "binaryview",
-      "core",
-      "helper"
-    ],
-    "version": "1.1.0",
     "view_only": false
   },
   {
@@ -6750,7 +6709,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 25,
+      "stargazers_count": 26,
       "updated_at": "2025-10-20 06:27:29+00:00"
     },
     "projectUrl": "https://github.com/FFRI/binja-swift-analyzer",
@@ -6865,7 +6824,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 14,
+      "stargazers_count": 15,
       "updated_at": "2026-01-31 00:42:50+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
@@ -7139,7 +7098,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 235,
+      "stargazers_count": 237,
       "updated_at": "2025-10-11 13:21:50+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
