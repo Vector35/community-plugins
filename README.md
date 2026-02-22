@@ -26,6 +26,7 @@
 | [Binja Missing Link](https://github.com/FFRI/binja-missinglink)|Koh M. Nakagawa|Binary Ninja plugin that fills missing indirect branch information|2025-10-20|core, helper|python3|Apache version 2.0 |
 | [Binja Snapshot Manager](https://github.com/d0mnik/binja_snapshot_manager)|d0minik|Binary Ninja plugin to take and manage database snapshots|2024-10-30|helper|python3|AGPL-3.0 |
 | [BinjaExportTox64dbg](https://github.com/moval0x1/BinjaExportTox64dbg)|moval0x1|Export notations from Binja to x64dbg|2024-02-20|binaryview|python3|MIT |
+| [Binwalk](https://github.com/kevinmuoz/binwalk-reversing-plugin)|kevinmuoz|This plugin integrates a modern Rust-based version of Binwalk into reversing workflow. It is designed to identify and extract files or data embedded within other binaries, with a focus on firmware analysis.|2026-02-21|helper|python3|Apache 2.0 |
 | [Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|sen|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0 |
 | [Call Shellcode](https://github.com/lwerdna/call_shellcode)|lwerdna|Add "call shellcode" menu option which executes highlighted bytes.|2021-04-03|helper|python2, python3|Unlicense |
 | [Callgraph](https://github.com/psifertex/callgraph)|Josh Watson / Jordan Wiens|Callgraph generator for called or calling funcs|2022-04-20|ui|python3|MIT |
@@ -50,6 +51,7 @@
 | [Discord Integration](https://github.com/psifertex/discordpresence)|psifertex|Enables Discord Rich Presence Integration for Binary Ninja|2025-05-23|helper|python3|MIT |
 | [Dyld Shared Cache Processor](https://github.com/0cyn/bn-dyldsharedcache)|cynder (kat)|Processing for Apple's dyld_shared_cache format.|2022-03-01|architecture, binaryview, core, helper, ui|python3|MIT |
 | [EFI Inspector](https://github.com/zznop/efi-inspector)|Brandon Miller|Binary Ninja plugin for inspecting UEFI firmware images|2024-02-28|helper|python3|MIT |
+| [ESP32 Loader](https://github.com/psifertex/bnesp32)|psifertex|Binary Ninja ESP32 View Loader|2026-02-21|binaryview|python3|MIT |
 | [Emotet API+string deobfuscator](https://github.com/mauronz/binja-emotet)|Francesco Muroni|Deobufscate API calls and strings in unpacked Emotet samples.|2020-09-21|helper|python3|MIT |
 | [Explain Instruction](https://github.com/ehennenfent/binja_explain_instruction)|Eric Hennenfent|Displays a window that explains in simple English what an assembly instruction does|2021-10-10|ui, helper|python3|Apache 2 |
 | [Fix stomped imports](https://github.com/nettitude/binja-fix-stomped-imports)|LRQA Nettitude|Recover the imports from a stomped PE header by pasting in an IAT dump from dynamic analysis.|2024-09-19|architecture, binaryview, core, helper, ui|python3|MIT |
