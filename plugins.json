@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 491,
+      "stargazers_count": 492,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -841,7 +841,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 78,
+      "stargazers_count": 79,
       "updated_at": "2025-03-01 05:53:02+00:00"
     },
     "projectUrl": "https://github.com/unknowntrojan/binja_coolsigmaker",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1036,
+      "stargazers_count": 1038,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1878,7 +1878,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 682,
+      "stargazers_count": 683,
       "updated_at": "2026-01-30 17:41:01+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2301,7 +2301,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 860,
+      "stargazers_count": 859,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2339,7 +2339,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 104,
+      "stargazers_count": 105,
       "updated_at": "2025-02-15 00:29:08+00:00"
     },
     "projectUrl": "https://github.com/seeinglogic/ariadne",
@@ -2416,7 +2416,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 410,
+      "stargazers_count": 411,
       "updated_at": "2022-07-08 15:00:16+00:00"
     },
     "projectUrl": "https://github.com/pbiernat/ripr",
@@ -2494,7 +2494,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 547,
+      "stargazers_count": 548,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -2533,7 +2533,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 243,
+      "stargazers_count": 244,
       "updated_at": "2023-11-13 03:40:59+00:00"
     },
     "projectUrl": "https://github.com/hyuunnn/Hyara",
@@ -2609,7 +2609,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 40,
+      "stargazers_count": 41,
       "updated_at": "2023-06-06 11:00:33+00:00"
     },
     "projectUrl": "https://github.com/CySHell/ClassyPP",
@@ -2918,7 +2918,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 217,
+      "stargazers_count": 218,
       "updated_at": "2026-01-01 01:56:46+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2299,
+      "stargazers_count": 2304,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2499,
+      "stargazers_count": 2504,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3647,7 +3647,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 649,
+      "stargazers_count": 650,
       "updated_at": "2025-03-14 02:16:09+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -3918,7 +3918,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 13,
+      "stargazers_count": 14,
       "updated_at": "2021-09-11 17:49:57+00:00"
     },
     "projectUrl": "https://github.com/travisgoodspeed/symgrate2-binja-plugin",
@@ -5741,7 +5741,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 20,
+      "stargazers_count": 21,
       "updated_at": "2020-07-22 13:49:42+00:00"
     },
     "projectUrl": "https://github.com/EliseZeroTwo/Switch-Binja-Loader",
@@ -6164,7 +6164,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 33,
+      "stargazers_count": 35,
       "updated_at": "2025-05-11 07:32:17+00:00"
     },
     "projectUrl": "https://github.com/MCPPhalanx/binaryninja-mcp",
@@ -6503,8 +6503,8 @@
     "longdescription": "# Binwalk Reversing Plugin\n\nThis plugin integrates a modern Rust-based version of **[Binwalk](https://github.com/ReFirmLabs/binwalk)** into your reversing workflow. It is designed to identify and extract files or data embedded within other binaries, with a focus on firmware analysis.\n\n## Features\n\n### Actions\n\n* **Scan**: Quickly find embedded data using **Fast** or **Deep** methods.\n* **Extract**: Unpack identified files to a directory of your choice.\n\n### Interface\n\n* **Sidebar**: A dedicated view that lists all identified signatures for easy review.\n* **Direct Navigation**: Select any result to jump immediately to that specific offset in the disassembler.\n* **Folder Selection**: Choose exactly where to save your extracted files.\n\n## Visuals\n\n**Sidebar Example (Shared UI for IDA Pro and Binary Ninja):**\n\n![IDA Pro Sidebar](/images/ida_sidebar.png)\n\n## Backend\n\nThe core analysis library is written in Rust and exposed to Python via bindings through [pybinwalk](https://github.com/kevinmuoz/pybinwalk).\nThe Rust core is cross-platform, currently tested primarily on Ubuntu.\n\n### Current Status and Limitations\n\nThis plugin uses the latest version of the Binwalk Rust crate. Because it relies on the current crate release, it does not yet support every feature found in the CLI master branch.\n\n* **Matryoshka (Recursive Extraction)**: Currently not supported in the Rust crate.\n* **Updates**: The plugin will be updated to include missing features as soon as new releases of the Rust crate are published.\n\n## Supported Signatures\n\nThe plugin detects 60+ signatures, including:\n\n| Category        | Examples                          |\n|----------------|-----------------------------------|\n| Cryptography   | AES S-Box, MD5/SHA, OpenSSL       |\n| Executables    | PE, ELF, Mach-O, Linux Kernel     |\n| Compression    | ZSTD, LZMA, SquashFS              |\n| Filesystems    | JFFS2, EXT, MBR                   |\n| Credentials    | PEM Keys, Certificates, DPAPI     |\n\nFull list:\n[Supported Signatures](https://github.com/ReFirmLabs/binwalk/wiki/Supported-Signatures)\n\n## Installation\n\nYou can install this plugin directly through the official Plugin Manager in:\n\n* **Binary Ninja**\n* **IDA Pro**\n\n\n### Changelog\nInitial public release.\r\n\r\n- Firmware embedded file detection\r\n- Extraction support\r\n- Sidebar integration for IDA Pro and Binary Ninja",
     "minimumbinaryninjaversion": 4000,
     "name": "Binwalk",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/92c49e79-39c2-4b13-8677-e046b2d51ad1/versions/12e47727-fd1a-4292-96bb-0710d3ba065b/platforms/3175/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/92c49e79-39c2-4b13-8677-e046b2d51ad1/versions/12e47727-fd1a-4292-96bb-0710d3ba065b/platforms/3175/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/92c49e79-39c2-4b13-8677-e046b2d51ad1/versions/12e47727-fd1a-4292-96bb-0710d3ba065b/platforms/3176/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/92c49e79-39c2-4b13-8677-e046b2d51ad1/versions/12e47727-fd1a-4292-96bb-0710d3ba065b/platforms/3176/download?notrack=1",
     "path": "kevinmuoz_binwalk",
     "platforms": [
       "Darwin",
@@ -6513,7 +6513,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "updated_at": "2026-02-21 10:06:18+00:00"
     },
     "projectUrl": "https://github.com/kevinmuoz/binwalk-reversing-plugin",
@@ -6529,20 +6529,20 @@
       "python3"
     ],
     "author": "Damian Pfammatter and Sergio Paganoni",
-    "dependencies": "PyYAML==6.0.2\nijson==3.3.0\nlark==1.2.2\nnetworkx[default]==3.4.2\nopenai >= 1.78.1 , <2.0.0\npydantic>=2.0.0\ntermcolor==2.4.0\n",
+    "dependencies": "PyYAML==6.0.3\nijson==3.4.0\nlark==1.3.1\nnetworkx[default]==3.6.1\nopenai==2.20.0\npydantic==2.12.5\ntermcolor==3.3.0\n",
     "description": "Uncover interesting paths using static backward slicing",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1769179594,
+    "lastUpdated": 1772184436,
     "license": {
       "name": "Apache-2.0",
       "text": "Copyright (c) 2025 Damian Pfammatter and Sergio Paganoni\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
     },
-    "longdescription": "<p align=\"center\">\n  <img src=\"https://i.postimg.cc/mrcXH34C/image-1.png\" alt=\"Mole Logo\"/>\n</p>\n\n**_Mole_** is a *Binary Ninja* plugin designed to identify **interesting paths** in binaries. It performs **static backward slicing** on variables using *Binary Ninja*'s *Medium Level Intermediate Language* (*MLIL*) in its *Static Single Assignment* (*SSA*) form.\n\nIn *Mole*, a **path** refers to the flow of data between a defined source and sink. What constitutes an \"interesting\" path depends on the analysis goals. For instance, when searching for **vulnerabilities**, one might look for paths where untrusted inputs (sources) influence sensitive operations (sinks) in potentially dangerous ways.\n\nThe following list highlights some of *Mole*'s current **features**:\n- **Operation Mode**: *Mole* can be run either within *Binary Ninja*'s UI or in headless mode. Headless mode is particularly useful for scripted analysis across a large number of binaries. Conversely, using *Mole* within the UI is ideal for closely investigating detected paths.\n- **Path Identification**:\n  - **Configuration**: *Mole* allows users to define source and sink functions through Binary Ninja\u2019s UI or configuration files (see Usage). This provides flexibility in selecting sources and sinks based on the specific usage scenario.\n  - **Exploration**: To better understand a path and examine its characteristics, all instructions along the path can be printed or visually highlighted within *Binary Ninja*. Additionally, a side-by-side comparison of two paths can be displayed to quickly identify differences. Similar to instructions, a path's sequence of function calls can be printed or even visualized as a graph.\n  - **Grouping**: To facilitate the identification of similar paths, *Mole* supports multiple grouping strategies. Currently, paths can be grouped based on matching source and sink functions, or by identical call sequences. New custom grouping strategies can easily be added to extend and customize this functionality (see Customization).\n  - **Persistence**: Discovered paths can be annotated for clarity or removed if deemed irrelevant. To preserve analysis progress, paths can be saved directly to the target binary's database (*Binary Ninja*'s `.bndb` format). Paths can also be exported - for example, when performing headless analysis across many binaries on a file system, allowing identified paths to be later imported for easier exploration within *Binary Ninja*.\n- **Path Analysis With AI**: *Mole* can interact with local or remote *Large Language Models* (*LLMs*) via the *OpenAI API* (see Usage). The models are used to analyze identified paths and reason whether a given path corresponds to an exploitable vulnerability or not. The *LLM* attempts to classify the vulnerability and assign a severity level, which can help prioritize which paths are worth further investigation by an analyst. *Mole* provides a basic set of tools that the *LLM* can use to request additional information about the binary under analysis. This feature is an initial prototype and has not yet undergone systematic evaluation (e.g., models, prompts, tools). If it proves useful, we plan to improve it in future releases.\n\n- **Inter-Procedural Variable Slicing**: *Mole* supports slicing *MLIL variables* across function boundaries - a task that presents several challenges. For instance, statically determining a function's effective caller(s) is often difficult or even impossible. As a result, the implemented approach is an approximation. While not perfect, it performs reasonably well across a wide range of practical scenarios.\n- **Basic Pointer Analysis**: *Mole* currently implements a simplified strategy for tracking pointer usage. Like inter-procedural slicing, this approach is a simplification with inherent limitations (e.g. it cannot track global variables). Nevertheless, it performs well in many practical cases and is planned to be improved in future versions.\n\n### Changelog\nNew release for tag refs/tags/v0.5.2\r\n## What's Changed\r\n* Increase Minimum Binja Version from 6455 to 7290 by @pdamian in https://github.com/cyber-defence-campus/mole/pull/245\r\n* Add Output Parameters to The Set of Known Pointer Variables by @pdamian in https://github.com/cyber-defence-campus/mole/pull/247\r\n\r\n\r\n**Full Changelog**: https://github.com/cyber-defence-campus/mole/compare/v0.5.1...v0.5.2",
+    "longdescription": "<p align=\"center\">\n  <img src=\"https://i.postimg.cc/mrcXH34C/image-1.png\" alt=\"Mole Logo\"/>\n</p>\n\n**_Mole_** is a *Binary Ninja* plugin designed to identify **interesting paths** in binaries. It performs **static backward slicing** on variables using *Binary Ninja*'s *Medium Level Intermediate Language* (*MLIL*) in its *Static Single Assignment* (*SSA*) form.\n\nIn *Mole*, a **path** refers to the flow of data between a defined source and sink. What constitutes an \"interesting\" path depends on the analysis goals. For instance, when searching for **vulnerabilities**, one might look for paths where untrusted inputs (sources) influence sensitive operations (sinks) in potentially dangerous ways.\n\nThe following list highlights some of *Mole*'s current **features**:\n- **Operation Mode**: *Mole* can be run either within *Binary Ninja*'s UI or in headless mode. Headless mode is particularly useful for scripted analysis across a large number of binaries. Conversely, using *Mole* within the UI is ideal for closely investigating detected paths.\n- **Path Identification**:\n  - **Configuration**: *Mole* allows users to define source and sink functions through Binary Ninja\u2019s UI or configuration files (see Usage). This provides flexibility in selecting sources and sinks based on the specific usage scenario.\n  - **Exploration**: To better understand a path and examine its characteristics, all instructions along the path can be printed or visually highlighted within *Binary Ninja*. Additionally, a side-by-side comparison of two paths can be displayed to quickly identify differences. Similar to instructions, a path's sequence of function calls can be printed or even visualized as a graph.\n  - **Grouping**: To facilitate the identification of similar paths, *Mole* supports multiple grouping strategies. Currently, paths can be grouped based on matching source and sink functions, or by identical call sequences. New custom grouping strategies can easily be added to extend and customize this functionality (see Customization).\n  - **Persistence**: Discovered paths can be annotated for clarity or removed if deemed irrelevant. To preserve analysis progress, paths can be saved directly to the target binary's database (*Binary Ninja*'s `.bndb` format). Paths can also be exported - for example, when performing headless analysis across many binaries on a file system, allowing identified paths to be later imported for easier exploration within *Binary Ninja*.\n- **Path Analysis With AI**: *Mole* can interact with local or remote *Large Language Models* (*LLMs*) via the *OpenAI API* (see Usage). The models are used to analyze identified paths and reason whether a given path corresponds to an exploitable vulnerability or not. The *LLM* attempts to classify the vulnerability and assign a severity level, which can help prioritize which paths are worth further investigation by an analyst. *Mole* provides a basic set of tools that the *LLM* can use to request additional information about the binary under analysis. This feature is an initial prototype and has not yet undergone systematic evaluation (e.g., models, prompts, tools). If it proves useful, we plan to improve it in future releases.\n\n- **Inter-Procedural Variable Slicing**: *Mole* supports slicing *MLIL variables* across function boundaries - a task that presents several challenges. For instance, statically determining a function's effective caller(s) is often difficult or even impossible. As a result, the implemented approach is an approximation. While not perfect, it performs reasonably well across a wide range of practical scenarios.\n- **Basic Pointer Analysis**: *Mole* currently implements a simplified strategy for tracking pointer usage. Like inter-procedural slicing, this approach is a simplification with inherent limitations (e.g. it cannot track global variables). Nevertheless, it performs well in many practical cases and is planned to be improved in future versions.\n\n### Changelog\nNew release for tag refs/tags/v0.6.0\r\n## What's Changed\r\n* Implement proper per-BinaryView plugin context\r\n* Refactoring of the Model-View-Controller architecture\r\n* Replace Binja BackgroundTaskThreads with standard Threads\r\n* Allow parallel task (e.g. analyze paths with AI while still slicing)\r\n* Improve UI responsiveness\r\n* Various other improvements\r\n\r\nby @pdamian in https://github.com/cyber-defence-campus/mole/pull/250\r\n\r\n\r\n**Full Changelog**: https://github.com/cyber-defence-campus/mole/compare/v0.5.2...v0.6.0",
     "minimumbinaryninjaversion": 7290,
     "name": "Mole",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/ea4100f4-1c40-4aae-8d08-b4cc15838e3b/platforms/3091/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/ea4100f4-1c40-4aae-8d08-b4cc15838e3b/platforms/3091/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/22652ed3-6642-4e2d-90a7-faaf78414129/platforms/3187/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/22652ed3-6642-4e2d-90a7-faaf78414129/platforms/3187/download?notrack=1",
     "path": "cyberdefencecampus_mole",
     "platforms": [
       "Darwin",
@@ -6552,7 +6552,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 76,
-      "updated_at": "2026-01-23 14:46:34+00:00"
+      "updated_at": "2026-02-27 09:27:16+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
     "subdir": "",
@@ -6560,7 +6560,7 @@
       "ui",
       "helper"
     ],
-    "version": "0.5.2",
+    "version": "0.6.0",
     "view_only": false
   },
   {
@@ -6824,7 +6824,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 6,
+      "stargazers_count": 8,
       "updated_at": "2026-01-09 06:57:29+00:00"
     },
     "projectUrl": "https://github.com/akrutsinger/binja-codemode-mcp",
@@ -6900,7 +6900,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 19,
+      "stargazers_count": 20,
       "updated_at": "2026-02-19 21:02:00+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
