@@ -179,6 +179,7 @@
 | [pd-ninja](https://github.com/lockbox/pd-ninja)|lockbox|Playdate Console RE utilities|2023-03-01|helper|python3|MIT |
 | [permap](https://github.com/redballoonsecurity/permap)|jepson2k, dannyp303|Supports loading .per files into Binary Ninja.|2024-12-18|helper|python3|Apache-2.0 |
 | [peutils](https://github.com/404d/peutils)|404'd|Binary Ninja plugin providing various niche utilities for working with PE binaries|2020-12-12|helper|python3|MIT |
+| [ptxNinja](https://github.com/seekbytes/ptxNinja)|seekbytes|CUDA based ptx architecture support|2026-03-06|architecture||GPL v3 |
 | [recursion](https://github.com/zznop/bn-recursion)|zznop|Locate and annotate direct and indirect recursion|2020-07-22|helper|python3|MIT |
 | [ret-sync](https://github.com/bootleg/ret-sync)|Alexandre Gazet|Helper plugin to synchronize Binary Ninja with a debugging session|2022-01-21|helper|python3|MIT |
 | [revsync](https://github.com/lunixbochs/revsync)|lunixbochs|Realtime IDA Pro and Binary Ninja sync plugin|2020-05-14|ui|python2, python3|MIT |
