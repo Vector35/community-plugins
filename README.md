@@ -143,6 +143,7 @@
 | [VulnFanatic](https://github.com/Martyx00/VulnFanatic)|Martin Petran|Assistant plugin for vulnerability research.|2024-09-07|helper|python3|Apache-2.0 |
 | [WASM Plugin](https://github.com/ivision-research/binjawa)|Meador Inge|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|python3|MIT |
 | [Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|shareef12|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|2019-08-08|helper|python2, python3|MIT |
+| [Windows Ioctl Resolver](https://github.com/estr3llas/ioctl_resolver)|estr3llas|Resolves Windows IOCTLs from a local WDK|2026-03-04|helper, platform||MIT |
 | [XNU Sysctl Hunter](https://github.com/xpcmdshell/SysctlHunter)|actae0n|XNU Sysctl Hunter is a tool for analyzing Kexts that will automatically identify, type, and tag sysctl OIDs, as well as correct the prototypes of their OID handler functions. It contains a Binary Ninja plugin action, as well as a headless script for cli...|2021-07-22|helper|python3|MIT |
 | [XProtect Remediator Analyzer](https://github.com/FFRI/binja-xpr-analyzer)|Koh M. Nakagawa|XProtect Remediator Analyzer is a plugin analyzing XProtect Remediator binaries.|2025-10-20|core, helper|python3|Apache version 2.0 |
 | [Xtensa Architecture Support and ESP8266 Loader](https://github.com/nicabi/binja-xtensa2)|Nicolae Binica|Xtensa Architecture Support and ESP8266 Image Loader|2025-08-30|architecture, binaryview|python3|MIT |
