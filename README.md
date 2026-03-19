@@ -118,7 +118,7 @@
 | [RopView](https://github.com/elbee-cyber/RopView)|elbee|RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.|2025-02-25|binaryview, helper, ui|python3|MIT |
 | [Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|inspier|Demangles Rust symbols.|2023-07-09|helper|python3|MIT |
 | [Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|Cindy Xiao|Rust binary string recovery plugin|2026-01-11|helper|python3|MIT |
-| [Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|Cindy Xiao|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|2023-04-27|helper|python3|MIT |
+| [Rust Type Layout Helper](https://github.com/cxiao/rust_type_layout_helper_bn)|Cindy Xiao|An extremely experimental Binary Ninja importer for the type layout information emitted by the -Zprint-type-sizes flag of the Rust compiler.|2026-03-19|helper|python3|MIT |
 | [SEH Helper](https://github.com/EliseZeroTwo/SEH-Helper)|EliseZeroTwo|Helper for exploring structured exception handlers in PEs|2022-02-19|ui, helper|python3|MIT |
 | [SENinja](https://github.com/borzacchiello/seninja)|Luca Borzacchiello|Symbolic execution plugin for BinaryNinja|2024-02-24|helper|python3|2-Clause BSD |
 | [SEPROM Loader](https://github.com/matteyeux/seprom-loader)|matteyeux|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|python3|MIT |
