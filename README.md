@@ -15,7 +15,7 @@
 | [BNHook](https://github.com/jeffli678/bnhook)|Grant Orndorff|Insert custom hooks|2021-03-29|ui, core|python2, python3|MIT |
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
-| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-03-14|ui, helper|python3|MIT |
+| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-03-19|ui, helper|python3|MIT |
 | [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-03-14|binaryview, helper, ui|python3|MIT |
 | [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2026-01-30|sync|python3|BSD 2-clause |
 | [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2026-01-19|helper|python3, rust|MIT |
@@ -65,7 +65,7 @@
 | [GO Loader Assist](https://github.com/f0rki/bn-goloader)|Michael Rodler|Short script that parses go symbol table and renames/creates functions.|2021-02-02|ui|python2, python3|MIT |
 | [GTIRB](https://github.com/adrianherrera/binaryninja-gtirb)|Adrian Herrera|Support the GrammaTech Intermediate Representation for Binaries (GTIRB) in Binary Ninja|2024-10-07|helper|python3|MIT |
 | [Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|Hugo Porcher (@icecr4ck)|A loader and diassembler for Game Boy ROMs.|2020-11-17|architecture, binaryview|python3|MIT |
-| [Game ROM Loader](https://github.com/redthing1/binja_gameroms_plugin)|redthing1|Game ROM Loader for Binary Ninja|2026-01-27|architecture, binaryview, core, ui|python3|MIT |
+| [Game ROM Loader](https://github.com/redthing1/binja_gameroms_plugin)|redthing1|Game ROM Loader for Binary Ninja|2026-03-16|architecture, binaryview, core, ui|python3|MIT |
 | [GameCube DOL](https://github.com/PistonMiner/binaryninja-gc-dol)|Linus S. (aka PistonMiner)|GameCube DOL file BinaryView|2021-07-08|binaryview|python3|MIT |
 | [GameCube symbol map loader](https://github.com/PistonMiner/binaryninja-gc-load-map)|Linus S. (aka PistonMiner)|GameCube symbol map loader|2021-07-08|helper|python3|MIT |
 | [Ghinja](https://github.com/Martyx00/ghinja)|Martin Petran|Plugin to embed Ghidra Decompiler into Binary Ninja|2022-06-08|ui|python3|Apache-2.0 |
