@@ -115,6 +115,7 @@
 | [Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|whitequark|A plugin providing the Renesas M16C architecture.|2020-01-19|architecture|python3|BSD-0-clause |
 | [Renesas V850 architecture plugin](https://github.com/tizmd/binja-v850)|Tomonori Izumida <tizmd@iij.ad.jp>|An architecture plugin for Renesas V850 series|2022-11-07|architecture|python3|MIT |
 | [ReverserAI](https://github.com/mrphrazer/reverser_ai)|Tim Blazytko|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2024-06-21|helper|python3|GPL-2.0 |
+| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-03-28|ui, helper|python3|MIT |
 | [RopView](https://github.com/elbee-cyber/RopView)|elbee|RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.|2025-02-25|binaryview, helper, ui|python3|MIT |
 | [Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|inspier|Demangles Rust symbols.|2023-07-09|helper|python3|MIT |
 | [Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|Cindy Xiao|Rust binary string recovery plugin|2026-01-11|helper|python3|MIT |
@@ -189,5 +190,6 @@
 | [scylla-ninja](https://github.com/ScriptWare-Software/scylla-ninja)|Script-Ware Software|Automated ScyllaHide injection and setup/configuration for Binary Ninja's debugger|2025-10-08|ui, helper|python3|MIT |
 | [semgrep-bn](https://github.com/interruptlabs/semgrep_bn)|Samman Palihapitiya|Search code with Semgrep|2025-02-04|helper|python3|MIT |
 | [themida-unmutate-bn](https://github.com/ergrelet/themida-unmutate-bn)|Erwan Grelet|Static deobfuscator for Themida, WinLicense and Code Virtualizer 3.x's mutation-based obfuscation.|2024-07-28|helper|python3|GPL-3.0-or-later |
+| [vt-binary-ninja-plugin](https://github.com/kevinmuoz/vt-binary-ninja-plugin)|Kevin Muñoz|Integrates VirusTotal's powerful analysis capabilities directly into your reverse engineering workflow.|2026-03-19|core, helper, ui|python3|Apache-2.0 |
 | [x64dbgbinja](https://github.com/x64dbg/x64dbgbinja)|x64dbg|Official x64dbg plugin for Binary Ninja.|2026-01-03|sync|python3|MIT |
 | [μBlaze Architecture Plugin](https://github.com/amtal/microblaze)|amtal|Configurable soft core for Xilinx FPGAs.|2022-05-29|architecture|python3|MIT |
