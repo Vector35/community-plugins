@@ -15,9 +15,9 @@
 | [BNHook](https://github.com/jeffli678/bnhook)|Grant Orndorff|Insert custom hooks|2021-03-29|ui, core|python2, python3|MIT |
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
-| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-03-19|ui, helper|python3|MIT |
-| [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-03-14|binaryview, helper, ui|python3|MIT |
-| [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2026-01-30|sync|python3|BSD 2-clause |
+| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-03-29|ui, helper|python3|MIT |
+| [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-03-31|binaryview, helper, ui|python3|MIT |
+| [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2026-03-24|sync|python3|BSD 2-clause |
 | [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2026-01-19|helper|python3, rust|MIT |
 | [Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|Austin Haggard|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
@@ -126,6 +126,7 @@
 | [Shellcode-IDE](https://github.com/CX330Blake/Shellcode-IDE)|CX330Blake|Shellcode IDE makes developing and analyzing shellcode much more convenient.|2025-11-19|binaryview, helper, ui|python3|MIT |
 | [Shellcoder](https://github.com/0xricksanchez/Shellcoder)|434b|Interactive shellcode disassembler/assembler|2024-11-28|helper|python3|Apache 2.0 |
 | [Simple YARA Generator](https://github.com/1337-42/SimpleYaraBN)|Remco Sprooten|Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/A...|2025-07-01|ui|python3|MIT |
+| [Sludge Content Sidebar](https://github.com/CouleeApps/sludge_content_sidebar)|Glenn Smith|Brainrot stimulator|2026-04-01|ui, helper|python3|MIT |
 | [Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|mechanicalnull|Synchronized source code pane for debug binaries|2019-07-15|ui, helper|python2, python3|MIT |
 | [Swift Analyzer](https://github.com/FFRI/binja-swift-analyzer)|Koh M. Nakagawa|Binary Ninja plugin for analyzing Swift binaries|2025-10-20|core, helper|python3|Apache License, Version 2.0 |
 | [Swift Demangler](https://github.com/saagarjha/binja-swift-demangler)|Saagar Jha|Demangles Swift functions.|2025-06-01|architecture, binaryview, core, helper, ui|python3|MIT |
@@ -138,7 +139,7 @@
 | [Type Oxidizer](https://github.com/austinzwile/TypeOxidizer)|austinzwile / azw|TypeOxidizer converts the C-Style types in your HLIL / decompilation to their Rust equivalents for easier reading / interpretation and shorter decompilation.|2025-02-24|binaryview, helper, ui|python3|MIT |
 | [TypeLib Exporter](https://github.com/SmoothHacker/TypeLib-Exporter)|SmoothHacker|This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.|2025-12-31|binaryview, helper, ui|python3|MIT |
 | [VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|verylazyguy|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|python2, python3|MIT |
-| [VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|Layle|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2020-07-05|architecture, binaryview|python2, python3|BSD-3-Clause |
+| [VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|Layle|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2026-04-01|architecture, binaryview|python2, python3|BSD-3-Clause |
 | [VirusTotal Code Insights](https://github.com/txhaflaire/virustotal_code_insights)|thijs.xhaflaire|Analyze a function or highlighted code using VirusTotal Code Insights (Google Threat Intelligence).|2025-12-09|architecture, binaryview, core, helper, ui|python3, |MIT |
 | [VulnFanatic](https://github.com/Martyx00/VulnFanatic)|Martin Petran|Assistant plugin for vulnerability research.|2024-09-07|helper|python3|Apache-2.0 |
 | [WASM Plugin](https://github.com/ivision-research/binjawa)|Meador Inge|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|python3|MIT |
@@ -164,7 +165,7 @@
 | [ctypes Export](https://github.com/jordan9001/ctypes_export)|Jordan Whitehead|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT |
 | [decomp2dbg](https://github.com/mahaloz/decomp2dbg)|Zion Basque (@mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2025-11-11|core|python3|BSD 2-clause |
 | [devi](https://github.com/murx-/devi_binja)|@_murks|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|ui, helper|python3|MIT |
-| [dewolf Decompiler](https://github.com/fkie-cad/dewolf)|fkie-cad|Research Decompiler to generate a C-like function representation|2026-01-01|ui, helper|python3|LGPL-2.1 |
+| [dewolf Decompiler](https://github.com/fkie-cad/dewolf)|fkie-cad|Research Decompiler to generate a C-like function representation|2026-04-01|ui, helper|python3|LGPL-2.1 |
 | [droog](https://github.com/amtal/droog)|amtal|PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's "Processor Manual..." right-click menu.|2024-06-24|helper|python3|AGPL-3.0 |
 | [ethersplay Ethereum Architecture Plugin](https://github.com/crytic/ethersplay)|Trail of Bits|A disassembler and lifter for the Ethereum architecture.|2022-11-03|architecture|python3|AGPL-3.0-only |
 | [genesis](https://github.com/zznop/bn-genesis)|zznop|SEGA Megadrive/Genesis ROM Hacking Toolkit|2024-11-04|ui, helper|python3|MIT |
