@@ -26,7 +26,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "updated_at": "2025-12-08 18:16:05+00:00"
     },
     "projectUrl": "https://github.com/ElykDeer/tanto-devtools",
@@ -105,7 +105,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 39,
+      "stargazers_count": 40,
       "updated_at": "2024-07-28 21:40:57+00:00"
     },
     "projectUrl": "https://github.com/ergrelet/themida-unmutate-bn",
@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 493,
+      "stargazers_count": 495,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -665,7 +665,7 @@
     "description": "A plugin that provides LLM helpers to explain code and assist in RE.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1773878687,
+    "lastUpdated": 1774794489,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024 Jason Tang\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -673,8 +673,8 @@
     "longdescription": "# BinAssist\nAuthor: **Jason Tang**\n\n_A comprehensive LLM-powered Binary Ninja plugin for intelligent binary analysis and reverse engineering._\n\n## Description\n\nBinAssist is an advanced LLM plugin designed to enhance binary analysis and reverse engineering workflows through intelligent automation. It leverages local and remote LLM capabilities to provide context-aware assistance throughout the binary analysis process. It supports fully agentic reverse engineering through its MCP client and MCP servers like [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)\n\nThe plugin supports any OpenAI v1-compatible or Anthropic API, making it compatible with popular LLM providers including Ollama, LM Studio, Open-WebUI, OpenAI, Anthropic, AWS Bedrock (via LiteLLM), and others.\n\n**Recommended models:**\n- **With Reasoning Support**: Claude Sonnet 4+, OpenAI GPT-5+, GPT-OSS (supports extended thinking for complex analysis)\n- **General Purpose**: DeepSeek, LLaMA-based coder models, Claude Sonnet 3.5, GPT-4\n\n## Core Features\n\n### Explain Tab\n- **Function Analysis**: Comprehensive analysis of functions at all IL levels (LLIL, MLIL, HLIL)\n- **Instruction Analysis**: Detailed explanations of individual instructions and their purpose\n- **Context-Aware**: Stores responses at a function level, allowing you to easily keep track\n- **Edit Responses**: Tweak the response as needed and save it for later\n\n### Query Tab\n- **Interactive LLM Chat**: Direct conversation interface with the LLM\n- **ReAct Agent**: Autonomous multi-step reasoning and analysis using the ReAct (Reasoning + Acting) framework\n  - Iterative problem-solving with reflection and self-correction\n  - Automatic tool selection and execution via MCP\n  - Step-by-step reasoning traces for transparency\n  - Up to 15 iterations with intelligent termination\n- **Extended Thinking**: Support for reasoning effort control on compatible models\n  - Configurable thinking depth (None, Low, Medium, High)\n  - Compatible with Claude Sonnet 4+, OpenAI o1/o3/gpt-5, and gpt-oss\n  - Increases analysis quality for complex reverse engineering tasks\n- **Binary Context**: Automatically includes relevant binary information in queries\n- **Flexible Prompting**: Support for custom queries and analysis requests\n- **Streaming Responses**: Real-time response generation with cancellation support\n\n### Actions Tab\n- **Intelligent Suggestions**: LLM-powered recommendations for improving binary analysis\n- **Four Action Types**:\n  - **Rename Function**: Suggest semantically meaningful function names\n  - **Rename Variable**: Propose descriptive variable names based on usage\n  - **Retype Variable**: Recommend appropriate data types for variables\n  - **Auto Create Struct**: Generate structure definitions from data patterns\n- **Confidence Scoring**: Each suggestion includes confidence metrics (0.0-1.0)\n- **Selective Application**: Choose which suggestions to apply via interactive UI\n- **Status Tracking**: Real-time feedback on action application success/failure\n- **Tool-Based Architecture**: Uses native LLM tool calling for precise suggestions\n\n### Semantic Graph Tab\n- **GraphRAG Architecture**: Graph-based Retrieval-Augmented Generation for binary analysis\n- **ReIndex Binary**: Build a semantic graph of all functions with call relationships\n- **Semantic Analysis**: LLM-powered function summarization and categorization\n  - Automatic purpose inference from function names and behavior\n  - Security flag detection (network, file I/O, crypto, etc.)\n  - Activity profiling and risk assessment\n- **Security Analysis**: Taint analysis for vulnerability detection\n  - Source-to-sink path finding (e.g., `recv` \u2192 `strcpy`)\n  - Automatic detection of dangerous API usage patterns\n  - TAINT_FLOWS_TO and VULNERABLE_VIA edge creation\n- **Community Detection**: Function clustering using Label Propagation algorithm\n  - Groups related functions based on call relationships\n  - Automatic module/purpose inference (Network I/O, Crypto, File Operations, etc.)\n  - Runs automatically after ReIndex completes\n- **Visual Graph View**: Interactive visualization of function relationships\n- **Full-Text Search**: FTS5-powered search across function names and summaries\n- **Query Tools**: MCP-exposed tools for LLM to query the semantic graph\n\n### Advanced Capabilities\n- **ReAct Autonomous Agent**: Full implementation of the ReAct framework for multi-step analysis\n- **Extended Thinking/Reasoning Effort**: Provider-agnostic reasoning control for deeper analysis\n  - Anthropic: Extended thinking with configurable token budgets (2K-25K tokens)\n  - OpenAI: Reasoning effort levels for o1/o3/gpt-5 models\n  - Ollama: Native thinking parameter support for compatible models (gpt-oss)\n- **Function Calling**: LLM can directly interact with Binary Ninja API to navigate and modify analysis\n- **MCP Integration**: Model Context Protocol support for extensible tool integration\n- **RLHF Dataset Generation**: Collect interaction data to enable model fine-tuning\n- **RAG Augmentation**: Enhance queries with relevant documentation and context\n- **Async Processing**: Non-blocking UI with background LLM processing\n- **Streaming Support**: Real-time response generation with proper cancellation\n\n### Configuration & Settings\n- **Flexible API Configuration**: Support for multiple LLM providers and endpoints\n- **Model Selection**: Choose from available models for different analysis tasks\n- **Reasoning Effort Control**: Session-specific thinking depth configuration\n  - Adjustable per-query or globally in Settings tab\n  - Four levels: None (standard), Low (~2K tokens), Medium (~10K), High (~25K)\n  - Cost and latency warnings for higher levels\n- **Token Limits**: Configurable maximum tokens for cost and performance optimization\n- **Database Management**: Built-in RLHF and RAG database configuration\n- **Thread Safety**: Proper async handling for Binary Ninja's threading requirements\n\n## Future Roadmap\n\n### Planned Features\n- **Model Fine-tuning**: Leverage collected RLHF data for specialized model training\n- **Collaborative Features**: Share analysis insights and suggestions across teams\n- **Hierarchical Communities**: Multi-level community detection for large binaries\n\n### Research Areas\n- **Domain-Specific Models**: Fine-tuned models for specific binary types\n- **Code Generation**: Automated exploit development and patching suggestions\n- **Enhanced Vulnerability Detection**: Expanded taint analysis with data flow tracking\n- **Performance Optimization**: Enhanced suggestion accuracy and speed\n\n## Quick Start Guide\n\n### 1. Installation\n\nWindows users should start with: [BinAssist on Windows](docs/binassist-on-windows.md)\n```bash\n# Install dependencies from the plugin directory\npip install -r requirements.txt\n```\n\n### 2. Configuration\n1. Open **Settings \u2192 BinAssist** in Binary Ninja\n2. Configure your LLM provider:\n   - **API Host**: Point to your preferred API endpoint (e.g., `http://localhost:11434` for Ollama)\n   - **API Key**: Set authentication key if required\n   - **Model**: Choose your preferred model (e.g., `gpt-oss:20b`, `claude-sonnet-4-5`, `gpt-5.2-codex`)\n3. Set database paths for RLHF and RAG features\n4. Adjust token limits based on your needs\n5. Configure **Reasoning Effort** in the Settings tab for models that support extended thinking\n\n### 3. Usage\n1. Load a binary in Binary Ninja\n2. Click the **\ud83e\udd16 robot icon** in the sidebar to open BinAssist\n3. Navigate between tabs based on your analysis needs:\n   - **Explain**: Analyze functions and instructions\n   - **Query**: Interactive chat with the LLM\n   - **Actions**: Get intelligent improvement suggestions\n   - **Semantic Graph**: Build and explore the binary's semantic graph\n   - **RAG**: Manage external documentation for context\n\n### 4. Workflow Examples\n\n**Function Analysis:**\n1. Navigate to a function in Binary Ninja\n2. Switch to the **Explain** tab\n3. Click **\"Explain Function\"** for comprehensive analysis\n\n**Getting Suggestions:**  \n1. Go to the **Actions** tab\n2. Select desired action types (Rename Function, etc.)\n3. Click **\"Analyse\"** to get LLM-powered suggestions\n4. Review confidence scores and apply selected actions\n\n**Interactive Queries:**\n1. Use the **Query** tab for free-form questions\n2. Ask about specific functions, algorithms, or analysis techniques\n3. The LLM has full context of your current binary\n\n**Agentic Analysis (ReAct):**\n1. Enable **Agentic** mode in the Query tab\n2. Enable **MCP** to provide tools for autonomous exploration\n3. Ask complex questions like \"What does this binary do?\" or \"Find security vulnerabilities\"\n4. Watch as the agent autonomously:\n   - Decompiles and analyzes functions\n   - Follows cross-references\n   - Builds understanding through iterative reasoning\n   - Provides comprehensive analysis with step-by-step traces\n\n**Semantic Graph Analysis:**\n1. Go to the **Semantic Graph** tab\n2. Click **\"ReIndex Binary\"** to build the function graph\n   - Community detection runs automatically after indexing\n3. Use **\"Semantic Analysis\"** for LLM-powered function summaries\n4. Run **\"Security Analysis\"** to find vulnerable source\u2192sink paths\n5. Explore the **Visual Graph** to see function relationships\n6. Use **Search** to find functions by name or summary content\n\n## Screenshot\n![Screenshot](https://raw.githubusercontent.com/jtang613/BinAssist/refs/heads/master/res/screenshot1.png)\n![Screenshots](/res/screenshots.gif)\n\n## Homepage\nhttps://symgraph.ai\n\n\n## Technical Architecture\n\n### Design Patterns\n- **Model-View-Controller (MVC)**: Clean separation of concerns across all tabs\n- **Service-Oriented Architecture**: Modular services for different analysis tasks  \n- **Observer Pattern**: Qt signal-slot communication for responsive UI\n- **Async/Await**: Non-blocking operations with proper thread management\n\n### Key Components\n\n**Controllers:**\n- `ExplainController`: Manages function and instruction analysis\n- `QueryController`: Handles interactive LLM conversations\n- `ActionsController`: Coordinates intelligent suggestion generation\n- `SemanticGraphController`: Orchestrates GraphRAG indexing and analysis\n\n**Services:**\n- `BinaryContextService`: Extracts and formats binary information\n- `ActionsService`: Validates and applies code improvements\n- `RLHFService`: Manages training data collection\n- `RAGService`: Handles document retrieval and context enhancement\n- `GraphRAGService`: Manages semantic graph indexing and queries\n- `GraphStore`: SQLite-backed graph node and edge storage\n- `CommunityDetector`: Label Propagation algorithm for function clustering\n- `TaintAnalyzer`: Source-to-sink vulnerability path detection\n\n**Threading:**\n- `ExplainLLMThread`: Background processing for explanations\n- `QueryLLMThread`: Async chat processing with streaming\n- `ActionsLLMThread`: LLM tool calling for suggestion generation\n- `ReActOrchestratorThread`: Autonomous multi-step agent execution\n\n**Tools & Integration:**\n- **MCP Tools**: Native LLM tool calling for precise actions\n- **Binary Ninja API**: Direct integration with analysis engine\n- **OpenAI Compatibility**: Works with any OpenAI v1-compatible endpoint\n\n## Installation & Compatibility\n\n### System Requirements\n- **Binary Ninja**: Version 4000 or higher\n- **Python**: 3.8+ with Binary Ninja's Python environment\n- **Memory**: 4GB+ recommended for local LLM usage\n- **Storage**: ~100MB for plugin + model-dependent storage\n\n### Platform Support\n\n**Linux** (Primary Development Platform)\n- Fully tested and supported\n- Recommended for production use\n\n**Windows** \n- Should work but less tested\n- Submit issues for Windows-specific problems\n\n**macOS**\n- Should work but less tested  \n- Submit issues for macOS-specific problems\n\n### LLM Provider Setup\n\n**Local LLMs (Recommended):**\n```bash\n# Ollama setup\ncurl -fsSL https://ollama.ai/install.sh | sh\n\n# Pull a general-purpose model\nollama pull llama3.1:8b\n\n# Or pull a reasoning model (recommended for complex analysis)\nollama pull gpt-oss:20b\n\nollama serve  # Runs on http://localhost:11434\n```\n\n**Other Compatible Providers:**\n- **LM Studio**: Desktop GUI for local models\n- **Ollama**: Advanced local LLM interface CLI\n- **Open-WebUI**: Advanced local LLM interface GUI\n- **OpenAI API**: Cloud-based (requires API key)\n- **Anthropic API**: Cloud-based (requires API key)\n- **LiteLLM Proxy**: Access AWS Bedrock, Azure, and 100+ providers\n- **OpenRouter**: Access to multiple models via API\n\n### Installation Steps\n\n1. **Install Dependencies**:\n   ```bash\n   cd /path/to/BinAssist\n   pip install -r requirements.txt\n   ```\n\n2. **Configure Binary Ninja**:\n   - Install as a plugin in Binary Ninja's plugin directory\n   - Or run directly from development directory\n\n3. **Set up LLM Provider**:\n   - Configure your preferred provider (see LLM Provider Setup above)\n   - Update BinAssist settings with correct API endpoints\n\n## Dependencies\n\n**Required Python Packages:**\n```\nopenai                 # OpenAI and LiteLLM provider API\nanthropic              # Anthropic Claude API\npysqlite3              # Database operations\nmarkdown               # Documentation formatting\nhttpx                  # HTTP client for API calls\nanyio>=4.6             # Async I/O support\nmcp                    # Model Context Protocol client\nwhoosh                 # Full-text search for RAG documents\naiohttp                # OAuth clients\n```\n\n## Contributing\n\nWe welcome contributions! Please see our contributing guidelines:\n\n- **Bug Reports**: Submit detailed issues with reproduction steps\n- **Feature Requests**: Propose new functionality with clear use cases  \n- **Code Contributions**: Follow existing patterns\n\n## Support & Community\n\n- **GitHub Issues**: Primary support channel for bugs and features\n\n## License\n\nThis plugin is released under the **MIT License** - see LICENSE file for details.\n\n**Minimum Binary Ninja Version**: 5000\n\n**Metadata Version**: 2\n",
     "minimumbinaryninjaversion": 5000,
     "name": "BinAssist",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/88e02f5c-ab35-43b5-aa47-775484ffa336/platforms/3241/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/88e02f5c-ab35-43b5-aa47-775484ffa336/platforms/3241/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/29abc1eb-e8d9-4cde-ab60-8e9a96f119d8/platforms/3295/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0da1c6d5-b8a5-4367-b552-94439b3e1d1d/versions/29abc1eb-e8d9-4cde-ab60-8e9a96f119d8/platforms/3295/download?notrack=1",
     "path": "jtang613_BinAssist",
     "platforms": [
       "Darwin",
@@ -683,8 +683,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 54,
-      "updated_at": "2026-03-19 00:04:47+00:00"
+      "stargazers_count": 55,
+      "updated_at": "2026-03-29 14:28:09+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
     "subdir": "",
@@ -692,7 +692,7 @@
       "ui",
       "helper"
     ],
-    "version": "1.13.0",
+    "version": "1.15.0",
     "view_only": false
   },
   {
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1052,
+      "stargazers_count": 1058,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1716,8 +1716,8 @@
     "longdescription": "# Binary Ninja Rust Type Layout Helper Plugin \ud83e\udd80\n\nAn extremely experimental Binary Ninja importer for the type layout information emitted by the [`-Zprint-type-sizes` flag](https://nnethercote.github.io/perf-book/type-sizes.html) of the Rust compiler.\n\nThis plugin is meant to help reverse engineers with the following:\n- Getting a sense of how, in general, Rust data structures are laid out in memory.\n- Getting more comfortable with certain core data structures which appear in Rust binaries.\n\n![A screenshot of Binary Ninja's Types view in the sidebar, showing the imported definitions and layouts of several Rust types from `std::sys::windows`.](images/std-sys-windows-types-border.png)\n\n## How to use this plugin\n\nCompile some Rust code with the following options:\n\nMacOS / Linux:\n\n```sh\ncargo clean\nRUSTFLAGS=-Zprint-type-sizes cargo +nightly build -j 1 > type-sizes.txt\n```\n\nWindows (Powershell):\n\n```powershell\ncargo clean\n$env:RUSTFLAGS=\"-Zprint-type-sizes\"; cargo +nightly build -j 1 > type-sizes.txt\n```\n\nThe following are all necessary for this to work:\n- `cargo clean` is required before you do the build, i.e. this needs to be a completely fresh build. This is required to avoid missing information in the output.\n- `-Zprint-type-sizes` in the `RUSTFLAGS` passed to rustc. This flag is what actually triggers `rustc` to produce the type information.\n- `+nightly` passed to cargo, as the `print-type-sizes` flag is only supported on nightly toolchain builds.\n- `-j 1` to avoid shuffled lines in the output.\n\nYou should see output like this in the generated `type-sizes.txt` file:\n\n```\nprint-type-size type: `core::num::dec2flt::decimal::Decimal`: 784 bytes, alignment: 8 bytes\nprint-type-size     field `.digits`: 768 bytes\nprint-type-size     field `.num_digits`: 8 bytes\nprint-type-size     field `.decimal_point`: 4 bytes\nprint-type-size     field `.truncated`: 1 bytes\nprint-type-size     end padding: 3 bytes\nprint-type-size type: `std::result::Result<std::sys::windows::fs::ReadDir, std::io::Error>`: 616 bytes, alignment: 8 bytes\nprint-type-size     variant `Ok`: 616 bytes\nprint-type-size         field `.0`: 616 bytes\nprint-type-size     variant `Err`: 8 bytes\nprint-type-size         field `.0`: 8 bytes\nprint-type-size type: `std::sys::windows::fs::ReadDir`: 616 bytes, alignment: 8 bytes\nprint-type-size     field `.handle`: 8 bytes\nprint-type-size     field `.root`: 8 bytes\nprint-type-size     field `.first`: 596 bytes\nprint-type-size     end padding: 4 bytes\nprint-type-size type: `std::option::Option<std::result::Result<std::fs::DirEntry, std::io::Error>>`: 608 bytes, alignment: 8 bytes\nprint-type-size     discriminant: 8 bytes\nprint-type-size     variant `Some`: 600 bytes\nprint-type-size         field `.0`: 600 bytes\nprint-type-size     variant `None`: 0 bytes\n[...]\n```\n\nYou can now use the _Plugins > Rust Type Layout Helper - Load File..._ command to import the contents of this file into Binary Ninja. The following types in Binary Ninja wil be created from the types shown in the example above:\n\n```c\nstruct core::num::dec2flt::decimal::Decimal __packed\n{\n    char .digits[0x300];\n    int64_t .num_digits;\n    int32_t .decimal_point;\n    char .truncated;\n    char _padding[0x3];\n};\n\nstruct std::result::Result<std::sys::windows::fs::ReadDir, std::io::Error> __packed\n{\n    union __packed\n    {\n        struct std::result::Result<std::sys::windows::fs::ReadDir, std::io::Error>::Ok Ok;\n        struct std::result::Result<std::sys::windows::fs::ReadDir, std::io::Error>::Err Err;\n    } std::result::Result<std::sys::windows::fs::ReadDir, std::io::Error>::variants;\n};\n\nstruct std::result::Result<std::sys::windows::fs::ReadDir, std::io::Error>::Err __packed\n{\n    int64_t .0;\n};\n\nstruct std::result::Result<std::sys::windows::fs::ReadDir, std::io::Error>::Ok __packed\n{\n    char .0[0x268];\n};\n\nstruct std::sys::windows::fs::ReadDir __packed\n{\n    int64_t .handle;\n    int64_t .root;\n    char .first[0x254];\n    int32_t _padding;\n};\n\nstruct std::option::Option<std::result::Result<std::fs::DirEntry, std::io::Error>> __packed\n{\n    enum std::option::Option<std::result::Result<std::fs::DirEntry, std::io::Error>>::discriminant discriminant;\n    union __packed\n    {\n        struct std::option::Option<std::result::Result<std::fs::DirEntry, std::io::Error>>::Some Some;\n        struct std::option::Option<std::result::Result<std::fs::DirEntry, std::io::Error>>::None None;\n    } std::option::Option<std::result::Result<std::fs::DirEntry, std::io::Error>>::variants;\n};\n\nstruct std::option::Option<std::result::Result<std::fs::DirEntry, std::io::Error>>::None __packed\n{\n};\n\nstruct std::option::Option<std::result::Result<std::fs::DirEntry, std::io::Error>>::Some __packed\n{\n    char .0[0x258];\n};\n\nenum std::option::Option<std::result::Result<std::fs::DirEntry, std::io::Error>>::discriminant : uint64_t\n{\n    Some = 0xffffffffffffffff,\n    None = 0xffffffffffffffff\n};\n```\n\n## Caveats and future work\n\nThere are some caveats to using this:\n- The layout of data types is not stable, and can change between compilations!\n- Only the nightly builds of rustc supports the `print-type-sizes` flag.\n- Binary Ninja's support for working with unions in the decompilation is currently quite poor (see [Vector35/binaryninja-api#1013](https://github.com/Vector35/binaryninja-api/issues/1013), [Vector35/binaryninja-api#4218](https://github.com/Vector35/binaryninja-api/issues/4218)). This may make it difficult to work with the generated `variants` unions, such as `std::option::Option<std::result::Result<std::fs::DirEntry, std::io::Error>>::variants` in the example above.\n- When importing sum types (i.e. Rust enums), the discriminant value used to represent each variant in the sum type does not necessarily match the ordering of those variant in the type layout information, i.e. the first variant is not necessarily discriminant value 0, etc. The information emitted by rustc's `print-type-sizes` flag also does not include the discriminant value for each variant. Therefore, all variants are assigned a discriminant value of -1. To determine the actual determinant value, it is up to the user to reverse the code where the sum type is used.\n\nIn the future it would be nice to:\n- Add scripts / plugins to import the type information into IDA and Ghidra.\n- Use a Rust compiler plugin to emit better type information than we get from `-Zprint-type-sizes`? Maybe a combination of the information we get from `-Zprint-type-sizes` and `#[rustc_layout(...)]`. It would also be nice to emit the type information in a format which is slightly easier to parse (e.g. JSON).\n\n## Installation\n\nThis plugin can be installed via either:\n\n1) Searching for the _Rust Type Layout Helper_ plugin in Binary Ninja's built-in plugin manager (_Plugins > Manage Plugins_). _This is the recommended method._\n\n2) Cloning this repository into your user plugins folder.\n    - The [location of the user plugins folder will vary depending on the platform Binary Ninja is installed on](https://docs.binary.ninja/guide/index.html#user-folder). The easiest way to find the location of the folder is via the _Plugins > Open Plugin Folder..._ command.\n    - If you are performing an installation via this method, you must also install this plugin's Python dependencies manually. This can be done by either:\n        - Running the _Install python3 module..._ command (via the Command Palette), and pasting the contents of [`requirements.txt`](requirements.txt) in this repository into the dialog window.\n        - Running `pip install -r requirements.txt` in the Python environment used by Binary Ninja.\n\nThis plugin requires Python >= 3.7, and Binary Ninja version >= 3.2.3814.\n\n## Development\n\n### Setting up a development environment\n\nTo set up a development environment, including setting up a Python virtual environment:\n\n```\npython -m venv .venv && . .venv/bin/activate\npip install -r requirements.txt\npip install -r dev-requirements.txt\npython $PATH_TO_BINARY_NINJA_INSTALLATION/scripts/install_api.py\n```\n\nFor formatting, linting, and running unit tests locally, install [Nox](https://nox.thea.codes/en/stable/tutorial.html), then:\n\n```\nnox\n```\n\nYou can also invoke each task separately; see [noxfile.py](noxfile.py) for more details on available tasks:\n\n```\nnox -s format\nnox -s lint\nnox -s test\n```\n\nLinting and unit testing (both against multiple Python versions) are also set up in CI on [GitHub Actions](.github/workflows/ci.yml).\n\n### Testing local versions of the plugin\n\nTo test the plugin locally in your own Binary Ninja installation during development, create a symbolic link between your development folder, and the [Binary Ninja user plugins folder](https://docs.binary.ninja/guide/index.html#user-folder), so that your development folder is loaded by Binary Ninja on startup as a plugin.\n\n- MacOS:\n\n    ```sh\n    ln -s `pwd` ~/Library/Application\\ Support/Binary\\ Ninja/plugins/rust_type_layout_helper\n    ```\n\n- Linux:\n\n    ```sh\n    ln -s --relative . ~/.binaryninja/plugins/rust_type_layout_helper\n    ```\n\n- Windows (Powershell):\n    ```powershell\n    New-Item -ItemType Junction -Value $(Get-Location) -Path \"$env:APPDATA\\Binary Ninja\\plugins\\rust_type_layout_helper\"\n    ```\n\nYou should then change the values of the following Python settings in Binary Ninja to point to inside your development folder's virtual environment:\n\n- `python.binaryOverride`: Set this to the path of the Python interpreter inside your development virtual environment, e.g. `$DEVELOPMENT_FOLDER/rust_type_layout_helper/.venv/bin/python/`\n- `python.virtualenv`: Set this to the path of the `site-packages` directory inside your development virtual environment, e.g. `$DEVELOPMENT_FOLDER/rust_type_layout_helper/.venv/lib/python3.11/site-packages`\n\n## Acknowledgements and resources\n\nThe compilation instructions for emitting type information are taken from the instructions in the [`top-type-sizes` crate, by Paul Loyd](https://github.com/loyd/top-type-sizes).\n\n\n### Changelog\n## [1.1.0](https://github.com/cxiao/rust_type_layout_helper_bn/compare/v1.0.0...v1.1.0) (2026-03-19)\n\n\n### Features\n\n* Make type import action undoable in bulk ([4b141e8](https://github.com/cxiao/rust_type_layout_helper_bn/commit/4b141e86e928e075c34bc47c9c90ef200b634021))",
     "minimumbinaryninjaversion": 3814,
     "name": "Rust Type Layout Helper",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/1e3436b3-6230-43c4-91ee-22393e48dc91/versions/d4fe2e8f-68b6-4f62-bd8d-9a86cf65861c/platforms/3253/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/1e3436b3-6230-43c4-91ee-22393e48dc91/versions/d4fe2e8f-68b6-4f62-bd8d-9a86cf65861c/platforms/3253/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/1e3436b3-6230-43c4-91ee-22393e48dc91/versions/d4fe2e8f-68b6-4f62-bd8d-9a86cf65861c/platforms/3254/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/1e3436b3-6230-43c4-91ee-22393e48dc91/versions/d4fe2e8f-68b6-4f62-bd8d-9a86cf65861c/platforms/3254/download?notrack=1",
     "path": "cxiao_rust_type_layout_helper_bn",
     "platforms": [
       "Darwin",
@@ -1856,20 +1856,20 @@
       "python3"
     ],
     "author": "BinSync Team",
-    "dependencies": "binsync>=5.11.2",
+    "dependencies": "binsync>=5.13.0",
     "description": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1769794861,
+    "lastUpdated": 1774376924,
     "license": {
       "name": "BSD 2-clause",
       "text": ""
     },
-    "longdescription": "\n## BinSync\n\n<p align=\"center\">\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\n</p>\n\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\nengineering collaboration regardless of decompiler. \nBinSync is supported in IDA, Binary Ninja, Ghidra, and angr-management.\n\n![Demo](https://github.com/binsync/binsync/blob/main/assets/images/binja_sync.gif?raw=true)\n\n## Overview \nAt a high level, BinSync works by tracking changes to important reverse engineering artifacts \n(functions, comments, types) while you reverse engineer a binary. These changes are then committed to a Git repository.\nThe data is stored in TOMLS and is therefore human-readable and diffable. The data stored, such as types, are \nconverted to C so they can be transferred between decompilers. \nAn example repo of this format can be found at [https://github.com/binsync/example.bsproj](https://github.com/binsync/example.bsproj). \n\nBinSync provides a GUI for you to view changes made by you and other users and synchronize them.\nBinSync also has other extra features for integrating AI reverse engineering assistants.\n\n## Installation & Usage\nBinSync can be installed directly from within your decompiler's plugin manager. After that initial installation, you\ncan verify that your installation works by following our quickstart guide to join our example project.\nThe 5-minute quickstart guide can be found [here](https://docs.binsync.net/quickstart/joining-project), and is \nalways the most up-to-date way to get started with BinSync.\n\n## Credits\nBinSync is built by [mahaloz](https://github.com/mahaloz), the [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. The BinSync Team can be listed as follows:\n- Zion Leonahenahe Basque (mahaloz)\n- The angr team\n- The SEFCOM Lab at Arizona State University\n\nFor inquiries, contact the project lead, Zion Leonahenahe Basque, aka, \"mahaloz\" at binsync@mahaloz.re. \n\n### Changelog\n## What's Changed\n* bump IDA plugin version to 5.11.1 by @williballenthin in https://github.com/binsync/binsync/pull/499\n\n## New Contributors\n* @williballenthin made their first contribution in https://github.com/binsync/binsync/pull/499\n\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.11.1...v5.11.2",
+    "longdescription": "\n## BinSync\n\n<p align=\"center\">\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\n</p>\n\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\nengineering collaboration regardless of decompiler. \nBinSync is supported in IDA, Binary Ninja, Ghidra, and angr-management.\n\n![Demo](https://github.com/binsync/binsync/blob/main/assets/images/binja_sync.gif?raw=true)\n\n## Overview \nAt a high level, BinSync works by tracking changes to important reverse engineering artifacts \n(functions, comments, types) while you reverse engineer a binary. These changes are then committed to a Git repository.\nThe data is stored in TOMLS and is therefore human-readable and diffable. The data stored, such as types, are \nconverted to C so they can be transferred between decompilers. \nAn example repo of this format can be found at [https://github.com/binsync/example.bsproj](https://github.com/binsync/example.bsproj). \n\nBinSync provides a GUI for you to view changes made by you and other users and synchronize them.\nBinSync also has other extra features for integrating AI reverse engineering assistants.\n\n## Installation & Usage\nBinSync can be installed directly from within your decompiler's plugin manager. After that initial installation, you\ncan verify that your installation works by following our quickstart guide to join our example project.\nThe 5-minute quickstart guide can be found [here](https://docs.binsync.net/quickstart/joining-project), and is \nalways the most up-to-date way to get started with BinSync.\n\n## Credits\nBinSync is built by [mahaloz](https://github.com/mahaloz), the [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. The BinSync Team can be listed as follows:\n- Zion Leonahenahe Basque (mahaloz)\n- The angr team\n- The SEFCOM Lab at Arizona State University\n\nFor inquiries, contact the project lead, Zion Leonahenahe Basque, aka, \"mahaloz\" at binsync@mahaloz.re. \n\n### Changelog\n## What's Changed\n* feat/compare-commit-history by @JustinZYen in https://github.com/binsync/binsync/pull/508\n* Add diff display when hovering over function diffs in Compare with Commit History by @JustinZYen in https://github.com/binsync/binsync/pull/512\n\n\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.12.0...v5.13.0",
     "minimumbinaryninjaversion": 1200,
     "name": "BinSync",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/fba1b0b1-3c16-49e1-a06c-e9382b44796b/platforms/3127/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/fba1b0b1-3c16-49e1-a06c-e9382b44796b/platforms/3127/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/52db81d6-1056-4339-bb9c-6269f8c90bb9/platforms/3279/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/52db81d6-1056-4339-bb9c-6269f8c90bb9/platforms/3279/download?notrack=1",
     "path": "binsync_binsync",
     "platforms": [
       "Darwin",
@@ -1878,15 +1878,15 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 689,
-      "updated_at": "2026-01-30 17:41:01+00:00"
+      "stargazers_count": 691,
+      "updated_at": "2026-03-24 18:28:44+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
     "subdir": "binsync/stub_files",
     "type": [
       "sync"
     ],
-    "version": "5.11.2",
+    "version": "5.13.0",
     "view_only": false
   },
   {
@@ -1992,7 +1992,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 783,
+      "stargazers_count": 786,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2187,7 +2187,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 47,
+      "stargazers_count": 48,
       "updated_at": "2023-01-28 19:57:01+00:00"
     },
     "projectUrl": "https://github.com/AsherDLL/PCDump-bn",
@@ -2301,7 +2301,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 860,
+      "stargazers_count": 861,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2609,7 +2609,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 41,
+      "stargazers_count": 42,
       "updated_at": "2023-06-06 11:00:33+00:00"
     },
     "projectUrl": "https://github.com/CySHell/ClassyPP",
@@ -2803,7 +2803,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 25,
+      "stargazers_count": 26,
       "updated_at": "2022-02-21 18:59:19+00:00"
     },
     "projectUrl": "https://github.com/ImNotAVirus/delphi_ninja",
@@ -2900,7 +2900,7 @@
     "description": "Research Decompiler to generate a C-like function representation",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1767232606,
+    "lastUpdated": 1775011257,
     "license": {
       "name": "LGPL-2.1",
       "text": "This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
@@ -2908,8 +2908,8 @@
     "longdescription": "# dewolf\n\ndewolf is a research decompiler we developed during a research cooperation from 2019 to 2021 between Germany (Fraunhofer FKIE) and Singapore (DSO National Laboratories).\n\nThe restructuring of dewolf is based on the former DREAM/DREAM++ approach [Yakdan et al. NDSS 2015, IEEE (SP) 2016].\n\nThe decompiler dewolf is implemented as a plugin for Binary Ninja and uses their Medium-Level intermediate language as the starting point.\nAlthough we consider dewolf to be pretty stable, it is still a research prototype and not extensively optimized for production use.\nConsequently, you will likely observe a few bugs or even decompilation failures when applying dewolf on real-world binaries.\n\n**If you encounter any bugs, please report them to us so that we can further improve dewolf. :)**\n\n## Usage\n\nAfter enabling the dewolf decompilation dock widget via **View > Other Docks > Show Dewolf**, the decompiled code for the currently active symbol will be displayed.\nIn the dewolf dock, it is possible to navigate through functions by double-clicking them.\n\n![Widget Menu](https://user-images.githubusercontent.com/12004321/145460440-be4b7dfd-bf7e-497f-a7af-1911bf3efc50.png)\n\nThe automatic decompilation of selected functions can be toggled with the *follow* button.\nDecompiled code is cached and can be generated again with the *decompile* button, e.g. after patching instructions in the binary view.\n\n![Widget](https://user-images.githubusercontent.com/12004321/145460476-f869e5cc-d585-4f53-8920-6ecfa4b346d5.png)\n\n## Configuration\ndewolf has multiple configuration options of which some are configurable via the GUI.\n\nYou can configure dewolf from the Binary Ninja GUI by navigating to **Edit > Preferences > Settings** or by pressing <kbd>Ctrl</kbd> + <kbd>,</kbd>.\nSearch for **dewolf** in the search bar and all dewolf related settings will be displayed.\n\n## Support\n\nIf you have any suggestions, or bug reports, please create an issue in the [Issue Tracker](https://github.com/fkie-cad/dewolf/issues).\n\nIn case you have any questions or other problems, feel free to send an email to:\n\n[dewolf@fkie.fraunhofer.de](mailto:dewolf@fkie.fraunhofer.de).\n\n### Changelog\nAutomatic release",
     "minimumbinaryninjaversion": 4271,
     "name": "dewolf Decompiler",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/f505642f-2482-45fa-aee0-5fa16ea327fc/platforms/3025/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/f505642f-2482-45fa-aee0-5fa16ea327fc/platforms/3025/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/5841b1d9-e395-44e3-8a4e-ca66607c3bd4/platforms/3307/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/5841b1d9-e395-44e3-8a4e-ca66607c3bd4/platforms/3307/download?notrack=1",
     "path": "fkiecad_dewolf",
     "platforms": [
       "Darwin",
@@ -2918,8 +2918,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 219,
-      "updated_at": "2026-01-01 01:56:46+00:00"
+      "stargazers_count": 220,
+      "updated_at": "2026-04-01 02:40:57+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
     "subdir": "",
@@ -2927,7 +2927,7 @@
       "ui",
       "helper"
     ],
-    "version": "2026-01-01",
+    "version": "2026-04-01",
     "view_only": false
   },
   {
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2313,
+      "stargazers_count": 2322,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3228,7 +3228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2514,
+      "stargazers_count": 2531,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3533,7 +3533,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 31,
+      "stargazers_count": 32,
       "updated_at": "2021-04-10 03:40:13+00:00"
     },
     "projectUrl": "https://github.com/yellowbyte/opaque-predicates-detective",
@@ -3647,7 +3647,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 653,
+      "stargazers_count": 654,
       "updated_at": "2025-03-14 02:16:09+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -3956,7 +3956,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 301,
+      "stargazers_count": 300,
       "updated_at": "2024-09-07 12:07:04+00:00"
     },
     "projectUrl": "https://github.com/Martyx00/VulnFanatic",
@@ -4540,7 +4540,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 138,
+      "stargazers_count": 139,
       "updated_at": "2024-02-15 00:51:37+00:00"
     },
     "projectUrl": "https://github.com/zznop/bnida",
@@ -4811,7 +4811,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 89,
+      "stargazers_count": 90,
       "updated_at": "2023-07-19 15:06:16+00:00"
     },
     "projectUrl": "https://github.com/withzombies/bnil-graph",
@@ -5196,7 +5196,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 17,
+      "stargazers_count": 18,
       "updated_at": "2019-09-04 19:52:43+00:00"
     },
     "projectUrl": "https://github.com/whitequark/binja-i8086",
@@ -5431,7 +5431,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 14,
+      "stargazers_count": 15,
       "updated_at": "2021-01-18 13:36:47+00:00"
     },
     "projectUrl": "https://github.com/uni-due-syssec/bn-riscv",
@@ -5680,20 +5680,20 @@
       "python3"
     ],
     "author": "Layle",
-    "dependencies": "",
+    "dependencies": "kaitaistruct>=0.10\ncapstone>=5.0.0\nsetuptools>=65\n",
     "description": "Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1593911011,
+    "lastUpdated": 1775056644,
     "license": {
       "name": "BSD-3-Clause",
       "text": "Copyright (c) 2020, Can B\u00f6l\u00fck\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.\n\n * Redistributions in binary form must reproduce the above copyright notice,\nthis list of conditions and the following disclaimer in the documentation\nand/or other materials provided with the distribution.\n\n* Neither the name of [project] nor the names of its\ncontributors may be used to endorse or promote products derived from\nthis software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n"
     },
-    "longdescription": "# VTIL-BinaryNinja\nVTIL meets Binary Ninja and provides you with a solution to analyze VTIL code in a less painful manner.\n\nNote: If you default to an IL view, you will need to manaually make sure you select an Assembly view as this plugin does not have any lifting at this time.\n\n## Installation\nInstall via the Plugin Manager in Binary Ninja, or clone this repository into your [plugin folder](https://docs.binary.ninja/guide/plugins.html#using-plugins).\n\n## Screenshots\n![](https://raw.githubusercontent.com/psifertex/VTIL-BinaryNinja/master/images/example.png)\n\n## Dislcaimer\nThis is a **very early proof of concept**. Expect bugs.  \n\nKnown issues:\n- Only one VTIL file supported per Binary Ninja process\n- Goto labels are not clickable\n",
+    "longdescription": "# VTIL-BinaryNinja\nVTIL meets Binary Ninja and provides you with a solution to analyze VTIL code in a less painful manner.\n\n## Installation\nInstall via the Plugin Manager in Binary Ninja, or clone this repository into your [plugin folder](https://docs.binary.ninja/guide/plugins.html#using-plugins).\n\nNote: LLIL lifting coverage is complete for the VTIL-Core instruction set. MLIL/HLIL are produced by Binary Ninja from the lifted LLIL.\n\n## Screenshots\n![](https://raw.githubusercontent.com/psifertex/VTIL-BinaryNinja/master/images/example.png)\n\n## Disclaimer\nThis is a **very early proof of concept**. Expect bugs.\n\nKnown issues:\n- Special instructions (`nop`, `sfence`, `lfence`, `vemit`, `vpinr`, `vpinw`, `vpinrm`, `vpinwm`) intentionally lower to no-op IL.\n- Runtime semantics should still be validated on real-world samples because this plugin remains a proof of concept.\n\n\n### Changelog\n## What's Changed\r\n* Fix undeclared variable error by @meme in https://github.com/vtil-project/VTIL-BinaryNinja/pull/5\r\n* Add VTIL LLIL lifting + CFG recovery for indirect control flow and mov edge cases by @dword64 in https://github.com/vtil-project/VTIL-BinaryNinja/pull/6\r\n* Bump version from 1.1 to 1.2 in plugin.json by @dword64 in https://github.com/vtil-project/VTIL-BinaryNinja/pull/7\r\n\r\n## New Contributors\r\n* @meme made their first contribution in https://github.com/vtil-project/VTIL-BinaryNinja/pull/5\r\n* @dword64 made their first contribution in https://github.com/vtil-project/VTIL-BinaryNinja/pull/6\r\n\r\n**Full Changelog**: https://github.com/vtil-project/VTIL-BinaryNinja/compare/1.1...1.2",
     "minimumbinaryninjaversion": 1528,
     "name": "VTIL Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/6c3de980-2b82-42c8-b373-f19a59812e25/platforms/2101/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/6c3de980-2b82-42c8-b373-f19a59812e25/platforms/2101/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/b80097c6-6eb9-4bdd-b11c-ef06c1aa5d92/platforms/3313/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/b80097c6-6eb9-4bdd-b11c-ef06c1aa5d92/platforms/3313/download?notrack=1",
     "path": "vtilproject_VTILBinaryNinja",
     "platforms": [
       "Darwin",
@@ -5703,7 +5703,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 93,
-      "updated_at": "2020-07-05 01:03:31+00:00"
+      "updated_at": "2026-04-01 15:17:24+00:00"
     },
     "projectUrl": "https://github.com/vtil-project/VTIL-BinaryNinja",
     "subdir": "",
@@ -5711,7 +5711,7 @@
       "architecture",
       "binaryview"
     ],
-    "version": "1.1",
+    "version": "1.2",
     "view_only": false
   },
   {
@@ -6164,7 +6164,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 38,
+      "stargazers_count": 40,
       "updated_at": "2025-05-11 07:32:17+00:00"
     },
     "projectUrl": "https://github.com/MCPPhalanx/binaryninja-mcp",
@@ -6396,7 +6396,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 116,
+      "stargazers_count": 120,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6580,8 +6580,8 @@
     "longdescription": "\n# Game ROM Loader\n\nBinary Ninja loader for some game ROMs.\nSupports a lot of major consoles now.\n\n## features\n\n+ [x] GBA (GameBoy Advance) ROMs (`armv4`)\n+ [x] NDS (Nintendo DS) ROMs (`armv4`/`armv5`)\n+ [x] PSP (PlayStation Portable) ELF ([guide](doc/guide_psp.md)) (`mipsel32`)\n+ [x] PS2 (PlayStation 2) ELF (`r5900l`)\n+ [x] 3DS (Nintendo 3DS) CXI ([guide](doc/guide_3ds.md)) (`armv5`/`armv6`)\n+ [x] Switch (Nintendo Switch) NSO0 ([guide](doc/guide_switch.md)) (`aarch64`)\n+ [x] Wii (Nintendo Wii) Executable ([guide](doc/guide_wii.md)) (`ppc_ps`)\n\n## usage\n\nsee [guides](./doc) for platform-specific instructions.\n\nfor some consoles, the raw cartridge data can be quite huge.\nto avoid importing the full cartridge, which can be many GBs, we instead use scripts to pack custom containers (see guides), then write loaders for those containers.\nat the cost of having a slightly nonstandard format, we now are very space efficient, as we load only the executable data and still map it neatly into virtual address space.\n\n\n### Changelog\n**Full Changelog**: https://github.com/redthing1/binja_gameroms_plugin/compare/v0.2.3...v0.2.4",
     "minimumbinaryninjaversion": 3164,
     "name": "Game ROM Loader",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/cdc2a366-c45d-460b-9498-63df4d75bf7f/versions/d48537bd-68d6-4f78-aef9-9c0bfe5ef458/platforms/3235/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/cdc2a366-c45d-460b-9498-63df4d75bf7f/versions/d48537bd-68d6-4f78-aef9-9c0bfe5ef458/platforms/3235/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/cdc2a366-c45d-460b-9498-63df4d75bf7f/versions/d48537bd-68d6-4f78-aef9-9c0bfe5ef458/platforms/3236/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/cdc2a366-c45d-460b-9498-63df4d75bf7f/versions/d48537bd-68d6-4f78-aef9-9c0bfe5ef458/platforms/3236/download?notrack=1",
     "path": "redthing1_binja_gameroms_plugin",
     "platforms": [
       "Darwin",
@@ -6590,7 +6590,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 3,
+      "stargazers_count": 5,
       "updated_at": "2026-03-16 22:25:13+00:00"
     },
     "projectUrl": "https://github.com/redthing1/binja_gameroms_plugin",
@@ -6747,7 +6747,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 48,
+      "stargazers_count": 49,
       "updated_at": "2026-03-07 12:39:05+00:00"
     },
     "projectUrl": "https://github.com/jonpalmisc/ibis",
@@ -6783,7 +6783,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1,
+      "stargazers_count": 4,
       "updated_at": "2026-03-04 21:44:21+00:00"
     },
     "projectUrl": "https://github.com/estr3llas/ioctl_resolver",
@@ -6897,7 +6897,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 46,
+      "stargazers_count": 47,
       "updated_at": "2026-03-06 14:58:12+00:00"
     },
     "projectUrl": "https://github.com/seekbytes/ptxNinja",
@@ -6955,16 +6955,16 @@
     "description": "Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1773480026,
+    "lastUpdated": 1774962213,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2025 Jason Tang\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# BinAssistMCP\n\n> Comprehensive Model Context Protocol (MCP) server for Binary Ninja with AI-powered reverse engineering capabilities\n\n## Summary\n\nBinAssistMCP is a powerful bridge between Binary Ninja and Large Language Models (LLMs) like Claude, providing comprehensive reverse engineering tools through the Model Context Protocol (MCP). It enables AI-assisted binary analysis by exposing Binary Ninja's advanced capabilities through Server-Sent Events (SSE) and Streamable HTTP transports.\n\n### Key Features\n\n- **MCP 2025-11-25 Compliant**: Full support for tool annotations, resources, and prompts\n- **Dual Transport Support**: SSE (Server-Sent Events) and Streamable HTTP transports\n- **39 Consolidated Tools**: Streamlined Binary Ninja API wrapper with unified tool design\n- **8 MCP Resources**: Browsable, cacheable binary metadata\n- **7 Guided Prompts**: Pre-built workflows for common reverse engineering tasks\n- **Multi-Binary Sessions**: Concurrent analysis of multiple binaries with intelligent context management\n- **Analysis Caching**: LRU cache with binary-scoped invalidation for improved performance\n- **Async Task Support**: Non-blocking execution for long-running operations\n- **Thread-Safe**: RLock-based synchronization for concurrent access\n- **Auto-Integration**: Seamless Binary Ninja plugin with automatic startup capabilities\n\n### Use Cases\n\n- **AI-Assisted Reverse Engineering**: Leverage LLMs for intelligent code analysis and documentation\n- **Protocol Analysis**: Trace network data flows and reconstruct protocol structures\n- **Vulnerability Research**: Systematic security audits with guided workflows\n- **Automated Binary Analysis**: Script complex analysis workflows with natural language\n- **Code Understanding**: Generate comprehensive documentation and explanations\n\n---\n\n## Architecture\n\n```\nsrc/binassist_mcp/\n\u251c\u2500\u2500 server.py        # FastMCP server - SSE/Streamable HTTP transport, tool registration\n\u251c\u2500\u2500 tools.py         # Binary Ninja API wrapper - 39 MCP tools\n\u251c\u2500\u2500 plugin.py        # Binary Ninja plugin integration\n\u251c\u2500\u2500 context.py       # Thread-safe multi-binary session management\n\u251c\u2500\u2500 config.py        # Pydantic configuration with Binary Ninja settings\n\u251c\u2500\u2500 prompts.py       # 7 guided workflow prompts\n\u251c\u2500\u2500 resources.py     # 8 MCP resource definitions\n\u251c\u2500\u2500 cache.py         # LRU analysis cache with invalidation\n\u251c\u2500\u2500 tasks.py         # Async task manager for long-running operations\n\u251c\u2500\u2500 logging.py       # Binary Ninja logging integration\n\u2514\u2500\u2500 utils.py         # Utility functions\n\n__init__.py          # Plugin entry point (root level)\n```\n\n---\n\n## Tools (39 Total)\n\nBinAssistMCP provides 39 tools organized into functional categories. Tools include MCP annotations (`readOnlyHint`, `idempotentHint`) to help clients make informed decisions.\n\n### Binary Management\n| Tool | Description |\n|------|-------------|\n| `list_binaries` | List all loaded binary files |\n| `get_binary_info` | Check analysis status and metadata |\n| `update_analysis_and_wait` | Force analysis update and wait for completion |\n\n### Code Analysis (Consolidated)\n| Tool | Description |\n|------|-------------|\n| `get_code` | **Unified code retrieval** - supports formats: `decompile`, `hlil`, `mlil`, `llil`, `disasm`, `pseudo_c` |\n| `get_function_low_level_il` | Get Low-Level IL for a function |\n| `analyze_function` | Comprehensive function analysis with control flow and complexity metrics |\n| `get_basic_blocks` | Get basic block information for control flow analysis |\n| `get_function_stack_layout` | Get stack frame layout with variable offsets |\n\n### Cross-References (Consolidated)\n| Tool | Description |\n|------|-------------|\n| `xrefs` | **Unified cross-references** - actions: `refs_to`, `refs_from`, `call_graph` |\n\n### Comments (Consolidated)\n| Tool | Description |\n|------|-------------|\n| `comments` | **Unified comment management** - actions: `get`, `set`, `list`, `remove`, `set_function` |\n\n### Variables (Consolidated)\n| Tool | Description |\n|------|-------------|\n| `variables` | **Unified variable management** - actions: `list`, `create`, `rename`, `set_type` |\n\n### Types (Consolidated)\n| Tool | Description |\n|------|-------------|\n| `types` | **Unified type management** - actions: `create`, `create_enum`, `create_typedef`, `create_class`, `add_member`, `get_info`, `list` |\n| `get_classes` | List all classes and structures |\n\n### Function Discovery\n| Tool | Description |\n|------|-------------|\n| `get_functions` | List all functions with metadata (paginated) |\n| `search_functions_by_name` | Find functions by name pattern |\n| `get_functions_advanced` | Advanced filtering by size, complexity, parameters |\n| `search_functions_advanced` | Multi-target search (name, comments, calls, variables) |\n| `get_function_statistics` | Comprehensive statistics for all functions |\n\n### Symbol Management\n| Tool | Description |\n|------|-------------|\n| `rename_symbol` | Rename functions and data variables |\n| `batch_rename` | Rename multiple symbols in one operation |\n| `get_namespaces` | List namespaces and symbol organization |\n\n### Binary Information\n| Tool | Description |\n|------|-------------|\n| `get_imports` | Import table grouped by module |\n| `get_exports` | Export table with symbol information |\n| `get_strings` | String extraction with filtering |\n| `search_strings` | Search strings by pattern |\n| `get_segments` | Memory segment layout |\n| `get_sections` | Binary section information |\n| `get_entry_points` | List all binary entry points |\n\n### Data Analysis\n| Tool | Description |\n|------|-------------|\n| `create_data_var` | Define data variables at addresses |\n| `get_data_vars` | List all defined data variables |\n| `get_data_at` | Read and analyze raw data |\n| `search_bytes` | Search for byte patterns in binary |\n\n### Navigation & Bookmarks\n| Tool | Description |\n|------|-------------|\n| `get_current_address` | Get current cursor position with context |\n| `get_current_function` | Identify function at current address |\n| `bookmarks` | **Unified bookmark management** - actions: `list`, `set`, `remove` |\n\n### Task Management\n| Tool | Description |\n|------|-------------|\n| `start_task` | Start an async background task |\n| `get_task_status` | Check status of async operations |\n| `list_tasks` | List all pending/running tasks |\n| `cancel_task` | Cancel a running task |\n\n---\n\n## MCP Resources (8 Total)\n\nResources provide browsable, cacheable data that clients can access without tool calls.\n\n| URI Pattern | Description |\n|-------------|-------------|\n| `binassist://{filename}/triage_summary` | Complete binary overview |\n| `binassist://{filename}/functions` | All functions with metadata |\n| `binassist://{filename}/imports` | Import table |\n| `binassist://{filename}/exports` | Export table |\n| `binassist://{filename}/strings` | String table |\n| `binja://{filename}/info` | Binary metadata (arch, platform, entry point) |\n| `binja://{filename}/segments` | Memory segments with permissions |\n| `binja://{filename}/sections` | Binary sections |\n\n---\n\n## MCP Prompts (7 Total)\n\nPre-built prompts guide LLMs through structured analysis workflows.\n\n| Prompt | Arguments | Description |\n|--------|-----------|-------------|\n| `analyze_function` | `function_name`, `filename` | Comprehensive function analysis workflow |\n| `identify_vulnerability` | `function_name`, `filename` | Security audit checklist (memory safety, input validation, crypto) |\n| `document_function` | `function_name`, `filename` | Generate Doxygen-style documentation |\n| `trace_data_flow` | `address`, `filename` | Track data dependencies and taint propagation |\n| `compare_functions` | `func1`, `func2`, `filename` | Diff two functions for similarity analysis |\n| `reverse_engineer_struct` | `address`, `filename` | Recover structure definitions from usage patterns |\n| `trace_network_data` | `filename` | Trace POSIX/Winsock send/recv for protocol analysis |\n\n### Example: Network Protocol Analysis\n\nThe `trace_network_data` prompt guides analysis of network communication:\n\n1. **Identify Network Functions**: Finds POSIX (`send`/`recv`/`sendto`/`recvfrom`) and Winsock (`WSASend`/`WSARecv`) calls\n2. **Trace Call Stacks**: Maps application handlers down to network I/O\n3. **Analyze Buffers**: Identifies protocol structures (headers, length fields, TLV encoding)\n4. **Reconstruct Protocols**: Generates C struct definitions for message formats\n5. **Security Assessment**: Checks for buffer overflows, integer issues, information disclosure\n\n---\n\n## Installation\n\n### Prerequisites\n\n- **Binary Ninja**: Version 4000 or higher\n- **Python**: 3.8+ (typically bundled with Binary Ninja)\n- **Platform**: Windows, macOS, or Linux\n\nNOTE: Windows users should start with: [BinAssistMCP on Windows](binassistmcp-on-windows.md)\n\n### Option 1: Binary Ninja Plugin Manager (Recommended)\n\n1. Open Binary Ninja\n2. Navigate to **Tools** \u2192 **Manage Plugins**\n3. Search for \"BinAssistMCP\"\n4. Click **Install**\n5. Restart Binary Ninja\n\n### Option 2: Manual Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/jtang613/BinAssistMCP.git\ncd BinAssistMCP\n\n# Install dependencies\npip install -r requirements.txt\n```\n\nCopy to your Binary Ninja plugins directory:\n\n| Platform | Path |\n|----------|------|\n| Windows | `%APPDATA%\\Binary Ninja\\plugins\\` |\n| macOS | `~/Library/Application Support/Binary Ninja/plugins/` |\n| Linux | `~/.binaryninja/plugins/` |\n\n---\n\n## Configuration\n\n### Binary Ninja Settings\n\nOpen **Edit** \u2192 **Preferences** \u2192 **binassistmcp**:\n\n| Setting | Default | Description |\n|---------|---------|-------------|\n| `server.host` | `localhost` | Server bind address |\n| `server.port` | `9090` | Server port |\n| `server.transport` | `streamablehttp` | Transport: `streamablehttp` or `sse` |\n| `binary.max_binaries` | `10` | Maximum concurrent binaries |\n| `plugin.auto_startup` | `true` | Auto-start server on file load |\n\n### Environment Variables\n\n```bash\nexport BINASSISTMCP_SERVER__HOST=localhost\nexport BINASSISTMCP_SERVER__PORT=9090\nexport BINASSISTMCP_SERVER__TRANSPORT=streamablehttp\nexport BINASSISTMCP_BINARY__MAX_BINARIES=10\n```\n\n---\n\n## Usage\n\n### Starting the Server\n\n**Via Binary Ninja Menu:**\n1. **Tools** \u2192 **BinAssistMCP** \u2192 **Start Server**\n2. Check log panel for: `BinAssistMCP server started on http://localhost:9090`\n\n**Auto-Startup:**\nServer starts automatically when Binary Ninja loads a file (configurable).\n\n### Connecting MCP Clients\n\n**Streamable HTTP (Default):**\n```\nhttp://localhost:9090/mcp\n```\n\n**Server-Sent Events:**\n```\nhttp://localhost:9090/sse\n```\n\n### Claude Desktop Configuration\n\nAdd to your Claude Desktop MCP configuration (`claude_desktop_config.json`):\n\n```json\n{\n  \"mcpServers\": {\n    \"binassist\": {\n      \"url\": \"http://localhost:9090/mcp\"\n    }\n  }\n}\n```\n\n---\n\n## Integration Examples\n\n### Basic Function Analysis\n```\nUser: \"Analyze the main function and explain what it does\"\n\nClaude uses:\n1. get_functions() - find main\n2. get_code(format='decompile') - get readable code\n3. xrefs(action='refs_from') - find called functions\n4. analyze_function() - get complexity metrics\n```\n\n### Vulnerability Research\n```\nUser: \"Find buffer overflow vulnerabilities in input handling functions\"\n\nClaude uses:\n1. search_functions_advanced(search_in='calls') - find memcpy/strcpy callers\n2. get_code(format='decompile') - examine implementations\n3. variables(action='list') - check buffer sizes\n4. comments(action='set') - document findings\n```\n\n### Protocol Reverse Engineering\n```\nUser: \"Analyze the network protocol used by this binary\"\n\nClaude uses the trace_network_data prompt:\n1. Identifies send/recv call sites\n2. Traces data flow from handlers to network I/O\n3. Reconstructs message structures\n4. Checks for network vulnerabilities\n```\n\n---\n\n## Troubleshooting\n\n### Server Issues\n\n| Problem | Solution |\n|---------|----------|\n| Server won't start | Check port 9090 availability, verify dependencies |\n| Connection refused | Ensure server is running, check firewall settings |\n| Tools return errors | Wait for analysis completion, verify binary is loaded |\n\n### Performance\n\n- **Slow decompilation**: Results are cached; second request is faster\n- **Memory usage**: Reduce `max_binaries` setting\n- **Long operations**: Check task status with `get_task_status`\n\n### Logs\n\nCheck Binary Ninja's Log panel for detailed error messages.\n\n---\n\n## Contributing\n\n1. Fork the repository\n2. Create a feature branch\n3. Follow existing code patterns (Pydantic models, type hints, docstrings)\n4. Test with multiple binary types\n5. Submit a pull request\n\n---\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n",
+    "longdescription": "# BinAssistMCP\n\n> Comprehensive Model Context Protocol (MCP) server for Binary Ninja with AI-powered reverse engineering capabilities\n\n## Summary\n\nBinAssistMCP is a powerful bridge between Binary Ninja and Large Language Models (LLMs) like Claude, providing comprehensive reverse engineering tools through the Model Context Protocol (MCP). It enables AI-assisted binary analysis by exposing Binary Ninja's advanced capabilities through Server-Sent Events (SSE) and Streamable HTTP transports.\n\n### Key Features\n\n- **MCP 2025-11-25 Compliant**: Full support for tool annotations, resources, and prompts\n- **Dual Transport Support**: SSE (Server-Sent Events) and Streamable HTTP transports\n- **39 Consolidated Tools**: Streamlined Binary Ninja API wrapper with unified tool design\n- **8 MCP Resources**: Browsable, cacheable binary metadata\n- **7 Guided Prompts**: Pre-built workflows for common reverse engineering tasks\n- **Multi-Binary Sessions**: Concurrent analysis of multiple binaries with intelligent context management\n- **Analysis Caching**: LRU cache with binary-scoped invalidation for improved performance\n- **Async Task Support**: Non-blocking execution for long-running operations\n- **Thread-Safe**: RLock-based synchronization for concurrent access\n- **Auto-Integration**: Seamless Binary Ninja plugin with automatic startup capabilities\n\n### Use Cases\n\n- **AI-Assisted Reverse Engineering**: Leverage LLMs for intelligent code analysis and documentation\n- **Protocol Analysis**: Trace network data flows and reconstruct protocol structures\n- **Vulnerability Research**: Systematic security audits with guided workflows\n- **Automated Binary Analysis**: Script complex analysis workflows with natural language\n- **Code Understanding**: Generate comprehensive documentation and explanations\n\n---\n\n## Architecture\n\n```\nsrc/binassist_mcp/\n\u251c\u2500\u2500 server.py        # FastMCP server - SSE/Streamable HTTP transport, tool registration\n\u251c\u2500\u2500 tools.py         # Binary Ninja API wrapper - 39 MCP tools\n\u251c\u2500\u2500 plugin.py        # Binary Ninja plugin integration\n\u251c\u2500\u2500 context.py       # Thread-safe multi-binary session management\n\u251c\u2500\u2500 config.py        # Pydantic configuration with Binary Ninja settings\n\u251c\u2500\u2500 prompts.py       # 7 guided workflow prompts\n\u251c\u2500\u2500 resources.py     # 8 MCP resource definitions\n\u251c\u2500\u2500 cache.py         # LRU analysis cache with invalidation\n\u251c\u2500\u2500 tasks.py         # Async task manager for long-running operations\n\u251c\u2500\u2500 logging.py       # Binary Ninja logging integration\n\u2514\u2500\u2500 utils.py         # Utility functions\n\n__init__.py          # Plugin entry point (root level)\n```\n\n---\n\n## Tools (39 Total)\n\nBinAssistMCP provides 39 tools organized into functional categories. Tools include MCP annotations (`readOnlyHint`, `idempotentHint`) to help clients make informed decisions.\n\n### Binary Management\n| Tool | Description |\n|------|-------------|\n| `list_binaries` | List all loaded binary files |\n| `get_binary_info` | Check analysis status and metadata |\n| `update_analysis_and_wait` | Force analysis update and wait for completion |\n\n### Code Analysis (Consolidated)\n| Tool | Description |\n|------|-------------|\n| `get_code` | **Unified code retrieval** - supports formats: `decompile`, `hlil`, `mlil`, `llil`, `disasm`, `pseudo_c` |\n| `get_function_low_level_il` | Get Low-Level IL for a function |\n| `analyze_function` | Comprehensive function analysis with control flow and complexity metrics |\n| `get_basic_blocks` | Get basic block information for control flow analysis |\n| `get_function_stack_layout` | Get stack frame layout with variable offsets |\n\n### Cross-References (Consolidated)\n| Tool | Description |\n|------|-------------|\n| `xrefs` | **Unified cross-references** - actions: `refs_to`, `refs_from`, `call_graph` |\n\n### Comments (Consolidated)\n| Tool | Description |\n|------|-------------|\n| `comments` | **Unified comment management** - actions: `get`, `set`, `list`, `remove`, `set_function` |\n\n### Variables (Consolidated)\n| Tool | Description |\n|------|-------------|\n| `variables` | **Unified variable management** - actions: `list`, `create`, `rename`, `set_type`; `rename` supports local/global via `scope` |\n\n### Types (Consolidated)\n| Tool | Description |\n|------|-------------|\n| `types` | **Unified type management** - actions: `create`, `create_enum`, `create_typedef`, `create_class`, `add_member`, `get_info`, `list` |\n| `get_classes` | List all classes and structures |\n\n### Function Discovery\n| Tool | Description |\n|------|-------------|\n| `get_functions` | List all functions with metadata (paginated) |\n| `search_functions_by_name` | Find functions by name pattern |\n| `get_functions_advanced` | Advanced filtering by size, complexity, parameters |\n| `search_functions_advanced` | Multi-target search (name, comments, calls, variables) |\n| `get_function_statistics` | Comprehensive statistics for all functions |\n\n### Symbol Management\n| Tool | Description |\n|------|-------------|\n| `rename_symbol` | Rename functions and data variables |\n| `batch_rename` | Rename multiple symbols in one operation |\n| `get_namespaces` | List namespaces and symbol organization |\n\n### Binary Information\n| Tool | Description |\n|------|-------------|\n| `get_imports` | Import table grouped by module |\n| `get_exports` | Export table with symbol information |\n| `get_strings` | String extraction with filtering |\n| `search_strings` | Search strings by pattern |\n| `get_segments` | Memory segment layout |\n| `get_sections` | Binary section information |\n| `get_entry_points` | List all binary entry points |\n\n### Data Analysis\n| Tool | Description |\n|------|-------------|\n| `create_data_var` | Define data variables at addresses |\n| `get_data_vars` | List all defined data variables |\n| `get_data_at` | Read and analyze raw data |\n| `search_bytes` | Search for byte patterns in binary |\n\n### Navigation & Bookmarks\n| Tool | Description |\n|------|-------------|\n| `get_current_address` | Get current cursor position with context |\n| `get_current_function` | Identify function at current address |\n| `bookmarks` | **Unified bookmark management** - actions: `list`, `set`, `remove` |\n\n### Task Management\n| Tool | Description |\n|------|-------------|\n| `start_task` | Start an async background task |\n| `get_task_status` | Check status of async operations |\n| `list_tasks` | List all pending/running tasks |\n| `cancel_task` | Cancel a running task |\n\n---\n\n## MCP Resources (8 Total)\n\nResources provide browsable, cacheable data that clients can access without tool calls.\n\n| URI Pattern | Description |\n|-------------|-------------|\n| `binassist://{filename}/triage_summary` | Complete binary overview |\n| `binassist://{filename}/functions` | All functions with metadata |\n| `binassist://{filename}/imports` | Import table |\n| `binassist://{filename}/exports` | Export table |\n| `binassist://{filename}/strings` | String table |\n| `binja://{filename}/info` | Binary metadata (arch, platform, entry point) |\n| `binja://{filename}/segments` | Memory segments with permissions |\n| `binja://{filename}/sections` | Binary sections |\n\n---\n\n## MCP Prompts (7 Total)\n\nPre-built prompts guide LLMs through structured analysis workflows.\n\n| Prompt | Arguments | Description |\n|--------|-----------|-------------|\n| `analyze_function` | `function_name`, `filename` | Comprehensive function analysis workflow |\n| `identify_vulnerability` | `function_name`, `filename` | Security audit checklist (memory safety, input validation, crypto) |\n| `document_function` | `function_name`, `filename` | Generate Doxygen-style documentation |\n| `trace_data_flow` | `address`, `filename` | Track data dependencies and taint propagation |\n| `compare_functions` | `func1`, `func2`, `filename` | Diff two functions for similarity analysis |\n| `reverse_engineer_struct` | `address`, `filename` | Recover structure definitions from usage patterns |\n| `trace_network_data` | `filename` | Trace POSIX/Winsock send/recv for protocol analysis |\n\n### Example: Network Protocol Analysis\n\nThe `trace_network_data` prompt guides analysis of network communication:\n\n1. **Identify Network Functions**: Finds POSIX (`send`/`recv`/`sendto`/`recvfrom`) and Winsock (`WSASend`/`WSARecv`) calls\n2. **Trace Call Stacks**: Maps application handlers down to network I/O\n3. **Analyze Buffers**: Identifies protocol structures (headers, length fields, TLV encoding)\n4. **Reconstruct Protocols**: Generates C struct definitions for message formats\n5. **Security Assessment**: Checks for buffer overflows, integer issues, information disclosure\n\n---\n\n## Installation\n\n### Prerequisites\n\n- **Binary Ninja**: Version 4000 or higher\n- **Python**: 3.8+ (typically bundled with Binary Ninja)\n- **Platform**: Windows, macOS, or Linux\n\nNOTE: Windows users should start with: [BinAssistMCP on Windows](binassistmcp-on-windows.md)\n\n### Option 1: Binary Ninja Plugin Manager (Recommended)\n\n1. Open Binary Ninja\n2. Navigate to **Tools** \u2192 **Manage Plugins**\n3. Search for \"BinAssistMCP\"\n4. Click **Install**\n5. Restart Binary Ninja\n\n### Option 2: Manual Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/jtang613/BinAssistMCP.git\ncd BinAssistMCP\n\n# Install dependencies\npip install -r requirements.txt\n```\n\nCopy to your Binary Ninja plugins directory:\n\n| Platform | Path |\n|----------|------|\n| Windows | `%APPDATA%\\Binary Ninja\\plugins\\` |\n| macOS | `~/Library/Application Support/Binary Ninja/plugins/` |\n| Linux | `~/.binaryninja/plugins/` |\n\n---\n\n## Configuration\n\n### Binary Ninja Settings\n\nOpen **Edit** \u2192 **Preferences** \u2192 **binassistmcp**:\n\n| Setting | Default | Description |\n|---------|---------|-------------|\n| `server.host` | `localhost` | Server bind address |\n| `server.port` | `9090` | Server port |\n| `server.transport` | `streamablehttp` | Transport: `streamablehttp` or `sse` |\n| `binary.max_binaries` | `10` | Maximum concurrent binaries |\n| `plugin.auto_startup` | `true` | Auto-start server on file load |\n\n### Environment Variables\n\n```bash\nexport BINASSISTMCP_SERVER__HOST=localhost\nexport BINASSISTMCP_SERVER__PORT=9090\nexport BINASSISTMCP_SERVER__TRANSPORT=streamablehttp\nexport BINASSISTMCP_BINARY__MAX_BINARIES=10\n```\n\n---\n\n## Usage\n\n### Starting the Server\n\n**Via Binary Ninja Menu:**\n1. **Tools** \u2192 **BinAssistMCP** \u2192 **Start Server**\n2. Check log panel for: `BinAssistMCP server started on http://localhost:9090`\n\n**Auto-Startup:**\nServer starts automatically when Binary Ninja loads a file (configurable).\n\n### Connecting MCP Clients\n\n**Streamable HTTP (Default):**\n```\nhttp://localhost:9090/mcp\n```\n\n**Server-Sent Events:**\n```\nhttp://localhost:9090/sse\n```\n\n### Claude Desktop Configuration\n\nAdd to your Claude Desktop MCP configuration (`claude_desktop_config.json`):\n\n```json\n{\n  \"mcpServers\": {\n    \"binassist\": {\n      \"url\": \"http://localhost:9090/mcp\"\n    }\n  }\n}\n```\n\n---\n\n## Integration Examples\n\n### Basic Function Analysis\n```\nUser: \"Analyze the main function and explain what it does\"\n\nClaude uses:\n1. get_functions() - find main\n2. get_code(format='decompile') - get readable code\n3. xrefs(action='refs_from') - find called functions\n4. analyze_function() - get complexity metrics\n```\n\n### Vulnerability Research\n```\nUser: \"Find buffer overflow vulnerabilities in input handling functions\"\n\nClaude uses:\n1. search_functions_advanced(search_in='calls') - find memcpy/strcpy callers\n2. get_code(format='decompile') - examine implementations\n3. variables(action='list') - check buffer sizes\n4. comments(action='set') - document findings\n```\n\n### Protocol Reverse Engineering\n```\nUser: \"Analyze the network protocol used by this binary\"\n\nClaude uses the trace_network_data prompt:\n1. Identifies send/recv call sites\n2. Traces data flow from handlers to network I/O\n3. Reconstructs message structures\n4. Checks for network vulnerabilities\n```\n\n---\n\n## Troubleshooting\n\n### Server Issues\n\n| Problem | Solution |\n|---------|----------|\n| Server won't start | Check port 9090 availability, verify dependencies |\n| Connection refused | Ensure server is running, check firewall settings |\n| Tools return errors | Wait for analysis completion, verify binary is loaded |\n\n### Performance\n\n- **Slow decompilation**: Results are cached; second request is faster\n- **Memory usage**: Reduce `max_binaries` setting\n- **Long operations**: Check task status with `get_task_status`\n\n### Logs\n\nCheck Binary Ninja's Log panel for detailed error messages.\n\n---\n\n## Contributing\n\n1. Fork the repository\n2. Create a feature branch\n3. Follow existing code patterns (Pydantic models, type hints, docstrings)\n4. Test with multiple binary types\n5. Submit a pull request\n\n---\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n",
     "minimumbinaryninjaversion": 5000,
     "name": "BinAssistMCP",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/29e66682-c37d-4821-a34a-d358fc2b1cd3/versions/686373de-586d-41c6-9502-7b020ad9f844/platforms/3229/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/29e66682-c37d-4821-a34a-d358fc2b1cd3/versions/686373de-586d-41c6-9502-7b020ad9f844/platforms/3229/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/29e66682-c37d-4821-a34a-d358fc2b1cd3/versions/d0455790-c65b-415d-af96-85b11669e391/platforms/3301/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/29e66682-c37d-4821-a34a-d358fc2b1cd3/versions/d0455790-c65b-415d-af96-85b11669e391/platforms/3301/download?notrack=1",
     "path": "jtang613_BinAssistMCP",
     "platforms": [
       "Darwin",
@@ -6973,8 +6973,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 25,
-      "updated_at": "2026-03-14 09:20:26+00:00"
+      "stargazers_count": 26,
+      "updated_at": "2026-03-31 13:03:33+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
     "subdir": "",
@@ -6983,7 +6983,7 @@
       "helper",
       "ui"
     ],
-    "version": "2.5.0",
+    "version": "2.7.0",
     "view_only": false
   },
   {
@@ -7338,6 +7338,45 @@
       "core",
       "helper",
       "ui"
+    ],
+    "version": "1.0.0",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
+    "author": "Glenn Smith",
+    "dependencies": "",
+    "description": "Brainrot stimulator",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1775025550,
+    "license": {
+      "name": "MIT",
+      "text": "Copyright (c) 2026 Vector 35 Inc\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    "longdescription": "This plugin aims to address gen-z attention deficit brainrot issues by integrating sludge content directly into your reversing workflow. \n\n### Changelog\nFresh from my slop kitchen to your plate, feed your brainrot with this sludge content sidebar for Binary Ninja",
+    "minimumbinaryninjaversion": 9200,
+    "name": "Sludge Content Sidebar",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/3cc5cfb2-02c3-43c5-b769-7dafb62b4395/versions/b65a7692-9770-4ce5-b78e-680ff6e131e9/platforms/3319/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/3cc5cfb2-02c3-43c5-b769-7dafb62b4395/versions/b65a7692-9770-4ce5-b78e-680ff6e131e9/platforms/3319/download?notrack=1",
+    "path": "CouleeApps_sludge_content_sidebar",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2026-04-01 06:39:10+00:00"
+    },
+    "projectUrl": "https://github.com/CouleeApps/sludge_content_sidebar",
+    "subdir": "",
+    "type": [
+      "ui",
+      "helper"
     ],
     "version": "1.0.0",
     "view_only": false
