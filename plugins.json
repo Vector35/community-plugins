@@ -5724,16 +5724,16 @@
     "description": "Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1775080328,
+    "lastUpdated": 1775155987,
     "license": {
       "name": "BSD-3-Clause",
       "text": "Copyright (c) 2020, Can B\u00f6l\u00fck\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.\n\n * Redistributions in binary form must reproduce the above copyright notice,\nthis list of conditions and the following disclaimer in the documentation\nand/or other materials provided with the distribution.\n\n* Neither the name of [project] nor the names of its\ncontributors may be used to endorse or promote products derived from\nthis software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n"
     },
-    "longdescription": "# VTIL-BinaryNinja\nVTIL meets Binary Ninja and provides you with a solution to analyze VTIL code in a less painful manner.\n\n## Installation\nInstall via the Plugin Manager in Binary Ninja, or clone this repository into your [plugin folder](https://docs.binary.ninja/guide/plugins.html#using-plugins).\n\nNote: LLIL lifting coverage is complete for the VTIL-Core instruction set. MLIL/HLIL are produced by Binary Ninja from the lifted LLIL.\n\n## Screenshots\n![](https://raw.githubusercontent.com/psifertex/VTIL-BinaryNinja/master/images/example.png)\n\n## Disclaimer\nThis is a **very early proof of concept**. Expect bugs.\n\nKnown issues:\n- Special instructions (`nop`, `sfence`, `lfence`, `vemit`, `vpinr`, `vpinw`, `vpinrm`, `vpinwm`) intentionally lower to no-op IL.\n- Runtime semantics should still be validated on real-world samples because this plugin remains a proof of concept.\n\n\n### Changelog\n- chore(deps): migrate from pkg_resources to packaging to avoid deprecation warning\r\n**Full Changelog**: https://github.com/vtil-project/VTIL-BinaryNinja/compare/1.2...1.2.1",
+    "longdescription": "# VTIL-BinaryNinja\nA Binary Ninja plugin for loading and analyzing VTIL routines as a native BinaryView, with LLIL lifting for the VTIL instruction set.\n\nVTIL (Virtual-machine Translation Intermediate Language) is a project and set of tools used for binary deobfuscation and devirtualization.\n\n**Input format:** This plugin consumes separate VTIL files (files with `VTIL` magic at offset 0), not raw executables directly.\n\n## Installation\nInstall via the Plugin Manager in Binary Ninja, or clone this repository into your [plugin folder](https://docs.binary.ninja/guide/plugins.html#using-plugins).\n\nNote: LLIL lifting coverage is complete for the VTIL-Core instruction set. MLIL/HLIL are produced by Binary Ninja from the lifted LLIL.\n\n## Screenshots\n![](https://raw.githubusercontent.com/psifertex/VTIL-BinaryNinja/master/images/example.png)\n\n## Disclaimer\nThis is a **very early proof of concept**. Expect bugs.\n\nKnown issues:\n- Special instructions (`nop`, `sfence`, `lfence`, `vemit`, `vpinr`, `vpinw`, `vpinrm`, `vpinwm`) intentionally lower to no-op IL.\n- Runtime semantics should still be validated on real-world samples because this plugin remains a proof of concept.\n\n\n### Changelog\n**Full Changelog**: https://github.com/vtil-project/VTIL-BinaryNinja/compare/1.2...master",
     "minimumbinaryninjaversion": 1528,
     "name": "VTIL Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/575bbc72-c559-4ae3-89b1-39ca8320f7ed/platforms/3325/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/575bbc72-c559-4ae3-89b1-39ca8320f7ed/platforms/3325/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/26bc47e3-cdd7-4f0e-bac2-540456bd21f1/platforms/3331/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/26bc47e3-cdd7-4f0e-bac2-540456bd21f1/platforms/3331/download?notrack=1",
     "path": "vtilproject_VTILBinaryNinja",
     "platforms": [
       "Darwin",
@@ -5743,7 +5743,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 93,
-      "updated_at": "2026-04-01 21:52:08+00:00"
+      "updated_at": "2026-04-02 18:53:07+00:00"
     },
     "projectUrl": "https://github.com/vtil-project/VTIL-BinaryNinja",
     "subdir": "",
@@ -5751,7 +5751,7 @@
       "architecture",
       "binaryview"
     ],
-    "version": "1.2.1",
+    "version": "1.2.2",
     "view_only": false
   },
   {
