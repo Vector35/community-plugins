@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 495,
+      "stargazers_count": 496,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1058,
+      "stargazers_count": 1060,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -3036,7 +3036,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 45,
+      "stargazers_count": 46,
       "updated_at": "2024-09-04 17:37:58+00:00"
     },
     "projectUrl": "https://github.com/elbiazo/calltree",
@@ -3076,7 +3076,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2322,
+      "stargazers_count": 2324,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -5720,20 +5720,20 @@
       "python3"
     ],
     "author": "Layle",
-    "dependencies": "kaitaistruct>=0.10\ncapstone>=5.0.0\nsetuptools>=65\n",
+    "dependencies": "kaitaistruct>=0.10\ncapstone>=5.0.0\npackaging>=21\n",
     "description": "Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1775056644,
+    "lastUpdated": 1775080328,
     "license": {
       "name": "BSD-3-Clause",
       "text": "Copyright (c) 2020, Can B\u00f6l\u00fck\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.\n\n * Redistributions in binary form must reproduce the above copyright notice,\nthis list of conditions and the following disclaimer in the documentation\nand/or other materials provided with the distribution.\n\n* Neither the name of [project] nor the names of its\ncontributors may be used to endorse or promote products derived from\nthis software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n"
     },
-    "longdescription": "# VTIL-BinaryNinja\nVTIL meets Binary Ninja and provides you with a solution to analyze VTIL code in a less painful manner.\n\n## Installation\nInstall via the Plugin Manager in Binary Ninja, or clone this repository into your [plugin folder](https://docs.binary.ninja/guide/plugins.html#using-plugins).\n\nNote: LLIL lifting coverage is complete for the VTIL-Core instruction set. MLIL/HLIL are produced by Binary Ninja from the lifted LLIL.\n\n## Screenshots\n![](https://raw.githubusercontent.com/psifertex/VTIL-BinaryNinja/master/images/example.png)\n\n## Disclaimer\nThis is a **very early proof of concept**. Expect bugs.\n\nKnown issues:\n- Special instructions (`nop`, `sfence`, `lfence`, `vemit`, `vpinr`, `vpinw`, `vpinrm`, `vpinwm`) intentionally lower to no-op IL.\n- Runtime semantics should still be validated on real-world samples because this plugin remains a proof of concept.\n\n\n### Changelog\n## What's Changed\r\n* Fix undeclared variable error by @meme in https://github.com/vtil-project/VTIL-BinaryNinja/pull/5\r\n* Add VTIL LLIL lifting + CFG recovery for indirect control flow and mov edge cases by @dword64 in https://github.com/vtil-project/VTIL-BinaryNinja/pull/6\r\n* Bump version from 1.1 to 1.2 in plugin.json by @dword64 in https://github.com/vtil-project/VTIL-BinaryNinja/pull/7\r\n\r\n## New Contributors\r\n* @meme made their first contribution in https://github.com/vtil-project/VTIL-BinaryNinja/pull/5\r\n* @dword64 made their first contribution in https://github.com/vtil-project/VTIL-BinaryNinja/pull/6\r\n\r\n**Full Changelog**: https://github.com/vtil-project/VTIL-BinaryNinja/compare/1.1...1.2",
+    "longdescription": "# VTIL-BinaryNinja\nVTIL meets Binary Ninja and provides you with a solution to analyze VTIL code in a less painful manner.\n\n## Installation\nInstall via the Plugin Manager in Binary Ninja, or clone this repository into your [plugin folder](https://docs.binary.ninja/guide/plugins.html#using-plugins).\n\nNote: LLIL lifting coverage is complete for the VTIL-Core instruction set. MLIL/HLIL are produced by Binary Ninja from the lifted LLIL.\n\n## Screenshots\n![](https://raw.githubusercontent.com/psifertex/VTIL-BinaryNinja/master/images/example.png)\n\n## Disclaimer\nThis is a **very early proof of concept**. Expect bugs.\n\nKnown issues:\n- Special instructions (`nop`, `sfence`, `lfence`, `vemit`, `vpinr`, `vpinw`, `vpinrm`, `vpinwm`) intentionally lower to no-op IL.\n- Runtime semantics should still be validated on real-world samples because this plugin remains a proof of concept.\n\n\n### Changelog\n- chore(deps): migrate from pkg_resources to packaging to avoid deprecation warning\r\n**Full Changelog**: https://github.com/vtil-project/VTIL-BinaryNinja/compare/1.2...1.2.1",
     "minimumbinaryninjaversion": 1528,
     "name": "VTIL Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/b80097c6-6eb9-4bdd-b11c-ef06c1aa5d92/platforms/3313/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/b80097c6-6eb9-4bdd-b11c-ef06c1aa5d92/platforms/3313/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/575bbc72-c559-4ae3-89b1-39ca8320f7ed/platforms/3325/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/575bbc72-c559-4ae3-89b1-39ca8320f7ed/platforms/3325/download?notrack=1",
     "path": "vtilproject_VTILBinaryNinja",
     "platforms": [
       "Darwin",
@@ -5743,7 +5743,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 93,
-      "updated_at": "2026-04-01 15:17:24+00:00"
+      "updated_at": "2026-04-01 21:52:08+00:00"
     },
     "projectUrl": "https://github.com/vtil-project/VTIL-BinaryNinja",
     "subdir": "",
@@ -5751,7 +5751,7 @@
       "architecture",
       "binaryview"
     ],
-    "version": "1.2",
+    "version": "1.2.1",
     "view_only": false
   },
   {
@@ -6514,7 +6514,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 528,
+      "stargazers_count": 532,
       "updated_at": "2026-03-28 23:38:53+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -7052,7 +7052,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 26,
+      "stargazers_count": 27,
       "updated_at": "2026-03-31 13:03:33+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
@@ -7448,7 +7448,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 5,
       "updated_at": "2026-04-01 06:39:10+00:00"
     },
     "projectUrl": "https://github.com/CouleeApps/sludge_content_sidebar",
