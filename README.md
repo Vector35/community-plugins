@@ -15,7 +15,7 @@
 | [BNHook](https://github.com/jeffli678/bnhook)|Grant Orndorff|Insert custom hooks|2021-03-29|ui, core|python2, python3|MIT |
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
-| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-03-29|ui, helper|python3|MIT |
+| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-04-03|ui, helper|python3|MIT |
 | [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-03-31|binaryview, helper, ui|python3|MIT |
 | [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2026-03-24|sync|python3|BSD 2-clause |
 | [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2026-01-19|helper|python3, rust|MIT |
@@ -140,7 +140,7 @@
 | [Type Oxidizer](https://github.com/austinzwile/TypeOxidizer)|austinzwile / azw|TypeOxidizer converts the C-Style types in your HLIL / decompilation to their Rust equivalents for easier reading / interpretation and shorter decompilation.|2025-02-24|binaryview, helper, ui|python3|MIT |
 | [TypeLib Exporter](https://github.com/SmoothHacker/TypeLib-Exporter)|SmoothHacker|This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.|2025-12-31|binaryview, helper, ui|python3|MIT |
 | [VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|verylazyguy|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|python2, python3|MIT |
-| [VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|Layle|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2026-04-02|architecture, binaryview|python2, python3|BSD-3-Clause |
+| [VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|dword64 and layle|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2026-04-02|architecture, binaryview|python2, python3|BSD-3-Clause |
 | [VirusTotal Code Insights](https://github.com/txhaflaire/virustotal_code_insights)|thijs.xhaflaire|Analyze a function or highlighted code using VirusTotal Code Insights (Google Threat Intelligence).|2025-12-09|architecture, binaryview, core, helper, ui|python3, |MIT |
 | [VulnFanatic](https://github.com/Martyx00/VulnFanatic)|Martin Petran|Assistant plugin for vulnerability research.|2024-09-07|helper|python3|Apache-2.0 |
 | [WASM Plugin](https://github.com/ivision-research/binjawa)|Meador Inge|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|python3|MIT |
