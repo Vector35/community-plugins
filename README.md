@@ -155,7 +155,7 @@
 | [binja-ps3](https://github.com/valters-tomsons/bninja-ps3)|faith|Playstation 3 ELF loader|2026-02-01|binaryview|python3|MIT |
 | [binja-win-docs](https://github.com/matteyeux/binja-win-docs)|matteyeux|Binary Ninja plugin to display the documentation of a Windows function in a sidebar widget.|2024-04-11|ui, helper|python3|Apache-2.0 |
 | [binja_sigmaker](https://github.com/apekros/binja_sigmaker)|apekros and Alex3434|Generate and find signatures.|2023-01-29|architecture, binaryview, core, ui|python3|MIT |
-| [binjaextras](https://github.com/xorhex/binjaextras)|xorhex|Various features to make windows malware analysis easier.|2025-01-17|helper|python3|MIT |
+| [binjaextras](https://github.com/xorhex/binjaextras)|xorhex|Various features to make windows malware analysis easier.|2026-04-08|helper|python3|MIT |
 | [bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|OtterSec LLC|An architecture/binaryview plugin for Solana EBPF.|2025-07-01|architecture, binaryview|python3|MIT |
 | [bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|Katharina Utz|RISC-V architecture plugin.|2021-01-18|architecture|python2, python3|Apache-2.0 |
 | [bn-riscy-business](https://github.com/eybisi/bn-riscy-business)|Ahmet Bilal Can|RISC-V architecture plugin to load encrypted Riscy-Business binaries.|2025-05-21|architecture|python2, python3|Apache-2.0 |
