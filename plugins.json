@@ -1896,20 +1896,20 @@
       "python3"
     ],
     "author": "BinSync Team",
-    "dependencies": "binsync>=5.13.0",
+    "dependencies": "binsync>=5.14.0\n",
     "description": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1774376924,
+    "lastUpdated": 1775761898,
     "license": {
       "name": "BSD 2-clause",
       "text": ""
     },
-    "longdescription": "\n## BinSync\n\n<p align=\"center\">\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\n</p>\n\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\nengineering collaboration regardless of decompiler. \nBinSync is supported in IDA, Binary Ninja, Ghidra, and angr-management.\n\n![Demo](https://github.com/binsync/binsync/blob/main/assets/images/binja_sync.gif?raw=true)\n\n## Overview \nAt a high level, BinSync works by tracking changes to important reverse engineering artifacts \n(functions, comments, types) while you reverse engineer a binary. These changes are then committed to a Git repository.\nThe data is stored in TOMLS and is therefore human-readable and diffable. The data stored, such as types, are \nconverted to C so they can be transferred between decompilers. \nAn example repo of this format can be found at [https://github.com/binsync/example.bsproj](https://github.com/binsync/example.bsproj). \n\nBinSync provides a GUI for you to view changes made by you and other users and synchronize them.\nBinSync also has other extra features for integrating AI reverse engineering assistants.\n\n## Installation & Usage\nBinSync can be installed directly from within your decompiler's plugin manager. After that initial installation, you\ncan verify that your installation works by following our quickstart guide to join our example project.\nThe 5-minute quickstart guide can be found [here](https://docs.binsync.net/quickstart/joining-project), and is \nalways the most up-to-date way to get started with BinSync.\n\n## Credits\nBinSync is built by [mahaloz](https://github.com/mahaloz), the [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. The BinSync Team can be listed as follows:\n- Zion Leonahenahe Basque (mahaloz)\n- The angr team\n- The SEFCOM Lab at Arizona State University\n\nFor inquiries, contact the project lead, Zion Leonahenahe Basque, aka, \"mahaloz\" at binsync@mahaloz.re. \n\n### Changelog\n## What's Changed\n* feat/compare-commit-history by @JustinZYen in https://github.com/binsync/binsync/pull/508\n* Add diff display when hovering over function diffs in Compare with Commit History by @JustinZYen in https://github.com/binsync/binsync/pull/512\n\n\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.12.0...v5.13.0",
+    "longdescription": "## BinSync\r\n\r\n<p align=\"center\">\r\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\r\n</p>\r\n\r\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\r\nengineering collaboration regardless of decompiler. \r\nBinSync is supported in IDA, Binary Ninja, Ghidra, and angr-management.\r\n\r\n![Demo](https://github.com/binsync/binsync/blob/main/assets/images/binja_sync.gif?raw=true)\r\n\r\n## Overview \r\nAt a high level, BinSync works by tracking changes to important reverse engineering artifacts \r\n(functions, comments, types) while you reverse engineer a binary. These changes are then committed to a Git repository.\r\nThe data is stored in TOMLS and is therefore human-readable and diffable. The data stored, such as types, are \r\nconverted to C so they can be transferred between decompilers. \r\nAn example repo of this format can be found at [https://github.com/binsync/example.bsproj](https://github.com/binsync/example.bsproj). \r\n\r\nBinSync provides a GUI for you to view changes made by you and other users and synchronize them.\r\nBinSync also has other extra features for integrating AI reverse engineering assistants.\r\n\r\n## Installation & Usage\r\nBinSync can be installed directly from within your decompiler's plugin manager. After that initial installation, you\r\ncan verify that your installation works by following our quickstart guide to join our example project.\r\nThe 5-minute quickstart guide can be found [here](https://docs.binsync.net/quickstart/joining-project), and is \r\nalways the most up-to-date way to get started with BinSync.\r\n\r\n## Credits\r\nBinSync is built by [mahaloz](https://github.com/mahaloz), the [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\r\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. The BinSync Team can be listed as follows:\r\n- Zion Leonahenahe Basque (mahaloz)\r\n- The angr team\r\n- The SEFCOM Lab at Arizona State University\r\n\r\nFor inquiries, contact the project lead, Zion Leonahenahe Basque, aka, \"mahaloz\" at binsync@mahaloz.re.\n\n### Changelog\n## What's Changed\r\n* Auxiliary Server Enhancement to See Which Users are Working on a Function by @JustinZYen in https://github.com/binsync/binsync/pull/517\r\n* Add new decompilation cache to precise diff by @NishTheFish-dev in https://github.com/binsync/binsync/pull/511\r\n* Fix issue where error message about not being connected to auxiliary server was showing on server startup by @JustinZYen in https://github.com/binsync/binsync/pull/518\r\n\r\n\r\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.13.1...v5.14.0",
     "minimumbinaryninjaversion": 1200,
     "name": "BinSync",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/52db81d6-1056-4339-bb9c-6269f8c90bb9/platforms/3279/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/52db81d6-1056-4339-bb9c-6269f8c90bb9/platforms/3279/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/d2af8a71-0c70-49fe-947f-5d1e30889825/platforms/3349/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/d2af8a71-0c70-49fe-947f-5d1e30889825/platforms/3349/download?notrack=1",
     "path": "binsync_binsync",
     "platforms": [
       "Darwin",
@@ -1919,14 +1919,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 695,
-      "updated_at": "2026-03-24 18:28:44+00:00"
+      "updated_at": "2026-04-09 19:11:38+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
     "subdir": "binsync/stub_files",
     "type": [
       "sync"
     ],
-    "version": "5.13.0",
+    "version": "5.14.0",
     "view_only": false
   },
   {
