@@ -105,7 +105,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 40,
+      "stargazers_count": 41,
       "updated_at": "2024-07-28 21:40:57+00:00"
     },
     "projectUrl": "https://github.com/ergrelet/themida-unmutate-bn",
@@ -182,7 +182,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 8,
+      "stargazers_count": 9,
       "updated_at": "2026-04-08 07:28:26+00:00"
     },
     "projectUrl": "https://github.com/xorhex/binjaextras",
@@ -1610,7 +1610,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 25,
+      "stargazers_count": 26,
       "updated_at": "2026-01-11 22:46:23+00:00"
     },
     "projectUrl": "https://github.com/cxiao/rust_string_slicer",
@@ -1766,7 +1766,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 38,
+      "stargazers_count": 39,
       "updated_at": "2026-03-19 19:30:24+00:00"
     },
     "projectUrl": "https://github.com/cxiao/rust_type_layout_helper_bn",
@@ -1918,7 +1918,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 695,
+      "stargazers_count": 696,
       "updated_at": "2026-04-09 19:11:38+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2032,7 +2032,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 789,
+      "stargazers_count": 791,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2148,7 +2148,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 11,
+      "stargazers_count": 12,
       "updated_at": "2025-07-29 08:49:14+00:00"
     },
     "projectUrl": "https://github.com/dipusone/golang_pclntab_parser",
@@ -2341,7 +2341,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 861,
+      "stargazers_count": 862,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2534,7 +2534,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 549,
+      "stargazers_count": 548,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -2881,7 +2881,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 83,
+      "stargazers_count": 85,
       "updated_at": "2022-02-19 06:57:49+00:00"
     },
     "projectUrl": "https://github.com/EliseZeroTwo/SEH-Helper",
@@ -3076,7 +3076,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2325,
+      "stargazers_count": 2327,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3268,7 +3268,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2535,
+      "stargazers_count": 2534,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3687,7 +3687,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 651,
+      "stargazers_count": 652,
       "updated_at": "2025-03-14 02:16:09+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -5780,7 +5780,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 351,
+      "stargazers_count": 353,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -6474,7 +6474,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 568,
+      "stargazers_count": 576,
       "updated_at": "2026-03-28 23:38:53+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6496,16 +6496,16 @@
     "description": "BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1768852275,
+    "lastUpdated": 1776152293,
     "license": {
       "name": "MIT",
       "text": "MIT License\r\n\r\nCopyright (c) 2025 xorhex\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
     },
-    "longdescription": "BinYars intergrates YARA-X with Binary Ninja. BinYars comes in two parts, the rust library which is used for the YARA-X scanning and a Python sidewidget which acts as a front end to the Rust component.  The Python sidewidget provides both an interactive scanning interface along with a rule editor. For the commerical and higher Binary Ninja editions, the Rust component also will re-organize the binaries in the project view based off of metadata set in the YARA-X rules.\n\n### Changelog\n## Updates:\r\n\r\n  - Updated Yara-X to 1.11.0\r\n\r\n## New Feature:\r\n\r\n  - New metadata field, BNTrigger; which allows for code snippets to be included with the rule.  What makes this special is the fact that console.log messages (following this format `console.hex(\"BN|rule:<rule name>|<ValueName>: \", <value>)`) are prepended to the script as variables, thus allowing the embedded script to make use of the values extracted by the rule.  The code must be base64 encoded in the rule itself.  \r\n\r\nThe format is \"\\<name\\>|\\<base64 encoded snippet\\>\"; for example:\r\n\r\n```\r\nBNTrigger   = \"Extract File|ZnJvbSBiaW5hcnluaW5qYSBpbXBvcnQgVHJhbnNmb3JtOyAKaW1wb3J0IGhhc2hsaWI7IAoKc2hhMjU2ID0gaGFzaGxpYi5zaGEyNTYoYnYuZmlsZS5yYXcucmVhZCgwLCBidi5maWxlLnJhdy5sZW5ndGgpKS5oZXhkaWdlc3QoKQoKY3VycmVudF9wcm9qZWN0LmNyZWF0ZV9maWxlKFRyYW5zZm9ybVsnWE9SJ10uZGVjb2RlKGJ2LnJlYWQoT2Zmc2V0LCBTaXplKSwgeydrZXknOiBieXRlcyhbS2V5XSl9KSwgZm9sZGVyPU5vbmUsIG5hbWU9ZiJleHRyYWN0ZWRfZnJvbV97YnYucHJvamVjdF9maWxlLm5hbWUuc3BsaXQoJy4nKVswXX0uYmluIiwgZGVzY3JpcHRpb249ZiJFeHRyYWN0ZWQgZnJvbToge3NoYTI1Nn0iKQ==\"\r\n```\r\n\r\nMore details can be found here: https://github.com/xorhex/BinYars-SideWidget/blob/main/README.md\r\n\r\n\r\n\r\nBelow is an example of the code snippet, decoded along with the values extracted from the rule.  The `Key`, `Size`, and `Offset` in this example are the variables added to the snippet.  Notice the snippet (which starts at the first import statement) makes use of those variables.\r\n  ![](https://github.com/xorhex/BinYars-SideWidget/blob/222bab4e50253e32dbee731bf9c98f786bceb44f/pictures/BinYars_ActionPopUpModule.png)\r\n\r\nThe plugin does not yet allow for the user to click a button to automatically execute the code; however, until that feature is added, the plugin let's you copy and  paste that code into the console to execute it.  \r\n\r\n## General Info\r\n\r\nTargets the Stable Binary Ninja Version: 5.2\r\n\r\nDue to included rust binaries, this release only supports:\r\n\r\n -  Windows AMD64\r\n -  Linux x64\r\n -  Mac ARM64\r\n\r\nTo build the Rust component manually, see: https://github.com/xorhex/BinYars",
-    "minimumbinaryninjaversion": 8722,
+    "longdescription": "BinYars intergrates YARA-X with Binary Ninja. BinYars comes in two parts, the rust library which is used for the YARA-X scanning and a Python sidewidget which acts as a front end to the Rust component.  The Python sidewidget provides both an interactive scanning interface along with a rule editor. For the commerical and higher Binary Ninja editions, the Rust component also will re-organize the binaries in the project view based off of metadata set in the YARA-X rules.\n\n### Changelog\n## Updates:\r\n\r\n  - Updated Yara-X to 1.15.0\r\n  - Targeted Binary Ninja version is 5.3.9434\r\n  - Fix: Corrected default rule template comments\r\n\r\n## General Info\r\n\r\nTargets the Stable Binary Ninja Version: 5.3\r\n\r\nDue to included rust binaries, this release only supports:\r\n\r\n -  Windows AMD64\r\n -  Linux x64\r\n -  Mac ARM64\r\n\r\nTo build the Rust component manually, see: https://github.com/xorhex/BinYars",
+    "minimumbinaryninjaversion": 9434,
     "name": "BinYars",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/d885f026-dee7-4a59-9086-f6e8a809e8d4/platforms/3085/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/d885f026-dee7-4a59-9086-f6e8a809e8d4/platforms/3085/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/5f90c64b-1956-476b-be1d-e95cfe3ee8f7/platforms/3361/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/5f90c64b-1956-476b-be1d-e95cfe3ee8f7/platforms/3361/download?notrack=1",
     "path": "xorhex_BinYars_SideWidget",
     "platforms": [
       "Darwin",
@@ -6515,14 +6515,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 2,
-      "updated_at": "2026-01-19 19:51:15+00:00"
+      "updated_at": "2026-04-14 07:38:13+00:00"
     },
     "projectUrl": "https://github.com/xorhex/BinYars-SideWidget",
     "subdir": "",
     "type": [
       "helper"
     ],
-    "version": "v1.3.8722",
+    "version": "1.4.9434",
     "view_only": false
   },
   {
@@ -6590,7 +6590,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 76,
+      "stargazers_count": 77,
       "updated_at": "2026-03-03 07:13:54+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
@@ -6786,7 +6786,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 49,
+      "stargazers_count": 50,
       "updated_at": "2026-03-07 12:39:05+00:00"
     },
     "projectUrl": "https://github.com/jonpalmisc/ibis",
@@ -6936,7 +6936,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 50,
+      "stargazers_count": 52,
       "updated_at": "2026-03-06 14:58:12+00:00"
     },
     "projectUrl": "https://github.com/seekbytes/ptxNinja",
@@ -7326,7 +7326,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 242,
+      "stargazers_count": 245,
       "updated_at": "2025-10-11 13:21:50+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
@@ -7448,7 +7448,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 6,
+      "stargazers_count": 7,
       "updated_at": "2026-04-01 06:39:10+00:00"
     },
     "projectUrl": "https://github.com/CouleeApps/sludge_content_sidebar",
