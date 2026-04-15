@@ -8,16 +8,16 @@
     "description": "Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tant\u014d.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1765217765,
+    "lastUpdated": 1776274392,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024-2025 Elykdeer\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# Dev Tools for Tant\u014d\nAuthor: **ElykDeer**\n\n## Description:\nInstruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires [Tant\u014d](https://github.com/Vector35/tanto).\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4.0.5336\n\n## License\n\nThis plugin has been released under the [MIT license](./license.txt).\n\n## Metadata Version\n\n2\n",
+    "longdescription": "# Dev Tools for Tant\u014d\r\nAuthor: **ElykDeer**\r\n\r\n## Description:\r\nInstruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires [Tant\u014d](https://github.com/Vector35/tanto).\r\n\r\n## Minimum Version\r\n\r\nThis plugin requires the following minimum version of Binary Ninja:\r\n\r\n* 4.0.5336\r\n\r\n## License\r\n\r\nThis plugin has been released under the [MIT license](./license.txt).\r\n\r\n## Metadata Version\r\n\r\n2",
     "minimumbinaryninjaversion": 5336,
     "name": "Dev Tools for Tant\u014d",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/bb60f29d-afce-48d8-8634-21aa38bb6392/versions/3a05148b-2598-4082-b7ad-9cd1a9e31077/platforms/2905/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/bb60f29d-afce-48d8-8634-21aa38bb6392/versions/3a05148b-2598-4082-b7ad-9cd1a9e31077/platforms/2905/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/bb60f29d-afce-48d8-8634-21aa38bb6392/versions/0e582376-ec84-464c-9359-5133db886e41/platforms/3373/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/bb60f29d-afce-48d8-8634-21aa38bb6392/versions/0e582376-ec84-464c-9359-5133db886e41/platforms/3373/download?notrack=1",
     "path": "ElykDeer_tantodevtools",
     "platforms": [
       "Darwin",
@@ -27,7 +27,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 5,
-      "updated_at": "2025-12-08 18:16:05+00:00"
+      "updated_at": "2026-04-15 17:33:12+00:00"
     },
     "projectUrl": "https://github.com/ElykDeer/tanto-devtools",
     "subdir": "",
@@ -35,7 +35,7 @@
       "ui",
       "helper"
     ],
-    "version": "1.0.2",
+    "version": "1.0.3",
     "view_only": false
   },
   {
@@ -2843,7 +2843,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 26,
+      "stargazers_count": 27,
       "updated_at": "2022-02-21 18:59:19+00:00"
     },
     "projectUrl": "https://github.com/ImNotAVirus/delphi_ninja",
@@ -3881,7 +3881,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 80,
+      "stargazers_count": 81,
       "updated_at": "2022-07-26 21:31:16+00:00"
     },
     "projectUrl": "https://github.com/PistonMiner/binaryninja-bindiff-viewer",
@@ -6474,7 +6474,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 576,
+      "stargazers_count": 578,
       "updated_at": "2026-03-28 23:38:53+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6504,8 +6504,8 @@
     "longdescription": "BinYars intergrates YARA-X with Binary Ninja. BinYars comes in two parts, the rust library which is used for the YARA-X scanning and a Python sidewidget which acts as a front end to the Rust component.  The Python sidewidget provides both an interactive scanning interface along with a rule editor. For the commerical and higher Binary Ninja editions, the Rust component also will re-organize the binaries in the project view based off of metadata set in the YARA-X rules.\n\n### Changelog\n## Updates:\r\n\r\n  - Updated Yara-X to 1.15.0\r\n  - Targeted Binary Ninja version is 5.3.9434\r\n  - Fix: Corrected default rule template comments\r\n\r\n## General Info\r\n\r\nTargets the Stable Binary Ninja Version: 5.3\r\n\r\nDue to included rust binaries, this release only supports:\r\n\r\n -  Windows AMD64\r\n -  Linux x64\r\n -  Mac ARM64\r\n\r\nTo build the Rust component manually, see: https://github.com/xorhex/BinYars",
     "minimumbinaryninjaversion": 9434,
     "name": "BinYars",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/5f90c64b-1956-476b-be1d-e95cfe3ee8f7/platforms/3361/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/5f90c64b-1956-476b-be1d-e95cfe3ee8f7/platforms/3361/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/41dad6af-1ad4-4159-9afc-ef5dee1e0561/platforms/3367/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e8fcccda-98cd-4895-a04e-3fe19e7834da/versions/41dad6af-1ad4-4159-9afc-ef5dee1e0561/platforms/3367/download?notrack=1",
     "path": "xorhex_BinYars_SideWidget",
     "platforms": [
       "Darwin",
@@ -6522,7 +6522,7 @@
     "type": [
       "helper"
     ],
-    "version": "1.4.9434",
+    "version": "1.4.9435",
     "view_only": false
   },
   {
