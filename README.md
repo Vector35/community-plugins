@@ -15,7 +15,7 @@
 | [BNHook](https://github.com/jeffli678/bnhook)|Grant Orndorff|Insert custom hooks|2021-03-29|ui, core|python2, python3|MIT |
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
-| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-04-09|ui, helper|python3|MIT |
+| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-04-19|ui, helper|python3|MIT |
 | [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-03-31|binaryview, helper, ui|python3|MIT |
 | [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2026-04-09|sync|python3|BSD 2-clause |
 | [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2026-04-14|helper|python3, rust|MIT |
@@ -115,7 +115,7 @@
 | [Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|whitequark|A plugin providing the Renesas M16C architecture.|2020-01-19|architecture|python3|BSD-0-clause |
 | [Renesas V850 architecture plugin](https://github.com/tizmd/binja-v850)|Tomonori Izumida <tizmd@iij.ad.jp>|An architecture plugin for Renesas V850 series|2022-11-07|architecture|python3|MIT |
 | [ReverserAI](https://github.com/mrphrazer/reverser_ai)|Tim Blazytko|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2024-06-21|helper|python3|GPL-2.0 |
-| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-03-28|ui, helper|python3|MIT |
+| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-04-18|ui, helper|python3|MIT |
 | [RopView](https://github.com/elbee-cyber/RopView)|elbee|RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.|2025-02-25|binaryview, helper, ui|python3|MIT |
 | [Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|inspier|Demangles Rust symbols.|2023-07-09|helper|python3|MIT |
 | [Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|Cindy Xiao|Rust binary string recovery plugin|2026-01-11|helper|python3|MIT |
