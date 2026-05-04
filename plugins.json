@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1067,
+      "stargazers_count": 1068,
       "updated_at": "2024-06-21 03:57:00+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1896,20 +1896,20 @@
       "python3"
     ],
     "author": "BinSync Team",
-    "dependencies": "binsync>=5.14.1",
+    "dependencies": "binsync>=5.15.0\n",
     "description": "Adds support for cross-decompiler collab in the BinSync supported decompilers.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1776915613,
+    "lastUpdated": 1777757849,
     "license": {
       "name": "BSD 2-clause",
       "text": ""
     },
-    "longdescription": "## BinSync\r\n\r\n<p align=\"center\">\r\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\r\n</p>\r\n\r\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\r\nengineering collaboration regardless of decompiler. \r\nBinSync is supported in IDA, Binary Ninja, Ghidra, and angr-management.\r\n\r\n![Demo](https://github.com/binsync/binsync/blob/main/assets/images/binja_sync.gif?raw=true)\r\n\r\n## Overview \r\nAt a high level, BinSync works by tracking changes to important reverse engineering artifacts \r\n(functions, comments, types) while you reverse engineer a binary. These changes are then committed to a Git repository.\r\nThe data is stored in TOMLS and is therefore human-readable and diffable. The data stored, such as types, are \r\nconverted to C so they can be transferred between decompilers. \r\nAn example repo of this format can be found at [https://github.com/binsync/example.bsproj](https://github.com/binsync/example.bsproj). \r\n\r\nBinSync provides a GUI for you to view changes made by you and other users and synchronize them.\r\nBinSync also has other extra features for integrating AI reverse engineering assistants.\r\n\r\n## Installation & Usage\r\nBinSync can be installed directly from within your decompiler's plugin manager. After that initial installation, you\r\ncan verify that your installation works by following our quickstart guide to join our example project.\r\nThe 5-minute quickstart guide can be found [here](https://docs.binsync.net/quickstart/joining-project), and is \r\nalways the most up-to-date way to get started with BinSync.\r\n\r\n## Credits\r\nBinSync is built by [mahaloz](https://github.com/mahaloz), the [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\r\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. The BinSync Team can be listed as follows:\r\n- Zion Leonahenahe Basque (mahaloz)\r\n- The angr team\r\n- The SEFCOM Lab at Arizona State University\r\n\r\nFor inquiries, contact the project lead, Zion Leonahenahe Basque, aka, \"mahaloz\" at binsync@mahaloz.re.\n\n### Changelog\n## What's Changed\r\n* Bump pycparser by @mahaloz in https://github.com/binsync/binsync/pull/496\r\n\r\n\r\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.14.0...v5.14.1",
+    "longdescription": "## BinSync\r\n\r\n<p align=\"center\">\r\n   <img src=\"https://i.imgur.com/qdesKpg.png\" style=\"width: 10%;\" alt=\"BinSync Logo\"/>\r\n</p>\r\n\r\nBinSync is a decompiler collaboration tool built on the Git versioning system to enable fined-grained reverse\r\nengineering collaboration regardless of decompiler. \r\nBinSync is supported in IDA, Binary Ninja, Ghidra, and angr-management.\r\n\r\n![Demo](https://github.com/binsync/binsync/blob/main/assets/images/binja_sync.gif?raw=true)\r\n\r\n## Overview \r\nAt a high level, BinSync works by tracking changes to important reverse engineering artifacts \r\n(functions, comments, types) while you reverse engineer a binary. These changes are then committed to a Git repository.\r\nThe data is stored in TOMLS and is therefore human-readable and diffable. The data stored, such as types, are \r\nconverted to C so they can be transferred between decompilers. \r\nAn example repo of this format can be found at [https://github.com/binsync/example.bsproj](https://github.com/binsync/example.bsproj). \r\n\r\nBinSync provides a GUI for you to view changes made by you and other users and synchronize them.\r\nBinSync also has other extra features for integrating AI reverse engineering assistants.\r\n\r\n## Installation & Usage\r\nBinSync can be installed directly from within your decompiler's plugin manager. After that initial installation, you\r\ncan verify that your installation works by following our quickstart guide to join our example project.\r\nThe 5-minute quickstart guide can be found [here](https://docs.binsync.net/quickstart/joining-project), and is \r\nalways the most up-to-date way to get started with BinSync.\r\n\r\n## Credits\r\nBinSync is built by [mahaloz](https://github.com/mahaloz), the [angr](https://angr.io) team, and the [SEFCOM](https://sefcom.asu.edu) research lab. It's also due\r\nin large part to its use by the [Shellphish](https://shellphish.net) hacking team. The BinSync Team can be listed as follows:\r\n- Zion Leonahenahe Basque (mahaloz)\r\n- The angr team\r\n- The SEFCOM Lab at Arizona State University\r\n\r\nFor inquiries, contact the project lead, Zion Leonahenahe Basque, aka, \"mahaloz\" at binsync@mahaloz.re.\n\n### Changelog\n## What's Changed\r\n* Fix documentation links by @mrexodia in https://github.com/binsync/binsync/pull/520\r\n* UX rework by @mrexodia in https://github.com/binsync/binsync/pull/521\r\n\r\n## New Contributors\r\n* @mrexodia made their first contribution in https://github.com/binsync/binsync/pull/520\r\n\r\n**Full Changelog**: https://github.com/binsync/binsync/compare/v5.14.1...v5.15.0",
     "minimumbinaryninjaversion": 1200,
     "name": "BinSync",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/f9b97ab8-d259-479f-b53c-945fe7e9348d/platforms/3433/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/f9b97ab8-d259-479f-b53c-945fe7e9348d/platforms/3433/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/1db91f15-7887-4726-a561-ec79816d68d4/platforms/3463/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6a391f63-499c-4bfb-b920-3c538d296ae0/versions/1db91f15-7887-4726-a561-ec79816d68d4/platforms/3463/download?notrack=1",
     "path": "binsync_binsync",
     "platforms": [
       "Darwin",
@@ -1918,15 +1918,15 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 703,
-      "updated_at": "2026-04-23 03:40:13+00:00"
+      "stargazers_count": 707,
+      "updated_at": "2026-05-02 21:37:29+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
     "subdir": "binsync/stub_files",
     "type": [
       "sync"
     ],
-    "version": "5.14.1",
+    "version": "5.15.0",
     "view_only": false
   },
   {
@@ -3076,7 +3076,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2334,
+      "stargazers_count": 2337,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -5934,7 +5934,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 55,
+      "stargazers_count": 56,
       "updated_at": "2020-10-01 21:35:22+00:00"
     },
     "projectUrl": "https://github.com/BlackwingHQ/iBoot64Binja",
@@ -6474,7 +6474,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 598,
+      "stargazers_count": 610,
       "updated_at": "2026-04-18 15:18:43+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6862,7 +6862,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 51,
+      "stargazers_count": 53,
       "updated_at": "2026-03-07 12:39:05+00:00"
     },
     "projectUrl": "https://github.com/jonpalmisc/ibis",
@@ -7050,7 +7050,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 53,
+      "stargazers_count": 55,
       "updated_at": "2026-03-06 14:58:12+00:00"
     },
     "projectUrl": "https://github.com/seekbytes/ptxNinja",
@@ -7110,16 +7110,16 @@
     "description": "Reconstructs C++ class hierarchies from MSVC RTTI",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1777553851,
+    "lastUpdated": 1777588217,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2026 NightfallCT\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \\\"Software\\\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# Class Informer\n\nA port of the [IDA Pro Class Informer plugin](https://github.com/kweatherman/IDA_ClassInformer_PlugIn) by Sirmabus / kweatherman, rewritten for Binary Ninja.\n\nScans MSVC-compiled binaries for C++ Run-Time Type Identification (RTTI) data. It locates `CompleteObjectLocators` (COL), `TypeDescriptors`, `ClassHierarchyDescriptors`, and virtual function tables (vftables). Found structures are annotated with names and comments, and a results pane lists all discovered classes with their full inheritance hierarchy.\n\n## Features\n\n- Two-pass vftable scanner (COL-anchored + segment sweep)\n- Reconstructs full class hierarchy strings (e.g. `CEdit:CWnd:CCmdTarget:CObject`)\n- Annotates vftables, method slots, and RTTI structures with symbols and comments\n- Results pane with sortable table of all discovered classes\n- Save / load scan results to a sidecar JSON file\n- Supports both 32-bit and 64-bit MSVC binaries\n\n## Usage\n\nOpen an MSVC-compiled PE binary in Binary Ninja, then run **Plugins \u2192 Class Informer \u2192 Run Scan** from the menu or command palette.\n\n### Changelog\nClass Informer is a native port of the well known IDA Pro plugin by Sirmabus / kweatherman. It automates the tedious process of finding and reconstructing C++ class hierarchies in MSVC-compiled binaries, saving you from the manual \"vtable-hunting\" grind.",
+    "longdescription": "# Class Informer\r\n\r\nA port of the [IDA Pro Class Informer plugin](https://github.com/kweatherman/IDA_ClassInformer_PlugIn) by Sirmabus / kweatherman, rewritten for Binary Ninja.\r\n\r\nScans MSVC-compiled binaries for C++ Run-Time Type Identification (RTTI) data. It locates `CompleteObjectLocators` (COL), `TypeDescriptors`, `ClassHierarchyDescriptors`, and virtual function tables (vftables). Found structures are annotated with names and comments, and a results pane lists all discovered classes with their full inheritance hierarchy.\r\n\r\n## Features\r\n\r\n- Two-pass vftable scanner (COL-anchored + segment sweep)\r\n- Reconstructs full class hierarchy strings (e.g. `CEdit:CWnd:CCmdTarget:CObject`)\r\n- Annotates vftables, method slots, and RTTI structures with symbols and comments\r\n- Results pane with sortable table of all discovered classes\r\n- Save / load scan results to a sidecar JSON file\r\n- Supports both 32-bit and 64-bit MSVC binaries\r\n\r\n## Usage\r\n\r\nOpen an MSVC-compiled PE binary in Binary Ninja, then run **Plugins \u2192 Class Informer \u2192 Run Scan** from the menu or command palette.\n\n### Changelog\nAdded \"clear\" button and fixed the version.",
     "minimumbinaryninjaversion": 3000,
     "name": "Class Informer",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e0425c6d-9623-49fb-8000-89506785c74e/versions/3e629e17-940f-4f28-950d-c3f1f5f459e9/platforms/3451/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e0425c6d-9623-49fb-8000-89506785c74e/versions/3e629e17-940f-4f28-950d-c3f1f5f459e9/platforms/3451/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e0425c6d-9623-49fb-8000-89506785c74e/versions/063bd4c5-ec14-4d01-95ce-45bdfd091d88/platforms/3457/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e0425c6d-9623-49fb-8000-89506785c74e/versions/063bd4c5-ec14-4d01-95ce-45bdfd091d88/platforms/3457/download?notrack=1",
     "path": "NightfallCT_Class_Informer_Binary_Ninja",
     "platforms": [
       "Darwin",
@@ -7128,15 +7128,15 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
-      "updated_at": "2026-04-30 12:57:31+00:00"
+      "stargazers_count": 4,
+      "updated_at": "2026-04-30 22:30:17+00:00"
     },
     "projectUrl": "https://github.com/NightfallCT/Class-Informer-Binary-Ninja",
     "subdir": "",
     "type": [
       "analysis"
     ],
-    "version": "0.1.0",
+    "version": "1.0.1",
     "view_only": false
   },
   {
