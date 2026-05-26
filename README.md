@@ -15,7 +15,7 @@
 | [BNHook](https://github.com/jeffli678/bnhook)|Grant Orndorff|Insert custom hooks|2021-03-29|ui, core|python2, python3|MIT |
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
-| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-04-19|ui, helper|python3|MIT |
+| [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-05-25|ui, helper|python3|MIT |
 | [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-04-27|binaryview, helper, ui|python3|MIT |
 | [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2026-05-02|sync|python3|BSD 2-clause |
 | [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2026-04-14|helper|python3, rust|MIT |
@@ -42,6 +42,7 @@
 | [CoolTypeOxidizer](https://github.com/unknowntrojan/binja_cooltypeoxidizer)|unknowntrojan|Provides a render layer that visually replaces C-style numeric types in HLIL with their Rust equivalents at zero runtime cost. (int64_t => i64)|2025-08-29|binaryview, helper, ui|python3|AGPLv3 |
 | [Copy As YARA](https://github.com/ald3ns/copy-as-yara)|alden (@birchb0y)|Let's you copy sections of disassembly formatted for YARA.|2025-04-14|helper|python3|MIT |
 | [Copy as Deeplink](https://github.com/pathtofile/binja_plugin_copy_deeplink)|pathtofile|Creates a deeplink to the current address and adds it to the clipboard|2025-05-18|helper|python3|MIT |
+| [Custom Context](https://github.com/psifertex/custom_context/)|Jordan Wiens|Add custom actions to the context menu|2026-05-26|ui|python3|MIT |
 | [DBG Loader](https://github.com/gamozolabs/coff_nm)|Gamozo Labs, LLC|Load old COFF .dbg files as well as CAB-ed .db_ files!|2021-11-15|helper|python3|MIT |
 | [DUMB](https://github.com/toolCHAINZ/DUMB)|toolCHAINZ|DUMB: An Example Architecture for Binary Ninja|2020-03-01|architecture, binaryview|python3|MIT |
 | [DeGObfuscate](https://github.com/kryptoslogic/binja_degobfuscate)|Jamie Hankins|De-obfuscates strings inside of obfuscated Go binaries|2020-12-02|helper|python3|MIT |
@@ -97,7 +98,7 @@
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
 | [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2025-08-08|helper|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
-| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-03-03|ui, helper|python3|Apache-2.0 |
+| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-05-20|ui, helper|python3|Apache-2.0 |
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2026-01-29|binaryview, core, ui|python3|MIT |
 | [Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|Galen Williamson|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT |
 | [NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|Accenture (Martin Petran)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-01-22|architecture|C++|Apache-2.0 |
@@ -105,8 +106,8 @@
 | [Native Predicate Solver](https://github.com/ScriptWare-Software/native-predicate-solver_loader)|ScriptWare Software|Remove opaque predicates from binaries|2025-06-29|helper|python3|MIT |
 | [Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|rikodot|Find and create signatures|2024-08-13|helper|python2, python3|MIT |
 | [Notepad](https://github.com/jonpalmisc/bn-notepad)|Jon Palmisciano|A notepad for taking notes inside Binary Ninja.|2021-04-19||python3|MIT |
-| [Obfuscation Analysis](https://github.com/mrphrazer/obfuscation_analysis)|Tim Blazytko, Nicolò Altamura|Analyze and simplify obfuscated code|2025-10-11|helper|python3|GPL-2.0 |
-| [Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|Tim Blazytko|Automatically detect obfuscated code and other interesting code constructs|2025-03-14|helper|python3|GPL-2.0 |
+| [Obfuscation Analysis](https://github.com/mrphrazer/obfuscation_analysis)|Tim Blazytko, Nicolò Altamura|Analyze and simplify obfuscated code|2026-05-20|helper|python3|GPL-2.0 |
+| [Obfuscation Detection](https://github.com/mrphrazer/obfuscation_detection)|Tim Blazytko|Automatically detect obfuscated code and other interesting code constructs|2026-05-20|helper|python3|GPL-2.0 |
 | [Opaque Predicates Detective](https://github.com/yellowbyte/opaque-predicates-detective)|Yu-Jye Tung|detect opaque predicates|2021-04-10|helper|python2, python3|MIT |
 | [OpenAI GPT3](https://github.com/WhatTheFuzz/binaryninja-openai)|Sean Deaton (@WhatTheFuzz)|Queries OpenAI's GPT3 to determine what a given function does.|2024-04-17|helper|python3|MIT |
 | [Original Xbox Executable Loader](https://github.com/xclusivor/binaryninja-xbe)|xclusivor|Loader for Original Xbox Executables|2023-11-13|binaryview|python3|MIT |
@@ -117,8 +118,8 @@
 | [QSettings Viewer](https://github.com/psifertex/qsview)|Jordan Wiens|QSettings Viewer|2024-10-22|ui, helper|python3|MIT |
 | [Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|whitequark|A plugin providing the Renesas M16C architecture.|2020-01-19|architecture|python3|BSD-0-clause |
 | [Renesas V850 architecture plugin](https://github.com/tizmd/binja-v850)|Tomonori Izumida <tizmd@iij.ad.jp>|An architecture plugin for Renesas V850 series|2022-11-07|architecture|python3|MIT |
-| [ReverserAI](https://github.com/mrphrazer/reverser_ai)|Tim Blazytko|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2024-06-21|helper|python3|GPL-2.0 |
-| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-04-18|ui, helper|python3|MIT |
+| [ReverserAI](https://github.com/mrphrazer/reverser_ai)|Tim Blazytko|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2026-05-20|helper|python3|GPL-2.0 |
+| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-05-07|ui, helper|python3|MIT |
 | [RopView](https://github.com/elbee-cyber/RopView)|elbee|RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.|2025-02-25|binaryview, helper, ui|python3|MIT |
 | [Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|inspier|Demangles Rust symbols.|2023-07-09|helper|python3|MIT |
 | [Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|Cindy Xiao|Rust binary string recovery plugin|2026-01-11|helper|python3|MIT |
