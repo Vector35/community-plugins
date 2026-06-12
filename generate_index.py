@@ -333,6 +333,7 @@ def main():
             info = open("INFO", encoding="utf-8").read() + u"\n"
         with open("README.md", "w", encoding="utf-8") as readme:
             readme.write(u"# Binary Ninja Plugins\n\n")
+            readme.write(u"[!WARNING]\nTHIS REPOSITORY IS DEPRECATED. SEE <a href='https://extensions.binary.ninja/'>https://extensions.binary.ninja/</a> for the current list. This repo is maintained only for older versions of Binary Ninja as a best-effort attempt but no support is available.\n\n")
             readme.write(u"| PluginName | Author | Description | Last Updated | Type | API | License |\n")
             readme.write(u"|------------|--------|-------------|--------------|------|-----|---------|\n")
 
