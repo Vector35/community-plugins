@@ -16,8 +16,8 @@
 | [BNIL Instruction Graph](https://github.com/withzombies/bnil-graph)|Ryan Stortz (@withzombies)|A plugin to graph BNIL instruction trees|2023-07-19|ui|python2, python3|Apache-2.0 |
 | [Banjo](https://github.com/ivision-research/banjo)|Austin Ralls|Adds support for Android Dex files|2024-04-26|architecture, binaryview|python3|MIT |
 | [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-05-25|ui, helper|python3|MIT |
-| [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-04-27|binaryview, helper, ui|python3|MIT |
-| [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2026-05-02|sync|python3|BSD 2-clause |
+| [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-06-14|binaryview, helper, ui|python3|MIT |
+| [BinSync](https://github.com/binsync/binsync)|BinSync Team|Adds support for cross-decompiler collab in the BinSync supported decompilers.|2026-06-07|sync|python3|BSD 2-clause |
 | [BinYars](https://github.com/xorhex/BinYars-SideWidget)|xorhex|BinYars provides YARA-X scanning ability and a rule editor.  When running commerical or higher Binary Ninja edition, it can sort files in the project view.|2026-04-14|helper|python3, rust|MIT |
 | [Binary Ninja Ollama](https://github.com/ahaggard2013/binaryninja-ollama)|Austin Haggard|Binary Ninja Ollama integrates with your own locally hosted ollama server to rename functions and variables with AI|2024-10-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
@@ -119,7 +119,7 @@
 | [Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|whitequark|A plugin providing the Renesas M16C architecture.|2020-01-19|architecture|python3|BSD-0-clause |
 | [Renesas V850 architecture plugin](https://github.com/tizmd/binja-v850)|Tomonori Izumida <tizmd@iij.ad.jp>|An architecture plugin for Renesas V850 series|2022-11-07|architecture|python3|MIT |
 | [ReverserAI](https://github.com/mrphrazer/reverser_ai)|Tim Blazytko|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2026-05-20|helper|python3|GPL-2.0 |
-| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-05-07|ui, helper|python3|MIT |
+| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-06-15|ui, helper|python3|MIT |
 | [RopView](https://github.com/elbee-cyber/RopView)|elbee|RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.|2025-02-25|binaryview, helper, ui|python3|MIT |
 | [Rust Demangle](https://github.com/inspier/BinjaRustDemangler)|inspier|Demangles Rust symbols.|2023-07-09|helper|python3|MIT |
 | [Rust String Slicer](https://github.com/cxiao/rust_string_slicer)|Cindy Xiao|Rust binary string recovery plugin|2026-01-11|helper|python3|MIT |
@@ -148,6 +148,7 @@
 | [VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|verylazyguy|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|python2, python3|MIT |
 | [VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|dword64 and layle|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2026-04-02|architecture, binaryview|python2, python3|BSD-3-Clause |
 | [VirusTotal Code Insights](https://github.com/txhaflaire/virustotal_code_insights)|thijs.xhaflaire|Analyze a function or highlighted code using VirusTotal Code Insights (Google Threat Intelligence).|2025-12-09|architecture, binaryview, core, helper, ui|python3, |MIT |
+| [VulnFanatic-NG](https://github.com/Martyx00/VulnFanatic-NG)|Martyx00|LLM-assisted vulnerability research over Binary Ninja decompiler output.|2026-06-19|ui, helper|python3|Apache 2.0 |
 | [WASM Plugin](https://github.com/ivision-research/binjawa)|Meador Inge|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|python3|MIT |
 | [Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|shareef12|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|2019-08-08|helper|python2, python3|MIT |
 | [Windows Ioctl Resolver](https://github.com/estr3llas/ioctl_resolver)|estr3llas|Resolves Windows IOCTLs from a local WDK|2026-03-04|helper, platform||MIT |
