@@ -148,7 +148,6 @@
 | [VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|verylazyguy|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|python2, python3|MIT |
 | [VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|dword64 and layle|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2026-04-02|architecture, binaryview|python2, python3|BSD-3-Clause |
 | [VirusTotal Code Insights](https://github.com/txhaflaire/virustotal_code_insights)|thijs.xhaflaire|Analyze a function or highlighted code using VirusTotal Code Insights (Google Threat Intelligence).|2025-12-09|architecture, binaryview, core, helper, ui|python3, |MIT |
-| [VulnFanatic](https://github.com/Martyx00/VulnFanatic)|Martin Petran|Assistant plugin for vulnerability research.|2024-09-07|helper|python3|Apache-2.0 |
 | [WASM Plugin](https://github.com/ivision-research/binjawa)|Meador Inge|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|python3|MIT |
 | [Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|shareef12|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|2019-08-08|helper|python2, python3|MIT |
 | [Windows Ioctl Resolver](https://github.com/estr3llas/ioctl_resolver)|estr3llas|Resolves Windows IOCTLs from a local WDK|2026-03-04|helper, platform||MIT |
