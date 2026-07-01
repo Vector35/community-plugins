@@ -683,7 +683,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 62,
+      "stargazers_count": 64,
       "updated_at": "2026-05-25 22:31:56+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -799,7 +799,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 84,
+      "stargazers_count": 83,
       "updated_at": "2024-10-09 14:41:33+00:00"
     },
     "projectUrl": "https://github.com/ahaggard2013/binaryninja-ollama",
@@ -841,7 +841,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 80,
+      "stargazers_count": 81,
       "updated_at": "2025-03-01 05:53:02+00:00"
     },
     "projectUrl": "https://github.com/unknowntrojan/binja_coolsigmaker",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1096,
+      "stargazers_count": 1100,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1188,7 +1188,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 11,
+      "stargazers_count": 12,
       "updated_at": "2024-02-28 20:55:07+00:00"
     },
     "projectUrl": "https://github.com/zznop/efi-inspector",
@@ -1918,7 +1918,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 727,
+      "stargazers_count": 728,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2032,7 +2032,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 803,
+      "stargazers_count": 804,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2341,7 +2341,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 859,
+      "stargazers_count": 860,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2534,7 +2534,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 550,
+      "stargazers_count": 549,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -2649,7 +2649,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 43,
+      "stargazers_count": 44,
       "updated_at": "2023-06-06 11:00:33+00:00"
     },
     "projectUrl": "https://github.com/CySHell/ClassyPP",
@@ -2940,7 +2940,7 @@
     "description": "Research Decompiler to generate a C-like function representation",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1775011257,
+    "lastUpdated": 1782878261,
     "license": {
       "name": "LGPL-2.1",
       "text": "This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
@@ -2948,8 +2948,8 @@
     "longdescription": "# dewolf\n\ndewolf is a research decompiler we developed during a research cooperation from 2019 to 2021 between Germany (Fraunhofer FKIE) and Singapore (DSO National Laboratories).\n\nThe restructuring of dewolf is based on the former DREAM/DREAM++ approach [Yakdan et al. NDSS 2015, IEEE (SP) 2016].\n\nThe decompiler dewolf is implemented as a plugin for Binary Ninja and uses their Medium-Level intermediate language as the starting point.\nAlthough we consider dewolf to be pretty stable, it is still a research prototype and not extensively optimized for production use.\nConsequently, you will likely observe a few bugs or even decompilation failures when applying dewolf on real-world binaries.\n\n**If you encounter any bugs, please report them to us so that we can further improve dewolf. :)**\n\n## Usage\n\nAfter enabling the dewolf decompilation dock widget via **View > Other Docks > Show Dewolf**, the decompiled code for the currently active symbol will be displayed.\nIn the dewolf dock, it is possible to navigate through functions by double-clicking them.\n\n![Widget Menu](https://user-images.githubusercontent.com/12004321/145460440-be4b7dfd-bf7e-497f-a7af-1911bf3efc50.png)\n\nThe automatic decompilation of selected functions can be toggled with the *follow* button.\nDecompiled code is cached and can be generated again with the *decompile* button, e.g. after patching instructions in the binary view.\n\n![Widget](https://user-images.githubusercontent.com/12004321/145460476-f869e5cc-d585-4f53-8920-6ecfa4b346d5.png)\n\n## Configuration\ndewolf has multiple configuration options of which some are configurable via the GUI.\n\nYou can configure dewolf from the Binary Ninja GUI by navigating to **Edit > Preferences > Settings** or by pressing <kbd>Ctrl</kbd> + <kbd>,</kbd>.\nSearch for **dewolf** in the search bar and all dewolf related settings will be displayed.\n\n## Support\n\nIf you have any suggestions, or bug reports, please create an issue in the [Issue Tracker](https://github.com/fkie-cad/dewolf/issues).\n\nIn case you have any questions or other problems, feel free to send an email to:\n\n[dewolf@fkie.fraunhofer.de](mailto:dewolf@fkie.fraunhofer.de).\n\n### Changelog\nAutomatic release",
     "minimumbinaryninjaversion": 4271,
     "name": "dewolf Decompiler",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/5841b1d9-e395-44e3-8a4e-ca66607c3bd4/platforms/3307/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/5841b1d9-e395-44e3-8a4e-ca66607c3bd4/platforms/3307/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/9f27c409-f318-4f0d-9a40-66f230cd0b38/platforms/3607/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/9f27c409-f318-4f0d-9a40-66f230cd0b38/platforms/3607/download?notrack=1",
     "path": "fkiecad_dewolf",
     "platforms": [
       "Darwin",
@@ -2958,8 +2958,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 223,
-      "updated_at": "2026-04-01 02:40:57+00:00"
+      "stargazers_count": 224,
+      "updated_at": "2026-07-01 03:57:41+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
     "subdir": "",
@@ -2967,7 +2967,7 @@
       "ui",
       "helper"
     ],
-    "version": "2026-04-01",
+    "version": "2026-07-01",
     "view_only": false
   },
   {
@@ -3076,7 +3076,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2351,
+      "stargazers_count": 2356,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3268,7 +3268,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2554,
+      "stargazers_count": 2558,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3344,7 +3344,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 10,
+      "stargazers_count": 11,
       "updated_at": "2021-07-22 00:44:01+00:00"
     },
     "projectUrl": "https://github.com/xpcmdshell/SysctlHunter",
@@ -4461,7 +4461,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 28,
+      "stargazers_count": 27,
       "updated_at": "2023-01-29 23:25:18+00:00"
     },
     "projectUrl": "https://github.com/apekros/binja_sigmaker",
@@ -6358,7 +6358,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 122,
+      "stargazers_count": 123,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6436,7 +6436,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 641,
+      "stargazers_count": 647,
       "updated_at": "2026-06-15 13:51:10+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6824,7 +6824,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 53,
+      "stargazers_count": 54,
       "updated_at": "2026-03-07 12:39:05+00:00"
     },
     "projectUrl": "https://github.com/jonpalmisc/ibis",
@@ -6881,16 +6881,16 @@
     "description": "Download and manage themes from different repos.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1777365765,
+    "lastUpdated": 1782899473,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2026 L\u00e9o BECHET\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# A Theme Manager For Binary Ninja\n\n> Developped for Binary Ninja 3.5\n\nA simple plugin for browsing, installing, and applying community `.bntheme` themes inside Binary Ninja.\n\n## What it does\n\n- Lists themes from configured GitHub repositories\n- Shows installed themes locally\n- Lets you apply a theme directly from the UI\n- Basic search/filter for theme names\n\n## Storage\n\nInstalled themes are saved to:\n\n```\n~/.binaryninja/community-themes/\n```\n\n## Usage\n\nOpen:\n\n```\nPlugins \u2192 Theme Manager\n```\n\nThen:\n- Click **Install** to download a theme\n- Click **Set** to apply it (may need restart)\n\n## Supported repos\n\n- Vector35 - community themes  \n  https://github.com/Vector35/community-themes\n\n- Catppuccin - Binary Ninja themes  \n  https://github.com/catppuccin/binary-ninja/tree/main/themes\n\n- Dracula - Binary Ninja theme  \n  https://github.com/dracula/binary-ninja\n\n- Evan Richter - Base16 Binary Ninja colors  \n  https://github.com/evanrichter/base16-binary-ninja\n\n- FuzzySecurity - Binary Ninja themes  \n  https://github.com/FuzzySecurity/BinaryNinja-Themes\n\n## Requirements\n\n- Binary Ninja 3.5+\n- Internet access for fetching themes\n\n\n### Changelog\nTested support on Binary Ninja 3.5\r\n\r\nA simple plugin for browsing, installing, and applying community `.bntheme` themes inside Binary Ninja.\r\n\r\n## Features\r\n- Lists themes from configured GitHub repositories\r\n- Shows installed themes locally\r\n- Lets you apply a theme directly from the UI\r\n- Basic search/filter for theme names\r\n\r\n## Usage\r\n\r\nOpen:\r\n\r\n```\r\nPlugins \u2192 Theme Manager\r\n```\r\n\r\n## Supported repos\r\n\r\n- Vector35 \u2013 community themes  \r\n  https://github.com/Vector35/community-themes\r\n\r\n- Catppuccin \u2013 Binary Ninja themes  \r\n  https://github.com/catppuccin/binary-ninja/tree/main/themes\r\n\r\n- Dracula \u2013 Binary Ninja theme  \r\n  https://github.com/dracula/binary-ninja\r\n\r\n- Evan Richter \u2013 Base16 Binary Ninja colors  \r\n  https://github.com/evanrichter/base16-binary-ninja\r\n\r\n- FuzzySecurity \u2013 Binary Ninja themes  \r\n  https://github.com/FuzzySecurity/BinaryNinja-Themes\r\n\r\n",
+    "longdescription": "# A Theme Manager For Binary Ninja\n\n> Developed for Binary Ninja 5.3\n\nA simple plugin for browsing, installing, and applying community `.bntheme` themes inside Binary Ninja.\n\n## Preview\n\n![Theme Manager](rsc/image.png)\n\n## What it does\n\n- Lists themes from configured GitHub repositories, grouped in a collapsible list\n- Shows installed themes locally\n- Live preview of a theme \u2014 a sample linear view and flow graph rendered with the\n  theme's own colors, before you apply it (remote themes are fetched on demand)\n- Installs and applies themes directly from the UI\n- Search/filter with a quick-clear button\n\n## Storage\n\nInstalled themes are saved under Binary Ninja's user directory (platform-dependent),\nin the `community-themes/` subfolder \u2014 e.g. on Linux:\n\n```\n~/.binaryninja/community-themes/\n```\n\n## Usage\n\nOpen:\n\n```\nPlugins \u2192 Theme Manager\n```\n\nThen:\n- **Select** a theme in the list to preview it\n- Click **Install** to download a remote theme, or **Set Active** to apply an\n  installed one (may need restart)\n\n## Supported repos\n\n- Vector35 \u2013 community themes  \n  https://github.com/Vector35/community-themes\n\n- Catppuccin \u2013 Binary Ninja themes  \n  https://github.com/catppuccin/binary-ninja/tree/main/themes\n\n- Dracula \u2013 Binary Ninja theme  \n  https://github.com/dracula/binary-ninja\n\n- Evan Richter \u2013 Base16 Binary Ninja colors  \n  https://github.com/evanrichter/base16-binary-ninja\n\n- FuzzySecurity \u2013 Binary Ninja themes  \n  https://github.com/FuzzySecurity/BinaryNinja-Themes\n\n## Requirements\n\n- Binary Ninja 5.3+\n- Internet access for fetching themes\n\n\n\n### Changelog\n* add preview UI and fix a few bugs by @psifertex in https://github.com/lele394/Binary-Ninja-Theme-Manager/pull/3",
     "minimumbinaryninjaversion": 8104,
     "name": "Theme Manager",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/b746ffa9-7ec3-4f89-a26b-88dea5b84c1a/versions/9d0c6232-640c-447d-80d0-1ef346f90f66/platforms/3445/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/b746ffa9-7ec3-4f89-a26b-88dea5b84c1a/versions/9d0c6232-640c-447d-80d0-1ef346f90f66/platforms/3445/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/b746ffa9-7ec3-4f89-a26b-88dea5b84c1a/versions/70956616-b844-4ba8-a87d-c24e03f43d91/platforms/3613/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/b746ffa9-7ec3-4f89-a26b-88dea5b84c1a/versions/70956616-b844-4ba8-a87d-c24e03f43d91/platforms/3613/download?notrack=1",
     "path": "lele394_Binary_Ninja_Theme_Manager",
     "platforms": [
       "Darwin",
@@ -6900,14 +6900,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 0,
-      "updated_at": "2026-04-28 08:42:45+00:00"
+      "updated_at": "2026-07-01 09:51:13+00:00"
     },
     "projectUrl": "https://github.com/lele394/Binary-Ninja-Theme-Manager",
     "subdir": "",
     "type": [
       "ui"
     ],
-    "version": "0.1.0",
+    "version": "0.2.0",
     "view_only": false
   },
   {
@@ -7012,7 +7012,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 58,
+      "stargazers_count": 59,
       "updated_at": "2026-03-06 14:58:12+00:00"
     },
     "projectUrl": "https://github.com/seekbytes/ptxNinja",
@@ -7051,7 +7051,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 96,
+      "stargazers_count": 95,
       "updated_at": "2026-04-02 18:53:07+00:00"
     },
     "projectUrl": "https://github.com/vtil-project/VTIL-BinaryNinja",
@@ -7166,7 +7166,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 38,
+      "stargazers_count": 39,
       "updated_at": "2026-06-14 15:01:26+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
@@ -7554,7 +7554,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 13,
       "updated_at": "2026-06-19 08:58:40+00:00"
     },
     "projectUrl": "https://github.com/Martyx00/VulnFanatic-NG",
@@ -7593,7 +7593,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 248,
+      "stargazers_count": 249,
       "updated_at": "2026-05-20 12:00:42+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
@@ -7754,7 +7754,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "updated_at": "2026-06-19 19:58:34+00:00"
     },
     "projectUrl": "https://github.com/alessaba/ROPNinja",
