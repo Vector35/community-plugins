@@ -142,7 +142,7 @@
 | [Syscaller](https://github.com/carstein/Syscaller)|Michal Melewski|Decorate encountered syscalls with details like name and arguments|2019-07-15|helper|python3|MIT |
 | [TE Loader](https://github.com/zznop/te-loader)|Brandon Miller|Binary Ninja plugin for loading EFI Terse Executable files|2024-02-28|architecture|python3|MIT |
 | [Tag Team](https://github.com/psifertex/tagteam)|psifertex|Tags functions using emoji for a number of interesting characteristics|2021-03-12|helper|python3|Apache-2.0 |
-| [Theme Manager](https://github.com/lele394/Binary-Ninja-Theme-Manager)|lele394|Download and manage themes from different repos.|2026-04-28|ui|python3|MIT |
+| [Theme Manager](https://github.com/lele394/Binary-Ninja-Theme-Manager)|lele394|Download and manage themes from different repos.|2026-07-01|ui|python3|MIT |
 | [Translation Plugin](https://github.com/psifertex/translation-plugin)|psifertex|Translate strings and symbols|2025-09-26|helper|python3|MIT |
 | [Type Oxidizer](https://github.com/austinzwile/TypeOxidizer)|austinzwile / azw|TypeOxidizer converts the C-Style types in your HLIL / decompilation to their Rust equivalents for easier reading / interpretation and shorter decompilation.|2025-02-24|binaryview, helper, ui|python3|MIT |
 | [TypeLib Exporter](https://github.com/SmoothHacker/TypeLib-Exporter)|SmoothHacker|This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.|2025-12-31|binaryview, helper, ui|python3|MIT |
@@ -174,7 +174,7 @@
 | [ctypes Export](https://github.com/jordan9001/ctypes_export)|Jordan Whitehead|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT |
 | [decomp2dbg](https://github.com/mahaloz/decomp2dbg)|Zion Basque (@mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2025-11-11|core|python3|BSD 2-clause |
 | [devi](https://github.com/murx-/devi_binja)|@_murks|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|ui, helper|python3|MIT |
-| [dewolf Decompiler](https://github.com/fkie-cad/dewolf)|fkie-cad|Research Decompiler to generate a C-like function representation|2026-04-01|ui, helper|python3|LGPL-2.1 |
+| [dewolf Decompiler](https://github.com/fkie-cad/dewolf)|fkie-cad|Research Decompiler to generate a C-like function representation|2026-07-01|ui, helper|python3|LGPL-2.1 |
 | [droog](https://github.com/amtal/droog)|amtal|PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's "Processor Manual..." right-click menu.|2024-06-24|helper|python3|AGPL-3.0 |
 | [ethersplay Ethereum Architecture Plugin](https://github.com/crytic/ethersplay)|Trail of Bits|A disassembler and lifter for the Ethereum architecture.|2022-11-03|architecture|python3|AGPL-3.0-only |
 | [genesis](https://github.com/zznop/bn-genesis)|zznop|SEGA Megadrive/Genesis ROM Hacking Toolkit|2024-11-04|ui, helper|python3|MIT |
