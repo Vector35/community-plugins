@@ -30,7 +30,7 @@
 | [Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|sen|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0 |
 | [Call Shellcode](https://github.com/lwerdna/call_shellcode)|lwerdna|Add "call shellcode" menu option which executes highlighted bytes.|2021-04-03|helper|python2, python3|Unlicense |
 | [Callgraph](https://github.com/psifertex/callgraph)|Josh Watson / Jordan Wiens|Callgraph generator for called or calling funcs|2022-04-20|ui|python3|MIT |
-| [Calltree](https://github.com/elbiazo/calltree)|Eric Biazo|Generates calltree. Alternative view for callgraph|2024-09-04|binaryview, helper, ui|python3|MIT |
+| [Calltree](https://github.com/elbiazo/calltree)|Eric Biazo|Generates calltree. Alternative view for callgraph|2026-07-04|binaryview, helper, ui|python3|MIT |
 | [Char Arrays](https://github.com/elbee-cyber/analyze_char_arrays)|elbee|Displays char arrays by analyzing their use in functions|2023-01-18|binaryview, helper|python3|MIT |
 | [Class Informer](https://github.com/NightfallCT/Class-Informer-Binary-Ninja)|NightfallCT|Reconstructs C++ class hierarchies from MSVC RTTI|2026-04-30|analysis|python3|MIT |
 | [ClassyPP](https://github.com/CySHell/ClassyPP)|CyShell|Parse and extract class information from MSVC x86 32\64 bit C++ binaries.|2023-06-06|binaryview|python3|MIT |
