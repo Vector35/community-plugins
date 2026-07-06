@@ -917,7 +917,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2,
+      "stargazers_count": 3,
       "updated_at": "2024-06-24 14:31:17+00:00"
     },
     "projectUrl": "https://github.com/amtal/droog",
@@ -1033,7 +1033,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 70,
+      "stargazers_count": 72,
       "updated_at": "2025-02-25 20:50:47+00:00"
     },
     "projectUrl": "https://github.com/elbee-cyber/RopView",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1100,
+      "stargazers_count": 1108,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1918,7 +1918,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 728,
+      "stargazers_count": 729,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2032,7 +2032,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 804,
+      "stargazers_count": 805,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2379,7 +2379,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 106,
+      "stargazers_count": 107,
       "updated_at": "2025-02-15 00:29:08+00:00"
     },
     "projectUrl": "https://github.com/seeinglogic/ariadne",
@@ -3014,20 +3014,20 @@
       "python3"
     ],
     "author": "Eric Biazo",
-    "dependencies": "",
+    "dependencies": "networkx>=2.5",
     "description": "Generates calltree. Alternative view for callgraph",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1725471478,
+    "lastUpdated": 1783159288,
     "license": {
       "name": "MIT",
       "text": "Copyright 2021 Eric Biazo\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# Calltree\n\nAuthor: **Eric Biazo**\n\nCalltree generator for function\n\n## Description:\n\nGenerates call tree. Alternative view for callgraph.\n\n## Releases\n\n* 2.1 -- Bug Fix\n* 2.0 -- Multiview Support\n* 1.2 -- Bug Fixes\n* 1.1 -- Refactoring\n* 1.0 -- Public Release\n* 0.0 -- Beta Release\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * 2966\n\n## License\n\nThis plugin is released under an [MIT license](./LICENSE).\n\n## Caution\n\nWhen working with really big binaries with alot of xrefs, you would want to change recursive depth to smaller number or else Binary Ninja might hang.\n## Description\n\nCalltree is a plugin that generates call tree for a function. It is an alternative view for callgraph. It is a multiview plugin, so you can have multiple calltree views open at the same time.\n\n### Default View\n\n![](images/2023-03-06-23-31-27.png)\n\n### Expand and Collapse tree\n\n**Expand**\n\n![](images/2023-03-06-23-44-02.png)\n\n**Collapse**\n\n![](images/2023-03-06-23-44-24.png)\n\n**Search**\n\n![](images/2022-02-09-16-53-33.png)\n\n### Recursion Depth\n\n**Show Only Root Level**\n\n![](images/2022-02-09-16-57-21.png)\n\n**Default Recursion Depth in Setting**\n\n![](images/2022-02-09-16-59-03.png)\n\n### Pinning and Removing Calltree View\n\n**Pinning Calltree View**\n\n![](images/2023-03-06-23-40-42.png)\n\n**Pinned Calltree Name Max Length**\n\n![](images/2023-03-06-23-46-04.png)\n\n\n## Contributors\n\nThanks everyone that have contributed to calltree!\n\n* galenbwill\n* droogie\n* bambu\n* crimsonskylark\n",
+    "longdescription": "# Calltree\n\nAuthor: **Eric Biazo**\n\nCalltree and Callgraph generator for a function\n\n## Description:\n\nGenerates calltree and callgraph for a function.\n\n## Releases\n\n* 3.0 -- Graph-backed call data + Python API (`networkx`), optimization, better search, big-binary support, call-graph export, recursion markers, colored/clickable graph nodes.\n* 2.1 -- Bug Fix\n* 2.0 -- Multiview Support\n* 1.2 -- Bug Fixes\n* 1.1 -- Refactoring\n* 1.0 -- Public Release\n* 0.0 -- Beta Release\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * 2966\n\n## License\n\nThis plugin is released under an [MIT license](./LICENSE).\n\n## Caution\n\nWhen working with really big binaries with alot of xrefs, you would want to change recursive depth to smaller number or else Binary Ninja might hang.\n## Description\n\nCalltree is a plugin that generates call tree for a function. It is an alternative view for callgraph. It is a multiview plugin, so you can have multiple calltree views open at the same time.\n\n## Features\n\n### Call trees\n\n- **Incoming Calls** (callers) and **Outgoing Calls** (callees) panes, each rooted on\n  the current function and updated as you navigate.\n- **Lazy, bounded rendering** \u2014 trees load on demand and auto-expand only to a\n  configurable depth, so even large binaries stay responsive; deeper levels load as you\n  expand them.\n- **Recursion marker** \u2014 a call back into an ancestor (e.g. `_ping \u2192 _pong \u2192 _ping`) is\n  shown as a leaf with a recursion icon, so cycles are obvious and never expand forever.\n- **Clickable \"\u2026 N more\"** \u2014 when a function has more children than the display cap, a\n  \"\u2026 N more\" row loads all the remaining children on click.\n- **Manual deep-expand** \u2014 clicking a node's expand arrow drills one level deeper even\n  past the auto-expand depth, so you can follow a single path arbitrarily deep without\n  expanding the whole tree.\n- **Horizontal scrolling** with full, un-elided names.\n\n### Per-pane controls\n\nEach pane has a **header row** and, below the tree, a **search row**:\n\n- **Header row** \u2014 `[<direction> Calls \u00b7\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7 [depth] [+] [\u2212]]`: the pane label plus\n  the **depth** spinbox (how many levels auto-expand on navigation) and the **+**\n  expand-all / **\u2212** collapse buttons (`+` reveals the entire reachable subtree, `\u2212`\n  collapses it).\n- **Search row** \u2014 `[search box \u00d7] [x of y] [\u2191] [\u2193]`: type a name and press **Enter** to\n  search the **entire** call subtree by name (ignoring depth / node caps). The tree is\n  pruned to just the paths leading to matches, each branch **ending at its match** (matches\n  in **bold**). The built-in **\u00d7** clear button (or emptying the box) drops the search and\n  restores the normal tree. The `x of y` counter (shown only while searching) and the\n  **\u2191 / \u2193** buttons cycle through matches, centering each; **\"No matches\"** is shown when\n  nothing matches.\n\nPanes also show explicit placeholders: **\"No functions\"** (no callers/callees in that\ndirection), **\"Depth is 0\"** (depth set to 0), and **\"Loading\u2026\"** while a large expand-all\nwalk runs in the background.\n\n### Call graph export\n\n- The **graph** button (on the current-function row, arranged as `[graph] | [pin]\n  [close]`) opens a Binary Ninja flow graph of exactly what the two panes currently show.\n- Nodes are **color-coded** \u2014 root (orange), incoming callers (blue), outgoing callees\n  (green) \u2014 and **clickable**: double-click a node to navigate to that function. To\n  narrow the graph, search or expand the trees first, then open it.\n\n### Navigation & tabs\n\n- **Single click** previews (navigates the disassembly without re-rooting the Current\n  tab); **double click** commits (navigates *and* re-roots the Current tab).\n- **Pin** the current call tree into a new tab to keep a snapshot while you keep\n  navigating; remove a pinned tab with the close button.\n\n### Settings\n\n- Initial incoming/outgoing depth, max auto-expanded nodes, and pinned-tab name length\n  are all configurable under the `Calltree` settings group.\n\n## Screenshots\n\n### Default View\n\n![](images/2023-03-06-23-31-27.png)\n\n### Expand and Collapse tree\n\n**Expand**\n\n![](images/2023-03-06-23-44-02.png)\n\n**Collapse**\n\n![](images/2023-03-06-23-44-24.png)\n\n**Search**\n\n![](images/2022-02-09-16-53-33.png)\n\n### Recursion Depth\n\n**Show Only Root Level**\n\n![](images/2022-02-09-16-57-21.png)\n\n**Default Recursion Depth in Setting**\n\n![](images/2022-02-09-16-59-03.png)\n\n### Pinning and Removing Calltree View\n\n**Pinning Calltree View**\n\n![](images/2023-03-06-23-40-42.png)\n\n**Pinned Calltree Name Max Length**\n\n![](images/2023-03-06-23-46-04.png)\n\n\n## Python API\n\nAs of `3.0`, the caller/callee relationships are backed by a real graph\n(`networkx.DiGraph`) that is decoupled from the UI, so you can query the call\ngraph programmatically from the Binary Ninja Python console. Nodes are function\nstart addresses and every edge points from a **caller** to a **callee**.\n\nThe graph is expanded lazily around a function and cached per `BinaryView`, so it\nstays cheap even on large binaries.\n\n```python\nfrom calltree import get_call_graph\n\n# `bv` is the current BinaryView. `cg` is cached per BinaryView.\ncg = get_call_graph(bv)\n\nmain = bv.get_functions_by_name(\"main\")[0]\n\n# Grow the graph around a function (direction: \"callees\", \"callers\" or \"both\").\ncg.expand(main, direction=\"both\", max_depth=6)\n\n# --- Queries ---\ncg.callees(main)          # functions main calls\ncg.callers(\"malloc\")      # functions that call malloc (accepts Function/addr/name)\n\n# --- Search (substring by default; regex + mangled-name options available) ---\ncg.search(\"alloc\")\ncg.search(r\"^str.*cpy$\", regex=True)\n\n# --- Path finding ---\ncg.reaches(\"main\", \"system\")          # bool: can main reach system?\ncg.shortest_path(\"main\", \"system\")    # [Function, ...]\nfor path in cg.all_paths(\"main\", \"system\", cutoff=8):\n    print([f.name for f in path])\n\n# --- Traversal ---\nfor func in cg.bfs(main, direction=\"callees\", max_depth=3):\n    print(func.name)\n\n# --- Export ---\ncg.to_networkx()   # the underlying networkx.DiGraph\ncg.to_dict()       # serializable {\"nodes\": [...], \"edges\": [...]}\ncg.to_edge_list()  # [(caller_addr, callee_addr), ...]\n```\n\nThis plugin depends on [`networkx`](https://networkx.org/). Installing via the\nBinary Ninja plugin manager installs it automatically from `requirements.txt`; for\nmanual installs, use the `Install python3 module` command palette action or\n`pip install networkx` against Binary Ninja's interpreter.\n\n### Manual / development checkouts\n\nIf you cloned this repo straight into your Binary Ninja `plugins/` folder (instead\nof installing through the plugin manager), `requirements.txt` is **not** installed\nautomatically, so you must add `networkx` to Binary Ninja's Python yourself:\n\n* **Easiest:** command palette (`CTRL/CMD-P`) \u2192 `Install python3 module` \u2192 enter\n  `networkx`.\n* **From a shell**, install into Binary Ninja's user `pythonXY` folder, e.g. on\n  macOS with the bundled Python 3.10:\n\n  ```bash\n  pip3 install --target \\\n    \"$HOME/Library/Application Support/Binary Ninja/python310\" networkx\n  ```\n\n  (Linux uses `~/.binaryninja/pythonXY`; Windows uses\n  `%APPDATA%\\Binary Ninja\\pythonXY`.)\n\n**Restart Binary Ninja** afterwards \u2014 the plugin imports `networkx` at load time,\nso a running instance won't pick it up until relaunched. Without it, the call\ntrees render empty and an error is logged.\n\n## Architecture\n\nFor a detailed design overview \u2014 modules, the call-graph data model, the threading\nmodel, lazy rendering, search, dirty-tracking, and key control flows \u2014 see\n[`doc/architecture.md`](doc/architecture.md).\n\n## Contributors\n\nThanks everyone that have contributed to calltree!\n\n* galenbwill\n* droogie\n* bambu\n* crimsonskylark\n* SilentVoid13\n\n\n### Changelog\n3.0 -- Graph-backed call data + Python API (networkx), optimization, better search, big-binary support, call-graph export, recursion markers, colored/clickable graph nodes.",
     "minimumbinaryninjaversion": 2966,
     "name": "Calltree",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/70cb18e2-9f85-4ca9-b3b0-2d9a43587c3a/versions/e4ae7c9d-2e30-4ac9-8d5b-526a79945ea9/platforms/1675/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/70cb18e2-9f85-4ca9-b3b0-2d9a43587c3a/versions/e4ae7c9d-2e30-4ac9-8d5b-526a79945ea9/platforms/1675/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/70cb18e2-9f85-4ca9-b3b0-2d9a43587c3a/versions/11029012-c9f7-4a91-af80-8f21aa9bcbfb/platforms/3619/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/70cb18e2-9f85-4ca9-b3b0-2d9a43587c3a/versions/11029012-c9f7-4a91-af80-8f21aa9bcbfb/platforms/3619/download?notrack=1",
     "path": "elbiazo_calltree",
     "platforms": [
       "Darwin",
@@ -3037,7 +3037,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 46,
-      "updated_at": "2024-09-04 17:37:58+00:00"
+      "updated_at": "2026-07-04 10:01:28+00:00"
     },
     "projectUrl": "https://github.com/elbiazo/calltree",
     "subdir": "",
@@ -3046,7 +3046,7 @@
       "helper",
       "ui"
     ],
-    "version": "2.1",
+    "version": "3.0",
     "view_only": false
   },
   {
@@ -3076,7 +3076,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2356,
+      "stargazers_count": 2358,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3687,7 +3687,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 656,
+      "stargazers_count": 663,
       "updated_at": "2026-05-20 14:19:13+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -6436,7 +6436,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 647,
+      "stargazers_count": 649,
       "updated_at": "2026-06-15 13:51:10+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6590,7 +6590,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 77,
+      "stargazers_count": 78,
       "updated_at": "2026-05-20 08:57:53+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
