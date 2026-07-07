@@ -187,6 +187,7 @@
 | [keypatch](https://github.com/lwerdna/keypatch_binja)|lwerdna|Remake of keypatch plugin for Binary Ninja|2024-01-25|ui, helper|python3|Unlicense |
 | [logrn](https://github.com/sum-catnip/logrn)|catnip|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT |
 | [msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|Josh Watson|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT |
+| [mtkview](https://github.com/osecurio/mtkview)|osecurio|Loads GFH preloader binaries and MTK Little Kernel partitions|2026-07-01|binaryview|rust|MIT License |
 | [pd-ninja](https://github.com/lockbox/pd-ninja)|lockbox|Playdate Console RE utilities|2023-03-01|helper|python3|MIT |
 | [permap](https://github.com/redballoonsecurity/permap)|jepson2k, dannyp303|Supports loading .per files into Binary Ninja.|2024-12-18|helper|python3|Apache-2.0 |
 | [peutils](https://github.com/404d/peutils)|404'd|Binary Ninja plugin providing various niche utilities for working with PE binaries|2020-12-12|helper|python3|MIT |
