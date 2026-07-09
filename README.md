@@ -98,7 +98,7 @@
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
 | [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2025-08-08|helper|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
-| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-05-20|ui, helper|python3|Apache-2.0 |
+| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-07-08|ui, helper|python3|Apache-2.0 |
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2026-01-29|binaryview, core, ui|python3|MIT |
 | [Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|Galen Williamson|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT |
 | [NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|Accenture (Martin Petran)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-01-22|architecture|C++|Apache-2.0 |
@@ -148,7 +148,7 @@
 | [TypeLib Exporter](https://github.com/SmoothHacker/TypeLib-Exporter)|SmoothHacker|This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.|2025-12-31|binaryview, helper, ui|python3|MIT |
 | [VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|verylazyguy|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|python2, python3|MIT |
 | [VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|dword64 and layle|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2026-04-02|architecture, binaryview|python2, python3|BSD-3-Clause |
-| [VirusTotal Code Insights](https://github.com/txhaflaire/virustotal_code_insights)|thijs.xhaflaire|Analyze a function or highlighted code using VirusTotal Code Insights (Google Threat Intelligence).|2025-12-09|architecture, binaryview, core, helper, ui|python3, |MIT |
+| [VirusTotal Code Insights](https://github.com/txhaflaire/virustotal_code_insights)|thijs.xhaflaire|Analyze a function or highlighted code using VirusTotal Code Insights (Google Threat Intelligence).|2025-12-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [VulnFanatic-NG](https://github.com/Martyx00/VulnFanatic-NG)|Martyx00|LLM-assisted vulnerability research over Binary Ninja decompiler output.|2026-06-19|ui, helper|python3|Apache 2.0 |
 | [WASM Plugin](https://github.com/ivision-research/binjawa)|Meador Inge|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|python3|MIT |
 | [Windows Driver Analyzer](https://github.com/shareef12/driveranalyzer)|shareef12|Find IRP dispatch routines and valid IOCTLs in a Windows kernel driver|2019-08-08|helper|python2, python3|MIT |
