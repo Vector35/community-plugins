@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 500,
+      "stargazers_count": 498,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -683,7 +683,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 64,
+      "stargazers_count": 65,
       "updated_at": "2026-05-25 22:31:56+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1108,
+      "stargazers_count": 1109,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1918,7 +1918,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 729,
+      "stargazers_count": 728,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2032,7 +2032,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 805,
+      "stargazers_count": 803,
       "updated_at": "2025-11-11 22:17:48+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -2379,7 +2379,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 107,
+      "stargazers_count": 106,
       "updated_at": "2025-02-15 00:29:08+00:00"
     },
     "projectUrl": "https://github.com/seeinglogic/ariadne",
@@ -2881,7 +2881,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 85,
+      "stargazers_count": 84,
       "updated_at": "2022-02-19 06:57:49+00:00"
     },
     "projectUrl": "https://github.com/EliseZeroTwo/SEH-Helper",
@@ -3268,7 +3268,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2558,
+      "stargazers_count": 2561,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3687,7 +3687,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 663,
+      "stargazers_count": 665,
       "updated_at": "2026-05-20 14:19:13+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -4542,7 +4542,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 142,
+      "stargazers_count": 141,
       "updated_at": "2024-02-15 00:51:37+00:00"
     },
     "projectUrl": "https://github.com/zznop/bnida",
@@ -4891,7 +4891,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 63,
+      "stargazers_count": 62,
       "updated_at": "2020-06-01 17:51:34+00:00"
     },
     "projectUrl": "https://github.com/chame1eon/binaryninja-frida",
@@ -5120,7 +5120,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 136,
+      "stargazers_count": 135,
       "updated_at": "2023-02-15 18:50:02+00:00"
     },
     "projectUrl": "https://github.com/ForAllSecure/bncov",
@@ -6358,7 +6358,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 123,
+      "stargazers_count": 121,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6436,7 +6436,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 649,
+      "stargazers_count": 648,
       "updated_at": "2026-06-15 13:51:10+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6568,20 +6568,20 @@
       "python3"
     ],
     "author": "Damian Pfammatter and Sergio Paganoni",
-    "dependencies": "lark==1.3.1\nnetworkx==3.6.1\nopenai==2.20.0\npydantic==2.12.5\ntermcolor==3.3.0",
+    "dependencies": "lark==1.3.1\nnetworkx==3.6.1\nopenai==2.43.0\npydantic==2.12.5\ntermcolor==3.3.0",
     "description": "Uncover interesting paths using static backward slicing",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1779267473,
+    "lastUpdated": 1783500146,
     "license": {
       "name": "Apache-2.0",
       "text": "Copyright (c) 2025 Damian Pfammatter and Sergio Paganoni\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
     },
-    "longdescription": "<p align=\"center\">\n  <img src=\"https://i.postimg.cc/mrcXH34C/image-1.png\" alt=\"Mole Logo\"/>\n</p>\n\n**_Mole_** is a *Binary Ninja* plugin designed to identify **interesting execution paths** in binaries. It performs **backward slicing** on variables using *Binary Ninja*'s *Medium Level Intermediate Language* (*MLIL*) in *Static Single Assignment* (*SSA*) form, forming the basis for a **static taint analysis**.\n\nIn *Mole*, a **path** refers to the flow of data between a defined source and sink. What constitutes an \"interesting\" path depends on the analysis goals. For instance, when searching for **vulnerabilities**, one might look for paths where untrusted inputs (sources) influence sensitive operations (sinks) in potentially dangerous ways.\n\nThe following list highlights some of *Mole*'s current **features**:\n- **Operation Mode**: *Mole* can be run either within *Binary Ninja*'s UI or in headless mode. Headless mode is particularly useful for scripted analysis across a large number of binaries. Conversely, using *Mole* within the UI is ideal for closely investigating detected paths.\n- **Path Identification**:\n  - **Configuration**: *Mole* allows users to define source and sink functions through Binary Ninja\u2019s UI or configuration files (see Usage). This provides flexibility in selecting sources and sinks based on the specific usage scenario.\n  - **Exploration**: To better understand a path and examine its characteristics, all instructions along the path can be printed or visually highlighted within *Binary Ninja*. Additionally, a side-by-side comparison of two paths can be displayed to quickly identify differences. Similar to instructions, a path's sequence of function calls can be printed or visualized as a graph.\n  - **Grouping**: To facilitate the identification of similar paths, *Mole* supports multiple grouping strategies. Currently, paths can be grouped based on matching source and sink functions, or by identical call sequences. New custom grouping strategies can easily be added to extend and customize this functionality (see Customization).\n  - **Persistence**: Discovered paths can be annotated for clarity or removed if deemed irrelevant. To preserve analysis progress, paths can be saved directly to the target binary's database (*Binary Ninja*'s `.bndb` format). Paths can also be exported, for example, when performing headless analysis across many binaries on a file system, allowing identified paths to be later imported for easier exploration within *Binary Ninja*.\n- **Path Analysis With AI**: *Mole* can interact with local or remote *Large Language Models* (*LLMs*) via the *OpenAI API* (see Usage). The models are used to analyze identified paths and reason whether a given path corresponds to an exploitable vulnerability or not. The *LLM* attempts to classify the vulnerability and assign a severity level, which can help prioritize which paths are worth further investigation by an analyst. *Mole* provides a basic set of tools that the *LLM* can use to request additional information about the binary under analysis.\n\n- **Inter-Procedural Variable Slicing**: *Mole* supports slicing *MLIL variables* across function boundaries - a task that presents several challenges. For instance, statically determining a function's effective caller(s) is often difficult or even impossible. As a result, the implemented approach is an approximation. While not perfect, it performs reasonably well across a wide range of practical scenarios.\n- **Basic Pointer Analysis**: *Mole* currently implements a simplified strategy for tracking pointer usage. Like inter-procedural slicing, this approach is a simplification with inherent limitations (e.g. it cannot track global variables). Nevertheless, it performs well in many practical cases and is planned to be improved in future versions.\n\n### Changelog\nNew release for tag refs/tags/v0.7.0\r\n## What's Changed\r\n- Refactored **taint model** configuration\r\n  - Migrated configuration **format** from `.yml` to `.json`\r\n  - Redesigned the model **structure** from source/sink-centric to function-centric\r\n  - Added support for explicit function **roles** (e.g. source, sink, fixer)\r\n- Added a UI **context menu** for editing and removing functions from the taint model\r\n- Improved path **serialization** and deserialization\r\n- Added several quality-of-life **improvements** and **bug fixes**, including\r\n  - Improved manual installation workflow\r\n  - Fixed issues with session-based logging\r\n\r\n\r\n**Full Changelog**: https://github.com/cyber-defence-campus/mole/compare/v0.6.1...v0.7.0",
+    "longdescription": "<p align=\"center\">\r\n  <img src=\"https://i.postimg.cc/mrcXH34C/image-1.png\" alt=\"Mole Logo\"/>\r\n</p>\r\n\r\n**_Mole_** is a *Binary Ninja* plugin designed to identify **interesting execution paths** in binaries. It performs **backward slicing** on variables using *Binary Ninja*'s *Medium Level Intermediate Language* (*MLIL*) in *Static Single Assignment* (*SSA*) form, forming the basis for a **static taint analysis**.\r\n\r\nIn *Mole*, a **path** refers to the flow of data between a defined source and sink. What constitutes an \"interesting\" path depends on the analysis goals. For instance, when searching for **vulnerabilities**, one might look for paths where untrusted inputs (sources) influence sensitive operations (sinks) in potentially dangerous ways.\r\n\r\nThe following list highlights some of *Mole*'s current **features**:\r\n- **Operation Mode**: *Mole* can be run either within *Binary Ninja*'s UI or in headless mode. Headless mode is particularly useful for scripted analysis across a large number of binaries. Conversely, using *Mole* within the UI is ideal for closely investigating detected paths.\r\n- **Path Identification**:\r\n  - **Configuration**: *Mole* allows users to define source and sink functions through Binary Ninja\u2019s UI or configuration files (see Usage). This provides flexibility in selecting sources and sinks based on the specific usage scenario.\r\n  - **Exploration**: To better understand a path and examine its characteristics, all instructions along the path can be printed or visually highlighted within *Binary Ninja*. Additionally, a side-by-side comparison of two paths can be displayed to quickly identify differences. Similar to instructions, a path's sequence of function calls can be printed or visualized as a graph.\r\n  - **Grouping**: To facilitate the identification of similar paths, *Mole* supports multiple grouping strategies. Currently, paths can be grouped based on matching source and sink functions, or by identical call sequences. New custom grouping strategies can easily be added to extend and customize this functionality (see Customization).\r\n  - **Persistence**: Discovered paths can be annotated for clarity or removed if deemed irrelevant. To preserve analysis progress, paths can be saved directly to the target binary's database (*Binary Ninja*'s `.bndb` format). Paths can also be exported, for example, when performing headless analysis across many binaries on a file system, allowing identified paths to be later imported for easier exploration within *Binary Ninja*.\r\n- **Path Analysis With AI**: *Mole* can interact with local or remote *Large Language Models* (*LLMs*) via the *OpenAI API* (see Usage). The models are used to analyze identified paths and reason whether a given path corresponds to an exploitable vulnerability or not. The *LLM* attempts to classify the vulnerability and assign a severity level, which can help prioritize which paths are worth further investigation by an analyst. *Mole* provides a basic set of tools that the *LLM* can use to request additional information about the binary under analysis.\r\n\r\n- **Inter-Procedural Variable Slicing**: *Mole* supports slicing *MLIL variables* across function boundaries - a task that presents several challenges. For instance, statically determining a function's effective caller(s) is often difficult or even impossible. As a result, the implemented approach is an approximation. While not perfect, it performs reasonably well across a wide range of practical scenarios.\r\n- **Basic Pointer Analysis**: *Mole* currently implements a simplified strategy for tracking pointer usage. Like inter-procedural slicing, this approach is a simplification with inherent limitations (e.g. it cannot track global variables). Nevertheless, it performs well in many practical cases and is planned to be improved in future versions.\n\n### Changelog\nNew release for tag refs/tags/v0.7.1\r\n## What's Changed\r\n- Improvements to use functions without an explicit call site (e.g. exported functions in shared libraries, indirect calls via function pointers) as sources.\r\n- Improved libc default taint model\r\n- Dependencies updated\r\n\r\n\r\n**Full Changelog**: https://github.com/cyber-defence-campus/mole/compare/v0.7.0...v0.7.1",
     "minimumbinaryninjaversion": 7290,
     "name": "Mole",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/33af7349-5002-4229-aa0f-028d6ab60cb5/platforms/3499/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/33af7349-5002-4229-aa0f-028d6ab60cb5/platforms/3499/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/e089381e-5fa3-4d65-9c6e-9cf995b7be10/platforms/3631/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/e089381e-5fa3-4d65-9c6e-9cf995b7be10/platforms/3631/download?notrack=1",
     "path": "cyberdefencecampus_mole",
     "platforms": [
       "Darwin",
@@ -6590,8 +6590,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 78,
-      "updated_at": "2026-05-20 08:57:53+00:00"
+      "stargazers_count": 77,
+      "updated_at": "2026-07-08 08:42:26+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
     "subdir": "",
@@ -6599,7 +6599,7 @@
       "ui",
       "helper"
     ],
-    "version": "0.7.0",
+    "version": "0.7.1",
     "view_only": false
   },
   {
@@ -6629,7 +6629,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 12,
       "updated_at": "2026-07-01 01:42:31+00:00"
     },
     "projectUrl": "https://github.com/osecurio/mtkview",
@@ -7050,7 +7050,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 59,
+      "stargazers_count": 58,
       "updated_at": "2026-03-06 14:58:12+00:00"
     },
     "projectUrl": "https://github.com/seekbytes/ptxNinja",
@@ -7137,6 +7137,48 @@
       "analysis"
     ],
     "version": "1.0.1",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
+    "author": "thijs.xhaflaire",
+    "dependencies": "",
+    "description": "Analyze a function or highlighted code using VirusTotal Code Insights (Google Threat Intelligence).",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1765273348,
+    "license": {
+      "name": "MIT",
+      "text": "MIT License\r\n\r\nCopyright (c) 2025 Thijs Xhaflaire\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
+    },
+    "longdescription": "This plugin allows you to select the current function or highlighted code in Binary Ninja and send it to VirusTotal Code Insights (part of Google Threat Intelligence) for semantic analysis. The plugin integrates with the Binary Ninja Settings panel for storing your VirusTotal API key and provides UI popups with clipboard support and console logging for the analysis results.\n\n### Changelog\nInitial release of VirusTotal Code Insights plugin for Binary Ninja v1.0.0",
+    "minimumbinaryninjaversion": 8722,
+    "name": "VirusTotal Code Insights",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/50b66af9-ff02-48a9-a09c-15df9de8b386/versions/84ed478b-cc4c-4d69-9665-c917779841f4/platforms/2935/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/50b66af9-ff02-48a9-a09c-15df9de8b386/versions/84ed478b-cc4c-4d69-9665-c917779841f4/platforms/2935/download?notrack=1",
+    "path": "txhaflaire_virustotal_code_insights",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 1,
+      "updated_at": "2025-12-09 09:42:28+00:00"
+    },
+    "projectUrl": "https://github.com/txhaflaire/virustotal_code_insights",
+    "subdir": "",
+    "type": [
+      "architecture",
+      "binaryview",
+      "core",
+      "helper",
+      "ui"
+    ],
+    "version": "1.0.0",
     "view_only": false
   },
   {
@@ -7669,7 +7711,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 18,
+      "stargazers_count": 17,
       "updated_at": "2025-11-18 21:35:40+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/ioc_ninja",
@@ -7681,49 +7723,6 @@
       "ui"
     ],
     "version": "0.1.3",
-    "view_only": false
-  },
-  {
-    "api": [
-      "python3",
-      ""
-    ],
-    "author": "thijs.xhaflaire",
-    "dependencies": "",
-    "description": "Analyze a function or highlighted code using VirusTotal Code Insights (Google Threat Intelligence).",
-    "installinstructions": {},
-    "is_paid": false,
-    "lastUpdated": 1765273348,
-    "license": {
-      "name": "MIT",
-      "text": "MIT License\r\n\r\nCopyright (c) 2025 Thijs Xhaflaire\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
-    },
-    "longdescription": "This plugin allows you to select the current function or highlighted code in Binary Ninja and send it to VirusTotal Code Insights (part of Google Threat Intelligence) for semantic analysis. The plugin integrates with the Binary Ninja Settings panel for storing your VirusTotal API key and provides UI popups with clipboard support and console logging for the analysis results.\n\n### Changelog\nInitial release of VirusTotal Code Insights plugin for Binary Ninja v1.0.0",
-    "minimumbinaryninjaversion": 8722,
-    "name": "VirusTotal Code Insights",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/50b66af9-ff02-48a9-a09c-15df9de8b386/versions/84ed478b-cc4c-4d69-9665-c917779841f4/platforms/2935/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/50b66af9-ff02-48a9-a09c-15df9de8b386/versions/84ed478b-cc4c-4d69-9665-c917779841f4/platforms/2935/download?notrack=1",
-    "path": "txhaflaire_virustotal_code_insights",
-    "platforms": [
-      "Darwin",
-      "Linux",
-      "Windows"
-    ],
-    "pluginmetadataversion": 2,
-    "projectData": {
-      "stargazers_count": 1,
-      "updated_at": "2025-12-09 09:42:28+00:00"
-    },
-    "projectUrl": "https://github.com/txhaflaire/virustotal_code_insights",
-    "subdir": "",
-    "type": [
-      "architecture",
-      "binaryview",
-      "core",
-      "helper",
-      "ui"
-    ],
-    "version": "1.0.0",
     "view_only": false
   },
   {
