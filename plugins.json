@@ -26,7 +26,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 5,
+      "stargazers_count": 4,
       "updated_at": "2026-04-15 17:33:12+00:00"
     },
     "projectUrl": "https://github.com/ElykDeer/tanto-devtools",
@@ -143,7 +143,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 246,
+      "stargazers_count": 245,
       "updated_at": "2025-07-01 15:21:37+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -182,7 +182,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 9,
+      "stargazers_count": 8,
       "updated_at": "2026-04-08 07:28:26+00:00"
     },
     "projectUrl": "https://github.com/xorhex/binjaextras",
@@ -373,7 +373,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 25,
+      "stargazers_count": 24,
       "updated_at": "2024-07-09 18:29:48+00:00"
     },
     "projectUrl": "https://github.com/leandrofroes/bn_ifl",
@@ -489,7 +489,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 8,
+      "stargazers_count": 7,
       "updated_at": "2024-10-07 05:02:53+00:00"
     },
     "projectUrl": "https://github.com/adrianherrera/binaryninja-gtirb",
@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 498,
+      "stargazers_count": 497,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -641,7 +641,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 9,
+      "stargazers_count": 8,
       "updated_at": "2024-09-19 08:03:39+00:00"
     },
     "projectUrl": "https://github.com/nettitude/binja-fix-stomped-imports",
@@ -761,7 +761,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 17,
+      "stargazers_count": 16,
       "updated_at": "2024-11-28 06:38:07+00:00"
     },
     "projectUrl": "https://github.com/0xricksanchez/Shellcoder",
@@ -799,7 +799,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 83,
+      "stargazers_count": 82,
       "updated_at": "2024-10-09 14:41:33+00:00"
     },
     "projectUrl": "https://github.com/ahaggard2013/binaryninja-ollama",
@@ -1033,7 +1033,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 72,
+      "stargazers_count": 70,
       "updated_at": "2025-02-25 20:50:47+00:00"
     },
     "projectUrl": "https://github.com/elbee-cyber/RopView",
@@ -1073,7 +1073,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 69,
+      "stargazers_count": 68,
       "updated_at": "2024-04-26 18:44:12+00:00"
     },
     "projectUrl": "https://github.com/ivision-research/banjo",
@@ -1188,7 +1188,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 12,
+      "stargazers_count": 11,
       "updated_at": "2024-02-28 20:55:07+00:00"
     },
     "projectUrl": "https://github.com/zznop/efi-inspector",
@@ -1264,7 +1264,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 85,
+      "stargazers_count": 84,
       "updated_at": "2026-01-03 02:38:35+00:00"
     },
     "projectUrl": "https://github.com/x64dbg/x64dbgbinja",
@@ -1419,7 +1419,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 20,
+      "stargazers_count": 19,
       "updated_at": "2024-04-10 14:43:17+00:00"
     },
     "projectUrl": "https://github.com/dzervas/frinja",
@@ -1766,7 +1766,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 40,
+      "stargazers_count": 36,
       "updated_at": "2026-03-19 19:30:24+00:00"
     },
     "projectUrl": "https://github.com/cxiao/rust_type_layout_helper_bn",
@@ -1840,7 +1840,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 34,
+      "stargazers_count": 33,
       "updated_at": "2024-03-03 20:53:48+00:00"
     },
     "projectUrl": "https://github.com/Njord0/BNPyc",
@@ -1918,7 +1918,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 728,
+      "stargazers_count": 730,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -1994,7 +1994,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 42,
+      "stargazers_count": 41,
       "updated_at": "2023-01-29 07:16:39+00:00"
     },
     "projectUrl": "https://github.com/dayzerosec/AMD-SP-Loader",
@@ -2003,44 +2003,6 @@
       "binaryview"
     ],
     "version": "1.0",
-    "view_only": false
-  },
-  {
-    "api": [
-      "python3"
-    ],
-    "author": "Zion Basque (@mahaloz)",
-    "dependencies": "",
-    "description": "Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB",
-    "installinstructions": {},
-    "is_paid": false,
-    "lastUpdated": 1762899468,
-    "license": {
-      "name": "BSD 2-clause",
-      "text": ""
-    },
-    "longdescription": "decomp2dbg will host the decompilation and symbols present in your Binary Ninja View over an XMLRPC server which can bee hooked from within your debugger. As you change you decompilation, so will the debuggers view.\n\n### Changelog\n## What's Changed\r\n* Allow decompiler servers to return the binary's path by @k4lizen in https://github.com/mahaloz/decomp2dbg/pull/119\r\n* Update server template to match actual types by @k4lizen in https://github.com/mahaloz/decomp2dbg/pull/120\r\n* fix gradle build by @mahaloz in https://github.com/mahaloz/decomp2dbg/pull/121\r\n\r\n## New Contributors\r\n* @k4lizen made their first contribution in https://github.com/mahaloz/decomp2dbg/pull/119\r\n\r\n**Full Changelog**: https://github.com/mahaloz/decomp2dbg/compare/v3.10.2...v3.11.0",
-    "minimumbinaryninjaversion": 1200,
-    "name": "decomp2dbg",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/812ccaff-b618-4d98-acdf-0bf00708c2c5/versions/ef188b5c-41f0-4171-8ace-7e6d9a192449/platforms/2809/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/812ccaff-b618-4d98-acdf-0bf00708c2c5/versions/ef188b5c-41f0-4171-8ace-7e6d9a192449/platforms/2809/download?notrack=1",
-    "path": "mahaloz_decomp2dbg",
-    "platforms": [
-      "Darwin",
-      "Linux",
-      "Windows"
-    ],
-    "pluginmetadataversion": 2,
-    "projectData": {
-      "stargazers_count": 803,
-      "updated_at": "2025-11-11 22:17:48+00:00"
-    },
-    "projectUrl": "https://github.com/mahaloz/decomp2dbg",
-    "subdir": "decompilers/d2d_binja",
-    "type": [
-      "core"
-    ],
-    "version": "3.11.0",
     "view_only": false
   },
   {
@@ -2070,7 +2032,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 21,
+      "stargazers_count": 20,
       "updated_at": "2024-10-02 06:49:44+00:00"
     },
     "projectUrl": "https://github.com/cxiao/hashdb_bn",
@@ -2265,7 +2227,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 77,
+      "stargazers_count": 76,
       "updated_at": "2024-04-17 01:32:21+00:00"
     },
     "projectUrl": "https://github.com/WhatTheFuzz/binaryninja-openai",
@@ -2341,7 +2303,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 860,
+      "stargazers_count": 858,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2379,7 +2341,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 106,
+      "stargazers_count": 105,
       "updated_at": "2025-02-15 00:29:08+00:00"
     },
     "projectUrl": "https://github.com/seeinglogic/ariadne",
@@ -2456,7 +2418,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 412,
+      "stargazers_count": 411,
       "updated_at": "2022-07-08 15:00:16+00:00"
     },
     "projectUrl": "https://github.com/pbiernat/ripr",
@@ -2534,7 +2496,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 549,
+      "stargazers_count": 548,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -2573,7 +2535,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 247,
+      "stargazers_count": 246,
       "updated_at": "2023-11-13 03:40:59+00:00"
     },
     "projectUrl": "https://github.com/hyuunnn/Hyara",
@@ -2649,7 +2611,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 44,
+      "stargazers_count": 43,
       "updated_at": "2023-06-06 11:00:33+00:00"
     },
     "projectUrl": "https://github.com/CySHell/ClassyPP",
@@ -2801,7 +2763,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 91,
+      "stargazers_count": 92,
       "updated_at": "2022-03-01 06:59:47+00:00"
     },
     "projectUrl": "https://github.com/0cyn/bn-dyldsharedcache",
@@ -2881,7 +2843,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 84,
+      "stargazers_count": 83,
       "updated_at": "2022-02-19 06:57:49+00:00"
     },
     "projectUrl": "https://github.com/EliseZeroTwo/SEH-Helper",
@@ -2936,20 +2898,20 @@
       "python3"
     ],
     "author": "fkie-cad",
-    "dependencies": "git+https://github.com/fkie-cad/dewolf-logic.git\ngit+https://github.com/fkie-cad/dewolf-idioms.git\nblack\nisort\nnetworkx != 2.8.4\npydot\npygments\npytest !=5.3.4\npytest-xdist\nz3-solver == 4.8.10",
+    "dependencies": "git+https://github.com/fkie-cad/dewolf-logic.git\ngit+https://github.com/fkie-cad/dewolf-idioms.git\nblack == 26.5.1\nisort == 8.0.1\nnetworkx != 2.8.4\npydot\npygments\npytest !=5.3.4\npytest-xdist\nz3-solver == 4.8.10",
     "description": "Research Decompiler to generate a C-like function representation",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1782878261,
+    "lastUpdated": 1783776775,
     "license": {
       "name": "LGPL-2.1",
       "text": "This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
     },
-    "longdescription": "# dewolf\n\ndewolf is a research decompiler we developed during a research cooperation from 2019 to 2021 between Germany (Fraunhofer FKIE) and Singapore (DSO National Laboratories).\n\nThe restructuring of dewolf is based on the former DREAM/DREAM++ approach [Yakdan et al. NDSS 2015, IEEE (SP) 2016].\n\nThe decompiler dewolf is implemented as a plugin for Binary Ninja and uses their Medium-Level intermediate language as the starting point.\nAlthough we consider dewolf to be pretty stable, it is still a research prototype and not extensively optimized for production use.\nConsequently, you will likely observe a few bugs or even decompilation failures when applying dewolf on real-world binaries.\n\n**If you encounter any bugs, please report them to us so that we can further improve dewolf. :)**\n\n## Usage\n\nAfter enabling the dewolf decompilation dock widget via **View > Other Docks > Show Dewolf**, the decompiled code for the currently active symbol will be displayed.\nIn the dewolf dock, it is possible to navigate through functions by double-clicking them.\n\n![Widget Menu](https://user-images.githubusercontent.com/12004321/145460440-be4b7dfd-bf7e-497f-a7af-1911bf3efc50.png)\n\nThe automatic decompilation of selected functions can be toggled with the *follow* button.\nDecompiled code is cached and can be generated again with the *decompile* button, e.g. after patching instructions in the binary view.\n\n![Widget](https://user-images.githubusercontent.com/12004321/145460476-f869e5cc-d585-4f53-8920-6ecfa4b346d5.png)\n\n## Configuration\ndewolf has multiple configuration options of which some are configurable via the GUI.\n\nYou can configure dewolf from the Binary Ninja GUI by navigating to **Edit > Preferences > Settings** or by pressing <kbd>Ctrl</kbd> + <kbd>,</kbd>.\nSearch for **dewolf** in the search bar and all dewolf related settings will be displayed.\n\n## Support\n\nIf you have any suggestions, or bug reports, please create an issue in the [Issue Tracker](https://github.com/fkie-cad/dewolf/issues).\n\nIn case you have any questions or other problems, feel free to send an email to:\n\n[dewolf@fkie.fraunhofer.de](mailto:dewolf@fkie.fraunhofer.de).\n\n### Changelog\nAutomatic release",
+    "longdescription": "# dewolf\n\ndewolf is a research decompiler we developed during a research cooperation from 2019 to 2021 between Germany (Fraunhofer FKIE) and Singapore (DSO National Laboratories).\n\nThe restructuring of dewolf is based on the former DREAM/DREAM++ approach [Yakdan et al. NDSS 2015, IEEE (SP) 2016].\n\nThe decompiler dewolf is implemented as a plugin for Binary Ninja and uses their Medium-Level intermediate language as the starting point.\nAlthough we consider dewolf to be pretty stable, it is still a research prototype and not extensively optimized for production use.\nConsequently, you will likely observe a few bugs or even decompilation failures when applying dewolf on real-world binaries.\n\n**If you encounter any bugs, please report them to us so that we can further improve dewolf. :)**\n\n## Usage\n\nAfter enabling the dewolf decompilation dock widget via **View > Other Docks > Show Dewolf**, the decompiled code for the currently active symbol will be displayed.\nIn the dewolf dock, it is possible to navigate through functions by double-clicking them.\n\n![Widget Menu](https://user-images.githubusercontent.com/12004321/145460440-be4b7dfd-bf7e-497f-a7af-1911bf3efc50.png)\n\nThe automatic decompilation of selected functions can be toggled with the *follow* button.\nDecompiled code is cached and can be generated again with the *decompile* button, e.g. after patching instructions in the binary view.\n\n![Widget](https://user-images.githubusercontent.com/12004321/145460476-f869e5cc-d585-4f53-8920-6ecfa4b346d5.png)\n\n## Configuration\ndewolf has multiple configuration options of which some are configurable via the GUI.\n\nYou can configure dewolf from the Binary Ninja GUI by navigating to **Edit > Preferences > Settings** or by pressing <kbd>Ctrl</kbd> + <kbd>,</kbd>.\nSearch for **dewolf** in the search bar and all dewolf related settings will be displayed.\n\n## Support\n\nIf you have any suggestions, or bug reports, please create an issue in the [Issue Tracker](https://github.com/fkie-cad/dewolf/issues).\n\nIn case you have any questions or other problems, feel free to send an email to:\n\n[dewolf@fkie.fraunhofer.de](mailto:dewolf@fkie.fraunhofer.de).\n\n### Changelog\nAutomatic release\n\n## Changes since v2026-07-01\n- Rework automatic release: skip empty releases, add changelog, app-tok\u2026 (#464) (a37e064)\n- Added dark/light svg for readme (#462) (1bb42ed)\n- Fix plugin test for Binary Ninja 5 API removal (#463) (ee41950)\n- Pin black/isort and reformat to fix the CI format check (#461) (78f60c4)\n",
     "minimumbinaryninjaversion": 4271,
     "name": "dewolf Decompiler",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/9f27c409-f318-4f0d-9a40-66f230cd0b38/platforms/3607/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/9f27c409-f318-4f0d-9a40-66f230cd0b38/platforms/3607/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/7471fb82-b972-4d5e-960f-b2428101bba7/platforms/3655/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/c51e7985-e69c-47dd-9c8e-c1125324462d/versions/7471fb82-b972-4d5e-960f-b2428101bba7/platforms/3655/download?notrack=1",
     "path": "fkiecad_dewolf",
     "platforms": [
       "Darwin",
@@ -2958,8 +2920,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 224,
-      "updated_at": "2026-07-01 03:57:41+00:00"
+      "stargazers_count": 223,
+      "updated_at": "2026-07-11 13:32:55+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
     "subdir": "",
@@ -2967,7 +2929,7 @@
       "ui",
       "helper"
     ],
-    "version": "2026-07-01",
+    "version": "2026.7.11",
     "view_only": false
   },
   {
@@ -3036,7 +2998,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 46,
+      "stargazers_count": 45,
       "updated_at": "2026-07-04 10:01:28+00:00"
     },
     "projectUrl": "https://github.com/elbiazo/calltree",
@@ -3076,7 +3038,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2358,
+      "stargazers_count": 2360,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3190,7 +3152,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 58,
+      "stargazers_count": 56,
       "updated_at": "2021-10-10 01:35:42+00:00"
     },
     "projectUrl": "https://github.com/ehennenfent/binja_explain_instruction",
@@ -3268,7 +3230,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2561,
+      "stargazers_count": 2560,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3344,7 +3306,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 11,
+      "stargazers_count": 12,
       "updated_at": "2021-07-22 00:44:01+00:00"
     },
     "projectUrl": "https://github.com/xpcmdshell/SysctlHunter",
@@ -3534,7 +3496,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 89,
+      "stargazers_count": 88,
       "updated_at": "2023-04-28 15:38:05+00:00"
     },
     "projectUrl": "https://github.com/zznop/bn-uefi-helper",
@@ -3725,7 +3687,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 24,
+      "stargazers_count": 23,
       "updated_at": "2022-04-20 17:23:20+00:00"
     },
     "projectUrl": "https://github.com/psifertex/callgraph",
@@ -3763,7 +3725,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 6,
+      "stargazers_count": 5,
       "updated_at": "2022-12-07 14:22:45+00:00"
     },
     "projectUrl": "https://github.com/fgsect/JMPscare-binja",
@@ -3881,7 +3843,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 81,
+      "stargazers_count": 80,
       "updated_at": "2022-07-26 21:31:16+00:00"
     },
     "projectUrl": "https://github.com/PistonMiner/binaryninja-bindiff-viewer",
@@ -3996,7 +3958,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 97,
+      "stargazers_count": 96,
       "updated_at": "2022-06-08 04:26:07+00:00"
     },
     "projectUrl": "https://github.com/Martyx00/ghinja",
@@ -4034,7 +3996,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 60,
+      "stargazers_count": 58,
       "updated_at": "2023-07-17 05:06:15+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/seprom-loader",
@@ -4072,7 +4034,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 20,
+      "stargazers_count": 19,
       "updated_at": "2020-11-04 16:19:39+00:00"
     },
     "projectUrl": "https://github.com/murx-/devi_binja",
@@ -4228,7 +4190,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 15,
+      "stargazers_count": 14,
       "updated_at": "2021-03-29 07:35:09+00:00"
     },
     "projectUrl": "https://github.com/jeffli678/bnhook",
@@ -4384,7 +4346,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 57,
+      "stargazers_count": 56,
       "updated_at": "2020-05-18 15:59:26+00:00"
     },
     "projectUrl": "https://github.com/hugsy/gef-binja",
@@ -4461,7 +4423,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 27,
+      "stargazers_count": 28,
       "updated_at": "2023-01-29 23:25:18+00:00"
     },
     "projectUrl": "https://github.com/apekros/binja_sigmaker",
@@ -4542,7 +4504,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 141,
+      "stargazers_count": 142,
       "updated_at": "2024-02-15 00:51:37+00:00"
     },
     "projectUrl": "https://github.com/zznop/bnida",
@@ -4813,7 +4775,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 90,
+      "stargazers_count": 89,
       "updated_at": "2023-07-19 15:06:16+00:00"
     },
     "projectUrl": "https://github.com/withzombies/bnil-graph",
@@ -4852,7 +4814,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 6,
+      "stargazers_count": 5,
       "updated_at": "2019-07-15 02:59:26+00:00"
     },
     "projectUrl": "https://github.com/mechanicalnull/sourcery_pane",
@@ -4968,7 +4930,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 20,
+      "stargazers_count": 19,
       "updated_at": "2019-08-08 01:10:26+00:00"
     },
     "projectUrl": "https://github.com/shareef12/driveranalyzer",
@@ -5390,7 +5352,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 24,
+      "stargazers_count": 23,
       "updated_at": "2020-06-08 13:56:15+00:00"
     },
     "projectUrl": "https://github.com/janbbeck/CleanTricks",
@@ -5510,7 +5472,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 22,
+      "stargazers_count": 21,
       "updated_at": "2020-06-07 06:28:15+00:00"
     },
     "projectUrl": "https://github.com/atxsinn3r/BinjaHLILDump",
@@ -5742,7 +5704,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 357,
+      "stargazers_count": 356,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -5819,7 +5781,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 72,
+      "stargazers_count": 71,
       "updated_at": "2023-09-22 09:33:06+00:00"
     },
     "projectUrl": "https://github.com/Rami114/cryptoscan",
@@ -5896,7 +5858,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 56,
+      "stargazers_count": 55,
       "updated_at": "2020-10-01 21:35:22+00:00"
     },
     "projectUrl": "https://github.com/BlackwingHQ/iBoot64Binja",
@@ -6011,7 +5973,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 48,
+      "stargazers_count": 47,
       "updated_at": "2025-04-14 18:58:05+00:00"
     },
     "projectUrl": "https://github.com/ald3ns/copy-as-yara",
@@ -6049,7 +6011,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 21,
+      "stargazers_count": 20,
       "updated_at": "2024-01-25 16:20:41+00:00"
     },
     "projectUrl": "https://github.com/lwerdna/keypatch_binja",
@@ -6358,7 +6320,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 121,
+      "stargazers_count": 120,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6436,7 +6398,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 648,
+      "stargazers_count": 651,
       "updated_at": "2026-06-15 13:51:10+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6568,20 +6530,20 @@
       "python3"
     ],
     "author": "Damian Pfammatter and Sergio Paganoni",
-    "dependencies": "lark==1.3.1\nnetworkx==3.6.1\nopenai==2.43.0\npydantic==2.12.5\ntermcolor==3.3.0",
+    "dependencies": "lark==1.3.1\nnetworkx>=3.4.2\nopenai==2.43.0\npydantic==2.12.5\ntermcolor==3.3.0",
     "description": "Uncover interesting paths using static backward slicing",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1783500146,
+    "lastUpdated": 1783674632,
     "license": {
       "name": "Apache-2.0",
       "text": "Copyright (c) 2025 Damian Pfammatter and Sergio Paganoni\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
     },
-    "longdescription": "<p align=\"center\">\r\n  <img src=\"https://i.postimg.cc/mrcXH34C/image-1.png\" alt=\"Mole Logo\"/>\r\n</p>\r\n\r\n**_Mole_** is a *Binary Ninja* plugin designed to identify **interesting execution paths** in binaries. It performs **backward slicing** on variables using *Binary Ninja*'s *Medium Level Intermediate Language* (*MLIL*) in *Static Single Assignment* (*SSA*) form, forming the basis for a **static taint analysis**.\r\n\r\nIn *Mole*, a **path** refers to the flow of data between a defined source and sink. What constitutes an \"interesting\" path depends on the analysis goals. For instance, when searching for **vulnerabilities**, one might look for paths where untrusted inputs (sources) influence sensitive operations (sinks) in potentially dangerous ways.\r\n\r\nThe following list highlights some of *Mole*'s current **features**:\r\n- **Operation Mode**: *Mole* can be run either within *Binary Ninja*'s UI or in headless mode. Headless mode is particularly useful for scripted analysis across a large number of binaries. Conversely, using *Mole* within the UI is ideal for closely investigating detected paths.\r\n- **Path Identification**:\r\n  - **Configuration**: *Mole* allows users to define source and sink functions through Binary Ninja\u2019s UI or configuration files (see Usage). This provides flexibility in selecting sources and sinks based on the specific usage scenario.\r\n  - **Exploration**: To better understand a path and examine its characteristics, all instructions along the path can be printed or visually highlighted within *Binary Ninja*. Additionally, a side-by-side comparison of two paths can be displayed to quickly identify differences. Similar to instructions, a path's sequence of function calls can be printed or visualized as a graph.\r\n  - **Grouping**: To facilitate the identification of similar paths, *Mole* supports multiple grouping strategies. Currently, paths can be grouped based on matching source and sink functions, or by identical call sequences. New custom grouping strategies can easily be added to extend and customize this functionality (see Customization).\r\n  - **Persistence**: Discovered paths can be annotated for clarity or removed if deemed irrelevant. To preserve analysis progress, paths can be saved directly to the target binary's database (*Binary Ninja*'s `.bndb` format). Paths can also be exported, for example, when performing headless analysis across many binaries on a file system, allowing identified paths to be later imported for easier exploration within *Binary Ninja*.\r\n- **Path Analysis With AI**: *Mole* can interact with local or remote *Large Language Models* (*LLMs*) via the *OpenAI API* (see Usage). The models are used to analyze identified paths and reason whether a given path corresponds to an exploitable vulnerability or not. The *LLM* attempts to classify the vulnerability and assign a severity level, which can help prioritize which paths are worth further investigation by an analyst. *Mole* provides a basic set of tools that the *LLM* can use to request additional information about the binary under analysis.\r\n\r\n- **Inter-Procedural Variable Slicing**: *Mole* supports slicing *MLIL variables* across function boundaries - a task that presents several challenges. For instance, statically determining a function's effective caller(s) is often difficult or even impossible. As a result, the implemented approach is an approximation. While not perfect, it performs reasonably well across a wide range of practical scenarios.\r\n- **Basic Pointer Analysis**: *Mole* currently implements a simplified strategy for tracking pointer usage. Like inter-procedural slicing, this approach is a simplification with inherent limitations (e.g. it cannot track global variables). Nevertheless, it performs well in many practical cases and is planned to be improved in future versions.\n\n### Changelog\nNew release for tag refs/tags/v0.7.1\r\n## What's Changed\r\n- Improvements to use functions without an explicit call site (e.g. exported functions in shared libraries, indirect calls via function pointers) as sources.\r\n- Improved libc default taint model\r\n- Dependencies updated\r\n\r\n\r\n**Full Changelog**: https://github.com/cyber-defence-campus/mole/compare/v0.7.0...v0.7.1",
+    "longdescription": "<p align=\"center\">\n  <img src=\"https://i.postimg.cc/mrcXH34C/image-1.png\" alt=\"Mole Logo\"/>\n</p>\n\n**_Mole_** is a *Binary Ninja* plugin designed to identify **interesting execution paths** in binaries. It performs **backward slicing** on variables using *Binary Ninja*'s *Medium Level Intermediate Language* (*MLIL*) in *Static Single Assignment* (*SSA*) form, forming the basis for a **static taint analysis**.\n\nIn *Mole*, a **path** refers to the flow of data between a defined source and sink. What constitutes an \"interesting\" path depends on the analysis goals. For instance, when searching for **vulnerabilities**, one might look for paths where untrusted inputs (sources) influence sensitive operations (sinks) in potentially dangerous ways.\n\nThe following list highlights some of *Mole*'s current **features**:\n- **Operation Mode**: *Mole* can be run either within *Binary Ninja*'s UI or in headless mode. Headless mode is particularly useful for scripted analysis across a large number of binaries. Conversely, using *Mole* within the UI is ideal for closely investigating detected paths.\n- **Path Identification**:\n  - **Configuration**: *Mole* allows users to define source and sink functions through Binary Ninja\u2019s UI or configuration files (see Usage). This provides flexibility in selecting sources and sinks based on the specific usage scenario.\n  - **Exploration**: To better understand a path and examine its characteristics, all instructions along the path can be printed or visually highlighted within *Binary Ninja*. Additionally, a side-by-side comparison of two paths can be displayed to quickly identify differences. Similar to instructions, a path's sequence of function calls can be printed or visualized as a graph.\n  - **Grouping**: To facilitate the identification of similar paths, *Mole* supports multiple grouping strategies. Currently, paths can be grouped based on matching source and sink functions, or by identical call sequences. New custom grouping strategies can easily be added to extend and customize this functionality (see Customization).\n  - **Persistence**: Discovered paths can be annotated for clarity or removed if deemed irrelevant. To preserve analysis progress, paths can be saved directly to the target binary's database (*Binary Ninja*'s `.bndb` format). Paths can also be exported, for example, when performing headless analysis across many binaries on a file system, allowing identified paths to be later imported for easier exploration within *Binary Ninja*.\n- **Path Analysis With AI**: *Mole* can interact with local or remote *Large Language Models* (*LLMs*) via the *OpenAI API* (see Usage). The models are used to analyze identified paths and reason whether a given path corresponds to an exploitable vulnerability or not. The *LLM* attempts to classify the vulnerability and assign a severity level, which can help prioritize which paths are worth further investigation by an analyst. *Mole* provides a basic set of tools that the *LLM* can use to request additional information about the binary under analysis.\n\n- **Inter-Procedural Variable Slicing**: *Mole* supports slicing *MLIL variables* across function boundaries - a task that presents several challenges. For instance, statically determining a function's effective caller(s) is often difficult or even impossible. As a result, the implemented approach is an approximation. While not perfect, it performs reasonably well across a wide range of practical scenarios.\n- **Basic Pointer Analysis**: *Mole* currently implements a simplified strategy for tracking pointer usage. Like inter-procedural slicing, this approach is a simplification with inherent limitations (e.g. it cannot track global variables). Nevertheless, it performs well in many practical cases and is planned to be improved in future versions.\n\n### Changelog\nNew release for tag refs/tags/v0.7.2\n## What's Changed\n* 267 slicer should follow alternative memory definitions during phi node resolution by @pdamian in https://github.com/cyber-defence-campus/mole/pull/268\n* Support Python 3.10 and audit Python dependencies using pre-commit hook by @pdamian in https://github.com/cyber-defence-campus/mole/pull/270\n* Updated requirements.txt by @pdamian in https://github.com/cyber-defence-campus/mole/pull/272\n\n\n**Full Changelog**: https://github.com/cyber-defence-campus/mole/compare/v0.7.1...v0.7.2",
     "minimumbinaryninjaversion": 7290,
     "name": "Mole",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/e089381e-5fa3-4d65-9c6e-9cf995b7be10/platforms/3631/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/e089381e-5fa3-4d65-9c6e-9cf995b7be10/platforms/3631/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/41607dad-7d34-4c72-8ed6-e349468322df/platforms/3649/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d02c5134-777a-483f-96c9-af1b7c770e71/versions/41607dad-7d34-4c72-8ed6-e349468322df/platforms/3649/download?notrack=1",
     "path": "cyberdefencecampus_mole",
     "platforms": [
       "Darwin",
@@ -6590,8 +6552,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 77,
-      "updated_at": "2026-07-08 08:42:26+00:00"
+      "stargazers_count": 76,
+      "updated_at": "2026-07-10 09:10:32+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
     "subdir": "",
@@ -6599,7 +6561,7 @@
       "ui",
       "helper"
     ],
-    "version": "0.7.1",
+    "version": "0.7.2",
     "view_only": false
   },
   {
@@ -6629,7 +6591,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 12,
+      "stargazers_count": 13,
       "updated_at": "2026-07-01 01:42:31+00:00"
     },
     "projectUrl": "https://github.com/osecurio/mtkview",
@@ -7050,7 +7012,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 58,
+      "stargazers_count": 57,
       "updated_at": "2026-03-06 14:58:12+00:00"
     },
     "projectUrl": "https://github.com/seekbytes/ptxNinja",
@@ -7246,7 +7208,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 39,
+      "stargazers_count": 41,
       "updated_at": "2026-06-14 15:01:26+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
@@ -7286,7 +7248,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 44,
+      "stargazers_count": 43,
       "updated_at": "2025-08-08 23:27:25+00:00"
     },
     "projectUrl": "https://github.com/bliutech/mbased",
@@ -7324,7 +7286,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "updated_at": "2026-03-27 01:37:59+00:00"
     },
     "projectUrl": "https://github.com/S1ckZer/Sig-Scanner---Binary-Ninja",
@@ -7400,7 +7362,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 5,
+      "stargazers_count": 4,
       "updated_at": "2026-01-29 09:51:59+00:00"
     },
     "projectUrl": "https://github.com/redthing1/binja_moonanalyzer",
@@ -7520,7 +7482,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 8,
+      "stargazers_count": 7,
       "updated_at": "2025-05-21 16:38:21+00:00"
     },
     "projectUrl": "https://github.com/eybisi/bn-riscy-business",
@@ -7673,7 +7635,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 249,
+      "stargazers_count": 248,
       "updated_at": "2026-05-20 12:00:42+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
@@ -7801,6 +7763,44 @@
       "helper"
     ],
     "version": "1.2.6",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
+    "author": "Zion Basque (@mahaloz)",
+    "dependencies": "",
+    "description": "Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1762899468,
+    "license": {
+      "name": "BSD 2-clause",
+      "text": "BSD 2-Clause License\r\n\r\nCopyright (c) 2022, Zion Leonahenahe Basque\r\nAll rights reserved.\r\n\r\nRedistribution and use in source and binary forms, with or without\r\nmodification, are permitted provided that the following conditions are met:\r\n\r\n1. Redistributions of source code must retain the above copyright notice, this\r\n   list of conditions and the following disclaimer.\r\n\r\n2. Redistributions in binary form must reproduce the above copyright notice,\r\n   this list of conditions and the following disclaimer in the documentation\r\n   and/or other materials provided with the distribution.\r\n\r\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\r\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\r\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\r\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\r\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\r\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\r\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\r\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\r\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\r\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    },
+    "longdescription": "decomp2dbg will host the decompilation and symbols present in your Binary Ninja View over an XMLRPC server which can bee hooked from within your debugger. As you change you decompilation, so will the debuggers view.\n\n### Changelog\n## What's Changed\r\n* Allow decompiler servers to return the binary's path by @k4lizen in https://github.com/mahaloz/decomp2dbg/pull/119\r\n* Update server template to match actual types by @k4lizen in https://github.com/mahaloz/decomp2dbg/pull/120\r\n* fix gradle build by @mahaloz in https://github.com/mahaloz/decomp2dbg/pull/121\r\n\r\n## New Contributors\r\n* @k4lizen made their first contribution in https://github.com/mahaloz/decomp2dbg/pull/119\r\n\r\n**Full Changelog**: https://github.com/mahaloz/decomp2dbg/compare/v3.10.2...v3.11.0",
+    "minimumbinaryninjaversion": 1200,
+    "name": "decomp2dbg",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/812ccaff-b618-4d98-acdf-0bf00708c2c5/versions/ef188b5c-41f0-4171-8ace-7e6d9a192449/platforms/2809/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/812ccaff-b618-4d98-acdf-0bf00708c2c5/versions/ef188b5c-41f0-4171-8ace-7e6d9a192449/platforms/2809/download?notrack=1",
+    "path": "mahaloz_decomp2dbg",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 802,
+      "updated_at": "2025-11-11 22:17:48+00:00"
+    },
+    "projectUrl": "https://github.com/mahaloz/decomp2dbg",
+    "subdir": "decomp2dbg/server/stubs",
+    "type": [
+      "core"
+    ],
+    "version": "3.11.0",
     "view_only": false
   }
 ]
