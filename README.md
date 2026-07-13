@@ -98,7 +98,7 @@
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
 | [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2025-08-08|helper|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
-| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-07-08|ui, helper|python3|Apache-2.0 |
+| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-07-10|ui, helper|python3|Apache-2.0 |
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2026-01-29|binaryview, core, ui|python3|MIT |
 | [Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|Galen Williamson|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT |
 | [NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|Accenture (Martin Petran)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-01-22|architecture|C++|Apache-2.0 |
@@ -174,7 +174,7 @@
 | [ctypes Export](https://github.com/jordan9001/ctypes_export)|Jordan Whitehead|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT |
 | [decomp2dbg](https://github.com/mahaloz/decomp2dbg)|Zion Basque (@mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2025-11-11|core|python3|BSD 2-clause |
 | [devi](https://github.com/murx-/devi_binja)|@_murks|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|ui, helper|python3|MIT |
-| [dewolf Decompiler](https://github.com/fkie-cad/dewolf)|fkie-cad|Research Decompiler to generate a C-like function representation|2026-07-01|ui, helper|python3|LGPL-2.1 |
+| [dewolf Decompiler](https://github.com/fkie-cad/dewolf)|fkie-cad|Research Decompiler to generate a C-like function representation|2026-07-11|ui, helper|python3|LGPL-2.1 |
 | [droog](https://github.com/amtal/droog)|amtal|PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's "Processor Manual..." right-click menu.|2024-06-24|helper|python3|AGPL-3.0 |
 | [ethersplay Ethereum Architecture Plugin](https://github.com/crytic/ethersplay)|Trail of Bits|A disassembler and lifter for the Ethereum architecture.|2022-11-03|architecture|python3|AGPL-3.0-only |
 | [genesis](https://github.com/zznop/bn-genesis)|zznop|SEGA Megadrive/Genesis ROM Hacking Toolkit|2024-11-04|ui, helper|python3|MIT |
