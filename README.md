@@ -158,6 +158,7 @@
 | [Xtensa Architecture Support and ESP8266 Loader](https://github.com/nicabi/binja-xtensa2)|Nicolae Binica|Xtensa Architecture Support and ESP8266 Image Loader|2025-08-30|architecture, binaryview|python3|MIT |
 | [YARA Scan](https://github.com/trib0r3/binja-yara)|trib0r3|YARA signatures|2020-05-26|binaryview, core|python3|MIT |
 | [ar (.a) archive container transform](https://github.com/ArcaneNibble/binja-ar)|ArcaneNibble|Plugin for ar (.a) archives of object files|2025-12-21|binaryview|python3|BSD-0-clause |
+| [binja delink](https://github.com/alecnunn/binja_delink)|Alec Nunn|Plugin that splits up PEs and ELFs into individual object files per-function|2026-07-16|helper|python3|Unlicense |
 | [binja-doc-lookup](https://github.com/riskydissonance/binja-doc-lookup)|riskydissonance|Lookup documentation for the selected token|2024-06-20|ui, helper|python3|MIT |
 | [binja-ps3](https://github.com/valters-tomsons/bninja-ps3)|faith|Playstation 3 ELF loader|2026-02-01|binaryview|python3|MIT |
 | [binja-win-docs](https://github.com/matteyeux/binja-win-docs)|matteyeux|Binary Ninja plugin to display the documentation of a Windows function in a sidebar widget.|2024-04-11|ui, helper|python3|Apache-2.0 |
