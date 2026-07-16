@@ -2920,7 +2920,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 223,
+      "stargazers_count": 224,
       "updated_at": "2026-07-11 13:32:55+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -3230,7 +3230,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2562,
+      "stargazers_count": 2563,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -6088,7 +6088,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 45,
+      "stargazers_count": 46,
       "updated_at": "2025-05-11 07:32:17+00:00"
     },
     "projectUrl": "https://github.com/MCPPhalanx/binaryninja-mcp",
@@ -6398,7 +6398,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 661,
+      "stargazers_count": 662,
       "updated_at": "2026-06-15 13:51:10+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6591,7 +6591,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 13,
+      "stargazers_count": 14,
       "updated_at": "2026-07-15 19:08:17+00:00"
     },
     "projectUrl": "https://github.com/osecurio/mtkview",
@@ -7801,6 +7801,44 @@
       "core"
     ],
     "version": "4.0.2",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
+    "author": "Alec Nunn",
+    "dependencies": "",
+    "description": "Plugin that splits up PEs and ELFs into individual object files per-function",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1784177490,
+    "license": {
+      "name": "Unlicense",
+      "text": "This is free and unencumbered software released into the public domain.\r\n\r\nAnyone is free to copy, modify, publish, use, compile, sell, or\r\ndistribute this software, either in source code form or as a compiled\r\nbinary, for any purpose, commercial or non-commercial, and by any\r\nmeans.\r\n\r\nIn jurisdictions that recognize copyright laws, the author or authors\r\nof this software dedicate any and all copyright interest in the\r\nsoftware to the public domain. We make this dedication for the benefit\r\nof the public at large and to the detriment of our heirs and\r\nsuccessors. We intend this dedication to be an overt act of\r\nrelinquishment in perpetuity of all present and future rights to this\r\nsoftware under copyright law.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\r\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\r\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\r\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\r\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\r\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\r\nOTHER DEALINGS IN THE SOFTWARE.\r\n\r\nFor more information, please refer to <https://unlicense.org/>"
+    },
+    "longdescription": "Create delinked object files directly from within Binary Ninja (based on HaydnTrigg/delink), primarily useful for decomp projects\n\n### Changelog\nInitial release, primarily supporting x86(_64) PEs and ELFs\r\n",
+    "minimumbinaryninjaversion": 3164,
+    "name": "binja delink",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/abae774e-71f6-4ea6-9f0b-8cabe1d4961b/versions/05c86874-3ed3-40f4-b4dc-c89b4cd11a61/platforms/3709/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/abae774e-71f6-4ea6-9f0b-8cabe1d4961b/versions/05c86874-3ed3-40f4-b4dc-c89b4cd11a61/platforms/3709/download?notrack=1",
+    "path": "binjadelink",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2026-07-16 04:51:30+00:00"
+    },
+    "projectUrl": "https://github.com/alecnunn/binja_delink",
+    "subdir": "",
+    "type": [
+      "helper"
+    ],
+    "version": "0.1.0",
     "view_only": false
   }
 ]
