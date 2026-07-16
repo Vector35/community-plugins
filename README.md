@@ -172,7 +172,7 @@
 | [bnida](https://github.com/zznop/bnida)|zznop|Transfer analysis data between Binary Ninja and IDA|2024-02-15|sync|python3|MIT |
 | [cryptoscan](https://github.com/Rami114/cryptoscan)|Ben Pottier|A plugin to detect several common crypto constructs and magic vars.|2023-09-22|ui, binaryview|python2, python3|MIT |
 | [ctypes Export](https://github.com/jordan9001/ctypes_export)|Jordan Whitehead|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT |
-| [decomp2dbg](https://github.com/mahaloz/decomp2dbg)|Zion Basque (@mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2025-11-11|core|python3|BSD 2-clause |
+| [decomp2dbg](https://github.com/mahaloz/decomp2dbg)|Zion Basque (@mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2026-07-14|core|python3|BSD 2-clause |
 | [devi](https://github.com/murx-/devi_binja)|@_murks|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|ui, helper|python3|MIT |
 | [dewolf Decompiler](https://github.com/fkie-cad/dewolf)|fkie-cad|Research Decompiler to generate a C-like function representation|2026-07-11|ui, helper|python3|LGPL-2.1 |
 | [droog](https://github.com/amtal/droog)|amtal|PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's "Processor Manual..." right-click menu.|2024-06-24|helper|python3|AGPL-3.0 |
@@ -187,7 +187,7 @@
 | [keypatch](https://github.com/lwerdna/keypatch_binja)|lwerdna|Remake of keypatch plugin for Binary Ninja|2024-01-25|ui, helper|python3|Unlicense |
 | [logrn](https://github.com/sum-catnip/logrn)|catnip|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT |
 | [msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|Josh Watson|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT |
-| [mtkview](https://github.com/osecurio/mtkview)|osecurio|Loads GFH preloader binaries and MTK Little Kernel partitions|2026-07-01|binaryview|rust|MIT License |
+| [mtkview](https://github.com/osecurio/mtkview)|osecurio|Loads GFH preloader binaries and MTK Little Kernel partitions|2026-07-15|binaryview|rust|MIT License |
 | [pd-ninja](https://github.com/lockbox/pd-ninja)|lockbox|Playdate Console RE utilities|2023-03-01|helper|python3|MIT |
 | [permap](https://github.com/redballoonsecurity/permap)|jepson2k, dannyp303|Supports loading .per files into Binary Ninja.|2024-12-18|helper|python3|Apache-2.0 |
 | [peutils](https://github.com/404d/peutils)|404'd|Binary Ninja plugin providing various niche utilities for working with PE binaries|2020-12-12|helper|python3|MIT |
