@@ -26,7 +26,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "updated_at": "2026-04-15 17:33:12+00:00"
     },
     "projectUrl": "https://github.com/ElykDeer/tanto-devtools",
@@ -143,7 +143,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 245,
+      "stargazers_count": 246,
       "updated_at": "2025-07-01 15:21:37+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -182,7 +182,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 8,
+      "stargazers_count": 9,
       "updated_at": "2026-04-08 07:28:26+00:00"
     },
     "projectUrl": "https://github.com/xorhex/binjaextras",
@@ -373,7 +373,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 24,
+      "stargazers_count": 26,
       "updated_at": "2024-07-09 18:29:48+00:00"
     },
     "projectUrl": "https://github.com/leandrofroes/bn_ifl",
@@ -489,7 +489,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 7,
+      "stargazers_count": 8,
       "updated_at": "2024-10-07 05:02:53+00:00"
     },
     "projectUrl": "https://github.com/adrianherrera/binaryninja-gtirb",
@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 498,
+      "stargazers_count": 501,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -603,7 +603,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 19,
+      "stargazers_count": 20,
       "updated_at": "2024-09-19 11:36:02+00:00"
     },
     "projectUrl": "https://github.com/computerman00/BinaryNinja-PSVitaLoader",
@@ -641,7 +641,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 8,
+      "stargazers_count": 9,
       "updated_at": "2024-09-19 08:03:39+00:00"
     },
     "projectUrl": "https://github.com/nettitude/binja-fix-stomped-imports",
@@ -761,7 +761,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 16,
+      "stargazers_count": 17,
       "updated_at": "2024-11-28 06:38:07+00:00"
     },
     "projectUrl": "https://github.com/0xricksanchez/Shellcoder",
@@ -799,7 +799,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 82,
+      "stargazers_count": 83,
       "updated_at": "2024-10-09 14:41:33+00:00"
     },
     "projectUrl": "https://github.com/ahaggard2013/binaryninja-ollama",
@@ -841,7 +841,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 81,
+      "stargazers_count": 82,
       "updated_at": "2025-03-01 05:53:02+00:00"
     },
     "projectUrl": "https://github.com/unknowntrojan/binja_coolsigmaker",
@@ -1033,7 +1033,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 70,
+      "stargazers_count": 71,
       "updated_at": "2025-02-25 20:50:47+00:00"
     },
     "projectUrl": "https://github.com/elbee-cyber/RopView",
@@ -1073,7 +1073,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 68,
+      "stargazers_count": 69,
       "updated_at": "2024-04-26 18:44:12+00:00"
     },
     "projectUrl": "https://github.com/ivision-research/banjo",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1110,
+      "stargazers_count": 1117,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1188,7 +1188,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 11,
+      "stargazers_count": 12,
       "updated_at": "2024-02-28 20:55:07+00:00"
     },
     "projectUrl": "https://github.com/zznop/efi-inspector",
@@ -1264,7 +1264,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 84,
+      "stargazers_count": 85,
       "updated_at": "2026-01-03 02:38:35+00:00"
     },
     "projectUrl": "https://github.com/x64dbg/x64dbgbinja",
@@ -1358,6 +1358,45 @@
     "api": [
       "python3"
     ],
+    "author": "xusheng6",
+    "dependencies": "flare-capa>=9.4.0",
+    "description": "capa explorer is a Binary Ninja UI plugin that integrates the FLARE team's open-source capa framework with Binary Ninja",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1784743044,
+    "license": {
+      "name": "Apache 2.0",
+      "text": "Apache License\r\n                           Version 2.0, January 2004\r\n                        http://www.apache.org/licenses/\r\n\r\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\r\n\r\n   1. Definitions.\r\n\r\n      \"License\" shall mean the terms and conditions for use, reproduction,\r\n      and distribution as defined by Sections 1 through 9 of this document.\r\n\r\n      \"Licensor\" shall mean the copyright owner or entity authorized by\r\n      the copyright owner that is granting the License.\r\n\r\n      \"Legal Entity\" shall mean the union of the acting entity and all\r\n      other entities that control, are controlled by, or are under common\r\n      control with that entity. For the purposes of this definition,\r\n      \"control\" means (i) the power, direct or indirect, to cause the\r\n      direction or management of such entity, whether by contract or\r\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\r\n      outstanding shares, or (iii) beneficial ownership of such entity.\r\n\r\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\r\n      exercising permissions granted by this License.\r\n\r\n      \"Source\" form shall mean the preferred form for making modifications,\r\n      including but not limited to software source code, documentation\r\n      source, and configuration files.\r\n\r\n      \"Object\" form shall mean any form resulting from mechanical\r\n      transformation or translation of a Source form, including but\r\n      not limited to compiled object code, generated documentation,\r\n      and conversions to other media types.\r\n\r\n      \"Work\" shall mean the work of authorship, whether in Source or\r\n      Object form, made available under the License, as indicated by a\r\n      copyright notice that is included in or attached to the work\r\n      (an example is provided in the Appendix below).\r\n\r\n      \"Derivative Works\" shall mean any work, whether in Source or Object\r\n      form, that is based on (or derived from) the Work and for which the\r\n      editorial revisions, annotations, elaborations, or other modifications\r\n      represent, as a whole, an original work of authorship. For the purposes\r\n      of this License, Derivative Works shall not include works that remain\r\n      separable from, or merely link (or bind by name) to the interfaces of,\r\n      the Work and Derivative Works thereof.\r\n\r\n      \"Contribution\" shall mean any work of authorship, including\r\n      the original version of the Work and any modifications or additions\r\n      to that Work or Derivative Works thereof, that is intentionally\r\n      submitted to Licensor for inclusion in the Work by the copyright owner\r\n      or by an individual or Legal Entity authorized to submit on behalf of\r\n      the copyright owner. For the purposes of this definition, \"submitted\"\r\n      means any form of electronic, verbal, or written communication sent\r\n      to the Licensor or its representatives, including but not limited to\r\n      communication on electronic mailing lists, source code control systems,\r\n      and issue tracking systems that are managed by, or on behalf of, the\r\n      Licensor for the purpose of discussing and improving the Work, but\r\n      excluding communication that is conspicuously marked or otherwise\r\n      designated in writing by the copyright owner as \"Not a Contribution.\"\r\n\r\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\r\n      on behalf of whom a Contribution has been received by Licensor and\r\n      subsequently incorporated within the Work.\r\n\r\n   2. Grant of Copyright License. Subject to the terms and conditions of\r\n      this License, each Contributor hereby grants to You a perpetual,\r\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\r\n      copyright license to reproduce, prepare Derivative Works of,\r\n      publicly display, publicly perform, sublicense, and distribute the\r\n      Work and such Derivative Works in Source or Object form.\r\n\r\n   3. Grant of Patent License. Subject to the terms and conditions of\r\n      this License, each Contributor hereby grants to You a perpetual,\r\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\r\n      (except as stated in this section) patent license to make, have made,\r\n      use, offer to sell, sell, import, and otherwise transfer the Work,\r\n      where such license applies only to those patent claims licensable\r\n      by such Contributor that are necessarily infringed by their\r\n      Contribution(s) alone or by combination of their Contribution(s)\r\n      with the Work to which such Contribution(s) was submitted. If You\r\n      institute patent litigation against any entity (including a\r\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\r\n      or a Contribution incorporated within the Work constitutes direct\r\n      or contributory patent infringement, then any patent licenses\r\n      granted to You under this License for that Work shall terminate\r\n      as of the date such litigation is filed.\r\n\r\n   4. Redistribution. You may reproduce and distribute copies of the\r\n      Work or Derivative Works thereof in any medium, with or without\r\n      modifications, and in Source or Object form, provided that You\r\n      meet the following conditions:\r\n\r\n      (a) You must give any other recipients of the Work or\r\n          Derivative Works a copy of this License; and\r\n\r\n      (b) You must cause any modified files to carry prominent notices\r\n          stating that You changed the files; and\r\n\r\n      (c) You must retain, in the Source form of any Derivative Works\r\n          that You distribute, all copyright, patent, trademark, and\r\n          attribution notices from the Source form of the Work,\r\n          excluding those notices that do not pertain to any part of\r\n          the Derivative Works; and\r\n\r\n      (d) If the Work includes a \"NOTICE\" text file as part of its\r\n          distribution, then any Derivative Works that You distribute must\r\n          include a readable copy of the attribution notices contained\r\n          within such NOTICE file, excluding those notices that do not\r\n          pertain to any part of the Derivative Works, in at least one\r\n          of the following places: within a NOTICE text file distributed\r\n          as part of the Derivative Works; within the Source form or\r\n          documentation, if provided along with the Derivative Works; or,\r\n          within a display generated by the Derivative Works, if and\r\n          wherever such third-party notices normally appear. The contents\r\n          of the NOTICE file are for informational purposes only and\r\n          do not modify the License. You may add Your own attribution\r\n          notices within Derivative Works that You distribute, alongside\r\n          or as an addendum to the NOTICE text from the Work, provided\r\n          that such additional attribution notices cannot be construed\r\n          as modifying the License.\r\n\r\n      You may add Your own copyright statement to Your modifications and\r\n      may provide additional or different license terms and conditions\r\n      for use, reproduction, or distribution of Your modifications, or\r\n      for any such Derivative Works as a whole, provided Your use,\r\n      reproduction, and distribution of the Work otherwise complies with\r\n      the conditions stated in this License.\r\n\r\n   5. Submission of Contributions. Unless You explicitly state otherwise,\r\n      any Contribution intentionally submitted for inclusion in the Work\r\n      by You to the Licensor shall be under the terms and conditions of\r\n      this License, without any additional terms or conditions.\r\n      Notwithstanding the above, nothing herein shall supersede or modify\r\n      the terms of any separate license agreement you may have executed\r\n      with Licensor regarding such Contributions.\r\n\r\n   6. Trademarks. This License does not grant permission to use the trade\r\n      names, trademarks, service marks, or product names of the Licensor,\r\n      except as required for reasonable and customary use in describing the\r\n      origin of the Work and reproducing the content of the NOTICE file.\r\n\r\n   7. Disclaimer of Warranty. Unless required by applicable law or\r\n      agreed to in writing, Licensor provides the Work (and each\r\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\r\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\r\n      implied, including, without limitation, any warranties or conditions\r\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\r\n      PARTICULAR PURPOSE. You are solely responsible for determining the\r\n      appropriateness of using or redistributing the Work and assume any\r\n      risks associated with Your exercise of permissions under this License.\r\n\r\n   8. Limitation of Liability. In no event and under no legal theory,\r\n      whether in tort (including negligence), contract, or otherwise,\r\n      unless required by applicable law (such as deliberate and grossly\r\n      negligent acts) or agreed to in writing, shall any Contributor be\r\n      liable to You for damages, including any direct, indirect, special,\r\n      incidental, or consequential damages of any character arising as a\r\n      result of this License or out of the use or inability to use the\r\n      Work (including but not limited to damages for loss of goodwill,\r\n      work stoppage, computer failure or malfunction, or any and all\r\n      other commercial damages or losses), even if such Contributor\r\n      has been advised of the possibility of such damages.\r\n\r\n   9. Accepting Warranty or Additional Liability. While redistributing\r\n      the Work or Derivative Works thereof, You may choose to offer,\r\n      and charge a fee for, acceptance of support, warranty, indemnity,\r\n      or other liability obligations and/or rights consistent with this\r\n      License. However, in accepting such obligations, You may act only\r\n      on Your own behalf and on Your sole responsibility, not on behalf\r\n      of any other Contributor, and only if You agree to indemnify,\r\n      defend, and hold each Contributor harmless for any liability\r\n      incurred by, or claims asserted against, such Contributor by reason\r\n      of your accepting any such warranty or additional liability.\r\n\r\n   END OF TERMS AND CONDITIONS\r\n\r\n   APPENDIX: How to apply the Apache License to your work.\r\n\r\n      To apply the Apache License to your work, attach the following\r\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\r\n      replaced with your own identifying information. (Don't include\r\n      the brackets!)  The text should be enclosed in the appropriate\r\n      comment syntax for the file format. We also recommend that a\r\n      file or class name and description of purpose be included on the\r\n      same \"printed page\" as the copyright notice for easier\r\n      identification within third-party archives.\r\n\r\n   Copyright [yyyy] [name of copyright owner]\r\n\r\n   Licensed under the Apache License, Version 2.0 (the \"License\");\r\n   you may not use this file except in compliance with the License.\r\n   You may obtain a copy of the License at\r\n\r\n       http://www.apache.org/licenses/LICENSE-2.0\r\n\r\n   Unless required by applicable law or agreed to in writing, software\r\n   distributed under the License is distributed on an \"AS IS\" BASIS,\r\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n   See the License for the specific language governing permissions and\r\n   limitations under the License."
+    },
+    "longdescription": "capa explorer integrates the FLARE team's open-source [capa](https://github.com/mandiant/capa) framework with Binary Ninja. Run capa against the current BinaryView to identify program capabilities (e.g. installs services, communicates over HTTP, is a backdoor), then click matches to navigate the disassembly and highlight the features that triggered them. A Rule Generator tab helps build and test new capa rules from features extracted from the current function.\n\nThis is a UI plugin only. The analysis engine and the Binary Ninja feature extractor are provided by the `flare-capa` Python package, which is installed automatically from `requirements.txt`. You also need a local copy of the [capa rules](https://github.com/mandiant/capa-rules/releases) matching your installed capa version; the plugin will prompt for the directory on first run.\n\n### Changelog\nInitial release of capa explorer for Binary Ninja.\n\nIntegrates the FLARE team's open-source [capa](https://github.com/mandiant/capa) framework with Binary Ninja. Run capa against the current BinaryView to identify program capabilities, click matches to navigate the disassembly and highlight triggering features, and use the Rule Generator tab to build and test new capa rules.\n\nThe analysis engine and Binary Ninja feature extractor come from the pip-installed `flare-capa` package (see requirements.txt).",
+    "minimumbinaryninjaversion": 4000,
+    "name": "capa explorer",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/70e4322e-1798-45dd-b282-af8101692d21/versions/684d17f3-89a1-40af-be6a-b68d955366db/platforms/3727/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/70e4322e-1798-45dd-b282-af8101692d21/versions/684d17f3-89a1-40af-be6a-b68d955366db/platforms/3727/download?notrack=1",
+    "path": "capa_explorer",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2026-07-22 17:57:24+00:00"
+    },
+    "projectUrl": "https://github.com/xusheng6/capa-explorer-binja",
+    "subdir": "",
+    "type": [
+      "analysis",
+      "helper"
+    ],
+    "version": "1.0.0",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
     "author": "psifertex",
     "dependencies": "pypresence",
     "description": "Enables Discord Rich Presence Integration for Binary Ninja",
@@ -1419,7 +1458,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 19,
+      "stargazers_count": 20,
       "updated_at": "2024-04-10 14:43:17+00:00"
     },
     "projectUrl": "https://github.com/dzervas/frinja",
@@ -1496,7 +1535,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 7,
+      "stargazers_count": 8,
       "updated_at": "2024-02-20 22:33:50+00:00"
     },
     "projectUrl": "https://github.com/moval0x1/BinjaExportTox64dbg",
@@ -1766,7 +1805,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 36,
+      "stargazers_count": 37,
       "updated_at": "2026-03-19 19:30:24+00:00"
     },
     "projectUrl": "https://github.com/cxiao/rust_type_layout_helper_bn",
@@ -1840,7 +1879,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 33,
+      "stargazers_count": 34,
       "updated_at": "2024-03-03 20:53:48+00:00"
     },
     "projectUrl": "https://github.com/Njord0/BNPyc",
@@ -1918,7 +1957,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 730,
+      "stargazers_count": 732,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -1994,7 +2033,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 41,
+      "stargazers_count": 42,
       "updated_at": "2023-01-29 07:16:39+00:00"
     },
     "projectUrl": "https://github.com/dayzerosec/AMD-SP-Loader",
@@ -2032,7 +2071,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 20,
+      "stargazers_count": 21,
       "updated_at": "2024-10-02 06:49:44+00:00"
     },
     "projectUrl": "https://github.com/cxiao/hashdb_bn",
@@ -2189,7 +2228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 49,
+      "stargazers_count": 51,
       "updated_at": "2023-01-28 19:57:01+00:00"
     },
     "projectUrl": "https://github.com/AsherDLL/PCDump-bn",
@@ -2227,7 +2266,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 76,
+      "stargazers_count": 77,
       "updated_at": "2024-04-17 01:32:21+00:00"
     },
     "projectUrl": "https://github.com/WhatTheFuzz/binaryninja-openai",
@@ -2303,7 +2342,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 858,
+      "stargazers_count": 859,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -2341,7 +2380,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 106,
+      "stargazers_count": 107,
       "updated_at": "2025-02-15 00:29:08+00:00"
     },
     "projectUrl": "https://github.com/seeinglogic/ariadne",
@@ -2418,7 +2457,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 411,
+      "stargazers_count": 412,
       "updated_at": "2022-07-08 15:00:16+00:00"
     },
     "projectUrl": "https://github.com/pbiernat/ripr",
@@ -2496,7 +2535,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 548,
+      "stargazers_count": 549,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -2611,7 +2650,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 43,
+      "stargazers_count": 44,
       "updated_at": "2023-06-06 11:00:33+00:00"
     },
     "projectUrl": "https://github.com/CySHell/ClassyPP",
@@ -2843,7 +2882,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 84,
+      "stargazers_count": 85,
       "updated_at": "2022-02-19 06:57:49+00:00"
     },
     "projectUrl": "https://github.com/EliseZeroTwo/SEH-Helper",
@@ -2920,7 +2959,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 224,
+      "stargazers_count": 226,
       "updated_at": "2026-07-11 13:32:55+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -2998,7 +3037,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 45,
+      "stargazers_count": 46,
       "updated_at": "2026-07-04 10:01:28+00:00"
     },
     "projectUrl": "https://github.com/elbiazo/calltree",
@@ -3038,7 +3077,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2360,
+      "stargazers_count": 2363,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3152,7 +3191,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 56,
+      "stargazers_count": 57,
       "updated_at": "2021-10-10 01:35:42+00:00"
     },
     "projectUrl": "https://github.com/ehennenfent/binja_explain_instruction",
@@ -3230,7 +3269,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2563,
+      "stargazers_count": 2566,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3496,7 +3535,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 88,
+      "stargazers_count": 89,
       "updated_at": "2023-04-28 15:38:05+00:00"
     },
     "projectUrl": "https://github.com/zznop/bn-uefi-helper",
@@ -3611,7 +3650,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 37,
+      "stargazers_count": 34,
       "updated_at": "2022-03-27 06:40:19+00:00"
     },
     "projectUrl": "https://github.com/Ayrx/binja-JNIAnalyzer",
@@ -3649,7 +3688,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 664,
+      "stargazers_count": 667,
       "updated_at": "2026-05-20 14:19:13+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -3687,7 +3726,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 23,
+      "stargazers_count": 24,
       "updated_at": "2022-04-20 17:23:20+00:00"
     },
     "projectUrl": "https://github.com/psifertex/callgraph",
@@ -3725,7 +3764,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "updated_at": "2022-12-07 14:22:45+00:00"
     },
     "projectUrl": "https://github.com/fgsect/JMPscare-binja",
@@ -3843,7 +3882,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 80,
+      "stargazers_count": 81,
       "updated_at": "2022-07-26 21:31:16+00:00"
     },
     "projectUrl": "https://github.com/PistonMiner/binaryninja-bindiff-viewer",
@@ -3958,7 +3997,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 96,
+      "stargazers_count": 97,
       "updated_at": "2022-06-08 04:26:07+00:00"
     },
     "projectUrl": "https://github.com/Martyx00/ghinja",
@@ -3996,7 +4035,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 58,
+      "stargazers_count": 59,
       "updated_at": "2023-07-17 05:06:15+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/seprom-loader",
@@ -4034,7 +4073,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 19,
+      "stargazers_count": 20,
       "updated_at": "2020-11-04 16:19:39+00:00"
     },
     "projectUrl": "https://github.com/murx-/devi_binja",
@@ -4190,7 +4229,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 14,
+      "stargazers_count": 15,
       "updated_at": "2021-03-29 07:35:09+00:00"
     },
     "projectUrl": "https://github.com/jeffli678/bnhook",
@@ -4229,7 +4268,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 99,
+      "stargazers_count": 100,
       "updated_at": "2020-05-27 15:54:21+00:00"
     },
     "projectUrl": "https://github.com/thebabush/nampa",
@@ -4346,7 +4385,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 56,
+      "stargazers_count": 57,
       "updated_at": "2020-05-18 15:59:26+00:00"
     },
     "projectUrl": "https://github.com/hugsy/gef-binja",
@@ -4775,7 +4814,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 89,
+      "stargazers_count": 90,
       "updated_at": "2023-07-19 15:06:16+00:00"
     },
     "projectUrl": "https://github.com/withzombies/bnil-graph",
@@ -4814,7 +4853,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "updated_at": "2019-07-15 02:59:26+00:00"
     },
     "projectUrl": "https://github.com/mechanicalnull/sourcery_pane",
@@ -4930,7 +4969,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 19,
+      "stargazers_count": 20,
       "updated_at": "2019-08-08 01:10:26+00:00"
     },
     "projectUrl": "https://github.com/shareef12/driveranalyzer",
@@ -5082,7 +5121,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 135,
+      "stargazers_count": 136,
       "updated_at": "2023-02-15 18:50:02+00:00"
     },
     "projectUrl": "https://github.com/ForAllSecure/bncov",
@@ -5352,7 +5391,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 23,
+      "stargazers_count": 24,
       "updated_at": "2020-06-08 13:56:15+00:00"
     },
     "projectUrl": "https://github.com/janbbeck/CleanTricks",
@@ -5472,7 +5511,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 21,
+      "stargazers_count": 22,
       "updated_at": "2020-06-07 06:28:15+00:00"
     },
     "projectUrl": "https://github.com/atxsinn3r/BinjaHLILDump",
@@ -5704,7 +5743,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 356,
+      "stargazers_count": 357,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -5781,7 +5820,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 71,
+      "stargazers_count": 72,
       "updated_at": "2023-09-22 09:33:06+00:00"
     },
     "projectUrl": "https://github.com/Rami114/cryptoscan",
@@ -5858,7 +5897,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 55,
+      "stargazers_count": 56,
       "updated_at": "2020-10-01 21:35:22+00:00"
     },
     "projectUrl": "https://github.com/BlackwingHQ/iBoot64Binja",
@@ -5973,7 +6012,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 47,
+      "stargazers_count": 48,
       "updated_at": "2025-04-14 18:58:05+00:00"
     },
     "projectUrl": "https://github.com/ald3ns/copy-as-yara",
@@ -6011,7 +6050,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 20,
+      "stargazers_count": 21,
       "updated_at": "2024-01-25 16:20:41+00:00"
     },
     "projectUrl": "https://github.com/lwerdna/keypatch_binja",
@@ -6320,7 +6359,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 121,
+      "stargazers_count": 124,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6398,7 +6437,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 662,
+      "stargazers_count": 667,
       "updated_at": "2026-06-15 13:51:10+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6552,7 +6591,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 79,
+      "stargazers_count": 80,
       "updated_at": "2026-07-10 09:10:32+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
@@ -6591,7 +6630,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 14,
+      "stargazers_count": 15,
       "updated_at": "2026-07-15 19:08:17+00:00"
     },
     "projectUrl": "https://github.com/osecurio/mtkview",
@@ -7012,7 +7051,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 58,
+      "stargazers_count": 59,
       "updated_at": "2026-03-06 14:58:12+00:00"
     },
     "projectUrl": "https://github.com/seekbytes/ptxNinja",
@@ -7248,7 +7287,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 43,
+      "stargazers_count": 44,
       "updated_at": "2025-08-08 23:27:25+00:00"
     },
     "projectUrl": "https://github.com/bliutech/mbased",
@@ -7362,7 +7401,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "updated_at": "2026-01-29 09:51:59+00:00"
     },
     "projectUrl": "https://github.com/redthing1/binja_moonanalyzer",
@@ -7482,7 +7521,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 7,
+      "stargazers_count": 8,
       "updated_at": "2025-05-21 16:38:21+00:00"
     },
     "projectUrl": "https://github.com/eybisi/bn-riscy-business",
@@ -7596,7 +7635,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 13,
+      "stargazers_count": 14,
       "updated_at": "2026-06-19 08:58:40+00:00"
     },
     "projectUrl": "https://github.com/Martyx00/VulnFanatic-NG",
@@ -7635,7 +7674,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 249,
+      "stargazers_count": 252,
       "updated_at": "2026-05-20 12:00:42+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
@@ -7792,7 +7831,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 804,
+      "stargazers_count": 806,
       "updated_at": "2026-07-14 20:47:18+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -7822,7 +7861,7 @@
     "name": "binja delink",
     "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/abae774e-71f6-4ea6-9f0b-8cabe1d4961b/versions/05c86874-3ed3-40f4-b4dc-c89b4cd11a61/platforms/3709/download",
     "packageUrl": "https://extensions.binary.ninja/v1/extensions/abae774e-71f6-4ea6-9f0b-8cabe1d4961b/versions/05c86874-3ed3-40f4-b4dc-c89b4cd11a61/platforms/3709/download?notrack=1",
-    "path": "binjadelink",
+    "path": "binja_delink",
     "platforms": [
       "Darwin",
       "Linux",
@@ -7839,6 +7878,44 @@
       "helper"
     ],
     "version": "0.1.0",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
+    "author": "NicoleFaye",
+    "dependencies": "",
+    "description": "A Binary Ninja plugin that scans all executable segments of a loaded binary for \"code caves\" \u2014 contiguous runs of filler bytes (0x90 NOP, 0xCC INT3, or 0x00 NULL) large enough to be useful for static patching or shellcode injection.",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1784577599,
+    "license": {
+      "name": "MIT",
+      "text": "MIT License\r\n\r\nCopyright (c) 2026 Nicole\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
+    },
+    "longdescription": "# Find Code Caves\n\nA Binary Ninja plugin that scans all executable segments of a loaded binary for \"code caves\" \u2014 contiguous runs of filler bytes (`0x90` NOP, `0xCC` INT3, or `0x00` NULL) large enough to be useful for static patching or shellcode injection.\n\n## Features\n\n- Scans every executable segment in the binary\n- Detects runs of NOP, INT3, or NULL bytes\n- Configurable minimum cave size via Binary Ninja Settings (default: 20 bytes)\n- Sorts results by size, largest first\n- Prints a summary table (address, size, byte type, containing segment) to the Binary Ninja log\n- Reports total cave count and total available space\n\n## Usage\n\nRun **Tools > Find Code Caves** (or via the command palette) after loading a binary. Results are printed to the Binary Ninja log window.\n\n## Settings\n\nThis plugin registers a setting under **Edit > Preferences > Settings > Find Code Caves**:\n\n| Setting | Key | Type | Default | Description |\n|---|---|---|---|---|\n| Minimum Cave Size | `findcodecaves.minSize` | number | `20` | Minimum number of contiguous filler bytes required for a run to be reported as a code cave. |\n\nAdjust this value to filter out small, less useful caves, or lower it to surface smaller gaps for tighter patches.\n\n## Notes\n\nThis is a static analysis tool \u2014 it only reads segment data as loaded by Binary Ninja's analysis; it does not modify the binary.\n\n### Changelog\nInitial release",
+    "minimumbinaryninjaversion": 9757,
+    "name": "FindCodeCavesBN",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/8ef2750c-382e-4eb5-b035-6aaec516c989/versions/d4c119ab-f48e-4420-907b-2e0251b5ff9d/platforms/3733/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/8ef2750c-382e-4eb5-b035-6aaec516c989/versions/d4c119ab-f48e-4420-907b-2e0251b5ff9d/platforms/3733/download?notrack=1",
+    "path": "FindCodeCavesBN",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2026-07-20 19:59:59+00:00"
+    },
+    "projectUrl": "https://github.com/NicoleFaye/FindCodeCavesBN",
+    "subdir": "",
+    "type": [
+      "helper"
+    ],
+    "version": "1.0.0",
     "view_only": false
   }
 ]
