@@ -1,3 +1,8 @@
+# Binary Ninja Plugins
+
+> [!WARNING]
+> THIS REPOSITORY IS DEPRECATED. SEE <a href='https://extensions.binary.ninja'>https://extensions.binary.ninja</a> for the current list. This repo is maintained only for older versions of Binary Ninja (5.1 and older) as a best-effort attempt, support is not guaranteed.
+
 | Name|Author|Description|Last Updated|Type|API|License |
 | ----|------|-----------|------------|----|---|------- |
 | [0CD](https://github.com/0xb0bb/0CD)|b0bb|Quality of life utilities for obsessive compulsive CTF enthusiasts.|2022-02-17|helper|python3|MIT |
@@ -56,6 +61,7 @@
 | [ESP32 Loader](https://github.com/psifertex/bnesp32)|psifertex|Binary Ninja ESP32 View Loader|2026-02-21|binaryview|python3|MIT |
 | [Emotet API+string deobfuscator](https://github.com/mauronz/binja-emotet)|Francesco Muroni|Deobufscate API calls and strings in unpacked Emotet samples.|2020-09-21|helper|python3|MIT |
 | [Explain Instruction](https://github.com/ehennenfent/binja_explain_instruction)|Eric Hennenfent|Displays a window that explains in simple English what an assembly instruction does|2021-10-10|ui, helper|python3|Apache 2 |
+| [FindCodeCavesBN](https://github.com/NicoleFaye/FindCodeCavesBN)|NicoleFaye|A Binary Ninja plugin that scans all executable segments of a loaded binary for "code caves" — contiguous runs of filler bytes (0x90 NOP, 0xCC INT3, or 0x00 NULL) large enough to be useful for static patching or shellcode injection.|2026-07-20|helper|python3|MIT |
 | [Fix stomped imports](https://github.com/nettitude/binja-fix-stomped-imports)|LRQA Nettitude|Recover the imports from a stomped PE header by pasting in an IAT dump from dynamic analysis.|2024-09-19|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Format String Analysis](https://github.com/nshp/binaryninja-printf)|Nick Shipp|Script to automatically annotate variadic printf functions|2023-03-08|helper|python3|MIT |
 | [Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|jofra|Finds format string vulnerabilities|2019-07-15|helper|python3|MIT |
@@ -171,6 +177,7 @@
 | [bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|Brandon Miller (zznop)|Helper plugin for analyzing UEFI firmware|2023-04-28|helper|python3|MIT |
 | [bncov](https://github.com/ForAllSecure/bncov)|Mark Griffin|Scriptable code coverage analysis and visualization plugin|2023-02-15|helper|python3|MIT |
 | [bnida](https://github.com/zznop/bnida)|zznop|Transfer analysis data between Binary Ninja and IDA|2024-02-15|sync|python3|MIT |
+| [capa explorer](https://github.com/xusheng6/capa-explorer-binja)|xusheng6|capa explorer is a Binary Ninja UI plugin that integrates the FLARE team's open-source capa framework with Binary Ninja|2026-07-22|analysis, helper|python3|Apache 2.0 |
 | [cryptoscan](https://github.com/Rami114/cryptoscan)|Ben Pottier|A plugin to detect several common crypto constructs and magic vars.|2023-09-22|ui, binaryview|python2, python3|MIT |
 | [ctypes Export](https://github.com/jordan9001/ctypes_export)|Jordan Whitehead|Export types definitions as ctypes structures|2024-06-24|helper|python3|MIT |
 | [decomp2dbg](https://github.com/mahaloz/decomp2dbg)|Zion Basque (@mahaloz)|Adds support for Binary Ninja decompilation in your debugger, curently only supports GDB|2026-07-14|core|python3|BSD 2-clause |
