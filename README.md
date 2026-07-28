@@ -136,7 +136,7 @@
 | [SEPROM Loader](https://github.com/matteyeux/seprom-loader)|matteyeux|Binary View for loading 32 bits and 64 bits Apple SEPROM|2023-07-17|binaryview|python3|MIT |
 | [Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|jonpalmisc|Easily capture Binary Ninja screenshots in ultra-high resolution|2025-11-13|helper|python3|MIT |
 | [Shellcode-IDE](https://github.com/CX330Blake/Shellcode-IDE)|CX330Blake|Shellcode IDE makes developing and analyzing shellcode much more convenient.|2025-11-19|binaryview, helper, ui|python3|MIT |
-| [Shellcoder](https://github.com/0xricksanchez/Shellcoder)|434b|Interactive shellcode disassembler/assembler|2024-11-28|helper|python3|Apache 2.0 |
+| [Shellcoder](https://github.com/0xricksanchez/Shellcoder)|434b|Interactive shellcode disassembler/assembler|2026-07-28|helper|python3|Apache 2.0 |
 | [Sig Scanner - Binary Ninja](https://github.com/S1ckZer/Sig-Scanner---Binary-Ninja)|S1ckZer|Sidebar widget for IDA-style byte pattern signature scanning and generation.|2026-03-27|ui|python3|MIT |
 | [Simple YARA Generator](https://github.com/1337-42/SimpleYaraBN)|Remco Sprooten|Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/A...|2025-07-01|ui|python3|MIT |
 | [Sludge Content Sidebar](https://github.com/CouleeApps/sludge_content_sidebar)|Glenn Smith|Brainrot stimulator|2026-04-01|ui, helper|python3|MIT |
