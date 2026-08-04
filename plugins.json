@@ -105,7 +105,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 44,
+      "stargazers_count": 45,
       "updated_at": "2024-07-28 21:40:57+00:00"
     },
     "projectUrl": "https://github.com/ergrelet/themida-unmutate-bn",
@@ -274,44 +274,6 @@
     "api": [
       "python3"
     ],
-    "author": "faith",
-    "dependencies": "",
-    "description": "Playstation 3 ELF loader",
-    "installinstructions": {},
-    "is_paid": false,
-    "lastUpdated": 1769942426,
-    "license": {
-      "name": "MIT",
-      "text": "Copyright (c) 2024 Valters Tomsons\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-    },
-    "longdescription": "# binja-ps3 (vv0.0.8)\nAuthor: **faith**\n\n_Playstation 3 ELF loader_\n\n## Description:\n\n\n\n\n## Installation Instructions\n\n### Darwin\n\n\n\n### Windows\n\n\n\n### Linux\n\n\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4000\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n\n\n### Changelog\n* Added script to assert value of `r2` register in functions to their `TOC_BASE`\r\n* Count of TOCs is now printed during analysis\r\n* OPD section now has a name\r\n* Misc python voodoo",
-    "minimumbinaryninjaversion": 4000,
-    "name": "binja-ps3",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/379d767f-86e9-414c-b725-947b7a009cf2/versions/621a1c82-1080-45e7-ba85-c1192a44fe19/platforms/3139/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/379d767f-86e9-414c-b725-947b7a009cf2/versions/621a1c82-1080-45e7-ba85-c1192a44fe19/platforms/3139/download?notrack=1",
-    "path": "valterstomsons_bninjaps3",
-    "platforms": [
-      "Darwin",
-      "Linux",
-      "Windows"
-    ],
-    "pluginmetadataversion": 2,
-    "projectData": {
-      "stargazers_count": 11,
-      "updated_at": "2026-02-01 10:40:26+00:00"
-    },
-    "projectUrl": "https://github.com/valters-tomsons/bninja-ps3",
-    "subdir": "",
-    "type": [
-      "binaryview"
-    ],
-    "version": "v0.0.8",
-    "view_only": false
-  },
-  {
-    "api": [
-      "python3"
-    ],
     "author": "Daniel Roethlisberger",
     "dependencies": "",
     "description": "Annotation of Apple libclosure blocks.",
@@ -383,6 +345,44 @@
       "helper"
     ],
     "version": "1.3",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
+    "author": "faith",
+    "dependencies": "",
+    "description": "Playstation 3 ELF loader",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1769942426,
+    "license": {
+      "name": "MIT",
+      "text": "Copyright (c) 2024 Valters Tomsons\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    "longdescription": "# binja-ps3 (vv0.0.8)\nAuthor: **faith**\n\n_Playstation 3 ELF loader_\n\n## Description:\n\n\n\n\n## Installation Instructions\n\n### Darwin\n\n\n\n### Windows\n\n\n\n### Linux\n\n\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4000\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n\n\n### Changelog\n* Added script to assert value of `r2` register in functions to their `TOC_BASE`\r\n* Count of TOCs is now printed during analysis\r\n* OPD section now has a name\r\n* Misc python voodoo",
+    "minimumbinaryninjaversion": 4000,
+    "name": "binja-ps3",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/379d767f-86e9-414c-b725-947b7a009cf2/versions/621a1c82-1080-45e7-ba85-c1192a44fe19/platforms/3139/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/379d767f-86e9-414c-b725-947b7a009cf2/versions/621a1c82-1080-45e7-ba85-c1192a44fe19/platforms/3139/download?notrack=1",
+    "path": "valterstomsons_bninjaps3",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 11,
+      "updated_at": "2026-02-01 10:40:26+00:00"
+    },
+    "projectUrl": "https://github.com/valters-tomsons/bninja-ps3",
+    "subdir": "",
+    "type": [
+      "binaryview"
+    ],
+    "version": "v0.0.8",
     "view_only": false
   },
   {
@@ -555,8 +555,8 @@
     "longdescription": "Architecture extension for default PPC architecture to support VLE instructions. This includes dissassembly for vector and floating point instructions (some float operations are also lifted).",
     "minimumbinaryninjaversion": 6135,
     "name": "PowerPC VLE Extension",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/2a807c79-aea4-4eec-8f9f-218d995b49f4/versions/a5f9a77d-29e8-461d-8b73-ca434fd0c47b/platforms/1279/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/2a807c79-aea4-4eec-8f9f-218d995b49f4/versions/a5f9a77d-29e8-461d-8b73-ca434fd0c47b/platforms/1279/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/2a807c79-aea4-4eec-8f9f-218d995b49f4/versions/a5f9a77d-29e8-461d-8b73-ca434fd0c47b/platforms/1280/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/2a807c79-aea4-4eec-8f9f-218d995b49f4/versions/a5f9a77d-29e8-461d-8b73-ca434fd0c47b/platforms/1280/download?notrack=1",
     "path": "Martyx00_PowerPCVLEExtension",
     "platforms": [
       "Darwin",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1120,
+      "stargazers_count": 1119,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1381,7 +1381,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "updated_at": "2026-07-22 17:57:24+00:00"
     },
     "projectUrl": "https://github.com/xusheng6/capa-explorer-binja",
@@ -1687,7 +1687,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 17,
+      "stargazers_count": 16,
       "updated_at": "2025-06-01 23:04:07+00:00"
     },
     "projectUrl": "https://github.com/saagarjha/binja-swift-demangler",
@@ -1957,7 +1957,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 733,
+      "stargazers_count": 739,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2071,7 +2071,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 21,
+      "stargazers_count": 22,
       "updated_at": "2024-10-02 06:49:44+00:00"
     },
     "projectUrl": "https://github.com/cxiao/hashdb_bn",
@@ -2149,7 +2149,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 15,
+      "stargazers_count": 16,
       "updated_at": "2025-07-29 08:49:14+00:00"
     },
     "projectUrl": "https://github.com/dipusone/golang_pclntab_parser",
@@ -2228,7 +2228,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 51,
+      "stargazers_count": 52,
       "updated_at": "2023-01-28 19:57:01+00:00"
     },
     "projectUrl": "https://github.com/AsherDLL/PCDump-bn",
@@ -2444,7 +2444,7 @@
       "name": "MIT",
       "text": "MIT License Copyright (c) 2022 Patrick Biernat Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# ripr\nripr is a tool that helps you rip out functionality from binary code and use it from Python. It accomplishes this by pairing the [Unicorn-Engine](http://www.unicorn-engine.org/) with [Binary Ninja](https://binary.ninja). Currently, `x86`, `x64`, and `arm` are supported and work to a reasonable degree.\n\n# Introduction\nReimplementing functionality is a common, often time-consuming, and sometimes arduous process that comes up frequently during reverse engineering. A few examples:\n\n* A CTF challenge has a custom encoding/decoding scheme you need to use in your solution script\n* A piece of malware uses a custom hashing or encryption function you need to implement\n* You need to make sure your reimplementation behaves _exactly_ as it would on the original architecture\n\nripr attempts to automatically generate a python class that is functionally identical to a selected piece of code by statically gathering sufficient information and wrapping it all into a \"harness\" for the unicorn emulator. \n\nFor some concrete examples, check out the `sample` folder!\n\n# Installation\nThe manual installation process looks like this:\n\n1. Clone this repo to your local machine\n2. Find the location of your plugins directory from Binary Ninja by clicking on `Tools --> Open Plugin Folder...`\n3. Place this repo in that directory, or create a symlink pointing to it.\n\n\n# Usage\n\n## Packaging a Function\nFrom within Binary Ninja, right click anywhere inside of a function and then select: \n\n```Plugins --> ripr --> Package Function```\n<p align=\"center\">\n<img src=\"https://imgur.com/CjElWAM.png\">\n</p>\n\nSee the [Options while Packaging](#options-while-packaging) section for details about prompts that may appear during this process.\n\n## Packaging Specific Basic Blocks\nYou can also choose to only package specific basic blocks rather than the entire function.\n\nSelect any instruction inside the basic block of interest, and from the right click menu, choose `[ripr] Package Basic Block`.\nRepeat this for any other basic blocks you want to gather.\n\nFinally, select `Generate Selected BBs` from the context menu to have ripr generate output for them.\n\n## Contextual Highlighting\n\nripr will contextualize code you've selected for packaging within the GUI.\n\n* Basic Blocks that have been included or identified have their background color darkened\n* Instructions that have caused a data dependency to be identified are highlighted Yellow\n* Call instructions to imported functions are highlighted Red\n* Call instructions to functions inside the target binary are highlighted Blue\n* Instructions that access unintialized variables are highlighed Orange (Basic Block Mode).\n\nThis is meant to give the user visual cues about what ripr has seen and automatically identified, making it easier to see \"right off the bat\" whether manual modification of the package is necessary.\n\n## Options while Packaging\nThere are a few different prompts which may appear while packaging a function. \n\n#### Code contains calls to Imported Functions. How should this be handled?\n\nChoosing \"Hook\" will allow you to write-in your own functionality that runs in lieu of imported functions. Selecting \"Nop out Calls\" will replace the call instruction with a series of NOPs.\n\n#### Target code may depend on outside code. Attempt to map automatically?\n\nYour selected code contains calls to other functions within the binary. Answering yes will automatically map those functions.\n\n#### Use Section Marking Mode for data dependencies?\n\nAnswering yes will map all sections of the binary that are touched by the target code. Answering No will use Page-Marking mode, where every page used by the target code is mapped into emulator memory.\n\n## Using a ripr \"package\"\nOnce a selection of code has been packaged, you will have a python class which encapsulates its functionality. The basic process of using it looks like this:\n\n1. Instantiate the class\n2. Call the run() method\n\nAssuming `my_ripped_code` is the class name:\n\n```python\nx = my_ripped_code()\ny = x.run()\n```\n\nAll Unicorn functionality is exposed via the `mu` attribute and should work as expected. \n\n## Implementing \"Imported Calls\"\nIf you choose to hook calls to `imported functions` during the packaging stage, your generated class will contain stub-functions that are called when the imported call would originally have been called.\n\nFor example, if your code contained calls to `puts` and `malloc`, the following would be generated in your class:\n```python\ndef hook_puts(self):\n    pass\ndef hook_malloc(self):\n    pass\n```\nAny code you write within these functions will be called in lieu of the actual imported call. If you wanted a reasonable approximation of `puts` (and were emulating x64 code), you could do:\n\n```python\ndef hook_puts(self):\n    addr = self.mu.reg_read(UC_X86_REG_RDI)\n    mem = self.mu.mem_read(addr, 0x200)\n    print \"%s\" % (mem.split(\"\\x00\")[0])\n```\n\nYou have full access to all of Unicorn's methods via the `mu` attribute so it is possible to update the emulator context in any way necessary in order to mimic the behavior of a call or perform any actions you'd like instead of the call.\n\n## Function Arguments\nripr has some support for automatically generating \"argument aware\" output. When information about a function's parameters is available to Binary Ninja, ripr will generate its `run`\nfunctions in the form:\n\n```python\ndef run(self, arg_1, arg_2, ...)\n```\n\nWhen dealing with non-pointer types, your arguments will be written into the expected location in the emulated environment. \n\nFor \"single depth\" pointers, (e.g `char *, int *`), ripr will map memory, copy your argument to it, and place the address of that mapped memory into the appropriate location.\n\nFor pointers with a depth greater than 1, ripr falls back on default behaviour.\n\nIf you need to manually set up arguments, you can directly manipulate unicorn's state via the `mu` attribute.\nFor example, assuming you are emulating a 32-bit x86 function, you could do the following:\n\n```python\ndef run(self, arg1, arg2):\n    self.mu.reg_write(UC_X86_REG_ESP, 0x7fffff00)\n    self.mu.mem_write(0x7fffff00, '\\x01\\x00\\x00\\x00')\n\n    self.mu.mem_write(0x7fffff04, arg1)\n    self.mu.mem_write(0x7fffff08, arg2)\n    \n\n    self._start_unicorn(0x80484bb)\n    return self.mu.reg_read(UC_X86_REG_EAX)\n```\n\n# Code Structure\n\n* `packager.py` -- High Level Functionality. Code here drives the process of gathering necessary data\n* `codegen.py`  -- Contains code for actually generating the python output from the gathered data\n* `analysis_engine.py` -- Wraps static analysis engine functionality into a common interface\n* `dependency.py` -- Contains code for finding code and data that the target code needs in order to function corrrectly\n* `conScan.py` -- Contains \"convenience\" analyses that help ripr output easier-to-use code\n* `gui.py` --  A collection of hacks that resembles a user interface\n    * Reuses lots of code from the [Binjadock](https://github.com/NOPDev/BinjaDock) project to display results\n\n# Testing\nThe current tests will package up some functions across the 3 supported architectures found \nin the `sample` folder. \n\nTo run the tests:\n\n```\ncd <ripr_directory>\npython -m unittest discover -t ../\n```\n",
+    "longdescription": "# ripr\r\nripr is a tool that helps you rip out functionality from binary code and use it from Python. It accomplishes this by pairing the [Unicorn-Engine](http://www.unicorn-engine.org/) with [Binary Ninja](https://binary.ninja). Currently, `x86`, `x64`, and `arm` are supported and work to a reasonable degree.\r\n\r\n# Introduction\r\nReimplementing functionality is a common, often time-consuming, and sometimes arduous process that comes up frequently during reverse engineering. A few examples:\r\n\r\n* A CTF challenge has a custom encoding/decoding scheme you need to use in your solution script\r\n* A piece of malware uses a custom hashing or encryption function you need to implement\r\n* You need to make sure your reimplementation behaves _exactly_ as it would on the original architecture\r\n\r\nripr attempts to automatically generate a python class that is functionally identical to a selected piece of code by statically gathering sufficient information and wrapping it all into a \"harness\" for the unicorn emulator. \r\n\r\nFor some concrete examples, check out the `sample` folder!\r\n\r\n# Installation\r\nThe manual installation process looks like this:\r\n\r\n1. Clone this repo to your local machine\r\n2. Find the location of your plugins directory from Binary Ninja by clicking on `Tools --> Open Plugin Folder...`\r\n3. Place this repo in that directory, or create a symlink pointing to it.\r\n\r\n\r\n# Usage\r\n\r\n## Packaging a Function\r\nFrom within Binary Ninja, right click anywhere inside of a function and then select: \r\n\r\n```Plugins --> ripr --> Package Function```\r\n<p align=\"center\">\r\n<img src=\"https://imgur.com/CjElWAM.png\" />\r\n</p>\r\n\r\nSee the [Options while Packaging](#options-while-packaging) section for details about prompts that may appear during this process.\r\n\r\n## Packaging Specific Basic Blocks\r\nYou can also choose to only package specific basic blocks rather than the entire function.\r\n\r\nSelect any instruction inside the basic block of interest, and from the right click menu, choose `[ripr] Package Basic Block`.\r\nRepeat this for any other basic blocks you want to gather.\r\n\r\nFinally, select `Generate Selected BBs` from the context menu to have ripr generate output for them.\r\n\r\n## Contextual Highlighting\r\n\r\nripr will contextualize code you've selected for packaging within the GUI.\r\n\r\n* Basic Blocks that have been included or identified have their background color darkened\r\n* Instructions that have caused a data dependency to be identified are highlighted Yellow\r\n* Call instructions to imported functions are highlighted Red\r\n* Call instructions to functions inside the target binary are highlighted Blue\r\n* Instructions that access unintialized variables are highlighed Orange (Basic Block Mode).\r\n\r\nThis is meant to give the user visual cues about what ripr has seen and automatically identified, making it easier to see \"right off the bat\" whether manual modification of the package is necessary.\r\n\r\n## Options while Packaging\r\nThere are a few different prompts which may appear while packaging a function. \r\n\r\n#### Code contains calls to Imported Functions. How should this be handled?\r\n\r\nChoosing \"Hook\" will allow you to write-in your own functionality that runs in lieu of imported functions. Selecting \"Nop out Calls\" will replace the call instruction with a series of NOPs.\r\n\r\n#### Target code may depend on outside code. Attempt to map automatically?\r\n\r\nYour selected code contains calls to other functions within the binary. Answering yes will automatically map those functions.\r\n\r\n#### Use Section Marking Mode for data dependencies?\r\n\r\nAnswering yes will map all sections of the binary that are touched by the target code. Answering No will use Page-Marking mode, where every page used by the target code is mapped into emulator memory.\r\n\r\n## Using a ripr \"package\"\r\nOnce a selection of code has been packaged, you will have a python class which encapsulates its functionality. The basic process of using it looks like this:\r\n\r\n1. Instantiate the class\r\n2. Call the run() method\r\n\r\nAssuming `my_ripped_code` is the class name:\r\n\r\n```python\r\nx = my_ripped_code()\r\ny = x.run()\r\n```\r\n\r\nAll Unicorn functionality is exposed via the `mu` attribute and should work as expected. \r\n\r\n## Implementing \"Imported Calls\"\r\nIf you choose to hook calls to `imported functions` during the packaging stage, your generated class will contain stub-functions that are called when the imported call would originally have been called.\r\n\r\nFor example, if your code contained calls to `puts` and `malloc`, the following would be generated in your class:\r\n```python\r\ndef hook_puts(self):\r\n    pass\r\ndef hook_malloc(self):\r\n    pass\r\n```\r\nAny code you write within these functions will be called in lieu of the actual imported call. If you wanted a reasonable approximation of `puts` (and were emulating x64 code), you could do:\r\n\r\n```python\r\ndef hook_puts(self):\r\n    addr = self.mu.reg_read(UC_X86_REG_RDI)\r\n    mem = self.mu.mem_read(addr, 0x200)\r\n    print \"%s\" % (mem.split(\"\\x00\")[0])\r\n```\r\n\r\nYou have full access to all of Unicorn's methods via the `mu` attribute so it is possible to update the emulator context in any way necessary in order to mimic the behavior of a call or perform any actions you'd like instead of the call.\r\n\r\n## Function Arguments\r\nripr has some support for automatically generating \"argument aware\" output. When information about a function's parameters is available to Binary Ninja, ripr will generate its `run`\r\nfunctions in the form:\r\n\r\n```python\r\ndef run(self, arg_1, arg_2, ...)\r\n```\r\n\r\nWhen dealing with non-pointer types, your arguments will be written into the expected location in the emulated environment. \r\n\r\nFor \"single depth\" pointers, (e.g `char *, int *`), ripr will map memory, copy your argument to it, and place the address of that mapped memory into the appropriate location.\r\n\r\nFor pointers with a depth greater than 1, ripr falls back on default behaviour.\r\n\r\nIf you need to manually set up arguments, you can directly manipulate unicorn's state via the `mu` attribute.\r\nFor example, assuming you are emulating a 32-bit x86 function, you could do the following:\r\n\r\n```python\r\ndef run(self, arg1, arg2):\r\n    self.mu.reg_write(UC_X86_REG_ESP, 0x7fffff00)\r\n    self.mu.mem_write(0x7fffff00, '\\x01\\x00\\x00\\x00')\r\n\r\n    self.mu.mem_write(0x7fffff04, arg1)\r\n    self.mu.mem_write(0x7fffff08, arg2)\r\n    \r\n\r\n    self._start_unicorn(0x80484bb)\r\n    return self.mu.reg_read(UC_X86_REG_EAX)\r\n```\r\n\r\n# Code Structure\r\n\r\n* `packager.py` -- High Level Functionality. Code here drives the process of gathering necessary data\r\n* `codegen.py`  -- Contains code for actually generating the python output from the gathered data\r\n* `analysis_engine.py` -- Wraps static analysis engine functionality into a common interface\r\n* `dependency.py` -- Contains code for finding code and data that the target code needs in order to function corrrectly\r\n* `conScan.py` -- Contains \"convenience\" analyses that help ripr output easier-to-use code\r\n* `gui.py` --  A collection of hacks that resembles a user interface\r\n    * Reuses lots of code from the [Binjadock](https://github.com/NOPDev/BinjaDock) project to display results\r\n\r\n# Testing\r\nThe current tests will package up some functions across the 3 supported architectures found \r\nin the `sample` folder. \r\n\r\nTo run the tests:\r\n\r\n```\r\ncd <ripr_directory>\r\npython -m unittest discover -t ../\r\n```",
     "minimumbinaryninjaversion": 3469,
     "name": "ripr",
     "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/2eddc367-097a-474d-83bb-1ea7288d4e77/versions/7d617cd6-71c4-4ef1-b76a-3154f9c63d0d/platforms/1585/download",
@@ -2457,7 +2457,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 413,
+      "stargazers_count": 412,
       "updated_at": "2022-07-08 15:00:16+00:00"
     },
     "projectUrl": "https://github.com/pbiernat/ripr",
@@ -2465,7 +2465,7 @@
     "type": [
       "helper"
     ],
-    "version": "v1.1.1",
+    "version": "1.1.1",
     "view_only": false
   },
   {
@@ -2844,7 +2844,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 27,
+      "stargazers_count": 28,
       "updated_at": "2022-02-21 18:59:19+00:00"
     },
     "projectUrl": "https://github.com/ImNotAVirus/delphi_ninja",
@@ -2882,7 +2882,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 85,
+      "stargazers_count": 86,
       "updated_at": "2022-02-19 06:57:49+00:00"
     },
     "projectUrl": "https://github.com/EliseZeroTwo/SEH-Helper",
@@ -2959,7 +2959,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 227,
+      "stargazers_count": 230,
       "updated_at": "2026-07-11 13:32:55+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -3077,7 +3077,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2364,
+      "stargazers_count": 2369,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3269,7 +3269,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2566,
+      "stargazers_count": 2567,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3510,44 +3510,6 @@
   },
   {
     "api": [
-      "python3"
-    ],
-    "author": "Brandon Miller (zznop)",
-    "dependencies": "",
-    "description": "Helper plugin for analyzing UEFI firmware",
-    "installinstructions": {},
-    "is_paid": false,
-    "lastUpdated": 1682696285,
-    "license": {
-      "name": "MIT",
-      "text": "Copyright 2021 Brandon Miller (zznop)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-    },
-    "longdescription": "# bn-uefi-helper ![Python Lint](https://github.com/zznop/bn-uefi-helper/workflows/pylint/badge.svg)\n\n## Description\n\nHelper plugin for analyzing UEFI firmware. This plugin contains the following features:\n\n* Apply the correct prototype to the entry point function\n* Fix segments so all segments are RWX and have the correct semantics\n   * This allows for global function pointers to be rendered correctly\n* Apply types for core UEFI services (from EDK-II)\n* Locate known protocol GUIDs and assign the GUID type and a symbol\n* Locate global assigments in entry and initialization functions and assign types\n   * `EFI_SYSTEM_TABLE`, `EFI_RUNTIME_SERVICES`, `EFI_BOOT_SERVICES`, etc...\n* Loader for Terse Executables\n\n![demo bn-uefi-helper](screen.gif)\n\n## Minimum Version\n\nTested on 2.3.2660\n\n## License\n\nThis plugin is released under a MIT license.\n\n## Related Projects\n\n* [ghidra-firmware-utils](https://github.com/al3xtjames/ghidra-firmware-utils)\n* [efiXplorer](https://github.com/binarly-io/efiXplorer)\n",
-    "minimumbinaryninjaversion": 2660,
-    "name": "bn-uefi-helper",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/822ec957-e11e-4abe-8235-187cee459f65/versions/e400cde3-e9ec-42ba-a5b1-018b4cd0a4a7/platforms/1755/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/822ec957-e11e-4abe-8235-187cee459f65/versions/e400cde3-e9ec-42ba-a5b1-018b4cd0a4a7/platforms/1755/download?notrack=1",
-    "path": "zznop_bnuefihelper",
-    "platforms": [
-      "Darwin",
-      "Linux",
-      "Windows"
-    ],
-    "pluginmetadataversion": 2,
-    "projectData": {
-      "stargazers_count": 89,
-      "updated_at": "2023-04-28 15:38:05+00:00"
-    },
-    "projectUrl": "https://github.com/zznop/bn-uefi-helper",
-    "subdir": "",
-    "type": [
-      "helper"
-    ],
-    "version": "0.3",
-    "view_only": false
-  },
-  {
-    "api": [
       "python2",
       "python3"
     ],
@@ -3688,7 +3650,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 669,
+      "stargazers_count": 671,
       "updated_at": "2026-05-20 14:19:13+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -4035,7 +3997,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 59,
+      "stargazers_count": 60,
       "updated_at": "2023-07-17 05:06:15+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/seprom-loader",
@@ -5378,7 +5340,7 @@
       "name": "MIT",
       "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "Binary Ninja plugin to clean up some common obfuscation techniques (dirty tricks). <br><br>There is an empty template included as well to be able to easily add your own, because there are many many obfuscations out there. However, often they get reused or slightly modified, and then it is useful to have a starting point/example. Pull requests are very welcome.<br><br>More details available at:<br><a href='https://www.janbeck.com/cybersecurity-challenges-ctfs-and-more/cleantricks-to-deal-with-dirty-tricks-binary-ninja-deobfuscation-plugin'>https://www.janbeck.com/cybersecurity-challenges-ctfs-and-more/cleantricks-to-deal-with-dirty-tricks-binary-ninja-deobfuscation-plugin</a><br><br>But as a simple example of what this is for, consider the following code:<br><br><img src='https://raw.githubusercontent.com/janbbeck/CleanTricks/master/readme_pics/code_before.png'><br><br>The overlapping code is hidden in the literal value, 0x5ebcbff49c3ff49. It simply increases r11, then decreases it again, then jumps to the address right behind the JZ check. I have come across a binary that uses this same trick on different registers thousands of times. This plugin allows automating this patch:<br><br><img src='https://raw.githubusercontent.com/janbbeck/CleanTricks/master/readme_pics/menu.png'><br><br>And then, after the patch, the code is much simpler. In many cases this allows binary ninja to reanalyze the program flow into a much more convienient form.<br><br><img src='https://raw.githubusercontent.com/janbbeck/CleanTricks/master/readme_pics/code_after.png'>",
+    "longdescription": "Binary Ninja plugin to clean up some common obfuscation techniques (dirty tricks). <br/><br/>There is an empty template included as well to be able to easily add your own, because there are many many obfuscations out there. However, often they get reused or slightly modified, and then it is useful to have a starting point/example. Pull requests are very welcome.<br/><br/>More details available at:<br/><a href='https://www.janbeck.com/cybersecurity-challenges-ctfs-and-more/cleantricks-to-deal-with-dirty-tricks-binary-ninja-deobfuscation-plugin'>https://www.janbeck.com/cybersecurity-challenges-ctfs-and-more/cleantricks-to-deal-with-dirty-tricks-binary-ninja-deobfuscation-plugin</a><br/><br/>But as a simple example of what this is for, consider the following code:<br/><br/><img src='https://raw.githubusercontent.com/janbbeck/CleanTricks/master/readme_pics/code_before.png'/><br/><br/>The overlapping code is hidden in the literal value, 0x5ebcbff49c3ff49. It simply increases r11, then decreases it again, then jumps to the address right behind the JZ check. I have come across a binary that uses this same trick on different registers thousands of times. This plugin allows automating this patch:<br/><br/><img src='https://raw.githubusercontent.com/janbbeck/CleanTricks/master/readme_pics/menu.png'/><br/><br/>And then, after the patch, the code is much simpler. In many cases this allows binary ninja to reanalyze the program flow into a much more convienient form.<br/><br/><img src='https://raw.githubusercontent.com/janbbeck/CleanTricks/master/readme_pics/code_after.png'/>",
     "minimumbinaryninjaversion": 1200,
     "name": "Clean Tricks",
     "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/2808e83b-a3cd-4978-86c7-5c8d05e547d4/versions/21e10df5-bddf-400e-8bb5-0d91b3865993/platforms/2053/download",
@@ -6359,7 +6321,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 124,
+      "stargazers_count": 126,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6437,7 +6399,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 665,
+      "stargazers_count": 666,
       "updated_at": "2026-06-15 13:51:10+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -7051,7 +7013,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 60,
+      "stargazers_count": 62,
       "updated_at": "2026-03-06 14:58:12+00:00"
     },
     "projectUrl": "https://github.com/seekbytes/ptxNinja",
@@ -7481,7 +7443,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "updated_at": "2025-08-30 19:16:53+00:00"
     },
     "projectUrl": "https://github.com/nicabi/binja-xtensa2",
@@ -7597,7 +7559,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "updated_at": "2025-01-22 11:53:55+00:00"
     },
     "projectUrl": "https://github.com/Accenture/NEC850_Architecture",
@@ -7743,8 +7705,8 @@
     "longdescription": "This plugin aims to address gen-z attention deficit brainrot issues by integrating sludge content directly into your reversing workflow. \n\n### Changelog\nFresh from my slop kitchen to your plate, feed your brainrot with this sludge content sidebar for Binary Ninja",
     "minimumbinaryninjaversion": 9200,
     "name": "Sludge Content Sidebar",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/3cc5cfb2-02c3-43c5-b769-7dafb62b4395/versions/b65a7692-9770-4ce5-b78e-680ff6e131e9/platforms/3319/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/3cc5cfb2-02c3-43c5-b769-7dafb62b4395/versions/b65a7692-9770-4ce5-b78e-680ff6e131e9/platforms/3319/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/3cc5cfb2-02c3-43c5-b769-7dafb62b4395/versions/b65a7692-9770-4ce5-b78e-680ff6e131e9/platforms/3320/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/3cc5cfb2-02c3-43c5-b769-7dafb62b4395/versions/b65a7692-9770-4ce5-b78e-680ff6e131e9/platforms/3320/download?notrack=1",
     "path": "CouleeApps_sludge_content_sidebar",
     "platforms": [
       "Darwin",
@@ -7831,7 +7793,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 807,
+      "stargazers_count": 812,
       "updated_at": "2026-07-14 20:47:18+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
