@@ -23,6 +23,7 @@
 | [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-05-25|ui, helper|python3|MIT |
 | [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-06-14|binaryview, helper, ui|python3|MIT |
 | [binja delink](https://github.com/alecnunn/binja_delink)|Alec Nunn|Plugin that splits up PEs and ELFs into individual object files per-function|2026-07-16|helper|python3|Unlicense |
+| [Binja Diff](https://github.com/matteyeux/binja-diff/)|matteyeux|A Binary Ninja plugin for side-by-side binary diffing, powered by QBinDiff.|2026-08-05|analysis, helper|python3|Apache 2.0 |
 | [Binja IPython console](https://github.com/skr0x1c0/ipybinja)|skr0x1c0|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|python3|MIT |
 | [Binja Missing Link](https://github.com/FFRI/binja-missinglink)|Koh M. Nakagawa|Binary Ninja plugin that fills missing indirect branch information|2025-10-20|core, helper|python3|Apache version 2.0 |
 | [Binja Snapshot Manager](https://github.com/d0mnik/binja_snapshot_manager)|d0minik|Binary Ninja plugin to take and manage database snapshots|2024-10-30|helper|python3|AGPL-3.0 |
