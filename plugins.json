@@ -3269,7 +3269,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2568,
+      "stargazers_count": 2569,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -7171,7 +7171,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 62,
       "updated_at": "2026-08-05 16:10:07+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/binja-diff/",
@@ -7248,7 +7248,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 45,
+      "stargazers_count": 46,
       "updated_at": "2026-06-14 15:01:26+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
@@ -7928,16 +7928,16 @@
     "description": "MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1785564656,
+    "lastUpdated": 1786043784,
     "license": {
       "name": "MIT",
       "text": "MIT License\r\n\r\nCopyright (c) 2026 J. DeFrancesco\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
     },
-    "longdescription": "Adds MSP430X architecture support with LLIL lifting and a mapped raw-firmware BinaryView (ELF format works as well). Note the MSP430F5438 and MSP430F5438A devices were tested targets. It seeds memory regions, interrupt vectors, and TI header labels so raw firmware is ready for analysis. MSP430X support will become more robost in the future. Hopefully handling other specific MCUs with MSP430X ISA \n\n### Changelog\nThis is the first official release of the MSP430X plugin. It allows Binary Ninja to correctly disassemble/decompile raw MSP430XF5xxx firmware. Lifting for this ISA can be tricky do to their 16-bit RISC MCU using 20-bit address space. Along with their decision to utilize parts of the SR for dealing. with 20-bit addresses. If you open an MSP430X firmware binary disassembly will not happen. If you attempt to use Ghidra you will see output riddled with bit artifacts that make no sense forcing you to mostly just read the disassembly. This plugin saves you from such hell. Development is on going. Please report any issues. Thanks",
+    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\n**Full Changelog**: https://github.com/jdefrancesco/MSP430X-Lens/compare/0.1.0...0.2.0",
     "minimumbinaryninjaversion": 9757,
     "name": "MSP430X Lens",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/34167922-c2f6-437a-91ab-29b34369cbdf/platforms/3793/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/34167922-c2f6-437a-91ab-29b34369cbdf/platforms/3793/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/6b8689c8-8ee1-405d-af7a-699a107523e8/platforms/3811/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/6b8689c8-8ee1-405d-af7a-699a107523e8/platforms/3811/download?notrack=1",
     "path": "msp430xlens",
     "platforms": [
       "Darwin",
@@ -7947,14 +7947,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 0,
-      "updated_at": "2026-08-01 06:10:56+00:00"
+      "updated_at": "2026-08-06 19:16:24+00:00"
     },
     "projectUrl": "https://github.com/jdefrancesco/MSP430X-Lens",
     "subdir": "",
     "type": [
       "architecture"
     ],
-    "version": "0.1.0",
+    "version": "0.2.0",
     "view_only": false
   },
   {
@@ -7982,7 +7982,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 5,
       "updated_at": "2026-08-02 06:48:15+00:00"
     },
     "projectUrl": "https://github.com/decoderloop/rust_metadata_carver",
@@ -8021,7 +8021,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "updated_at": "2026-08-04 16:37:23+00:00"
     },
     "projectUrl": "https://github.com/YungBinary/binja-nativeaot",
