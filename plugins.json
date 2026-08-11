@@ -143,7 +143,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 247,
+      "stargazers_count": 248,
       "updated_at": "2025-07-01 15:21:37+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 500,
+      "stargazers_count": 501,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1122,
+      "stargazers_count": 1123,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -2779,48 +2779,6 @@
     "api": [
       "python3"
     ],
-    "author": "cynder (kat)",
-    "dependencies": "capstone",
-    "description": "Processing for Apple's dyld_shared_cache format.",
-    "installinstructions": {},
-    "is_paid": false,
-    "lastUpdated": 1646117987,
-    "license": {
-      "name": "MIT",
-      "text": "Copyright (c) 2022, katherine \n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-    },
-    "longdescription": "# Dyld Shared Cache Parser\nAuthor: **cynder (kat)**\n\n_Dyld Shared Cache Support for BinaryNinja_\n\n![BinaryNinja Screenshot](.github/sbui.png?raw=true \"Screenshot\")\n\nWithout any of the fuss of requiring manually loading several unrelated images, or the awful off-image addresses, and with better output than IDA, Hopper, or any other disassembler on the market. \n\n## Installation + Usage\n\n1. Install capstone via pip for the same python interpreter your BinaryNinja install is using. \n2. git clone (or download and unzip) this folder to your BinaryNinja plugins folder.\n\n### Usage:\n\n1. Open Dyld Shared Cache file with BN\n2. Select the Image you would like to disassemble\n3. Congrats, you are now Reverse Engineering the Mach-O\n\n## Description:\n\nThis project acts as an interface for two seperate projects; DyldExtractor, and ktool. Mainly DyldExtractor.\n\n[DyldExtractor](https://github.com/arandomdev/DyldExtractor) is a project written primarily by 'arandomdev' designed for CLI standalone dyld_shared_cache extraction. It is *the* best tool for the job, and reverses the majority of \"optimizations\" that make DSC reverse engineering ugly and painful. Utilizing this plugin, Binja's processing should outperform IDAs, and wont require IDA's need for repeatedly right clicking and manually loading tons of modules.\n\nThis version of DyldExtractor has a lot of modifications (read: a lot of commented out lines) from the original designed to make it function better in the binja environment. \n\n[ktool](https://github.com/cxnder/ktool) is a multifaceted project I wrote for, primarily, MachO + ObjC Parsing.\n\nIt is mainly used for super basic parsing of the output, as we need to properly write the segments to the VM (and scrap all the dsc data that was originally in this file) so the Mach-O View knows how to parse it. \n\n## License\n\nThis plugin, along with ktool and dyldextractor are released under an [MIT license](./license). Both of these plugins are vendored within this project to make installation slightly simpler. \n",
-    "minimumbinaryninjaversion": 3164,
-    "name": "Dyld Shared Cache Processor",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/e8ce4174-0b55-4bf0-83ff-26afec09d9b0/versions/93d43ded-f31e-4bee-a338-761650fb64f1/platforms/1639/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/e8ce4174-0b55-4bf0-83ff-26afec09d9b0/versions/93d43ded-f31e-4bee-a338-761650fb64f1/platforms/1639/download?notrack=1",
-    "path": "0cyn_bndyldsharedcache",
-    "platforms": [
-      "Darwin",
-      "Linux",
-      "Windows"
-    ],
-    "pluginmetadataversion": 2,
-    "projectData": {
-      "stargazers_count": 92,
-      "updated_at": "2022-03-01 06:59:47+00:00"
-    },
-    "projectUrl": "https://github.com/0cyn/bn-dyldsharedcache",
-    "subdir": "",
-    "type": [
-      "architecture",
-      "binaryview",
-      "core",
-      "helper",
-      "ui"
-    ],
-    "version": "1.0.0",
-    "view_only": false
-  },
-  {
-    "api": [
-      "python3"
-    ],
     "author": "ImNotAVirus",
     "dependencies": "",
     "description": "Find Delphi VMTs and generate their structures",
@@ -3269,7 +3227,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2569,
+      "stargazers_count": 2571,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -4505,7 +4463,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 142,
+      "stargazers_count": 143,
       "updated_at": "2024-02-15 00:51:37+00:00"
     },
     "projectUrl": "https://github.com/zznop/bnida",
@@ -5666,7 +5624,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 21,
+      "stargazers_count": 22,
       "updated_at": "2020-07-22 13:49:42+00:00"
     },
     "projectUrl": "https://github.com/EliseZeroTwo/Switch-Binja-Loader",
@@ -5859,7 +5817,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 56,
+      "stargazers_count": 55,
       "updated_at": "2020-10-01 21:35:22+00:00"
     },
     "projectUrl": "https://github.com/BlackwingHQ/iBoot64Binja",
@@ -6399,7 +6357,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 666,
+      "stargazers_count": 665,
       "updated_at": "2026-06-15 13:51:10+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -7171,7 +7129,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 62,
+      "stargazers_count": 77,
       "updated_at": "2026-08-05 16:10:07+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/binja-diff/",
@@ -7288,7 +7246,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 45,
+      "stargazers_count": 44,
       "updated_at": "2025-08-08 23:27:25+00:00"
     },
     "projectUrl": "https://github.com/bliutech/mbased",
@@ -8021,7 +7979,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1,
+      "stargazers_count": 4,
       "updated_at": "2026-08-04 16:37:23+00:00"
     },
     "projectUrl": "https://github.com/YungBinary/binja-nativeaot",
