@@ -77,7 +77,6 @@
 | [Discord Integration](https://github.com/psifertex/discordpresence)|psifertex|Enables Discord Rich Presence Integration for Binary Ninja|2025-05-23|helper|python3|MIT |
 | [droog](https://github.com/amtal/droog)|amtal|PDF Reference Opcodes Or reGisters. Like IDA's FRIEND/AMIE or Ghidra's "Processor Manual..." right-click menu.|2024-06-24|helper|python3|AGPL-3.0 |
 | [DUMB](https://github.com/toolCHAINZ/DUMB)|toolCHAINZ|DUMB: An Example Architecture for Binary Ninja|2020-03-01|architecture, binaryview|python3|MIT |
-| [Dyld Shared Cache Processor](https://github.com/0cyn/bn-dyldsharedcache)|cynder (kat)|Processing for Apple's dyld_shared_cache format.|2022-03-01|architecture, binaryview, core, helper, ui|python3|MIT |
 | [EFI Inspector](https://github.com/zznop/efi-inspector)|Brandon Miller|Binary Ninja plugin for inspecting UEFI firmware images|2024-02-28|helper|python3|MIT |
 | [Emotet API+string deobfuscator](https://github.com/mauronz/binja-emotet)|Francesco Muroni|Deobufscate API calls and strings in unpacked Emotet samples.|2020-09-21|helper|python3|MIT |
 | [ESP32 Loader](https://github.com/psifertex/bnesp32)|psifertex|Binary Ninja ESP32 View Loader|2026-02-21|binaryview|python3|MIT |
