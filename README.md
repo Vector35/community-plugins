@@ -137,7 +137,7 @@
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2026-01-29|binaryview, core, ui|python3|MIT |
 | [Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|Galen Williamson|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT |
 | [msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|Josh Watson|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT |
-| [MSP430X Lens](https://github.com/jdefrancesco/MSP430X-Lens)|Joey DeFrancesco|MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map|2026-08-06|architecture|python3|MIT |
+| [MSP430X Lens](https://github.com/jdefrancesco/MSP430X-Lens)|Joey DeFrancesco|MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map|2026-08-11|architecture|python3|MIT |
 | [MSVC](https://github.com/0x1F9F1/binja-msvc)|Brick|Parses MSVC structures to improve analysis|2019-07-12|helper|python2, python3|MIT |
 | [mtkview](https://github.com/osecurio/mtkview)|osecurio|Loads GFH preloader binaries and MTK Little Kernel partitions|2026-07-15|binaryview|rust|MIT License |
 | [Nampa](https://github.com/thebabush/nampa)|Paolo Montesel (https://github.com/thebabush)|FLIRT for (binary) ninjas|2020-05-27|binaryview, core|python3|LGPL v3 |
@@ -159,7 +159,7 @@
 | [PSVitaLoader](https://github.com/computerman00/BinaryNinja-PSVitaLoader)|computerman00|PS Vita ELF/PRX2 loader plugin|2024-09-19|helper|python3|MIT |
 | [ptxNinja](https://github.com/seekbytes/ptxNinja)|seekbytes|CUDA based ptx architecture support|2026-03-06|architecture||GPL v3 |
 | [Python bytecode](https://github.com/Njord0/BNPyc)|Njörd|Python bytecode (.pyc) support for Binary Ninja|2024-03-03|architecture, binaryview|python3|MIT |
-| [QSettings Viewer](https://github.com/psifertex/qsview)|Jordan Wiens|QSettings Viewer|2024-10-22|ui, helper|python3|MIT |
+| [QSettings Viewer](https://github.com/psifertex/qsview)|Jordan Wiens|QSettings Viewer|2026-08-11|ui, helper|python3|MIT |
 | [recursion](https://github.com/zznop/bn-recursion)|zznop|Locate and annotate direct and indirect recursion|2020-07-22|helper|python3|MIT |
 | [Renesas M16C Architecture](https://github.com/whitequark/binja-m16c)|whitequark|A plugin providing the Renesas M16C architecture.|2020-01-19|architecture|python3|BSD-0-clause |
 | [Renesas V850 architecture plugin](https://github.com/tizmd/binja-v850)|Tomonori Izumida <tizmd@iij.ad.jp>|An architecture plugin for Renesas V850 series|2022-11-07|architecture|python3|MIT |
