@@ -432,16 +432,16 @@
     "description": "QSettings Viewer",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1729633426,
+    "lastUpdated": 1786485844,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024 Jordan Wiens\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# QSettings Viewer (v1.0.1)\nAuthor: **Jordan Wiens**\n\n_QSettings Viewer_\n\n## Description:\n\n\nNone\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 3164\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
+    "longdescription": "# QSettings Viewer\nAuthor: **Jordan Wiens**\n\n_QSettings Viewer_\n\n## Description:\n\nBrowse Binary Ninja's QSettings store as a tree. Keys are grouped by path, values are\nshown in full with word wrap, and a search box filters on both keys and values.\n\n![Tree view](images/tree-view.png)\n\nRight-click any cell to copy the value, the name, the full key path, or `key = value`.\nDouble-click a value (or pick **Edit Value\u2026**) to open it in an editor. Values are\nedited in a text form matched to their stored type \u2014 hex for byte arrays, JSON for\nlists and maps, ISO 8601 for date/times \u2014 and saving converts back to that same type,\nso editing a setting can't quietly turn it into a string. Values with no faithful text\nform, such as lists holding nested Qt types, open read-only. The settings file is\nbacked up alongside itself before the first write of a session.\n\n![Editing a value](images/edit-value.png)\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 3164\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n\n\n### Changelog\n**Full Changelog**: https://github.com/psifertex/qsview/compare/1.0.1...1.1",
     "minimumbinaryninjaversion": 3164,
     "name": "QSettings Viewer",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/a5451d73-35e0-4915-ac71-c603ae973df2/versions/29ef3376-855e-4c0a-8547-bceedfc882a3/platforms/1257/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/a5451d73-35e0-4915-ac71-c603ae973df2/versions/29ef3376-855e-4c0a-8547-bceedfc882a3/platforms/1257/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/a5451d73-35e0-4915-ac71-c603ae973df2/versions/a64ebef3-2eca-4955-b4c8-39729af7b381/platforms/3841/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/a5451d73-35e0-4915-ac71-c603ae973df2/versions/a64ebef3-2eca-4955-b4c8-39729af7b381/platforms/3841/download?notrack=1",
     "path": "psifertex_qsview",
     "platforms": [
       "Darwin",
@@ -451,7 +451,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 1,
-      "updated_at": "2024-10-22 21:43:46+00:00"
+      "updated_at": "2026-08-11 22:04:04+00:00"
     },
     "projectUrl": "https://github.com/psifertex/qsview",
     "subdir": "",
@@ -459,7 +459,7 @@
       "ui",
       "helper"
     ],
-    "version": "1.0.1",
+    "version": "1.1",
     "view_only": false
   },
   {
@@ -1381,7 +1381,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "updated_at": "2026-07-22 17:57:24+00:00"
     },
     "projectUrl": "https://github.com/xusheng6/capa-explorer-binja",
@@ -3227,7 +3227,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2571,
+      "stargazers_count": 2572,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -6511,7 +6511,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 81,
+      "stargazers_count": 82,
       "updated_at": "2026-07-10 09:10:32+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
@@ -6783,7 +6783,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 54,
+      "stargazers_count": 55,
       "updated_at": "2026-03-07 12:39:05+00:00"
     },
     "projectUrl": "https://github.com/jonpalmisc/ibis",
@@ -7119,8 +7119,8 @@
     "longdescription": "Diffs the currently open binary against a second file dropped onto the view. Function matching is performed by QBinDiff (Quarkslab) driven by a native Binary Ninja loader backend, so no intermediate export file (Quokka, BinExport) is required. Results are presented as a sortable function match table plus side-by-side panes for control flow graphs, assembly, and all three Binary Ninja IL levels.\n\n### Changelog\n- added license file (Apache 2.0)",
     "minimumbinaryninjaversion": 9757,
     "name": "Binja Diff",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/7cfc89ef-6275-4d5e-bee9-5f3207b98894/platforms/3799/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/7cfc89ef-6275-4d5e-bee9-5f3207b98894/platforms/3799/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/7cfc89ef-6275-4d5e-bee9-5f3207b98894/platforms/3800/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/7cfc89ef-6275-4d5e-bee9-5f3207b98894/platforms/3800/download?notrack=1",
     "path": "binjadiff",
     "platforms": [
       "Darwin",
@@ -7129,7 +7129,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 77,
+      "stargazers_count": 83,
       "updated_at": "2026-08-05 16:10:07+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/binja-diff/",
@@ -7886,16 +7886,16 @@
     "description": "MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1786043784,
+    "lastUpdated": 1786477836,
     "license": {
       "name": "MIT",
       "text": "MIT License\r\n\r\nCopyright (c) 2026 J. DeFrancesco\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
     },
-    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\n**Full Changelog**: https://github.com/jdefrancesco/MSP430X-Lens/compare/0.1.0...0.2.0",
+    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\n## Highlights\n\n- Parse the MSP430F5438/F5438A factory TLV descriptor block, expose typed calibration records and peripheral discovery data, and validate the stored CRC-16/CCITT-FALSE checksum.\n- Auto-select the F5438 versus F5438A profile from a CRC-valid factory device ID while treating absent, partial, erased, and malformed TLV regions conservatively.\n- Recover proven R12 string arguments at direct CALL/CALLA sites when Binary Ninja's inferred callee-save prototype would otherwise remove the string from HLIL.\n- Correct variadic calling-convention handling so unnamed arguments use the stack instead of remaining MSP430 argument registers.\n- Add base-zero TLV and R12 string-call UI fixtures plus exact-byte and loader integration regressions.\n\n## Verification\n\n- All 59 automated tests pass on Binary Ninja 5.3.9757.\n- Mapped-raw integration covers TLV/CRC annotations, device selection, R12 string recovery, sparse code islands, packed ISRs, initializer data, indirect calls, and string filtering.\n",
     "minimumbinaryninjaversion": 9757,
     "name": "MSP430X Lens",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/6b8689c8-8ee1-405d-af7a-699a107523e8/platforms/3811/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/6b8689c8-8ee1-405d-af7a-699a107523e8/platforms/3811/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/93bb9106-5676-4d7c-927c-f796d942bcb8/platforms/3835/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/93bb9106-5676-4d7c-927c-f796d942bcb8/platforms/3835/download?notrack=1",
     "path": "msp430xlens",
     "platforms": [
       "Darwin",
@@ -7905,14 +7905,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 0,
-      "updated_at": "2026-08-06 19:16:24+00:00"
+      "updated_at": "2026-08-11 19:50:36+00:00"
     },
     "projectUrl": "https://github.com/jdefrancesco/MSP430X-Lens",
     "subdir": "",
     "type": [
       "architecture"
     ],
-    "version": "0.2.0",
+    "version": "0.3.0",
     "view_only": false
   },
   {
