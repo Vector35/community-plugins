@@ -2917,7 +2917,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 230,
+      "stargazers_count": 232,
       "updated_at": "2026-07-11 13:32:55+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -4188,7 +4188,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 101,
+      "stargazers_count": 102,
       "updated_at": "2020-05-27 15:54:21+00:00"
     },
     "projectUrl": "https://github.com/thebabush/nampa",
@@ -7129,7 +7129,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 83,
+      "stargazers_count": 85,
       "updated_at": "2026-08-05 16:10:07+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/binja-diff/",
@@ -7633,7 +7633,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 254,
+      "stargazers_count": 255,
       "updated_at": "2026-05-20 12:00:42+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_analysis",
@@ -7886,16 +7886,16 @@
     "description": "MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1786477836,
+    "lastUpdated": 1786643962,
     "license": {
       "name": "MIT",
       "text": "MIT License\r\n\r\nCopyright (c) 2026 J. DeFrancesco\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
     },
-    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\n## Highlights\n\n- Parse the MSP430F5438/F5438A factory TLV descriptor block, expose typed calibration records and peripheral discovery data, and validate the stored CRC-16/CCITT-FALSE checksum.\n- Auto-select the F5438 versus F5438A profile from a CRC-valid factory device ID while treating absent, partial, erased, and malformed TLV regions conservatively.\n- Recover proven R12 string arguments at direct CALL/CALLA sites when Binary Ninja's inferred callee-save prototype would otherwise remove the string from HLIL.\n- Correct variadic calling-convention handling so unnamed arguments use the stack instead of remaining MSP430 argument registers.\n- Add base-zero TLV and R12 string-call UI fixtures plus exact-byte and loader integration regressions.\n\n## Verification\n\n- All 59 automated tests pass on Binary Ninja 5.3.9757.\n- Mapped-raw integration covers TLV/CRC annotations, device selection, R12 string recovery, sparse code islands, packed ISRs, initializer data, indirect calls, and string filtering.\n",
+    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\nHighlights:\n\n- Selects MSP430X for EM_MSP430 ELF files before initial analysis while preserving ELF segments, sections, symbols, and explicit loader choices.\n- Applies F5438/F5438A annotations from validated TLV data or an explicit ELF device profile.\n- Recovers proven R12 string arguments with durable call-site-local overrides, including zero-parameter and no-return callees, without changing global callee types.\n- Runs analysis-capable UI commands in background tasks and refreshes open Pseudo C views after analysis completes.\n- Applies the inherited eight-character automatic-string minimum before initial analysis for mapped raw and ELF views.\n- Adds exact-byte and factory-path regression coverage; 83 tests pass on Binary Ninja 5.3.9757.",
     "minimumbinaryninjaversion": 9757,
     "name": "MSP430X Lens",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/93bb9106-5676-4d7c-927c-f796d942bcb8/platforms/3835/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/93bb9106-5676-4d7c-927c-f796d942bcb8/platforms/3835/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/dfbed429-c7db-4247-9794-6b4add40d6ea/platforms/3853/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/dfbed429-c7db-4247-9794-6b4add40d6ea/platforms/3853/download?notrack=1",
     "path": "msp430xlens",
     "platforms": [
       "Darwin",
@@ -7905,14 +7905,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 0,
-      "updated_at": "2026-08-11 19:50:36+00:00"
+      "updated_at": "2026-08-13 17:59:22+00:00"
     },
     "projectUrl": "https://github.com/jdefrancesco/MSP430X-Lens",
     "subdir": "",
     "type": [
       "architecture"
     ],
-    "version": "0.3.0",
+    "version": "0.4.0",
     "view_only": false
   },
   {
