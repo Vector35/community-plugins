@@ -105,7 +105,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 45,
+      "stargazers_count": 46,
       "updated_at": "2024-07-28 21:40:57+00:00"
     },
     "projectUrl": "https://github.com/ergrelet/themida-unmutate-bn",
@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 501,
+      "stargazers_count": 502,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -683,7 +683,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 66,
+      "stargazers_count": 65,
       "updated_at": "2026-05-25 22:31:56+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1123,
+      "stargazers_count": 1126,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1264,7 +1264,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 86,
+      "stargazers_count": 88,
       "updated_at": "2026-01-03 02:38:35+00:00"
     },
     "projectUrl": "https://github.com/x64dbg/x64dbgbinja",
@@ -1957,7 +1957,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 741,
+      "stargazers_count": 744,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2917,7 +2917,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 232,
+      "stargazers_count": 234,
       "updated_at": "2026-07-11 13:32:55+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -3035,7 +3035,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2370,
+      "stargazers_count": 2372,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3111,7 +3111,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 7,
+      "stargazers_count": 8,
       "updated_at": "2021-11-15 22:53:19+00:00"
     },
     "projectUrl": "https://github.com/gamozolabs/coff_nm",
@@ -3608,7 +3608,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 672,
+      "stargazers_count": 674,
       "updated_at": "2026-05-20 14:19:13+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -3955,7 +3955,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 60,
+      "stargazers_count": 61,
       "updated_at": "2023-07-17 05:06:15+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/seprom-loader",
@@ -5817,7 +5817,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 55,
+      "stargazers_count": 56,
       "updated_at": "2020-10-01 21:35:22+00:00"
     },
     "projectUrl": "https://github.com/BlackwingHQ/iBoot64Binja",
@@ -6279,7 +6279,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 126,
+      "stargazers_count": 127,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6357,7 +6357,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 665,
+      "stargazers_count": 669,
       "updated_at": "2026-06-15 13:51:10+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6511,7 +6511,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 82,
+      "stargazers_count": 83,
       "updated_at": "2026-07-10 09:10:32+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
@@ -7010,7 +7010,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 95,
+      "stargazers_count": 94,
       "updated_at": "2026-04-02 18:53:07+00:00"
     },
     "projectUrl": "https://github.com/vtil-project/VTIL-BinaryNinja",
@@ -7111,16 +7111,16 @@
     "description": "A Binary Ninja plugin for side-by-side binary diffing, powered by QBinDiff.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1785946207,
+    "lastUpdated": 1787063138,
     "license": {
       "name": "Apache 2.0",
       "text": "Apache License\r\n                           Version 2.0, January 2004\r\n                        http://www.apache.org/licenses/\r\n\r\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\r\n\r\n   1. Definitions.\r\n\r\n      \"License\" shall mean the terms and conditions for use, reproduction,\r\n      and distribution as defined by Sections 1 through 9 of this document.\r\n\r\n      \"Licensor\" shall mean the copyright owner or entity authorized by\r\n      the copyright owner that is granting the License.\r\n\r\n      \"Legal Entity\" shall mean the union of the acting entity and all\r\n      other entities that control, are controlled by, or are under common\r\n      control with that entity. For the purposes of this definition,\r\n      \"control\" means (i) the power, direct or indirect, to cause the\r\n      direction or management of such entity, whether by contract or\r\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\r\n      outstanding shares, or (iii) beneficial ownership of such entity.\r\n\r\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\r\n      exercising permissions granted by this License.\r\n\r\n      \"Source\" form shall mean the preferred form for making modifications,\r\n      including but not limited to software source code, documentation\r\n      source, and configuration files.\r\n\r\n      \"Object\" form shall mean any form resulting from mechanical\r\n      transformation or translation of a Source form, including but\r\n      not limited to compiled object code, generated documentation,\r\n      and conversions to other media types.\r\n\r\n      \"Work\" shall mean the work of authorship, whether in Source or\r\n      Object form, made available under the License, as indicated by a\r\n      copyright notice that is included in or attached to the work\r\n      (an example is provided in the Appendix below).\r\n\r\n      \"Derivative Works\" shall mean any work, whether in Source or Object\r\n      form, that is based on (or derived from) the Work and for which the\r\n      editorial revisions, annotations, elaborations, or other modifications\r\n      represent, as a whole, an original work of authorship. For the purposes\r\n      of this License, Derivative Works shall not include works that remain\r\n      separable from, or merely link (or bind by name) to the interfaces of,\r\n      the Work and Derivative Works thereof.\r\n\r\n      \"Contribution\" shall mean any work of authorship, including\r\n      the original version of the Work and any modifications or additions\r\n      to that Work or Derivative Works thereof, that is intentionally\r\n      submitted to Licensor for inclusion in the Work by the copyright owner\r\n      or by an individual or Legal Entity authorized to submit on behalf of\r\n      the copyright owner. For the purposes of this definition, \"submitted\"\r\n      means any form of electronic, verbal, or written communication sent\r\n      to the Licensor or its representatives, including but not limited to\r\n      communication on electronic mailing lists, source code control systems,\r\n      and issue tracking systems that are managed by, or on behalf of, the\r\n      Licensor for the purpose of discussing and improving the Work, but\r\n      excluding communication that is conspicuously marked or otherwise\r\n      designated in writing by the copyright owner as \"Not a Contribution.\"\r\n\r\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\r\n      on behalf of whom a Contribution has been received by Licensor and\r\n      subsequently incorporated within the Work.\r\n\r\n   2. Grant of Copyright License. Subject to the terms and conditions of\r\n      this License, each Contributor hereby grants to You a perpetual,\r\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\r\n      copyright license to reproduce, prepare Derivative Works of,\r\n      publicly display, publicly perform, sublicense, and distribute the\r\n      Work and such Derivative Works in Source or Object form.\r\n\r\n   3. Grant of Patent License. Subject to the terms and conditions of\r\n      this License, each Contributor hereby grants to You a perpetual,\r\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\r\n      (except as stated in this section) patent license to make, have made,\r\n      use, offer to sell, sell, import, and otherwise transfer the Work,\r\n      where such license applies only to those patent claims licensable\r\n      by such Contributor that are necessarily infringed by their\r\n      Contribution(s) alone or by combination of their Contribution(s)\r\n      with the Work to which such Contribution(s) was submitted. If You\r\n      institute patent litigation against any entity (including a\r\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\r\n      or a Contribution incorporated within the Work constitutes direct\r\n      or contributory patent infringement, then any patent licenses\r\n      granted to You under this License for that Work shall terminate\r\n      as of the date such litigation is filed.\r\n\r\n   4. Redistribution. You may reproduce and distribute copies of the\r\n      Work or Derivative Works thereof in any medium, with or without\r\n      modifications, and in Source or Object form, provided that You\r\n      meet the following conditions:\r\n\r\n      (a) You must give any other recipients of the Work or\r\n          Derivative Works a copy of this License; and\r\n\r\n      (b) You must cause any modified files to carry prominent notices\r\n          stating that You changed the files; and\r\n\r\n      (c) You must retain, in the Source form of any Derivative Works\r\n          that You distribute, all copyright, patent, trademark, and\r\n          attribution notices from the Source form of the Work,\r\n          excluding those notices that do not pertain to any part of\r\n          the Derivative Works; and\r\n\r\n      (d) If the Work includes a \"NOTICE\" text file as part of its\r\n          distribution, then any Derivative Works that You distribute must\r\n          include a readable copy of the attribution notices contained\r\n          within such NOTICE file, excluding those notices that do not\r\n          pertain to any part of the Derivative Works, in at least one\r\n          of the following places: within a NOTICE text file distributed\r\n          as part of the Derivative Works; within the Source form or\r\n          documentation, if provided along with the Derivative Works; or,\r\n          within a display generated by the Derivative Works, if and\r\n          wherever such third-party notices normally appear. The contents\r\n          of the NOTICE file are for informational purposes only and\r\n          do not modify the License. You may add Your own attribution\r\n          notices within Derivative Works that You distribute, alongside\r\n          or as an addendum to the NOTICE text from the Work, provided\r\n          that such additional attribution notices cannot be construed\r\n          as modifying the License.\r\n\r\n      You may add Your own copyright statement to Your modifications and\r\n      may provide additional or different license terms and conditions\r\n      for use, reproduction, or distribution of Your modifications, or\r\n      for any such Derivative Works as a whole, provided Your use,\r\n      reproduction, and distribution of the Work otherwise complies with\r\n      the conditions stated in this License.\r\n\r\n   5. Submission of Contributions. Unless You explicitly state otherwise,\r\n      any Contribution intentionally submitted for inclusion in the Work\r\n      by You to the Licensor shall be under the terms and conditions of\r\n      this License, without any additional terms or conditions.\r\n      Notwithstanding the above, nothing herein shall supersede or modify\r\n      the terms of any separate license agreement you may have executed\r\n      with Licensor regarding such Contributions.\r\n\r\n   6. Trademarks. This License does not grant permission to use the trade\r\n      names, trademarks, service marks, or product names of the Licensor,\r\n      except as required for reasonable and customary use in describing the\r\n      origin of the Work and reproducing the content of the NOTICE file.\r\n\r\n   7. Disclaimer of Warranty. Unless required by applicable law or\r\n      agreed to in writing, Licensor provides the Work (and each\r\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\r\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\r\n      implied, including, without limitation, any warranties or conditions\r\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\r\n      PARTICULAR PURPOSE. You are solely responsible for determining the\r\n      appropriateness of using or redistributing the Work and assume any\r\n      risks associated with Your exercise of permissions under this License.\r\n\r\n   8. Limitation of Liability. In no event and under no legal theory,\r\n      whether in tort (including negligence), contract, or otherwise,\r\n      unless required by applicable law (such as deliberate and grossly\r\n      negligent acts) or agreed to in writing, shall any Contributor be\r\n      liable to You for damages, including any direct, indirect, special,\r\n      incidental, or consequential damages of any character arising as a\r\n      result of this License or out of the use or inability to use the\r\n      Work (including but not limited to damages for loss of goodwill,\r\n      work stoppage, computer failure or malfunction, or any and all\r\n      other commercial damages or losses), even if such Contributor\r\n      has been advised of the possibility of such damages.\r\n\r\n   9. Accepting Warranty or Additional Liability. While redistributing\r\n      the Work or Derivative Works thereof, You may choose to offer,\r\n      and charge a fee for, acceptance of support, warranty, indemnity,\r\n      or other liability obligations and/or rights consistent with this\r\n      License. However, in accepting such obligations, You may act only\r\n      on Your own behalf and on Your sole responsibility, not on behalf\r\n      of any other Contributor, and only if You agree to indemnify,\r\n      defend, and hold each Contributor harmless for any liability\r\n      incurred by, or claims asserted against, such Contributor by reason\r\n      of your accepting any such warranty or additional liability.\r\n\r\n   END OF TERMS AND CONDITIONS"
     },
-    "longdescription": "Diffs the currently open binary against a second file dropped onto the view. Function matching is performed by QBinDiff (Quarkslab) driven by a native Binary Ninja loader backend, so no intermediate export file (Quokka, BinExport) is required. Results are presented as a sortable function match table plus side-by-side panes for control flow graphs, assembly, and all three Binary Ninja IL levels.\n\n### Changelog\n- added license file (Apache 2.0)",
-    "minimumbinaryninjaversion": 9757,
+    "longdescription": "Diffs the currently open binary against a second file dropped onto the view. Function matching is performed by QBinDiff (Quarkslab) driven by a native Binary Ninja loader backend, so no intermediate export file (Quokka, BinExport) is required. Results are presented as a sortable function match table plus side-by-side panes for control flow graphs, assembly, and all three Binary Ninja IL levels. Also registers QBinDiff as a provider for Binary Ninja's Binary Similarity sessions, where it can run alongside Google BinDiff and WARP and be weighed against them by a resolver; that half works headlessly and needs no UI.\n\n### Changelog\nAdds support for the binary similarity feature. qbindiff can be used as a backend for it.",
+    "minimumbinaryninjaversion": 10271,
     "name": "Binja Diff",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/7cfc89ef-6275-4d5e-bee9-5f3207b98894/platforms/3800/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/7cfc89ef-6275-4d5e-bee9-5f3207b98894/platforms/3800/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/e7b937b5-31bb-4f19-b046-aaabaf0547db/platforms/3865/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/e7b937b5-31bb-4f19-b046-aaabaf0547db/platforms/3865/download?notrack=1",
     "path": "binjadiff",
     "platforms": [
       "Darwin",
@@ -7129,8 +7129,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 85,
-      "updated_at": "2026-08-05 16:10:07+00:00"
+      "stargazers_count": 88,
+      "updated_at": "2026-08-18 14:25:38+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/binja-diff/",
     "subdir": "",
@@ -7138,7 +7138,7 @@
       "analysis",
       "helper"
     ],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "view_only": false
   },
   {
@@ -7206,7 +7206,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 46,
+      "stargazers_count": 47,
       "updated_at": "2026-06-14 15:01:26+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
@@ -7594,7 +7594,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 14,
+      "stargazers_count": 16,
       "updated_at": "2026-06-19 08:58:40+00:00"
     },
     "projectUrl": "https://github.com/Martyx00/VulnFanatic-NG",
@@ -7790,7 +7790,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 812,
+      "stargazers_count": 814,
       "updated_at": "2026-07-14 20:47:18+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -7886,16 +7886,16 @@
     "description": "MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1786643962,
+    "lastUpdated": 1787064212,
     "license": {
       "name": "MIT",
       "text": "MIT License\r\n\r\nCopyright (c) 2026 J. DeFrancesco\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
     },
-    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\nHighlights:\n\n- Selects MSP430X for EM_MSP430 ELF files before initial analysis while preserving ELF segments, sections, symbols, and explicit loader choices.\n- Applies F5438/F5438A annotations from validated TLV data or an explicit ELF device profile.\n- Recovers proven R12 string arguments with durable call-site-local overrides, including zero-parameter and no-return callees, without changing global callee types.\n- Runs analysis-capable UI commands in background tasks and refreshes open Pseudo C views after analysis completes.\n- Applies the inherited eight-character automatic-string minimum before initial analysis for mapped raw and ELF views.\n- Adds exact-byte and factory-path regression coverage; 83 tests pass on Binary Ninja 5.3.9757.",
+    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\n**Full Changelog**: https://github.com/jdefrancesco/MSP430X-Lens/compare/0.4.0...0.5.0",
     "minimumbinaryninjaversion": 9757,
     "name": "MSP430X Lens",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/dfbed429-c7db-4247-9794-6b4add40d6ea/platforms/3853/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/dfbed429-c7db-4247-9794-6b4add40d6ea/platforms/3853/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/cfc10161-4198-42bc-ab70-466dc436251b/platforms/3871/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/cfc10161-4198-42bc-ab70-466dc436251b/platforms/3871/download?notrack=1",
     "path": "msp430xlens",
     "platforms": [
       "Darwin",
@@ -7905,14 +7905,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 0,
-      "updated_at": "2026-08-13 17:59:22+00:00"
+      "updated_at": "2026-08-18 14:43:32+00:00"
     },
     "projectUrl": "https://github.com/jdefrancesco/MSP430X-Lens",
     "subdir": "",
     "type": [
       "architecture"
     ],
-    "version": "0.4.0",
+    "version": "0.5.0",
     "view_only": false
   },
   {
