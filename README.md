@@ -23,7 +23,7 @@
 | [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-05-25|ui, helper|python3|MIT |
 | [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-06-14|binaryview, helper, ui|python3|MIT |
 | [binja delink](https://github.com/alecnunn/binja_delink)|Alec Nunn|Plugin that splits up PEs and ELFs into individual object files per-function|2026-07-16|helper|python3|Unlicense |
-| [Binja Diff](https://github.com/matteyeux/binja-diff/)|matteyeux|A Binary Ninja plugin for side-by-side binary diffing, powered by QBinDiff.|2026-08-05|analysis, helper|python3|Apache 2.0 |
+| [Binja Diff](https://github.com/matteyeux/binja-diff/)|matteyeux|A Binary Ninja plugin for side-by-side binary diffing, powered by QBinDiff.|2026-08-18|analysis, helper|python3|Apache 2.0 |
 | [Binja IPython console](https://github.com/skr0x1c0/ipybinja)|skr0x1c0|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|python3|MIT |
 | [Binja Missing Link](https://github.com/FFRI/binja-missinglink)|Koh M. Nakagawa|Binary Ninja plugin that fills missing indirect branch information|2025-10-20|core, helper|python3|Apache version 2.0 |
 | [Binja Snapshot Manager](https://github.com/d0mnik/binja_snapshot_manager)|d0minik|Binary Ninja plugin to take and manage database snapshots|2024-10-30|helper|python3|AGPL-3.0 |
@@ -137,7 +137,7 @@
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2026-01-29|binaryview, core, ui|python3|MIT |
 | [Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|Galen Williamson|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT |
 | [msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|Josh Watson|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT |
-| [MSP430X Lens](https://github.com/jdefrancesco/MSP430X-Lens)|Joey DeFrancesco|MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map|2026-08-13|architecture|python3|MIT |
+| [MSP430X Lens](https://github.com/jdefrancesco/MSP430X-Lens)|Joey DeFrancesco|MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map|2026-08-18|architecture|python3|MIT |
 | [MSVC](https://github.com/0x1F9F1/binja-msvc)|Brick|Parses MSVC structures to improve analysis|2019-07-12|helper|python2, python3|MIT |
 | [mtkview](https://github.com/osecurio/mtkview)|osecurio|Loads GFH preloader binaries and MTK Little Kernel partitions|2026-07-15|binaryview|rust|MIT License |
 | [Nampa](https://github.com/thebabush/nampa)|Paolo Montesel (https://github.com/thebabush)|FLIRT for (binary) ninjas|2020-05-27|binaryview, core|python3|LGPL v3 |
