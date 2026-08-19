@@ -683,7 +683,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 65,
+      "stargazers_count": 66,
       "updated_at": "2026-05-25 22:31:56+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -2574,7 +2574,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 246,
+      "stargazers_count": 247,
       "updated_at": "2023-11-13 03:40:59+00:00"
     },
     "projectUrl": "https://github.com/hyuunnn/Hyara",
@@ -6783,7 +6783,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 55,
+      "stargazers_count": 56,
       "updated_at": "2026-03-07 12:39:05+00:00"
     },
     "projectUrl": "https://github.com/jonpalmisc/ibis",
@@ -7119,8 +7119,8 @@
     "longdescription": "Diffs the currently open binary against a second file dropped onto the view. Function matching is performed by QBinDiff (Quarkslab) driven by a native Binary Ninja loader backend, so no intermediate export file (Quokka, BinExport) is required. Results are presented as a sortable function match table plus side-by-side panes for control flow graphs, assembly, and all three Binary Ninja IL levels. Also registers QBinDiff as a provider for Binary Ninja's Binary Similarity sessions, where it can run alongside Google BinDiff and WARP and be weighed against them by a resolver; that half works headlessly and needs no UI.\n\n### Changelog\nAdds support for the binary similarity feature. qbindiff can be used as a backend for it.",
     "minimumbinaryninjaversion": 10271,
     "name": "Binja Diff",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/e7b937b5-31bb-4f19-b046-aaabaf0547db/platforms/3865/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/e7b937b5-31bb-4f19-b046-aaabaf0547db/platforms/3865/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/e7b937b5-31bb-4f19-b046-aaabaf0547db/platforms/3866/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/0258ff8a-9805-4890-825d-ac9233cb6d45/versions/e7b937b5-31bb-4f19-b046-aaabaf0547db/platforms/3866/download?notrack=1",
     "path": "binjadiff",
     "platforms": [
       "Darwin",
@@ -7129,7 +7129,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 88,
+      "stargazers_count": 89,
       "updated_at": "2026-08-18 14:25:38+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/binja-diff/",
@@ -7594,7 +7594,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 16,
+      "stargazers_count": 17,
       "updated_at": "2026-06-19 08:58:40+00:00"
     },
     "projectUrl": "https://github.com/Martyx00/VulnFanatic-NG",
@@ -7886,16 +7886,16 @@
     "description": "MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1787064212,
+    "lastUpdated": 1787104516,
     "license": {
       "name": "MIT",
       "text": "MIT License\r\n\r\nCopyright (c) 2026 J. DeFrancesco\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
     },
-    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\n**Full Changelog**: https://github.com/jdefrancesco/MSP430X-Lens/compare/0.4.0...0.5.0",
+    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\n## Highlights\n- Improved MSP430X call recovery so proven local call-site fixes do not invent extra ABI arguments.\n- Added MSP430 ABI helper metadata support: accepted `__MSP430_*` aliases, canonicalized recognized helpers to `__mspabi_*`, applied helper prototypes/comments where safe, and handled special two-64-bit helpers conservatively.\n- Added raw firmware helper candidate reporting plus manual raw function symbol import/paste workflows for stripped binaries.\n- Expanded MSP430F5438 header/SFR recovery with a Binary Ninja-friendly header, volatile SFR data variables, bit/preset enum annotations, and stale alias cleanup.\n- Added MSP430 ABI reference documentation and TODO notes for future helper implementation signature matching.\n\n## Verification\n- `make test` passed: 115 tests.\n\nNote: automatic ABI helper implementation matching is intentionally deferred; this release provides helper catalogs and manual address/name import.",
     "minimumbinaryninjaversion": 9757,
     "name": "MSP430X Lens",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/cfc10161-4198-42bc-ab70-466dc436251b/platforms/3871/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/cfc10161-4198-42bc-ab70-466dc436251b/platforms/3871/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/ab061cb7-2d4a-47d7-b30b-7cf929798b00/platforms/3877/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/ab061cb7-2d4a-47d7-b30b-7cf929798b00/platforms/3877/download?notrack=1",
     "path": "msp430xlens",
     "platforms": [
       "Darwin",
@@ -7905,14 +7905,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 0,
-      "updated_at": "2026-08-18 14:43:32+00:00"
+      "updated_at": "2026-08-19 01:55:16+00:00"
     },
     "projectUrl": "https://github.com/jdefrancesco/MSP430X-Lens",
     "subdir": "",
     "type": [
       "architecture"
     ],
-    "version": "0.5.0",
+    "version": "0.6.0",
     "view_only": false
   },
   {
