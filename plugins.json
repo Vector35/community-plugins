@@ -1957,7 +1957,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 744,
+      "stargazers_count": 743,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -3227,7 +3227,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2572,
+      "stargazers_count": 2571,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -6357,7 +6357,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 669,
+      "stargazers_count": 670,
       "updated_at": "2026-06-15 13:51:10+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6829,44 +6829,6 @@
       "platform"
     ],
     "version": "1.0.0",
-    "view_only": false
-  },
-  {
-    "api": [
-      "python3"
-    ],
-    "author": "lele394",
-    "dependencies": "",
-    "description": "Download and manage themes from different repos.",
-    "installinstructions": {},
-    "is_paid": false,
-    "lastUpdated": 1782899473,
-    "license": {
-      "name": "MIT",
-      "text": "Copyright (c) 2026 L\u00e9o BECHET\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-    },
-    "longdescription": "# A Theme Manager For Binary Ninja\n\n> Developed for Binary Ninja 5.3\n\nA simple plugin for browsing, installing, and applying community `.bntheme` themes inside Binary Ninja.\n\n## Preview\n\n![Theme Manager](rsc/image.png)\n\n## What it does\n\n- Lists themes from configured GitHub repositories, grouped in a collapsible list\n- Shows installed themes locally\n- Live preview of a theme \u2014 a sample linear view and flow graph rendered with the\n  theme's own colors, before you apply it (remote themes are fetched on demand)\n- Installs and applies themes directly from the UI\n- Search/filter with a quick-clear button\n\n## Storage\n\nInstalled themes are saved under Binary Ninja's user directory (platform-dependent),\nin the `community-themes/` subfolder \u2014 e.g. on Linux:\n\n```\n~/.binaryninja/community-themes/\n```\n\n## Usage\n\nOpen:\n\n```\nPlugins \u2192 Theme Manager\n```\n\nThen:\n- **Select** a theme in the list to preview it\n- Click **Install** to download a remote theme, or **Set Active** to apply an\n  installed one (may need restart)\n\n## Supported repos\n\n- Vector35 \u2013 community themes  \n  https://github.com/Vector35/community-themes\n\n- Catppuccin \u2013 Binary Ninja themes  \n  https://github.com/catppuccin/binary-ninja/tree/main/themes\n\n- Dracula \u2013 Binary Ninja theme  \n  https://github.com/dracula/binary-ninja\n\n- Evan Richter \u2013 Base16 Binary Ninja colors  \n  https://github.com/evanrichter/base16-binary-ninja\n\n- FuzzySecurity \u2013 Binary Ninja themes  \n  https://github.com/FuzzySecurity/BinaryNinja-Themes\n\n## Requirements\n\n- Binary Ninja 5.3+\n- Internet access for fetching themes\n\n\n\n### Changelog\n* add preview UI and fix a few bugs by @psifertex in https://github.com/lele394/Binary-Ninja-Theme-Manager/pull/3",
-    "minimumbinaryninjaversion": 8104,
-    "name": "Theme Manager",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/b746ffa9-7ec3-4f89-a26b-88dea5b84c1a/versions/70956616-b844-4ba8-a87d-c24e03f43d91/platforms/3613/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/b746ffa9-7ec3-4f89-a26b-88dea5b84c1a/versions/70956616-b844-4ba8-a87d-c24e03f43d91/platforms/3613/download?notrack=1",
-    "path": "lele394_Binary_Ninja_Theme_Manager",
-    "platforms": [
-      "Darwin",
-      "Linux",
-      "Windows"
-    ],
-    "pluginmetadataversion": 2,
-    "projectData": {
-      "stargazers_count": 0,
-      "updated_at": "2026-07-01 09:51:13+00:00"
-    },
-    "projectUrl": "https://github.com/lele394/Binary-Ninja-Theme-Manager",
-    "subdir": "",
-    "type": [
-      "ui"
-    ],
-    "version": "0.2.0",
     "view_only": false
   },
   {
