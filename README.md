@@ -193,7 +193,6 @@
 | [Syscaller](https://github.com/carstein/Syscaller)|Michal Melewski|Decorate encountered syscalls with details like name and arguments|2019-07-15|helper|python3|MIT |
 | [Tag Team](https://github.com/psifertex/tagteam)|psifertex|Tags functions using emoji for a number of interesting characteristics|2021-03-12|helper|python3|Apache-2.0 |
 | [TE Loader](https://github.com/zznop/te-loader)|Brandon Miller|Binary Ninja plugin for loading EFI Terse Executable files|2024-02-28|architecture|python3|MIT |
-| [Theme Manager](https://github.com/lele394/Binary-Ninja-Theme-Manager)|lele394|Download and manage themes from different repos.|2026-07-01|ui|python3|MIT |
 | [themida-unmutate-bn](https://github.com/ergrelet/themida-unmutate-bn)|Erwan Grelet|Static deobfuscator for Themida, WinLicense and Code Virtualizer 3.x's mutation-based obfuscation.|2024-07-28|helper|python3|GPL-3.0-or-later |
 | [Translation Plugin](https://github.com/psifertex/translation-plugin)|psifertex|Translate strings and symbols|2025-09-26|helper|python3|MIT |
 | [Type Oxidizer](https://github.com/austinzwile/TypeOxidizer)|austinzwile / azw|TypeOxidizer converts the C-Style types in your HLIL / decompilation to their Rust equivalents for easier reading / interpretation and shorter decompilation.|2025-02-24|binaryview, helper, ui|python3|MIT |
