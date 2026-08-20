@@ -186,6 +186,7 @@
 | [Simple YARA Generator](https://github.com/1337-42/SimpleYaraBN)|Remco Sprooten|Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/A...|2025-07-01|ui|python3|MIT |
 | [Sludge Content Sidebar](https://github.com/CouleeApps/sludge_content_sidebar)|Glenn Smith|Brainrot stimulator|2026-04-01|ui, helper|python3|MIT |
 | [Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|mechanicalnull|Synchronized source code pane for debug binaries|2019-07-15|ui, helper|python2, python3|MIT |
+| [Swatch](https://github.com/psifertex/Swatch)|psifertex (original by lele394)|Browse, preview, and install themes from within Binary Ninja. Shows live linear and graph view previews before switching.|2026-08-20|ui|python3|MIT |
 | [Swift Analyzer](https://github.com/FFRI/binja-swift-analyzer)|Koh M. Nakagawa|Binary Ninja plugin for analyzing Swift binaries|2025-10-20|core, helper|python3|Apache License, Version 2.0 |
 | [Swift Demangler](https://github.com/saagarjha/binja-swift-demangler)|Saagar Jha|Demangles Swift functions.|2025-06-01|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Switch Loader](https://github.com/EliseZeroTwo/Switch-Binja-Loader)|EliseZeroTwo|Loader for common Nintendo Switch binaries|2020-07-22|binaryview, helper|python3|ISC |
