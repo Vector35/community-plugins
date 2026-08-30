@@ -279,16 +279,16 @@
     "description": "Annotation of Apple libclosure blocks.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1756037846,
+    "lastUpdated": 1788116228,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024 Daniel Roethlisberger\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# Apple Blocks Plugin\nAuthor: Daniel Roethlisberger\n\nAnnotation of Apple [libclosure](https://github.com/apple-oss-distributions/libclosure) [blocks](https://clang.llvm.org/docs/BlockLanguageSpec.html).\n\n## Description\n\nType annotation of stack and global blocks, block descriptors, variables closed\nover and related function signatures in [Binary Ninja](https://binary.ninja/).\nBlocks are an implementation of closures often found in C, C++, ObjC and ObjC++\ncode for Apple platforms.  Blocks are distinct from C++ lambdas.\n\n![Screenshot comparing before and after annotation](https://github.com/droe/binja-blocks/blob/0.4.0/.github/img/showcase.png?raw=true)\n\nCommands:\n\n-   Annotate all blocks\n-   Annotate all global blocks\n-   Annotate all stack blocks\n-   Annotate global block here\n-   Annotate stack block here\n-   Annotate stack byref here\n\nFeatures:\n\n-   Find and annotate global and stack blocks\n-   Annotate block imported variables based on inline or out-of-line\n    generic helper info or extended layout\n-   Annotate block invoke function type based on encoded block ObjC type\n    signature\n-   Annotate block descriptors, copy/dispose functions, generic helper info\n    and out-of-line extended layout bytecode\n-   Annotate stack byrefs (`__block` variables) based on non-extended\n    layout or inline or out-of-line extended layout, including keep and\n    destroy functions\n-   Define per-block and per-byref named structs to allow for manual fixups\n-   Define structs for fully manual annotation: `Block_literal`,\n    `Block_descriptor_1`, `Block_descriptor_2`, `Block_descriptor_3`,\n    `Block_byref_1`, `Block_byref_2`, `Block_byref_3`\n\nKnown limitations:\n\n-   Automatic discovery of blocks and byrefs on the stack is unreliable by\n    nature and depends on Binary Ninja's ability to lift into clean HLIL\n-   The current implementation is very slow due to relying on re-analysis,\n    operating on HLIL, and using a strictly serial algorithm\n-   No support for 32-bit architectures\n-   No support for \"small descriptors\", \"old GC layout\", older block layout before\n    the introduction of block descriptors\n-   Byrefs passed as function arguments are not automatically discovered\n\n## References\n\nBlocks language docs:\n\n-   [Blocks Programming Topics](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Blocks/), Apple Documentation Archive\n-   [LLVM Block Language Spec](https://clang.llvm.org/docs/BlockLanguageSpec.html)\n\nBlocks implementation details:\n\n-   [libclosure](https://github.com/apple-oss-distributions/libclosure), source code and two spec documents\n-   [LLVM Block ABI](https://clang.llvm.org/docs/Block-ABI-Apple.html)\n\nObjective-C Type Encodings:\n\n-   [Type Encodings](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html), Objective-C Runtime Programming Guide, Apple Documentation Archive\n-   [LLVM code emitting type encodings](https://github.com/llvm-mirror/clang/blob/master/lib/AST/ASTContext.cpp)\n\n## License\n\nThis plugin is released under an [MIT license](./license).\n\n\n### Changelog\nDocumentation-only release intended to fix display of the plugin in Binary Ninja's plugin manager.\r\n\r\n**Full Changelog**: https://github.com/droe/binja-blocks/compare/0.4.3...0.4.4",
+    "longdescription": "# Apple Blocks Plugin\nAuthor: Daniel Roethlisberger\n\nAnnotation of Apple [libclosure](https://github.com/apple-oss-distributions/libclosure) [blocks](https://clang.llvm.org/docs/BlockLanguageSpec.html).\n\n## Description\n\nType annotation of stack and global blocks, block descriptors, variables closed\nover and related function signatures in [Binary Ninja](https://binary.ninja/).\nBlocks are an implementation of closures often found in C, C++, ObjC and ObjC++\ncode for Apple platforms.  Blocks are distinct from C++ lambdas.\n\n![Screenshot comparing before and after annotation](https://github.com/droe/binja-blocks/blob/0.4.0/.github/img/showcase.png?raw=true)\n\nCommands:\n\n-   Annotate all blocks\n-   Annotate all global blocks\n-   Annotate all stack blocks\n-   Annotate global block here\n-   Annotate stack block here\n-   Annotate stack byref here\n\nFeatures:\n\n-   Find and annotate global and stack blocks\n-   Annotate block imported variables based on inline or out-of-line\n    generic helper info or extended layout\n-   Annotate block invoke function type based on encoded block ObjC type\n    signature\n-   Annotate block descriptors, copy/dispose functions, generic helper info\n    and out-of-line extended layout bytecode\n-   Annotate stack byrefs (`__block` variables) based on non-extended\n    layout or inline or out-of-line extended layout, including keep and\n    destroy functions\n-   Define per-block and per-byref named structs to allow for manual fixups\n-   Define structs for fully manual annotation: `Block_literal`,\n    `Block_descriptor_1`, `Block_descriptor_2`, `Block_descriptor_3`,\n    `Block_byref_1`, `Block_byref_2`, `Block_byref_3`\n\nKnown limitations:\n\n-   Automatic discovery of blocks and byrefs on the stack is unreliable by\n    nature and depends on Binary Ninja's ability to lift into clean HLIL\n-   The current implementation is very slow due to relying on re-analysis,\n    operating on HLIL, and using a strictly serial algorithm\n-   No support for 32-bit architectures\n-   No support for \"small descriptors\", \"old GC layout\", older block layout before\n    the introduction of block descriptors\n-   Byrefs passed as function arguments are not automatically discovered\n\n## References\n\nBlocks language docs:\n\n-   [Blocks Programming Topics](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Blocks/), Apple Documentation Archive\n-   [LLVM Block Language Spec](https://clang.llvm.org/docs/BlockLanguageSpec.html)\n\nBlocks implementation details:\n\n-   [libclosure](https://github.com/apple-oss-distributions/libclosure), source code and two spec documents\n-   [LLVM Block ABI](https://clang.llvm.org/docs/Block-ABI-Apple.html)\n\nObjective-C Type Encodings:\n\n-   [Type Encodings](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html), Objective-C Runtime Programming Guide, Apple Documentation Archive\n-   [LLVM code emitting type encodings](https://github.com/llvm-mirror/clang/blob/master/lib/AST/ASTContext.cpp)\n\n## License\n\nThis plugin is released under an [MIT license](./license).\n\n\n### Changelog\n## What's Changed\r\n* Binary Ninja 6: Add support for HLIL_STRUCT_INIT by @psifertex in https://github.com/droe/binja-blocks/pull/39\r\n\r\n## New Contributors\r\n* @psifertex made their first contribution in https://github.com/droe/binja-blocks/pull/39\r\n\r\n**Full Changelog**: https://github.com/droe/binja-blocks/compare/0.4.4...0.4.5",
     "minimumbinaryninjaversion": 6455,
     "name": "Apple Blocks",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d7190647-a4b9-4dd7-8a3c-df35640991c8/versions/4e7690f8-a68b-4e68-85b5-ee9f5d21a0e8/platforms/2600/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d7190647-a4b9-4dd7-8a3c-df35640991c8/versions/4e7690f8-a68b-4e68-85b5-ee9f5d21a0e8/platforms/2600/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d7190647-a4b9-4dd7-8a3c-df35640991c8/versions/b0a28947-d304-47f5-acd0-f0463521999b/platforms/3913/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d7190647-a4b9-4dd7-8a3c-df35640991c8/versions/b0a28947-d304-47f5-acd0-f0463521999b/platforms/3913/download?notrack=1",
     "path": "droe_binjablocks",
     "platforms": [
       "Darwin",
@@ -298,14 +298,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 34,
-      "updated_at": "2025-08-24 12:17:26+00:00"
+      "updated_at": "2026-08-30 18:57:08+00:00"
     },
     "projectUrl": "https://github.com/droe/binja-blocks",
     "subdir": "",
     "type": [
       "helper"
     ],
-    "version": "0.4.4",
+    "version": "0.4.5",
     "view_only": false
   },
   {
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1128,
+      "stargazers_count": 1130,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1957,7 +1957,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 744,
+      "stargazers_count": 745,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2342,7 +2342,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 856,
+      "stargazers_count": 855,
       "updated_at": "2022-11-03 17:37:14+00:00"
     },
     "projectUrl": "https://github.com/crytic/ethersplay",
@@ -3035,7 +3035,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2378,
+      "stargazers_count": 2379,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3227,7 +3227,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2577,
+      "stargazers_count": 2578,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3608,7 +3608,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 675,
+      "stargazers_count": 676,
       "updated_at": "2026-05-20 14:19:13+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -4812,7 +4812,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 62,
+      "stargazers_count": 63,
       "updated_at": "2020-06-01 17:51:34+00:00"
     },
     "projectUrl": "https://github.com/chame1eon/binaryninja-frida",
@@ -7908,7 +7908,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "updated_at": "2026-08-04 16:37:23+00:00"
     },
     "projectUrl": "https://github.com/YungBinary/binja-nativeaot",
