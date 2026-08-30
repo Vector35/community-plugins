@@ -10,7 +10,7 @@
 | [Add XFG Xref](https://github.com/xusheng6/add-xfg-xref)|Xusheng|Add xref from caller to callee based on XFG hashes|2023-06-11|helper|python3|MIT |
 | [AMD-SP/PSP Loader](https://github.com/dayzerosec/AMD-SP-Loader)|dayzerosec|Loader for AMD-SP or PSP firmware binaries.|2023-01-29|binaryview|python3|MIT |
 | [Annotate Functions](https://github.com/bkerler/annotate)|B.Kerler with code from John Levy and @carstein|A plugin that annotates function arguments.|2019-07-09|binaryview|python2, python3|MIT |
-| [Apple Blocks](https://github.com/droe/binja-blocks)|Daniel Roethlisberger|Annotation of Apple libclosure blocks.|2025-08-24|helper|python3|MIT |
+| [Apple Blocks](https://github.com/droe/binja-blocks)|Daniel Roethlisberger|Annotation of Apple libclosure blocks.|2026-08-30|helper|python3|MIT |
 | [ar (.a) archive container transform](https://github.com/ArcaneNibble/binja-ar)|ArcaneNibble|Plugin for ar (.a) archives of object files|2025-12-21|binaryview|python3|BSD-0-clause |
 | [Ariadne](https://github.com/seeinglogic/ariadne)|Mark Griffin (@seeinglogic)|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|2025-02-15|ui, helper|python3|MIT |
 | [Auto Enum](https://github.com/junron/auto-enum)|Lam Jun Rong|Automatically set enums for standard functions|2025-01-16|helper|python3|MIT |
