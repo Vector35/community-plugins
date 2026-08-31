@@ -21,7 +21,7 @@
 | [Binary Ninja Type Manager](https://github.com/Ayrx/binja-typemanager)|Terry Chia|Manage custom type libraries.|2021-01-30|helper|python3|MIT |
 | [Binary Ninja Wrapped](https://github.com/psifertex/bnwrap)|Jordan Wiens|Shows statistics about your Binary Ninja usage. Also includes a 'Time Wasted Debugging' timer widget for the status bar (disabled by default, enable in settings).|2026-07-09|ui|python3|MIT |
 | [BinAssist](https://github.com/jtang613/BinAssist)|Jason Tang|A plugin that provides LLM helpers to explain code and assist in RE.|2026-05-25|ui, helper|python3|MIT |
-| [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-08-27|binaryview, helper, ui|python3|MIT |
+| [BinAssistMCP](https://github.com/jtang613/BinAssistMCP)|Jason Tang|Comprehensive MCP server for Binary Ninja with dual transport support (SSE and STDIO)|2026-08-31|binaryview, helper, ui|python3|MIT |
 | [binja delink](https://github.com/alecnunn/binja_delink)|Alec Nunn|Plugin that splits up PEs and ELFs into individual object files per-function|2026-07-16|helper|python3|Unlicense |
 | [Binja Diff](https://github.com/matteyeux/binja-diff/)|matteyeux|A Binary Ninja plugin for side-by-side binary diffing, powered by QBinDiff.|2026-08-18|analysis, helper|python3|Apache 2.0 |
 | [Binja IPython console](https://github.com/skr0x1c0/ipybinja)|skr0x1c0|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|python3|MIT |
