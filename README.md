@@ -70,6 +70,7 @@
 | [DeGObfuscate](https://github.com/kryptoslogic/binja_degobfuscate)|Jamie Hankins|De-obfuscates strings inside of obfuscated Go binaries|2020-12-02|helper|python3|MIT |
 | [Delphi Mapper](https://github.com/CTM1/BinjaDelphiMapper)|Claudio Teixeira|A plugin that renames Delphi functions according to a .map file produced by IDR.|2024-01-11|binaryview|python2, python3|MIT |
 | [Delphi VMT Analyzer](https://github.com/ImNotAVirus/delphi_ninja)|ImNotAVirus|Find Delphi VMTs and generate their structures|2022-02-21|helper|python3|MIT |
+| [Delphinja](https://github.com/psifertex/delphinja)|Jordan Wiens|Recovers Delphi/VCL class metadata, demangles Borland symbols, and ships WARP signatures for the Delphi runtime|2026-09-03|platform|python3|MIT |
 | [Dependency analyzer](https://github.com/shizmob/binja-depanalyzer)|Shiz|Analyze dependencies and resolve obfuscated imports|2020-05-25|helper|python2, python3|MIT |
 | [Dev Tools for Tantō](https://github.com/ElykDeer/tanto-devtools)|Elykdeer|Instruction Slices, IL Hierarchy Slices, Dominance Slices, and other tools for devs. Requires Tantō.|2026-04-15|ui, helper|python3|MIT |
 | [devi](https://github.com/murx-/devi_binja)|@_murks|devi - DEvirtualize VIrtual calls in C++ binaries|2020-11-04|ui, helper|python3|MIT |
