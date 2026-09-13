@@ -91,7 +91,7 @@
 | [Format String Finder](https://github.com/Vasco-jofra/format-string-finder-binja)|jofra|Finds format string vulnerabilities|2019-07-15|helper|python3|MIT |
 | [Frida](https://github.com/chame1eon/binaryninja-frida)|Chame1eon|A plugin to integrate the Frida dynamic instrumentation toolkit into Binary Ninja.|2020-06-01|helper|python3|MIT |
 | [Frinja](https://github.com/dzervas/frinja)|Dimitris Zervas|Frida plugin for Binary Ninja - continuation of BinRida by @c3r34lk1ll3r|2024-04-10|helper|python3|MIT |
-| [FTAB Container Transform](https://github.com/lukbukkit/ftab-transform)|Lukas Arnold|Provides container transforms for firmware in Apple's FTAB format.|2026-09-09|binaryview|python3|MIT |
+| [FTAB Container Transform](https://github.com/lukbukkit/ftab-transform)|Lukas Arnold|Provides container transforms for firmware in Apple's FTAB format.|2026-09-11|binaryview|python3|MIT |
 | [Function ABI](https://github.com/whitequark/binja_function_abi)|whitequark|A plugin that adds a GUI for changing function ABI.|2019-11-22|ui|python2, python3|BSD-0-clause |
 | [Fuzzable](https://github.com/ex0dus-0x/fuzzable)|ex0dus-0x|Framework for Automating Fuzzable Target Discovery with Static Analysis|2023-11-22|ui|python3|MIT |
 | [Game Boy Loader and Architecture Plugin](https://github.com/icecr4ck/bnGB)|Hugo Porcher (@icecr4ck)|A loader and diassembler for Game Boy ROMs.|2020-11-17|architecture, binaryview|python3|MIT |
@@ -135,7 +135,7 @@
 | [logrn](https://github.com/sum-catnip/logrn)|catnip|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT |
 | [MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|Known Rabbit|MCP Server for Binary Ninja.|2025-05-11|ui, helper|python3|Apache-2.0 |
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
-| [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2025-08-08|helper|python3|MIT |
+| [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2026-09-13|helper|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
 | [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-07-10|ui, helper|python3|Apache-2.0 |
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2026-01-29|binaryview, core, ui|python3|MIT |
@@ -205,7 +205,7 @@
 | [TypeLib Exporter](https://github.com/SmoothHacker/TypeLib-Exporter)|SmoothHacker|This plugin compiles exported functions and its corresponding types into a type library. Type libraries can also be applied to existing bndbs through this plugin.|2025-12-31|binaryview, helper, ui|python3|MIT |
 | [VirusTotal Code Insights](https://github.com/txhaflaire/virustotal_code_insights)|thijs.xhaflaire|Analyze a function or highlighted code using VirusTotal Code Insights (Google Threat Intelligence).|2025-12-09|architecture, binaryview, core, helper, ui|python3|MIT |
 | [VMNDH-2k12 Architecture Plugin](https://github.com/verylazyguy/binaryninja-vmndh)|verylazyguy|A disassembler and lifter for the VMNDH-2k12 architecture.|2019-07-10|architecture|python2, python3|MIT |
-| [vt-binary-ninja-plugin](https://github.com/kevinmuoz/vt-binary-ninja-plugin)|Kevin Muñoz|Integrates VirusTotal's powerful analysis capabilities directly into your reverse engineering workflow.|2026-03-19|core, helper, ui|python3|Apache-2.0 |
+| [vt-binary-ninja-plugin](https://github.com/kevinmuoz/vt-binary-ninja-plugin)|Kevin Muñoz|Integrates VirusTotal's powerful analysis capabilities directly into your reverse engineering workflow.|2026-09-13|core, helper, ui|python3|Apache-2.0 |
 | [VTIL Plugin](https://github.com/vtil-project/VTIL-BinaryNinja)|dword64 and layle|Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja|2026-04-02|architecture, binaryview|python2, python3|BSD-3-Clause |
 | [VulnFanatic-NG](https://github.com/Martyx00/VulnFanatic-NG)|Martyx00|LLM-assisted vulnerability research over Binary Ninja decompiler output.|2026-06-19|ui, helper|python3|Apache 2.0 |
 | [WASM Plugin](https://github.com/ivision-research/binjawa)|Meador Inge|This is a plugin for disassembling and lifting WASM images..|2020-06-30|architecture, binaryview|python3|MIT |
