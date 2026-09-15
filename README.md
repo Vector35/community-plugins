@@ -113,7 +113,7 @@
 | [hexfiles](https://github.com/toolCHAINZ/hexfiles)|toolCHAINZ|A simple loader for Motorola SREC, Intel HEX, and TI-TXT files.|2024-04-09|binaryview|python3|MIT |
 | [HLIL Dump](https://github.com/atxsinn3r/BinjaHLILDump)|atxsinn3r|Dumps HLIL code to a directory|2020-06-07|helper|python2, python3|BSD-3-Clause |
 | [Hyara](https://github.com/hyuunnn/Hyara)|Hyun Yi|YARA rule making tool for Binary Ninja, Cutter, and IDA|2023-11-13|ui|python2, python3|MIT |
-| [Ibis](https://github.com/jonpalmisc/ibis)|jonpalmisc|Segment-accurate iBoot/SecureROM loader|2026-03-07|binaryview|python3|BSD 3-Clause |
+| [Ibis](https://github.com/jonpalmisc/ibis)|jonpalmisc|Segment-accurate iBoot/SecureROM loader|2026-09-14|binaryview|python3|BSD 3-Clause |
 | [iBoot64 Loader](https://github.com/BlackwingHQ/iBoot64Binja)|Blackwing Intelligence|Binary View for loading iBoot, SecureROM, etc. firmware|2020-10-01|binaryview|python3|MIT |
 | [iBootLoader](https://github.com/EliseZeroTwo/iBoot-Binja-Loader)|EliseZeroTwo|iBoot/SecureROM Loader|2023-02-24|binaryview, helper|python3|ISC |
 | [IDC Importer](https://github.com/Cryptogenic/idc_importer)|SpecterDev|Allows users to import idc database dumps from IDA into Binary Ninja.|2022-10-13|helper|python3|MIT |
