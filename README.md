@@ -141,11 +141,11 @@
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2026-01-29|binaryview, core, ui|python3|MIT |
 | [Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|Galen Williamson|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT |
 | [msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|Josh Watson|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT |
-| [MSP430X Lens](https://github.com/jdefrancesco/MSP430X-Lens)|Joey DeFrancesco|MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map|2026-08-25|architecture|python3|MIT |
+| [MSP430X Lens](https://github.com/jdefrancesco/MSP430X-Lens)|Joey DeFrancesco|MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map|2026-09-16|architecture|python3|MIT |
 | [MSVC](https://github.com/0x1F9F1/binja-msvc)|Brick|Parses MSVC structures to improve analysis|2019-07-12|helper|python2, python3|MIT |
 | [mtkview](https://github.com/osecurio/mtkview)|osecurio|Loads GFH preloader binaries and MTK Little Kernel partitions|2026-07-15|binaryview|rust|MIT License |
 | [Nampa](https://github.com/thebabush/nampa)|Paolo Montesel (https://github.com/thebabush)|FLIRT for (binary) ninjas|2020-05-27|binaryview, core|python3|LGPL v3 |
-| [Native Predicate Solver](https://github.com/ScriptWare-Software/native-predicate-solver_loader)|ScriptWare Software|Remove opaque predicates from binaries|2025-06-29|helper|python3|MIT |
+| [Native Predicate Solver](https://github.com/ScriptWare-Software/native-predicate-solver_loader)|ScriptWare Software|Remove opaque predicates from binaries|2026-09-15|helper|python3|MIT |
 | [Native SigScan](https://github.com/rikodot/binja_native_sigscan_loader)|rikodot|Find and create signatures|2024-08-13|helper|python2, python3|MIT |
 | [NativeAOT](https://github.com/YungBinary/binja-nativeaot)|YungBinary|Recover .NET Native AOT metadata in Binary Ninja — type hierarchy, virtual methods, and string literals from symbol-stripped binaries.|2026-08-04|analysis, binaryview, platform|python3|MIT |
 | [NEC850 Architecture](https://github.com/Accenture/NEC850_Architecture)|Accenture (Martin Petran)|Architecture plugin for Renesas RH850/V850 family of processors.|2025-01-22|architecture|C++|Apache-2.0 |
