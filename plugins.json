@@ -841,7 +841,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 83,
+      "stargazers_count": 82,
       "updated_at": "2025-03-01 05:53:02+00:00"
     },
     "projectUrl": "https://github.com/unknowntrojan/binja_coolsigmaker",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1135,
+      "stargazers_count": 1137,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -2380,7 +2380,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 106,
+      "stargazers_count": 107,
       "updated_at": "2025-02-15 00:29:08+00:00"
     },
     "projectUrl": "https://github.com/seeinglogic/ariadne",
@@ -3035,7 +3035,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2386,
+      "stargazers_count": 2385,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3227,7 +3227,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2580,
+      "stargazers_count": 2579,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -6064,20 +6064,20 @@
       "python3"
     ],
     "author": "ScriptWare Software",
-    "dependencies": "requests\nbs4",
+    "dependencies": "requests",
     "description": "Remove opaque predicates from binaries",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1751235844,
+    "lastUpdated": 1789508175,
     "license": {
       "name": "MIT",
       "text": "MIT License\n\nCopyright (c) 2025 Script-Ware Software\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "This plugin removes conditional branches that always evaluate to the same value. Written in C++ for speed - faster than the Python version, especially on large binaries. Uses multiple threads to process functions in parallel, and will iteratively perform passes through functions to clean up newly uncovered opaque predicates.\r\n\r\n## Features\r\n\r\n- Fast native C++ implementation\r\n- Multi-threaded parallel processing\r\n- Iterative analysis to catch nested predicates\r\n- Works on individual functions or entire binaries\r\n- Configurable pass limits and thread count\r\n\r\n## Example\r\n\r\n### Before:\r\n![Before example](https://github.com/ScriptWare-Software/native-predicate-solver/blob/master/img/before.png?raw=true)\r\n\r\n### After:\r\n![After example](https://github.com/ScriptWare-Software/native-predicate-solver/blob/master/img/after.png?raw=true)\r\n\r\nThis plugin serves as a loader for the [native C++ plugin](https://github.com/ScriptWare-Software/native-predicate-solver).\n\n### Changelog\nAdded support for builds supporting v5.0.7648",
+    "longdescription": "This plugin removes conditional branches that always evaluate to the same value. Written in C++ for speed - faster than the Python version, especially on large binaries. Uses multiple threads to process functions in parallel, and will iteratively perform passes through functions to clean up newly uncovered opaque predicates.\n\n## Features\n\n- Fast native C++ implementation\n- Multi-threaded parallel processing\n- Iterative analysis to catch nested predicates\n- Works on individual functions or entire binaries\n- Configurable pass limits and thread count\n\n## Example\n\n### Before:\n![Before example](https://github.com/ScriptWare-Software/native-predicate-solver/blob/master/img/before.png?raw=true)\n\n### After:\n![After example](https://github.com/ScriptWare-Software/native-predicate-solver/blob/master/img/after.png?raw=true)\n\nThis plugin serves as a loader for the [native C++ plugin](https://github.com/ScriptWare-Software/native-predicate-solver).\n\n### Changelog\nBump version to fix plugin installation.",
     "minimumbinaryninjaversion": 4100,
     "name": "Native Predicate Solver",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/2ee1b324-d871-4387-abe2-93aa49405d8d/versions/4afd098e-2fb2-48c9-b3f3-d1c45ddc7e1f/platforms/2474/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/2ee1b324-d871-4387-abe2-93aa49405d8d/versions/4afd098e-2fb2-48c9-b3f3-d1c45ddc7e1f/platforms/2474/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/2ee1b324-d871-4387-abe2-93aa49405d8d/versions/d1399560-fe6a-4259-b1e9-344dde5299ba/platforms/3991/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/2ee1b324-d871-4387-abe2-93aa49405d8d/versions/d1399560-fe6a-4259-b1e9-344dde5299ba/platforms/3991/download?notrack=1",
     "path": "ScriptWareSoftware_nativepredicatesolver_loader",
     "platforms": [
       "Darwin",
@@ -6087,14 +6087,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 3,
-      "updated_at": "2025-06-29 22:24:04+00:00"
+      "updated_at": "2026-09-15 21:36:15+00:00"
     },
     "projectUrl": "https://github.com/ScriptWare-Software/native-predicate-solver_loader",
     "subdir": "",
     "type": [
       "helper"
     ],
-    "version": "1.0.1",
+    "version": "1.0.3",
     "view_only": false
   },
   {
@@ -6938,7 +6938,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 95,
+      "stargazers_count": 94,
       "updated_at": "2026-04-02 18:53:07+00:00"
     },
     "projectUrl": "https://github.com/vtil-project/VTIL-BinaryNinja",
@@ -7852,16 +7852,16 @@
     "description": "MSPX430-Lens adds MSP430X firmware support to Binary Ninja, with a focus on the MSP430F5438/MSP430F5438A memory map",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1787672472,
+    "lastUpdated": 1789558314,
     "license": {
       "name": "MIT",
       "text": "MIT License\r\n\r\nCopyright (c) 2026 J. DeFrancesco\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE."
     },
-    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\nConservative high-bank function-cluster recovery for MSP430F5438/F5438A raw firmware, neutral `.backed_N` flash section names, and separate recovery of adjacent packed strings. Validated against the AegisNode F5438A image; all 161 automated tests pass.",
+    "longdescription": "Adds MSP430X instruction decoding, disassembly, LLIL lifting, and a mapped raw-firmware BinaryView. Raw firmware is the primary workflow, with ELF files supported as well. MSP430F5438 and MSP430F5438A are the currently tested device profiles. The loader seeds memory regions, interrupt vectors, conservative code islands, and TI header labels so firmware is ready for analysis.\n\n### Changelog\nMSP430X Lens 0.9.1 fixes Binary Ninja 6 compatibility for the mapped raw firmware loader.\\n\\n- Restore MSP430X default platform assignment on Binary Ninja 6.x while continuing to skip the crash-prone 5.4 family.\\n- Accept Binary Ninja 6 parameter-location metadata when preserving auto-inferred callee-saved parameters for R12 string-call recovery.\\n- Add regression coverage for BN 6 platform assignment and the 5.4 safety guard.\\n\\nValidation: make test (163 tests).",
     "minimumbinaryninjaversion": 9757,
     "name": "MSP430X Lens",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/eb28e272-38ed-4116-980f-f7f8750ffd81/platforms/3901/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/eb28e272-38ed-4116-980f-f7f8750ffd81/platforms/3901/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/748aacdc-39fc-4e62-82fd-3019356fa6ea/platforms/3997/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/ab8c6dbf-9922-48e6-8d28-64ae05319539/versions/748aacdc-39fc-4e62-82fd-3019356fa6ea/platforms/3997/download?notrack=1",
     "path": "msp430xlens",
     "platforms": [
       "Darwin",
@@ -7871,14 +7871,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 0,
-      "updated_at": "2026-08-25 15:41:12+00:00"
+      "updated_at": "2026-09-16 11:31:54+00:00"
     },
     "projectUrl": "https://github.com/jdefrancesco/MSP430X-Lens",
     "subdir": "",
     "type": [
       "architecture"
     ],
-    "version": "0.9.0",
+    "version": "0.9.1",
     "view_only": false
   },
   {
