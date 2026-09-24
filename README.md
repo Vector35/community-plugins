@@ -137,7 +137,7 @@
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
 | [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2026-09-13|helper|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
-| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-07-10|ui, helper|python3|Apache-2.0 |
+| [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-09-24|ui, helper|python3|Apache-2.0 |
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2026-01-29|binaryview, core, ui|python3|MIT |
 | [Motorola 68k Architecture Plugin](https://github.com/galenbwill/binaryninja-m68k)|Galen Williamson|A disassembler and lifter for the Motorola 68k architecture.|2022-06-10|architecture|python3|MIT |
 | [msp430 Architecture](https://github.com/joshwatson/binaryninja-msp430)|Josh Watson|MSP430 Architecture Plugin for Binary Ninja|2022-02-02|architecture|python3|MIT |
