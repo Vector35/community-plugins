@@ -133,6 +133,7 @@
 | [Leak Audit](https://github.com/Vector35/Leak-Audit)|Vector 35 Inc|A debugging tool for Binary Ninja plugin developers to detect and diagnose memory leaks related to BinaryView objects.|2025-11-11|helper|python3|Apache-2.0 |
 | [Lighthouse](https://github.com/gaasedelen/lighthouse)|Markus Gaasedelen|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT |
 | [logrn](https://github.com/sum-catnip/logrn)|catnip|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT |
+| [LoongArch64](https://github.com/noah0x1/LoongArch64-Binary-Ninja-Binja-Plug-in)|Noah1|LoongArch64 Binary Ninja|2026-09-25|architecture||MIT |
 | [MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|Known Rabbit|MCP Server for Binary Ninja.|2025-05-11|ui, helper|python3|Apache-2.0 |
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
 | [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2026-09-13|helper|python3|MIT |
