@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1141,
+      "stargazers_count": 1142,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -3035,7 +3035,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2388,
+      "stargazers_count": 2390,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -6339,16 +6339,16 @@
     "description": "Rikugan reverse engineering companion for Binary Ninja.\",",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1781531470,
+    "lastUpdated": 1790326701,
     "license": {
       "name": "MIT",
       "text": "Copyright 2026, buzzer-re\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \u201cSoftware\u201d), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \u201cAS IS\u201d, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "Rikugan embeds an agentic LLM workflow into Binary Ninja with native tooling, skills, and an integrated chat sidebar. Supports multiple LLM providers (Anthropic, OpenAI, Google, Ollama) and MCP tool servers.\n\n### Changelog\nv1.3.2 \u2014 Release Notes\r\n  \r\n  New\r\n\r\n  - Codex OAuth provider \u2014 first-party auth flow for OpenAI Codex; models are always fetched live, failed fetches surface as errors\r\n  - MiniMax M2.7 models \u2014 MiniMax-M2.7 and MiniMax-M2.7-Highspeed added to the MiniMax provider (contributed by @luckystars0612)\r\n  - Chat sidebar \u2014 multi-tab session list with status badges (Running / Approval / Queued / Error / Cancelled), search, and fork/export/delete actions\r\n  - \"Don't auto-load chats\" setting \u2014 skips replaying saved sessions on startup; chats are listed in the sidebar and materialized on demand\r\n  - Full GFM markdown in chat \u2014 tables with alignment, nested blockquotes and lists, task checkboxes, strikethrough, bold-italic, h5/h6, bare-URL autolinking\r\n  - Paged bulk renamer \u2014 function loading in the bulk renamer is now paged; improved tool paging and data reads in the agent\r\n\r\n  Fixes\r\n\r\n  - Abort provider streams on cancel (#48)\r\n  - Codex / session files now read as UTF-8 on Windows, fixing crashes on non-ASCII content and stale model lists\r\n  - Session restore I/O moved off the UI thread; typewriter buffer smooths bursty network at ~33fps; scroll-up intent respected during streaming\r\n  - Fixed dark-on-dark text in message cards; assistant bubble now warm taupe instead of cold grey; WCAG contrast maintained\r\n  - Fixed empty vertical band in assistant bubble caused by stale height cache\r\n  - Fixed markdown double-spacing (collapsed <br> runs against block elements)\r\n  - Fixed IDA theme: native dock colors respected, eliminated Base=white flash; fixed recursion crash on palette change\r\n  - Detect Binary Ninja Python on Windows; fix IDA batch script unicode symbols (#46)\r\n  - Sync plugin version metadata across all manifests (#45)",
+    "longdescription": "Rikugan embeds an agentic LLM workflow into Binary Ninja with native tooling, skills, and an integrated chat sidebar. Supports multiple LLM providers (Anthropic, OpenAI, Google, Ollama) and MCP tool servers.\n\n### Changelog\n# v1.4.0\r\n\r\n###  Chat redesign\r\n\r\n  The chat panel has been rebuilt for sidebar width, a welcome screen with the binary's details and starting suggestions, a header chat switcher, and an inline composer. Colours and fonts now come from the host palette, so it matches IDA and Binary Ninja instead of looking pasted in. IDA's light theme in particular was unreadable before; text, icons and the script-approval preview all follow the host theme now.\r\n\r\n###    Chats are organised by binary\r\n\r\n  Each file is a folder in the chat list. The binary you're working in stays open, the rest fold away with a count, and search reaches into folded folders. Reopening a binary lands on the chat you were last working in rather than the most recently created one, previously it was easy to start typing into a chat belonging to a different binary.\r\n\r\n###    Chat fixes\r\n\r\n  - Every healthy turn showed a red \"Error\"\r\n  - Assistant output rendered blank, or appeared and then vanished\r\n  - Long answers grew a blank band that got worse with each block; restored chats opened with a large gap\r\n  - The view didn't follow the stream, and the panel froze during tool calls,  Binary Ninja read-only tools now run off the UI thread\r\n\r\n###    Binary Ninja's MCP server\r\n\r\n  Rikugan detects Binary Ninja's own MCP server, asks once per binary, and hands its tools to the agent. It's one tool set or the other: Rikugan's own tools stand down while it's in use, and the toggle says so, including that you lose patching, scripting and /undo tracking while it's on.\r\n\r\n\r\n###    Other\r\n\r\n  - IDA installer no longer mistakes the macOS Python framework dylib for the interpreter \u2014 it was silently installing dependencies into an interpreter IDA doesn't load\r\n  - Claude 5 models had no entry in the limits table and fell back to 200K context / 8192 output instead of 1M / 128K, so conversations were compacted early and long answers truncated",
     "minimumbinaryninjaversion": 3164,
     "name": "Rikugan",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/bff86def-230e-4a62-920a-d9d3f1c2a46e/platforms/3571/download/",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/bff86def-230e-4a62-920a-d9d3f1c2a46e/platforms/3571/download/?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/7e00bea5-fda0-4cb2-aaf9-2c2f33b56757/platforms/4033/download/",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/7e00bea5-fda0-4cb2-aaf9-2c2f33b56757/platforms/4033/download/?notrack=1",
     "path": "buzzerre_rikugan",
     "platforms": [
       "Darwin",
@@ -6357,8 +6357,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 676,
-      "updated_at": "2026-06-15 13:51:10+00:00"
+      "stargazers_count": 675,
+      "updated_at": "2026-09-25 08:58:21+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
     "subdir": "",
@@ -6366,7 +6366,7 @@
       "ui",
       "helper"
     ],
-    "version": "1.3.2",
+    "version": "1.4.0",
     "view_only": false
   },
   {
@@ -7172,7 +7172,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 50,
+      "stargazers_count": 51,
       "updated_at": "2026-08-31 18:06:31+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssistMCP",
@@ -7678,7 +7678,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 8,
+      "stargazers_count": 9,
       "updated_at": "2026-04-01 06:39:10+00:00"
     },
     "projectUrl": "https://github.com/CouleeApps/sludge_content_sidebar",
