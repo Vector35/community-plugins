@@ -171,7 +171,7 @@
 | [ret-sync](https://github.com/bootleg/ret-sync)|Alexandre Gazet|Helper plugin to synchronize Binary Ninja with a debugging session|2022-01-21|helper|python3|MIT |
 | [ReverserAI](https://github.com/mrphrazer/reverser_ai)|Tim Blazytko|Provides automated reverse engineering assistance through the use of local large language models (LLMs) on consumer hardware.|2026-05-20|helper|python3|GPL-2.0 |
 | [revsync](https://github.com/lunixbochs/revsync)|lunixbochs|Realtime IDA Pro and Binary Ninja sync plugin|2020-05-14|ui|python2, python3|MIT |
-| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-06-15|ui, helper|python3|MIT |
+| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-09-25|ui, helper|python3|MIT |
 | [ripr](https://github.com/pbiernat/ripr)|Patrick Biernat|Package binary code as a Python class backed by Unicorn-Engine|2022-07-08|helper|python3|MIT |
 | [ROPNinja](https://github.com/alessaba/ROPNinja)|alessaba|Modern Binary Ninja ROP gadget sidebar and split-pane explorer.|2026-06-19|ui, helper|python3|MIT |
 | [RopView](https://github.com/elbee-cyber/RopView)|elbee|RopView is a gadget analysis framework for BinaryNinja capable of granular per-instruction based analysis and complex logical queries.|2025-02-25|binaryview, helper, ui|python3|MIT |
