@@ -12,6 +12,7 @@
 | [Annotate Functions](https://github.com/bkerler/annotate)|B.Kerler with code from John Levy and @carstein|A plugin that annotates function arguments.|2019-07-09|binaryview|python2, python3|MIT |
 | [Apple Blocks](https://github.com/droe/binja-blocks)|Daniel Roethlisberger|Annotation of Apple libclosure blocks.|2026-08-30|helper|python3|MIT |
 | [ar (.a) archive container transform](https://github.com/ArcaneNibble/binja-ar)|ArcaneNibble|Plugin for ar (.a) archives of object files|2025-12-21|binaryview|python3|BSD-0-clause |
+| [arborist](https://github.com/9hozt/arborist)|ghozt|Binary Ninja plugin that rebuilds a plausible source tree from the __FILE__ path strings passed to a logging or assert function.|2026-10-06|helper|python3|MIT |
 | [Ariadne](https://github.com/seeinglogic/ariadne)|Mark Griffin (@seeinglogic)|Browser-based interactive graph for viewing callgraph, static analysis, and coverage information|2025-02-15|ui, helper|python3|MIT |
 | [Auto Enum](https://github.com/junron/auto-enum)|Lam Jun Rong|Automatically set enums for standard functions|2025-01-16|helper|python3|MIT |
 | [Auto Utils](https://github.com/404d/autoutils)|404'd|Various auto analysis utilities|2020-12-12|helper|python3|MIT |
@@ -134,7 +135,7 @@
 | [Leak Audit](https://github.com/Vector35/Leak-Audit)|Vector 35 Inc|A debugging tool for Binary Ninja plugin developers to detect and diagnose memory leaks related to BinaryView objects.|2025-11-11|helper|python3|Apache-2.0 |
 | [Lighthouse](https://github.com/gaasedelen/lighthouse)|Markus Gaasedelen|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT |
 | [logrn](https://github.com/sum-catnip/logrn)|catnip|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT |
-| [LoongArch64](https://github.com/noah0x1/LoongArch64-Binary-Ninja-Binja-Plug-in)|Noah1|LoongArch64 Binary Ninja|2026-09-26|architecture||MIT |
+| [LoongArch64](https://github.com/noah0x1/LoongArch64-Binary-Ninja-Binja-Plug-in)|Noah1|LoongArch64 Binary Ninja|2026-09-28|architecture||MIT |
 | [MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|Known Rabbit|MCP Server for Binary Ninja.|2025-05-11|ui, helper|python3|Apache-2.0 |
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
 | [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2026-09-13|helper|python3|MIT |
