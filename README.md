@@ -85,6 +85,7 @@
 | [EFI Inspector](https://github.com/zznop/efi-inspector)|Brandon Miller|Binary Ninja plugin for inspecting UEFI firmware images|2024-02-28|helper|python3|MIT |
 | [Emotet API+string deobfuscator](https://github.com/mauronz/binja-emotet)|Francesco Muroni|Deobufscate API calls and strings in unpacked Emotet samples.|2020-09-21|helper|python3|MIT |
 | [ESP32 Loader](https://github.com/psifertex/bnesp32)|psifertex|Binary Ninja ESP32 View Loader|2026-02-21|binaryview|python3|MIT |
+| [Espressif](https://github.com/jrozner/binja-espressif)|jrozner|Espressif chip support: Xtensa architectures for the ESP8266, ESP32, ESP32-S2 and ESP32-S3, and loading of firmware images, flash dumps, ELF files, mask ROM symbols/types and SVD peripheral registers for those and the RISC-V ESP32-C2, C3, C5, C6 and H2.|2026-10-12|architecture, platform|python3|MIT |
 | [ethersplay Ethereum Architecture Plugin](https://github.com/crytic/ethersplay)|Trail of Bits|A disassembler and lifter for the Ethereum architecture.|2022-11-03|architecture|python3|AGPL-3.0-only |
 | [Explain Instruction](https://github.com/ehennenfent/binja_explain_instruction)|Eric Hennenfent|Displays a window that explains in simple English what an assembly instruction does|2021-10-10|ui, helper|python3|Apache 2 |
 | [FindCodeCavesBN](https://github.com/NicoleFaye/FindCodeCavesBN)|NicoleFaye|A Binary Ninja plugin that scans all executable segments of a loaded binary for "code caves" — contiguous runs of filler bytes (0x90 NOP, 0xCC INT3, or 0x00 NULL) large enough to be useful for static patching or shellcode injection.|2026-07-20|helper|python3|MIT |
@@ -135,8 +136,9 @@
 | [Leak Audit](https://github.com/Vector35/Leak-Audit)|Vector 35 Inc|A debugging tool for Binary Ninja plugin developers to detect and diagnose memory leaks related to BinaryView objects.|2025-11-11|helper|python3|Apache-2.0 |
 | [Lighthouse](https://github.com/gaasedelen/lighthouse)|Markus Gaasedelen|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT |
 | [logrn](https://github.com/sum-catnip/logrn)|catnip|binary ninja plugin for abusing logging functions|2021-03-09|helper|python3|MIT |
-| [LoongArch64](https://github.com/noah0x1/LoongArch64-Binary-Ninja-Binja-Plug-in)|Noah1|LoongArch64 Binary Ninja|2026-09-28|architecture||MIT |
+| [LoongArch64](https://github.com/noah0x1/LoongArch64-Binary-Ninja-Binja-Plug-in)|Noah1|LoongArch64 Binary Ninja|2026-09-28|architecture|python3|MIT |
 | [MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|Known Rabbit|MCP Server for Binary Ninja.|2025-05-11|ui, helper|python3|Apache-2.0 |
+| [MCRIT](https://github.com/familiary/mcrit-plugin)|danielplohmann|Connects Binary Ninja to an MCRIT server. MCRIT (MinHash-based Code Relationship & Investigation Toolkit) is a framework for code similarity analysis.|2026-10-15|ui, helper|python3|GPLv3 |
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
 | [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2026-09-13|helper|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
