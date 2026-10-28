@@ -527,7 +527,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 505,
+      "stargazers_count": 506,
       "updated_at": "2025-01-16 22:23:23+00:00"
     },
     "projectUrl": "https://github.com/junron/auto-enum",
@@ -683,7 +683,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 67,
+      "stargazers_count": 68,
       "updated_at": "2026-05-25 22:31:56+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -1150,7 +1150,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1160,
+      "stargazers_count": 1167,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1957,7 +1957,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 756,
+      "stargazers_count": 757,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2535,7 +2535,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 548,
+      "stargazers_count": 549,
       "updated_at": "2023-11-22 01:32:39+00:00"
     },
     "projectUrl": "https://github.com/ex0dus-0x/fuzzable",
@@ -3035,7 +3035,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2403,
+      "stargazers_count": 2405,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3073,7 +3073,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 26,
+      "stargazers_count": 25,
       "updated_at": "2022-01-14 04:33:28+00:00"
     },
     "projectUrl": "https://github.com/zznop/bn-kconfig-recover",
@@ -3227,7 +3227,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2607,
+      "stargazers_count": 2608,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -4695,7 +4695,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 14,
+      "stargazers_count": 13,
       "updated_at": "2019-07-12 11:11:44+00:00"
     },
     "projectUrl": "https://github.com/0x1F9F1/binja-msvc",
@@ -5059,45 +5059,6 @@
     ],
     "author": "whitequark",
     "dependencies": "",
-    "description": "A plugin providing an analysis for Itanium C++ ABI.",
-    "installinstructions": {},
-    "is_paid": false,
-    "lastUpdated": 1677683692,
-    "license": {
-      "name": "BSD-0-clause",
-      "text": "Copyright (C) 2018 by whitequark\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
-    },
-    "longdescription": "This plugin provides a custom demangler, an analysis that decodes mangled names and updates function signatures, and an analysis that decodes RTTI and vtables and discovers new procedures based on virtual function pointers.",
-    "minimumbinaryninjaversion": 555,
-    "name": "Itanium C++ ABI",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/511c3ae7-de2b-435e-ae8a-6f21e3b8efd2/versions/f0c51a06-04ac-480e-9dd1-e4f3a6da405b/platforms/2020/download/",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/511c3ae7-de2b-435e-ae8a-6f21e3b8efd2/versions/f0c51a06-04ac-480e-9dd1-e4f3a6da405b/platforms/2020/download/?notrack=1",
-    "path": "whitequark_binja_itanium_cxx_abi",
-    "platforms": [
-      "Darwin",
-      "Linux",
-      "Windows"
-    ],
-    "pluginmetadataversion": 2,
-    "projectData": {
-      "stargazers_count": 72,
-      "updated_at": "2023-03-01 15:14:52+00:00"
-    },
-    "projectUrl": "https://github.com/whitequark/binja_itanium_cxx_abi",
-    "subdir": "",
-    "type": [
-      "analysis"
-    ],
-    "version": "1.0",
-    "view_only": false
-  },
-  {
-    "api": [
-      "python2",
-      "python3"
-    ],
-    "author": "whitequark",
-    "dependencies": "",
     "description": "A plugin providing the 16-bit Intel architecture.",
     "installinstructions": {},
     "is_paid": false,
@@ -5234,7 +5195,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 23,
+      "stargazers_count": 24,
       "updated_at": "2020-11-17 13:32:00+00:00"
     },
     "projectUrl": "https://github.com/icecr4ck/bnGB",
@@ -6202,7 +6163,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 7,
+      "stargazers_count": 8,
       "updated_at": "2025-10-08 01:24:17+00:00"
     },
     "projectUrl": "https://github.com/ScriptWare-Software/scylla-ninja",
@@ -6357,7 +6318,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 691,
+      "stargazers_count": 696,
       "updated_at": "2026-09-25 08:58:21+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6511,7 +6472,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 86,
+      "stargazers_count": 85,
       "updated_at": "2026-10-22 11:31:44+00:00"
     },
     "projectUrl": "https://github.com/cyber-defence-campus/mole",
@@ -6938,7 +6899,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 95,
+      "stargazers_count": 96,
       "updated_at": "2026-04-02 18:53:07+00:00"
     },
     "projectUrl": "https://github.com/vtil-project/VTIL-BinaryNinja",
@@ -7795,7 +7756,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 826,
+      "stargazers_count": 827,
       "updated_at": "2026-07-14 20:47:18+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -8064,7 +8025,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2,
+      "stargazers_count": 3,
       "updated_at": "2026-09-14 00:56:34+00:00"
     },
     "projectUrl": "https://github.com/psifertex/delphinja",
@@ -8408,7 +8369,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 10,
       "updated_at": "2026-10-22 13:12:38+00:00"
     },
     "projectUrl": "https://github.com/noobexon1/FridaForge",
