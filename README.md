@@ -127,7 +127,6 @@
 | [Instruction Slicer](https://github.com/c3r34lk1ll3r/Instruction_Slicer)|Andrea Ferraris|Forward and backward instruction slicer|2020-11-25|helper|python2, python3|MIT |
 | [Intel 8086 Architecture](https://github.com/whitequark/binja-i8086)|whitequark|A plugin providing the 16-bit Intel architecture.|2019-09-04|arch|python2, python3|BSD-0-clause |
 | [IoC Ninja](https://github.com/CX330Blake/ioc_ninja)|CX330|IoC Ninja is a Binary Ninja plugin that can improve the QoL of malware analysts.|2025-11-18|binaryview, core, helper, ui|python3|MIT |
-| [Itanium C++ ABI](https://github.com/whitequark/binja_itanium_cxx_abi)|whitequark|A plugin providing an analysis for Itanium C++ ABI.|2023-03-01|analysis|python2, python3|BSD-0-clause |
 | [JMPscare](https://github.com/fgsect/JMPscare-binja)|Lukas Seidel|Fuzzing Introspection for use with the JMPscare Toolkit.|2022-12-07|binaryview, core, helper, ui|python3|MIT |
 | [JNIAnalyzer](https://github.com/Ayrx/binja-JNIAnalyzer)|Terry Chia (Ayrx)|Analysis scripts for Binary Ninja to work with Android NDK libraries.|2022-03-27|helper|python3|MIT |
 | [JNIAtlas](https://github.com/nyxFault/JNIAtlas/)|nyxFault|Map JNI entry points from an APK and explore JNI→native call graphs.|2026-04-21|helper|python3|MIT |
