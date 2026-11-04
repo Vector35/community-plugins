@@ -28,6 +28,7 @@
 | [Binja IPython console](https://github.com/skr0x1c0/ipybinja)|skr0x1c0|IPython console widget for Binary Ninja|2022-12-12|binaryview, core, helper, ui|python3|MIT |
 | [Binja Missing Link](https://github.com/FFRI/binja-missinglink)|Koh M. Nakagawa|Binary Ninja plugin that fills missing indirect branch information|2025-10-20|core, helper|python3|Apache version 2.0 |
 | [Binja Snapshot Manager](https://github.com/d0mnik/binja_snapshot_manager)|d0minik|Binary Ninja plugin to take and manage database snapshots|2024-10-30|helper|python3|AGPL-3.0 |
+| [Binja WASM](https://github.com/SecondNewtonLaw/binja_wasm)|SecondNewtonLaw|Adds WASM as a valid architecture to Binary Ninja including lifting|2026-10-29|architecture, binaryview||MIT |
 | [binja-doc-lookup](https://github.com/riskydissonance/binja-doc-lookup)|riskydissonance|Lookup documentation for the selected token|2024-06-20|ui, helper|python3|MIT |
 | [binja-ps3](https://github.com/valters-tomsons/bninja-ps3)|faith|Playstation 3 ELF loader|2026-02-01|binaryview|python3|MIT |
 | [binja-win-docs](https://github.com/matteyeux/binja-win-docs)|matteyeux|Binary Ninja plugin to display the documentation of a Windows function in a sidebar widget.|2024-04-11|ui, helper|python3|Apache-2.0 |
@@ -41,7 +42,7 @@
 | [Blackfin Architecture Plugin](https://github.com/0bs3n/arch-blackfin)|sen|A Binary Ninja architecture plugin for the AD Blackfin architecture|2022-05-28|architecture|python3|GPL-3.0 |
 | [BN Inspectors](https://github.com/CouleeApps/bn_inspectors)|Glenn Smith|Sidebar inspectors for debugging Binary Ninja itself|2025-01-02|ui, helper|python3|MIT |
 | [BN KConfig Recover](https://github.com/zznop/bn-kconfig-recover)|Brandon Miller|Recover Linux kernel build configurations|2022-01-14|helper|python3|MIT |
-| [bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|OtterSec LLC|An architecture/binaryview plugin for Solana EBPF.|2025-07-01|architecture, binaryview|python3|MIT |
+| [bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|OtterSec LLC|An architecture/binaryview plugin for Solana EBPF.|2026-11-04|architecture, binaryview|python3|MIT |
 | [bn-pwndbg-sync](https://github.com/nyxFault/bn-pwndbg-sync)|nyxFault|XML-RPC bridge for pwndbg/GDB live BN analysis|2026-04-20|helper|python3|MIT |
 | [bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|Katharina Utz|RISC-V architecture plugin.|2021-01-18|architecture|python2, python3|Apache-2.0 |
 | [bn-riscy-business](https://github.com/eybisi/bn-riscy-business)|Ahmet Bilal Can|RISC-V architecture plugin to load encrypted Riscy-Business binaries.|2025-05-21|architecture|python2, python3|Apache-2.0 |
@@ -139,6 +140,7 @@
 | [LoongArch64](https://github.com/noah0x1/LoongArch64-Binary-Ninja-Binja-Plug-in)|Noah1|LoongArch64 Binary Ninja|2026-09-28|architecture|python3|MIT |
 | [MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|Known Rabbit|MCP Server for Binary Ninja.|2025-05-11|ui, helper|python3|Apache-2.0 |
 | [MCRIT](https://github.com/familiary/mcrit-plugin)|danielplohmann|Connects Binary Ninja to an MCRIT server. MCRIT (MinHash-based Code Relationship & Investigation Toolkit) is a framework for code similarity analysis.|2026-10-15|ui, helper|python3|GPLv3 |
+| [MCRIT Similarity](https://github.com/r0ny123/mcrit-binja-similarity/)|Rony|Adds MCRIT as a similarity back-end|2026-10-31|helper|python3|GPL v3 |
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
 | [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2026-09-13|helper|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
