@@ -143,7 +143,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 257,
+      "stargazers_count": 259,
       "updated_at": "2026-11-04 16:27:03+00:00"
     },
     "projectUrl": "https://github.com/otter-sec/bn-ebpf-solana",
@@ -721,7 +721,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 68,
+      "stargazers_count": 70,
       "updated_at": "2026-05-25 22:31:56+00:00"
     },
     "projectUrl": "https://github.com/jtang613/BinAssist",
@@ -1188,7 +1188,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 1172,
+      "stargazers_count": 1175,
       "updated_at": "2026-05-20 11:23:43+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/reverser_ai",
@@ -1302,7 +1302,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 88,
+      "stargazers_count": 89,
       "updated_at": "2026-01-03 02:38:35+00:00"
     },
     "projectUrl": "https://github.com/x64dbg/x64dbgbinja",
@@ -1995,7 +1995,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 759,
+      "stargazers_count": 763,
       "updated_at": "2026-06-07 16:55:58+00:00"
     },
     "projectUrl": "https://github.com/binsync/binsync",
@@ -2495,7 +2495,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 412,
+      "stargazers_count": 413,
       "updated_at": "2022-07-08 15:00:16+00:00"
     },
     "projectUrl": "https://github.com/pbiernat/ripr",
@@ -2955,7 +2955,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 236,
+      "stargazers_count": 237,
       "updated_at": "2026-07-11 13:32:55+00:00"
     },
     "projectUrl": "https://github.com/fkie-cad/dewolf",
@@ -3073,7 +3073,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2409,
+      "stargazers_count": 2412,
       "updated_at": "2022-01-21 23:58:37+00:00"
     },
     "projectUrl": "https://github.com/bootleg/ret-sync",
@@ -3265,7 +3265,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 2610,
+      "stargazers_count": 2614,
       "updated_at": "2024-02-05 18:12:17+00:00"
     },
     "projectUrl": "https://github.com/gaasedelen/lighthouse",
@@ -3646,7 +3646,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 686,
+      "stargazers_count": 688,
       "updated_at": "2026-05-20 14:19:13+00:00"
     },
     "projectUrl": "https://github.com/mrphrazer/obfuscation_detection",
@@ -3955,7 +3955,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 97,
+      "stargazers_count": 96,
       "updated_at": "2022-06-08 04:26:07+00:00"
     },
     "projectUrl": "https://github.com/Martyx00/ghinja",
@@ -5662,7 +5662,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 359,
+      "stargazers_count": 360,
       "updated_at": "2024-02-24 15:43:49+00:00"
     },
     "projectUrl": "https://github.com/borzacchiello/seninja",
@@ -6278,7 +6278,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 128,
+      "stargazers_count": 129,
       "updated_at": "2025-11-19 23:33:41+00:00"
     },
     "projectUrl": "https://github.com/CX330Blake/Shellcode-IDE",
@@ -6356,7 +6356,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 704,
+      "stargazers_count": 710,
       "updated_at": "2026-09-25 08:58:21+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
@@ -6549,7 +6549,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 15,
+      "stargazers_count": 16,
       "updated_at": "2026-07-15 19:08:17+00:00"
     },
     "projectUrl": "https://github.com/osecurio/mtkview",
@@ -6919,16 +6919,16 @@
     "description": "Integrates the VTIL (Virtual-machine Translation Intermediate Language) Project with Binary Ninja",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1775155987,
+    "lastUpdated": 1794894721,
     "license": {
       "name": "BSD-3-Clause",
       "text": "Copyright (c) 2020, Can B\u00f6l\u00fck\r\nAll rights reserved.\r\n\r\nRedistribution and use in source and binary forms, with or without\r\nmodification, are permitted provided that the following conditions are met:\r\n\r\n* Redistributions of source code must retain the above copyright notice, this\r\nlist of conditions and the following disclaimer.\r\n\r\n * Redistributions in binary form must reproduce the above copyright notice,\r\nthis list of conditions and the following disclaimer in the documentation\r\nand/or other materials provided with the distribution.\r\n\r\n* Neither the name of [project] nor the names of its\r\ncontributors may be used to endorse or promote products derived from\r\nthis software without specific prior written permission.\r\n\r\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\r\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\r\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\r\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\r\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\r\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\r\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\r\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\r\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\r\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
     },
-    "longdescription": "# VTIL-BinaryNinja\nA Binary Ninja plugin for loading and analyzing VTIL routines as a native BinaryView, with LLIL lifting for the VTIL instruction set.\n\nVTIL (Virtual-machine Translation Intermediate Language) is a project and set of tools used for binary deobfuscation and devirtualization.\n\n**Input format:** This plugin consumes separate VTIL files (files with `VTIL` magic at offset 0), not raw executables directly.\n\n## Installation\nInstall via the Plugin Manager in Binary Ninja, or clone this repository into your [plugin folder](https://docs.binary.ninja/guide/plugins.html#using-plugins).\n\nNote: LLIL lifting coverage is complete for the VTIL-Core instruction set. MLIL/HLIL are produced by Binary Ninja from the lifted LLIL.\n\n## Screenshots\n![](https://raw.githubusercontent.com/psifertex/VTIL-BinaryNinja/master/images/example.png)\n\n## Disclaimer\nThis is a **very early proof of concept**. Expect bugs.\n\nKnown issues:\n- Special instructions (`nop`, `sfence`, `lfence`, `vemit`, `vpinr`, `vpinw`, `vpinrm`, `vpinwm`) intentionally lower to no-op IL.\n- Runtime semantics should still be validated on real-world samples because this plugin remains a proof of concept.\n\n\n### Changelog\n**Full Changelog**: https://github.com/vtil-project/VTIL-BinaryNinja/compare/1.2...master",
+    "longdescription": "# VTIL-BinaryNinja\nA Binary Ninja plugin for loading and analyzing VTIL routines as a native BinaryView, with LLIL lifting for the VTIL instruction set.\n\nVTIL (Virtual-machine Translation Intermediate Language) is a project and set of tools used for binary deobfuscation and devirtualization.\n\n**Input format:** This plugin consumes separate VTIL files (files with `VTIL` magic at offset 0), not raw executables directly.\n\n## Installation\nInstall via the Plugin Manager in Binary Ninja, or clone this repository into your [plugin folder](https://docs.binary.ninja/guide/plugins.html#using-plugins).\n\nNote: LLIL lifting coverage is complete for the VTIL-Core instruction set. MLIL/HLIL are produced by Binary Ninja from the lifted LLIL.\n\n## Screenshots\n![](https://raw.githubusercontent.com/psifertex/VTIL-BinaryNinja/master/images/example.png)\n\n## Disclaimer\nThis is a **very early proof of concept**. Expect bugs.\n\nKnown issues:\n- Special instructions (`nop`, `sfence`, `lfence`, `vemit`, `vpinr`, `vpinw`, `vpinrm`, `vpinwm`) intentionally lower to no-op IL.\n- Runtime semantics should still be validated on real-world samples because this plugin remains a proof of concept.\n\n\n### Changelog\n**Full Changelog**: https://github.com/vtil-project/VTIL-BinaryNinja/compare/1.2.2...1.2.3",
     "minimumbinaryninjaversion": 1528,
     "name": "VTIL Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/26bc47e3-cdd7-4f0e-bac2-540456bd21f1/platforms/3331/download/",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/26bc47e3-cdd7-4f0e-bac2-540456bd21f1/platforms/3331/download/?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/2bceceb9-b4ce-4eec-88b0-6a742d253a09/platforms/4153/download/",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5d2971f1-bf2d-49d8-8460-7f82a460f6a7/versions/2bceceb9-b4ce-4eec-88b0-6a742d253a09/platforms/4153/download/?notrack=1",
     "path": "vtilproject_VTILBinaryNinja",
     "platforms": [
       "Darwin",
@@ -6937,8 +6937,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 96,
-      "updated_at": "2026-04-02 18:53:07+00:00"
+      "stargazers_count": 95,
+      "updated_at": "2026-11-17 05:52:01+00:00"
     },
     "projectUrl": "https://github.com/vtil-project/VTIL-BinaryNinja",
     "subdir": "",
@@ -6946,7 +6946,7 @@
       "architecture",
       "binaryview"
     ],
-    "version": "1.2.2",
+    "version": "1.2.3",
     "view_only": false
   },
   {
@@ -7056,7 +7056,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 97,
+      "stargazers_count": 100,
       "updated_at": "2026-08-18 14:25:38+00:00"
     },
     "projectUrl": "https://github.com/matteyeux/binja-diff/",
@@ -7794,7 +7794,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 829,
+      "stargazers_count": 838,
       "updated_at": "2026-07-14 20:47:18+00:00"
     },
     "projectUrl": "https://github.com/mahaloz/decomp2dbg",
@@ -8330,7 +8330,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "updated_at": "2026-09-28 12:34:39+00:00"
     },
     "projectUrl": "https://github.com/noah0x1/LoongArch64-Binary-Ninja-Binja-Plug-in",
